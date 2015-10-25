@@ -21,6 +21,7 @@ namespace com.codename1.impl
         private Color c = Colors.Black;
         private CanvasTextFormat font = new CanvasTextFormat();
         private CanvasActiveLayer layer;
+        private bool disposed = false;
 
         public WindowsGraphics(CanvasDrawingSession graphics)
         {
@@ -44,6 +45,12 @@ namespace com.codename1.impl
         internal void dispose()
         {
             graphics.Dispose();
+            disposed = true;
+        }
+
+        internal bool isDisposed()
+        {
+            return disposed;
         }
 
         internal virtual void setClip(Rectangle clip)

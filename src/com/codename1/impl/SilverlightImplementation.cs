@@ -76,8 +76,8 @@ namespace com.codename1.impl
 
         public static void setCanvas(Page page, Canvas LayoutRoot)
         {
-                    
-            store = ApplicationData.Current.LocalCacheFolder;
+
+            store = ApplicationData.Current.LocalFolder; // LocalCacheFolder;
             dispatcher = CoreWindow.GetForCurrentThread().Dispatcher;
             cl = LayoutRoot;
             app = page;
@@ -1782,7 +1782,7 @@ namespace com.codename1.impl
         public override object getNativeGraphics(java.lang.Object img)
         {
             CodenameOneImage image = (CodenameOneImage)img;
-            if (image.graphics == null)
+            if (image.graphics == null||image.graphics.destination.isDisposed())
             {
                 image.image = new CanvasRenderTarget(screen, image.getImageWidth(), image.getImageHeight(), screen.Dpi);
             }
@@ -1848,7 +1848,7 @@ namespace com.codename1.impl
 
         public override object loadNativeFont(java.lang.String lookupStr)
         {
-            string lookup = toCSharp(lookupStr);
+            string lookup = nativePath(lookupStr);
             string[] fonts = lookup.Split(new Char[] { ';' });
             foreach (string f in fonts)
             {
@@ -1908,7 +1908,7 @@ namespace com.codename1.impl
         {
 
             NativeFont nf = new NativeFont(0, 0, 0, new CanvasTextFormat());
-            string file = toCSharp(fileName);
+            string file = nativePath(fileName);
             string family = toCSharp(fontName);
             using (AutoResetEvent are = new AutoResetEvent(false))
             {
@@ -2079,7 +2079,7 @@ namespace com.codename1.impl
         {
             if (connection is java.lang.String)
             {
-                Stream s = Task.Run(() => store.OpenStreamForReadAsync(nativePath((java.lang.String)connection))).GetAwaiter().GetResult();
+                Stream s = Task.Run(() => store.OpenStreamForWriteAsync(nativePath((java.lang.String)connection),CreationCollisionOption.OpenIfExists)).GetAwaiter().GetResult();
                 return new OutputStreamProxy(s);
             }
             NetworkOperation n = (NetworkOperation)connection;
@@ -2092,7 +2092,7 @@ namespace com.codename1.impl
 
             if (connection is java.lang.String)
             {
-                Stream stream = Task.Run(() => store.OpenStreamForReadAsync(nativePath((java.lang.String)connection))).ConfigureAwait(false).GetAwaiter().GetResult();
+                Stream stream = Task.Run(() => store.OpenStreamForWriteAsync(nativePath((java.lang.String)connection), CreationCollisionOption.OpenIfExists)).ConfigureAwait(false).GetAwaiter().GetResult();
                 stream.Seek(offset, SeekOrigin.Current);
                 return new OutputStreamProxy(stream);
             }
@@ -2187,7 +2187,7 @@ namespace com.codename1.impl
         {
             try
             {
-                StorageFile ss = store.GetFileAsync(toCSharp(name)).AsTask().ConfigureAwait(false).GetAwaiter().GetResult();
+                StorageFile ss = store.GetFileAsync(nativePath(name)).AsTask().ConfigureAwait(false).GetAwaiter().GetResult();
                 ss.DeleteAsync().AsTask().ConfigureAwait(false).GetAwaiter().GetResult();
             }
             catch (System.Exception err)
@@ -2199,8 +2199,9 @@ namespace com.codename1.impl
 
         public override int getStorageEntrySize(java.lang.String name)
         {
-            StorageFile s = store.GetFileAsync(toCSharp(name)).AsTask().ConfigureAwait(false).GetAwaiter().GetResult(); ;
-            if (s.Name != toCSharp(name))
+            string f = nativePath(name);
+            StorageFile s = store.GetFileAsync(f).AsTask().ConfigureAwait(false).GetAwaiter().GetResult(); ;
+            if (s == null) //.Name != nativePath(name))
             {
                 return 0;
             }
@@ -2211,13 +2212,13 @@ namespace com.codename1.impl
         }
         public override global::System.Object createStorageOutputStream(global::java.lang.String name)
         {
-            var file = store.CreateFileAsync(toCSharp(name), CreationCollisionOption.OpenIfExists).AsTask().ConfigureAwait(false).GetAwaiter().GetResult();
+            var file = store.CreateFileAsync(nativePath(name), CreationCollisionOption.OpenIfExists).AsTask().ConfigureAwait(false).GetAwaiter().GetResult();
             return new OutputStreamProxy(Task.Run(() => file.OpenStreamForWriteAsync()).ConfigureAwait(false).GetAwaiter().GetResult());
         }
 
         public override global::System.Object createStorageInputStream(global::java.lang.String name)
         {
-            var file = store.CreateFileAsync(toCSharp(name), CreationCollisionOption.OpenIfExists).AsTask().ConfigureAwait(false).GetAwaiter().GetResult();
+            var file = store.CreateFileAsync(nativePath(name), CreationCollisionOption.OpenIfExists).AsTask().ConfigureAwait(false).GetAwaiter().GetResult();
             return new InputStreamProxy(Task.Run(() => file.OpenStreamForReadAsync()).ConfigureAwait(false).GetAwaiter().GetResult());
         }
         public override bool storageFileExists(global::java.lang.String name)
@@ -2225,7 +2226,7 @@ namespace com.codename1.impl
             bool fileExists;
             try
             {
-                string uri = toCSharp(name);
+                string uri = nativePath(name);
                 if (uri.StartsWith("/"))
                 {
                     uri = @"res\" + uri.Substring(1);
@@ -2273,7 +2274,12 @@ namespace com.codename1.impl
             string ss = toCSharp(s);
             if (ss.StartsWith("file:/"))
             {
-                ss = ss.Substring(6).Replace('/', '\\');
+                ss = ss.Substring(6);
+                while (ss[0] == '/')
+                {
+                    ss = ss.Substring(1);
+                }
+                ss = ss.Replace('/', '\\');
             }
             return ss;
         }
@@ -2290,8 +2296,8 @@ namespace com.codename1.impl
         }
         public override object listFiles(java.lang.String directory)
         {
-           
-            IReadOnlyList<StorageFolder> directoryNames = store.GetFoldersAsync().AsTask().ConfigureAwait(false).GetAwaiter().GetResult();
+            var folder = store.GetFolderAsync(nativePath(directory)).AsTask().ConfigureAwait(false).GetAwaiter().GetResult();
+            IReadOnlyList<StorageFolder> directoryNames = folder.GetFoldersAsync().AsTask().ConfigureAwait(false).GetAwaiter().GetResult();
             string[] dirnames = new string[directoryNames.Count];
             for (int i = 0; i < directoryNames.Count; i++)
             {
@@ -2306,7 +2312,7 @@ namespace com.codename1.impl
             }
             //string[] filenames = await store.GetFileNames(nativePath(directory) + "\\*.*");
             
-            IReadOnlyList<StorageFile> fileNames = store.GetFilesAsync().AsTask().ConfigureAwait(false).GetAwaiter().GetResult();
+            IReadOnlyList<StorageFile> fileNames = folder.GetFilesAsync().AsTask().ConfigureAwait(false).GetAwaiter().GetResult();
             string[] filenames = new string[fileNames.Count];
             for (int i = 0; i < fileNames.Count; i++)
             {
@@ -2332,12 +2338,21 @@ namespace com.codename1.impl
             store.CreateFolderAsync(nativePath(directory)).AsTask().ConfigureAwait(false).GetAwaiter().GetResult();
         }
 
-        public override void deleteFile(java.lang.String file)
+        public override void deleteFile(java.lang.String file) //or Folder
         {
+            string f = nativePath(file);
+
             try
             {
-                var file1 = store.GetFileAsync(toCSharp(file)).AsTask().ConfigureAwait(false).GetAwaiter().GetResult();
-                file1.DeleteAsync().AsTask().ConfigureAwait(false).GetAwaiter().GetResult();
+                var folder = store.GetFolderAsync(f).AsTask().ConfigureAwait(false).GetAwaiter().GetResult();
+                if (folder != null) { //.Name.Equals(f)) {
+                    folder.DeleteAsync().AsTask().ConfigureAwait(false).GetAwaiter().GetResult();
+                    return;
+                }
+            } catch { }
+            try {
+                    var file1 = store.GetFileAsync(f).AsTask().ConfigureAwait(false).GetAwaiter().GetResult();
+                    file1.DeleteAsync().AsTask().ConfigureAwait(false).GetAwaiter().GetResult();
             }
             catch (System.Exception err)
             {
@@ -2354,7 +2369,7 @@ namespace com.codename1.impl
         }
         public override long getFileLength(java.lang.String file)
         {
-            var f = store.GetFileAsync(toCSharp(file)).AsTask().ConfigureAwait(false).GetAwaiter().GetResult();
+            var f = store.GetFileAsync(nativePath(file)).AsTask().ConfigureAwait(false).GetAwaiter().GetResult();
             var fsc = Task.Run(() => f.OpenStreamForReadAsync()).ConfigureAwait(false).GetAwaiter().GetResult();
             long l = fsc.Length;
             fsc.Dispose();
@@ -2363,8 +2378,16 @@ namespace com.codename1.impl
 
         public override bool isDirectory(java.lang.String file)
         {
-            var ss = store.GetFolderAsync(nativePath(file)).AsTask().ConfigureAwait(false).GetAwaiter().GetResult();
-            return ss.Name.Equals(nativePath(file));
+            try
+            {
+                var ss = store.GetFolderAsync(nativePath(file)).AsTask().ConfigureAwait(false).GetAwaiter().GetResult();
+                return ss != null; //.Name.Equals(nativePath(file));
+            }
+            catch
+            {
+                return false;
+
+            }
         }
 
         public override bool exists(java.lang.String file)
