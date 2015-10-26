@@ -2921,12 +2921,14 @@ new         public void @this()
             }
             try
             {
-                internalStream.Dispose();
+                lock(internalStream)
+                    internalStream.Dispose();
             }
             catch (Exception)
             {
-                internalStream = null;
+                //internalStream = null;
             }
+            internalStream = null;
         }
 
         public override void flush()
@@ -2937,11 +2939,12 @@ new         public void @this()
             }
             try
             {
-                internalStream.Flush();
+                  lock (internalStream)
+                    internalStream.Flush();
             }
             catch (Exception)
             {
-                internalStream = null;
+               // internalStream = null;
             }
         }
 
@@ -2952,12 +2955,17 @@ new         public void @this()
 
         public override void write(global::org.xmlvm._nArrayAdapter<sbyte> n1, int n2, int n3)
         {
-            internalStream.Write(SilverlightImplementation.toByteArray(n1.getCSharpArray()), n2, n3);
+            if (internalStream != null)
+                lock (internalStream)
+                    internalStream.Write(SilverlightImplementation.toByteArray(n1.getCSharpArray()), n2, n3);
         }
 
         public override void write(int n1)
         {
-            internalStream.WriteByte((byte)n1);
+            if (internalStream != null)
+                lock(internalStream)
+                    internalStream.WriteByte((byte)n1);
+           
         }
 
     }
