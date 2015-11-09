@@ -13,6 +13,7 @@ namespace com.codename1.impl
         public WindowsMutableGraphics(Microsoft.Graphics.Canvas.CanvasRenderTarget canvas)
             : base(canvas.CreateDrawingSession())
         {
+            
             this.canvas = canvas;
             dispose();
         }

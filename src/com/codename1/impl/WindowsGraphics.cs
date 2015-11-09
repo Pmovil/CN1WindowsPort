@@ -87,8 +87,6 @@ namespace com.codename1.impl
             c.R = (byte)((p >> 16) & 0xff);
             c.G = (byte)((p >> 8) & 0xff);
             c.B = (byte)(p & 0xff);
-            if (c.A == 0) ///
-                c.A = 0xff; ///
         }
 
         internal virtual void setFont(CanvasTextFormat font)
