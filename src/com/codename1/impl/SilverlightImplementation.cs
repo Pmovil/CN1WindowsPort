@@ -50,6 +50,10 @@ using System.Collections.Concurrent;
 using System.Numerics;
 using Windows.System;
 using Windows.ApplicationModel.Activation;
+using System.Text;
+using Windows.Devices.Enumeration;
+using Windows.ApplicationModel.Core;
+using com.codename1.ui.events;
 
 namespace com.codename1.impl
 {
@@ -59,7 +63,7 @@ namespace com.codename1.impl
         private static Object PAINT_LOCK = new Object();
         public static SilverlightImplementation instance;
         public static Canvas cl;
-        private int displayWidth = -1, displayHeight = -1;
+        private static int displayWidth = -1, displayHeight = -1;
         private CanvasTextFormat defaulFontCanvas;
         private NativeFont defaultFont;
         public com.codename1.ui.TextArea currentlyEditing;
@@ -72,17 +76,20 @@ namespace com.codename1.impl
         public static StorageFolder store;
         private static Windows.UI.Xaml.Controls.Image imagePreveiw = new Windows.UI.Xaml.Controls.Image();
         private static CaptureElement captureElement = new CaptureElement();
-        private MediaCapture mediaCapture = new MediaCapture();
+        private static MediaCapture mediaCapture;
+        private static CoreApplicationView view;
 
         public static void setCanvas(Page page, Canvas LayoutRoot)
         {
 
-            store = ApplicationData.Current.LocalFolder; // LocalCacheFolder;
+            view = CoreApplication.GetCurrentView();
+            store = ApplicationData.Current.LocalCacheFolder; // Faster, avoid cloud backup. See https://www.suchan.cz/2014/07/file-io-best-practices-in-windows-and-phone-apps-part-1-available-apis-and-file-exists-checking/
             dispatcher = CoreWindow.GetForCurrentThread().Dispatcher;
             cl = LayoutRoot;
             app = page;
             scaleFactor = Windows.Graphics.Display.DisplayInformation.GetForCurrentView().RawPixelsPerViewPixel;
             logicalDpi = DisplayInformation.GetForCurrentView().LogicalDpi;
+            rawDpiy = DisplayInformation.GetForCurrentView().RawDpiY;
             screen = new CanvasControl();
             cl.Children.Add(screen);
             screen.Width = cl.ActualWidth * scaleFactor;
@@ -91,6 +98,7 @@ namespace com.codename1.impl
             Canvas.SetLeft(screen, 0);
             Canvas.SetTop(screen, 0);
             myView = new WindowsAsyncView(screen);
+            mediaCapture = new MediaCapture();
         }
 
         private void page_BackKeyPress(object sender, BackPressedEventArgs e)
@@ -160,6 +168,18 @@ namespace com.codename1.impl
             return s;
         }
 
+        public static java.lang.String toJava(char str)
+        {
+            if (str.ToString() == null)
+            {
+                return null;
+            }
+            global::org.xmlvm._nArrayAdapter<char> n = new global::org.xmlvm._nArrayAdapter<char>(str.ToString().ToCharArray());
+            java.lang.String s = new java.lang.String();
+            s.@this(n);
+            return s;
+        }
+
         public static string toCSharp(java.lang.String str)
         {
             global::org.xmlvm._nArrayAdapter<char> n = (global::org.xmlvm._nArrayAdapter<char>)str.toCharArray();
@@ -169,29 +189,30 @@ namespace com.codename1.impl
         public override void init(java.lang.Object n1)
         {
             instance = this;
-              dispatcher.RunAsync(CoreDispatcherPriority.High, () =>
-            {
-             HardwareButtons.BackPressed += page_BackKeyPress;
-            cl.ManipulationMode = ManipulationModes.All;        
-            screen.PointerPressed += new PointerEventHandler(LayoutRoot_PointerPressed);
-            screen.PointerReleased += new PointerEventHandler(LayoutRoot_PointerReleased);
-            screen.PointerMoved += new PointerEventHandler(LayoutRoot_PointerMoved);
-            }).AsTask().GetAwaiter();
+            dispatcher.RunAsync(CoreDispatcherPriority.High, () =>
+          {
+              HardwareButtons.BackPressed += page_BackKeyPress;
+              cl.ManipulationMode = ManipulationModes.All;
+              screen.PointerPressed += new PointerEventHandler(LayoutRoot_PointerPressed);
+              screen.PointerReleased += new PointerEventHandler(LayoutRoot_PointerReleased);
+              screen.PointerMoved += new PointerEventHandler(LayoutRoot_PointerMoved);
+          }).AsTask().GetAwaiter();
             ((com.codename1.ui.Display)com.codename1.ui.Display.getInstance()).getDragSpeed(true);
             _sensor = SimpleOrientationSensor.GetDefault();
             _sensor.OrientationChanged += new TypedEventHandler<SimpleOrientationSensor, SimpleOrientationSensorOrientationChangedEventArgs>(app_OrientationChanged);
-           ((com.codename1.ui.Display)com.codename1.ui.Display.getInstance()).setTransitionYield(100);
+            ((com.codename1.ui.Display)com.codename1.ui.Display.getInstance()).setTransitionYield(0);
             setDragStartPercentage(3);
-                      
-            
-        }
 
-     
+        }
+        public override void setPinchToZoomEnabled(PeerComponent n1, bool n2)
+        {
+            base.setPinchToZoomEnabled(n1, n2);
+        }
         void app_OrientationChanged(object sender, SimpleOrientationSensorOrientationChangedEventArgs e)
         {
             displayWidth = -1; displayHeight = -1;
             getDisplayWidth(); getDisplayHeight();
-            dispatcher.RunAsync(CoreDispatcherPriority.High, () =>
+            dispatcher.RunAsync(CoreDispatcherPriority.Normal, () =>
          {
 
              switch (e.Orientation)
@@ -236,20 +257,17 @@ namespace com.codename1.impl
             }
             screen.Height = displayHeight; screen.Width = displayWidth;
         }
+        public override void sizeChanged(int width, int height)
+        {
+            ((Display)Display.getInstance()).sizeChanged(width, height);
+            //base.sizeChanged(width, height);
+        }
 
         public override bool canForceOrientation()
         {
             return true;
         }
-        public override void drawImageArea(java.lang.Object n1, java.lang.Object n2, int n3, int n4, int n5, int n6, int n7, int n8)
-        {
-            base.drawImageArea(n1, n2, n3, n4, n5, n6, n7, n8);
-        }
-        public override void drawPolygon(java.lang.Object n1, _nArrayAdapter<int> n2, _nArrayAdapter<int> n3, int n4)
-        {
-            base.drawPolygon(n1, n2, n3, n4);
-        }
- 
+   
         public override global::System.Object getProperty(global::java.lang.String n1, global::java.lang.String n2)
         {
 
@@ -280,6 +298,7 @@ namespace com.codename1.impl
         {
             // not ideal but I couldn't find any other way...
             Application.Current.Exit(); // TODO - suspending handler
+           
             return true;
         }
 
@@ -288,12 +307,11 @@ namespace com.codename1.impl
             Application.Current.Exit();
         }
 
-        private async static Task<StorageFile> GetFile(string name)
+        private static StorageFile GetFile(string name)
         {
-            //var folder = ApplicationData.Current.LocalFolder;
             try
             {
-                return await store.GetFileAsync(name);
+                return store.GetFileAsync(name).AsTask().ConfigureAwait(false).GetAwaiter().GetResult();
             }
             catch (FileNotFoundException)
             {
@@ -306,8 +324,8 @@ namespace com.codename1.impl
             object ss = createStorageOutputStream(toJava("CN1TempVideodu73aFljhuiw3yrindo87.mp4"));
             java.io.OutputStream os = (java.io.OutputStream)ss;
             com.codename1.io.Util.copy(n1, os);
-            Task<StorageFile> storageTask = GetFile("CN1TempVideodu73aFljhuiw3yrindo87.mp4");
-            StorageFile file = storageTask.Result;
+            StorageFile storageTask = GetFile("CN1TempVideodu73aFljhuiw3yrindo87.mp4");
+            StorageFile file = storageTask;
             Task<Stream> streamTask = file.OpenStreamForReadAsync();
             Stream s = streamTask.Result;
             return new CN1Media(s, toCSharp(n2), n3, cl);
@@ -370,9 +388,12 @@ namespace com.codename1.impl
                 {
                     pointerDragged(Convert.ToInt32(point.X * scaleFactor), Convert.ToInt32(point.Y * scaleFactor));
                 }
+              
             }
+
             e.Handled = true;
         }
+
         private void LayoutRoot_PointerPressed(object sender, PointerRoutedEventArgs e)
         {
             point = e.GetCurrentPoint(cl).Position;
@@ -405,28 +426,23 @@ namespace com.codename1.impl
             pointerReleased(Convert.ToInt32(point.X * scaleFactor), Convert.ToInt32(point.Y * scaleFactor));
             e.Handled = true;
             return;
+    
         }
+
         public override int getDragAutoActivationThreshold()
         {
             return 1000000;
         }
-     
+
         public override int getDisplayWidth()
         {
-
             if (displayWidth < 0)
             {
-                using (AutoResetEvent are = new AutoResetEvent(false))
+                dispatcher.RunAsync(CoreDispatcherPriority.Normal, () =>
                 {
-                    dispatcher.RunAsync(CoreDispatcherPriority.Normal, () =>
-                    {
+                    displayWidth = Convert.ToInt32(cl.ActualWidth * scaleFactor);
 
-                        displayWidth = Convert.ToInt32(cl.ActualWidth * scaleFactor);
-                        are.Set();
-
-                    }).AsTask().ConfigureAwait(false).GetAwaiter().GetResult();
-                    are.WaitOne();
-                }
+                }).AsTask().ConfigureAwait(false).GetAwaiter().GetResult();
             }
             return displayWidth;
         }
@@ -435,17 +451,12 @@ namespace com.codename1.impl
         {
             if (displayHeight < 0)
             {
-                using (AutoResetEvent are = new AutoResetEvent(false))
+                dispatcher.RunAsync(CoreDispatcherPriority.Normal, () =>
                 {
-                    dispatcher.RunAsync(CoreDispatcherPriority.Normal, () =>
-                    {
+                    displayHeight = Convert.ToInt32(cl.ActualHeight * scaleFactor);
 
-                        displayHeight = Convert.ToInt32(cl.ActualHeight * scaleFactor);
-                        are.Set();
+                }).AsTask().ConfigureAwait(false).GetAwaiter().GetResult();
 
-                    }).AsTask().ConfigureAwait(false).GetAwaiter().GetResult();
-                    are.WaitOne();
-                }
             }
             return displayHeight;
         }
@@ -492,9 +503,10 @@ namespace com.codename1.impl
             }
             lockEditing = true;
             currentlyEditing = (com.codename1.ui.TextArea)n1;
+
             using (AutoResetEvent are = new AutoResetEvent(false))
             {
-                dispatcher.RunAsync(CoreDispatcherPriority.Normal, () =>
+                dispatcher.RunAsync(CoreDispatcherPriority.High, () =>
                {
                    int constraints = currentlyEditing.getConstraint();
                    bool isPassword = (constraints & com.codename1.ui.TextArea._fPASSWORD) == com.codename1.ui.TextArea._fPASSWORD;
@@ -517,7 +529,7 @@ namespace com.codename1.impl
                        ((TextBox)textInputInstance).Text = toCSharp(n4);
                        ((TextBox)textInputInstance).AcceptsReturn = !currentlyEditing.isSingleLineTextArea();
                        ((TextBox)textInputInstance).MaxLength = n2;
-    
+                    
                        if ((constraints & com.codename1.ui.TextArea._fNON_1PREDICTIVE) == com.codename1.ui.TextArea._fNON_1PREDICTIVE)
                        {
                            ((TextBox)textInputInstance).InputScope = new InputScope();
@@ -560,9 +572,7 @@ namespace com.codename1.impl
                    Canvas.SetZIndex(textInputInstance, 50000);
                    textInputInstance.IsEnabled = true;
                    com.codename1.ui.Font fnt = (com.codename1.ui.Font)((com.codename1.ui.plaf.Style)currentlyEditing.getStyle()).getFont();
-
-                   object x = f((java.lang.Object)fnt.getNativeFont());
-                   NativeFont font = (NativeFont)x;
+                   NativeFont font = f((java.lang.Object)fnt.getNativeFont()); 
                    // workaround forsome weird unspecified margin that appears around the text box
                    Canvas.SetTop(textInputInstance, (currentlyEditing.getAbsoluteY() / scaleFactor));
                    Canvas.SetLeft(textInputInstance, (currentlyEditing.getAbsoluteX() / scaleFactor));
@@ -582,7 +592,7 @@ namespace com.codename1.impl
             d.invokeAndBlock(new WaitForEdit());
             using (AutoResetEvent are = new AutoResetEvent(false))
             {
-                dispatcher.RunAsync(CoreDispatcherPriority.Normal, () =>
+                dispatcher.RunAsync(CoreDispatcherPriority.High, () =>
                {
                    cl.Children.Remove(textInputInstance);
                    textInputInstance = null;
@@ -591,7 +601,6 @@ namespace com.codename1.impl
             }
             lockEditing = false;
         }
-
         void textChangedEvent(object sender, RoutedEventArgs e)
         {
             com.codename1.ui.Display disp = (com.codename1.ui.Display)com.codename1.ui.Display.getInstance();
@@ -623,9 +632,9 @@ namespace com.codename1.impl
 
         public override void confirmControlView()
         {
-            //screen.Visibility = Visibility.Visible;
+            
         }
-
+    
         public override bool hasPendingPaints()
         {
             //if the view is not visible make sure the edt won't wait.
@@ -678,31 +687,15 @@ namespace com.codename1.impl
             {
                 return;
             }
-            //using (AutoResetEvent are = new AutoResetEvent(false))
-            //{
-            //    dispatcher.RunAsync(CoreDispatcherPriority.Normal, () =>
-            //    {
-                    Rectangle rect = new Rectangle();
-                    rect.@this(x, y, width, height);
-                    myView.flushGraphics(rect);
-                    //screen.Invalidate();
-            //        are.Set();
-            //    }).AsTask().GetAwaiter().GetResult();
-            //    are.WaitOne();
-            //}
+            Rectangle rect = new Rectangle();
+            rect.@this(x, y, width, height);
+            myView.flushGraphics(rect);
+
         }
 
         public override void flushGraphics()
         {
-            //using (AutoResetEvent are = new AutoResetEvent(false))
-            //{
-            //    dispatcher.RunAsync(CoreDispatcherPriority.Normal, () =>
-            //    {
-                    myView.flushGraphics();
-            //        are.Set();
-            //    }).AsTask().GetAwaiter().GetResult();
-            //    are.WaitOne();
-            //}
+            myView.flushGraphics();
         }
 
         public override void systemOut(global::java.lang.String n1)
@@ -741,10 +734,12 @@ namespace com.codename1.impl
                 ((CodenameOneImage)n1).name = toCSharp(n2);
             }
         }
+
         public override void clipRect(java.lang.Object n1, Rectangle n2)
         {
             base.clipRect(n1, n2);
         }
+
         public override object rotate(java.lang.Object img, int degrees)
         {
             CodenameOneImage cn = (CodenameOneImage)img;
@@ -772,10 +767,19 @@ namespace com.codename1.impl
         {
             return false;
         }
-       
+
+        public override void drawImageArea(java.lang.Object n1, java.lang.Object n2, int n3, int n4, int n5, int n6, int n7, int n8)
+        {
+            base.drawImageArea(n1, n2, n3, n4, n5, n6, n7, n8);
+        }
+
+        public override void drawPolygon(java.lang.Object n1, _nArrayAdapter<int> n2, _nArrayAdapter<int> n3, int n4)
+        {
+            base.drawPolygon(n1, n2, n3, n4);
+        }
+
         public override void fillLinearGradient(java.lang.Object graphics, int startColor, int endColor, int x, int y, int width, int height, bool horizontal)
         {
-
             NativeGraphics ng = (NativeGraphics)graphics;
             ng.destination.fillLinearGradient(startColor, endColor, x, y, width, height, horizontal);
         }
@@ -799,26 +803,25 @@ namespace com.codename1.impl
 
         public override void releaseImage(java.lang.Object n1)
         {
-            CodenameOneImage ci = (CodenameOneImage)n1;
-            ci.image.Dispose();
+            ((CodenameOneImage)n1).image.Dispose();
         }
 
         public override int convertToPixels(int mm, bool horizontal)
         {
             // 55.5mm ~ 400dip
-            return screen.ConvertDipsToPixels(mm * 7.207f, CanvasDpiRounding.Round);
+            // return screen.ConvertDipsToPixels(mm * 7.207f, CanvasDpiRounding.Round);
+           // Debug.WriteLine(screen.ConvertDipsToPixels(mm * 7.207f, CanvasDpiRounding.Round));
+            return Convert.ToInt32((mm * rawDpiy) / 25.4);
         }
-
+    
         public override void fillTriangle(java.lang.Object graphics, int x1, int y1, int x2, int y2, int x3, int y3)
-        {
-            NativeGraphics ng = (NativeGraphics)graphics;
-            ng.destination.fillPolygon(new int[] { x1, x2, x3 }, new int[] { y1, y2, y3 });
+        {           
+            ((NativeGraphics)graphics).destination.fillPolygon(new int[] { x1, x2, x3 }, new int[] { y1, y2, y3 });
         }
 
         public override void fillPolygon(java.lang.Object graphics, _nArrayAdapter<int> xPoints, _nArrayAdapter<int> yPoints, int nPoints)
         {
-            NativeGraphics ng = (NativeGraphics)graphics;
-            ng.destination.fillPolygon(xPoints.getCSharpArray(), yPoints.getCSharpArray());
+            ((NativeGraphics)graphics).destination.fillPolygon(xPoints.getCSharpArray(), yPoints.getCSharpArray());
         }
 
         public override object flipImageHorizontally(ui.Image n1, bool n2)
@@ -845,10 +848,12 @@ namespace com.codename1.impl
         {
             return base.isTranslationSupported();
         }
+
         public override float getDragSpeed(_nArrayAdapter<float> n1, _nArrayAdapter<long> n2, int n3, int n4)
         {
             return base.getDragSpeed(n1, n2, n3, n4);
         }
+
         public override void rotate(java.lang.Object n1, float n2)
         {
             base.rotate(n1, n2);
@@ -953,10 +958,8 @@ namespace com.codename1.impl
                 CodenameOneImage cached;
                 imageCache.TryGetValue(n1.hashCode(), out cached);
                 cached.lastAccess = System.DateTime.Now.Ticks;
-                //Debug.WriteLine("Cache hit " + n1.hashCode());
                 return cached;
             }
-
             if (n1.Length == 0)
             {
                 // workaround for empty images
@@ -967,7 +970,7 @@ namespace com.codename1.impl
 
             using (AutoResetEvent are = new AutoResetEvent(false))
             {
-                dispatcher.RunAsync(CoreDispatcherPriority.Normal, () =>
+                dispatcher.RunAsync(CoreDispatcherPriority.High, () =>
                 {
                     IRandomAccessStream s;
                     string contentType;
@@ -977,23 +980,25 @@ namespace com.codename1.impl
                         byte[] imageArray = toByteArray(n1.getCSharpArray());
                         contentType = ImageHelper.GetContentType(imageArray);
                         s = new MemoryStream(imageArray).AsRandomAccessStream();
+                       
+
                     }
                     else
                     {
                         byte[] imageArray = toByteArray(n1.getCSharpArray());
                         contentType = ImageHelper.GetContentType(imageArray);
                         s = new MemoryStream(imageArray).AsRandomAccessStream();
+                      
                     }                
                     try
                     {
-                        
-                        CanvasBitmap canvasbitmap = CanvasBitmap.LoadAsync(screen, s).AsTask().ConfigureAwait(false).GetAwaiter().GetResult();
+                        CanvasBitmap canvasbitmap = CanvasBitmap.LoadAsync(screen, s).AsTask().ConfigureAwait(false).GetAwaiter().GetResult();                      
                         CodenameOneImage cim = new CodenameOneImage();
                         cim.@this();
                         if (contentType.Equals("image/jpeg") || contentType.Equals("image/x-ms-bmp"))
                         {
                             cim.opaque = true;
-                        } 
+                        }                       
                         CanvasRenderTarget cr = new CanvasRenderTarget(screen, float.Parse(canvasbitmap.Size.Width.ToString()), float.Parse(canvasbitmap.Size.Height.ToString()), canvasbitmap.Dpi);
                         cim.image = cr;
                         cim.graphics.destination.drawImage(canvasbitmap, 0, 0);
@@ -1024,7 +1029,6 @@ namespace com.codename1.impl
             return ci;
       }
 
-
         /**
      * Allows an implementation to optimize image tiling rendering logic
      * 
@@ -1035,6 +1039,7 @@ namespace com.codename1.impl
      * @param w coordinate to tile the image along
      * @param h coordinate to tile the image along 
      */
+
         public override void tileImage(java.lang.Object graphics, java.lang.Object image, int x, int y, int w, int h)
         {
             CodenameOneImage img = (CodenameOneImage)image;
@@ -1047,52 +1052,38 @@ namespace com.codename1.impl
 
         private global::com.codename1.ui.events.ActionListener pendingCaptureCallback;
 
-        public override void capturePhoto(global::com.codename1.ui.events.ActionListener n1)
+        public override void capturePhoto(ActionListener response)
         {
+            exitLock = true;
+            pendingCaptureCallback = response;
+            openGaleriaCamera();
+        }
+
+        public override void openImageGallery(ActionListener response)
+        {
+            exitLock = true;
+            pendingCaptureCallback = response;
+            openGaleriaCamera();
+        }
+
+        private void openGaleriaCamera()
+        {
+
             dispatcher.RunAsync(CoreDispatcherPriority.Normal, () =>
             {
-                exitLock = true;
-                pendingCaptureCallback = n1;
-                try
-                {
-                    mediaCapture.InitializeAsync().AsTask().ConfigureAwait(false).GetAwaiter().GetResult();
-                    mediaCapture.SetPreviewRotation(VideoRotation.Clockwise90Degrees);
-                    VideoRotation previewRotation = mediaCapture.GetPreviewRotation();
-                    captureElement.HorizontalAlignment = HorizontalAlignment.Left;
-                    captureElement.VerticalAlignment = VerticalAlignment.Top;
-                    captureElement.Stretch = Stretch.UniformToFill;
-                    captureElement.Source = mediaCapture;
-                    cl.Children.Add(captureElement);
-                    mediaCapture.StartPreviewAsync().AsTask().ConfigureAwait(false).GetAwaiter().GetResult();
 
-                    mediaCapture.PhotoConfirmationCaptured += mediaCapture_PhotoConfirmationCaptured;
-                }
-                catch (UnauthorizedAccessException)
-                {
-
-                    throw;
-                }
+                FileOpenPicker openPicker = new FileOpenPicker();
+                openPicker.ViewMode = PickerViewMode.Thumbnail;
+                openPicker.SuggestedStartLocation = PickerLocationId.PicturesLibrary;
+                openPicker.FileTypeFilter.Add(".jpg");
+                openPicker.FileTypeFilter.Add(".jpeg");
+                openPicker.FileTypeFilter.Add(".png");
+                // Launch file open picker and caller app is suspended and may be terminated if required 
+                openPicker.PickSingleFileAndContinue();
+                view.Activated += view_Activated;
 
 
             }).AsTask().ConfigureAwait(false).GetAwaiter().GetResult();
-        }
-
-        void mediaCapture_PhotoConfirmationCaptured(MediaCapture sender, PhotoConfirmationCapturedEventArgs e)
-        {
-            if (e.CaptureTimeOffset != null)
-            {
-                ImageEncodingProperties imgFormat = ImageEncodingProperties.CreateJpeg();
-                var file = KnownFolders.CameraRoll.CreateFileAsync("foto.jpeg", CreationCollisionOption.GenerateUniqueName).AsTask().ConfigureAwait(false).GetAwaiter().GetResult();
-                sender.CapturePhotoToStorageFileAsync(imgFormat, file).AsTask().ConfigureAwait(false).GetAwaiter().GetResult();
-
-                com.codename1.ui.events.ActionEvent ac = new com.codename1.ui.events.ActionEvent();
-                ac.@this(toJava("file:/" + file));
-                fireCapture(ac);
-            }
-            else
-            {
-                fireCapture(null);
-            }
         }
 
         private void fireCapture(com.codename1.ui.events.ActionEvent ev)
@@ -1105,43 +1096,22 @@ namespace com.codename1.impl
             exitLock = false;
         }
 
-        public override void openImageGallery(ui.events.ActionListener n1)
+        void view_Activated(CoreApplicationView sender, IActivatedEventArgs args1)
         {
-            dispatcher.RunAsync(CoreDispatcherPriority.Normal, () =>
+            FileOpenPickerContinuationEventArgs args = args1 as FileOpenPickerContinuationEventArgs;
+            if (args != null)
             {
-                exitLock = true;
-                pendingCaptureCallback = n1;
-                FileOpenPicker openPicker = new FileOpenPicker();
-                openPicker.ViewMode = PickerViewMode.Thumbnail;
-                openPicker.SuggestedStartLocation = PickerLocationId.VideosLibrary;
-                openPicker.SuggestedStartLocation = PickerLocationId.PicturesLibrary;
-                openPicker.FileTypeFilter.Add(".jpg");
-                openPicker.FileTypeFilter.Add(".jpeg");
-                openPicker.FileTypeFilter.Add(".png");
-                // Launch file open picker and caller app is suspended and may be terminated if required 
-                openPicker.PickSingleFileAndContinue();
-            }).AsTask().ConfigureAwait(false).GetAwaiter().GetResult();
-        }
+                if (args.Files.Count == 0) return;
 
-        public void ContinueFileOpenPicker(Windows.ApplicationModel.Activation.FileOpenPickerContinuationEventArgs args)
-        {
-
-            if (args.Files.Count > 0)
-            {
-
-                var stream = args.Files[0].OpenAsync(FileAccessMode.Read).AsTask().ConfigureAwait(false).GetAwaiter().GetResult();
-                var bitmapImage = new BitmapImage();
-                bitmapImage.SetSourceAsync(stream).AsTask().ConfigureAwait(false).GetAwaiter().GetResult();
-                imagePreveiw.Source = bitmapImage;
-
-            }
-            else
-            {
-
-
+                view.Activated -= view_Activated;
+                fileName = args.Files[0].Name;
+                com.codename1.ui.events.ActionEvent ac = new com.codename1.ui.events.ActionEvent();
+                ac.@this(toJava("file:/"+fileName));
+                fireCapture(ac);
+               
             }
         }
-
+  
         public override object getCodeScanner()
         {
             ZxingCN1 z = new ZxingCN1();
@@ -1165,6 +1135,7 @@ namespace com.codename1.impl
             {
                 asyncPictureDecoder = new WindowsPhone8Demo.Extensions.AsyncPictureDecoderExtension(result, e);
             }
+
             public override void scanQRCode(codescan.ScanResult n1)
             {
                 scanBarCode(n1);
@@ -1250,13 +1221,12 @@ namespace com.codename1.impl
             }
             return toJava(st);
         }
-
+    
         private Purchase pur;
         private WindowsPurchase windPur;
   
         public override object getInAppPurchase()
-        {
-           
+        {     
             windPur = new WindowsPurchase(screen);
             try
             {
@@ -1270,8 +1240,6 @@ namespace com.codename1.impl
             }
         }
        
-       
-
         public override global::System.Object getBrowserURL(global::com.codename1.ui.PeerComponent n1)
         {
             WebView s = (WebView)((SilverlightPeer)n1).element;
@@ -1351,10 +1319,19 @@ namespace com.codename1.impl
 
         public override void browserStop(global::com.codename1.ui.PeerComponent n1)
         {
+            object w = (SilverlightPeer)n1;
+            WebView s = ((WebView)w);
+            s.Stop();
+        }
+
+        public override void browserExposeInJavaScript(PeerComponent n1, java.lang.Object n2, java.lang.String n3)
+        {
+            base.browserExposeInJavaScript(n1, n2, n3);
         }
 
         public override void browserDestroy(global::com.codename1.ui.PeerComponent n1)
         {
+           
         }
 
         public override void browserForward(global::com.codename1.ui.PeerComponent n1)
@@ -1478,7 +1455,7 @@ namespace com.codename1.impl
             CodenameOneImage ci = new CodenameOneImage();
             ci.@this();
             ci.mutable = true;
-            ci.image = new CanvasRenderTarget(screen, screen.ConvertPixelsToDips(width), screen.ConvertPixelsToDips(height));
+            ci.image = new CanvasRenderTarget(screen, screen.ConvertPixelsToDips(width), screen.ConvertPixelsToDips(height), screen.Dpi);
             ci.graphics.destination.setColor(color);
             ci.graphics.destination.setAlpha((color >> 24) & 0xff);
             //ci.graphics.destination.clear();
@@ -1494,10 +1471,12 @@ namespace com.codename1.impl
         {
             return ((CodenameOneImage)n1).getImageHeight();
         }
+
         public override bool isAlphaMutableImageSupported()
         {
             return true;
         }
+
         public override object scale(java.lang.Object sourceImage, int width, int height)
         {
             CodenameOneImage image = (CodenameOneImage)sourceImage;
@@ -1592,7 +1571,6 @@ namespace com.codename1.impl
 
         public override void setAlpha(java.lang.Object graphics, int alpha)
         {
-            // Debug.WriteLine("setAlpha " + alpha);
             ((NativeGraphics)graphics).destination.setAlpha(alpha);
             ((NativeGraphics)graphics).destination.setColor(getColor(graphics) | (alpha << 24));
         }
@@ -1615,22 +1593,24 @@ namespace com.codename1.impl
             }
             ((NativeGraphics)graphics).font = f;
         }
-
-    
+   
         public override bool isBaselineTextSupported()
         {
  	      return true;
         }
+
         public override int getFontAscent(java.lang.Object nativeFont)
         {
             CanvasTextFormat font = (nativeFont == null ? this.defaulFontCanvas : (CanvasTextFormat)((NativeFont)nativeFont).font);
             return (int)-Math.Round(font.FontSize);
         }
+
         public override int getFontDescent(java.lang.Object nativeFont)
         {
             CanvasTextFormat font = (nativeFont == null ? this.defaulFontCanvas : (CanvasTextFormat)((NativeFont)nativeFont).font);
             return (int)Math.Abs(Math.Round(font.FontSize));
         }
+
         public override int getClipX(java.lang.Object graphics)
         {
             return ((NativeGraphics)graphics).getClipX();
@@ -1680,72 +1660,59 @@ namespace com.codename1.impl
         //Line drawLineLineInstance;
         public override void drawLine(java.lang.Object graphics, int x1, int y1, int x2, int y2)
         {
-
-            NativeGraphics ng = (NativeGraphics)graphics;
-            ng.destination.drawLine(x1, y1, x2, y2);
+            ((NativeGraphics)graphics).destination.drawLine(x1, y1, x2, y2);
             //// Debug.WriteLine("drawLine " + x1 + " " + y1 + " " + x2 + " " + y2);
         }
         //Rectangle fillDrawRectInstance;
         public override void fillRect(java.lang.Object graphics, int x, int y, int w, int h)
         {
-
-            NativeGraphics ng = (NativeGraphics)graphics;
-            ng.destination.fillRect(x, y, w, h);
+            ((NativeGraphics)graphics).destination.fillRect(x, y, w, h);
             // Debug.WriteLine("fillRect " + x + " " + y + " " + w + " " + h);
         }
 
         public override void drawRect(java.lang.Object graphics, int x, int y, int w, int h)
         {
-
             drawRect(graphics, x, y, w, h, 1);
         }
 
         public override void drawRect(java.lang.Object graphics, int x, int y, int w, int h, int stroke)
         {
-            NativeGraphics ng = (NativeGraphics)graphics;
-            ng.destination.drawRect(x, y, w, h, stroke);
+            ((NativeGraphics)graphics).destination.drawRect(x, y, w, h, stroke);
         }
 
         public override void drawRoundRect(java.lang.Object graphics, int x, int y, int w, int h, int arcW, int arcH)
         {
             //  Debug.WriteLine("drawRoundRect " + x + " " + y + " " + w + " " + h + " " + arcW + " " + arcH);
-            NativeGraphics ng = (NativeGraphics)graphics;
-            ng.destination.drawRoundRect(x, y, w, h, arcW, arcH);
+            ((NativeGraphics)graphics).destination.drawRoundRect(x, y, w, h, arcW, arcH);
         }
 
         public override void fillRoundRect(java.lang.Object graphics, int x, int y, int w, int h, int arcW, int arcH)
         {
             //  Debug.WriteLine("fillRoundRect " + x + " " + y + " " + w + " " + h + " " + arcW + " " + arcH);
-            NativeGraphics ng = (NativeGraphics)graphics;
-            ng.destination.fillRoundRect(x, y, w, h, arcW, arcH);
+            ((NativeGraphics)graphics).destination.fillRoundRect(x, y, w, h, arcW, arcH);
         }
 
         public override void fillArc(java.lang.Object graphics, int x, int y, int w, int h, int startAngle, int arcAngle)
         {
-            NativeGraphics ng = (NativeGraphics)graphics;
-            ng.destination.fillArc(x, y, w, h, startAngle, arcAngle);
+            ((NativeGraphics)graphics).destination.fillArc(x, y, w, h, startAngle, arcAngle);
         }
 
         public override void drawArc(java.lang.Object graphics, int x, int y, int w, int h, int startAngle, int arcAngle)
         {
-            NativeGraphics ng = (NativeGraphics)graphics;
-            ng.destination.drawArc(x, y, w, h, startAngle, arcAngle);
+            ((NativeGraphics)graphics).destination.drawArc(x, y, w, h, startAngle, arcAngle);
         }
 
         public override void drawString(java.lang.Object graphics, java.lang.String str, int x, int y)
         {
             // Debug.WriteLine("drawString " + x + " " + y);
-            NativeGraphics ng = (NativeGraphics)graphics;
-            ng.destination.drawString(toCSharp(str), x, y);
+            ((NativeGraphics)graphics).destination.drawString(toCSharp(str), x, y);
         }
 
         public override void drawImage(java.lang.Object graphics, java.lang.Object n2, int x, int y)
         {
             // Debug.WriteLine("drawImage " + x + " " + y);
-            CodenameOneImage img = (CodenameOneImage)n2;
-            img.lastAccess = System.DateTime.Now.Ticks;
-            NativeGraphics ng = (NativeGraphics)graphics;
-            ng.destination.drawImage(img.image, x, y);
+            ((CodenameOneImage)n2).lastAccess = System.DateTime.Now.Ticks;
+            ((NativeGraphics)graphics).destination.drawImage(((CodenameOneImage)n2).image, x, y);
         }
 
         public override bool areMutableImagesFast()
@@ -1756,10 +1723,8 @@ namespace com.codename1.impl
         public override void drawImage(java.lang.Object graphics, java.lang.Object n2, int x, int y, int w, int h)
         {
             // Debug.WriteLine("drawImage " + x + " " + y + " " + w + " " + h);
-            CodenameOneImage img = (CodenameOneImage)n2;
-            img.lastAccess = System.DateTime.Now.Ticks;
-            NativeGraphics ng = (NativeGraphics)graphics;
-            ng.destination.drawImage(img.image, x, y, w, h);
+            ((CodenameOneImage)n2).lastAccess = System.DateTime.Now.Ticks;
+            ((NativeGraphics)graphics).destination.drawImage(((CodenameOneImage)n2).image, x, y, w, h);
         }
 
         public override void drawRGB(java.lang.Object graphics, _nArrayAdapter<int> rgb, int offset, int x, int y, int w, int h, bool n8)
@@ -1770,6 +1735,10 @@ namespace com.codename1.impl
             drawImage(graphics, ci, x, y);
         }
 
+        public override void concatenateTransform(java.lang.Object n1, java.lang.Object n2)
+        {
+            base.concatenateTransform(n1, n2);
+        }
         public override object getNativeGraphics()
         {
             if (globalGraphics == null)
@@ -1790,55 +1759,49 @@ namespace com.codename1.impl
             return image.graphics;
         }
 
-
         public override int charsWidth(java.lang.Object n1, _nArrayAdapter<char> n2, int n3, int n4)
         {
             global::java.lang.String s = new global::java.lang.String();
             s.@this(n2, n3, n4);
             return stringWidth(n1, s);
         }
-    
+
+        private static readonly Dictionary<StringFontPair, Int32> stringWidthCache = new Dictionary<StringFontPair, Int32>();
+      
         public override int stringWidth(java.lang.Object n1, java.lang.String n2)
         {
-            NativeFont font = f(n1);
-            return font.getStringWidth(toCSharp(n2));
+            int result = f(n1).getStringWidth(toCSharp(n2));
+            StringFontPair sfp = new StringFontPair(toCSharp(n2), f(n1));         
+            if (!stringWidthCache.ContainsKey(sfp))
+            {  
+                    stringWidthCache.Add(sfp, result);
+            }
+            return stringWidthCache[sfp];
         }
 
         public override int charWidth(java.lang.Object n1, char n2)
         {
-            return stringWidth(n1, toJava("" + n2));
+            return stringWidth(n1, toJava(n2));
         }
 
         public override int getFace(global::java.lang.Object n1)
-        {
-            object x = f(n1);
-            NativeFont s = (NativeFont)x;
-            return s.face;
-            // return f(n1).face;
+        {        
+          return f(n1).face;
         }
 
         public override int getSize(global::java.lang.Object n1)
-        {
-            object x = f(n1);
-            NativeFont s = (NativeFont)x;
-            return s.size;
-            //  return f(n1).size;
+        {      
+              return f(n1).size;
         }
 
         public override int getStyle(global::java.lang.Object n1)
-        {
-            object x = f(n1);
-            NativeFont s = (NativeFont)x;
-            return s.style;
-            // return f(n1).style;
+        { 
+             return f(n1).style;
         }
 
         public override int getHeight(java.lang.Object n1)
-        {
-            object x = f(n1);
-            NativeFont s = (NativeFont)x;
-            return s.height;
-            //return f(n1).actualHeight;
+        {       
+            return f(n1).height;
         }
 
         public override bool isLookupFontSupported()
@@ -1975,7 +1938,6 @@ namespace com.codename1.impl
                            nf.font.FontSize = nf.font.FontSize * 4 / 3;
                            break;
                    }
-                   //Debug.WriteLine("height 1: " + nf.height);
                    if ((style & 2) != 0) // com.codename1.ui.Font._fSTYLE_1ITALIC
                    {
                        nf.font.FontStyle = FontStyle.Italic;
@@ -1985,9 +1947,6 @@ namespace com.codename1.impl
                        nf.font.FontWeight = FontWeights.Bold;
                    }
                    nf.font.WordWrapping = CanvasWordWrapping.NoWrap;
-                   //Debug.WriteLine("height 2: " + nf.height);
-                   // _fSTYLE_1UNDERLINED = 4;
-                   // nf.font.FontFamily = "zzz";
                    are.Set();
                }).AsTask().GetAwaiter().GetResult();
                 are.WaitOne();
@@ -1995,11 +1954,10 @@ namespace com.codename1.impl
             return nf;
         }
 
-
         public virtual NativeFont f(java.lang.Object fnt)
         {
-            object getDefaul = getDefaultFont();
-            if (fnt == null) return (NativeFont)getDefaul;
+            NativeFont getDefaul = (NativeFont)getDefaultFont();
+            if (fnt == null) return getDefaul;
             return (NativeFont)fnt;
         }
 
@@ -2007,7 +1965,6 @@ namespace com.codename1.impl
         {
             return true;
         }
-
 
         public override global::System.Object createSoftWeakRef(global::java.lang.Object n1)
         {
@@ -2025,10 +1982,9 @@ namespace com.codename1.impl
 
         public override global::System.Object connect(global::java.lang.String n1, bool read, bool write)
         {
-
             NetworkOperation n = new NetworkOperation();
-            string s = toCSharp(n1);
-            n.request = (HttpWebRequest)WebRequest.Create(new Uri(s));
+            Uri uri = new Uri(nativePath(n1));
+            n.request = (HttpWebRequest)WebRequest.Create(uri);
             return n;
         }
 
@@ -2070,26 +2026,34 @@ namespace com.codename1.impl
         }
 
         public override int getContentLength(global::java.lang.Object n1)
-        {
-            NetworkOperation n = (NetworkOperation)n1;
-            return Convert.ToInt32(n.response.ContentLength);
+        {        
+            return Convert.ToInt32(((NetworkOperation)n1).response.ContentLength);
         }
 
         public override global::System.Object openOutputStream(global::java.lang.Object connection)
         {
+
             if (connection is java.lang.String)
             {
-                Stream s = Task.Run(() => store.OpenStreamForWriteAsync(nativePath((java.lang.String)connection),CreationCollisionOption.OpenIfExists)).GetAwaiter().GetResult();
-                return new OutputStreamProxy(s);
+                try
+                {
+                    Stream s = Task.Run(() => store.OpenStreamForWriteAsync(nativePath((java.lang.String)connection), CreationCollisionOption.OpenIfExists)).GetAwaiter().GetResult();
+                    return new OutputStreamProxy(s);
+                }
+                catch (Exception)
+                {
+                    Stream s = Task.Run(() => KnownFolders.CameraRoll.OpenStreamForWriteAsync(nativePath((java.lang.String)connection), CreationCollisionOption.OpenIfExists)).GetAwaiter().GetResult();
+                    return new OutputStreamProxy(s);
+                }
             }
-            NetworkOperation n = (NetworkOperation)connection;
             com.codename1.io.BufferedOutputStream bo = new com.codename1.io.BufferedOutputStream();
-            bo.@this(new OutputStreamProxy(n.requestStream));
+            bo.@this(new OutputStreamProxy(((NetworkOperation)connection).requestStream));
             return bo;
         }
+
         public override global::System.Object openOutputStream(global::java.lang.Object connection, int offset)
         {
-
+         
             if (connection is java.lang.String)
             {
                 Stream stream = Task.Run(() => store.OpenStreamForWriteAsync(nativePath((java.lang.String)connection), CreationCollisionOption.OpenIfExists)).ConfigureAwait(false).GetAwaiter().GetResult();
@@ -2104,85 +2068,77 @@ namespace com.codename1.impl
             if (connection is java.lang.String)
             {
                 string file = nativePath((java.lang.String)connection);
-                Stream stream = Task.Run(() => store.OpenStreamForReadAsync(file)).ConfigureAwait(false).GetAwaiter().GetResult();
+                Stream stream = Task.Run(() => KnownFolders.CameraRoll.OpenStreamForReadAsync(file)).ConfigureAwait(false).GetAwaiter().GetResult();
 
                 return new InputStreamProxy(stream);
             }
-            NetworkOperation n = (NetworkOperation)connection;
             com.codename1.io.BufferedInputStream bo = new com.codename1.io.BufferedInputStream();
-            bo.@this(new InputStreamProxy(n.response.GetResponseStream()));
+            bo.@this(new InputStreamProxy(((NetworkOperation)connection).response.GetResponseStream()));
             return bo;
         }
+
         public override void setPostRequest(global::java.lang.Object n1, bool n2)
-        {
-            NetworkOperation n = (NetworkOperation)n1;
+        {          
             if (n2)
             {
-                n.request.Method = "POST";
+                ((NetworkOperation)n1).request.Method = "POST";
             }
             else
             {
-                n.request.Method = "GET";
+                ((NetworkOperation)n1).request.Method = "GET";
             }
         }
+
         public override int getResponseCode(global::java.lang.Object n1)
         {
-            NetworkOperation n = (NetworkOperation)n1;
-            int i = 0;
-            HttpWebResponse res = n.response;
-            using (AutoResetEvent are = new AutoResetEvent(false))
-            {
-                dispatcher.RunAsync(CoreDispatcherPriority.Normal, () =>
-                {
-                    i = Convert.ToInt32(res.StatusCode);
-                    are.Set();
-                }).AsTask().ConfigureAwait(false).GetAwaiter().GetResult();
-                are.WaitOne();
-            }
-            return i;
+            return Convert.ToInt32(((NetworkOperation)n1).response.StatusCode);
         }
+
         public override global::System.Object getResponseMessage(global::java.lang.Object n1)
         {
-            return null;
+            return ((NetworkOperation)n1).response.StatusDescription;
         }
+
         public override void vibrate(int n1)
         {
             VibrationDevice vc = VibrationDevice.GetDefault();
             vc.Vibrate(TimeSpan.FromMilliseconds(n1));
         }
+
         public override global::System.Object getHeaderField(global::java.lang.String n1, global::java.lang.Object n2)
         {
-            NetworkOperation n = (NetworkOperation)n2;
-            return toJava(n.response.Headers[toCSharp(n1)]);
+            return toJava(((NetworkOperation)n2).response.Headers[toCSharp(n1)]);
         }
+
         public override global::System.Object getHeaderFieldNames(global::java.lang.Object n1)
         {
-            NetworkOperation n = (NetworkOperation)n1;
-            int i = n.response.Headers.Count;
+            int i = ((NetworkOperation)n1).response.Headers.Count;
             java.lang.String[] arr = new java.lang.String[i];
             _nArrayAdapter<global::System.Object> r = new _nArrayAdapter<global::System.Object>(arr);
-            string[] keys = n.response.Headers.AllKeys;
+            string[] keys = ((NetworkOperation)n1).response.Headers.AllKeys;
             for (int iter = 0; iter < i; iter++)
             {
                 arr[iter] = toJava(keys[iter]);
             }
             return r;
         }
+
         public override global::System.Object getHeaderFields(global::java.lang.String n1, global::java.lang.Object n2)
         {
-            NetworkOperation n = (NetworkOperation)n2;
-            String s = n.response.Headers[toCSharp(n1)];
+            String s = ((NetworkOperation)n2).response.Headers[toCSharp(n1)];
             if (s == null)
             {
                 return null;
             }
             return new _nArrayAdapter<global::System.Object>(new java.lang.String[] { toJava(s) });
         }
+
         public override int getCommandBehavior()
         {
             // COMMAND_BEHAVIOR_BUTTON_BAR
             return 4;
         }
+
         public override void deleteStorageFile(global::java.lang.String name)
         {
             try
@@ -2210,17 +2166,30 @@ namespace com.codename1.impl
             st.Dispose();
             return Convert.ToInt32(size);
         }
+
         public override global::System.Object createStorageOutputStream(global::java.lang.String name)
         {
-            var file = store.CreateFileAsync(nativePath(name), CreationCollisionOption.OpenIfExists).AsTask().ConfigureAwait(false).GetAwaiter().GetResult();
+             file = store.CreateFileAsync(nativePath(name), CreationCollisionOption.OpenIfExists).AsTask().ConfigureAwait(false).GetAwaiter().GetResult();
             return new OutputStreamProxy(Task.Run(() => file.OpenStreamForWriteAsync()).ConfigureAwait(false).GetAwaiter().GetResult());
         }
 
         public override global::System.Object createStorageInputStream(global::java.lang.String name)
         {
-            var file = store.CreateFileAsync(nativePath(name), CreationCollisionOption.OpenIfExists).AsTask().ConfigureAwait(false).GetAwaiter().GetResult();
-            return new InputStreamProxy(Task.Run(() => file.OpenStreamForReadAsync()).ConfigureAwait(false).GetAwaiter().GetResult());
+            
+            try
+            {
+                 file = store.CreateFileAsync(nativePath(name), CreationCollisionOption.OpenIfExists).AsTask().ConfigureAwait(false).GetAwaiter().GetResult();
+                 return new InputStreamProxy(Task.Run(() => file.OpenStreamForReadAsync()).GetAwaiter().GetResult());
+            }
+            catch (Exception)
+            {
+                file = store.CreateFileAsync(nativePath(name), CreationCollisionOption.GenerateUniqueName).AsTask().GetAwaiter().GetResult();
+                return new InputStreamProxy(file.OpenReadAsync().AsTask().ConfigureAwait(false).GetAwaiter().GetResult().AsStream());
+            }
+
+           
         }
+
         public override bool storageFileExists(global::java.lang.String name)
         {
             bool fileExists;
@@ -2232,7 +2201,7 @@ namespace com.codename1.impl
                     uri = @"res\" + uri.Substring(1);
                 }
                 uri.Replace('/', '\\');
-                StorageFile file = store.GetFileAsync(uri).AsTask().ConfigureAwait(false).GetAwaiter().GetResult();
+                file = store.GetFileAsync(uri).AsTask().ConfigureAwait(false).GetAwaiter().GetResult();
                 fileExists = file != null;
             }
             catch (Exception)
@@ -2241,6 +2210,7 @@ namespace com.codename1.impl
             }
             return fileExists;
         }
+
         private object convertArray(string[] arr)
         {
             java.lang.String[] resp = new java.lang.String[arr.Length];
@@ -2250,6 +2220,7 @@ namespace com.codename1.impl
             }
             return new _nArrayAdapter<global::System.Object>(resp);
         }
+
         public override global::System.Object listStorageEntries()
         {
             IReadOnlyList<StorageFile> filesInFolder = store.GetFilesAsync().AsTask().ConfigureAwait(false).GetAwaiter().GetResult();
@@ -2261,14 +2232,17 @@ namespace com.codename1.impl
             }
             return convertArray(ss);
         }
+
         public override global::System.Object getAppHomePath()
         {
             return toJava("file:/");
         }
+
         public override object listFilesystemRoots()
         {
             return new _nArrayAdapter<global::System.Object>(new java.lang.String[] { toJava("file:/") });
         }
+
         private string nativePath(java.lang.String s)
         {
             string ss = toCSharp(s);
@@ -2283,6 +2257,7 @@ namespace com.codename1.impl
             }
             return ss;
         }
+
         private string[] prependFile(string[] arr)
         {
             for (int iter = 0; iter < arr.Length; iter++)
@@ -2294,9 +2269,10 @@ namespace com.codename1.impl
             }
             return arr;
         }
+
         public override object listFiles(java.lang.String directory)
         {
-            var folder = store.GetFolderAsync(nativePath(directory)).AsTask().ConfigureAwait(false).GetAwaiter().GetResult();
+            folder = store.GetFolderAsync(nativePath(directory)).AsTask().ConfigureAwait(false).GetAwaiter().GetResult();
             IReadOnlyList<StorageFolder> directoryNames = folder.GetFoldersAsync().AsTask().ConfigureAwait(false).GetAwaiter().GetResult();
             string[] dirnames = new string[directoryNames.Count];
             for (int i = 0; i < directoryNames.Count; i++)
@@ -2323,36 +2299,37 @@ namespace com.codename1.impl
             filenames.CopyTo(all, dirnames.Length);
             return convertArray(all);
         }
+
         public override long getRootSizeBytes(java.lang.String root)
         {
             return 0;
         }
+
         public override long getRootAvailableSpace(java.lang.String root)
         {
-            var ss = store.GetBasicPropertiesAsync().AsTask().ConfigureAwait(false).GetAwaiter().GetResult();
-            return (long)ss.Size;
+            return (long)store.GetBasicPropertiesAsync().AsTask().ConfigureAwait(false).GetAwaiter().GetResult().Size;
         }
-
+      
         public override void mkdir(java.lang.String directory)
         {
             store.CreateFolderAsync(nativePath(directory)).AsTask().ConfigureAwait(false).GetAwaiter().GetResult();
         }
 
-        public override void deleteFile(java.lang.String file) //or Folder
+        public override void deleteFile(java.lang.String file1) //or Folder
         {
-            string f = nativePath(file);
+            string f = nativePath(file1);
 
             try
             {
-                var folder = store.GetFolderAsync(f).AsTask().ConfigureAwait(false).GetAwaiter().GetResult();
+                 folder = store.GetFolderAsync(f).AsTask().ConfigureAwait(false).GetAwaiter().GetResult();
                 if (folder != null) { //.Name.Equals(f)) {
                     folder.DeleteAsync().AsTask().ConfigureAwait(false).GetAwaiter().GetResult();
                     return;
                 }
             } catch { }
             try {
-                    var file1 = store.GetFileAsync(f).AsTask().ConfigureAwait(false).GetAwaiter().GetResult();
-                    file1.DeleteAsync().AsTask().ConfigureAwait(false).GetAwaiter().GetResult();
+                     file = store.GetFileAsync(f).AsTask().ConfigureAwait(false).GetAwaiter().GetResult();
+                    file.DeleteAsync().AsTask().ConfigureAwait(false).GetAwaiter().GetResult();
             }
             catch (System.Exception err)
             {
@@ -2360,19 +2337,22 @@ namespace com.codename1.impl
                 err.ToJavaException().printStackTrace();
             }
         }
+
         public override bool isHidden(java.lang.String n1)
         {
             return false;
         }
+
         public override void setHidden(java.lang.String n1, bool n2)
         {
         }
-        public override long getFileLength(java.lang.String file)
+
+        public override long getFileLength(java.lang.String file1)
         {
-            var f = store.GetFileAsync(nativePath(file)).AsTask().ConfigureAwait(false).GetAwaiter().GetResult();
-            var fsc = Task.Run(() => f.OpenStreamForReadAsync()).ConfigureAwait(false).GetAwaiter().GetResult();
-            long l = fsc.Length;
-            fsc.Dispose();
+            file = KnownFolders.CameraRoll.GetFileAsync(nativePath(file1)).AsTask().ConfigureAwait(false).GetAwaiter().GetResult();
+            Stream stream = file.OpenReadAsync().AsTask().ConfigureAwait(false).GetAwaiter().GetResult().AsStream();
+            long l = stream.Length;
+            stream.Dispose();
             return l;
         }
 
@@ -2380,8 +2360,8 @@ namespace com.codename1.impl
         {
             try
             {
-                var ss = store.GetFolderAsync(nativePath(file)).AsTask().ConfigureAwait(false).GetAwaiter().GetResult();
-                return ss != null; //.Name.Equals(nativePath(file));
+                folder = store.GetFolderAsync(nativePath(file)).AsTask().ConfigureAwait(false).GetAwaiter().GetResult();
+                return folder != null; //.Name.Equals(nativePath(file));
             }
             catch
             {
@@ -2400,9 +2380,9 @@ namespace com.codename1.impl
 
         }
 
-        public async override void rename(java.lang.String file, java.lang.String newName)
+        public override void rename(java.lang.String file, java.lang.String newName)
         {
-            await store.RenameAsync(nativePath(newName), NameCollisionOption.ReplaceExisting);
+            store.RenameAsync(nativePath(newName), NameCollisionOption.ReplaceExisting).AsTask().GetAwaiter().GetResult();
         }
 
         public override char getFileSystemSeparator()
@@ -2454,8 +2434,12 @@ namespace com.codename1.impl
         public static Microsoft.Graphics.Canvas.DirectX.DirectXPixelFormat pixelFormat = Microsoft.Graphics.Canvas.DirectX.DirectXPixelFormat.B8G8R8A8UIntNormalized;
         private NativeGraphics globalGraphics;
         private Windows.Foundation.Point point;
-       
-
+        private static StorageFile file;
+        private static float rawDpiy;
+        private Component editingText;
+        private StorageFolder folder;
+        private string fileName;
+ 
         public override object getImageIO()
         {
             if (imageIO == null)
@@ -2498,6 +2482,11 @@ namespace com.codename1.impl
         public override bool instanceofDoubleArray(global::java.lang.Object n1)
         {
             return n1 is global::org.xmlvm._nArrayAdapter<double>;
+        }
+
+        void IFileOpenPickerContinuable.ContinueFileOpenPicker(FileOpenPickerContinuationEventArgs args)
+        {
+            throw new NotImplementedException();
         }
     }
 
@@ -2569,7 +2558,8 @@ namespace com.codename1.impl
         public bool opaque = false;
         public bool mutable = false;
         private CanvasRenderTarget actualImage;
-        public CanvasRenderTarget image
+
+        public CanvasRenderTarget image     
         {
             set
             {
@@ -2589,8 +2579,10 @@ namespace com.codename1.impl
 
             get { return actualImage; }
         }
+
         private int width = -1;
         private int height = -1;
+
         public NativeGraphics graphics = new NativeGraphics();
 
 new         public void @this()
@@ -2615,7 +2607,6 @@ new         public void @this()
         }
     }
 
-
     public class NativeFont : global::java.lang.Object
     {
         public int face;
@@ -2624,6 +2615,7 @@ new         public void @this()
         public CanvasTextFormat font = new CanvasTextFormat();
         string fileName;
         private int actualHeight = -1;
+
         public int height
         {
             get
@@ -2640,6 +2632,7 @@ new         public void @this()
                 actualHeight = value;
             }
         }
+
         public bool bold;
         public bool italic;
         int weight;
@@ -2684,7 +2677,7 @@ new         public void @this()
         {
             while (SilverlightImplementation.instance.currentlyEditing != null)
             {
-                Task.Run(() => global::System.Threading.Tasks.Task.Delay(TimeSpan.FromMilliseconds(1))).ConfigureAwait(false).GetAwaiter().GetResult();
+                Task.Run(() => global::System.Threading.Tasks.Task.Delay(TimeSpan.FromMilliseconds(1))).GetAwaiter().GetResult();
             }
         }
     }
@@ -2720,7 +2713,7 @@ new         public void @this()
         {
             while (SilverlightImplementation.textInputInstance != null)
             {
-                Task.Run(() => global::System.Threading.Tasks.Task.Delay(TimeSpan.FromMilliseconds(1))).ConfigureAwait(false).GetAwaiter().GetResult();
+                Task.Run(() => global::System.Threading.Tasks.Task.Delay(TimeSpan.FromMilliseconds(1))).GetAwaiter().GetResult();
 
             }
         }
@@ -2761,7 +2754,7 @@ new         public void @this()
                     request.BeginGetRequestStream(PostCallback, request);
                     while (!postCompleted)
                     {
-                        Task.Run(() => System.Threading.Tasks.Task.Delay(TimeSpan.FromMilliseconds(5))).ConfigureAwait(false).GetAwaiter().GetResult();
+                        Task.Run(() => System.Threading.Tasks.Task.Delay(TimeSpan.FromMilliseconds(5))).GetAwaiter().GetResult();
                     }
                 }
                 return postData;
@@ -2776,25 +2769,15 @@ new         public void @this()
             {
                 if (resp == null)
                 {
-
                     if (postData != null)
                     {
-                        using (AutoResetEvent are = new AutoResetEvent(false))
-                        {
-                            try
-                            {
-                                postData.Dispose();
-                            }
-                            catch (Exception) { }
-                            are.Set();
-
-                            are.WaitOne();
-                        }
+                        postData.Dispose();
                     }
                     request.BeginGetResponse(ResponseCallback, request);
+
                     while (!responseCompleted)
                     {
-                        Task.Run(() => Task.Delay(TimeSpan.FromMilliseconds(5))).ConfigureAwait(false).GetAwaiter().GetResult();
+                        Task.Run(() => Task.Delay(TimeSpan.FromMilliseconds(5))).GetAwaiter().GetResult();
                     }
                     if (resp == null)
                     {
@@ -2813,6 +2796,7 @@ new         public void @this()
                 return resp;
             }
         }
+
         private HttpWebResponse resp;
         private WebException error;
 
@@ -2835,7 +2819,7 @@ new         public void @this()
 
         private void PostCallback(IAsyncResult asyncResult)
         {
-            postData = request.EndGetRequestStream(asyncResult);
+            postData = request.EndGetRequestStream(asyncResult);         
             postCompleted = true;
         }
     }
@@ -2964,19 +2948,19 @@ new         public void @this()
 
     public class StringFontPair
     {
-        public string str;
+        public String str;
         public NativeFont font;
 
-        public StringFontPair(string str, NativeFont font)
+        public StringFontPair(String str, NativeFont font)
         {
             this.str = str;
             this.font = font;
         }
 
-        public override bool Equals(Object o)
+        public override bool Equals(Object stfpo)
         {
-            StringFontPair sp = (StringFontPair)o;
-            return str.Equals(sp.str) && font.Equals(sp.font);
+            StringFontPair stfp = (StringFontPair)stfpo;
+            return str.Equals(stfp.str) && font.Equals(stfp.font);
         }
 
         public override int GetHashCode()
@@ -2988,9 +2972,11 @@ new         public void @this()
     public class SilverlightPeer : com.codename1.ui.PeerComponent
     {
         public FrameworkElement element;
+        public IDisposable destroy;
         private bool lightweightMode;
         public WebView webview;
-        private object peerImage;
+        private object peerImage = null;
+
         public SilverlightPeer(FrameworkElement element)
         {
             this.element = element;
@@ -3001,7 +2987,7 @@ new         public void @this()
         {
             return true;
         }
-
+      
         public override void setFocus(bool n1)
         {
         }
@@ -3015,15 +3001,25 @@ new         public void @this()
                 SilverlightImplementation.dispatcher.RunAsync(CoreDispatcherPriority.Normal, () =>
                 {
                     element.Measure(new Size(1000000, 1000000));
-                    w = Convert.ToInt32(element.DesiredSize.Width * SilverlightImplementation.scaleFactor);
-                    h = Convert.ToInt32(element.DesiredSize.Height * SilverlightImplementation.scaleFactor);
+                    w = SilverlightImplementation.screen.ConvertDipsToPixels((float)(element.DesiredSize.Width * SilverlightImplementation.scaleFactor), CanvasDpiRounding.Round);
+                    h = SilverlightImplementation.screen.ConvertDipsToPixels((float)(element.DesiredSize.Height * SilverlightImplementation.scaleFactor), CanvasDpiRounding.Round);
                     are.Set();
-                }).AsTask().GetAwaiter().GetResult();
+                }).AsTask().ConfigureAwait(false).GetAwaiter().GetResult();
                 are.WaitOne();
             }
             com.codename1.ui.geom.Dimension d = new com.codename1.ui.geom.Dimension();
             d.@this(Math.Max(2, w), Math.Max(2, h));
             return d;
+        }
+
+        public override void setHeight(int height)
+        {
+            base.setHeight(height);
+        }
+
+        public override void setWidth(int width)
+        {
+            base.setWidth(width);
         }
 
         public override void onPositionSizeChange()
@@ -3077,6 +3073,7 @@ new         public void @this()
                 }
             }).AsTask().ConfigureAwait(false).GetAwaiter().GetResult();
         }
+
         public override void setLightweightMode(bool n1)
         {
             if (lightweightMode != n1)
@@ -3099,14 +3096,12 @@ new         public void @this()
 
         private async void loadWebViewToStream(WebView webview, IRandomAccessStream stream)
         {
-
-            await Task.Delay(TimeSpan.FromTicks(2).Duration());
-            //await Task.Delay(TimeSpan.FromMilliseconds(20));
+            await Task.Delay(TimeSpan.FromMilliseconds(10));
             await webview.CapturePreviewToStreamAsync(stream);
             await stream.FlushAsync();
             stream.Seek(0);
-
         }
+
         public static byte[] ReadFully(Stream input)
         {
             using (MemoryStream ms = new MemoryStream())
@@ -3146,12 +3141,12 @@ new         public void @this()
                   {
                       try
                       {
-                          Task.Delay(TimeSpan.FromTicks(4).Duration()).ConfigureAwait(false).GetAwaiter().GetResult();
-                          ((WebView)element).CapturePreviewToStreamAsync(stream).AsTask().ConfigureAwait(false).GetAwaiter().GetResult();
-                          stream.FlushAsync().AsTask().ConfigureAwait(false).GetAwaiter().GetResult();
+                          Task.Delay(TimeSpan.FromTicks(4).Duration()).GetAwaiter().GetResult();
+                          ((WebView)element).CapturePreviewToStreamAsync(stream).AsTask().GetAwaiter().GetResult();
+                          stream.FlushAsync().AsTask().GetAwaiter().GetResult();
                           stream.Seek(0);
-                          Task.Delay(TimeSpan.FromMilliseconds(10)).ConfigureAwait(false).GetAwaiter().GetResult();
-                          cb = CanvasBitmap.LoadAsync(SilverlightImplementation.screen, stream).AsTask().ConfigureAwait(false).GetAwaiter().GetResult();
+                          Task.Delay(TimeSpan.FromMilliseconds(10)).GetAwaiter().GetResult();
+                          cb = CanvasBitmap.LoadAsync(SilverlightImplementation.screen, stream).AsTask().GetAwaiter().GetResult();
                       }
                       catch (Exception)
                       {
@@ -3167,7 +3162,7 @@ new         public void @this()
                       byte[] buf = renderTargetBitmap.GetPixelsAsync().AsTask().ConfigureAwait(false).GetAwaiter().GetResult().ToArray();
                       cb = CanvasBitmap.CreateFromBytes(SilverlightImplementation.screen, buf, width, height, SilverlightImplementation.pixelFormat, SilverlightImplementation.screen.Dpi);
                   }
-                  img.image = new CanvasRenderTarget(SilverlightImplementation.screen, cb.ConvertPixelsToDips(width), cb.ConvertPixelsToDips(height), cb.Dpi);
+                  img.image = new CanvasRenderTarget(SilverlightImplementation.screen, cb.SizeInPixels.Width, cb.SizeInPixels.Height, cb.Dpi);
                   img.graphics.destination.drawImage(cb, 0, 0);
                   img.graphics.destination.dispose();
                   are.Set();
@@ -3182,7 +3177,6 @@ new         public void @this()
         public override bool shouldRenderPeerImage()
         {
             return lightweightMode || !isInitialized();
-
         }
     }
 
@@ -3360,6 +3354,7 @@ new         public void @this()
             }
             return b;
         }
+
         public virtual global::System.Object getVideoComponent()
         {
             if (peer == null)
@@ -3506,7 +3501,7 @@ new         public void @this()
         }
     }
 
-    class SilverlightImageIO : com.codename1.ui.util.ImageIO
+    public class SilverlightImageIO : com.codename1.ui.util.ImageIO
     {
         public SilverlightImageIO()
         {
@@ -3558,7 +3553,7 @@ new         public void @this()
 
     }
 
-    class ImageHelper
+    public class ImageHelper
     {
         public static string GetContentType(byte[] imageBytes)
         {
@@ -3606,5 +3601,5 @@ new         public void @this()
         /// </summary>
         /// <param name="args">Activated event args object that contains returned files from file open picker</param>
         void ContinueFileOpenPicker(FileOpenPickerContinuationEventArgs args);
-    }  	
+    }
 } // end of namespace: com.codename1.impl

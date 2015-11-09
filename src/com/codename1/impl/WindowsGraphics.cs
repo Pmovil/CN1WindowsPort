@@ -8,6 +8,7 @@ using Microsoft.Graphics.Canvas.Text;
 using Microsoft.Graphics.Canvas.UI.Xaml;
 using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using Windows.Foundation;
@@ -32,6 +33,7 @@ namespace com.codename1.impl
         {
             this.graphics = graphics;
             this.graphics.Units = CanvasUnits.Pixels;
+
         }
         internal void removeClip()
         {
@@ -106,7 +108,8 @@ namespace com.codename1.impl
         }
 
         internal virtual void drawLine(int x1, int y1, int x2, int y2)
-        {
+        { 
+            
             graphics.DrawLine(x1, y1, x2, y2, c);
         }
 
@@ -132,16 +135,16 @@ namespace com.codename1.impl
 
         internal virtual void fillPolygon(int[] p1, int[] p2)
         {
+           
             if (p1.Length < 3 || p2.Length < 3 || p1.Length != p2.Length)
             {
                 return;
             }
             List<Vector2> pointsList = new List<Vector2>();
             pointsList.ToArray();
-            for(int pos=0; pos<p1.Length; pos++) {
-                Vector2 p = new Vector2();
-                p.X = p1[pos];
-                p.Y = p2[pos];
+            for(int pos=0; pos<p1.Length; pos++)
+            {
+                Vector2 p = new Vector2(){ X = p1[pos], Y = p2[pos] };
                 pointsList.Add(p);
             }
             graphics.FillGeometry(CanvasGeometry.CreatePolygon(graphics, pointsList.ToArray()), c);
@@ -150,23 +153,19 @@ namespace com.codename1.impl
         internal virtual void fillArc(int x, int y, int w, int h, int startAngle, int arcAngle)
         {
             CanvasPathBuilder builder = new CanvasPathBuilder(graphics);
-            Vector2 center = new Vector2();
-            center.X = x + w / 2;
-            center.Y = y + h / 2;
+            Vector2 center = new Vector2() { X = x + w / 2, Y = y + h / 2};         
             builder.BeginFigure(center);
-            builder.AddArc(center, w / 2, h / 2, - (float)(2 * Math.PI * startAngle / 360), - (float)(2 * Math.PI * arcAngle / 360));
+            builder.AddArc(center, w / 2, h / 2, (float)(2 * Math.PI * startAngle / 360), -(float)(2 * Math.PI * arcAngle / 360));
             builder.EndFigure(CanvasFigureLoop.Closed);
             graphics.FillGeometry(CanvasGeometry.CreatePath(builder), c);
         }
 
         internal virtual void drawArc(int x, int y, int w, int h, int startAngle, int arcAngle)
-        {
+        {    
             CanvasPathBuilder builder = new CanvasPathBuilder(graphics);
-            Vector2 center = new Vector2();
-            center.X = x + w / 2;
-            center.Y = y + h / 2;
+            Vector2 center = new Vector2() { X = x + w / 2, Y = y + h / 2 };     
             builder.BeginFigure(center);
-            builder.AddArc(center, w / 2, h / 2, - (float)(2 * Math.PI * startAngle / 360), - (float)(2 * Math.PI * arcAngle / 360));
+            builder.AddArc(center, w / 2, h / 2, (float)(2 * Math.PI * startAngle / 360), -(float)(2 * Math.PI * arcAngle / 360));
             builder.EndFigure(CanvasFigureLoop.Closed);
             graphics.DrawGeometry(CanvasGeometry.CreatePath(builder), c);
         }
@@ -182,7 +181,7 @@ namespace com.codename1.impl
 
         internal virtual void drawImage(CanvasBitmap canvasBitmap, int x, int y)
         {
-            graphics.DrawImage(canvasBitmap, x, y);
+            graphics.DrawImage(canvasBitmap, x, y);      
         }
 
         internal virtual void drawImage(CanvasBitmap canvasBitmap, int x, int y, int w, int h)
