@@ -87,6 +87,8 @@ namespace com.codename1.impl
             c.R = (byte)((p >> 16) & 0xff);
             c.G = (byte)((p >> 8) & 0xff);
             c.B = (byte)(p & 0xff);
+            if (c.A == 0) ///
+                c.A = 0xff; ///
         }
 
         internal virtual void setFont(CanvasTextFormat font)
@@ -182,7 +184,15 @@ namespace com.codename1.impl
 
         internal virtual void drawImage(CanvasBitmap canvasBitmap, int x, int y)
         {
-            graphics.DrawImage(canvasBitmap, x, y);
+            graphics.DrawImage(image2Premultiply(canvasBitmap), x, y);
+        }
+
+        private ICanvasImage image2Premultiply(ICanvasImage aImage)
+        {
+            return new PremultiplyEffect()
+            {
+                Source = aImage
+            };
         }
 
         internal virtual void drawImage(CanvasBitmap canvasBitmap, int x, int y, int w, int h)
@@ -197,7 +207,7 @@ namespace com.codename1.impl
                     Y = ((float)h) / canvasBitmap.SizeInPixels.Height
                 }
             };
-            graphics.DrawImage(scale, x, y);
+            graphics.DrawImage(image2Premultiply(scale), x, y);
         }
 
         internal virtual void tileImage(CanvasBitmap canvasBitmap, int x, int y, int w, int h)

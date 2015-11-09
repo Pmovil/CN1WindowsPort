@@ -50,6 +50,7 @@ using System.Collections.Concurrent;
 using System.Numerics;
 using Windows.System;
 using Windows.ApplicationModel.Activation;
+using Microsoft.Graphics.Canvas.Effects;
 
 namespace com.codename1.impl
 {
@@ -142,8 +143,9 @@ namespace com.codename1.impl
             if (byteArray != null)
             {
                 sbyteArray = new sbyte[byteArray.Length];
-                for (int index = 0; index < byteArray.Length; index++)
-                    sbyteArray[index] = (sbyte)byteArray[index];
+                System.Buffer.BlockCopy(byteArray, 0, sbyteArray, 0, byteArray.Length);
+                //for (int index = 0; index < byteArray.Length; index++)
+                //    sbyteArray[index] = (sbyte)byteArray[index];
             }
             return sbyteArray;
         }
@@ -718,20 +720,9 @@ namespace com.codename1.impl
         public override void getRGB(java.lang.Object img, _nArrayAdapter<int> arr, int offset, int x, int y, int w, int h)
         {
             CodenameOneImage cn = (CodenameOneImage)img;
-            // TODO - verify access violation. Wrong thread ?
-            byte[] buffer = cn.image.GetPixelBytes();
-            int[] p = new int[buffer.Length / 4];
-            for (int pos = 0; pos < p.Length; pos++)
-            {
-                // BGRA - VERIFICAR
-                p[pos] = buffer[4 * pos] + (buffer[4 * pos + 1] << 8) + (buffer[4 * pos + 2] << 16) + (buffer[4 * pos + 3] << 24);
-            }
-            int t = offset + y * cn.getImageWidth() + x;
-            int l = t + w * h;
-            for (int iter = t; iter < l; iter++)
-            {
-               arr.getCSharpArray()[iter - t] = p[iter];
-            }
+            byte[]  buffer = cn.image.GetPixelBytes(x, y, w, h);
+            System.Buffer.BlockCopy(buffer, 0, arr.getCSharpArray(), 0, buffer.Length);
+
         }
 
         public override void setImageName(global::java.lang.Object n1, global::java.lang.String n2)
@@ -903,14 +894,7 @@ namespace com.codename1.impl
         {
             CodenameOneImage ci = (CodenameOneImage)createMutableImage(n2, n3, 0);
             byte[] buf = new byte[n1.Length * 4];
-            for (int pos = 0; pos < n1.Length; pos++)
-            {
-                buf[4 * pos] = (byte)(n1[pos] & 0xff);
-                buf[4 * pos + 1] = (byte)((n1[pos] >> 8) & 0xff);
-                buf[4 * pos + 2] = (byte)((n1[pos] >> 16) & 0xff);
-                buf[4 * pos + 3] = (byte)((n1[pos] >> 24) & 0xff);
-            }
-            // TODO - verify if pixelFormat below is the correct one
+            System.Buffer.BlockCopy(n1.getCSharpArray(), 0, buf, 0, buf.Length);
             CanvasBitmap cb = CanvasBitmap.CreateFromBytes(screen, buf, n2, n3, pixelFormat);
             ci.graphics.destination.drawImage(cb, 0, 0);
             return ci;
@@ -934,12 +918,14 @@ namespace com.codename1.impl
 
         public static byte[] toByteArray(sbyte[] byteArray)
         {
+            return (byte[])(Array)byteArray;
             byte[] sbyteArray = null;
             if (byteArray != null)
             {
                 sbyteArray = new byte[byteArray.Length];
-                for (int index = 0; index < byteArray.Length; index++)
-                    sbyteArray[index] = (byte)byteArray[index];
+                System.Buffer.BlockCopy(byteArray, 0, sbyteArray, 0, byteArray.Length);
+                //for (int index = 0; index < byteArray.Length; index++)
+                //    sbyteArray[index] = (byte)byteArray[index];
             }
             return sbyteArray;
         }
@@ -1784,7 +1770,7 @@ namespace com.codename1.impl
             CodenameOneImage image = (CodenameOneImage)img;
             if (image.graphics == null||image.graphics.destination.isDisposed())
             {
-                image.image = new CanvasRenderTarget(screen, image.getImageWidth(), image.getImageHeight(), screen.Dpi);
+                image.initGraphics(); //// image = new CanvasRenderTarget(screen, image.getImageWidth(), image.getImageHeight(), 96.0f); //to use with pixel DPI=96!!! not screen.Dpi);
             }
             setClip(image.graphics, 0, 0, image.getImageWidth(), image.getImageHeight());
             return image.graphics;
@@ -2575,16 +2561,9 @@ namespace com.codename1.impl
             {
 
                 actualImage = value;
-                width = Convert.ToInt32(Math.Ceiling((double)value.SizeInPixels.Width));
-                height = Convert.ToInt32(Math.Ceiling((double)value.SizeInPixels.Height));
-                if (mutable)
-                {
-                    graphics.destination = new WindowsMutableGraphics(value);
-                }
-                else
-                {
-                    graphics.destination = new WindowsGraphics(value.CreateDrawingSession());
-                }
+                width = Convert.ToInt32(Math.Ceiling((double)actualImage.SizeInPixels.Width));
+                height = Convert.ToInt32(Math.Ceiling((double)actualImage.SizeInPixels.Height));
+                initGraphics(); ///
             }
 
             get { return actualImage; }
@@ -2598,6 +2577,17 @@ new         public void @this()
             base.@this();
         }
 
+        public void initGraphics() ///
+        {
+            if (mutable)
+            {
+                graphics.destination = new WindowsMutableGraphics(image);
+            }
+            else
+            {
+                graphics.destination = new WindowsGraphics(image.CreateDrawingSession());
+            }
+        }
         public void setSize(int w, int h)
         {
             width = Convert.ToInt32(Math.Ceiling((double)w));
@@ -2921,12 +2911,14 @@ new         public void @this()
             }
             try
             {
-                internalStream.Dispose();
+                lock(internalStream)
+                    internalStream.Dispose();
             }
             catch (Exception)
             {
-                internalStream = null;
+                //internalStream = null;
             }
+            internalStream = null;
         }
 
         public override void flush()
@@ -2937,11 +2929,12 @@ new         public void @this()
             }
             try
             {
-                internalStream.Flush();
+                  lock (internalStream)
+                    internalStream.Flush();
             }
             catch (Exception)
             {
-                internalStream = null;
+               // internalStream = null;
             }
         }
 
@@ -2952,12 +2945,17 @@ new         public void @this()
 
         public override void write(global::org.xmlvm._nArrayAdapter<sbyte> n1, int n2, int n3)
         {
-            internalStream.Write(SilverlightImplementation.toByteArray(n1.getCSharpArray()), n2, n3);
+            if (internalStream != null)
+                lock (internalStream)
+                    internalStream.Write(SilverlightImplementation.toByteArray(n1.getCSharpArray()), n2, n3);
         }
 
         public override void write(int n1)
         {
-            internalStream.WriteByte((byte)n1);
+            if (internalStream != null)
+                lock(internalStream)
+                    internalStream.WriteByte((byte)n1);
+           
         }
 
     }
