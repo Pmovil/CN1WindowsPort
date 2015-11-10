@@ -152,6 +152,11 @@ namespace com.codename1.impl
             dispose();
         }
 
+        internal override bool isMutable()
+        {
+            return true;
+        }
+
         #region nao implementar
         //internal override int getAlpha()
         //{
