@@ -182,7 +182,8 @@ namespace com.codename1.impl
 
         internal virtual void drawImage(CanvasBitmap canvasBitmap, int x, int y)
         {
-            graphics.DrawImage(image2Premultiply(canvasBitmap), x, y);
+            //graphics.DrawImage(image2Premultiply(canvasBitmap), x, y);
+            graphics.DrawImage(canvasBitmap, x, y);
         }
 
         private ICanvasImage image2Premultiply(ICanvasImage aImage)
@@ -205,7 +206,8 @@ namespace com.codename1.impl
                     Y = ((float)h) / canvasBitmap.SizeInPixels.Height
                 }
             };
-            graphics.DrawImage(image2Premultiply(scale), x, y);
+            //graphics.DrawImage(image2Premultiply(scale), x, y);
+            graphics.DrawImage(scale, x, y);
         }
 
         internal virtual void tileImage(CanvasBitmap canvasBitmap, int x, int y, int w, int h)
