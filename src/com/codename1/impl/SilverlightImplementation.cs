@@ -58,7 +58,7 @@ using Microsoft.Graphics.Canvas.Effects;
 
 namespace com.codename1.impl
 {
-    public class SilverlightImplementation : global::com.codename1.impl.CodenameOneImplementation, IFileOpenPickerContinuable
+    public class SilverlightImplementation : global::com.codename1.impl.CodenameOneImplementation, com.codename1.impl.IFileOpenPickerContinuable
     {
         private LocationManager locationManager;
         private static Object PAINT_LOCK = new Object();
@@ -79,6 +79,7 @@ namespace com.codename1.impl
         private static CaptureElement captureElement = new CaptureElement();
         private static MediaCapture mediaCapture;
         private static CoreApplicationView view;
+        public FileOpenPickerContinuationEventArgs FilePickerContinuationArgs { get; set; }
 
         public static void setCanvas(Page page, Canvas LayoutRoot)
         {
@@ -91,6 +92,7 @@ namespace com.codename1.impl
             scaleFactor = Windows.Graphics.Display.DisplayInformation.GetForCurrentView().RawPixelsPerViewPixel;
             logicalDpi = DisplayInformation.GetForCurrentView().LogicalDpi;
             rawDpiy = DisplayInformation.GetForCurrentView().RawDpiY;
+            rawDpix = DisplayInformation.GetForCurrentView().RawDpiX;
             screen = new CanvasControl();
             cl.Children.Add(screen);
             screen.Width = cl.ActualWidth * scaleFactor;
@@ -160,10 +162,7 @@ namespace com.codename1.impl
 
         public static java.lang.String toJava(System.String str)
         {
-            if (str == null)
-            {
-                return null;
-            }
+            if (str == null) return null;
             global::org.xmlvm._nArrayAdapter<char> n = new global::org.xmlvm._nArrayAdapter<char>(str.ToCharArray());
             java.lang.String s = new java.lang.String();
             s.@this(n);
@@ -191,7 +190,7 @@ namespace com.codename1.impl
         public override void init(java.lang.Object n1)
         {
             instance = this;
-            dispatcher.RunAsync(CoreDispatcherPriority.High, () =>
+            dispatcher.RunAsync(CoreDispatcherPriority.Normal, () =>
           {
               HardwareButtons.BackPressed += page_BackKeyPress;
               cl.ManipulationMode = ManipulationModes.All;
@@ -206,10 +205,7 @@ namespace com.codename1.impl
             setDragStartPercentage(3);
 
         }
-        public override void setPinchToZoomEnabled(PeerComponent n1, bool n2)
-        {
-            base.setPinchToZoomEnabled(n1, n2);
-        }
+
         void app_OrientationChanged(object sender, SimpleOrientationSensorOrientationChangedEventArgs e)
         {
             displayWidth = -1; displayHeight = -1;
@@ -222,60 +218,35 @@ namespace com.codename1.impl
                  case SimpleOrientation.NotRotated:
                      sizeChanged(displayWidth, displayHeight);
                      break;
-                 case SimpleOrientation.Rotated90DegreesCounterclockwise:
-                     sizeChanged(displayWidth, displayHeight);
-                     break;
                  case SimpleOrientation.Rotated180DegreesCounterclockwise:
                      sizeChanged(displayWidth, displayHeight);
                      break;
                  case SimpleOrientation.Rotated270DegreesCounterclockwise:
                      sizeChanged(displayWidth, displayHeight);
                      break;
-                 case SimpleOrientation.Faceup:
-                     sizeChanged(displayWidth, displayHeight);
-                     break;
-                 case SimpleOrientation.Facedown:
-                     sizeChanged(displayWidth, displayHeight);
-                     break;
                  default:
                      sizeChanged(displayWidth, displayHeight);
                      break;
              }
-             repaint2();
          }).AsTask().ConfigureAwait(false).GetAwaiter().GetResult();
-
         }
 
-        private void repaint2()
-        {
-            screen.Height = displayHeight; screen.Width = displayWidth;
-            Animation cmp;
-            Form f = (Form)getCurrentForm();
-            cmp = f;
-
-            if (cmp != null)
-            {
-                repaint(cmp);
-            }
-            screen.Height = displayHeight; screen.Width = displayWidth;
-        }
         public override void sizeChanged(int width, int height)
         {
-            ((Display)Display.getInstance()).sizeChanged(width, height);
-            //base.sizeChanged(width, height);
+            screen.Height = displayHeight;
+            screen.Width = displayWidth;  
+            ((Display)Display.getInstance()).sizeChanged((int)screen.Width, (int)screen.Height);
         }
 
         public override bool canForceOrientation()
         {
             return true;
         }
-   
+
         public override global::System.Object getProperty(global::java.lang.String n1, global::java.lang.String n2)
         {
-
             string p = toCSharp(n1).ToLower();
-
-            //Debug.WriteLine("!!!!!!!! " + p + " ||||||||   ");
+      
             if (p.Equals("os"))
             {
                 return toJava("Windows Phone");
@@ -292,16 +263,16 @@ namespace com.codename1.impl
             {
                 return toJava("M");
             }
-
             return base.getProperty(n1, n2);
         }
 
         public override bool minimizeApplication()
         {
             // not ideal but I couldn't find any other way...
-            Application.Current.Exit(); // TODO - suspending handler
+            Application.Current.Exit();
             return true;
         }
+
 
         public override void exitApplication()
         {
@@ -331,7 +302,7 @@ namespace com.codename1.impl
             Stream s = streamTask.Result;
             return new CN1Media(s, toCSharp(n2), n3, cl);
         }
-       
+
         public override void lockOrientation(bool n1)
         {
             dispatcher.RunAsync(CoreDispatcherPriority.Normal, () =>
@@ -343,10 +314,10 @@ namespace com.codename1.impl
 
         public override void unlockOrientation()
         {
-            dispatcher.RunAsync(CoreDispatcherPriority.Normal,() =>
+            dispatcher.RunAsync(CoreDispatcherPriority.Normal, () =>
             {
                 cl.UseLayoutRounding = true;
-            
+
             }).AsTask().ConfigureAwait(false).GetAwaiter().GetResult();
         }
 
@@ -420,7 +391,7 @@ namespace com.codename1.impl
                 {
                     commitEditing();
                 }
-                
+
             }
             pointerReleased(Convert.ToInt32(point.X * scaleFactor), Convert.ToInt32(point.Y * scaleFactor));
             e.Handled = true;
@@ -457,6 +428,10 @@ namespace com.codename1.impl
 
             }
             return displayHeight;
+        }
+        public override int getActualDisplayHeight()
+        {
+            return getDisplayHeight();
         }
 
         public override bool isNativeInputSupported()
@@ -526,7 +501,7 @@ namespace com.codename1.impl
                        ((TextBox)textInputInstance).Text = toCSharp(n4);
                        ((TextBox)textInputInstance).AcceptsReturn = !currentlyEditing.isSingleLineTextArea();
                        ((TextBox)textInputInstance).MaxLength = n2;
-    
+
                        if ((constraints & com.codename1.ui.TextArea._fNON_1PREDICTIVE) == com.codename1.ui.TextArea._fNON_1PREDICTIVE)
                        {
                            ((TextBox)textInputInstance).InputScope = new InputScope();
@@ -569,7 +544,7 @@ namespace com.codename1.impl
                    Canvas.SetZIndex(textInputInstance, 50000);
                    textInputInstance.IsEnabled = true;
                    com.codename1.ui.Font fnt = (com.codename1.ui.Font)((com.codename1.ui.plaf.Style)currentlyEditing.getStyle()).getFont();
-                   NativeFont font = f((java.lang.Object)fnt.getNativeFont()); 
+                   NativeFont font = f((java.lang.Object)fnt.getNativeFont());
                    // workaround forsome weird unspecified margin that appears around the text box
                    Canvas.SetTop(textInputInstance, (currentlyEditing.getAbsoluteY() / scaleFactor));
                    Canvas.SetLeft(textInputInstance, (currentlyEditing.getAbsoluteX() / scaleFactor));
@@ -579,7 +554,7 @@ namespace com.codename1.impl
                    textInputInstance.FontSize = (font.font.FontSize / scaleFactor);
                    int h = Convert.ToInt32((textInputInstance.Height - textInputInstance.FontSize) / 3);
                    textInputInstance.Margin = new Thickness();
-                   textInputInstance.Padding = new Thickness(10,h,0,0);
+                   textInputInstance.Padding = new Thickness(10, h, 0, 0);
                    textInputInstance.Clip = null;
                    textInputInstance.Focus(FocusState.Programmatic);
                    are.Set();
@@ -630,7 +605,7 @@ namespace com.codename1.impl
 
         public override void confirmControlView()
         {
-            
+
         }
 
         public override bool hasPendingPaints()
@@ -679,6 +654,14 @@ namespace com.codename1.impl
             base.repaint(cmp);
         }
 
+        public override void setCurrentForm(Form n1)
+        {
+            if (getCurrentForm() == null)
+            {
+                flushGraphics();
+            }
+            base.setCurrentForm(n1);
+        }
         public override void flushGraphics(int x, int y, int width, int height)
         {
             if (width <= 0 || height <= 0)
@@ -709,7 +692,7 @@ namespace com.codename1.impl
         public override void getRGB(java.lang.Object img, _nArrayAdapter<int> arr, int offset, int x, int y, int w, int h)
         {
             CodenameOneImage cn = (CodenameOneImage)img;
-            byte[]  buffer = cn.image.GetPixelBytes(x, y, w, h);
+            byte[] buffer = cn.image.GetPixelBytes(x, y, w, h);
             System.Buffer.BlockCopy(buffer, 0, arr.getCSharpArray(), 0, buffer.Length);
 
         }
@@ -730,7 +713,7 @@ namespace com.codename1.impl
         public override object rotate(java.lang.Object img, int degrees)
         {
             CodenameOneImage cn = (CodenameOneImage)img;
-             
+
             CanvasRenderTarget cr = new CanvasRenderTarget(screen, (float)cn.image.Size.Width, (float)cn.image.Size.Height, cn.image.Dpi);
             using (var ds = cr.CreateDrawingSession())
             {
@@ -740,7 +723,7 @@ namespace com.codename1.impl
                 ds.Dispose();
             }
             CodenameOneImage ci = new CodenameOneImage();
-            ci.@this(); 
+            ci.@this();
             ci.image = cr;
             return ci;
         }
@@ -754,18 +737,15 @@ namespace com.codename1.impl
         {
             return false;
         }
-       
+
         public override void fillLinearGradient(java.lang.Object graphics, int startColor, int endColor, int x, int y, int width, int height, bool horizontal)
         {
-
-            NativeGraphics ng = (NativeGraphics)graphics;
-            ng.destination.fillLinearGradient(startColor, endColor, x, y, width, height, horizontal);
+            ((NativeGraphics)graphics).destination.fillLinearGradient(startColor, endColor, x, y, width, height, horizontal);
         }
 
         public override void fillRadialGradient(java.lang.Object graphics, int startColor, int endColor, int x, int y, int width, int height)
         {
-            NativeGraphics ng = (NativeGraphics)graphics;
-            ng.destination.fillRadialGradient(endColor, startColor, x, y, width, height); // win2d start and end color are inverted
+            ((NativeGraphics)graphics).destination.fillRadialGradient(endColor, startColor, x, y, width, height); // win2d start and end color are inverted
         }
 
         public override void fillRectRadialGradient(java.lang.Object graphics, int startColor, int endColor, int x, int y, int width, int height, float relativeX, float relativeY, float relativeSize)
@@ -775,8 +755,7 @@ namespace com.codename1.impl
             int size = (int)(Math.Min(width, height) * relativeSize);
             int x2 = (int)(width / 2 - (size * relativeX));
             int y2 = (int)(height / 2 - (size * relativeY));
-            NativeGraphics ng = (NativeGraphics)graphics;
-            ng.destination.fillRadialGradient(endColor, startColor, x + x2, y + y2, size, size); // win2d start and end color are inverted
+            ((NativeGraphics)graphics).destination.fillRadialGradient(endColor, startColor, x + x2, y + y2, size, size); // win2d start and end color are inverted
         }
 
         public override void releaseImage(java.lang.Object n1)
@@ -788,12 +767,12 @@ namespace com.codename1.impl
         {
             // 55.5mm ~ 400dip
             // return screen.ConvertDipsToPixels(mm * 7.207f, CanvasDpiRounding.Round);
-           // Debug.WriteLine(screen.ConvertDipsToPixels(mm * 7.207f, CanvasDpiRounding.Round));
-            return Convert.ToInt32((mm * rawDpiy) / 25.4);
+            if (horizontal != true) return Convert.ToInt32((mm * rawDpiy) / 25.4);
+            return Convert.ToInt32((mm * rawDpix) / 25.4);
         }
 
         public override void fillTriangle(java.lang.Object graphics, int x1, int y1, int x2, int y2, int x3, int y3)
-        {           
+        {
             ((NativeGraphics)graphics).destination.fillPolygon(new int[] { x1, x2, x3 }, new int[] { y1, y2, y3 });
         }
 
@@ -873,7 +852,7 @@ namespace com.codename1.impl
         }
 
         public override void setAntiAliased(java.lang.Object n1, bool n2)
-        { 
+        {
             base.setAntiAliased(n1, n2);
         }
 
@@ -881,7 +860,7 @@ namespace com.codename1.impl
         {
             return false;
         }
- 
+
         public override object createImage(_nArrayAdapter<int> n1, int n2, int n3)
         {
             CodenameOneImage ci = (CodenameOneImage)createMutableImage(n2, n3, 0);
@@ -926,7 +905,8 @@ namespace com.codename1.impl
 
         public override global::System.Object createImage(global::org.xmlvm._nArrayAdapter<sbyte> n1, int n2, int n3)
         {
-            if (imageCache.ContainsKey(n1.hashCode())) {
+            if (imageCache.ContainsKey(n1.hashCode()))
+            {
                 CodenameOneImage cached;
                 imageCache.TryGetValue(n1.hashCode(), out cached);
                 cached.lastAccess = System.DateTime.Now.Ticks;
@@ -958,16 +938,16 @@ namespace com.codename1.impl
                         byte[] imageArray = toByteArray(n1.getCSharpArray());
                         contentType = ImageHelper.GetContentType(imageArray);
                         s = new MemoryStream(imageArray).AsRandomAccessStream();
-                    }                
+                    }
                     try
                     {
-                        CanvasBitmap canvasbitmap = CanvasBitmap.LoadAsync(screen, s).AsTask().ConfigureAwait(false).GetAwaiter().GetResult();                      
+                        CanvasBitmap canvasbitmap = CanvasBitmap.LoadAsync(screen, s).AsTask().ConfigureAwait(false).GetAwaiter().GetResult();
                         CodenameOneImage cim = new CodenameOneImage();
                         cim.@this();
                         if (contentType.Equals("image/jpeg") || contentType.Equals("image/x-ms-bmp"))
                         {
                             cim.opaque = true;
-                        } 
+                        }
                         CanvasRenderTarget cr = new CanvasRenderTarget(screen, float.Parse(canvasbitmap.Size.Width.ToString()), float.Parse(canvasbitmap.Size.Height.ToString()), canvasbitmap.Dpi);
                         cim.image = cr;
                         cim.graphics.destination.drawImage(canvasbitmap, 0, 0);
@@ -996,7 +976,7 @@ namespace com.codename1.impl
                 are.WaitOne();
             }
             return ci;
-      }
+        }
 
         /**
      * Allows an implementation to optimize image tiling rendering logic
@@ -1064,9 +1044,23 @@ namespace com.codename1.impl
             exitLock = false;
         }
 
-        void view_Activated(CoreApplicationView sender, IActivatedEventArgs args1)
+        void view_Activated(CoreApplicationView sender, IActivatedEventArgs args)
         {
-            FileOpenPickerContinuationEventArgs args = args1 as FileOpenPickerContinuationEventArgs;
+
+            var filePickerContinuationArgs = args as FileOpenPickerContinuationEventArgs;
+            if (filePickerContinuationArgs != null)
+            {
+                this.FilePickerContinuationArgs = filePickerContinuationArgs;
+                this.ContinueFileOpenPicker(FilePickerContinuationArgs);
+            }
+            else
+            {
+                return;
+            }
+
+        }
+        public void ContinueFileOpenPicker(FileOpenPickerContinuationEventArgs args)
+        {
             if (args != null)
             {
                 if (args.Files.Count == 0) return;
@@ -1074,12 +1068,11 @@ namespace com.codename1.impl
                 view.Activated -= view_Activated;
                 fileName = args.Files[0].Name;
                 com.codename1.ui.events.ActionEvent ac = new com.codename1.ui.events.ActionEvent();
-                ac.@this(toJava("file:/"+fileName));
+                ac.@this(toJava("file:/" + fileName));
                 fireCapture(ac);
-               
+
             }
         }
-
         public override object getCodeScanner()
         {
             ZxingCN1 z = new ZxingCN1();
@@ -1192,9 +1185,9 @@ namespace com.codename1.impl
 
         private Purchase pur;
         private WindowsPurchase windPur;
-  
+
         public override object getInAppPurchase()
-        {     
+        {
             windPur = new WindowsPurchase(screen);
             try
             {
@@ -1207,7 +1200,7 @@ namespace com.codename1.impl
                 return base.getInAppPurchase();
             }
         }
-       
+
         public override global::System.Object getBrowserURL(global::com.codename1.ui.PeerComponent n1)
         {
             WebView s = (WebView)((SilverlightPeer)n1).element;
@@ -1297,11 +1290,6 @@ namespace com.codename1.impl
             base.browserExposeInJavaScript(n1, n2, n3);
         }
 
-        public override void browserDestroy(global::com.codename1.ui.PeerComponent n1)
-        {
-           
-        }
-
         public override void browserForward(global::com.codename1.ui.PeerComponent n1)
         {
             WebView s = (WebView)((SilverlightPeer)n1).element;
@@ -1313,8 +1301,6 @@ namespace com.codename1.impl
             dispatcher.RunAsync(CoreDispatcherPriority.Normal, () =>
             {
                 WebView s = (WebView)((SilverlightPeer)n1).element;
-                //s.ClearCookiesAsync();
-                //s.ClearInternetCacheAsync();
 
             }).AsTask().GetAwaiter().GetResult();
         }
@@ -1561,10 +1547,10 @@ namespace com.codename1.impl
             }
             ((NativeGraphics)graphics).font = f;
         }
-   
+
         public override bool isBaselineTextSupported()
         {
- 	      return true;
+            return true;
         }
 
         public override int getFontAscent(java.lang.Object nativeFont)
@@ -1715,7 +1701,7 @@ namespace com.codename1.impl
         public override object getNativeGraphics(java.lang.Object img)
         {
             CodenameOneImage image = (CodenameOneImage)img;
-            if (image.graphics == null||image.graphics.destination.isDisposed())
+            if (image.graphics == null || image.graphics.destination.isDisposed())
             {
                 image.initGraphics(); //// image = new CanvasRenderTarget(screen, image.getImageWidth(), image.getImageHeight(), 96.0f); //to use with pixel DPI=96!!! not screen.Dpi);
             }
@@ -1731,14 +1717,14 @@ namespace com.codename1.impl
         }
 
         private static readonly Dictionary<StringFontPair, Int32> stringWidthCache = new Dictionary<StringFontPair, Int32>();
-      
+
         public override int stringWidth(java.lang.Object n1, java.lang.String n2)
         {
             int result = f(n1).getStringWidth(toCSharp(n2));
-            StringFontPair sfp = new StringFontPair(toCSharp(n2), f(n1));         
+            StringFontPair sfp = new StringFontPair(toCSharp(n2), f(n1));
             if (!stringWidthCache.ContainsKey(sfp))
-            {  
-                    stringWidthCache.Add(sfp, result);
+            {
+                stringWidthCache.Add(sfp, result);
             }
             return stringWidthCache[sfp];
         }
@@ -1749,22 +1735,22 @@ namespace com.codename1.impl
         }
 
         public override int getFace(global::java.lang.Object n1)
-        {        
-          return f(n1).face;
+        {
+            return f(n1).face;
         }
 
         public override int getSize(global::java.lang.Object n1)
-        {      
-              return f(n1).size;
+        {
+            return f(n1).size;
         }
 
         public override int getStyle(global::java.lang.Object n1)
-        { 
-             return f(n1).style;
+        {
+            return f(n1).style;
         }
 
         public override int getHeight(java.lang.Object n1)
-        {       
+        {
             return f(n1).height;
         }
 
@@ -1818,7 +1804,7 @@ namespace com.codename1.impl
 
                     return nf;
                 }
-                catch (Exception )
+                catch (Exception)
                 {
                     Debug.WriteLine("loadNativeFont failed");
                 }
@@ -1990,7 +1976,7 @@ namespace com.codename1.impl
         }
 
         public override int getContentLength(global::java.lang.Object n1)
-        {        
+        {
             return Convert.ToInt32(((NetworkOperation)n1).response.ContentLength);
         }
 
@@ -2041,7 +2027,7 @@ namespace com.codename1.impl
         }
 
         public override void setPostRequest(global::java.lang.Object n1, bool n2)
-        {          
+        {
             if (n2)
             {
                 ((NetworkOperation)n1).request.Method = "POST";
@@ -2059,7 +2045,7 @@ namespace com.codename1.impl
 
         public override global::System.Object getResponseMessage(global::java.lang.Object n1)
         {
-            return ((NetworkOperation)n1).response.StatusDescription;
+            return toJava(((NetworkOperation)n1).response.StatusDescription);
         }
 
         public override void vibrate(int n1)
@@ -2119,12 +2105,9 @@ namespace com.codename1.impl
         public override int getStorageEntrySize(java.lang.String name)
         {
             string f = nativePath(name);
-            StorageFile s = store.GetFileAsync(f).AsTask().ConfigureAwait(false).GetAwaiter().GetResult(); ;
-            if (s == null) //.Name != nativePath(name))
-            {
-                return 0;
-            }
-            Stream st = Task.Run(() => s.OpenStreamForReadAsync()).ConfigureAwait(false).GetAwaiter().GetResult();
+            file = store.GetFileAsync(f).AsTask().ConfigureAwait(false).GetAwaiter().GetResult(); ;
+            if (file == null) return 0; //.Name != nativePath(name))
+            Stream st = Task.Run(() => file.OpenStreamForReadAsync()).ConfigureAwait(false).GetAwaiter().GetResult();
             long size = st.Length;
             st.Dispose();
             return Convert.ToInt32(size);
@@ -2132,17 +2115,17 @@ namespace com.codename1.impl
 
         public override global::System.Object createStorageOutputStream(global::java.lang.String name)
         {
-             file = store.CreateFileAsync(nativePath(name), CreationCollisionOption.OpenIfExists).AsTask().ConfigureAwait(false).GetAwaiter().GetResult();
+            file = store.CreateFileAsync(nativePath(name), CreationCollisionOption.OpenIfExists).AsTask().ConfigureAwait(false).GetAwaiter().GetResult();
             return new OutputStreamProxy(Task.Run(() => file.OpenStreamForWriteAsync()).ConfigureAwait(false).GetAwaiter().GetResult());
         }
 
         public override global::System.Object createStorageInputStream(global::java.lang.String name)
         {
-            
+
             try
             {
-                 file = store.CreateFileAsync(nativePath(name), CreationCollisionOption.OpenIfExists).AsTask().ConfigureAwait(false).GetAwaiter().GetResult();
-                 return new InputStreamProxy(Task.Run(() => file.OpenStreamForReadAsync()).GetAwaiter().GetResult());
+                file = store.CreateFileAsync(nativePath(name), CreationCollisionOption.OpenIfExists).AsTask().ConfigureAwait(false).GetAwaiter().GetResult();
+                return new InputStreamProxy(Task.Run(() => file.OpenStreamForReadAsync()).GetAwaiter().GetResult());
             }
             catch (Exception)
             {
@@ -2150,7 +2133,7 @@ namespace com.codename1.impl
                 return new InputStreamProxy(file.OpenReadAsync().AsTask().ConfigureAwait(false).GetAwaiter().GetResult().AsStream());
             }
 
-           
+
         }
 
         public override bool storageFileExists(global::java.lang.String name)
@@ -2250,7 +2233,7 @@ namespace com.codename1.impl
                 }
             }
             //string[] filenames = await store.GetFileNames(nativePath(directory) + "\\*.*");
-            
+
             IReadOnlyList<StorageFile> fileNames = folder.GetFilesAsync().AsTask().ConfigureAwait(false).GetAwaiter().GetResult();
             string[] filenames = new string[fileNames.Count];
             for (int i = 0; i < fileNames.Count; i++)
@@ -2289,10 +2272,12 @@ namespace com.codename1.impl
                     folder.DeleteAsync().AsTask().ConfigureAwait(false).GetAwaiter().GetResult();
                     return;
                 }
-            } catch { }
-            try {
-                     file = store.GetFileAsync(f).AsTask().ConfigureAwait(false).GetAwaiter().GetResult();
-                    file.DeleteAsync().AsTask().ConfigureAwait(false).GetAwaiter().GetResult();
+            }
+            catch { }
+            try
+            {
+                file = store.GetFileAsync(f).AsTask().ConfigureAwait(false).GetAwaiter().GetResult();
+                file.DeleteAsync().AsTask().ConfigureAwait(false).GetAwaiter().GetResult();
             }
             catch (System.Exception err)
             {
@@ -2383,7 +2368,7 @@ namespace com.codename1.impl
 
         public override object getLocationManager()
         {
-           
+
             if (locationManager == null)
             {
                 locationManager = new LocationManager();
@@ -2402,7 +2387,8 @@ namespace com.codename1.impl
         private Component editingText;
         private StorageFolder folder;
         private string fileName;
- 
+        private static float rawDpix;
+
         public override object getImageIO()
         {
             if (imageIO == null)
@@ -2446,6 +2432,8 @@ namespace com.codename1.impl
         {
             return n1 is global::org.xmlvm._nArrayAdapter<double>;
         }
+
+
     }
 
     public class NativeGraphics : global::java.lang.Object
@@ -2533,7 +2521,7 @@ namespace com.codename1.impl
         private int height = -1;
         public NativeGraphics graphics = new NativeGraphics();
 
-new         public void @this()
+        new public void @this()
         {
             base.@this();
         }
@@ -2862,7 +2850,7 @@ new         public void @this()
             }
             try
             {
-                lock(internalStream)
+                lock (internalStream)
                     internalStream.Dispose();
             }
             catch (Exception)
@@ -2880,12 +2868,12 @@ new         public void @this()
             }
             try
             {
-                  lock (internalStream)
+                lock (internalStream)
                     internalStream.Flush();
             }
             catch (Exception)
             {
-               // internalStream = null;
+                // internalStream = null;
             }
         }
 
@@ -2904,9 +2892,9 @@ new         public void @this()
         public override void write(int n1)
         {
             if (internalStream != null)
-                lock(internalStream)
+                lock (internalStream)
                     internalStream.WriteByte((byte)n1);
-           
+
         }
 
     }
@@ -2973,16 +2961,6 @@ new         public void @this()
             com.codename1.ui.geom.Dimension d = new com.codename1.ui.geom.Dimension();
             d.@this(Math.Max(2, w), Math.Max(2, h));
             return d;
-        }
-
-        public override void setHeight(int height)
-        {
-            base.setHeight(height);
-        }
-
-        public override void setWidth(int width)
-        {
-            base.setWidth(width);
         }
 
         public override void onPositionSizeChange()
@@ -3116,7 +3094,7 @@ new         public void @this()
 
                           throw;
                       }
-                 
+
                   }
                   else
                   {
@@ -3341,7 +3319,7 @@ new         public void @this()
         {
         }
 
-        public virtual void setNativePlayerMode(bool n1)
+        public virtual void setNativePlayerMode(bool nativePlayer)
         {
         }
 
@@ -3551,18 +3529,5 @@ new         public void @this()
             { new byte[]{ 0x89, 0x50, 0x4E, 0x47, 0x0D, 0x0A, 0x1A, 0x0A }, "image/png" },
             { new byte[]{ 0xff, 0xd8 }, "image/jpeg" },
         };
-    }
-    /// <summary>
-    /// Implement this interface if your page invokes the file open picker
-    /// API.
-    /// </summary>
-    interface IFileOpenPickerContinuable
-    {
-        /// <summary>
-        /// This method is invoked when the file open picker returns picked
-        /// files
-        /// </summary>
-        /// <param name="args">Activated event args object that contains returned files from file open picker</param>
-        void ContinueFileOpenPicker(FileOpenPickerContinuationEventArgs args);
     }
 } // end of namespace: com.codename1.impl
