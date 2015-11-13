@@ -203,7 +203,6 @@ namespace com.codename1.impl
             _sensor.OrientationChanged += new TypedEventHandler<SimpleOrientationSensor, SimpleOrientationSensorOrientationChangedEventArgs>(app_OrientationChanged);
             ((com.codename1.ui.Display)com.codename1.ui.Display.getInstance()).setTransitionYield(0);
             setDragStartPercentage(3);
-
         }
 
         void app_OrientationChanged(object sender, SimpleOrientationSensorOrientationChangedEventArgs e)
@@ -234,7 +233,7 @@ namespace com.codename1.impl
         public override void sizeChanged(int width, int height)
         {
             screen.Height = displayHeight;
-            screen.Width = displayWidth;  
+            screen.Width = displayWidth;
             ((Display)Display.getInstance()).sizeChanged((int)screen.Width, (int)screen.Height);
         }
 
@@ -246,7 +245,7 @@ namespace com.codename1.impl
         public override global::System.Object getProperty(global::java.lang.String n1, global::java.lang.String n2)
         {
             string p = toCSharp(n1).ToLower();
-      
+
             if (p.Equals("os"))
             {
                 return toJava("Windows Phone");
@@ -308,7 +307,6 @@ namespace com.codename1.impl
             dispatcher.RunAsync(CoreDispatcherPriority.Normal, () =>
             {
                 cl.UseLayoutRounding = false;
-
             }).AsTask().ConfigureAwait(false).GetAwaiter().GetResult();
         }
 
@@ -317,7 +315,6 @@ namespace com.codename1.impl
             dispatcher.RunAsync(CoreDispatcherPriority.Normal, () =>
             {
                 cl.UseLayoutRounding = true;
-
             }).AsTask().ConfigureAwait(false).GetAwaiter().GetResult();
         }
 
@@ -603,19 +600,10 @@ namespace com.codename1.impl
             }
         }
 
-        public override void confirmControlView()
-        {
-
-        }
-
         public override bool hasPendingPaints()
         {
             //if the view is not visible make sure the edt won't wait.
-            //if (screen.Visibility.Equals(Visibility.Collapsed)) {
-            //    return true;
-            //} else {
             return base.hasPendingPaints();
-            //}
         }
 
         public override void repaint(Animation cmp)
@@ -664,14 +652,10 @@ namespace com.codename1.impl
         }
         public override void flushGraphics(int x, int y, int width, int height)
         {
-            if (width <= 0 || height <= 0)
-            {
-                return;
-            }
+            if (width <= 0 || height <= 0) return;
             Rectangle rect = new Rectangle();
             rect.@this(x, y, width, height);
             myView.flushGraphics(rect);
-
         }
 
         public override void flushGraphics()
@@ -969,7 +953,7 @@ namespace com.codename1.impl
                     }
                     catch (Exception)
                     {
-                        Debug.WriteLine("Failed to create image " + n1.hashCode());
+                        Debug.WriteLine("\n Failed to create image " + n1.hashCode()+"\n Position: " + s.Position + "\n Size: " +s.Size);
                     }
                     are.Set();
                 }).AsTask().ConfigureAwait(false).GetAwaiter().GetResult();
@@ -1019,7 +1003,6 @@ namespace com.codename1.impl
 
             dispatcher.RunAsync(CoreDispatcherPriority.Normal, () =>
             {
-
                 FileOpenPicker openPicker = new FileOpenPicker();
                 openPicker.ViewMode = PickerViewMode.Thumbnail;
                 openPicker.SuggestedStartLocation = PickerLocationId.PicturesLibrary;
@@ -1029,8 +1012,6 @@ namespace com.codename1.impl
                 // Launch file open picker and caller app is suspended and may be terminated if required 
                 openPicker.PickSingleFileAndContinue();
                 view.Activated += view_Activated;
-
-
             }).AsTask().ConfigureAwait(false).GetAwaiter().GetResult();
         }
 
@@ -1046,7 +1027,6 @@ namespace com.codename1.impl
 
         void view_Activated(CoreApplicationView sender, IActivatedEventArgs args)
         {
-
             var filePickerContinuationArgs = args as FileOpenPickerContinuationEventArgs;
             if (filePickerContinuationArgs != null)
             {
@@ -1125,7 +1105,7 @@ namespace com.codename1.impl
                     webview.NavigationCompleted += wb_NavigationCompleted;
                     sp = new SilverlightPeer(webview);
                     are.Set();
-                }).AsTask().GetAwaiter().GetResult();
+                }).AsTask().GetAwaiter();
                 are.WaitOne();
             }
             return sp;
@@ -1133,14 +1113,14 @@ namespace com.codename1.impl
 
         void wb_NavigationCompleted(WebView sender, WebViewNavigationCompletedEventArgs e)
         {
+            //com.codename1.ui.events.BrowserNavigationCallback bn = (com.codename1.ui.events.BrowserNavigationCallback)currentBrowser.getBrowserNavigationCallback();
+            com.codename1.ui.events.ActionEvent ev = new com.codename1.ui.events.ActionEvent();
             if (e.IsSuccess == true)
             {
-                Debug.WriteLine((toJava(e.Uri.OriginalString)));
+               
             }
             else
-            {
-                com.codename1.ui.events.BrowserNavigationCallback bn = (com.codename1.ui.events.BrowserNavigationCallback)currentBrowser.getBrowserNavigationCallback();
-                com.codename1.ui.events.ActionEvent ev = new com.codename1.ui.events.ActionEvent();
+            {  
                 ev.@this(toJava(e.Uri.OriginalString));
                 currentBrowser.fireWebEvent(toJava("onError"), ev);
             }
@@ -1148,7 +1128,7 @@ namespace com.codename1.impl
 
         void webview_ContentLoading(WebView sender, WebViewContentLoadingEventArgs e)
         {
-            com.codename1.ui.events.BrowserNavigationCallback bn = (com.codename1.ui.events.BrowserNavigationCallback)currentBrowser.getBrowserNavigationCallback();
+            //com.codename1.ui.events.BrowserNavigationCallback bn = (com.codename1.ui.events.BrowserNavigationCallback)currentBrowser.getBrowserNavigationCallback();
             com.codename1.ui.events.ActionEvent ev = new com.codename1.ui.events.ActionEvent();
             ev.@this(toJava(e.Uri.OriginalString));
             currentBrowser.fireWebEvent(toJava("onLoad"), ev);
@@ -1174,8 +1154,153 @@ namespace com.codename1.impl
             {
                 dispatcher.RunAsync(CoreDispatcherPriority.Normal, () =>
                 {
-                    WebView s = (WebView)((SilverlightPeer)n1).element;
-                    st = s.InvokeScriptAsync("eval", args).ToString();
+                    webView = (WebView)((SilverlightPeer)n1).element;
+                    st = webView.InvokeScriptAsync("eval", args).AsTask().GetAwaiter().GetResult();
+                    are.Set();
+                }).AsTask().GetAwaiter().GetResult();
+                are.WaitOne();
+            }
+            return toJava(st);
+        }
+
+        public override global::System.Object getBrowserURL(global::com.codename1.ui.PeerComponent n1)
+        {
+            webView = (WebView)((SilverlightPeer)n1).element;
+            return toJava(webView.Source.OriginalString);
+        }
+
+        public override void setBrowserURL(global::com.codename1.ui.PeerComponent n1, global::java.lang.String n2)
+        {
+            dispatcher.RunAsync(CoreDispatcherPriority.Normal, () =>
+           {
+               webView = (WebView)((SilverlightPeer)n1).element;
+               string uri = toCSharp(n2);
+               if (uri.StartsWith("jar:/"))
+               {
+                   uri = uri.Substring(5);
+                   while (uri[0] == '/')
+                   {
+                       uri = uri.Substring(1);
+                   }
+                   uri = "res/" + uri;
+                   webView.Source = new Uri(uri, UriKind.Relative);
+                   return;
+               }
+               webView.Source = new Uri(uri);
+           }).AsTask().GetAwaiter().GetResult();
+        }
+
+        public override void browserReload(global::com.codename1.ui.PeerComponent n1)
+        {
+            dispatcher.RunAsync(CoreDispatcherPriority.Normal, () =>
+            {
+                webView = (WebView)((SilverlightPeer)n1).element;
+                webView.Source = webView.Source;
+            }).AsTask().GetAwaiter().GetResult();
+        }
+
+        public override bool browserHasBack(global::com.codename1.ui.PeerComponent n1)
+        {
+            bool ret = false;
+            using (AutoResetEvent are = new AutoResetEvent(false))
+            {
+                dispatcher.RunAsync(CoreDispatcherPriority.Normal, () =>
+               {
+                   webView = (WebView)((SilverlightPeer)n1).element;
+                   ret = webView.CanGoBack;
+                   
+                   are.Set();
+               }).AsTask().GetAwaiter().GetResult();
+                are.WaitOne();
+            }
+            return ret;
+        }
+
+        public override bool browserHasForward(global::com.codename1.ui.PeerComponent n1)
+        {
+            bool ret = false;
+            using (AutoResetEvent are = new AutoResetEvent(false))
+            {
+                dispatcher.RunAsync(CoreDispatcherPriority.Normal, () =>
+                 {
+                     webView = (WebView)((SilverlightPeer)n1).element;
+                     ret = webView.CanGoForward;
+                     are.Set();
+                 }).AsTask().GetAwaiter().GetResult();
+                are.WaitOne();
+            }
+            return ret;
+        }
+
+        public override void browserBack(global::com.codename1.ui.PeerComponent n1)
+        {
+            dispatcher.RunAsync(CoreDispatcherPriority.Normal, () =>
+            {
+                webView = (WebView)((SilverlightPeer)n1).element;
+                webView.GoBack();
+            }).AsTask().GetAwaiter().GetResult();
+        }
+
+        public override void browserStop(global::com.codename1.ui.PeerComponent n1)
+        {
+            webView = (WebView)((SilverlightPeer)n1).element;
+            webView.Stop();
+        }
+
+        public override void browserExposeInJavaScript(PeerComponent n1, java.lang.Object n2, java.lang.String n3)
+        {
+            base.browserExposeInJavaScript(n1, n2, n3);
+        }
+
+        public override void browserForward(global::com.codename1.ui.PeerComponent n1)
+        {
+            webView = (WebView)((SilverlightPeer)n1).element;
+            webView.GoForward();
+        }
+
+        public override void setBrowserPage(global::com.codename1.ui.PeerComponent n1, global::java.lang.String n2, global::java.lang.String n3)
+        {
+            dispatcher.RunAsync(CoreDispatcherPriority.Normal, () =>
+           {
+               webView = (WebView)((SilverlightPeer)n1).element;
+               webView.NavigateToString(toCSharp(n2));
+           }).AsTask().GetAwaiter();
+        }
+
+        public override void execute(global::java.lang.String n1)
+        { 
+            using (AutoResetEvent are = new AutoResetEvent(false))
+            {
+            dispatcher.RunAsync(CoreDispatcherPriority.Normal, () =>
+            {
+                webView = new WebView();
+                webView.Source = new Uri(toCSharp(n1), UriKind.RelativeOrAbsolute);
+                are.Set();
+            }).AsTask().GetAwaiter().GetResult();
+            are.WaitOne();
+            }
+        }
+
+        public override void browserExecute(global::com.codename1.ui.PeerComponent n1, global::java.lang.String n2)
+        {
+            String[] args = { "document.title.toString()" };
+            dispatcher.RunAsync(CoreDispatcherPriority.Normal, () =>
+            {
+                webView = (WebView)((SilverlightPeer)n1).element;
+                webView.InvokeScriptAsync(toCSharp(n2), args).AsTask().GetAwaiter().GetResult();
+            }).AsTask().GetAwaiter();
+        }
+
+        public override global::System.Object browserExecuteAndReturnString(global::com.codename1.ui.PeerComponent n1, global::java.lang.String n2)
+        {
+            String[] args = { "document.title.toString()" };
+            string st = null;
+            using (AutoResetEvent are = new AutoResetEvent(false))
+            {
+                dispatcher.RunAsync(CoreDispatcherPriority.Normal, () =>
+                {
+                    webView = (WebView)((SilverlightPeer)n1).element;
+                    st = webView.InvokeScriptAsync(toCSharp(n2), args).AsTask().GetAwaiter().GetResult();
                     are.Set();
                 }).AsTask().GetAwaiter().GetResult();
                 are.WaitOne();
@@ -1196,122 +1321,8 @@ namespace com.codename1.impl
             }
             catch (Exception)
             {
-
                 return base.getInAppPurchase();
             }
-        }
-
-        public override global::System.Object getBrowserURL(global::com.codename1.ui.PeerComponent n1)
-        {
-            WebView s = (WebView)((SilverlightPeer)n1).element;
-            return toJava(s.Source.OriginalString);
-        }
-
-        public override void setBrowserURL(global::com.codename1.ui.PeerComponent n1, global::java.lang.String n2)
-        {
-            dispatcher.RunAsync(CoreDispatcherPriority.Normal, () =>
-           {
-               WebView s = (WebView)((SilverlightPeer)n1).element;
-               string uri = toCSharp(n2);
-               if (uri.StartsWith("jar:/"))
-               {
-                   uri = uri.Substring(5);
-                   while (uri[0] == '/')
-                   {
-                       uri = uri.Substring(1);
-                   }
-                   uri = "res/" + uri;
-                   s.Source = new Uri(uri, UriKind.Relative);
-                   return;
-               }
-               s.Source = new Uri(uri);
-           }).AsTask().GetAwaiter();
-        }
-
-        public override void browserReload(global::com.codename1.ui.PeerComponent n1)
-        {
-            dispatcher.RunAsync(CoreDispatcherPriority.Normal, () =>
-            {
-                WebView s = (WebView)((SilverlightPeer)n1).element;
-                s.Source = s.Source;
-            }).AsTask().GetAwaiter();
-        }
-
-        public override bool browserHasBack(global::com.codename1.ui.PeerComponent n1)
-        {
-            bool ret = false;
-            using (AutoResetEvent are = new AutoResetEvent(false))
-            {
-                dispatcher.RunAsync(CoreDispatcherPriority.Normal, () =>
-               {
-                   WebView s = (WebView)((SilverlightPeer)n1).element;
-                   ret = s.CanGoBack;
-                   are.Set();
-               }).AsTask().GetAwaiter().GetResult();
-                are.WaitOne();
-            }
-            return ret;
-        }
-
-        public override bool browserHasForward(global::com.codename1.ui.PeerComponent n1)
-        {
-            bool ret = false;
-            using (AutoResetEvent are = new AutoResetEvent(false))
-            {
-                dispatcher.RunAsync(CoreDispatcherPriority.Normal, () =>
-                 {
-                     WebView s = (WebView)((SilverlightPeer)n1).element;
-                     ret = s.CanGoForward;
-                     are.Set();
-                 }).AsTask().GetAwaiter().GetResult();
-                are.WaitOne();
-            }
-            return ret;
-        }
-
-        public override void browserBack(global::com.codename1.ui.PeerComponent n1)
-        {
-            dispatcher.RunAsync(CoreDispatcherPriority.Normal, () =>
-            {
-                WebView s = (WebView)((SilverlightPeer)n1).element;
-                s.GoBack();
-            }).AsTask().GetAwaiter().GetResult();
-        }
-
-        public override void browserStop(global::com.codename1.ui.PeerComponent n1)
-        {
-            object w = (SilverlightPeer)n1;
-            WebView s = ((WebView)w);
-            s.Stop();
-        }
-
-        public override void browserExposeInJavaScript(PeerComponent n1, java.lang.Object n2, java.lang.String n3)
-        {
-            base.browserExposeInJavaScript(n1, n2, n3);
-        }
-
-        public override void browserForward(global::com.codename1.ui.PeerComponent n1)
-        {
-            WebView s = (WebView)((SilverlightPeer)n1).element;
-            s.GoForward();
-        }
-
-        public override void browserClearHistory(global::com.codename1.ui.PeerComponent n1)
-        {
-            dispatcher.RunAsync(CoreDispatcherPriority.Normal, () =>
-            {
-                WebView s = (WebView)((SilverlightPeer)n1).element;
-
-            }).AsTask().GetAwaiter().GetResult();
-        }
-
-        public override void setBrowserPage(global::com.codename1.ui.PeerComponent n1, global::java.lang.String n2, global::java.lang.String n3)
-        {
-            dispatcher.RunAsync(CoreDispatcherPriority.Normal, () =>
-           {
-               WebView s = (WebView)((SilverlightPeer)n1).element;
-               s.NavigateToString(toCSharp(n2));
-           }).AsTask().GetAwaiter();
         }
 
         public override void sendMessage(_nArrayAdapter<object> n1, java.lang.String n2, messaging.Message n3)
@@ -1329,7 +1340,6 @@ namespace com.codename1.impl
 
                 if (fields.Count > 0)
                 {
-
                     if (fields[0].GetType() == typeof(ContactEmail))
                     {
                         foreach (ContactEmail email in fields as IList<ContactEmail>)
@@ -1343,7 +1353,6 @@ namespace com.codename1.impl
                             EmailManager.ShowComposeNewEmailAsync(emailMessage).AsTask().ConfigureAwait(false).GetAwaiter().GetResult();
                             break;
                         }
-
                     }
                 }
                 else
@@ -1355,7 +1364,6 @@ namespace com.codename1.impl
             {
                 // OutputTextBlock.Text = "No recipient emailid Contact found";
             }
-
         }
 
         public override void sendSMS(java.lang.String n1, java.lang.String n2, bool n)
@@ -1364,44 +1372,6 @@ namespace com.codename1.impl
             chatMessage.Body = toCSharp(n2);
             chatMessage.Recipients.Add(toCSharp(n1));
             Windows.ApplicationModel.Chat.ChatMessageManager.ShowComposeSmsMessageAsync(chatMessage).AsTask().ConfigureAwait(false).GetAwaiter().GetResult();
-
-        }
-
-        public override void execute(global::java.lang.String n1)
-        {
-            dispatcher.RunAsync(CoreDispatcherPriority.Normal, () =>
-            {
-                WebView t = new WebView();
-                t.Source = new Uri(toCSharp(n1), UriKind.RelativeOrAbsolute);
-                //t.Show();
-            }).AsTask().GetAwaiter();
-        }
-
-        public override void browserExecute(global::com.codename1.ui.PeerComponent n1, global::java.lang.String n2)
-        {
-            String[] args = { "document.title.toString()" };
-            dispatcher.RunAsync(CoreDispatcherPriority.Normal, () =>
-            {
-                WebView s = (WebView)((SilverlightPeer)n1).element;
-                s.InvokeScriptAsync(toCSharp(n2), args).ToString();
-            }).AsTask().GetAwaiter();
-        }
-
-        public override global::System.Object browserExecuteAndReturnString(global::com.codename1.ui.PeerComponent n1, global::java.lang.String n2)
-        {
-            String[] args = { "document.title.toString()" };
-            string st = null;
-            using (AutoResetEvent are = new AutoResetEvent(false))
-            {
-                dispatcher.RunAsync(CoreDispatcherPriority.Normal, () =>
-                {
-                    WebView s = (WebView)((SilverlightPeer)n1).element;
-                    st = s.InvokeScriptAsync(toCSharp(n2), args).ToString();
-                    are.Set();
-                }).AsTask().GetAwaiter().GetResult();
-                are.WaitOne();
-            }
-            return toJava(st);
         }
 
         public override object createMutableImage(int width, int height, int color)
@@ -2121,7 +2091,6 @@ namespace com.codename1.impl
 
         public override global::System.Object createStorageInputStream(global::java.lang.String name)
         {
-
             try
             {
                 file = store.CreateFileAsync(nativePath(name), CreationCollisionOption.OpenIfExists).AsTask().ConfigureAwait(false).GetAwaiter().GetResult();
@@ -2132,8 +2101,6 @@ namespace com.codename1.impl
                 file = store.CreateFileAsync(nativePath(name), CreationCollisionOption.GenerateUniqueName).AsTask().GetAwaiter().GetResult();
                 return new InputStreamProxy(file.OpenReadAsync().AsTask().ConfigureAwait(false).GetAwaiter().GetResult().AsStream());
             }
-
-
         }
 
         public override bool storageFileExists(global::java.lang.String name)
@@ -2267,8 +2234,9 @@ namespace com.codename1.impl
 
             try
             {
-                 folder = store.GetFolderAsync(f).AsTask().ConfigureAwait(false).GetAwaiter().GetResult();
-                if (folder != null) { //.Name.Equals(f)) {
+                folder = store.GetFolderAsync(f).AsTask().ConfigureAwait(false).GetAwaiter().GetResult();
+                if (folder != null)
+                { //.Name.Equals(f)) {
                     folder.DeleteAsync().AsTask().ConfigureAwait(false).GetAwaiter().GetResult();
                     return;
                 }
@@ -2384,10 +2352,11 @@ namespace com.codename1.impl
         private Windows.Foundation.Point point;
         private static StorageFile file;
         private static float rawDpiy;
-        private Component editingText;
+        // private Component editingText;
         private StorageFolder folder;
         private string fileName;
         private static float rawDpix;
+        private WebView webView;
 
         public override object getImageIO()
         {
@@ -2611,8 +2580,19 @@ namespace com.codename1.impl
 
         internal int getStringWidth(string str)
         {
-            CanvasTextLayout fontLayout = new CanvasTextLayout(SilverlightImplementation.screen, str, font, 0.0f, 0.0f);
-            return Convert.ToInt32(Math.Ceiling(fontLayout.LayoutBounds.Width));
+            String aux = str.Trim();
+            if (aux.Length < str.Length)
+            {
+                // WIN2D does not take space size into account
+                int spaceSize = getStringWidth("_ _") - getStringWidth("__");
+                CanvasTextLayout fontLayout = new CanvasTextLayout(SilverlightImplementation.screen, aux, font, 0.0f, 0.0f);
+                return Convert.ToInt32(Math.Ceiling(fontLayout.LayoutBounds.Width)) + spaceSize * (str.Length - aux.Length);
+            }
+            else
+            {
+                CanvasTextLayout fontLayout = new CanvasTextLayout(SilverlightImplementation.screen, str, font, 0.0f, 0.0f);
+                return Convert.ToInt32(Math.Ceiling(fontLayout.LayoutBounds.Width));
+            }
         }
     }
 
@@ -2659,7 +2639,6 @@ namespace com.codename1.impl
             while (SilverlightImplementation.textInputInstance != null)
             {
                 Task.Run(() => global::System.Threading.Tasks.Task.Delay(TimeSpan.FromMilliseconds(1))).GetAwaiter().GetResult();
-
             }
         }
     }
@@ -3354,56 +3333,49 @@ namespace com.codename1.impl
 
             if (watcher == null)
             {
-                watcher = new Geolocator();
-                this.watcher.DesiredAccuracy = PositionAccuracy.High;
-                //watcher.DesiredAccuracyInMeters = 100;
-                this.watcher.ReportInterval = (uint)TimeSpan.FromSeconds(10).TotalMilliseconds;
+                watcher = new Geolocator()
+                {
+                    MovementThreshold = 1,
+                    DesiredAccuracy = PositionAccuracy.High,
+                    ReportInterval = (uint)TimeSpan.FromSeconds(10).TotalMilliseconds,
+                };
             }
-
             this.watcher.StatusChanged += new TypedEventHandler<Geolocator, StatusChangedEventArgs>(watcher_StatusChanged);
             this.watcher.PositionChanged += new TypedEventHandler<Geolocator, PositionChangedEventArgs>(watcher_PositionChanged);
-
         }
 
         void watcher_StatusChanged(Geolocator sender, StatusChangedEventArgs eventArgs)
         {
-            SilverlightImplementation.dispatcher.RunAsync(CoreDispatcherPriority.Normal, () =>
+            switch (eventArgs.Status)
             {
-                switch (eventArgs.Status)
-                {
-                    case PositionStatus.Disabled:
-                        setStatus(_fOUT_1OF_1SERVICE);
-                        break;
-                    case PositionStatus.Initializing:
-                    case PositionStatus.NoData:
-                        setStatus(_fTEMPORARILY_1UNAVAILABLE);
-                        break;
-                    case PositionStatus.Ready:
-                        setStatus(_fAVAILABLE);
-                        break;
-                }
-            }).AsTask().ConfigureAwait(false).GetAwaiter().GetResult();
+                case PositionStatus.Disabled:
+                    setStatus(_fOUT_1OF_1SERVICE);
+                    break;
+                case PositionStatus.Initializing:
+                case PositionStatus.NoData:
+                    setStatus(_fTEMPORARILY_1UNAVAILABLE);
+                    break;
+                case PositionStatus.Ready:
+                    setStatus(_fAVAILABLE);
+                    break;
+            }
         }
 
-        void watcher_PositionChanged(Geolocator sender, PositionChangedEventArgs e)
+        async void watcher_PositionChanged(Geolocator sender, PositionChangedEventArgs e)
         {
-
-            SilverlightImplementation.dispatcher.RunAsync(CoreDispatcherPriority.Normal, () =>
-        {
-            lastPosition = watcher.GetGeopositionAsync().AsTask().ConfigureAwait(false).GetAwaiter().GetResult();
-            if (getLocationListener() != null && lastPosition.Coordinate.AltitudeAccuracy.HasValue)
+            lastPosition = await sender.GetGeopositionAsync();
+            if (lastPosition != null && lastPosition.Coordinate.AltitudeAccuracy.HasValue)
             {
                 ((com.codename1.location.LocationListener)getLocationListener()).locationUpdated(convert(lastPosition));
             }
-        }).AsTask().ConfigureAwait(false).GetAwaiter().GetResult();
         }
+
         public override void clearListener()
         {
             if (watcher != null)
             {
                 watcher.StatusChanged -= new TypedEventHandler<Geolocator, StatusChangedEventArgs>(watcher_StatusChanged);
                 watcher.PositionChanged -= new TypedEventHandler<Geolocator, PositionChangedEventArgs>(watcher_PositionChanged);
-                //  watcher.Stop();
             }
         }
 
@@ -3437,7 +3409,6 @@ namespace com.codename1.impl
             location.setVelocity((float)position.Coordinate.Speed);
             location.setAccuracy((float)position.Coordinate.AltitudeAccuracy);
             location.setStatus(getStatus());
-            //Debug.WriteLine("\nTimeStamp(): " + location.getTimeStamp() + "\nLatitude(): " + location.getLatitude() + "\nLongitude(): " + location.getLongitude() + "\nAltitude(): " + location.getAltitude() + "\nDirection()): " + location.getDirection() + "\nVelocity(): " + location.getVelocity() + "\nAccuracy(): " + location.getAccuracy() + "\nStatus(): " + location.getStatus());
             return location;
         }
     }
@@ -3491,7 +3462,6 @@ namespace com.codename1.impl
             dr.ReadBytes(buf);
             response.write(new _nArrayAdapter<sbyte>(SilverlightImplementation.toSByteArray(buf)));
         }
-
     }
 
     public class ImageHelper
@@ -3530,4 +3500,4 @@ namespace com.codename1.impl
             { new byte[]{ 0xff, 0xd8 }, "image/jpeg" },
         };
     }
-} // end of namespace: com.codename1.impl
+}// end of namespace: com.codename1.impl
