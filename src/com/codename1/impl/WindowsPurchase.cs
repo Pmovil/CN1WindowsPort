@@ -20,19 +20,13 @@ namespace com.codename1.impl
         private static CanvasControl screen;
         private Dictionary<string, List<Guid>> grantedConsumableTransactionIds;
         private static ProductListing product1; 
-        public static global::com.pumpop.pumpop.Pumpop i;
 
         public WindowsPurchase(CanvasControl _screen)
         {
-            i = new global::com.pumpop.pumpop.Pumpop();
             screen = _screen;
             grantedConsumableTransactionIds = new Dictionary<string, List<Guid>>();
             CurrentApp.LicenseInformation.LicenseChanged += licenseChangeHandler;
             grantedConsumableTransactionIds = new Dictionary<string, List<Guid>>();
-            if (i is com.codename1.payment.PurchaseCallback)
-            {
-                com.codename1.impl.SilverlightImplementation.setPurchaseCallback((com.codename1.payment.PurchaseCallback)i);
-            }
         }
 
         public override bool isManagedPaymentSupported()
