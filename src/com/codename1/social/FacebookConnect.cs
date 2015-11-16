@@ -75,12 +75,12 @@ public static global::System.Object getInstance(){
     _r1_o = _ex.getJavaException();
     _ex = null;
     _r0_o = _r1_o;
-    _r1_o = new global::com.codename1.social.FacebookConnect();
+    _r1_o = new global::com.codename1.social.FacebookImpl();
     ((global::com.codename1.social.FacebookConnect) _r1_o).@this();
     global::com.codename1.social.FacebookConnect._finstance = (global::com.codename1.social.FacebookConnect) _r1_o;
     goto label18;
     label31:;
-    _r1_o = new global::com.codename1.social.FacebookConnect();
+    _r1_o = new global::com.codename1.social.FacebookImpl();
     ((global::com.codename1.social.FacebookConnect) _r1_o).@this();
     global::com.codename1.social.FacebookConnect._finstance = (global::com.codename1.social.FacebookConnect) _r1_o;
     goto label18;

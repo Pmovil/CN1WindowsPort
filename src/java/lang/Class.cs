@@ -13,7 +13,6 @@ static Class() {
 public global::java.lang.Object _ftib;
 
 private static global::java.lang.ClassLoader _fclassLoader;
-private global::System.Type type;
 
 private static void initNativeLayer(){
 //XMLVM_BEGIN_WRAPPER[java.lang.Class: void initNativeLayer()]
