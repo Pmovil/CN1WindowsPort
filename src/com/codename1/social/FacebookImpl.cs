@@ -3,35 +3,44 @@ using com.codename1.impl;
 using com.codename1.io;
 using com.codename1.ui;
 using com.codename1.util;
-using EscalonesNati;
 using Facebook.Client;
 using Facebook.Client.Controls;
 using java.lang;
 using java.util;
+using PumpopNati;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Windows.ApplicationModel.Activation;
 
 namespace com.codename1.social
 {
 
-    public class FacebookImpl : FacebookConnect
+    public  class FacebookImpl : FacebookConnect 
     {
 
-        private LoginButton loginFace;
-        private FriendPicker friendPicker;
-        private DateTime date;
-        private LoginCallback callback;
+        private LoginButton loginFace;     
         static Callback inviteCallback;
+     
         public static bool loginLock = false;
+        public static Facebook.FacebookClient fb;
+        public static object result;
+        public static GraphUser currentUser;
+        private LoginCallback callback = null;
+        private static java.lang.Class implClass;
+        private object instance;
 
-        public void @this()
+        public FacebookImpl()
+            : base()
         {
-            FacebookConnect._fimplClass = ((java.lang.Class)(object)typeof(FacebookImpl));
+            instance = typeof(FacebookImpl);
+            instance = ((java.lang.Class)instance).newInstance();
+            implClass = (java.lang.Class)instance;
+             FacebookConnect._fimplClass = FacebookImpl.implClass;
         }
-
+  
         public override bool isFacebookSDKSupported()
         {
             return true;
@@ -40,9 +49,8 @@ namespace com.codename1.social
         public override void login()
         {
             login(callback);
-
-
         }
+    
         private void login(LoginCallback cb)
         {
             if (loginLock)
@@ -54,10 +62,14 @@ namespace com.codename1.social
             SilverlightImplementation.dispatcher.RunAsync(Windows.UI.Core.CoreDispatcherPriority.Normal, () =>
             {
                 loginFace = new LoginButton();
-                loginFace.RequestNewPermissions("publish_actions");
+               // loginFace.RequestNewPermissions("publish_actions");
                 Session.ActiveSession.LoginWithBehavior("email,public_profile,user_friends", FacebookLoginBehavior.LoginBehaviorAppwithMobileInternetFallback);
+               Session.OnFacebookAuthenticationFinished += OnFacebookAuthenticationFinished;
+                var protocolArgs = args as ProtocolActivatedEventArgs;
+                LifecycleHelper.FacebookAuthenticationReceived(protocolArgs);
                 SessionStateChangedEventArgs e = new SessionStateChangedEventArgs(FacebookSessionState.Opened);
                 loginFace.SessionStateChanged += loginButton_SessionStateChanged;
+               
             }).AsTask().ConfigureAwait(false).GetAwaiter().GetResult();
 
             loginFace.SessionStateChanged -= loginButton_SessionStateChanged;
@@ -66,7 +78,7 @@ namespace com.codename1.social
         {
             if (e.SessionState == FacebookSessionState.Opened)
             {
-
+             
             }
         }
         public override void askPublishPermissions(LoginCallback lc)
@@ -118,8 +130,8 @@ namespace com.codename1.social
             FaceBookAccess.setClientSecret(SilverlightImplementation.toJava(App.currentUser.UserName));
             FaceBookAccess.setRedirectURI(SilverlightImplementation.toJava(App.currentUser.ProfilePictureUrl.OriginalString));
             FaceBookAccess.setToken(SilverlightImplementation.toJava(App.fb.AccessToken));
-          
-            return ((FaceBookAccess)FaceBookAccess.getInstance()).createOAuth();        
+
+            return ((FaceBookAccess)FaceBookAccess.getInstance()).createOAuth();
             //return base.createOauth2();
         }
         public override bool hasPublishPermissions()
@@ -179,5 +191,13 @@ namespace com.codename1.social
         {
             return false;
         }
+        private async void OnFacebookAuthenticationFinished(AccessTokenData session)
+        {
+            fb = new Facebook.FacebookClient(Session.ActiveSession.CurrentAccessTokenData.AccessToken);
+            result = await fb.GetTaskAsync("me");
+            currentUser = new Facebook.Client.GraphUser(result);
+        }
+
+        public ProtocolActivatedEventArgs args { get; set; }
     }
 }

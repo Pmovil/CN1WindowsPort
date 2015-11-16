@@ -13,6 +13,7 @@ namespace com.codename1.impl
         public WindowsMutableGraphics(Microsoft.Graphics.Canvas.CanvasRenderTarget canvas)
             : base(canvas.CreateDrawingSession())
         {
+            
             this.canvas = canvas;
             dispose();
         }
@@ -149,6 +150,11 @@ namespace com.codename1.impl
             base.fillRadialGradient(startColor, endColor, x, y, width, height);
             base.removeClip();
             dispose();
+        }
+
+        internal override bool isMutable()
+        {
+            return true;
         }
 
         #region nao implementar
