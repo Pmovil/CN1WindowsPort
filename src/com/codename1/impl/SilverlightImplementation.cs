@@ -281,7 +281,8 @@ namespace com.codename1.impl
         public override bool minimizeApplication()
         {
             // not ideal but I couldn't find any other way...
-            Application.Current.Exit(); // TODO - suspending handler
+            // Application.Current.Exit(); // TODO - suspending handler
+            // if back command is not defined the minimizeApplication is called so better is to do nothing
             return true;
         }
 
@@ -587,6 +588,8 @@ namespace com.codename1.impl
                 dispatcher.RunAsync(CoreDispatcherPriority.Normal, () =>
                {
                    cl.Children.Remove(textInputInstance);
+                   //wait for textChangedEvent
+                   Task.Run(() => global::System.Threading.Tasks.Task.Delay(TimeSpan.FromMilliseconds(100))).ConfigureAwait(false).GetAwaiter().GetResult();
                    textInputInstance = null;
                    // cl.Focus;
                }).AsTask().ConfigureAwait(false).GetAwaiter().GetResult();
@@ -596,6 +599,11 @@ namespace com.codename1.impl
 
         void textChangedEvent(object sender, RoutedEventArgs e)
         {
+            if (textInputInstance == null)
+            {
+                System.Diagnostics.Debug.WriteLine("[textChangeEvent] textInput is null. Shoud not happen!!");
+                return;
+            }
             com.codename1.ui.Display disp = (com.codename1.ui.Display)com.codename1.ui.Display.getInstance();
             Tchange t = new Tchange();
             t.currentlyEditing = currentlyEditing;
@@ -951,10 +959,10 @@ namespace com.codename1.impl
 
             CodenameOneImage ci = null;
 
-            using (AutoResetEvent are = new AutoResetEvent(false))
-            {
-                dispatcher.RunAsync(CoreDispatcherPriority.Normal, () =>
-                {
+    ///        using (AutoResetEvent are = new AutoResetEvent(false))
+    ///        {
+    ///            dispatcher.RunAsync(CoreDispatcherPriority.Normal, () =>
+    ///            {
                     IRandomAccessStream s;
                     string contentType;
                     if (n1.Length != n3 || n2 != 0)
@@ -1003,10 +1011,10 @@ namespace com.codename1.impl
                     {
                         Debug.WriteLine("Failed to create image " + n1.hashCode());
                     }
-                    are.Set();
-                }).AsTask().ConfigureAwait(false).GetAwaiter().GetResult();
-                are.WaitOne();
-            }
+      ///              are.Set();
+      ///          }).AsTask().ConfigureAwait(false).GetAwaiter().GetResult();
+      ///          are.WaitOne();
+      ///      }
             return ci;
       }
 
@@ -1823,7 +1831,7 @@ namespace com.codename1.impl
         {
             object x = f(n1);
             NativeFont s = (NativeFont)x;
-            return s.height;
+            return (int)(s.height);
             //return f(n1).actualHeight;
         }
 
@@ -2621,7 +2629,7 @@ new         public void @this()
                 if (actualHeight < 0)
                 {
                     CanvasTextLayout fontLayout = new CanvasTextLayout(SilverlightImplementation.screen, "Mg", font, 0.0f, 0.0f);
-                    actualHeight = Convert.ToInt32(Math.Ceiling(fontLayout.LayoutBounds.Height));
+                    actualHeight = Convert.ToInt32(Math.Ceiling(fontLayout.LayoutBounds.Height * SilverlightImplementation.scaleFactor));
                 }
                 return actualHeight;
             }
@@ -2648,6 +2656,9 @@ new         public void @this()
             this.style = style;
             this.size = size;
             this.font = font;
+         //   this.font.LineSpacing = this.font.FontSize;
+            this.font.FontSize = this.font.FontSize * 1.2f; // (float)SilverlightImplementation.scaleFactor; 
+            /// default fonts are to small for phone screen
         }
 
         public override bool Equals(object o)
@@ -3419,7 +3430,7 @@ new         public void @this()
                 watcher = new Geolocator();
                 this.watcher.DesiredAccuracy = PositionAccuracy.High;
                 //watcher.DesiredAccuracyInMeters = 100;
-                this.watcher.ReportInterval = (uint)TimeSpan.FromSeconds(10).TotalMilliseconds;
+                this.watcher.ReportInterval = (uint)TimeSpan.FromSeconds(1).TotalMilliseconds;
             }
 
             this.watcher.StatusChanged += new TypedEventHandler<Geolocator, StatusChangedEventArgs>(watcher_StatusChanged);
@@ -3450,14 +3461,14 @@ new         public void @this()
         void watcher_PositionChanged(Geolocator sender, PositionChangedEventArgs e)
         {
 
-            SilverlightImplementation.dispatcher.RunAsync(CoreDispatcherPriority.Normal, () =>
-        {
+//            SilverlightImplementation.dispatcher.RunAsync(CoreDispatcherPriority.Normal, () =>
+//        {
             lastPosition = watcher.GetGeopositionAsync().AsTask().ConfigureAwait(false).GetAwaiter().GetResult();
-            if (getLocationListener() != null && lastPosition.Coordinate.AltitudeAccuracy.HasValue)
+            if (getLocationListener() != null) //cell position is ok for some purpose && lastPosition.Coordinate.AltitudeAccuracy.HasValue)
             {
                 ((com.codename1.location.LocationListener)getLocationListener()).locationUpdated(convert(lastPosition));
             }
-        }).AsTask().ConfigureAwait(false).GetAwaiter().GetResult();
+//        }).AsTask().ConfigureAwait(false).GetAwaiter().GetResult();
         }
         public override void clearListener()
         {
@@ -3497,7 +3508,7 @@ new         public void @this()
             location.setAltitude((float)position.Coordinate.Point.Position.Altitude);
             location.setDirection((float)position.Coordinate.Heading);
             location.setVelocity((float)position.Coordinate.Speed);
-            location.setAccuracy((float)position.Coordinate.AltitudeAccuracy);
+            location.setAccuracy((float)position.Coordinate.Accuracy);
             location.setStatus(getStatus());
             //Debug.WriteLine("\nTimeStamp(): " + location.getTimeStamp() + "\nLatitude(): " + location.getLatitude() + "\nLongitude(): " + location.getLongitude() + "\nAltitude(): " + location.getAltitude() + "\nDirection()): " + location.getDirection() + "\nVelocity(): " + location.getVelocity() + "\nAccuracy(): " + location.getAccuracy() + "\nStatus(): " + location.getStatus());
             return location;
