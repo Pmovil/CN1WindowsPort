@@ -2,6 +2,8 @@
 
 using org.xmlvm;
 using System;
+using Windows.System;
+
 namespace java.lang {
 public class Runtime: global::java.lang.Object {
 
@@ -169,8 +171,8 @@ public static void runFinalizersOnExit(bool n1){
 }
 
 public virtual long totalMemory(){
-    return 1000000000000L;
-    //return Microsoft.Phone.Info.DeviceStatus.ApplicationMemoryUsageLimit;
+            ///return 1000000000000L;
+            return (long)MemoryManager.AppMemoryUsageLimit; // Microsoft.Phone.Info.DeviceStatus.ApplicationMemoryUsageLimit;
 }
 
 public virtual void traceInstructions(bool n1){
