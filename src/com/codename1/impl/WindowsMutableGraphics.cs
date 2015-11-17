@@ -150,6 +150,10 @@ namespace com.codename1.impl
             base.removeClip();
             dispose();
         }
+        internal override bool isMutable()
+        {
+            return true;
+        }
 
         #region nao implementar
         //internal override int getAlpha()

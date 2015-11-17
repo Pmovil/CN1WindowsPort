@@ -1,5 +1,4 @@
-﻿using com.codename1.payment;
-using FMapApp;
+﻿
 using java.lang;
 using Microsoft.Graphics.Canvas;
 using Microsoft.Graphics.Canvas.UI.Xaml;
@@ -15,29 +14,26 @@ using Windows.UI.Xaml.Media.Imaging;
 
 namespace com.codename1.impl
 {
-    public class WindowsPurchase : Purchase
+    public class WindowsPurchase : com.codename1.payment.Purchase
     {
         public static LicenseChangedEventHandler licenseChangeHandler = null;
-        private static Guid transactionId = Guid.Empty;
         private static CanvasControl screen;
-        private int numberOfConsumablesPurchased = 0;
-        private Dictionary<string, List<Guid>> grantedConsumableTransactionIds = new Dictionary<string, List<Guid>>();
-        private static ProductListing product1;
-        private static PurchaseCallback pc;
-        private FulfillmentResult result;
+        private Dictionary<string, List<Guid>> grantedConsumableTransactionIds;
+        private static ProductListing product1; 
 
         public WindowsPurchase(CanvasControl _screen)
         {
             screen = _screen;
-            LoadInAppPurchaseConsumablesProxyFileAsync();
-            grantedConsumableTransactionIds = new Dictionary<string, List<Guid>>();   
+            grantedConsumableTransactionIds = new Dictionary<string, List<Guid>>();
+            CurrentApp.LicenseInformation.LicenseChanged += licenseChangeHandler;
+            grantedConsumableTransactionIds = new Dictionary<string, List<Guid>>();
         }
 
         public override bool isManagedPaymentSupported()
         {
             return true;
         }
-
+       
         public override bool wasPurchased(java.lang.String n1)
         {
             return base.wasPurchased(n1);
@@ -47,48 +43,37 @@ namespace com.codename1.impl
         {
             return base.getProducts(n1);
         }
-    
-        public override object pay(double  amount, java.lang.String currency)
+
+        public override void unsubscribe(java.lang.String n1)
         {
-            return base.pay(amount, currency);
+            base.unsubscribe(n1);
         }
-        private void LoadInAppPurchaseConsumablesProxyFileAsync()
-        {
-            CurrentApp.LicenseInformation.LicenseChanged += licenseChangeHandler;
-            try
-            {             
-                ListingInformation listing = CurrentApp.LoadListingInformationAsync().AsTask().ConfigureAwait(false).GetAwaiter().GetResult();
-                product1 = listing.ProductListings["501Ponts"];           
-            }
-            catch (System.Exception e)
-            {
-                Debug.WriteLine("LoadListingInformationAsync API call failed: " + e);
-            }
-        }
+
         public override void purchase(java.lang.String idProduct)
         {
-            string produto = SilverlightImplementation.toCSharp(idProduct);
-            Main main = new Main();
-            pc = (PurchaseCallback)SilverlightImplementation.getPurchaseCallback();
+            string produto = SilverlightImplementation.toCSharp(idProduct);          
+           com.codename1.payment.PurchaseCallback pc = (com.codename1.payment.PurchaseCallback)SilverlightImplementation.getPurchaseCallback();
             SilverlightImplementation.dispatcher.RunAsync(Windows.UI.Core.CoreDispatcherPriority.Normal, async () =>
             {
                 try
                 {
-                    PurchaseResults purchaseResults = await CurrentApp.RequestProductPurchaseAsync(product1.ProductId);
+                    ListingInformation listing = await CurrentApp.LoadListingInformationAsync();
+                    product1 = listing.ProductListings[produto];           
+                    PurchaseResults purchaseResults = await CurrentApp.RequestProductPurchaseAsync(produto);
              
                     switch (purchaseResults.Status)
                     {
                         case ProductPurchaseStatus.Succeeded:
-                            GrantFeatureLocally(product1.ProductId, purchaseResults.TransactionId);
-                            FulfillProduct1(product1.ProductId, purchaseResults.TransactionId);
+                            GrantFeatureLocally(produto, purchaseResults.TransactionId);
+                            FulfillProduct1(produto, purchaseResults.TransactionId);
                             pc.itemPurchased(idProduct);
                             break;
                         case ProductPurchaseStatus.NotFulfilled:
-                            if (!IsLocallyFulfilled(product1.ProductId, purchaseResults.TransactionId))
+                            if (!IsLocallyFulfilled(produto, purchaseResults.TransactionId))
                             {
-                                GrantFeatureLocally(product1.ProductId, purchaseResults.TransactionId);
+                                GrantFeatureLocally(produto, purchaseResults.TransactionId);
                             }
-                            FulfillProduct1(product1.ProductId, purchaseResults.TransactionId);
+                            FulfillProduct1(produto, purchaseResults.TransactionId);
                             break;
                         case ProductPurchaseStatus.NotPurchased:                         
                             pc.itemPurchaseError(idProduct, SilverlightImplementation.toJava("purchase failed"));
@@ -106,8 +91,7 @@ namespace com.codename1.impl
         {
             try
             {
-                
-                    result = CurrentApp.ReportConsumableFulfillmentAsync(productId, transactionId).AsTask().ConfigureAwait(false).GetAwaiter().GetResult();
+                FulfillmentResult result = CurrentApp.ReportConsumableFulfillmentAsync(productId, transactionId).AsTask().ConfigureAwait(false).GetAwaiter().GetResult();
                 switch (result)
                 {
                     case FulfillmentResult.Succeeded:
@@ -135,7 +119,6 @@ namespace com.codename1.impl
             }
         }
       
-
         private void GrantFeatureLocally(string productId, Guid transactionId)
         {
             if (!grantedConsumableTransactionIds.ContainsKey(productId))
@@ -143,9 +126,6 @@ namespace com.codename1.impl
                 grantedConsumableTransactionIds.Add(productId, new List<Guid>());
             }
             grantedConsumableTransactionIds[productId].Add(transactionId);
-
-            // Grant the user their content. You will likely increase some kind of gold/coins/some other asset count.
-            numberOfConsumablesPurchased++;
         }
 
         private bool IsLocallyFulfilled(string productId, Guid transactionId)
