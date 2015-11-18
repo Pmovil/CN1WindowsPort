@@ -87,6 +87,8 @@ namespace com.codename1.impl
             c.R = (byte)((p >> 16) & 0xff);
             c.G = (byte)((p >> 8) & 0xff);
             c.B = (byte)(p & 0xff);
+            if (c.A == 0) ///FA default alpha should be 0xff
+                c.A = 0xff; ///
         }
 
         internal virtual void setFont(CanvasTextFormat font)
@@ -149,26 +151,36 @@ namespace com.codename1.impl
 
         internal virtual void fillArc(int x, int y, int w, int h, int startAngle, int arcAngle)
         {
-            CanvasPathBuilder builder = new CanvasPathBuilder(graphics);
             Vector2 center = new Vector2();
             center.X = x + w / 2;
             center.Y = y + h / 2;
-            builder.BeginFigure(center);
-            builder.AddArc(center, w / 2, h / 2, - (float)(2 * Math.PI * startAngle / 360), - (float)(2 * Math.PI * arcAngle / 360));
-            builder.EndFigure(CanvasFigureLoop.Closed);
-            graphics.FillGeometry(CanvasGeometry.CreatePath(builder), c);
+            if (arcAngle == 360)
+                graphics.FillEllipse(center, w / 2, h / 2, c);
+            else
+            {
+                CanvasPathBuilder builder = new CanvasPathBuilder(graphics);
+                builder.BeginFigure(center);
+                builder.AddArc(center, w / 2, h / 2, -(float)(2 * Math.PI * startAngle / 360), -(float)(2 * Math.PI * arcAngle / 360));
+                builder.EndFigure(CanvasFigureLoop.Closed);
+                graphics.FillGeometry(CanvasGeometry.CreatePath(builder), c);
+            }
         }
 
         internal virtual void drawArc(int x, int y, int w, int h, int startAngle, int arcAngle)
         {
-            CanvasPathBuilder builder = new CanvasPathBuilder(graphics);
             Vector2 center = new Vector2();
             center.X = x + w / 2;
             center.Y = y + h / 2;
-            builder.BeginFigure(center);
-            builder.AddArc(center, w / 2, h / 2, - (float)(2 * Math.PI * startAngle / 360), - (float)(2 * Math.PI * arcAngle / 360));
-            builder.EndFigure(CanvasFigureLoop.Closed);
-            graphics.DrawGeometry(CanvasGeometry.CreatePath(builder), c);
+            if (arcAngle == 360)
+                graphics.DrawEllipse(center, w / 2, h / 2, c);
+            else
+            {
+                CanvasPathBuilder builder = new CanvasPathBuilder(graphics);
+                builder.BeginFigure(center);
+                builder.AddArc(center, w / 2, h / 2, -(float)(2 * Math.PI * startAngle / 360), -(float)(2 * Math.PI * arcAngle / 360));
+                builder.EndFigure(CanvasFigureLoop.Closed);
+                graphics.DrawGeometry(CanvasGeometry.CreatePath(builder), c);
+            }
         }
 
         internal virtual void drawString(string str, int x, int y)

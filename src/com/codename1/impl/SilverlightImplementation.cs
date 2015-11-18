@@ -270,7 +270,8 @@ namespace com.codename1.impl
         public override bool minimizeApplication()
         {
             // not ideal but I couldn't find any other way...
-          //  Application.Current.Exit();
+            // Application.Current.Exit(); // TODO - suspending handler
+            // if back command is not defined the minimizeApplication is called so better is to do nothing
             return true;
         }
 
@@ -565,6 +566,8 @@ namespace com.codename1.impl
                 dispatcher.RunAsync(CoreDispatcherPriority.Normal, () =>
                {
                    cl.Children.Remove(textInputInstance);
+                   //wait for textChangedEvent
+                   Task.Run(() => global::System.Threading.Tasks.Task.Delay(TimeSpan.FromMilliseconds(100))).ConfigureAwait(false).GetAwaiter().GetResult();
                    textInputInstance = null;
                    // cl.Focus;
                }).AsTask().ConfigureAwait(false).GetAwaiter().GetResult();
@@ -574,6 +577,11 @@ namespace com.codename1.impl
 
         void textChangedEvent(object sender, RoutedEventArgs e)
         {
+            if (textInputInstance == null)
+            {
+                System.Diagnostics.Debug.WriteLine("[textChangeEvent] textInput is null. Shoud not happen!!");
+                return;
+            }
             com.codename1.ui.Display disp = (com.codename1.ui.Display)com.codename1.ui.Display.getInstance();
             Tchange t = new Tchange();
             t.currentlyEditing = currentlyEditing;
@@ -870,7 +878,7 @@ namespace com.codename1.impl
             global::org.xmlvm._nArrayAdapter<sbyte> b = (global::org.xmlvm._nArrayAdapter<sbyte>)com.codename1.io.Util.readInputStream(n1);
             return createImage(b, 0, b.Length);
         }
-    
+
         public static byte[] toByteArray(sbyte[] byteArray)
         {
             byte[] sbyteArray = null;
@@ -905,10 +913,10 @@ namespace com.codename1.impl
 
             CodenameOneImage ci = null;
 
-            using (AutoResetEvent are = new AutoResetEvent(false))
-            {
-                dispatcher.RunAsync(CoreDispatcherPriority.Normal, () =>
-                {
+    ///        using (AutoResetEvent are = new AutoResetEvent(false))
+    ///        {
+    ///            dispatcher.RunAsync(CoreDispatcherPriority.Normal, () =>
+    ///            {
                     IRandomAccessStream s;
                     string contentType;
                     if (n1.Length != n3 || n2 != 0)
@@ -951,7 +959,6 @@ namespace com.codename1.impl
                             cim.opaque = true;
                         }
                         CanvasRenderTarget cr = new CanvasRenderTarget(screen, float.Parse(canvasbitmap.Size.Width.ToString()), float.Parse(canvasbitmap.Size.Height.ToString()), canvasbitmap.Dpi);
-                       
                         cim.image = cr;
                         cim.graphics.destination.drawImage(canvasbitmap, 0, 0);
                         cim.graphics.destination.dispose();
@@ -974,12 +981,11 @@ namespace com.codename1.impl
                     catch (Exception)
                     {
                         Debug.WriteLine("\n Failed to create image " + n1.hashCode()+"\n Position: " + s.Position + "\n Size: " +s.Size);
-                        return ;
                     }
-                    are.Set();
-                }).AsTask().ConfigureAwait(false).GetAwaiter().GetResult();
-                are.WaitOne();
-            }
+      ///              are.Set();
+      ///          }).AsTask().ConfigureAwait(false).GetAwaiter().GetResult();
+      ///          are.WaitOne();
+      ///      }
             return ci;
         }
 
@@ -1139,7 +1145,6 @@ namespace com.codename1.impl
             com.codename1.ui.events.ActionEvent ev = new com.codename1.ui.events.ActionEvent();
             if (e.IsSuccess == true)
             {
-                sender.Visibility = Visibility.Collapsed;
             }
             else
             {  
@@ -1211,7 +1216,7 @@ namespace com.codename1.impl
                webView.Source = new Uri(uri);
            }).AsTask().GetAwaiter().GetResult();
         }
-      
+
         public override void browserReload(global::com.codename1.ui.PeerComponent n1)
         {
             dispatcher.RunAsync(CoreDispatcherPriority.Normal, () =>
@@ -2093,7 +2098,7 @@ namespace com.codename1.impl
                 err.ToJavaException().printStackTrace();
             }
         }
-      
+
         public override int getStorageEntrySize(java.lang.String name)
         {
             string f = nativePath(name);
@@ -2588,6 +2593,9 @@ namespace com.codename1.impl
             this.style = style;
             this.size = size;
             this.font = font;
+         ///   this.font.LineSpacing = this.font.FontSize;
+            this.font.FontSize = this.font.FontSize * 1.2f; /// (float)SilverlightImplementation.scaleFactor; 
+            /// default fonts are to small for phone screen
         }
 
         public override bool Equals(object o)
@@ -3360,7 +3368,7 @@ namespace com.codename1.impl
                 {
                     MovementThreshold = 1,
                     DesiredAccuracy = PositionAccuracy.High,
-                    ReportInterval = (uint)TimeSpan.FromSeconds(10).TotalMilliseconds,
+                    ReportInterval = (uint)TimeSpan.FromSeconds(1).TotalMilliseconds,  ///FA 1s is used in track/navi apps
                 };
             }
             this.watcher.StatusChanged += new TypedEventHandler<Geolocator, StatusChangedEventArgs>(watcher_StatusChanged);
@@ -3430,7 +3438,7 @@ namespace com.codename1.impl
             location.setAltitude((float)position.Coordinate.Point.Position.Altitude);
             location.setDirection((float)position.Coordinate.Heading);
             location.setVelocity((float)position.Coordinate.Speed);
-            location.setAccuracy((float)position.Coordinate.AltitudeAccuracy);
+            location.setAccuracy((float)position.Coordinate.Accuracy); ///FA vertical is more usufull AltitudeAccuracy);
             location.setStatus(getStatus());
             return location;
         }

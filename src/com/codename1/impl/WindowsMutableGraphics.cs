@@ -151,6 +151,10 @@ namespace com.codename1.impl
             base.removeClip();
             dispose();
         }
+        internal override bool isMutable()
+        {
+            return true;
+        }
 
         internal override bool isMutable()
         {
