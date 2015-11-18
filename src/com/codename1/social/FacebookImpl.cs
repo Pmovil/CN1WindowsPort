@@ -7,40 +7,32 @@ using Facebook.Client;
 using Facebook.Client.Controls;
 using java.lang;
 using java.util;
-using PumpopNati;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Windows.ApplicationModel.Activation;
+using System.Diagnostics;
 
 namespace com.codename1.social
 {
 
-    public  class FacebookImpl : FacebookConnect 
+    public class FacebookImpl : FacebookConnect
     {
-
-        private LoginButton loginFace;     
+        private static LoginButton loginFace;
+        private LoginCallback callback;
         static Callback inviteCallback;
-     
         public static bool loginLock = false;
-        public static Facebook.FacebookClient fb;
-        public static object result;
-        public static GraphUser currentUser;
-        private LoginCallback callback = null;
-        private static java.lang.Class implClass;
-        private object instance;
-
-        public FacebookImpl()
-            : base()
+        private static Facebook.FacebookClient fb;
+        private static object result;
+        private static GraphUser currentUser;
+       
+        public void @this()
         {
-            instance = typeof(FacebookImpl);
-            instance = ((java.lang.Class)instance).newInstance();
-            implClass = (java.lang.Class)instance;
-             FacebookConnect._fimplClass = FacebookImpl.implClass;
+            FacebookConnect._fimplClass = ((java.lang.Class)(object)typeof(FacebookImpl));
+     
         }
-  
+
         public override bool isFacebookSDKSupported()
         {
             return true;
@@ -50,7 +42,7 @@ namespace com.codename1.social
         {
             login(callback);
         }
-    
+
         private void login(LoginCallback cb)
         {
             if (loginLock)
@@ -59,28 +51,14 @@ namespace com.codename1.social
             }
             loginLock = true;
 
-            SilverlightImplementation.dispatcher.RunAsync(Windows.UI.Core.CoreDispatcherPriority.Normal, () =>
-            {
-                loginFace = new LoginButton();
-               // loginFace.RequestNewPermissions("publish_actions");
-                Session.ActiveSession.LoginWithBehavior("email,public_profile,user_friends", FacebookLoginBehavior.LoginBehaviorAppwithMobileInternetFallback);
-               Session.OnFacebookAuthenticationFinished += OnFacebookAuthenticationFinished;
-                var protocolArgs = args as ProtocolActivatedEventArgs;
-                LifecycleHelper.FacebookAuthenticationReceived(protocolArgs);
-                SessionStateChangedEventArgs e = new SessionStateChangedEventArgs(FacebookSessionState.Opened);
-                loginFace.SessionStateChanged += loginButton_SessionStateChanged;
-               
-            }).AsTask().ConfigureAwait(false).GetAwaiter().GetResult();
+            SilverlightImplementation.dispatcher.RunAsync(Windows.UI.Core.CoreDispatcherPriority.Normal, async () =>
+           {
+               loginFace = new LoginButton();
+               await loginFace.RequestNewPermissions("publish_actions");
+               Session.ActiveSession.LoginWithBehavior("email,public_profile,user_friends", FacebookLoginBehavior.LoginBehaviorAppwithMobileInternetFallback);
+           }).AsTask().GetAwaiter().GetResult();  
+        }
 
-            loginFace.SessionStateChanged -= loginButton_SessionStateChanged;
-        }
-        void loginButton_SessionStateChanged(object sender, SessionStateChangedEventArgs e)
-        {
-            if (e.SessionState == FacebookSessionState.Opened)
-            {
-             
-            }
-        }
         public override void askPublishPermissions(LoginCallback lc)
         {
             if (loginLock)
@@ -95,7 +73,6 @@ namespace com.codename1.social
                 return;
             }
             askPublishPermissions(lc);
-
         }
 
         public override object getAccessToken()
@@ -126,17 +103,14 @@ namespace com.codename1.social
 
         public override object createOauth2()
         {
-            FaceBookAccess.setClientId(SilverlightImplementation.toJava(App.currentUser.Id));
-            FaceBookAccess.setClientSecret(SilverlightImplementation.toJava(App.currentUser.UserName));
-            FaceBookAccess.setRedirectURI(SilverlightImplementation.toJava(App.currentUser.ProfilePictureUrl.OriginalString));
-            FaceBookAccess.setToken(SilverlightImplementation.toJava(App.fb.AccessToken));
-
+            FaceBookAccess.setClientId(SilverlightImplementation.toJava(currentUser.Id));
+            FaceBookAccess.setClientSecret(SilverlightImplementation.toJava(currentUser.UserName));
+            FaceBookAccess.setRedirectURI(SilverlightImplementation.toJava(currentUser.Link));
+            FaceBookAccess.setToken(SilverlightImplementation.toJava(fb.AccessToken));
             return ((FaceBookAccess)FaceBookAccess.getInstance()).createOAuth();
-            //return base.createOauth2();
         }
         public override bool hasPublishPermissions()
         {
-
             AccessToken fbToken = (AccessToken)getToken();
             if (fbToken != null)
             {
@@ -144,7 +118,6 @@ namespace com.codename1.social
                 {
                     return Session.ActiveSession.CurrentAccessTokenData.CurrentPermissions.Contains("PUBLISH_PERMISSIONS");
                 }
-
             }
             return false;
         }
@@ -162,7 +135,6 @@ namespace com.codename1.social
             }
             return false;
         }
-
 
         public override void logout()
         {
@@ -191,13 +163,13 @@ namespace com.codename1.social
         {
             return false;
         }
-        private async void OnFacebookAuthenticationFinished(AccessTokenData session)
+
+        internal async static void OnFacebookAuthenticationFinished(AccessTokenData session)
         {
             fb = new Facebook.FacebookClient(Session.ActiveSession.CurrentAccessTokenData.AccessToken);
             result = await fb.GetTaskAsync("me");
             currentUser = new Facebook.Client.GraphUser(result);
+            Session.CloseWebDialog();
         }
-
-        public ProtocolActivatedEventArgs args { get; set; }
     }
 }

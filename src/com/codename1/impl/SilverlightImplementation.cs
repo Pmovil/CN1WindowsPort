@@ -205,6 +205,7 @@ namespace com.codename1.impl
             setDragStartPercentage(3);
         }
 
+      
         void app_OrientationChanged(object sender, SimpleOrientationSensorOrientationChangedEventArgs e)
         {
             displayWidth = -1; displayHeight = -1;
@@ -264,14 +265,14 @@ namespace com.codename1.impl
             }
             return base.getProperty(n1, n2);
         }
-
+        public static LaunchActivatedEventArgs e;
+      //  Windows.ApplicationModel.CameraApplicationManager.ShowInstalledApplicationsUI();
         public override bool minimizeApplication()
         {
             // not ideal but I couldn't find any other way...
-            Application.Current.Exit();
+          //  Application.Current.Exit();
             return true;
         }
-
 
         public override void exitApplication()
         {
@@ -678,7 +679,6 @@ namespace com.codename1.impl
             CodenameOneImage cn = (CodenameOneImage)img;
             byte[] buffer = cn.image.GetPixelBytes(x, y, w, h);
             System.Buffer.BlockCopy(buffer, 0, arr.getCSharpArray(), 0, buffer.Length);
-
         }
 
         public override void setImageName(global::java.lang.Object n1, global::java.lang.String n2)
@@ -870,7 +870,7 @@ namespace com.codename1.impl
             global::org.xmlvm._nArrayAdapter<sbyte> b = (global::org.xmlvm._nArrayAdapter<sbyte>)com.codename1.io.Util.readInputStream(n1);
             return createImage(b, 0, b.Length);
         }
-
+    
         public static byte[] toByteArray(sbyte[] byteArray)
         {
             byte[] sbyteArray = null;
@@ -889,6 +889,7 @@ namespace com.codename1.impl
 
         public override global::System.Object createImage(global::org.xmlvm._nArrayAdapter<sbyte> n1, int n2, int n3)
         {
+            
             if (imageCache.ContainsKey(n1.hashCode()))
             {
                 CodenameOneImage cached;
@@ -912,20 +913,37 @@ namespace com.codename1.impl
                     string contentType;
                     if (n1.Length != n3 || n2 != 0)
                     {
-                        // TODO
                         byte[] imageArray = toByteArray(n1.getCSharpArray());
                         contentType = ImageHelper.GetContentType(imageArray);
-                        s = new MemoryStream(imageArray).AsRandomAccessStream();
+                        //s = new MemoryStream(imageArray).AsRandomAccessStream();
+                        using (s = new InMemoryRandomAccessStream())
+                        {
+                            using (DataWriter writer = new DataWriter(s.GetOutputStreamAt((ulong)n2)))
+                            {
+                                writer.WriteBytes(imageArray);
+                                writer.StoreAsync().AsTask().GetAwaiter().GetResult();
+                            }
+                            canvasbitmap = CanvasBitmap.LoadAsync(screen, s).AsTask().GetAwaiter().GetResult();
+                        }
                     }
                     else
                     {
                         byte[] imageArray = toByteArray(n1.getCSharpArray());
                         contentType = ImageHelper.GetContentType(imageArray);
-                        s = new MemoryStream(imageArray).AsRandomAccessStream();
+                        // s = new MemoryStream(imageArray).AsRandomAccessStream();
+                        using (s = new InMemoryRandomAccessStream())
+                        {
+                            using (DataWriter writer = new DataWriter(s.GetOutputStreamAt((ulong)n2)))
+                            {
+                                writer.WriteBytes(imageArray);
+                                writer.StoreAsync().AsTask().GetAwaiter().GetResult();
+                            }                         
+                            canvasbitmap = CanvasBitmap.LoadAsync(screen, s).AsTask().GetAwaiter().GetResult();
+                        }
                     }
                     try
                     {
-                        CanvasBitmap canvasbitmap = CanvasBitmap.LoadAsync(screen, s).AsTask().ConfigureAwait(false).GetAwaiter().GetResult();
+                       // CanvasBitmap canvasbitmap = CanvasBitmap.LoadAsync(screen, s).AsTask().ConfigureAwait(false).GetAwaiter().GetResult();
                         CodenameOneImage cim = new CodenameOneImage();
                         cim.@this();
                         if (contentType.Equals("image/jpeg") || contentType.Equals("image/x-ms-bmp"))
@@ -933,10 +951,12 @@ namespace com.codename1.impl
                             cim.opaque = true;
                         }
                         CanvasRenderTarget cr = new CanvasRenderTarget(screen, float.Parse(canvasbitmap.Size.Width.ToString()), float.Parse(canvasbitmap.Size.Height.ToString()), canvasbitmap.Dpi);
+                       
                         cim.image = cr;
                         cim.graphics.destination.drawImage(canvasbitmap, 0, 0);
                         cim.graphics.destination.dispose();
                         ci = cim;
+                        canvasbitmap.Dispose();
                         dispatcher.RunAsync(CoreDispatcherPriority.Low, () =>
                         {
                             imageCache.TryAdd(n1.hashCode(), ci);
@@ -954,6 +974,7 @@ namespace com.codename1.impl
                     catch (Exception)
                     {
                         Debug.WriteLine("\n Failed to create image " + n1.hashCode()+"\n Position: " + s.Position + "\n Size: " +s.Size);
+                        return ;
                     }
                     are.Set();
                 }).AsTask().ConfigureAwait(false).GetAwaiter().GetResult();
@@ -988,6 +1009,7 @@ namespace com.codename1.impl
         {
             exitLock = true;
             pendingCaptureCallback = response;
+           // Windows.ApplicationModel.CameraApplicationManager.ShowInstalledApplicationsUI(); 
             openGaleriaCamera();
         }
 
@@ -1117,7 +1139,7 @@ namespace com.codename1.impl
             com.codename1.ui.events.ActionEvent ev = new com.codename1.ui.events.ActionEvent();
             if (e.IsSuccess == true)
             {
-               
+                sender.Visibility = Visibility.Collapsed;
             }
             else
             {  
@@ -1189,7 +1211,7 @@ namespace com.codename1.impl
                webView.Source = new Uri(uri);
            }).AsTask().GetAwaiter().GetResult();
         }
-
+      
         public override void browserReload(global::com.codename1.ui.PeerComponent n1)
         {
             dispatcher.RunAsync(CoreDispatcherPriority.Normal, () =>
@@ -2071,7 +2093,7 @@ namespace com.codename1.impl
                 err.ToJavaException().printStackTrace();
             }
         }
-
+      
         public override int getStorageEntrySize(java.lang.String name)
         {
             string f = nativePath(name);
@@ -2357,6 +2379,7 @@ namespace com.codename1.impl
         private string fileName;
         private static float rawDpix;
         private WebView webView;
+        private CanvasBitmap canvasbitmap;
 
         public override object getImageIO()
         {

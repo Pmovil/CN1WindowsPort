@@ -386,6 +386,50 @@ public void @this(global::java.lang.String n1){
 //XMLVM_END_WRAPPER[com.codename1.ui.TextField: void <init>(java.lang.String)]
 }
 
+public void @this(global::java.lang.String n1, global::java.lang.String n2){
+//XMLVM_BEGIN_WRAPPER[com.codename1.ui.TextField: void <init>(java.lang.String, java.lang.String)]
+    global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
+    _r0_o = this;
+    _r1_o = n1;
+    _r2_o = n2;
+    ((global::com.codename1.ui.TextField) _r0_o).@this((global::java.lang.String) _r1_o);
+    ((global::com.codename1.ui.TextField) _r0_o).setHint((global::java.lang.String) _r2_o);
+    return;
+//XMLVM_END_WRAPPER[com.codename1.ui.TextField: void <init>(java.lang.String, java.lang.String)]
+}
+
+public void @this(global::java.lang.String n1, global::java.lang.String n2, int n3, int n4){
+//XMLVM_BEGIN_WRAPPER[com.codename1.ui.TextField: void <init>(java.lang.String, java.lang.String, int, int)]
+    global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
+    _r0_o = this;
+    _r1_o = n1;
+    _r2_o = n2;
+    _r3.i = n3;
+    _r4.i = n4;
+    ((global::com.codename1.ui.TextField) _r0_o).@this((global::java.lang.String) _r1_o);
+    ((global::com.codename1.ui.TextField) _r0_o).setHint((global::java.lang.String) _r2_o);
+    ((global::com.codename1.ui.TextField) _r0_o).setColumns((int) _r3.i);
+    ((global::com.codename1.ui.TextField) _r0_o).setConstraint((int) _r4.i);
+    return;
+//XMLVM_END_WRAPPER[com.codename1.ui.TextField: void <init>(java.lang.String, java.lang.String, int, int)]
+}
+
 public virtual void deleteChar(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.TextField: void deleteChar()]
     global::org.xmlvm._nElement _r0;

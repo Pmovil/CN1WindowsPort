@@ -53,6 +53,12 @@ public void @this(global::java.lang.String n1){
     ((global::com.codename1.ui.TextArea) _r0_o).@this((global::java.lang.String) _r1_o);
     ((global::com.codename1.components.SpanLabel) _r3_o)._ftext = (global::com.codename1.ui.TextArea) _r0_o;
     _r0_o = ((global::com.codename1.components.SpanLabel) _r3_o)._ftext;
+    _r1_o = ((global::com.codename1.components.SpanLabel) _r3_o)._ftext;
+    _r1_o = ((global::com.codename1.ui.TextArea) _r1_o).getText();
+    _r1.i = ((global::java.lang.String) _r1_o).length();
+    _r1.i = _r1.i + 1;
+    ((global::com.codename1.ui.TextArea) _r0_o).setColumns((int) _r1.i);
+    _r0_o = ((global::com.codename1.components.SpanLabel) _r3_o)._ftext;
     // Value=Label
     _r1_o = new global::java.lang.String();
     ((global::java.lang.String)_r1_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)76)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 98)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 108))}));

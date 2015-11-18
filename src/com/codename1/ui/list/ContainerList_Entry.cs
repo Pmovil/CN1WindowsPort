@@ -325,9 +325,14 @@ public override global::System.Object getPreferredSize(){
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
-    _r1_o = this;
-    _r0_o = ((global::com.codename1.ui.list.ContainerList_2Entry) _r1_o).calcPreferredSize();
+    _r2_o = this;
+    _r0_o = ((global::com.codename1.ui.list.ContainerList_2Entry) _r2_o)._fthis_20;
+    _r1_o = null;
+    ((global::com.codename1.ui.list.ContainerList) _r0_o).setScrollSize((global::com.codename1.ui.geom.Dimension) _r1_o);
+    _r0_o = ((global::com.codename1.ui.list.ContainerList_2Entry) _r2_o).calcPreferredSize();
     return (global::com.codename1.ui.geom.Dimension) _r0_o;
 //XMLVM_END_WRAPPER[com.codename1.ui.list.ContainerList$Entry: com.codename1.ui.geom.Dimension getPreferredSize()]
 }

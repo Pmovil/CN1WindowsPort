@@ -1440,8 +1440,15 @@ private bool isInSameColumn(global::com.codename1.ui.Component n1, global::com.c
     _r8_o = this;
     _r9_o = n1;
     _r10_o = n2;
-    _r0.i = ((global::com.codename1.ui.Component) _r9_o).getAbsoluteX();
     _r1.i = 0;
+    if (_r9_o == null) goto label5;
+    if (_r10_o != null) goto label7;
+    label5:;
+    _r0.i = _r1.i;
+    label6:;
+    return _r0.i!=0;
+    label7:;
+    _r0.i = ((global::com.codename1.ui.Component) _r9_o).getAbsoluteX();
     _r2.i = ((global::com.codename1.ui.Component) _r9_o).getWidth();
     _r3.i = 2147483647;
     _r4.i = ((global::com.codename1.ui.Component) _r10_o).getAbsoluteX();
@@ -1449,7 +1456,7 @@ private bool isInSameColumn(global::com.codename1.ui.Component n1, global::com.c
     _r6.i = ((global::com.codename1.ui.Component) _r10_o).getWidth();
     _r7.i = ((global::com.codename1.ui.Component) _r10_o).getHeight();
     _r0.i = global::com.codename1.ui.geom.Rectangle.intersects((int) _r0.i, (int) _r1.i, (int) _r2.i, (int) _r3.i, (int) _r4.i, (int) _r5.i, (int) _r6.i, (int) _r7.i) ? 1 : 0;
-    return _r0.i!=0;
+    goto label6;
 //XMLVM_END_WRAPPER[com.codename1.ui.Form: boolean isInSameColumn(com.codename1.ui.Component, com.codename1.ui.Component)]
 }
 

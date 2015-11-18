@@ -49,53 +49,6 @@ public void @this(global::com.codename1.ui.list.ListModel n1){
 //XMLVM_END_WRAPPER[com.codename1.ui.list.ContainerList: void <init>(com.codename1.ui.list.ListModel)]
 }
 
-public override global::System.Object getScrollDimension(){
-//XMLVM_BEGIN_WRAPPER[com.codename1.ui.list.ContainerList: com.codename1.ui.geom.Dimension getScrollDimension()]
-    global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
-    _r1_o = this;
-    _r0_o = ((global::com.codename1.ui.list.ContainerList) _r1_o).calcPreferredSize();
-    return (global::com.codename1.ui.geom.Dimension) _r0_o;
-//XMLVM_END_WRAPPER[com.codename1.ui.list.ContainerList: com.codename1.ui.geom.Dimension getScrollDimension()]
-}
-
-public override global::System.Object calcScrollSize(){
-//XMLVM_BEGIN_WRAPPER[com.codename1.ui.list.ContainerList: com.codename1.ui.geom.Dimension calcScrollSize()]
-    global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
-    _r5_o = this;
-    _r1_o = base.calcScrollSize();
-    _r3.i = ((global::com.codename1.ui.list.ContainerList) _r5_o).getComponentCount();
-    if (_r3.i <= 0) goto label39;
-    _r3.i = ((global::com.codename1.ui.list.ContainerList) _r5_o).getComponentCount();
-    _r4.i = 1;
-    _r3.i = _r3.i - _r4.i;
-    _r0_o = ((global::com.codename1.ui.list.ContainerList) _r5_o).getComponentAt((int) _r3.i);
-    _r3.i = ((global::com.codename1.ui.Component) _r0_o).getY();
-    _r4.i = ((global::com.codename1.ui.Component) _r0_o).getHeight();
-    _r2.i = _r3.i + _r4.i;
-    _r3.i = ((global::com.codename1.ui.geom.Dimension) _r1_o).getHeight();
-    if (_r2.i <= _r3.i) goto label39;
-    ((global::com.codename1.ui.geom.Dimension) _r1_o).setHeight((int) _r2.i);
-    label39:;
-    return (global::com.codename1.ui.geom.Dimension) _r1_o;
-//XMLVM_END_WRAPPER[com.codename1.ui.list.ContainerList: com.codename1.ui.geom.Dimension calcScrollSize()]
-}
-
 private void init(global::com.codename1.ui.list.ListModel n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.list.ContainerList: void init(com.codename1.ui.list.ListModel)]
     global::org.xmlvm._nElement _r0;
@@ -170,10 +123,12 @@ public virtual void setRenderer(global::com.codename1.ui.list.CellRenderer n1){
     _r0.i = _r0.i + 1;
     goto label3;
     label20:;
+    _r1_o = null;
+    ((global::com.codename1.ui.list.ContainerList) _r3_o).setScrollSize((global::com.codename1.ui.geom.Dimension) _r1_o);
     _r1.i = ((global::com.codename1.ui.list.ContainerList) _r3_o).isInitialized() ? 1 : 0;
-    if (_r1.i == 0) goto label29;
+    if (_r1.i == 0) goto label33;
     ((global::com.codename1.ui.list.ContainerList) _r3_o).revalidate();
-    label29:;
+    label33:;
     return;
 //XMLVM_END_WRAPPER[com.codename1.ui.list.ContainerList: void setRenderer(com.codename1.ui.list.CellRenderer)]
 }
