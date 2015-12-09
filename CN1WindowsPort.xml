@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+<appSettings>
+  <!-- DefaultStorageFolder=Local:|Cache:|Roaming:|Temp:|SDCard:|Removable:|CameraRoll: -->
+  <add key="DefaultStorageFolder" value="Local:" />
+</appSettings>
+</configuration>
