@@ -12,6 +12,7 @@ using System.Linq;
 using System.Text;
 using Windows.Foundation;
 using Windows.UI;
+using Windows.UI.Xaml.Media;
 
 namespace com.codename1.impl
 {

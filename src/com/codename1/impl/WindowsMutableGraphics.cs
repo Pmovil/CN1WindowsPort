@@ -156,10 +156,10 @@ namespace com.codename1.impl
             return true;
         }
 
-        internal override bool isMutable()
-        {
-            return true;
-        }
+        //internal override bool isMutable()
+        //{
+        //    return true;
+        //}
 
         #region nao implementar
         //internal override int getAlpha()

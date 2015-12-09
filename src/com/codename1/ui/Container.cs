@@ -1813,17 +1813,11 @@ public override void cancelRepaints(){
 
 public override void deinitializeImpl(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Container: void deinitializeImpl()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     base.deinitializeImpl();
     _r3_o = ((global::com.codename1.ui.Container) _r4_o)._fcomponents;

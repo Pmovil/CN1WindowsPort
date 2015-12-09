@@ -1,4 +1,4 @@
-﻿using com.codename1.facebook;
+﻿﻿using com.codename1.facebook;
 using com.codename1.impl;
 using com.codename1.io;
 using com.codename1.ui;
@@ -20,7 +20,6 @@ namespace com.codename1.social
     public class FacebookImpl : FacebookConnect
     {
         private static LoginButton loginFace;
-        private LoginCallback callback;
         static Callback inviteCallback;
         public static bool loginLock = false;
         private static Facebook.FacebookClient fb;
@@ -30,7 +29,6 @@ namespace com.codename1.social
         public void @this()
         {
             FacebookConnect._fimplClass = ((java.lang.Class)(object)typeof(FacebookImpl));
-     
         }
 
         public override bool isFacebookSDKSupported()
@@ -40,7 +38,7 @@ namespace com.codename1.social
 
         public override void login()
         {
-            login(callback);
+            login(_fcallback);
         }
 
         private void login(LoginCallback cb)
@@ -68,7 +66,7 @@ namespace com.codename1.social
             loginLock = true;
             if (!isLoggedIn())
             {
-                callback.loginSuccessful();
+                _fcallback.loginSuccessful();
                 login();
                 return;
             }
@@ -169,7 +167,6 @@ namespace com.codename1.social
             fb = new Facebook.FacebookClient(Session.ActiveSession.CurrentAccessTokenData.AccessToken);
             result = await fb.GetTaskAsync("me");
             currentUser = new Facebook.Client.GraphUser(result);
-            Session.CloseWebDialog();
         }
     }
 }
