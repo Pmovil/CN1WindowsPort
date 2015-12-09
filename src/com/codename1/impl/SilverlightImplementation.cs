@@ -1074,7 +1074,7 @@ namespace com.codename1.impl
                 view.Activated -= view_Activated;
                 fileName = args.Files[0].Name;
                 com.codename1.ui.events.ActionEvent ac = new com.codename1.ui.events.ActionEvent();
-                ac.@this(toJava("file:/" + fileName));
+                ac.@this(toJava("cameraroll:/" + fileName));
                 fireCapture(ac);
 
             }
