@@ -2,7 +2,8 @@
 
 using org.xmlvm;
 namespace com.codename1.social {
-public class FacebookConnect: global::com.codename1.social.Login {
+public class FacebookConnect: global::com.codename1.social.Login 
+{
 private static global::com.codename1.social.FacebookConnect _finstance;
 
 public static global::java.lang.Class _fimplClass;
@@ -75,26 +76,27 @@ public static global::System.Object getInstance(){
     _r1_o = _ex.getJavaException();
     _ex = null;
     _r0_o = _r1_o;
-    _r1_o = new global::com.codename1.social.FacebookConnect();
+    _r1_o = new global::com.codename1.social.FacebookImpl();
     ((global::com.codename1.social.FacebookConnect) _r1_o).@this();
     global::com.codename1.social.FacebookConnect._finstance = (global::com.codename1.social.FacebookConnect) _r1_o;
     goto label18;
     label31:;
-    _r1_o = new global::com.codename1.social.FacebookConnect();
+    _r1_o = new global::com.codename1.social.FacebookImpl();
     ((global::com.codename1.social.FacebookConnect) _r1_o).@this();
     global::com.codename1.social.FacebookConnect._finstance = (global::com.codename1.social.FacebookConnect) _r1_o;
     goto label18;
 //XMLVM_END_WRAPPER[com.codename1.social.FacebookConnect: com.codename1.social.FacebookConnect getInstance()]
 }
 
-public virtual bool isFacebookSDKSupported(){
-//XMLVM_BEGIN_WRAPPER[com.codename1.social.FacebookConnect: boolean isFacebookSDKSupported()]
+public virtual bool isFacebookSDKSupported()
+{
+    //XMLVM_BEGIN_WRAPPER[com.codename1.social.FacebookConnect: boolean isFacebookSDKSupported()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r1_o = null;
     _r1_o = this;
     _r0.i = 0;
-    return _r0.i!=0;
-//XMLVM_END_WRAPPER[com.codename1.social.FacebookConnect: boolean isFacebookSDKSupported()]
+    return _r0.i != 0;
+    //XMLVM_END_WRAPPER[com.codename1.social.FacebookConnect: boolean isFacebookSDKSupported()]
 }
 
 public virtual void login(){
@@ -355,5 +357,4 @@ public override bool validateToken(global::java.lang.String n1){
 //XMLVM_END_WRAPPER[com.codename1.social.FacebookConnect]
 
 } // end of class: FacebookConnect
-
 } // end of namespace: com.codename1.social

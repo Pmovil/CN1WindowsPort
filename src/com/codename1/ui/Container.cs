@@ -204,6 +204,76 @@ public override global::System.Object getUIManager(){
 //XMLVM_END_WRAPPER[com.codename1.ui.Container: com.codename1.ui.plaf.UIManager getUIManager()]
 }
 
+public virtual global::System.Object add(global::com.codename1.ui.Component n1){
+//XMLVM_BEGIN_WRAPPER[com.codename1.ui.Container: com.codename1.ui.Container add(com.codename1.ui.Component)]
+    global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
+    _r0_o = this;
+    _r1_o = n1;
+    ((global::com.codename1.ui.Container) _r0_o).addComponent((global::com.codename1.ui.Component) _r1_o);
+    return (global::com.codename1.ui.Container) _r0_o;
+//XMLVM_END_WRAPPER[com.codename1.ui.Container: com.codename1.ui.Container add(com.codename1.ui.Component)]
+}
+
+public virtual global::System.Object add(global::java.lang.Object n1, global::com.codename1.ui.Component n2){
+//XMLVM_BEGIN_WRAPPER[com.codename1.ui.Container: com.codename1.ui.Container add(java.lang.Object, com.codename1.ui.Component)]
+    global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
+    _r0_o = this;
+    _r1_o = n1;
+    _r2_o = n2;
+    ((global::com.codename1.ui.Container) _r0_o).addComponent((global::java.lang.Object) _r1_o, (global::com.codename1.ui.Component) _r2_o);
+    return (global::com.codename1.ui.Container) _r0_o;
+//XMLVM_END_WRAPPER[com.codename1.ui.Container: com.codename1.ui.Container add(java.lang.Object, com.codename1.ui.Component)]
+}
+
+public virtual global::System.Object add(global::java.lang.String n1){
+//XMLVM_BEGIN_WRAPPER[com.codename1.ui.Container: com.codename1.ui.Container add(java.lang.String)]
+    global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
+    _r1_o = this;
+    _r2_o = n1;
+    _r0_o = new global::com.codename1.ui.Label();
+    ((global::com.codename1.ui.Label) _r0_o).@this((global::java.lang.String) _r2_o);
+    _r0_o = ((global::com.codename1.ui.Container) _r1_o).add((global::com.codename1.ui.Component) _r0_o);
+    return (global::com.codename1.ui.Container) _r0_o;
+//XMLVM_END_WRAPPER[com.codename1.ui.Container: com.codename1.ui.Container add(java.lang.String)]
+}
+
+public virtual global::System.Object add(global::java.lang.Object n1, global::java.lang.String n2){
+//XMLVM_BEGIN_WRAPPER[com.codename1.ui.Container: com.codename1.ui.Container add(java.lang.Object, java.lang.String)]
+    global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
+    _r1_o = this;
+    _r2_o = n1;
+    _r3_o = n2;
+    _r0_o = new global::com.codename1.ui.Label();
+    ((global::com.codename1.ui.Label) _r0_o).@this((global::java.lang.String) _r3_o);
+    _r0_o = ((global::com.codename1.ui.Container) _r1_o).add((global::java.lang.Object) _r2_o, (global::com.codename1.ui.Component) _r0_o);
+    return (global::com.codename1.ui.Container) _r0_o;
+//XMLVM_END_WRAPPER[com.codename1.ui.Container: com.codename1.ui.Container add(java.lang.Object, java.lang.String)]
+}
+
 public virtual void setUIManager(global::com.codename1.ui.plaf.UIManager n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Container: void setUIManager(com.codename1.ui.plaf.UIManager)]
     global::org.xmlvm._nElement _r0;
@@ -1743,17 +1813,11 @@ public override void cancelRepaints(){
 
 public override void deinitializeImpl(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Container: void deinitializeImpl()]
-    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     base.deinitializeImpl();
     _r3_o = ((global::com.codename1.ui.Container) _r4_o)._fcomponents;

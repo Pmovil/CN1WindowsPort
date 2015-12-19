@@ -53,12 +53,62 @@ public static int bitLength(global::com.codename1.util.TBigInteger n1){
     if (_r2.i != _r3.i) goto label33;
     _r1.i = _r1.i + -1;
     label33:;
-    _r3.l = (long) _r1.i;
-    _r3.i = global::com.codename1.util.TBigDecimal.numberOfLeadingZeros((long) _r3.l);
+    _r3.i = global::com.codename1.util.TBitLevel.numberOfLeadingZeros((int) _r1.i);
     _r0.i = _r0.i - _r3.i;
     _r3.i = _r0.i;
     goto label6;
 //XMLVM_END_WRAPPER[com.codename1.util.TBitLevel: int bitLength(com.codename1.util.TBigInteger)]
+}
+
+public static int numberOfLeadingZeros(int n1){
+//XMLVM_BEGIN_WRAPPER[com.codename1.util.TBitLevel: int numberOfLeadingZeros(int)]
+    global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
+    _r3.i = n1;
+    _r2.i = 32;
+    if (_r3.i != 0) goto label6;
+    _r1.i = _r2.i;
+    label5:;
+    return _r1.i;
+    label6:;
+    _r0.i = 0;
+    _r1.i = (int) (((uint) _r3.i) >> (0x1f & ((int) 16)));
+    if (_r1.i == 0) goto label15;
+    _r3.i = (int) (((uint) _r3.i) >> (0x1f & ((int) 16)));
+    _r0.i = _r0.i | 16;
+    label15:;
+    _r1.i = (int) (((uint) _r3.i) >> (0x1f & ((int) 8)));
+    if (_r1.i == 0) goto label23;
+    _r3.i = (int) (((uint) _r3.i) >> (0x1f & ((int) 8)));
+    _r0.i = _r0.i | 8;
+    label23:;
+    _r1.i = (int) (((uint) _r3.i) >> (0x1f & ((int) 4)));
+    if (_r1.i == 0) goto label31;
+    _r3.i = (int) (((uint) _r3.i) >> (0x1f & ((int) 4)));
+    _r0.i = _r0.i | 4;
+    label31:;
+    _r1.i = (int) (((uint) _r3.i) >> (0x1f & ((int) 2)));
+    if (_r1.i == 0) goto label39;
+    _r3.i = (int) (((uint) _r3.i) >> (0x1f & ((int) 2)));
+    _r0.i = _r0.i | 2;
+    label39:;
+    _r1.i = (int) (((uint) _r3.i) >> (0x1f & ((int) 1)));
+    if (_r1.i == 0) goto label47;
+    _r3.i = (int) (((uint) _r3.i) >> (0x1f & ((int) 1)));
+    _r0.i = _r0.i | 1;
+    label47:;
+    _r1.i = _r2.i - _r0.i;
+    _r2.i = 1;
+    _r1.i = _r1.i - _r2.i;
+    goto label5;
+//XMLVM_END_WRAPPER[com.codename1.util.TBitLevel: int numberOfLeadingZeros(int)]
 }
 
 public static int bitCount(global::com.codename1.util.TBigInteger n1){

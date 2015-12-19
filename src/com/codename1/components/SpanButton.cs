@@ -328,6 +328,37 @@ public virtual global::System.Object getIconPosition(){
 //XMLVM_END_WRAPPER[com.codename1.components.SpanButton: java.lang.String getIconPosition()]
 }
 
+public virtual void setCommand(global::com.codename1.ui.Command n1){
+//XMLVM_BEGIN_WRAPPER[com.codename1.components.SpanButton: void setCommand(com.codename1.ui.Command)]
+    global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
+    _r1_o = this;
+    _r2_o = n1;
+    _r0_o = ((global::com.codename1.components.SpanButton) _r1_o)._factualButton;
+    ((global::com.codename1.ui.Button) _r0_o).setCommand((global::com.codename1.ui.Command) _r2_o);
+    return;
+//XMLVM_END_WRAPPER[com.codename1.components.SpanButton: void setCommand(com.codename1.ui.Command)]
+}
+
+public virtual global::System.Object getCommand(){
+//XMLVM_BEGIN_WRAPPER[com.codename1.components.SpanButton: com.codename1.ui.Command getCommand()]
+    global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
+    _r1_o = this;
+    _r0_o = ((global::com.codename1.components.SpanButton) _r1_o)._factualButton;
+    _r0_o = ((global::com.codename1.ui.Button) _r0_o).getCommand();
+    return (global::com.codename1.ui.Command) _r0_o;
+//XMLVM_END_WRAPPER[com.codename1.components.SpanButton: com.codename1.ui.Command getCommand()]
+}
+
 public override global::System.Object getPropertyNames(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.components.SpanButton: java.lang.String[] getPropertyNames()]
     global::org.xmlvm._nElement _r0;

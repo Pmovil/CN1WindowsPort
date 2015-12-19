@@ -125,6 +125,7 @@ public virtual void setCommand(global::com.codename1.ui.Command n1){
     ((global::com.codename1.ui.Button) _r1_o).removeActionListener((global::com.codename1.ui.events.ActionListener) _r0_o);
     label9:;
     ((global::com.codename1.ui.Button) _r1_o)._fcmd = (global::com.codename1.ui.Command) _r2_o;
+    if (_r2_o == null) goto label40;
     _r0_o = ((global::com.codename1.ui.Command) _r2_o).getCommandName();
     ((global::com.codename1.ui.Button) _r1_o).setText((global::java.lang.String) _r0_o);
     _r0_o = ((global::com.codename1.ui.Command) _r2_o).getIcon();
@@ -133,6 +134,7 @@ public virtual void setCommand(global::com.codename1.ui.Command n1){
     ((global::com.codename1.ui.Button) _r1_o).setEnabled(0!=_r0.i);
     ((global::com.codename1.ui.Button) _r1_o).updateCommand();
     ((global::com.codename1.ui.Button) _r1_o).addActionListener((global::com.codename1.ui.events.ActionListener) _r2_o);
+    label40:;
     return;
 //XMLVM_END_WRAPPER[com.codename1.ui.Button: void setCommand(com.codename1.ui.Command)]
 }

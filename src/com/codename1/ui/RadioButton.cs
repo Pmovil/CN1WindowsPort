@@ -28,6 +28,58 @@ public void @this(global::java.lang.String n1){
 //XMLVM_END_WRAPPER[com.codename1.ui.RadioButton: void <init>(java.lang.String)]
 }
 
+public static global::System.Object createToggle(global::java.lang.String n1, global::com.codename1.ui.Image n2, global::com.codename1.ui.ButtonGroup n3){
+//XMLVM_BEGIN_WRAPPER[com.codename1.ui.RadioButton: com.codename1.ui.RadioButton createToggle(java.lang.String, com.codename1.ui.Image, com.codename1.ui.ButtonGroup)]
+    global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
+    _r2_o = n1;
+    _r3_o = n2;
+    _r4_o = n3;
+    _r0_o = new global::com.codename1.ui.RadioButton();
+    ((global::com.codename1.ui.RadioButton) _r0_o).@this((global::java.lang.String) _r2_o, (global::com.codename1.ui.Image) _r3_o);
+    ((global::com.codename1.ui.ButtonGroup) _r4_o).add((global::com.codename1.ui.RadioButton) _r0_o);
+    _r1.i = 1;
+    ((global::com.codename1.ui.RadioButton) _r0_o).setToggle(0!=_r1.i);
+    return (global::com.codename1.ui.RadioButton) _r0_o;
+//XMLVM_END_WRAPPER[com.codename1.ui.RadioButton: com.codename1.ui.RadioButton createToggle(java.lang.String, com.codename1.ui.Image, com.codename1.ui.ButtonGroup)]
+}
+
+public static global::System.Object createToggle(global::com.codename1.ui.Command n1, global::com.codename1.ui.ButtonGroup n2){
+//XMLVM_BEGIN_WRAPPER[com.codename1.ui.RadioButton: com.codename1.ui.RadioButton createToggle(com.codename1.ui.Command, com.codename1.ui.ButtonGroup)]
+    global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
+    _r3_o = n1;
+    _r4_o = n2;
+    _r0_o = new global::com.codename1.ui.RadioButton();
+    _r1_o = ((global::com.codename1.ui.Command) _r3_o).getCommandName();
+    _r2_o = ((global::com.codename1.ui.Command) _r3_o).getIcon();
+    ((global::com.codename1.ui.RadioButton) _r0_o).@this((global::java.lang.String) _r1_o, (global::com.codename1.ui.Image) _r2_o);
+    ((global::com.codename1.ui.RadioButton) _r0_o).setCommand((global::com.codename1.ui.Command) _r3_o);
+    ((global::com.codename1.ui.ButtonGroup) _r4_o).add((global::com.codename1.ui.RadioButton) _r0_o);
+    _r1.i = 1;
+    ((global::com.codename1.ui.RadioButton) _r0_o).setToggle(0!=_r1.i);
+    return (global::com.codename1.ui.RadioButton) _r0_o;
+//XMLVM_END_WRAPPER[com.codename1.ui.RadioButton: com.codename1.ui.RadioButton createToggle(com.codename1.ui.Command, com.codename1.ui.ButtonGroup)]
+}
+
 public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.RadioButton: void <init>()]
     global::org.xmlvm._nElement _r0;

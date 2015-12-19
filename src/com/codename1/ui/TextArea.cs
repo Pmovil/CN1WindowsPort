@@ -673,6 +673,43 @@ public virtual global::System.Object getText(){
 //XMLVM_END_WRAPPER[com.codename1.ui.TextArea: java.lang.String getText()]
 }
 
+public virtual int getAsInt(int n1){
+//XMLVM_BEGIN_WRAPPER[com.codename1.ui.TextArea: int getAsInt(int)]
+    global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
+    _r2_o = this;
+    _r3.i = n1;
+    try {
+    _r1_o = ((global::com.codename1.ui.TextArea) _r2_o)._ftext;
+    _r1.i = global::java.lang.Integer.parseInt((global::java.lang.String) _r1_o);
+    }
+    catch (global::System.Exception e) {
+ global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
+        global::System.Object _java_exception = ex.getJavaException();
+        if (_java_exception is global::java.lang.NumberFormatException) {
+            _ex = ex;
+            goto label7;
+        }
+        throw ex;
+    } // end catch
+    label6:;
+    return _r1.i;
+    label7:;
+    _r1_o = _ex.getJavaException();
+    _ex = null;
+    _r0_o = _r1_o;
+    _r1.i = _r3.i;
+    goto label6;
+//XMLVM_END_WRAPPER[com.codename1.ui.TextArea: int getAsInt(int)]
+}
+
 public virtual bool isEditable(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.TextArea: boolean isEditable()]
     global::org.xmlvm._nElement _r0;
