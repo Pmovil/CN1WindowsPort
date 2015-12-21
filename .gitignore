@@ -17,3 +17,6 @@ packages.config
 PumpopNati.csproj
 PumpopNati.csproj.user
 StoreManifest.xml
+.DS_Store
+*.DS_Store
+
