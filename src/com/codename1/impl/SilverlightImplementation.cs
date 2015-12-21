@@ -1,63 +1,60 @@
-using System;
-using System.Linq;
-using System.Collections.Generic;
-using com.codename1.impl;
-using com.codename1.payment;
-using com.codename1.ui;
-using com.codename1.ui.animations;
-using com.codename1.ui.events;
-using com.codename1.ui.geom;
-using Microsoft.Graphics.Canvas;
-using Microsoft.Graphics.Canvas.Effects;
-using Microsoft.Graphics.Canvas.Text;
-using Microsoft.Graphics.Canvas.UI;
-using Microsoft.Graphics.Canvas.UI.Xaml;
 using org.xmlvm;
-using System;
-using System.Collections.Concurrent;
-using System.Collections.Generic;
-using System.Diagnostics;
 using System.IO;
 using System.Linq;
-using System.Net;
-using System.Net.Http;
-using System.Numerics;
-using System.Runtime.InteropServices.WindowsRuntime;
-using System.Text;
+using System;
 using System.Threading;
-using System.Threading.Tasks;
-using Windows.ApplicationModel;
-using Windows.ApplicationModel.Activation;
-using Windows.ApplicationModel.Contacts;
-using Windows.ApplicationModel.Core;
-using Windows.ApplicationModel.Email;
-using Windows.ApplicationModel.Store;
-using Windows.Data.Xml.Dom;
-using Windows.Devices.Enumeration;
+using System.Collections.Generic;
+using System.Net;
 using Windows.Devices.Geolocation;
-using Windows.Devices.Sensors;
+using System.Diagnostics;
+using Microsoft.Graphics.Canvas;
+using Windows.UI.Xaml.Controls;
+using Windows.UI.Xaml;
+using Windows.ApplicationModel;
+using System.Threading.Tasks;
+using Windows.UI.Core;
+using Windows.Phone.UI.Input;
+using Windows.UI.Xaml.Input;
 using Windows.Foundation;
-using Windows.Graphics.Display;
-using Windows.Graphics.Imaging;
+using Windows.UI.Input;
+using Windows.Storage;
+using Windows.Devices.Sensors;
+using Windows.UI.Xaml.Navigation;
+using Windows.ApplicationModel.Contacts;
+using Windows.ApplicationModel.Email;
+using Windows.Storage.Streams;
+using Windows.UI.Xaml.Media;
+using Windows.Phone.Devices.Notification;
 using Windows.Media.Capture;
 using Windows.Media.MediaProperties;
-using Windows.Phone.Devices.Notification;
-using Windows.Phone.UI.Input;
-using Windows.Storage;
 using Windows.Storage.Pickers;
+using Microsoft.Graphics.Canvas.UI.Xaml;
+using Microsoft.Graphics.Canvas.Text;
 using Windows.Storage.Search;
-using Windows.Storage.Streams;
-using Windows.System;
+using System.Runtime.InteropServices.WindowsRuntime;
+using com.codename1.ui.animations;
+using com.codename1.ui;
+using com.codename1.ui.geom;
+using com.codename1.impl;
+using System.Net.Http;
 using Windows.UI;
-using Windows.UI.Core;
-using Windows.UI.Input;
-using Windows.UI.Text;
-using Windows.UI.Xaml;
-using Windows.UI.Xaml.Controls;
-using Windows.UI.Xaml.Input;
-using Windows.UI.Xaml.Media;
+using Microsoft.Graphics.Canvas.UI;
+using Windows.Graphics.Imaging;
 using Windows.UI.Xaml.Media.Imaging;
-using Windows.UI.Xaml.Navigation;
+using Windows.Graphics.Display;
+using Windows.UI.Text;
+using com.codename1.payment;
+using Windows.ApplicationModel.Store;
+using System.Collections.Concurrent;
+using System.Numerics;
+using Windows.System;
+using Windows.ApplicationModel.Activation;
+using System.Text;
+using Windows.Devices.Enumeration;
+using Windows.ApplicationModel.Core;
+using com.codename1.ui.events;
+using Microsoft.Graphics.Canvas.Effects;
+using Windows.Data.Xml.Dom;
 
 namespace com.codename1.impl {
     public class SilverlightImplementation : global::com.codename1.impl.CodenameOneImplementation, com.codename1.impl.IFileOpenPickerContinuable {
@@ -796,12 +793,15 @@ namespace com.codename1.impl {
         private static ConcurrentDictionary<int, CodenameOneImage> imageCache = new ConcurrentDictionary<int, CodenameOneImage>();
 
         public override global::System.Object createImage(global::org.xmlvm._nArrayAdapter<sbyte> n1, int n2, int n3) {
-            if (imageCache.ContainsKey(n1.hashCode())) {
-                CodenameOneImage cached;
-                imageCache.TryGetValue(n1.hashCode(), out cached);
-                cached.lastAccess = System.DateTime.Now.Ticks;
-                return cached;
-            }
+ //           var ticks = System.DateTime.Now.Ticks; //FA
+            // I think Image Cache is not needed; first we load image and then we try to get it from cache?
+            // other issue is that hasCode function is not working well for _nArrayAdapter
+            //if (imageCache.ContainsKey(n1.hashCode())) {
+            //    CodenameOneImage cached;
+            //    imageCache.TryGetValue(n1.hashCode(), out cached);
+            //    cached.lastAccess = System.DateTime.Now.Ticks;
+            //    return cached;
+            //}
             if (n1.Length == 0) {
                 // workaround for empty images
                 return createMutableImage(1, 1, 0xffffff);
@@ -819,12 +819,14 @@ namespace com.codename1.impl {
                 // TODO
                 byte[] imageArray = toByteArray(n1.getCSharpArray());
                 contentType = ImageHelper.GetContentType(imageArray);
-                s = new MemoryStream(imageArray).AsRandomAccessStream();
+               
+                s = new MemoryRandomAccessStream(imageArray); // new MemoryStream(imageArray).AsRandomAccessStream();
             }
             else {
                 byte[] imageArray = toByteArray(n1.getCSharpArray());
+                
                 contentType = ImageHelper.GetContentType(imageArray);
-                s = new MemoryStream(imageArray).AsRandomAccessStream();
+                s = new MemoryRandomAccessStream(imageArray); // new MemoryStream(imageArray).AsRandomAccessStream();
             }
             try {
                 CanvasBitmap canvasbitmap = CanvasBitmap.LoadAsync(screen, s).AsTask().ConfigureAwait(false).GetAwaiter().GetResult();
@@ -838,16 +840,16 @@ namespace com.codename1.impl {
                 cim.graphics.destination.drawImage(canvasbitmap, 0, 0);
                 cim.graphics.destination.dispose();
                 ci = cim;
-                dispatcher.RunAsync(CoreDispatcherPriority.Low, () => {
-                    imageCache.TryAdd(n1.hashCode(), ci);
-                    while (imageCache.Count > maxCacheSize) {
-                        int toRemove = imageCache.OrderBy(m => m.Value.lastAccess).First().Key;
-                        CodenameOneImage ignored;
-                        imageCache.TryRemove(toRemove, out ignored);
-                        //Debug.WriteLine("Image removed from cache " + toRemove);
-                    }
-                    //Debug.WriteLine("Image cached " + n1.hashCode());
-                }).AsTask();
+                //dispatcher.RunAsync(CoreDispatcherPriority.Low, () => {
+                //    imageCache.TryAdd(n1.hashCode(), ci);
+                //    while (imageCache.Count > maxCacheSize) {
+                //        int toRemove = imageCache.OrderBy(m => m.Value.lastAccess).First().Key;
+                //        CodenameOneImage ignored;
+                //        imageCache.TryRemove(toRemove, out ignored);
+                //        //Debug.WriteLine("Image removed from cache " + toRemove);
+                //    }
+                //    //Debug.WriteLine("Image cached " + n1.hashCode());
+                //}).AsTask();
                 //Debug.WriteLine("Image created " + n1.hashCode());
             }
             catch (Exception) {
@@ -857,6 +859,9 @@ namespace com.codename1.impl {
             ///          }).AsTask().ConfigureAwait(false).GetAwaiter().GetResult();
             ///          are.WaitOne();
             ///      }
+            ///                  
+//            ticks= (System.DateTime.Now.Ticks-ticks)/10; //FA
+//            global::eu.forann.tools.LogF.eventNewItem(toJava("[createImage] ticks:" + ticks ));
             return ci;
         }
 
@@ -1216,12 +1221,17 @@ namespace com.codename1.impl {
         }
 
         public override object createMutableImage(int width, int height, int color) {
+//            var ticks = System.DateTime.Now.Ticks; //FA
+
             CodenameOneImage ci = new CodenameOneImage();
             ci.@this();
             ci.mutable = true;
             ci.image = new CanvasRenderTarget(screen, screen.ConvertPixelsToDips(width), screen.ConvertPixelsToDips(height));
             ci.graphics.destination.setColor(color);
             ci.graphics.destination.setAlpha((color >> 24) & 0xff);
+//            ticks= (System.DateTime.Now.Ticks-ticks)/10; //FA
+//            global::eu.forann.tools.LogF.eventNewItem(toJava("[createMutableImage] ticks:" + ticks + "us w/h/c:" + width + "," + height + "/" + color));
+ //           System.Diagnostics.Debug.WriteLine(System.DateTime.Now.ToString() + "[createMutableImage]ticks:" + ticks+"us w/h/c:"+width+","+height+"/"+color);
             //ci.graphics.destination.clear();
             return ci;
         }
