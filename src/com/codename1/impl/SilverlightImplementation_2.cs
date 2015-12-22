@@ -56,6 +56,7 @@ using Windows.ApplicationModel.Core;
 using com.codename1.ui.events;
 using Microsoft.Graphics.Canvas.Effects;
 using Windows.Data.Xml.Dom;
+using System.Runtime.InteropServices.WindowsRuntime;
 
 
 namespace com.codename1.impl
@@ -1158,5 +1159,74 @@ namespace com.codename1.impl
             { new byte[]{ 0x89, 0x50, 0x4E, 0x47, 0x0D, 0x0A, 0x1A, 0x0A }, "image/png" },
             { new byte[]{ 0xff, 0xd8 }, "image/jpeg" },
         };
+    }
+    //very fast MemoryRandomAcceess class but only for byte[] array input !!!
+    // and for class that is not using stream olny IBuffer!!!
+    class MemoryRandomAccessStream : IRandomAccessStream {
+        private byte[] m_Bytes;
+        private int m_Position = 0;
+
+        public MemoryRandomAccessStream(byte[] bytes) {
+            this.m_Bytes = bytes;
+        }
+
+        public IInputStream GetInputStreamAt(ulong position) {
+            throw new NotSupportedException();
+        }
+
+        public IOutputStream GetOutputStreamAt(ulong position) {
+            throw new NotSupportedException();
+        }
+
+        public ulong Size
+        {
+            get { return (ulong)this.m_Bytes.Length; } // m_InternalStream.Length; }
+            set { throw new NotSupportedException(); }
+        }
+
+        public bool CanRead
+        {
+            get { return true; }
+        }
+
+        public bool CanWrite
+        {
+            get { return false; }
+        }
+
+        public IRandomAccessStream CloneStream() {
+            throw new NotSupportedException();
+        }
+
+        public ulong Position
+        {
+            get { return (ulong)m_Position; } // this m_this.m_InternalStream.Position; }
+        }
+
+        public void Seek(ulong position) {
+            m_Position = (int)position;
+        }
+
+        public void Dispose() {
+        }
+
+        public Windows.Foundation.IAsyncOperationWithProgress<IBuffer, uint> ReadAsync(IBuffer buffer, uint count, InputStreamOptions options) {
+
+            return AsyncInfo.Run<IBuffer, uint>(async (token, progress) =>
+            {
+                byte[] b = new byte[count];
+                Array.Copy(m_Bytes, m_Position, b,0, b.Length);
+                progress.Report(100);
+                return b.AsBuffer(); 
+            });
+        }
+
+        public Windows.Foundation.IAsyncOperation<bool> FlushAsync() {
+            throw new NotSupportedException();
+        }
+
+        public Windows.Foundation.IAsyncOperationWithProgress<uint, uint> WriteAsync(IBuffer buffer) {
+            throw new NotSupportedException();
+        }
     }
 }// end of namespace: com.codename1.impl
