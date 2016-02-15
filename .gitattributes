@@ -6,7 +6,7 @@
 #*.vcproj text eol=lf
 #*.bat text eol=lf
 #*.sln text eol=lf
-#*.cs text eol=lf
+*.cs text eol=crlf
 * text eol=lf
 
 # Custom for Visual Studio
