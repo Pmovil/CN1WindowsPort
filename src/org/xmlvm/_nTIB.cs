@@ -46,7 +46,7 @@ namespace org.xmlvm {
         }
 
         public java.lang.Class getComponentType() {
-            /*
+           
             global::System.Type componentNativeType = null;
             if (this.myType.Equals(typeof(org.xmlvm._nArrayAdapter<bool>))) {
                 componentNativeType = typeof(bool);
@@ -71,8 +71,8 @@ namespace org.xmlvm {
             }
             java.lang.Class result = _nTIB.getClass(componentNativeType);
             return result;
-            */
-            return this.componentTIB.getClass();
+          
+           // return this.componentTIB.getClass();
         }
 
         public bool isPrimitive() {
@@ -288,7 +288,6 @@ namespace org.xmlvm {
             return result;
         }
 
-        /*
         public static java.lang.String nativeTypeToJavaTypeName(global::System.Type nativeType) {
             string result;
             _nTIB tib;
@@ -305,7 +304,7 @@ namespace org.xmlvm {
             }
             return org.xmlvm._nUtil.toJavaString(result);
         }
-        */
+       
 
         public static java.lang.Object boxIfPrimitive(global::System.Object aValue,
                                                       global::System.Type aType) {

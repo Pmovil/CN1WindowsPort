@@ -94,19 +94,30 @@ public static global::System.Object encloseIn(global::com.codename1.ui.layouts.L
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
-    _r1_o = n1;
-    _r2_o = n2;
-    _r3_o = n3;
+    _r2_o = n1;
+    _r3_o = n2;
+    _r4_o = n3;
     _r0_o = new global::com.codename1.ui.Container();
-    ((global::com.codename1.ui.Container) _r0_o).@this((global::com.codename1.ui.layouts.Layout) _r1_o);
-    if (_r3_o == null) goto label11;
-    ((global::com.codename1.ui.Container) _r0_o).addComponent((global::java.lang.Object) _r3_o, (global::com.codename1.ui.Component) _r2_o);
-    label10:;
-    return (global::com.codename1.ui.Container) _r0_o;
-    label11:;
-    ((global::com.codename1.ui.Container) _r0_o).addComponent((global::com.codename1.ui.Component) _r2_o);
-    goto label10;
+    ((global::com.codename1.ui.Container) _r0_o).@this((global::com.codename1.ui.layouts.Layout) _r2_o);
+    _r1.i = ((_r4_o != null) && (_r4_o is global::com.codename1.ui.Component)) ? 1 : 0;
+    if (_r1.i == 0) goto label20;
+    _r1_o = ((global::com.codename1.ui.Container) _r0_o).add((global::com.codename1.ui.Component) _r3_o);
+    _r4_o = _r4_o;
+    _r1_o = ((global::com.codename1.ui.Container) _r1_o).add((global::com.codename1.ui.Component) _r4_o);
+    label19:;
+    return (global::com.codename1.ui.Container) _r1_o;
+    label20:;
+    if (_r4_o == null) goto label27;
+    ((global::com.codename1.ui.Container) _r0_o).addComponent((global::java.lang.Object) _r4_o, (global::com.codename1.ui.Component) _r3_o);
+    label25:;
+    _r1_o = _r0_o;
+    goto label19;
+    label27:;
+    ((global::com.codename1.ui.Container) _r0_o).addComponent((global::com.codename1.ui.Component) _r3_o);
+    goto label25;
 //XMLVM_END_WRAPPER[com.codename1.ui.Container: com.codename1.ui.Container encloseIn(com.codename1.ui.layouts.Layout, com.codename1.ui.Component, java.lang.Object)]
 }
 
@@ -253,6 +264,24 @@ public virtual global::System.Object add(global::java.lang.String n1){
 //XMLVM_END_WRAPPER[com.codename1.ui.Container: com.codename1.ui.Container add(java.lang.String)]
 }
 
+public virtual global::System.Object add(global::com.codename1.ui.Image n1){
+//XMLVM_BEGIN_WRAPPER[com.codename1.ui.Container: com.codename1.ui.Container add(com.codename1.ui.Image)]
+    global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
+    _r1_o = this;
+    _r2_o = n1;
+    _r0_o = new global::com.codename1.ui.Label();
+    ((global::com.codename1.ui.Label) _r0_o).@this((global::com.codename1.ui.Image) _r2_o);
+    _r0_o = ((global::com.codename1.ui.Container) _r1_o).add((global::com.codename1.ui.Component) _r0_o);
+    return (global::com.codename1.ui.Container) _r0_o;
+//XMLVM_END_WRAPPER[com.codename1.ui.Container: com.codename1.ui.Container add(com.codename1.ui.Image)]
+}
+
 public virtual global::System.Object add(global::java.lang.Object n1, global::java.lang.String n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Container: com.codename1.ui.Container add(java.lang.Object, java.lang.String)]
     global::org.xmlvm._nElement _r0;
@@ -272,6 +301,27 @@ public virtual global::System.Object add(global::java.lang.Object n1, global::ja
     _r0_o = ((global::com.codename1.ui.Container) _r1_o).add((global::java.lang.Object) _r2_o, (global::com.codename1.ui.Component) _r0_o);
     return (global::com.codename1.ui.Container) _r0_o;
 //XMLVM_END_WRAPPER[com.codename1.ui.Container: com.codename1.ui.Container add(java.lang.Object, java.lang.String)]
+}
+
+public virtual global::System.Object add(global::java.lang.Object n1, global::com.codename1.ui.Image n2){
+//XMLVM_BEGIN_WRAPPER[com.codename1.ui.Container: com.codename1.ui.Container add(java.lang.Object, com.codename1.ui.Image)]
+    global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
+    _r1_o = this;
+    _r2_o = n1;
+    _r3_o = n2;
+    _r0_o = new global::com.codename1.ui.Label();
+    ((global::com.codename1.ui.Label) _r0_o).@this((global::com.codename1.ui.Image) _r3_o);
+    _r0_o = ((global::com.codename1.ui.Container) _r1_o).add((global::java.lang.Object) _r2_o, (global::com.codename1.ui.Component) _r0_o);
+    return (global::com.codename1.ui.Container) _r0_o;
+//XMLVM_END_WRAPPER[com.codename1.ui.Container: com.codename1.ui.Container add(java.lang.Object, com.codename1.ui.Image)]
 }
 
 public virtual void setUIManager(global::com.codename1.ui.plaf.UIManager n1){
@@ -876,12 +926,11 @@ public virtual void addComponent(global::com.codename1.ui.Component n1){
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
-    _r0_o = ((global::com.codename1.ui.Container) _r2_o)._flayout;
     _r1_o = null;
+    _r0_o = ((global::com.codename1.ui.Container) _r2_o)._flayout;
     ((global::com.codename1.ui.layouts.Layout) _r0_o).addLayoutComponent((global::java.lang.Object) _r1_o, (global::com.codename1.ui.Component) _r3_o, (global::com.codename1.ui.Container) _r2_o);
-    _r0_o = ((global::com.codename1.ui.Container) _r2_o)._fcomponents;
-    _r0.i = ((global::java.util.ArrayList) _r0_o).size();
-    ((global::com.codename1.ui.Container) _r2_o).insertComponentAt((int) _r0.i, (global::com.codename1.ui.Component) _r3_o);
+    _r0.i = 2147483647;
+    ((global::com.codename1.ui.Container) _r2_o).insertComponentAt((int) _r0.i, (global::java.lang.Object) _r1_o, (global::com.codename1.ui.Component) _r3_o);
     return;
 //XMLVM_END_WRAPPER[com.codename1.ui.Container: void addComponent(com.codename1.ui.Component)]
 }
@@ -896,15 +945,17 @@ public virtual void addComponent(global::java.lang.Object n1, global::com.codena
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
-    _r1_o = this;
-    _r2_o = n1;
-    _r3_o = n2;
-    _r0_o = ((global::com.codename1.ui.Container) _r1_o)._flayout;
-    ((global::com.codename1.ui.layouts.Layout) _r0_o).addLayoutComponent((global::java.lang.Object) _r2_o, (global::com.codename1.ui.Component) _r3_o, (global::com.codename1.ui.Container) _r1_o);
-    _r0_o = ((global::com.codename1.ui.Container) _r1_o)._fcomponents;
-    _r0.i = ((global::java.util.ArrayList) _r0_o).size();
-    ((global::com.codename1.ui.Container) _r1_o).insertComponentAt((int) _r0.i, (global::com.codename1.ui.Component) _r3_o);
+    _r2_o = this;
+    _r3_o = n1;
+    _r4_o = n2;
+    _r0_o = ((global::com.codename1.ui.Container) _r2_o)._flayout;
+    ((global::com.codename1.ui.layouts.Layout) _r0_o).addLayoutComponent((global::java.lang.Object) _r3_o, (global::com.codename1.ui.Component) _r4_o, (global::com.codename1.ui.Container) _r2_o);
+    _r0.i = 2147483647;
+    _r1_o = null;
+    ((global::com.codename1.ui.Container) _r2_o).insertComponentAt((int) _r0.i, (global::java.lang.Object) _r1_o, (global::com.codename1.ui.Component) _r4_o);
     return;
 //XMLVM_END_WRAPPER[com.codename1.ui.Container: void addComponent(java.lang.Object, com.codename1.ui.Component)]
 }
@@ -919,22 +970,76 @@ public virtual void addComponent(int n1, global::java.lang.Object n2, global::co
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
-    _r1_o = this;
-    _r2.i = n1;
-    _r3_o = n2;
-    _r4_o = n3;
-    _r0_o = ((global::com.codename1.ui.Container) _r1_o)._flayout;
-    ((global::com.codename1.ui.layouts.Layout) _r0_o).addLayoutComponent((global::java.lang.Object) _r3_o, (global::com.codename1.ui.Component) _r4_o, (global::com.codename1.ui.Container) _r1_o);
-    ((global::com.codename1.ui.Container) _r1_o).insertComponentAt((int) _r2.i, (global::com.codename1.ui.Component) _r4_o);
+    _r0_o = this;
+    _r1.i = n1;
+    _r2_o = n2;
+    _r3_o = n3;
+    ((global::com.codename1.ui.Container) _r0_o).insertComponentAt((int) _r1.i, (global::java.lang.Object) _r2_o, (global::com.codename1.ui.Component) _r3_o);
     return;
 //XMLVM_END_WRAPPER[com.codename1.ui.Container: void addComponent(int, java.lang.Object, com.codename1.ui.Component)]
 }
 
-public virtual void insertComponentAt(int n1, global::com.codename1.ui.Component n2){
-//XMLVM_BEGIN_WRAPPER[com.codename1.ui.Container: void insertComponentAt(int, com.codename1.ui.Component)]
+public virtual void insertComponentAt(int n1, global::java.lang.Object n2, global::com.codename1.ui.Component n3){
+//XMLVM_BEGIN_WRAPPER[com.codename1.ui.Container: void insertComponentAt(int, java.lang.Object, com.codename1.ui.Component)]
+    global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
+    _r4_o = this;
+    _r5.i = n1;
+    _r6_o = n2;
+    _r7_o = n3;
+    _r0_o = ((global::com.codename1.ui.Container) _r4_o).getAnimationManager();
+    if (_r0_o == null) goto label59;
+    _r1.i = ((global::com.codename1.ui.AnimationManager) _r0_o).isAnimating() ? 1 : 0;
+    if (_r1.i == 0) goto label59;
+    _r1_o = ((global::com.codename1.ui.Component) _r7_o).getParent();
+    if (_r1_o == null) goto label47;
+    _r1_o = new global::java.lang.IllegalArgumentException();
+    _r2_o = new global::java.lang.StringBuilder();
+    ((global::java.lang.StringBuilder) _r2_o).@this();
+    // Value=Component is already contained in Container: 
+    _r3_o = new global::java.lang.String();
+    ((global::java.lang.String)_r3_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)67)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 109)), unchecked((char) unchecked((uint) 112)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 115)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 100)), unchecked((char) unchecked((uint) 121)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 99)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 100)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 67)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 58)), unchecked((char) unchecked((uint) 32))}));
+    _r2_o = ((global::java.lang.StringBuilder) _r2_o).append((global::java.lang.String) _r3_o);
+    _r3_o = ((global::com.codename1.ui.Component) _r7_o).getParent();
+    _r2_o = ((global::java.lang.StringBuilder) _r2_o).append((global::java.lang.Object) _r3_o);
+    _r2_o = ((global::java.lang.StringBuilder) _r2_o).toString();
+    ((global::java.lang.IllegalArgumentException) _r1_o).@this((global::java.lang.String) _r2_o);
+    throw new global::org.xmlvm._nExceptionAdapter((global::java.lang.IllegalArgumentException) _r1_o);
+    label47:;
+    ((global::com.codename1.ui.Component) _r7_o).setParent((global::com.codename1.ui.Container) _r4_o);
+    _r1_o = new global::com.codename1.ui.Container_21();
+    ((global::com.codename1.ui.Container_21) _r1_o).@this((global::com.codename1.ui.Container) _r4_o, (global::com.codename1.ui.Component) _r7_o, (global::java.lang.Object) _r6_o, (int) _r5.i);
+    ((global::com.codename1.ui.AnimationManager) _r0_o).addAnimation((global::com.codename1.ui.animations.ComponentAnimation) _r1_o);
+    label58:;
+    return;
+    label59:;
+    if (_r6_o == null) goto label66;
+    _r1_o = ((global::com.codename1.ui.Container) _r4_o)._flayout;
+    ((global::com.codename1.ui.layouts.Layout) _r1_o).addLayoutComponent((global::java.lang.Object) _r6_o, (global::com.codename1.ui.Component) _r7_o, (global::com.codename1.ui.Container) _r4_o);
+    label66:;
+    ((global::com.codename1.ui.Container) _r4_o).insertComponentAtImpl((int) _r5.i, (global::com.codename1.ui.Component) _r7_o);
+    goto label58;
+//XMLVM_END_WRAPPER[com.codename1.ui.Container: void insertComponentAt(int, java.lang.Object, com.codename1.ui.Component)]
+}
+
+public virtual void insertComponentAtImpl(int n1, global::com.codename1.ui.Component n2){
+//XMLVM_BEGIN_WRAPPER[com.codename1.ui.Container: void insertComponentAtImpl(int, com.codename1.ui.Component)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
@@ -956,8 +1061,13 @@ public virtual void insertComponentAt(int n1, global::com.codename1.ui.Component
     _r6.i = n1;
     _r7_o = n2;
     _r4.i = 1;
+    _r2.i = 2147483647;
+    if (_r6.i != _r2.i) goto label12;
+    _r2_o = ((global::com.codename1.ui.Container) _r5_o)._fcomponents;
+    _r6.i = ((global::java.util.ArrayList) _r2_o).size();
+    label12:;
     _r2_o = ((global::com.codename1.ui.Component) _r7_o).getParent();
-    if (_r2_o == null) goto label36;
+    if (_r2_o == null) goto label47;
     _r2_o = new global::java.lang.IllegalArgumentException();
     _r3_o = new global::java.lang.StringBuilder();
     ((global::java.lang.StringBuilder) _r3_o).@this();
@@ -970,38 +1080,38 @@ public virtual void insertComponentAt(int n1, global::com.codename1.ui.Component
     _r3_o = ((global::java.lang.StringBuilder) _r3_o).toString();
     ((global::java.lang.IllegalArgumentException) _r2_o).@this((global::java.lang.String) _r3_o);
     throw new global::org.xmlvm._nExceptionAdapter((global::java.lang.IllegalArgumentException) _r2_o);
-    label36:;
+    label47:;
     _r2.i = ((_r7_o != null) && (_r7_o is global::com.codename1.ui.Form)) ? 1 : 0;
-    if (_r2.i == 0) goto label47;
+    if (_r2.i == 0) goto label58;
     ((global::com.codename1.ui.Component) _r7_o).setVisible(0!=_r4.i);
     _r2_o = null;
     ((global::com.codename1.ui.Component) _r7_o).setPreferredSize((global::com.codename1.ui.geom.Dimension) _r2_o);
-    label47:;
+    label58:;
     _r0_o = ((global::com.codename1.ui.Container) _r5_o).getUIManager();
     _r2_o = ((global::com.codename1.ui.Component) _r7_o).getUIManager();
-    if (_r0_o == _r2_o) goto label93;
+    if (_r0_o == _r2_o) goto label104;
     _r1.i = _r4.i;
-    label58:;
+    label69:;
     ((global::com.codename1.ui.Component) _r7_o).setParent((global::com.codename1.ui.Container) _r5_o);
-    if (_r1.i == 0) goto label75;
+    if (_r1.i == 0) goto label86;
     _r2_o = global::com.codename1.ui.Display.getInstance();
-    _r3_o = new global::com.codename1.ui.Container_21();
-    ((global::com.codename1.ui.Container_21) _r3_o).@this((global::com.codename1.ui.Container) _r5_o, (global::com.codename1.ui.Component) _r7_o);
+    _r3_o = new global::com.codename1.ui.Container_22();
+    ((global::com.codename1.ui.Container_22) _r3_o).@this((global::com.codename1.ui.Container) _r5_o, (global::com.codename1.ui.Component) _r7_o);
     ((global::com.codename1.ui.Display) _r2_o).callSerially((global::java.lang.Runnable) _r3_o);
-    label75:;
+    label86:;
     _r2_o = ((global::com.codename1.ui.Container) _r5_o)._fcomponents;
     ((global::java.util.ArrayList) _r2_o).add((int) _r6.i, (global::java.lang.Object) _r7_o);
     ((global::com.codename1.ui.Container) _r5_o).setShouldCalcPreferredSize(0!=_r4.i);
     _r2.i = ((global::com.codename1.ui.Container) _r5_o).isInitialized() ? 1 : 0;
-    if (_r2.i == 0) goto label92;
+    if (_r2.i == 0) goto label103;
     ((global::com.codename1.ui.Component) _r7_o).initComponentImpl();
-    label92:;
+    label103:;
     return;
-    label93:;
+    label104:;
     _r2.i = 0;
     _r1.i = _r2.i;
-    goto label58;
-//XMLVM_END_WRAPPER[com.codename1.ui.Container: void insertComponentAt(int, com.codename1.ui.Component)]
+    goto label69;
+//XMLVM_END_WRAPPER[com.codename1.ui.Container: void insertComponentAtImpl(int, com.codename1.ui.Component)]
 }
 
 public virtual void addComponent(int n1, global::com.codename1.ui.Component n2){
@@ -1014,16 +1124,12 @@ public virtual void addComponent(int n1, global::com.codename1.ui.Component n2){
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
-    _r2_o = this;
-    _r3.i = n1;
-    _r4_o = n2;
-    _r0_o = ((global::com.codename1.ui.Container) _r2_o)._flayout;
-    _r1_o = null;
-    ((global::com.codename1.ui.layouts.Layout) _r0_o).addLayoutComponent((global::java.lang.Object) _r1_o, (global::com.codename1.ui.Component) _r4_o, (global::com.codename1.ui.Container) _r2_o);
-    ((global::com.codename1.ui.Container) _r2_o).insertComponentAt((int) _r3.i, (global::com.codename1.ui.Component) _r4_o);
+    _r1_o = this;
+    _r2.i = n1;
+    _r3_o = n2;
+    _r0_o = null;
+    ((global::com.codename1.ui.Container) _r1_o).insertComponentAt((int) _r2.i, (global::java.lang.Object) _r0_o, (global::com.codename1.ui.Component) _r3_o);
     return;
 //XMLVM_END_WRAPPER[com.codename1.ui.Container: void addComponent(int, com.codename1.ui.Component)]
 }
@@ -1376,16 +1482,22 @@ private void replaceComponents(global::com.codename1.ui.Component n1, global::co
     _r2_o = _r0_o;
     ((global::com.codename1.ui.Container) _r2_o).layoutContainer();
     label132:;
-    _r1_o = new global::com.codename1.ui.Container_2Anim();
-    ((global::com.codename1.ui.Container_2Anim) _r1_o).@this((global::com.codename1.ui.Container) _r5_o, (global::com.codename1.ui.Component) _r6_o, (global::com.codename1.ui.Component) _r7_o, (global::com.codename1.ui.animations.Transition) _r8_o);
-    ((global::com.codename1.ui.Container_2Anim) _r1_o)._fonFinish = (global::java.lang.Runnable) _r11_o;
-    ((global::com.codename1.ui.Container_2Anim) _r1_o)._fgrowSpeed = _r12.i;
-    ((global::com.codename1.ui.Container_2Anim) _r1_o)._flayoutAnimationSpeed = _r13.i;
-    _r2_o = ((global::com.codename1.ui.Container) _r5_o).getComponentForm();
-    ((global::com.codename1.ui.Form) _r2_o).registerAnimatedInternal((global::com.codename1.ui.animations.Animation) _r1_o);
-    if (_r9.i == 0) goto label83;
-    _r2_o = global::com.codename1.ui.Display.getInstance();
-    ((global::com.codename1.ui.Display) _r2_o).invokeAndBlock((global::java.lang.Runnable) _r1_o, 0!=_r10.i);
+    _r1_o = new global::com.codename1.ui.Container_2TransitionAnimation();
+    ((global::com.codename1.ui.Container_2TransitionAnimation) _r1_o).@this((global::com.codename1.ui.Container) _r5_o, (global::com.codename1.ui.Component) _r6_o, (global::com.codename1.ui.Component) _r7_o, (global::com.codename1.ui.animations.Transition) _r8_o);
+    ((global::com.codename1.ui.Container_2TransitionAnimation) _r1_o)._fgrowSpeed = _r12.i;
+    ((global::com.codename1.ui.Container_2TransitionAnimation) _r1_o)._flayoutAnimationSpeed = _r13.i;
+    if (_r9.i == 0) goto label151;
+    _r2_o = ((global::com.codename1.ui.Container) _r5_o).getAnimationManager();
+    ((global::com.codename1.ui.AnimationManager) _r2_o).addAnimationAndBlock((global::com.codename1.ui.animations.ComponentAnimation) _r1_o);
+    goto label83;
+    label151:;
+    if (_r11_o == null) goto label161;
+    _r2_o = ((global::com.codename1.ui.Container) _r5_o).getAnimationManager();
+    ((global::com.codename1.ui.AnimationManager) _r2_o).addAnimation((global::com.codename1.ui.animations.ComponentAnimation) _r1_o, (global::java.lang.Runnable) _r11_o);
+    goto label83;
+    label161:;
+    _r2_o = ((global::com.codename1.ui.Container) _r5_o).getAnimationManager();
+    ((global::com.codename1.ui.AnimationManager) _r2_o).addAnimation((global::com.codename1.ui.animations.ComponentAnimation) _r1_o);
     goto label83;
 //XMLVM_END_WRAPPER[com.codename1.ui.Container: void replaceComponents(com.codename1.ui.Component, com.codename1.ui.Component, com.codename1.ui.animations.Transition, boolean, boolean, java.lang.Runnable, int, int)]
 }
@@ -1556,8 +1668,7 @@ private void cancelRepaintsRecursively(global::com.codename1.ui.Component n1){
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
-    _r0_o = global::com.codename1.ui.Display.getInstance();
-    _r0_o = ((global::com.codename1.ui.Display) _r0_o).getImplementation();
+    _r0_o = global::com.codename1.ui.Display._fimpl;
     ((global::com.codename1.ui.Container) _r1_o).cancelRepaintsRecursively((global::com.codename1.ui.Component) _r2_o, (global::com.codename1.impl.CodenameOneImplementation) _r0_o);
     return;
 //XMLVM_END_WRAPPER[com.codename1.ui.Container: void cancelRepaintsRecursively(com.codename1.ui.Component)]
@@ -1615,7 +1726,7 @@ public virtual void replace(global::com.codename1.ui.Component n1, global::com.c
     _r5_o = ((global::com.codename1.ui.Container) _r6_o)._flayout;
     _r1_o = ((global::com.codename1.ui.layouts.Layout) _r5_o).getComponentConstraint((global::com.codename1.ui.Component) _r7_o);
     if (_r1_o == null) goto label94;
-    ((global::com.codename1.ui.Container) _r6_o).removeComponentImpl((global::com.codename1.ui.Component) _r7_o);
+    ((global::com.codename1.ui.Container) _r6_o).removeComponentImplNoAnimationSafety((global::com.codename1.ui.Component) _r7_o);
     _r5_o = ((global::com.codename1.ui.Container) _r6_o)._flayout;
     ((global::com.codename1.ui.layouts.Layout) _r5_o).addLayoutComponent((global::java.lang.Object) _r1_o, (global::com.codename1.ui.Component) _r8_o, (global::com.codename1.ui.Container) _r6_o);
     label60:;
@@ -1625,7 +1736,7 @@ public virtual void replace(global::com.codename1.ui.Component n1, global::com.c
     if (_r4.i >= 0) goto label70;
     _r4.i = 0;
     label70:;
-    ((global::com.codename1.ui.Container) _r6_o).insertComponentAt((int) _r4.i, (global::com.codename1.ui.Component) _r8_o);
+    ((global::com.codename1.ui.Container) _r6_o).insertComponentAtImpl((int) _r4.i, (global::com.codename1.ui.Component) _r8_o);
     if (_r3.i == 0) goto label90;
     _r5.i = ((global::com.codename1.ui.Component) _r8_o).isFocusable() ? 1 : 0;
     if (_r5.i == 0) goto label102;
@@ -1639,7 +1750,7 @@ public virtual void replace(global::com.codename1.ui.Component n1, global::com.c
     _r3.i = _r5.i;
     goto label25;
     label94:;
-    ((global::com.codename1.ui.Container) _r6_o).removeComponentImpl((global::com.codename1.ui.Component) _r7_o);
+    ((global::com.codename1.ui.Container) _r6_o).removeComponentImplNoAnimationSafety((global::com.codename1.ui.Component) _r7_o);
     goto label60;
     label98:;
     ((global::com.codename1.ui.Component) _r8_o).requestFocus();
@@ -1735,6 +1846,38 @@ public virtual void removeComponentImpl(global::com.codename1.ui.Component n1){
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
+    _r2_o = this;
+    _r3_o = n1;
+    _r0_o = ((global::com.codename1.ui.Container) _r2_o).getAnimationManager();
+    if (_r0_o == null) goto label30;
+    _r1.i = ((global::com.codename1.ui.AnimationManager) _r0_o).isAnimating() ? 1 : 0;
+    if (_r1.i == 0) goto label30;
+    _r1_o = ((global::com.codename1.ui.Container) _r2_o)._flayout;
+    ((global::com.codename1.ui.layouts.Layout) _r1_o).removeLayoutComponent((global::com.codename1.ui.Component) _r3_o);
+    _r1_o = null;
+    ((global::com.codename1.ui.Component) _r3_o).setParent((global::com.codename1.ui.Container) _r1_o);
+    _r1_o = new global::com.codename1.ui.Container_23();
+    ((global::com.codename1.ui.Container_23) _r1_o).@this((global::com.codename1.ui.Container) _r2_o, (global::com.codename1.ui.Component) _r3_o);
+    ((global::com.codename1.ui.AnimationManager) _r0_o).addAnimation((global::com.codename1.ui.animations.ComponentAnimation) _r1_o);
+    label29:;
+    return;
+    label30:;
+    ((global::com.codename1.ui.Container) _r2_o).removeComponentImplNoAnimationSafety((global::com.codename1.ui.Component) _r3_o);
+    goto label29;
+//XMLVM_END_WRAPPER[com.codename1.ui.Container: void removeComponentImpl(com.codename1.ui.Component)]
+}
+
+public virtual void removeComponentImplNoAnimationSafety(global::com.codename1.ui.Component n1){
+//XMLVM_BEGIN_WRAPPER[com.codename1.ui.Container: void removeComponentImplNoAnimationSafety(com.codename1.ui.Component)]
+    global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
@@ -1748,41 +1891,41 @@ public virtual void removeComponentImpl(global::com.codename1.ui.Component n1){
     _r1_o = ((global::com.codename1.ui.Component) _r6_o).getComponentForm();
     _r2_o = ((global::com.codename1.ui.Container) _r5_o)._flayout;
     ((global::com.codename1.ui.layouts.Layout) _r2_o).removeLayoutComponent((global::com.codename1.ui.Component) _r6_o);
+    ((global::com.codename1.ui.Component) _r6_o).setParent((global::com.codename1.ui.Container) _r5_o);
     ((global::com.codename1.ui.Component) _r6_o).deinitializeImpl();
     _r2_o = ((global::com.codename1.ui.Container) _r5_o)._fcomponents;
     ((global::java.util.ArrayList) _r2_o).remove((global::java.lang.Object) _r6_o);
     ((global::com.codename1.ui.Component) _r6_o).setParent((global::com.codename1.ui.Container) _r4_o);
-    if (_r1_o == null) goto label59;
+    if (_r1_o == null) goto label62;
     _r2_o = ((global::com.codename1.ui.Form) _r1_o).getFocused();
-    if (_r2_o == _r6_o) goto label47;
+    if (_r2_o == _r6_o) goto label50;
     _r2.i = ((_r6_o != null) && (_r6_o is global::com.codename1.ui.Container)) ? 1 : 0;
-    if (_r2.i == 0) goto label50;
+    if (_r2.i == 0) goto label53;
     _r0_o = _r6_o;
     _r0_o = _r0_o;
     _r2_o = _r0_o;
     _r3_o = ((global::com.codename1.ui.Form) _r1_o).getFocused();
     _r2.i = ((global::com.codename1.ui.Container) _r2_o).contains((global::com.codename1.ui.Component) _r3_o) ? 1 : 0;
-    if (_r2.i == 0) goto label50;
-    label47:;
-    ((global::com.codename1.ui.Form) _r1_o).setFocused((global::com.codename1.ui.Component) _r4_o);
+    if (_r2.i == 0) goto label53;
     label50:;
+    ((global::com.codename1.ui.Form) _r1_o).setFocused((global::com.codename1.ui.Component) _r4_o);
+    label53:;
     _r2.i = ((global::com.codename1.ui.Component) _r6_o).isSmoothScrolling() ? 1 : 0;
-    if (_r2.i == 0) goto label59;
+    if (_r2.i == 0) goto label62;
     ((global::com.codename1.ui.Form) _r1_o).deregisterAnimatedInternal((global::com.codename1.ui.animations.Animation) _r6_o);
-    label59:;
+    label62:;
     ((global::com.codename1.ui.Component) _r6_o).cancelRepaints();
     _r2.i = ((_r6_o != null) && (_r6_o is global::com.codename1.ui.Form)) ? 1 : 0;
-    if (_r2.i == 0) goto label70;
+    if (_r2.i == 0) goto label73;
     _r2.i = 0;
     ((global::com.codename1.ui.Component) _r6_o).setVisible(0!=_r2.i);
-    label70:;
+    label73:;
     _r2.i = 1;
     ((global::com.codename1.ui.Container) _r5_o).setShouldCalcPreferredSize(0!=_r2.i);
-    _r2_o = global::com.codename1.ui.Display.getInstance();
-    _r2_o = ((global::com.codename1.ui.Display) _r2_o).getImplementation();
+    _r2_o = global::com.codename1.ui.Display._fimpl;
     ((global::com.codename1.impl.CodenameOneImplementation) _r2_o).componentRemoved((global::com.codename1.ui.Component) _r6_o);
     return;
-//XMLVM_END_WRAPPER[com.codename1.ui.Container: void removeComponentImpl(com.codename1.ui.Component)]
+//XMLVM_END_WRAPPER[com.codename1.ui.Container: void removeComponentImplNoAnimationSafety(com.codename1.ui.Component)]
 }
 
 public override void cancelRepaints(){
@@ -1813,11 +1956,17 @@ public override void cancelRepaints(){
 
 public override void deinitializeImpl(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Container: void deinitializeImpl()]
+    global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
     _r4_o = this;
     base.deinitializeImpl();
     _r3_o = ((global::com.codename1.ui.Container) _r4_o)._fcomponents;
@@ -1841,33 +1990,8 @@ public virtual void flushReplace(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Container: void flushReplace()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
-    _r3_o = this;
-    _r2_o = ((global::com.codename1.ui.Container) _r3_o)._fcmpTransitions;
-    if (_r2_o == null) goto label35;
-    _r2_o = ((global::com.codename1.ui.Container) _r3_o)._fcmpTransitions;
-    _r1.i = ((global::java.util.Vector) _r2_o).size();
-    _r0.i = 0;
-    label11:;
-    if (_r0.i >= _r1.i) goto label27;
-    _r2_o = ((global::com.codename1.ui.Container) _r3_o)._fcmpTransitions;
-    _r2_o = ((global::java.util.Vector) _r2_o).elementAt((int) _r0.i);
-    _r2_o = _r2_o;
-    ((global::com.codename1.ui.Container_2Anim) _r2_o).destroy();
-    _r0.i = _r0.i + 1;
-    goto label11;
-    label27:;
-    _r2_o = ((global::com.codename1.ui.Container) _r3_o)._fcmpTransitions;
-    ((global::java.util.Vector) _r2_o).removeAllElements();
-    _r2_o = null;
-    ((global::com.codename1.ui.Container) _r3_o)._fcmpTransitions = (global::java.util.Vector) _r2_o;
-    label35:;
+    _r0_o = this;
     return;
 //XMLVM_END_WRAPPER[com.codename1.ui.Container: void flushReplace()]
 }
@@ -2229,6 +2353,214 @@ public virtual bool isObscuredByChildren(){
 //XMLVM_END_WRAPPER[com.codename1.ui.Container: boolean isObscuredByChildren()]
 }
 
+private int calculateFirstPaintableOffset(int n1, int n2, int n3, int n4){
+//XMLVM_BEGIN_WRAPPER[com.codename1.ui.Container: int calculateFirstPaintableOffset(int, int, int, int)]
+    global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
+    global::org.xmlvm._nElement _r9;
+    global::System.Object _r9_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
+    _r5_o = this;
+    _r6.i = n1;
+    _r7.i = n2;
+    _r8.i = n3;
+    _r9.i = n4;
+    _r3_o = ((global::com.codename1.ui.Container) _r5_o)._fcomponents;
+    _r1.i = ((global::java.util.ArrayList) _r3_o).size();
+    _r0_o = ((global::com.codename1.ui.Container) _r5_o).getLayout();
+    _r3_o = ((global::java.lang.Object) _r0_o).getClass();
+    _r4_o = global::org.xmlvm._nTIB.getClass(typeof(global::com.codename1.ui.layouts.BoxLayout));
+    if (_r3_o != _r4_o) goto label38;
+    _r0_o = _r0_o;
+    _r3.i = ((global::com.codename1.ui.layouts.BoxLayout) _r0_o).getAxis();
+    _r4.i = 2;
+    if (_r3.i != _r4.i) goto label38;
+    _r3.i = 0;
+    _r2.i = ((global::com.codename1.ui.Container) _r5_o).binarySearchFirstIntersectionY((int) _r7.i, (int) _r9.i, (int) _r3.i, (int) _r1.i);
+    if (_r2.i < 0) goto label36;
+    _r3.i = _r2.i;
+    label35:;
+    return _r3.i;
+    label36:;
+    _r3.i = _r1.i;
+    goto label35;
+    label38:;
+    _r3.i = -1;
+    goto label35;
+//XMLVM_END_WRAPPER[com.codename1.ui.Container: int calculateFirstPaintableOffset(int, int, int, int)]
+}
+
+private int calculateLastPaintableOffset(int n1, int n2, int n3, int n4, int n5){
+//XMLVM_BEGIN_WRAPPER[com.codename1.ui.Container: int calculateLastPaintableOffset(int, int, int, int, int)]
+    global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
+    global::org.xmlvm._nElement _r9;
+    global::System.Object _r9_o = null;
+    global::org.xmlvm._nElement _r10;
+    global::System.Object _r10_o = null;
+    global::org.xmlvm._nElement _r11;
+    global::System.Object _r11_o = null;
+    global::org.xmlvm._nElement _r12;
+    global::System.Object _r12_o = null;
+    global::org.xmlvm._nElement _r13;
+    global::System.Object _r13_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
+    _r8_o = this;
+    _r9.i = n1;
+    _r10.i = n2;
+    _r11.i = n3;
+    _r12.i = n4;
+    _r13.i = n5;
+    _r7.i = 1;
+    _r5_o = ((global::com.codename1.ui.Container) _r8_o)._fcomponents;
+    _r4.i = ((global::java.util.ArrayList) _r5_o).size();
+    _r5.i = _r4.i - _r7.i;
+    if (_r9.i < _r5.i) goto label14;
+    _r5.i = _r4.i - _r7.i;
+    label13:;
+    return _r5.i;
+    label14:;
+    _r3_o = ((global::com.codename1.ui.Container) _r8_o).getLayout();
+    _r5_o = ((global::java.lang.Object) _r3_o).getClass();
+    _r6_o = global::org.xmlvm._nTIB.getClass(typeof(global::com.codename1.ui.layouts.BoxLayout));
+    if (_r5_o != _r6_o) goto label66;
+    _r3_o = _r3_o;
+    _r5.i = ((global::com.codename1.ui.layouts.BoxLayout) _r3_o).getAxis();
+    _r6.i = 2;
+    if (_r5.i != _r6.i) goto label66;
+    _r0_o = null;
+    _r1.i = -1;
+    _r2.i = _r4.i - _r7.i;
+    _r9.i = _r9.i + 1;
+    label41:;
+    _r5_o = ((global::com.codename1.ui.Container) _r8_o)._fcomponents;
+    _r0_o = ((global::java.util.ArrayList) _r5_o).get((int) _r9.i);
+    _r0_o = _r0_o;
+    _r5_o = ((global::com.codename1.ui.Component) _r0_o).getBounds();
+    _r1.i = ((global::com.codename1.ui.geom.Rectangle) _r5_o).getY();
+    _r9.i = _r9.i + 1;
+    if (_r9.i > _r2.i) goto label63;
+    if (_r1.i <= _r13.i) goto label41;
+    label63:;
+    _r5.i = _r9.i - _r7.i;
+    goto label13;
+    label66:;
+    _r5.i = _r4.i - _r7.i;
+    goto label13;
+//XMLVM_END_WRAPPER[com.codename1.ui.Container: int calculateLastPaintableOffset(int, int, int, int, int)]
+}
+
+private int binarySearchFirstIntersectionY(int n1, int n2, int n3, int n4){
+//XMLVM_BEGIN_WRAPPER[com.codename1.ui.Container: int binarySearchFirstIntersectionY(int, int, int, int)]
+    global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
+    global::org.xmlvm._nElement _r9;
+    global::System.Object _r9_o = null;
+    global::org.xmlvm._nElement _r10;
+    global::System.Object _r10_o = null;
+    global::org.xmlvm._nElement _r11;
+    global::System.Object _r11_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
+    _r7_o = this;
+    _r8.i = n1;
+    _r9.i = n2;
+    _r10.i = n3;
+    _r11.i = n4;
+    if (_r10.i < _r11.i) goto label4;
+    _r5.i = -1;
+    label3:;
+    return _r5.i;
+    label4:;
+    _r5.i = _r10.i + _r11.i;
+    _r4.i = _r5.i / 2;
+    _r5_o = ((global::com.codename1.ui.Container) _r7_o)._fcomponents;
+    _r1_o = ((global::java.util.ArrayList) _r5_o).get((int) _r4.i);
+    _r1_o = _r1_o;
+    _r0_o = ((global::com.codename1.ui.Component) _r1_o).getBounds();
+    _r2.i = ((global::com.codename1.ui.geom.Rectangle) _r0_o).getY();
+    _r5.i = ((global::com.codename1.ui.geom.Rectangle) _r0_o).getY();
+    _r6.i = ((global::com.codename1.ui.geom.Rectangle) _r0_o).getHeight();
+    _r3.i = _r5.i + _r6.i;
+    if (_r2.i < _r8.i) goto label38;
+    if (_r2.i <= _r9.i) goto label46;
+    label38:;
+    if (_r3.i < _r8.i) goto label42;
+    if (_r3.i <= _r9.i) goto label46;
+    label42:;
+    if (_r2.i > _r8.i) goto label71;
+    if (_r3.i < _r9.i) goto label71;
+    label46:;
+    if (_r4.i <= _r10.i) goto label69;
+    if (_r2.i <= _r8.i) goto label69;
+    _r5_o = ((global::com.codename1.ui.Container) _r7_o)._fcomponents;
+    _r4.i = _r4.i + -1;
+    _r1_o = ((global::java.util.ArrayList) _r5_o).get((int) _r4.i);
+    _r1_o = _r1_o;
+    _r5_o = ((global::com.codename1.ui.Component) _r1_o).getBounds();
+    _r2.i = ((global::com.codename1.ui.geom.Rectangle) _r5_o).getY();
+    goto label46;
+    label69:;
+    _r5.i = _r4.i;
+    goto label3;
+    label71:;
+    if (_r2.i <= _r9.i) goto label78;
+    _r5.i = ((global::com.codename1.ui.Container) _r7_o).binarySearchFirstIntersectionY((int) _r8.i, (int) _r9.i, (int) _r10.i, (int) _r4.i);
+    goto label3;
+    label78:;
+    _r5.i = _r4.i + 1;
+    _r5.i = ((global::com.codename1.ui.Container) _r7_o).binarySearchFirstIntersectionY((int) _r8.i, (int) _r9.i, (int) _r5.i, (int) _r11.i);
+    goto label3;
+//XMLVM_END_WRAPPER[com.codename1.ui.Container: int binarySearchFirstIntersectionY(int, int, int, int)]
+}
+
 public override void paint(global::com.codename1.ui.Graphics n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Container: void paint(com.codename1.ui.Graphics)]
     global::org.xmlvm._nElement _r0;
@@ -2253,77 +2585,107 @@ public override void paint(global::com.codename1.ui.Graphics n1){
     global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
+    global::org.xmlvm._nElement _r11;
+    global::System.Object _r11_o = null;
+    global::org.xmlvm._nElement _r12;
+    global::System.Object _r12_o = null;
+    global::org.xmlvm._nElement _r13;
+    global::System.Object _r13_o = null;
+    global::org.xmlvm._nElement _r14;
+    global::System.Object _r14_o = null;
+    global::org.xmlvm._nElement _r15;
+    global::System.Object _r15_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
-    _r9_o = this;
-    _r10_o = n1;
-    _r8.i = 0;
-    _r6.i = global::com.codename1.ui.Container._fenableLayoutOnPaint ? 1 : 0;
-    if (_r6.i == 0) goto label8;
-    ((global::com.codename1.ui.Container) _r9_o).layoutContainer();
+    _r14_o = this;
+    _r15_o = n1;
+    _r13.i = 0;
+    _r0.i = global::com.codename1.ui.Container._fenableLayoutOnPaint ? 1 : 0;
+    if (_r0.i == 0) goto label8;
+    ((global::com.codename1.ui.Container) _r14_o).layoutContainer();
     label8:;
-    _r6.i = ((global::com.codename1.ui.Container) _r9_o).getX();
-    _r7.i = ((global::com.codename1.ui.Container) _r9_o).getY();
-    ((global::com.codename1.ui.Graphics) _r10_o).translate((int) _r6.i, (int) _r7.i);
-    _r6_o = ((global::com.codename1.ui.Container) _r9_o)._fcomponents;
-    _r3.i = ((global::java.util.ArrayList) _r6_o).size();
-    _r6_o = global::com.codename1.ui.Display.getInstance();
-    _r1_o = ((global::com.codename1.ui.Display) _r6_o).getImplementation();
-    _r6.i = ((global::com.codename1.ui.Container) _r9_o)._fdontRecurseContainer ? 1 : 0;
-    if (_r6.i == 0) goto label72;
-    _r2.i = 0;
-    label38:;
-    if (_r2.i >= _r3.i) goto label93;
-    _r6_o = ((global::com.codename1.ui.Container) _r9_o)._fcomponents;
-    _r0_o = ((global::java.util.ArrayList) _r6_o).get((int) _r2.i);
-    _r0_o = _r0_o;
-    _r6_o = ((global::java.lang.Object) _r0_o).getClass();
-    _r7_o = global::org.xmlvm._nTIB.getClass(typeof(global::com.codename1.ui.Container));
-    if (_r6_o != _r7_o) goto label64;
-    _r0_o = _r0_o;
-    ((global::com.codename1.ui.Container) _r9_o).paintContainerChildrenForAnimation((global::com.codename1.ui.Container) _r0_o, (global::com.codename1.ui.Graphics) _r10_o);
-    label61:;
-    _r2.i = _r2.i + 1;
-    goto label38;
-    label64:;
-    _r6_o = ((global::com.codename1.impl.CodenameOneImplementation) _r1_o).getComponentScreenGraphics((global::com.codename1.ui.Component) _r9_o, (global::com.codename1.ui.Graphics) _r10_o);
-    ((global::com.codename1.ui.Component) _r0_o).paintInternal((global::com.codename1.ui.Graphics) _r6_o, 0!=_r8.i);
-    goto label61;
+    _r0.i = ((global::com.codename1.ui.Container) _r14_o).getX();
+    _r12.i = ((global::com.codename1.ui.Container) _r14_o).getY();
+    ((global::com.codename1.ui.Graphics) _r15_o).translate((int) _r0.i, (int) _r12.i);
+    _r0_o = ((global::com.codename1.ui.Container) _r14_o)._fcomponents;
+    _r9.i = ((global::java.util.ArrayList) _r0_o).size();
+    _r2.i = ((global::com.codename1.ui.Graphics) _r15_o).getClipX();
+    _r0.i = ((global::com.codename1.ui.Graphics) _r15_o).getClipX();
+    _r12.i = ((global::com.codename1.ui.Graphics) _r15_o).getClipWidth();
+    _r4.i = _r0.i + _r12.i;
+    _r3.i = ((global::com.codename1.ui.Graphics) _r15_o).getClipY();
+    _r0.i = ((global::com.codename1.ui.Graphics) _r15_o).getClipY();
+    _r12.i = ((global::com.codename1.ui.Graphics) _r15_o).getClipHeight();
+    _r5.i = _r0.i + _r12.i;
+    _r1.i = 0;
+    _r0.i = 30;
+    if (_r9.i < _r0.i) goto label65;
+    _r1.i = ((global::com.codename1.ui.Container) _r14_o).calculateFirstPaintableOffset((int) _r2.i, (int) _r3.i, (int) _r4.i, (int) _r5.i);
+    if (_r1.i >= 0) goto label98;
+    _r1.i = 0;
+    label65:;
+    _r7_o = global::com.codename1.ui.Display._fimpl;
+    _r0.i = ((global::com.codename1.ui.Container) _r14_o)._fdontRecurseContainer ? 1 : 0;
+    if (_r0.i == 0) goto label116;
+    _r8.i = _r1.i;
     label72:;
-    _r2.i = 0;
-    label73:;
-    if (_r2.i >= _r3.i) goto label93;
-    _r6_o = ((global::com.codename1.ui.Container) _r9_o)._fcomponents;
-    _r0_o = ((global::java.util.ArrayList) _r6_o).get((int) _r2.i);
-    _r0_o = _r0_o;
-    _r6_o = ((global::com.codename1.impl.CodenameOneImplementation) _r1_o).getComponentScreenGraphics((global::com.codename1.ui.Component) _r9_o, (global::com.codename1.ui.Graphics) _r10_o);
-    ((global::com.codename1.ui.Component) _r0_o).paintInternal((global::com.codename1.ui.Graphics) _r6_o, 0!=_r8.i);
-    _r2.i = _r2.i + 1;
-    goto label73;
-    label93:;
-    _r4.i = ((global::com.codename1.ui.Graphics) _r10_o).getTranslateX();
-    _r5.i = ((global::com.codename1.ui.Graphics) _r10_o).getTranslateY();
-    _r6.i = -_r4.i;
-    _r7.i = -_r5.i;
-    ((global::com.codename1.ui.Graphics) _r10_o).translate((int) _r6.i, (int) _r7.i);
-    _r6.i = global::com.codename1.ui.Container._fsidemenuBarTranslation;
-    if (_r6.i <= 0) goto label141;
-    _r6.i = global::com.codename1.ui.Container._fsidemenuBarTranslation;
-    ((global::com.codename1.ui.Graphics) _r10_o).translate((int) _r6.i, (int) _r8.i);
-    ((global::com.codename1.ui.Container) _r9_o).paintGlass((global::com.codename1.ui.Graphics) _r10_o);
-    _r6.i = global::com.codename1.ui.Container._fsidemenuBarTranslation;
-    _r6.i = -_r6.i;
-    ((global::com.codename1.ui.Graphics) _r10_o).translate((int) _r6.i, (int) _r8.i);
-    label124:;
-    ((global::com.codename1.ui.Graphics) _r10_o).translate((int) _r4.i, (int) _r5.i);
-    _r6.i = ((global::com.codename1.ui.Container) _r9_o).getX();
-    _r6.i = -_r6.i;
-    _r7.i = ((global::com.codename1.ui.Container) _r9_o).getY();
-    _r7.i = -_r7.i;
-    ((global::com.codename1.ui.Graphics) _r10_o).translate((int) _r6.i, (int) _r7.i);
+    if (_r8.i >= _r9.i) goto label137;
+    _r0_o = ((global::com.codename1.ui.Container) _r14_o)._fcomponents;
+    _r6_o = ((global::java.util.ArrayList) _r0_o).get((int) _r8.i);
+    _r6_o = _r6_o;
+    _r0_o = ((global::java.lang.Object) _r6_o).getClass();
+    _r12_o = global::org.xmlvm._nTIB.getClass(typeof(global::com.codename1.ui.Container));
+    if (_r0_o != _r12_o) goto label108;
+    _r6_o = _r6_o;
+    ((global::com.codename1.ui.Container) _r14_o).paintContainerChildrenForAnimation((global::com.codename1.ui.Container) _r6_o, (global::com.codename1.ui.Graphics) _r15_o);
+    label95:;
+    _r8.i = _r8.i + 1;
+    goto label72;
+    label98:;
+    if (_r1.i >= _r9.i) goto label65;
+    _r0_o = _r14_o;
+    _r0.i = ((global::com.codename1.ui.Container) _r0_o).calculateLastPaintableOffset((int) _r1.i, (int) _r2.i, (int) _r3.i, (int) _r4.i, (int) _r5.i);
+    _r9.i = _r0.i + 1;
+    goto label65;
+    label108:;
+    _r0_o = ((global::com.codename1.impl.CodenameOneImplementation) _r7_o).getComponentScreenGraphics((global::com.codename1.ui.Component) _r14_o, (global::com.codename1.ui.Graphics) _r15_o);
+    ((global::com.codename1.ui.Component) _r6_o).paintInternal((global::com.codename1.ui.Graphics) _r0_o, 0!=_r13.i);
+    goto label95;
+    label116:;
+    _r8.i = _r1.i;
+    label117:;
+    if (_r8.i >= _r9.i) goto label137;
+    _r0_o = ((global::com.codename1.ui.Container) _r14_o)._fcomponents;
+    _r6_o = ((global::java.util.ArrayList) _r0_o).get((int) _r8.i);
+    _r6_o = _r6_o;
+    _r0_o = ((global::com.codename1.impl.CodenameOneImplementation) _r7_o).getComponentScreenGraphics((global::com.codename1.ui.Component) _r14_o, (global::com.codename1.ui.Graphics) _r15_o);
+    ((global::com.codename1.ui.Component) _r6_o).paintInternal((global::com.codename1.ui.Graphics) _r0_o, 0!=_r13.i);
+    _r8.i = _r8.i + 1;
+    goto label117;
+    label137:;
+    _r10.i = ((global::com.codename1.ui.Graphics) _r15_o).getTranslateX();
+    _r11.i = ((global::com.codename1.ui.Graphics) _r15_o).getTranslateY();
+    _r0.i = -_r10.i;
+    _r12.i = -_r11.i;
+    ((global::com.codename1.ui.Graphics) _r15_o).translate((int) _r0.i, (int) _r12.i);
+    _r0.i = global::com.codename1.ui.Container._fsidemenuBarTranslation;
+    if (_r0.i <= 0) goto label185;
+    _r0.i = global::com.codename1.ui.Container._fsidemenuBarTranslation;
+    ((global::com.codename1.ui.Graphics) _r15_o).translate((int) _r0.i, (int) _r13.i);
+    ((global::com.codename1.ui.Container) _r14_o).paintGlass((global::com.codename1.ui.Graphics) _r15_o);
+    _r0.i = global::com.codename1.ui.Container._fsidemenuBarTranslation;
+    _r0.i = -_r0.i;
+    ((global::com.codename1.ui.Graphics) _r15_o).translate((int) _r0.i, (int) _r13.i);
+    label168:;
+    ((global::com.codename1.ui.Graphics) _r15_o).translate((int) _r10.i, (int) _r11.i);
+    _r0.i = ((global::com.codename1.ui.Container) _r14_o).getX();
+    _r0.i = -_r0.i;
+    _r12.i = ((global::com.codename1.ui.Container) _r14_o).getY();
+    _r12.i = -_r12.i;
+    ((global::com.codename1.ui.Graphics) _r15_o).translate((int) _r0.i, (int) _r12.i);
     return;
-    label141:;
-    ((global::com.codename1.ui.Container) _r9_o).paintGlass((global::com.codename1.ui.Graphics) _r10_o);
-    goto label124;
+    label185:;
+    ((global::com.codename1.ui.Container) _r14_o).paintGlass((global::com.codename1.ui.Graphics) _r15_o);
+    goto label168;
 //XMLVM_END_WRAPPER[com.codename1.ui.Container: void paint(com.codename1.ui.Graphics)]
 }
 
@@ -2539,7 +2901,10 @@ public virtual void doLayout(){
     goto label25;
     label32:;
     ((global::com.codename1.ui.Container) _r4_o).laidOut();
+    _r3.i = global::com.codename1.ui.Form._factivePeerCount;
+    if (_r3.i <= 0) goto label42;
     ((global::com.codename1.ui.Container) _r4_o).onParentPositionChange();
+    label42:;
     return;
 //XMLVM_END_WRAPPER[com.codename1.ui.Container: void doLayout()]
 }
@@ -2620,45 +2985,23 @@ public virtual bool contains(global::com.codename1.ui.Component n1){
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
-    global::org.xmlvm._nElement _r3;
-    global::System.Object _r3_o = null;
-    global::org.xmlvm._nElement _r4;
-    global::System.Object _r4_o = null;
-    global::org.xmlvm._nElement _r5;
-    global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
-    global::org.xmlvm._nElement _r7;
-    global::System.Object _r7_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
-    _r6_o = this;
-    _r7_o = n1;
-    _r5.i = 1;
-    _r2.i = 0;
-    _r1.i = ((global::com.codename1.ui.Container) _r6_o).getComponentCount();
-    _r3.i = 0;
-    label7:;
-    if (_r3.i >= _r1.i) goto label38;
-    _r0_o = ((global::com.codename1.ui.Container) _r6_o).getComponentAt((int) _r3.i);
-    _r4.i = ((global::java.lang.Object) _r0_o).equals((global::java.lang.Object) _r7_o) ? 1 : 0;
-    if (_r4.i == 0) goto label21;
-    _r4.i = _r5.i;
-    label20:;
-    return _r4.i!=0;
-    label21:;
-    _r4.i = ((_r0_o != null) && (_r0_o is global::com.codename1.ui.Container)) ? 1 : 0;
-    if (_r4.i == 0) goto label35;
-    _r0_o = _r0_o;
-    _r2.i = ((global::com.codename1.ui.Container) _r0_o).contains((global::com.codename1.ui.Component) _r7_o) ? 1 : 0;
-    if (_r2.i == 0) goto label35;
-    _r4.i = _r5.i;
-    goto label20;
-    label35:;
-    _r3.i = _r3.i + 1;
-    goto label7;
-    label38:;
-    _r4.i = 0;
-    goto label20;
+    _r1_o = this;
+    _r2_o = n1;
+    _r0.i = 0;
+    if (_r2_o != null) goto label4;
+    label3:;
+    return _r0.i!=0;
+    label4:;
+    _r2_o = ((global::com.codename1.ui.Component) _r2_o).getParent();
+    label8:;
+    if (_r2_o == null) goto label3;
+    if (_r2_o != _r1_o) goto label14;
+    _r0.i = 1;
+    goto label3;
+    label14:;
+    _r2_o = ((global::com.codename1.ui.Component) _r2_o).getParent();
+    goto label8;
 //XMLVM_END_WRAPPER[com.codename1.ui.Container: boolean contains(com.codename1.ui.Component)]
 }
 
@@ -2708,21 +3051,24 @@ public virtual void scrollComponentToVisible(global::com.codename1.ui.Component 
     _r18_o = this;
     _r19_o = n1;
     _r3.i = ((global::com.codename1.ui.Container) _r18_o).isScrollable() ? 1 : 0;
-    if (_r3.i == 0) goto label94;
-    if (_r19_o == null) goto label94;
+    if (_r3.i == 0) goto label104;
+    if (_r19_o == null) goto label104;
     _r14_o = ((global::com.codename1.ui.Component) _r19_o).getVisibleBounds();
     _r3_o = ((global::com.codename1.ui.Component) _r19_o).getParent();
-    if (_r3_o == null) goto label95;
+    if (_r3_o == null) goto label105;
     _r11_o = ((global::com.codename1.ui.Container) _r18_o).getComponentForm();
-    if (_r11_o == null) goto label95;
+    if (_r11_o == null) goto label105;
     _r3.i = ((global::com.codename1.ui.Form) _r11_o).getInvisibleAreaUnderVKB();
-    if (_r3.i != 0) goto label95;
+    if (_r3.i != 0) goto label105;
     _r3_o = ((global::com.codename1.ui.Form) _r11_o).findFirstFocusable();
     _r0_o = _r3_o;
     _r1_o = _r19_o;
-    if (_r0_o != _r1_o) goto label95;
+    if (_r0_o != _r1_o) goto label105;
     _r3_o = ((global::com.codename1.ui.Component) _r19_o).getBounds();
-    if (_r14_o != _r3_o) goto label95;
+    if (_r14_o != _r3_o) goto label105;
+    _r3_o = global::com.codename1.ui.Display.getInstance();
+    _r3.i = ((global::com.codename1.ui.Display) _r3_o).isTouchScreenDevice() ? 1 : 0;
+    if (_r3.i != 0) goto label105;
     _r3_o = new global::com.codename1.ui.geom.Rectangle();
     _r4.i = 0;
     _r5.i = 0;
@@ -2741,31 +3087,31 @@ public virtual void scrollComponentToVisible(global::com.codename1.ui.Component 
     _r1_o = _r3_o;
     _r2_o = _r18_o;
     ((global::com.codename1.ui.Container) _r0_o).scrollRectToVisible((global::com.codename1.ui.geom.Rectangle) _r1_o, (global::com.codename1.ui.Component) _r2_o);
-    label94:;
+    label104:;
     return;
-    label95:;
+    label105:;
     _r13.i = 1;
     _r3_o = ((global::com.codename1.ui.Component) _r19_o).getVisibleBounds();
     _r3_o = ((global::com.codename1.ui.geom.Rectangle) _r3_o).getSize();
     _r3.i = ((global::com.codename1.ui.geom.Dimension) _r3_o).getHeight();
     _r4.i = ((global::com.codename1.ui.Container) _r18_o).getHeight();
-    if (_r3.i > _r4.i) goto label132;
+    if (_r3.i > _r4.i) goto label142;
     _r3_o = ((global::com.codename1.ui.Component) _r19_o).getVisibleBounds();
     _r3_o = ((global::com.codename1.ui.geom.Rectangle) _r3_o).getSize();
     _r3.i = ((global::com.codename1.ui.geom.Dimension) _r3_o).getWidth();
     _r4.i = ((global::com.codename1.ui.Container) _r18_o).getWidth();
-    if (_r3.i <= _r4.i) goto label249;
-    label132:;
+    if (_r3.i <= _r4.i) goto label259;
+    label142:;
     _r3.i = 1;
     _r12.i = _r3.i;
-    label134:;
-    if (_r12.i == 0) goto label198;
+    label144:;
+    if (_r12.i == 0) goto label208;
     _r16.i = ((global::com.codename1.ui.Container) _r18_o).getScrollX();
     _r17.i = ((global::com.codename1.ui.Container) _r18_o).getScrollY();
     _r9.i = ((global::com.codename1.ui.Container) _r18_o).getWidth();
     _r10.i = ((global::com.codename1.ui.Container) _r18_o).getHeight();
     _r3.i = ((global::com.codename1.ui.Container) _r18_o).contains((global::com.codename1.ui.Component) _r19_o) ? 1 : 0;
-    if (_r3.i == 0) goto label252;
+    if (_r3.i == 0) goto label262;
     _r3.i = ((global::com.codename1.ui.Component) _r19_o).getAbsoluteX();
     _r4.i = ((global::com.codename1.ui.Component) _r19_o).getAbsoluteY();
     _r5.i = ((global::com.codename1.ui.Component) _r19_o).getWidth();
@@ -2775,15 +3121,15 @@ public virtual void scrollComponentToVisible(global::com.codename1.ui.Component 
     _r8.i = ((global::com.codename1.ui.Container) _r18_o).getAbsoluteY();
     _r8.i = _r8.i + _r17.i;
     _r3.i = global::com.codename1.ui.geom.Rectangle.intersects((int) _r3.i, (int) _r4.i, (int) _r5.i, (int) _r6.i, (int) _r7.i, (int) _r8.i, (int) _r9.i, (int) _r10.i) ? 1 : 0;
-    if (_r3.i == 0) goto label252;
+    if (_r3.i == 0) goto label262;
     _r3.i = 1;
     _r15.i = _r3.i;
-    label194:;
-    if (_r15.i != 0) goto label255;
+    label204:;
+    if (_r15.i != 0) goto label265;
     _r3.i = 1;
     _r13.i = _r3.i;
-    label198:;
-    if (_r13.i == 0) goto label94;
+    label208:;
+    if (_r13.i == 0) goto label104;
     _r4.i = ((global::com.codename1.ui.geom.Rectangle) _r14_o).getX();
     _r5.i = ((global::com.codename1.ui.geom.Rectangle) _r14_o).getY();
     _r3_o = ((global::com.codename1.ui.geom.Rectangle) _r14_o).getSize();
@@ -2797,19 +3143,19 @@ public virtual void scrollComponentToVisible(global::com.codename1.ui.Component 
     _r3_o = _r18_o;
     _r8_o = _r19_o;
     ((global::com.codename1.ui.Container) _r3_o).scrollRectToVisible((int) _r4.i, (int) _r5.i, (int) _r6.i, (int) _r7.i, (global::com.codename1.ui.Component) _r8_o);
-    goto label94;
-    label249:;
+    goto label104;
+    label259:;
     _r3.i = 0;
     _r12.i = _r3.i;
-    goto label134;
-    label252:;
+    goto label144;
+    label262:;
     _r3.i = 0;
     _r15.i = _r3.i;
-    goto label194;
-    label255:;
+    goto label204;
+    label265:;
     _r3.i = 0;
     _r13.i = _r3.i;
-    goto label198;
+    goto label208;
 //XMLVM_END_WRAPPER[com.codename1.ui.Container: void scrollComponentToVisible(com.codename1.ui.Component)]
 }
 
@@ -3308,59 +3654,88 @@ public virtual global::System.Object getComponentAt(int n1, int n2){
     global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
+    global::org.xmlvm._nElement _r10;
+    global::System.Object _r10_o = null;
+    global::org.xmlvm._nElement _r11;
+    global::System.Object _r11_o = null;
+    global::org.xmlvm._nElement _r12;
+    global::System.Object _r12_o = null;
+    global::org.xmlvm._nElement _r13;
+    global::System.Object _r13_o = null;
+    global::org.xmlvm._nElement _r14;
+    global::System.Object _r14_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
-    _r7_o = this;
-    _r8.i = n1;
-    _r9.i = n2;
-    _r3.i = ((global::com.codename1.ui.Container) _r7_o).getComponentCount();
-    _r6_o = ((global::com.codename1.ui.Container) _r7_o).getLayout();
-    _r5.i = ((global::com.codename1.ui.layouts.Layout) _r6_o).isOverlapSupported() ? 1 : 0;
-    _r2_o = null;
-    _r6.i = 1;
-    _r4.i = _r3.i - _r6.i;
-    label16:;
-    if (_r4.i < 0) goto label71;
-    _r1_o = ((global::com.codename1.ui.Container) _r7_o).getComponentAt((int) _r4.i);
-    _r6.i = ((global::com.codename1.ui.Component) _r1_o).contains((int) _r8.i, (int) _r9.i) ? 1 : 0;
-    if (_r6.i == 0) goto label68;
-    _r2_o = _r1_o;
-    if (_r5.i != 0) goto label39;
-    _r6.i = ((global::com.codename1.ui.Component) _r2_o).isFocusable() ? 1 : 0;
-    if (_r6.i == 0) goto label39;
-    _r6_o = _r2_o;
-    label38:;
-    return (global::com.codename1.ui.Component) _r6_o;
-    label39:;
-    _r6.i = ((_r1_o != null) && (_r1_o is global::com.codename1.ui.Container)) ? 1 : 0;
-    if (_r6.i == 0) goto label52;
-    _r1_o = _r1_o;
-    _r0_o = ((global::com.codename1.ui.Container) _r1_o).getComponentAt((int) _r8.i, (int) _r9.i);
-    if (_r0_o == null) goto label52;
-    _r2_o = _r0_o;
-    label52:;
-    if (_r5.i == 0) goto label66;
-    _r6.i = ((global::com.codename1.ui.Component) _r2_o).isFocusable() ? 1 : 0;
-    if (_r6.i != 0) goto label66;
-    _r6.i = ((global::com.codename1.ui.Component) _r2_o).isGrabsPointerEvents() ? 1 : 0;
-    if (_r6.i == 0) goto label68;
-    label66:;
-    _r6_o = _r2_o;
-    goto label38;
-    label68:;
-    _r4.i = _r4.i + -1;
-    goto label16;
-    label71:;
-    if (_r2_o == null) goto label75;
-    _r6_o = _r2_o;
-    goto label38;
+    _r12_o = this;
+    _r13.i = n1;
+    _r14.i = n2;
+    _r1.i = 0;
+    _r9.i = ((global::com.codename1.ui.Container) _r12_o).getComponentCount();
+    _r0.i = 30;
+    if (_r9.i <= _r0.i) goto label28;
+    _r0.i = ((global::com.codename1.ui.Container) _r12_o).getAbsoluteX();
+    _r2.i = _r13.i - _r0.i;
+    _r0.i = ((global::com.codename1.ui.Container) _r12_o).getAbsoluteY();
+    _r3.i = _r14.i - _r0.i;
+    _r1.i = ((global::com.codename1.ui.Container) _r12_o).calculateFirstPaintableOffset((int) _r2.i, (int) _r3.i, (int) _r2.i, (int) _r3.i);
+    if (_r1.i >= 0) goto label63;
+    _r1.i = 0;
+    label28:;
+    _r0_o = ((global::com.codename1.ui.Container) _r12_o).getLayout();
+    _r11.i = ((global::com.codename1.ui.layouts.Layout) _r0_o).isOverlapSupported() ? 1 : 0;
+    _r8_o = null;
+    _r0.i = 1;
+    _r10.i = _r9.i - _r0.i;
+    label40:;
+    if (_r10.i < _r1.i) goto label107;
+    _r7_o = ((global::com.codename1.ui.Container) _r12_o).getComponentAt((int) _r10.i);
+    _r0.i = ((global::com.codename1.ui.Component) _r7_o).contains((int) _r13.i, (int) _r14.i) ? 1 : 0;
+    if (_r0.i == 0) goto label104;
+    _r8_o = _r7_o;
+    if (_r11.i != 0) goto label75;
+    _r0.i = ((global::com.codename1.ui.Component) _r8_o).isFocusable() ? 1 : 0;
+    if (_r0.i == 0) goto label75;
+    _r0_o = _r8_o;
+    label62:;
+    return (global::com.codename1.ui.Component) _r0_o;
+    label63:;
+    if (_r1.i >= _r9.i) goto label28;
+    _r0_o = _r12_o;
+    _r4.i = _r2.i;
+    _r5.i = _r3.i;
+    _r0.i = ((global::com.codename1.ui.Container) _r0_o).calculateLastPaintableOffset((int) _r1.i, (int) _r2.i, (int) _r3.i, (int) _r4.i, (int) _r5.i);
+    _r9.i = _r0.i + 1;
+    goto label28;
     label75:;
-    _r6.i = ((global::com.codename1.ui.Container) _r7_o).contains((int) _r8.i, (int) _r9.i) ? 1 : 0;
-    if (_r6.i == 0) goto label83;
-    _r6_o = _r7_o;
-    goto label38;
-    label83:;
-    _r6_o = null;
-    goto label38;
+    _r0.i = ((_r7_o != null) && (_r7_o is global::com.codename1.ui.Container)) ? 1 : 0;
+    if (_r0.i == 0) goto label88;
+    _r7_o = _r7_o;
+    _r6_o = ((global::com.codename1.ui.Container) _r7_o).getComponentAt((int) _r13.i, (int) _r14.i);
+    if (_r6_o == null) goto label88;
+    _r8_o = _r6_o;
+    label88:;
+    if (_r11.i == 0) goto label102;
+    _r0.i = ((global::com.codename1.ui.Component) _r8_o).isFocusable() ? 1 : 0;
+    if (_r0.i != 0) goto label102;
+    _r0.i = ((global::com.codename1.ui.Component) _r8_o).isGrabsPointerEvents() ? 1 : 0;
+    if (_r0.i == 0) goto label104;
+    label102:;
+    _r0_o = _r8_o;
+    goto label62;
+    label104:;
+    _r10.i = _r10.i + -1;
+    goto label40;
+    label107:;
+    if (_r8_o == null) goto label111;
+    _r0_o = _r8_o;
+    goto label62;
+    label111:;
+    _r0.i = ((global::com.codename1.ui.Container) _r12_o).contains((int) _r13.i, (int) _r14.i) ? 1 : 0;
+    if (_r0.i == 0) goto label119;
+    _r0_o = _r12_o;
+    goto label62;
+    label119:;
+    _r0_o = null;
+    goto label62;
 //XMLVM_END_WRAPPER[com.codename1.ui.Container: com.codename1.ui.Component getComponentAt(int, int)]
 }
 
@@ -4939,7 +5314,7 @@ private void morph(global::com.codename1.ui.Component n1, global::com.codename1.
     _r3.i = _r22.i;
     _r16_o = ((global::com.codename1.ui.Container) _r0_o).createAndStartAnimateMotion((int) _r1.i, (int) _r2.i, (int) _r3.i);
     ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r9_o)[_r15.i] = _r16_o;
-    _r4_o = new global::com.codename1.ui.Container_2Anim();
+    _r4_o = new global::com.codename1.ui.Container_2MorphAnimation();
     _r15.i = 4;
     _r15_o = new global::org.xmlvm._nArrayAdapter<global::System.Object>(new global::System.Object[_r15.i]);
     _r16.i = 0;
@@ -4954,7 +5329,7 @@ private void morph(global::com.codename1.ui.Component n1, global::com.codename1.
     _r1_o = _r19_o;
     _r2.i = _r22.i;
     _r3_o = _r15_o;
-    ((global::com.codename1.ui.Container_2Anim) _r0_o).@this((global::com.codename1.ui.Container) _r1_o, (int) _r2.i, (global::org.xmlvm._nArrayAdapter<global::System.Object>) _r3_o);
+    ((global::com.codename1.ui.Container_2MorphAnimation) _r0_o).@this((global::com.codename1.ui.Container) _r1_o, (int) _r2.i, (global::org.xmlvm._nArrayAdapter<global::System.Object>) _r3_o);
     _r15.i = 2;
     _r15_o = new global::org.xmlvm._nArrayAdapter<global::System.Object>(new global::System.Object[_r15.i]);
     _r16.i = 0;
@@ -4975,34 +5350,40 @@ private void morph(global::com.codename1.ui.Component n1, global::com.codename1.
     _r3.i = _r22.i;
     _r17_o = ((global::com.codename1.ui.Container) _r0_o).createAndStartAnimateMotion((int) _r1.i, (int) _r2.i, (int) _r3.i);
     ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r15_o)[_r16.i] = _r17_o;
-    ((global::com.codename1.ui.Container_2Anim) _r4_o)._fopacity = (global::org.xmlvm._nArrayAdapter<global::System.Object>) _r15_o;
+    ((global::com.codename1.ui.Container_2MorphAnimation) _r4_o)._fopacity = (global::org.xmlvm._nArrayAdapter<global::System.Object>) _r15_o;
     _r15_o = new global::java.util.Vector();
     ((global::java.util.Vector) _r15_o).@this();
-    ((global::com.codename1.ui.Container_2Anim) _r4_o)._fanimatedComponents = (global::java.util.Vector) _r15_o;
-    _r15_o = ((global::com.codename1.ui.Container_2Anim) _r4_o)._fanimatedComponents;
+    ((global::com.codename1.ui.Container_2MorphAnimation) _r4_o)._fanimatedComponents = (global::java.util.Vector) _r15_o;
+    _r15_o = ((global::com.codename1.ui.Container_2MorphAnimation) _r4_o)._fanimatedComponents;
     _r0_o = _r15_o;
     _r1_o = _r20_o;
     ((global::java.util.Vector) _r0_o).addElement((global::java.lang.Object) _r1_o);
-    _r15_o = ((global::com.codename1.ui.Container_2Anim) _r4_o)._fanimatedComponents;
+    _r15_o = ((global::com.codename1.ui.Container_2MorphAnimation) _r4_o)._fanimatedComponents;
     _r0_o = _r15_o;
     _r1_o = _r21_o;
     ((global::java.util.Vector) _r0_o).addElement((global::java.lang.Object) _r1_o);
-    _r0_o = _r24_o;
-    _r1_o = _r4_o;
-    ((global::com.codename1.ui.Container_2Anim) _r1_o)._fonFinish = (global::java.lang.Runnable) _r0_o;
     _r15.i = 1;
-    ((global::com.codename1.ui.Container_2Anim) _r4_o)._fdontRevalidate = 0!=_r15.i;
+    ((global::com.codename1.ui.Container_2MorphAnimation) _r4_o)._fdontRevalidate = 0!=_r15.i;
     _r0_o = _r4_o;
     _r1_o = _r21_o;
-    global::com.codename1.ui.Container_2Anim.access_2002((global::com.codename1.ui.Container_2Anim) _r0_o, (global::com.codename1.ui.Component) _r1_o);
-    ((global::com.codename1.ui.Container_2Anim) _r4_o).animate();
-    _r15_o = ((global::com.codename1.ui.Container) _r19_o).getComponentForm();
-    ((global::com.codename1.ui.Form) _r15_o).registerAnimated((global::com.codename1.ui.animations.Animation) _r4_o);
-    if (_r23.i == 0) goto label335;
-    _r15_o = global::com.codename1.ui.Display.getInstance();
-    ((global::com.codename1.ui.Display) _r15_o).invokeAndBlock((global::java.lang.Runnable) _r4_o);
-    label335:;
+    global::com.codename1.ui.Container_2MorphAnimation.access_2102((global::com.codename1.ui.Container_2MorphAnimation) _r0_o, (global::com.codename1.ui.Component) _r1_o);
+    if (_r23.i == 0) goto label321;
+    _r15_o = ((global::com.codename1.ui.Container) _r19_o).getAnimationManager();
+    ((global::com.codename1.ui.AnimationManager) _r15_o).addAnimationAndBlock((global::com.codename1.ui.animations.ComponentAnimation) _r4_o);
+    label320:;
     return;
+    label321:;
+    if (_r24_o == null) goto label335;
+    _r15_o = ((global::com.codename1.ui.Container) _r19_o).getAnimationManager();
+    _r0_o = _r15_o;
+    _r1_o = _r4_o;
+    _r2_o = _r24_o;
+    ((global::com.codename1.ui.AnimationManager) _r0_o).addAnimation((global::com.codename1.ui.animations.ComponentAnimation) _r1_o, (global::java.lang.Runnable) _r2_o);
+    goto label320;
+    label335:;
+    _r15_o = ((global::com.codename1.ui.Container) _r19_o).getAnimationManager();
+    ((global::com.codename1.ui.AnimationManager) _r15_o).addAnimation((global::com.codename1.ui.animations.ComponentAnimation) _r4_o);
+    goto label320;
 //XMLVM_END_WRAPPER[com.codename1.ui.Container: void morph(com.codename1.ui.Component, com.codename1.ui.Component, int, boolean, java.lang.Runnable)]
 }
 
@@ -5176,7 +5557,7 @@ private void animateHierarchy(int n1, bool n2, int n3){
     _r17.i = _r17.i + 1;
     goto label107;
     label236:;
-    _r7_o = new global::com.codename1.ui.Container_2Anim();
+    _r7_o = new global::com.codename1.ui.Container_2MorphAnimation();
     _r4.i = 4;
     _r4_o = new global::org.xmlvm._nArrayAdapter<global::System.Object>(new global::System.Object[_r4.i]);
     _r5.i = 0;
@@ -5191,20 +5572,22 @@ private void animateHierarchy(int n1, bool n2, int n3){
     _r1_o = _r21_o;
     _r2.i = _r22.i;
     _r3_o = _r4_o;
-    ((global::com.codename1.ui.Container_2Anim) _r0_o).@this((global::com.codename1.ui.Container) _r1_o, (int) _r2.i, (global::org.xmlvm._nArrayAdapter<global::System.Object>) _r3_o);
+    ((global::com.codename1.ui.Container_2MorphAnimation) _r0_o).@this((global::com.codename1.ui.Container) _r1_o, (int) _r2.i, (global::org.xmlvm._nArrayAdapter<global::System.Object>) _r3_o);
     _r6.i = 255;
     _r4_o = _r21_o;
     _r5.i = _r24.i;
     _r9.i = _r22.i;
-    ((global::com.codename1.ui.Container) _r4_o).setAnimOpacity((int) _r5.i, (int) _r6.i, (global::com.codename1.ui.Container_2Anim) _r7_o, (int) _r8.i, (int) _r9.i);
-    ((global::com.codename1.ui.Container_2Anim) _r7_o)._fanimatedComponents = (global::java.util.Vector) _r14_o;
-    _r4_o = ((global::com.codename1.ui.Container) _r21_o).getComponentForm();
-    ((global::com.codename1.ui.Form) _r4_o).registerAnimated((global::com.codename1.ui.animations.Animation) _r7_o);
-    if (_r23.i == 0) goto label291;
-    _r4_o = global::com.codename1.ui.Display.getInstance();
-    ((global::com.codename1.ui.Display) _r4_o).invokeAndBlock((global::java.lang.Runnable) _r7_o);
-    label291:;
+    ((global::com.codename1.ui.Container) _r4_o).setAnimOpacity((int) _r5.i, (int) _r6.i, (global::com.codename1.ui.Container_2MorphAnimation) _r7_o, (int) _r8.i, (int) _r9.i);
+    ((global::com.codename1.ui.Container_2MorphAnimation) _r7_o)._fanimatedComponents = (global::java.util.Vector) _r14_o;
+    if (_r23.i == 0) goto label285;
+    _r4_o = ((global::com.codename1.ui.Container) _r21_o).getAnimationManager();
+    ((global::com.codename1.ui.AnimationManager) _r4_o).addAnimationAndBlock((global::com.codename1.ui.animations.ComponentAnimation) _r7_o);
+    label284:;
     return;
+    label285:;
+    _r4_o = ((global::com.codename1.ui.Container) _r21_o).getAnimationManager();
+    ((global::com.codename1.ui.AnimationManager) _r4_o).addAnimation((global::com.codename1.ui.animations.ComponentAnimation) _r7_o);
+    goto label284;
 //XMLVM_END_WRAPPER[com.codename1.ui.Container: void animateHierarchy(int, boolean, int)]
 }
 
@@ -5404,7 +5787,7 @@ private void animateUnlayout(int n1, bool n2, int n3, global::java.lang.Runnable
     _r16.i = _r16.i + 1;
     goto label86;
     label194:;
-    _r7_o = new global::com.codename1.ui.Container_2Anim();
+    _r7_o = new global::com.codename1.ui.Container_2MorphAnimation();
     _r4.i = 4;
     _r4_o = new global::org.xmlvm._nArrayAdapter<global::System.Object>(new global::System.Object[_r4.i]);
     _r5.i = 0;
@@ -5419,24 +5802,31 @@ private void animateUnlayout(int n1, bool n2, int n3, global::java.lang.Runnable
     _r1_o = _r20_o;
     _r2.i = _r21.i;
     _r3_o = _r4_o;
-    ((global::com.codename1.ui.Container_2Anim) _r0_o).@this((global::com.codename1.ui.Container) _r1_o, (int) _r2.i, (global::org.xmlvm._nArrayAdapter<global::System.Object>) _r3_o);
+    ((global::com.codename1.ui.Container_2MorphAnimation) _r0_o).@this((global::com.codename1.ui.Container) _r1_o, (int) _r2.i, (global::org.xmlvm._nArrayAdapter<global::System.Object>) _r3_o);
     _r5.i = 255;
     _r4_o = _r20_o;
     _r6.i = _r23.i;
     _r9.i = _r21.i;
-    ((global::com.codename1.ui.Container) _r4_o).setAnimOpacity((int) _r5.i, (int) _r6.i, (global::com.codename1.ui.Container_2Anim) _r7_o, (int) _r8.i, (int) _r9.i);
-    _r0_o = _r24_o;
-    _r1_o = _r7_o;
-    ((global::com.codename1.ui.Container_2Anim) _r1_o)._fonFinish = (global::java.lang.Runnable) _r0_o;
+    ((global::com.codename1.ui.Container) _r4_o).setAnimOpacity((int) _r5.i, (int) _r6.i, (global::com.codename1.ui.Container_2MorphAnimation) _r7_o, (int) _r8.i, (int) _r9.i);
     _r4.i = 1;
-    ((global::com.codename1.ui.Container_2Anim) _r7_o)._fdontRevalidate = 0!=_r4.i;
-    _r4_o = ((global::com.codename1.ui.Container) _r20_o).getComponentForm();
-    ((global::com.codename1.ui.Form) _r4_o).registerAnimated((global::com.codename1.ui.animations.Animation) _r7_o);
-    if (_r22.i == 0) goto label255;
-    _r4_o = global::com.codename1.ui.Display.getInstance();
-    ((global::com.codename1.ui.Display) _r4_o).invokeAndBlock((global::java.lang.Runnable) _r7_o);
-    label255:;
+    ((global::com.codename1.ui.Container_2MorphAnimation) _r7_o)._fdontRevalidate = 0!=_r4.i;
+    if (_r22.i == 0) goto label244;
+    _r4_o = ((global::com.codename1.ui.Container) _r20_o).getAnimationManager();
+    ((global::com.codename1.ui.AnimationManager) _r4_o).addAnimationAndBlock((global::com.codename1.ui.animations.ComponentAnimation) _r7_o);
+    label243:;
     return;
+    label244:;
+    if (_r24_o == null) goto label258;
+    _r4_o = ((global::com.codename1.ui.Container) _r20_o).getAnimationManager();
+    _r0_o = _r4_o;
+    _r1_o = _r7_o;
+    _r2_o = _r24_o;
+    ((global::com.codename1.ui.AnimationManager) _r0_o).addAnimation((global::com.codename1.ui.animations.ComponentAnimation) _r1_o, (global::java.lang.Runnable) _r2_o);
+    goto label243;
+    label258:;
+    _r4_o = ((global::com.codename1.ui.Container) _r20_o).getAnimationManager();
+    ((global::com.codename1.ui.AnimationManager) _r4_o).addAnimation((global::com.codename1.ui.animations.ComponentAnimation) _r7_o);
+    goto label243;
 //XMLVM_END_WRAPPER[com.codename1.ui.Container: void animateUnlayout(int, boolean, int, java.lang.Runnable)]
 }
 
@@ -5604,7 +5994,7 @@ private void animateLayout(int n1, bool n2, int n3){
     _r17.i = _r17.i + 1;
     goto label96;
     label224:;
-    _r7_o = new global::com.codename1.ui.Container_2Anim();
+    _r7_o = new global::com.codename1.ui.Container_2MorphAnimation();
     _r4.i = 4;
     _r4_o = new global::org.xmlvm._nArrayAdapter<global::System.Object>(new global::System.Object[_r4.i]);
     _r5.i = 0;
@@ -5619,22 +6009,25 @@ private void animateLayout(int n1, bool n2, int n3){
     _r1_o = _r21_o;
     _r2.i = _r22.i;
     _r3_o = _r4_o;
-    ((global::com.codename1.ui.Container_2Anim) _r0_o).@this((global::com.codename1.ui.Container) _r1_o, (int) _r2.i, (global::org.xmlvm._nArrayAdapter<global::System.Object>) _r3_o);
+    ((global::com.codename1.ui.Container_2MorphAnimation) _r0_o).@this((global::com.codename1.ui.Container) _r1_o, (int) _r2.i, (global::org.xmlvm._nArrayAdapter<global::System.Object>) _r3_o);
     _r6.i = 255;
     _r4_o = _r21_o;
     _r5.i = _r24.i;
     _r9.i = _r22.i;
-    ((global::com.codename1.ui.Container) _r4_o).setAnimOpacity((int) _r5.i, (int) _r6.i, (global::com.codename1.ui.Container_2Anim) _r7_o, (int) _r8.i, (int) _r9.i);
-    ((global::com.codename1.ui.Form) _r15_o).registerAnimated((global::com.codename1.ui.animations.Animation) _r7_o);
-    if (_r23.i == 0) goto label6;
-    _r4_o = global::com.codename1.ui.Display.getInstance();
-    ((global::com.codename1.ui.Display) _r4_o).invokeAndBlock((global::java.lang.Runnable) _r7_o);
+    ((global::com.codename1.ui.Container) _r4_o).setAnimOpacity((int) _r5.i, (int) _r6.i, (global::com.codename1.ui.Container_2MorphAnimation) _r7_o, (int) _r8.i, (int) _r9.i);
+    if (_r23.i == 0) goto label272;
+    _r4_o = ((global::com.codename1.ui.Container) _r21_o).getAnimationManager();
+    ((global::com.codename1.ui.AnimationManager) _r4_o).addAnimationAndBlock((global::com.codename1.ui.animations.ComponentAnimation) _r7_o);
+    goto label6;
+    label272:;
+    _r4_o = ((global::com.codename1.ui.Container) _r21_o).getAnimationManager();
+    ((global::com.codename1.ui.AnimationManager) _r4_o).addAnimation((global::com.codename1.ui.animations.ComponentAnimation) _r7_o);
     goto label6;
 //XMLVM_END_WRAPPER[com.codename1.ui.Container: void animateLayout(int, boolean, int)]
 }
 
-private void setAnimOpacity(int n1, int n2, global::com.codename1.ui.Container_2Anim n3, int n4, int n5){
-//XMLVM_BEGIN_WRAPPER[com.codename1.ui.Container: void setAnimOpacity(int, int, com.codename1.ui.Container$Anim, int, int)]
+private void setAnimOpacity(int n1, int n2, global::com.codename1.ui.Container_2MorphAnimation n3, int n4, int n5){
+//XMLVM_BEGIN_WRAPPER[com.codename1.ui.Container: void setAnimOpacity(int, int, com.codename1.ui.Container$MorphAnimation, int, int)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
@@ -5662,18 +6055,18 @@ private void setAnimOpacity(int n1, int n2, global::com.codename1.ui.Container_2
     _r8.i = n5;
     if (_r4.i == _r5.i) goto label20;
     _r1_o = new global::org.xmlvm._nArrayAdapter<global::System.Object>(new global::System.Object[_r7.i]);
-    ((global::com.codename1.ui.Container_2Anim) _r6_o)._fopacity = (global::org.xmlvm._nArrayAdapter<global::System.Object>) _r1_o;
+    ((global::com.codename1.ui.Container_2MorphAnimation) _r6_o)._fopacity = (global::org.xmlvm._nArrayAdapter<global::System.Object>) _r1_o;
     _r0.i = 0;
     label7:;
     if (_r0.i >= _r7.i) goto label20;
-    _r1_o = ((global::com.codename1.ui.Container_2Anim) _r6_o)._fopacity;
+    _r1_o = ((global::com.codename1.ui.Container_2MorphAnimation) _r6_o)._fopacity;
     _r2_o = ((global::com.codename1.ui.Container) _r3_o).createAndStartAnimateMotion((int) _r4.i, (int) _r5.i, (int) _r8.i);
     ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r1_o)[_r0.i] = _r2_o;
     _r0.i = _r0.i + 1;
     goto label7;
     label20:;
     return;
-//XMLVM_END_WRAPPER[com.codename1.ui.Container: void setAnimOpacity(int, int, com.codename1.ui.Container$Anim, int, int)]
+//XMLVM_END_WRAPPER[com.codename1.ui.Container: void setAnimOpacity(int, int, com.codename1.ui.Container$MorphAnimation, int, int)]
 }
 
 public virtual global::System.Object iterator(){
@@ -5690,33 +6083,21 @@ public virtual global::System.Object iterator(){
 //XMLVM_END_WRAPPER[com.codename1.ui.Container: java.util.Iterator iterator()]
 }
 
-public static bool access_2102(bool n1){
-//XMLVM_BEGIN_WRAPPER[com.codename1.ui.Container: boolean access$102(boolean)]
-    global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
-    _r0.i = n1 ? 1 : 0;
-    global::com.codename1.ui.Container._fenableLayoutOnPaint = 0!=_r0.i;
-    return _r0.i!=0;
-//XMLVM_END_WRAPPER[com.codename1.ui.Container: boolean access$102(boolean)]
-}
-
-public static bool access_2202(global::com.codename1.ui.Container n1, bool n2){
-//XMLVM_BEGIN_WRAPPER[com.codename1.ui.Container: boolean access$202(com.codename1.ui.Container, boolean)]
+public static global::System.Object access_2000(global::com.codename1.ui.Container n1){
+//XMLVM_BEGIN_WRAPPER[com.codename1.ui.Container: com.codename1.ui.layouts.Layout access$000(com.codename1.ui.Container)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
-    _r0_o = n1;
-    _r1.i = n2 ? 1 : 0;
-    ((global::com.codename1.ui.Container) _r0_o)._fdontRecurseContainer = 0!=_r1.i;
-    return _r1.i!=0;
-//XMLVM_END_WRAPPER[com.codename1.ui.Container: boolean access$202(com.codename1.ui.Container, boolean)]
+    _r1_o = n1;
+    _r0_o = ((global::com.codename1.ui.Container) _r1_o)._flayout;
+    return (global::com.codename1.ui.layouts.Layout) _r0_o;
+//XMLVM_END_WRAPPER[com.codename1.ui.Container: com.codename1.ui.layouts.Layout access$000(com.codename1.ui.Container)]
 }
 
-public static global::System.Object access_2300(global::com.codename1.ui.Container n1){
-//XMLVM_BEGIN_WRAPPER[com.codename1.ui.Container: java.util.Vector access$300(com.codename1.ui.Container)]
+public static global::System.Object access_2200(global::com.codename1.ui.Container n1){
+//XMLVM_BEGIN_WRAPPER[com.codename1.ui.Container: java.util.Vector access$200(com.codename1.ui.Container)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
@@ -5725,11 +6106,11 @@ public static global::System.Object access_2300(global::com.codename1.ui.Contain
     _r1_o = n1;
     _r0_o = ((global::com.codename1.ui.Container) _r1_o)._fcmpTransitions;
     return (global::java.util.Vector) _r0_o;
-//XMLVM_END_WRAPPER[com.codename1.ui.Container: java.util.Vector access$300(com.codename1.ui.Container)]
+//XMLVM_END_WRAPPER[com.codename1.ui.Container: java.util.Vector access$200(com.codename1.ui.Container)]
 }
 
-public static global::System.Object access_2302(global::com.codename1.ui.Container n1, global::java.util.Vector n2){
-//XMLVM_BEGIN_WRAPPER[com.codename1.ui.Container: java.util.Vector access$302(com.codename1.ui.Container, java.util.Vector)]
+public static global::System.Object access_2202(global::com.codename1.ui.Container n1, global::java.util.Vector n2){
+//XMLVM_BEGIN_WRAPPER[com.codename1.ui.Container: java.util.Vector access$202(com.codename1.ui.Container, java.util.Vector)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
@@ -5739,7 +6120,32 @@ public static global::System.Object access_2302(global::com.codename1.ui.Contain
     _r1_o = n2;
     ((global::com.codename1.ui.Container) _r0_o)._fcmpTransitions = (global::java.util.Vector) _r1_o;
     return (global::java.util.Vector) _r1_o;
-//XMLVM_END_WRAPPER[com.codename1.ui.Container: java.util.Vector access$302(com.codename1.ui.Container, java.util.Vector)]
+//XMLVM_END_WRAPPER[com.codename1.ui.Container: java.util.Vector access$202(com.codename1.ui.Container, java.util.Vector)]
+}
+
+public static bool access_2302(bool n1){
+//XMLVM_BEGIN_WRAPPER[com.codename1.ui.Container: boolean access$302(boolean)]
+    global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
+    _r0.i = n1 ? 1 : 0;
+    global::com.codename1.ui.Container._fenableLayoutOnPaint = 0!=_r0.i;
+    return _r0.i!=0;
+//XMLVM_END_WRAPPER[com.codename1.ui.Container: boolean access$302(boolean)]
+}
+
+public static bool access_2402(global::com.codename1.ui.Container n1, bool n2){
+//XMLVM_BEGIN_WRAPPER[com.codename1.ui.Container: boolean access$402(com.codename1.ui.Container, boolean)]
+    global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
+    _r0_o = n1;
+    _r1.i = n2 ? 1 : 0;
+    ((global::com.codename1.ui.Container) _r0_o)._fdontRecurseContainer = 0!=_r1.i;
+    return _r1.i!=0;
+//XMLVM_END_WRAPPER[com.codename1.ui.Container: boolean access$402(com.codename1.ui.Container, boolean)]
 }
 
 public static void @static(){

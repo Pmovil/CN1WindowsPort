@@ -2060,6 +2060,195 @@ public virtual int getPaddingValue(bool n1, int n2){
 //XMLVM_END_WRAPPER[com.codename1.ui.plaf.Style: int getPaddingValue(boolean, int)]
 }
 
+public virtual int getPaddingLeft(bool n1){
+//XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Style: int getPaddingLeft(boolean)]
+    global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
+    _r4_o = this;
+    _r5.i = n1 ? 1 : 0;
+    _r3.i = 3;
+    _r2.i = 1;
+    if (_r5.i == 0) goto label15;
+    _r0_o = ((global::com.codename1.ui.plaf.Style) _r4_o)._fpaddingUnit;
+    _r1_o = ((global::com.codename1.ui.plaf.Style) _r4_o)._fpadding;
+    _r1.i = ((global::org.xmlvm._nArrayAdapter<int>) _r1_o)[_r3.i];
+    _r0.i = ((global::com.codename1.ui.plaf.Style) _r4_o).convertUnit((global::org.xmlvm._nArrayAdapter<sbyte>) _r0_o, (int) _r1.i, (int) _r3.i);
+    label14:;
+    return _r0.i;
+    label15:;
+    _r0_o = ((global::com.codename1.ui.plaf.Style) _r4_o)._fpaddingUnit;
+    _r1_o = ((global::com.codename1.ui.plaf.Style) _r4_o)._fpadding;
+    _r1.i = ((global::org.xmlvm._nArrayAdapter<int>) _r1_o)[_r2.i];
+    _r0.i = ((global::com.codename1.ui.plaf.Style) _r4_o).convertUnit((global::org.xmlvm._nArrayAdapter<sbyte>) _r0_o, (int) _r1.i, (int) _r2.i);
+    goto label14;
+//XMLVM_END_WRAPPER[com.codename1.ui.plaf.Style: int getPaddingLeft(boolean)]
+}
+
+public virtual int getPaddingRight(bool n1){
+//XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Style: int getPaddingRight(boolean)]
+    global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
+    _r4_o = this;
+    _r5.i = n1 ? 1 : 0;
+    _r3.i = 3;
+    _r2.i = 1;
+    if (_r5.i == 0) goto label15;
+    _r0_o = ((global::com.codename1.ui.plaf.Style) _r4_o)._fpaddingUnit;
+    _r1_o = ((global::com.codename1.ui.plaf.Style) _r4_o)._fpadding;
+    _r1.i = ((global::org.xmlvm._nArrayAdapter<int>) _r1_o)[_r2.i];
+    _r0.i = ((global::com.codename1.ui.plaf.Style) _r4_o).convertUnit((global::org.xmlvm._nArrayAdapter<sbyte>) _r0_o, (int) _r1.i, (int) _r2.i);
+    label14:;
+    return _r0.i;
+    label15:;
+    _r0_o = ((global::com.codename1.ui.plaf.Style) _r4_o)._fpaddingUnit;
+    _r1_o = ((global::com.codename1.ui.plaf.Style) _r4_o)._fpadding;
+    _r1.i = ((global::org.xmlvm._nArrayAdapter<int>) _r1_o)[_r3.i];
+    _r0.i = ((global::com.codename1.ui.plaf.Style) _r4_o).convertUnit((global::org.xmlvm._nArrayAdapter<sbyte>) _r0_o, (int) _r1.i, (int) _r3.i);
+    goto label14;
+//XMLVM_END_WRAPPER[com.codename1.ui.plaf.Style: int getPaddingRight(boolean)]
+}
+
+public virtual int getPaddingTop(){
+//XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Style: int getPaddingTop()]
+    global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
+    _r3_o = this;
+    _r2.i = 0;
+    _r0_o = ((global::com.codename1.ui.plaf.Style) _r3_o)._fpaddingUnit;
+    _r1_o = ((global::com.codename1.ui.plaf.Style) _r3_o)._fpadding;
+    _r1.i = ((global::org.xmlvm._nArrayAdapter<int>) _r1_o)[_r2.i];
+    _r0.i = ((global::com.codename1.ui.plaf.Style) _r3_o).convertUnit((global::org.xmlvm._nArrayAdapter<sbyte>) _r0_o, (int) _r1.i, (int) _r2.i);
+    return _r0.i;
+//XMLVM_END_WRAPPER[com.codename1.ui.plaf.Style: int getPaddingTop()]
+}
+
+public virtual int getPaddingBottom(){
+//XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Style: int getPaddingBottom()]
+    global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
+    _r3_o = this;
+    _r2.i = 2;
+    _r0_o = ((global::com.codename1.ui.plaf.Style) _r3_o)._fpaddingUnit;
+    _r1_o = ((global::com.codename1.ui.plaf.Style) _r3_o)._fpadding;
+    _r1.i = ((global::org.xmlvm._nArrayAdapter<int>) _r1_o)[_r2.i];
+    _r0.i = ((global::com.codename1.ui.plaf.Style) _r3_o).convertUnit((global::org.xmlvm._nArrayAdapter<sbyte>) _r0_o, (int) _r1.i, (int) _r2.i);
+    return _r0.i;
+//XMLVM_END_WRAPPER[com.codename1.ui.plaf.Style: int getPaddingBottom()]
+}
+
+public virtual int getMarginRight(bool n1){
+//XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Style: int getMarginRight(boolean)]
+    global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
+    _r4_o = this;
+    _r5.i = n1 ? 1 : 0;
+    _r3.i = 3;
+    _r2.i = 1;
+    if (_r5.i == 0) goto label15;
+    _r0_o = ((global::com.codename1.ui.plaf.Style) _r4_o)._fmarginUnit;
+    _r1_o = ((global::com.codename1.ui.plaf.Style) _r4_o)._fmargin;
+    _r1.i = ((global::org.xmlvm._nArrayAdapter<int>) _r1_o)[_r2.i];
+    _r0.i = ((global::com.codename1.ui.plaf.Style) _r4_o).convertUnit((global::org.xmlvm._nArrayAdapter<sbyte>) _r0_o, (int) _r1.i, (int) _r2.i);
+    label14:;
+    return _r0.i;
+    label15:;
+    _r0_o = ((global::com.codename1.ui.plaf.Style) _r4_o)._fmarginUnit;
+    _r1_o = ((global::com.codename1.ui.plaf.Style) _r4_o)._fmargin;
+    _r1.i = ((global::org.xmlvm._nArrayAdapter<int>) _r1_o)[_r3.i];
+    _r0.i = ((global::com.codename1.ui.plaf.Style) _r4_o).convertUnit((global::org.xmlvm._nArrayAdapter<sbyte>) _r0_o, (int) _r1.i, (int) _r3.i);
+    goto label14;
+//XMLVM_END_WRAPPER[com.codename1.ui.plaf.Style: int getMarginRight(boolean)]
+}
+
+public virtual int getMarginTop(){
+//XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Style: int getMarginTop()]
+    global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
+    _r3_o = this;
+    _r2.i = 0;
+    _r0_o = ((global::com.codename1.ui.plaf.Style) _r3_o)._fmarginUnit;
+    _r1_o = ((global::com.codename1.ui.plaf.Style) _r3_o)._fmargin;
+    _r1.i = ((global::org.xmlvm._nArrayAdapter<int>) _r1_o)[_r2.i];
+    _r0.i = ((global::com.codename1.ui.plaf.Style) _r3_o).convertUnit((global::org.xmlvm._nArrayAdapter<sbyte>) _r0_o, (int) _r1.i, (int) _r2.i);
+    return _r0.i;
+//XMLVM_END_WRAPPER[com.codename1.ui.plaf.Style: int getMarginTop()]
+}
+
+public virtual int getMarginBottom(){
+//XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Style: int getMarginBottom()]
+    global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
+    _r3_o = this;
+    _r2.i = 2;
+    _r0_o = ((global::com.codename1.ui.plaf.Style) _r3_o)._fmarginUnit;
+    _r1_o = ((global::com.codename1.ui.plaf.Style) _r3_o)._fmargin;
+    _r1.i = ((global::org.xmlvm._nArrayAdapter<int>) _r1_o)[_r2.i];
+    _r0.i = ((global::com.codename1.ui.plaf.Style) _r3_o).convertUnit((global::org.xmlvm._nArrayAdapter<sbyte>) _r0_o, (int) _r1.i, (int) _r2.i);
+    return _r0.i;
+//XMLVM_END_WRAPPER[com.codename1.ui.plaf.Style: int getMarginBottom()]
+}
+
 public virtual int getPadding(bool n1, int n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.plaf.Style: int getPadding(boolean, int)]
     global::org.xmlvm._nElement _r0;

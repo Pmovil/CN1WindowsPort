@@ -103,8 +103,7 @@ public static global::System.Object create(global::java.lang.Object n1){
     label3:;
     return (global::com.codename1.ui.PeerComponent) _r0_o;
     label4:;
-    _r0_o = global::com.codename1.ui.Display.getInstance();
-    _r0_o = ((global::com.codename1.ui.Display) _r0_o).getImplementation();
+    _r0_o = global::com.codename1.ui.Display._fimpl;
     _r0_o = ((global::com.codename1.impl.CodenameOneImplementation) _r0_o).createNativePeer((global::java.lang.Object) _r1_o);
     goto label3;
 //XMLVM_END_WRAPPER[com.codename1.ui.PeerComponent: com.codename1.ui.PeerComponent create(java.lang.Object)]
@@ -180,8 +179,16 @@ public override void deinitialize(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.PeerComponent: void deinitialize()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
-    _r0_o = this;
+    _r2_o = this;
+    _r0.i = global::com.codename1.ui.Form._factivePeerCount;
+    _r1.i = 1;
+    _r0.i = _r0.i - _r1.i;
+    global::com.codename1.ui.Form._factivePeerCount = _r0.i;
     base.deinitialize();
     return;
 //XMLVM_END_WRAPPER[com.codename1.ui.PeerComponent: void deinitialize()]
@@ -236,8 +243,13 @@ public override void initComponent(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.PeerComponent: void initComponent()]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
-    _r0_o = this;
+    _r1_o = this;
+    _r0.i = global::com.codename1.ui.Form._factivePeerCount;
+    _r0.i = _r0.i + 1;
+    global::com.codename1.ui.Form._factivePeerCount = _r0.i;
     base.initComponent();
     return;
 //XMLVM_END_WRAPPER[com.codename1.ui.PeerComponent: void initComponent()]

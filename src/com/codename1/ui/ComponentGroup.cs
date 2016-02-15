@@ -68,22 +68,25 @@ private void reverseRadio(global::com.codename1.ui.Component n1){
 //XMLVM_END_WRAPPER[com.codename1.ui.ComponentGroup: void reverseRadio(com.codename1.ui.Component)]
 }
 
-public override void insertComponentAt(int n1, global::com.codename1.ui.Component n2){
-//XMLVM_BEGIN_WRAPPER[com.codename1.ui.ComponentGroup: void insertComponentAt(int, com.codename1.ui.Component)]
+public override void insertComponentAt(int n1, global::java.lang.Object n2, global::com.codename1.ui.Component n3){
+//XMLVM_BEGIN_WRAPPER[com.codename1.ui.ComponentGroup: void insertComponentAt(int, java.lang.Object, com.codename1.ui.Component)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = this;
     _r1.i = n1;
     _r2_o = n2;
-    base.insertComponentAt((int) _r1.i, (global::com.codename1.ui.Component) _r2_o);
+    _r3_o = n3;
+    base.insertComponentAt((int) _r1.i, (global::java.lang.Object) _r2_o, (global::com.codename1.ui.Component) _r3_o);
     ((global::com.codename1.ui.ComponentGroup) _r0_o).updateUIIDs();
     return;
-//XMLVM_END_WRAPPER[com.codename1.ui.ComponentGroup: void insertComponentAt(int, com.codename1.ui.Component)]
+//XMLVM_END_WRAPPER[com.codename1.ui.ComponentGroup: void insertComponentAt(int, java.lang.Object, com.codename1.ui.Component)]
 }
 
 public override void refreshTheme(bool n1){

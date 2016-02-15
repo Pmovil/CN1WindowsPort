@@ -41,17 +41,16 @@ public static global::System.Object IDENTITY(){
     global::System.Object _r1_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r0_o = global::com.codename1.ui.Transform._f_1IDENTITY;
-    if (_r0_o != null) goto label28;
+    if (_r0_o != null) goto label22;
     _r0_o = new global::com.codename1.ui.Transform_2ImmutableTransform();
-    _r1_o = global::com.codename1.ui.Display.getInstance();
-    _r1_o = ((global::com.codename1.ui.Display) _r1_o).getImplementation();
+    _r1_o = global::com.codename1.ui.Display._fimpl;
     _r1_o = ((global::com.codename1.impl.CodenameOneImplementation) _r1_o).makeTransformIdentity();
     ((global::com.codename1.ui.Transform_2ImmutableTransform) _r0_o).@this((global::java.lang.Object) _r1_o);
     global::com.codename1.ui.Transform._f_1IDENTITY = (global::com.codename1.ui.Transform) _r0_o;
     _r0_o = global::com.codename1.ui.Transform._f_1IDENTITY;
     _r1.i = 0;
     ((global::com.codename1.ui.Transform) _r0_o)._ftype = _r1.i;
-    label28:;
+    label22:;
     _r0_o = global::com.codename1.ui.Transform._f_1IDENTITY;
     return (global::com.codename1.ui.Transform) _r0_o;
 //XMLVM_END_WRAPPER[com.codename1.ui.Transform: com.codename1.ui.Transform IDENTITY()]
@@ -102,11 +101,10 @@ private global::System.Object impl(){
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.Transform) _r1_o)._fimpl;
-    if (_r0_o != null) goto label14;
-    _r0_o = global::com.codename1.ui.Display.getInstance();
-    _r0_o = ((global::com.codename1.ui.Display) _r0_o).getImplementation();
+    if (_r0_o != null) goto label8;
+    _r0_o = global::com.codename1.ui.Display._fimpl;
     ((global::com.codename1.ui.Transform) _r1_o)._fimpl = (global::com.codename1.impl.CodenameOneImplementation) _r0_o;
-    label14:;
+    label8:;
     _r0_o = ((global::com.codename1.ui.Transform) _r1_o)._fimpl;
     return (global::com.codename1.impl.CodenameOneImplementation) _r0_o;
 //XMLVM_END_WRAPPER[com.codename1.ui.Transform: com.codename1.impl.CodenameOneImplementation impl()]
@@ -383,8 +381,7 @@ public static global::System.Object makeRotation(float n1, float n2, float n3, f
     _r4.f = n2;
     _r5.f = n3;
     _r6.f = n4;
-    _r2_o = global::com.codename1.ui.Display.getInstance();
-    _r2_o = ((global::com.codename1.ui.Display) _r2_o).getImplementation();
+    _r2_o = global::com.codename1.ui.Display._fimpl;
     _r1_o = ((global::com.codename1.impl.CodenameOneImplementation) _r2_o).makeTransformRotation((float) _r3.f, (float) _r4.f, (float) _r5.f, (float) _r6.f);
     _r0_o = new global::com.codename1.ui.Transform();
     ((global::com.codename1.ui.Transform) _r0_o).@this((global::java.lang.Object) _r1_o);
@@ -534,8 +531,7 @@ public static global::System.Object makePerspective(float n1, float n2, float n3
     _r4.f = n2;
     _r5.f = n3;
     _r6.f = n4;
-    _r2_o = global::com.codename1.ui.Display.getInstance();
-    _r2_o = ((global::com.codename1.ui.Display) _r2_o).getImplementation();
+    _r2_o = global::com.codename1.ui.Display._fimpl;
     _r1_o = ((global::com.codename1.impl.CodenameOneImplementation) _r2_o).makeTransformPerspective((float) _r3.f, (float) _r4.f, (float) _r5.f, (float) _r6.f);
     _r0_o = new global::com.codename1.ui.Transform();
     ((global::com.codename1.ui.Transform) _r0_o).@this((global::java.lang.Object) _r1_o);
@@ -582,8 +578,7 @@ public static global::System.Object makeOrtho(float n1, float n2, float n3, floa
     _r12.f = n4;
     _r13.f = n5;
     _r14.f = n6;
-    _r0_o = global::com.codename1.ui.Display.getInstance();
-    _r0_o = ((global::com.codename1.ui.Display) _r0_o).getImplementation();
+    _r0_o = global::com.codename1.ui.Display._fimpl;
     _r1.f = _r9.f;
     _r2.f = _r10.f;
     _r3.f = _r11.f;
@@ -647,8 +642,7 @@ public static global::System.Object makeCamera(float n1, float n2, float n3, flo
     _r16.f = n7;
     _r17.f = n8;
     _r18.f = n9;
-    _r0_o = global::com.codename1.ui.Display.getInstance();
-    _r0_o = ((global::com.codename1.ui.Display) _r0_o).getImplementation();
+    _r0_o = global::com.codename1.ui.Display._fimpl;
     _r1.f = _r10.f;
     _r2.f = _r11.f;
     _r3.f = _r12.f;
@@ -696,8 +690,7 @@ public virtual void rotate(float n1, float n2, float n3, float n4){
     _r9.f = n3;
     _r10.f = n4;
     ((global::com.codename1.ui.Transform) _r6_o).initNativeTransform();
-    _r0_o = global::com.codename1.ui.Display.getInstance();
-    _r0_o = ((global::com.codename1.ui.Display) _r0_o).getImplementation();
+    _r0_o = global::com.codename1.ui.Display._fimpl;
     _r1_o = ((global::com.codename1.ui.Transform) _r6_o)._fnativeTransform;
     _r2.f = _r7.f;
     _r3.f = _r8.f;
@@ -1473,8 +1466,7 @@ public static bool isSupported(){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
-    _r0_o = global::com.codename1.ui.Display.getInstance();
-    _r0_o = ((global::com.codename1.ui.Display) _r0_o).getImplementation();
+    _r0_o = global::com.codename1.ui.Display._fimpl;
     _r0.i = ((global::com.codename1.impl.CodenameOneImplementation) _r0_o).isTransformSupported() ? 1 : 0;
     return _r0.i!=0;
 //XMLVM_END_WRAPPER[com.codename1.ui.Transform: boolean isSupported()]
@@ -1485,8 +1477,7 @@ public static bool isPerspectiveSupported(){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
-    _r0_o = global::com.codename1.ui.Display.getInstance();
-    _r0_o = ((global::com.codename1.ui.Display) _r0_o).getImplementation();
+    _r0_o = global::com.codename1.ui.Display._fimpl;
     _r0.i = ((global::com.codename1.impl.CodenameOneImplementation) _r0_o).isPerspectiveTransformSupported() ? 1 : 0;
     return _r0.i!=0;
 //XMLVM_END_WRAPPER[com.codename1.ui.Transform: boolean isPerspectiveSupported()]

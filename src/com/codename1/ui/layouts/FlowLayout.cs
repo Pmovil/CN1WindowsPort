@@ -61,6 +61,36 @@ public void @this(int n1){
 //XMLVM_END_WRAPPER[com.codename1.ui.layouts.FlowLayout: void <init>(int)]
 }
 
+public void @this(int n1, int n2){
+//XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.FlowLayout: void <init>(int, int)]
+    global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
+    _r2_o = this;
+    _r3.i = n1;
+    _r4.i = n2;
+    _r1.i = 0;
+    ((global::com.codename1.ui.layouts.Layout) _r2_o).@this();
+    _r0.i = 1;
+    ((global::com.codename1.ui.layouts.FlowLayout) _r2_o)._forientation = _r0.i;
+    ((global::com.codename1.ui.layouts.FlowLayout) _r2_o)._fvalign = _r1.i;
+    _r0_o = new global::com.codename1.ui.geom.Dimension();
+    ((global::com.codename1.ui.geom.Dimension) _r0_o).@this((int) _r1.i, (int) _r1.i);
+    ((global::com.codename1.ui.layouts.FlowLayout) _r2_o)._fdim = (global::com.codename1.ui.geom.Dimension) _r0_o;
+    ((global::com.codename1.ui.layouts.FlowLayout) _r2_o)._forientation = _r3.i;
+    ((global::com.codename1.ui.layouts.FlowLayout) _r2_o)._fvalign = _r4.i;
+    return;
+//XMLVM_END_WRAPPER[com.codename1.ui.layouts.FlowLayout: void <init>(int, int)]
+}
+
 public override void layoutContainer(global::com.codename1.ui.Container n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.FlowLayout: void layoutContainer(com.codename1.ui.Container)]
     global::org.xmlvm._nElement _r0;
@@ -883,7 +913,7 @@ public override global::System.Object getPreferredSize(global::com.codename1.ui.
     _r9.i = _r12.i + _r13.i;
     _r10.i = _r10.i + _r9.i;
     if (_r8.i <= _r6.i) goto label138;
-    if (_r10.i < _r8.i) goto label138;
+    if (_r10.i <= _r8.i) goto label138;
     if (_r4.i <= 0) goto label138;
     _r12.i = ((global::com.codename1.ui.Component) _r2_o).getPreferredH();
     _r13_o = ((global::com.codename1.ui.Component) _r2_o).getStyle();
@@ -1102,6 +1132,180 @@ public override bool equals(global::java.lang.Object n1){
     _r1.i = 0;
     goto label35;
 //XMLVM_END_WRAPPER[com.codename1.ui.layouts.FlowLayout: boolean equals(java.lang.Object)]
+}
+
+public static global::System.Object encloseIn(global::org.xmlvm._nArrayAdapter<global::System.Object> n1){
+//XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.FlowLayout: com.codename1.ui.Container encloseIn(com.codename1.ui.Component[])]
+    global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
+    _r1_o = n1;
+    _r0_o = new global::com.codename1.ui.layouts.FlowLayout();
+    ((global::com.codename1.ui.layouts.FlowLayout) _r0_o).@this();
+    _r0_o = global::com.codename1.ui.Container.encloseIn((global::com.codename1.ui.layouts.Layout) _r0_o, (global::org.xmlvm._nArrayAdapter<global::System.Object>) _r1_o);
+    return (global::com.codename1.ui.Container) _r0_o;
+//XMLVM_END_WRAPPER[com.codename1.ui.layouts.FlowLayout: com.codename1.ui.Container encloseIn(com.codename1.ui.Component[])]
+}
+
+public static global::System.Object encloseCenter(global::org.xmlvm._nArrayAdapter<global::System.Object> n1){
+//XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.FlowLayout: com.codename1.ui.Container encloseCenter(com.codename1.ui.Component[])]
+    global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
+    _r2_o = n1;
+    _r0_o = new global::com.codename1.ui.layouts.FlowLayout();
+    _r1.i = 4;
+    ((global::com.codename1.ui.layouts.FlowLayout) _r0_o).@this((int) _r1.i);
+    _r0_o = global::com.codename1.ui.Container.encloseIn((global::com.codename1.ui.layouts.Layout) _r0_o, (global::org.xmlvm._nArrayAdapter<global::System.Object>) _r2_o);
+    return (global::com.codename1.ui.Container) _r0_o;
+//XMLVM_END_WRAPPER[com.codename1.ui.layouts.FlowLayout: com.codename1.ui.Container encloseCenter(com.codename1.ui.Component[])]
+}
+
+public static global::System.Object encloseRight(global::org.xmlvm._nArrayAdapter<global::System.Object> n1){
+//XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.FlowLayout: com.codename1.ui.Container encloseRight(com.codename1.ui.Component[])]
+    global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
+    _r2_o = n1;
+    _r0_o = new global::com.codename1.ui.layouts.FlowLayout();
+    _r1.i = 3;
+    ((global::com.codename1.ui.layouts.FlowLayout) _r0_o).@this((int) _r1.i);
+    _r0_o = global::com.codename1.ui.Container.encloseIn((global::com.codename1.ui.layouts.Layout) _r0_o, (global::org.xmlvm._nArrayAdapter<global::System.Object>) _r2_o);
+    return (global::com.codename1.ui.Container) _r0_o;
+//XMLVM_END_WRAPPER[com.codename1.ui.layouts.FlowLayout: com.codename1.ui.Container encloseRight(com.codename1.ui.Component[])]
+}
+
+public static global::System.Object encloseMiddle(global::org.xmlvm._nArrayAdapter<global::System.Object> n1){
+//XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.FlowLayout: com.codename1.ui.Container encloseMiddle(com.codename1.ui.Component[])]
+    global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
+    _r3_o = n1;
+    _r0_o = new global::com.codename1.ui.layouts.FlowLayout();
+    _r1.i = 1;
+    _r2.i = 4;
+    ((global::com.codename1.ui.layouts.FlowLayout) _r0_o).@this((int) _r1.i, (int) _r2.i);
+    _r0_o = global::com.codename1.ui.Container.encloseIn((global::com.codename1.ui.layouts.Layout) _r0_o, (global::org.xmlvm._nArrayAdapter<global::System.Object>) _r3_o);
+    return (global::com.codename1.ui.Container) _r0_o;
+//XMLVM_END_WRAPPER[com.codename1.ui.layouts.FlowLayout: com.codename1.ui.Container encloseMiddle(com.codename1.ui.Component[])]
+}
+
+public static global::System.Object encloseCenterMiddle(global::org.xmlvm._nArrayAdapter<global::System.Object> n1){
+//XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.FlowLayout: com.codename1.ui.Container encloseCenterMiddle(com.codename1.ui.Component[])]
+    global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
+    _r2_o = n1;
+    _r1.i = 4;
+    _r0_o = new global::com.codename1.ui.layouts.FlowLayout();
+    ((global::com.codename1.ui.layouts.FlowLayout) _r0_o).@this((int) _r1.i, (int) _r1.i);
+    _r0_o = global::com.codename1.ui.Container.encloseIn((global::com.codename1.ui.layouts.Layout) _r0_o, (global::org.xmlvm._nArrayAdapter<global::System.Object>) _r2_o);
+    return (global::com.codename1.ui.Container) _r0_o;
+//XMLVM_END_WRAPPER[com.codename1.ui.layouts.FlowLayout: com.codename1.ui.Container encloseCenterMiddle(com.codename1.ui.Component[])]
+}
+
+public static global::System.Object encloseRightMiddle(global::org.xmlvm._nArrayAdapter<global::System.Object> n1){
+//XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.FlowLayout: com.codename1.ui.Container encloseRightMiddle(com.codename1.ui.Component[])]
+    global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
+    _r3_o = n1;
+    _r0_o = new global::com.codename1.ui.layouts.FlowLayout();
+    _r1.i = 3;
+    _r2.i = 4;
+    ((global::com.codename1.ui.layouts.FlowLayout) _r0_o).@this((int) _r1.i, (int) _r2.i);
+    _r0_o = global::com.codename1.ui.Container.encloseIn((global::com.codename1.ui.layouts.Layout) _r0_o, (global::org.xmlvm._nArrayAdapter<global::System.Object>) _r3_o);
+    return (global::com.codename1.ui.Container) _r0_o;
+//XMLVM_END_WRAPPER[com.codename1.ui.layouts.FlowLayout: com.codename1.ui.Container encloseRightMiddle(com.codename1.ui.Component[])]
+}
+
+public static global::System.Object encloseBottom(global::org.xmlvm._nArrayAdapter<global::System.Object> n1){
+//XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.FlowLayout: com.codename1.ui.Container encloseBottom(com.codename1.ui.Component[])]
+    global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
+    _r3_o = n1;
+    _r0_o = new global::com.codename1.ui.layouts.FlowLayout();
+    _r1.i = 1;
+    _r2.i = 2;
+    ((global::com.codename1.ui.layouts.FlowLayout) _r0_o).@this((int) _r1.i, (int) _r2.i);
+    _r0_o = global::com.codename1.ui.Container.encloseIn((global::com.codename1.ui.layouts.Layout) _r0_o, (global::org.xmlvm._nArrayAdapter<global::System.Object>) _r3_o);
+    return (global::com.codename1.ui.Container) _r0_o;
+//XMLVM_END_WRAPPER[com.codename1.ui.layouts.FlowLayout: com.codename1.ui.Container encloseBottom(com.codename1.ui.Component[])]
+}
+
+public static global::System.Object encloseCenterBottom(global::org.xmlvm._nArrayAdapter<global::System.Object> n1){
+//XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.FlowLayout: com.codename1.ui.Container encloseCenterBottom(com.codename1.ui.Component[])]
+    global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
+    _r3_o = n1;
+    _r0_o = new global::com.codename1.ui.layouts.FlowLayout();
+    _r1.i = 4;
+    _r2.i = 2;
+    ((global::com.codename1.ui.layouts.FlowLayout) _r0_o).@this((int) _r1.i, (int) _r2.i);
+    _r0_o = global::com.codename1.ui.Container.encloseIn((global::com.codename1.ui.layouts.Layout) _r0_o, (global::org.xmlvm._nArrayAdapter<global::System.Object>) _r3_o);
+    return (global::com.codename1.ui.Container) _r0_o;
+//XMLVM_END_WRAPPER[com.codename1.ui.layouts.FlowLayout: com.codename1.ui.Container encloseCenterBottom(com.codename1.ui.Component[])]
+}
+
+public static global::System.Object encloseRightBottom(global::org.xmlvm._nArrayAdapter<global::System.Object> n1){
+//XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.FlowLayout: com.codename1.ui.Container encloseRightBottom(com.codename1.ui.Component[])]
+    global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
+    _r3_o = n1;
+    _r0_o = new global::com.codename1.ui.layouts.FlowLayout();
+    _r1.i = 3;
+    _r2.i = 2;
+    ((global::com.codename1.ui.layouts.FlowLayout) _r0_o).@this((int) _r1.i, (int) _r2.i);
+    _r0_o = global::com.codename1.ui.Container.encloseIn((global::com.codename1.ui.layouts.Layout) _r0_o, (global::org.xmlvm._nArrayAdapter<global::System.Object>) _r3_o);
+    return (global::com.codename1.ui.Container) _r0_o;
+//XMLVM_END_WRAPPER[com.codename1.ui.layouts.FlowLayout: com.codename1.ui.Container encloseRightBottom(com.codename1.ui.Component[])]
 }
 
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.FlowLayout]

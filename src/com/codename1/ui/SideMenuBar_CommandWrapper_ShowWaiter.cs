@@ -48,23 +48,24 @@ public virtual void run(){
     _r5_o = this;
     _r1_o = global::com.codename1.ui.Display.getInstance();
     _r1.i = ((global::com.codename1.ui.Display) _r1_o).isEdt() ? 1 : 0;
-    if (_r1.i == 0) goto label35;
+    if (_r1.i == 0) goto label37;
     _r0_o = new global::com.codename1.ui.events.ActionEvent();
     _r1_o = ((global::com.codename1.ui.SideMenuBar_2CommandWrapper_2ShowWaiter) _r5_o)._fthis_21;
     _r1_o = ((global::com.codename1.ui.SideMenuBar_2CommandWrapper) _r1_o)._fcmd;
-    ((global::com.codename1.ui.events.ActionEvent) _r0_o).@this((global::java.lang.Object) _r1_o);
+    _r2_o = global::com.codename1.ui.events.ActionEvent_2Type._fCommand;
+    ((global::com.codename1.ui.events.ActionEvent) _r0_o).@this((global::java.lang.Object) _r1_o, (global::com.codename1.ui.events.ActionEvent_2Type) _r2_o);
     _r1_o = ((global::com.codename1.ui.SideMenuBar_2CommandWrapper_2ShowWaiter) _r5_o)._fthis_21;
     _r1_o = ((global::com.codename1.ui.SideMenuBar_2CommandWrapper) _r1_o)._fthis_20;
     _r1_o = global::com.codename1.ui.SideMenuBar.access_2000((global::com.codename1.ui.SideMenuBar) _r1_o);
     _r2_o = ((global::com.codename1.ui.SideMenuBar_2CommandWrapper_2ShowWaiter) _r5_o)._fthis_21;
     _r2_o = ((global::com.codename1.ui.SideMenuBar_2CommandWrapper) _r2_o)._fcmd;
     ((global::com.codename1.ui.Form) _r1_o).dispatchCommand((global::com.codename1.ui.Command) _r2_o, (global::com.codename1.ui.events.ActionEvent) _r0_o);
-    label34:;
+    label36:;
     return;
-    label35:;
+    label37:;
     _r1_o = ((global::com.codename1.ui.SideMenuBar_2CommandWrapper_2ShowWaiter) _r5_o)._fLOCK;
     global::System.Threading.Monitor.Enter(_r1_o);
-    label38:;
+    label40:;
     try {
     _r2_o = global::com.codename1.ui.Display.getInstance();
     _r2_o = ((global::com.codename1.ui.Display) _r2_o).getCurrent();
@@ -77,11 +78,11 @@ public virtual void run(){
         global::System.Object _java_exception = ex.getJavaException();
         if (_java_exception is global::java.lang.Object) {
             _ex = ex;
-            goto label75;
+            goto label77;
         }
         throw ex;
     } // end catch
-    if (_r2_o == _r3_o) goto label66;
+    if (_r2_o == _r3_o) goto label68;
     try {
     _r2_o = ((global::com.codename1.ui.SideMenuBar_2CommandWrapper_2ShowWaiter) _r5_o)._fLOCK;
     _r3.l = 40L;
@@ -92,20 +93,20 @@ public virtual void run(){
         global::System.Object _java_exception = ex.getJavaException();
         if (_java_exception is global::java.lang.Exception) {
             _ex = ex;
-            goto label64;
+            goto label66;
         }
         if (_java_exception is global::java.lang.Object) {
             _ex = ex;
-            goto label75;
+            goto label77;
         }
         throw ex;
     } // end catch
-    goto label38;
-    label64:;
+    goto label40;
+    label66:;
     _r2_o = _ex.getJavaException();
     _ex = null;
-    goto label38;
-    label66:;
+    goto label40;
+    label68:;
     try {
     global::System.Threading.Monitor.Exit(_r1_o);
     }
@@ -114,14 +115,14 @@ public virtual void run(){
         global::System.Object _java_exception = ex.getJavaException();
         if (_java_exception is global::java.lang.Object) {
             _ex = ex;
-            goto label75;
+            goto label77;
         }
         throw ex;
     } // end catch
     _r1_o = global::com.codename1.ui.Display.getInstance();
     ((global::com.codename1.ui.Display) _r1_o).callSerially((global::java.lang.Runnable) _r5_o);
-    goto label34;
-    label75:;
+    goto label36;
+    label77:;
     _r2_o = _ex.getJavaException();
     _ex = null;
     try {
@@ -132,7 +133,7 @@ public virtual void run(){
         global::System.Object _java_exception = ex.getJavaException();
         if (_java_exception is global::java.lang.Object) {
             _ex = ex;
-            goto label75;
+            goto label77;
         }
         throw ex;
     } // end catch

@@ -1428,11 +1428,14 @@ private void fireActionEventImpl(){
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
-    _r2_o = this;
-    _r0_o = ((global::com.codename1.ui.Slider) _r2_o)._factionListeners;
+    _r3_o = this;
+    _r0_o = ((global::com.codename1.ui.Slider) _r3_o)._factionListeners;
     _r1_o = new global::com.codename1.ui.events.ActionEvent();
-    ((global::com.codename1.ui.events.ActionEvent) _r1_o).@this((global::java.lang.Object) _r2_o);
+    _r2_o = global::com.codename1.ui.events.ActionEvent_2Type._fPointerPressed;
+    ((global::com.codename1.ui.events.ActionEvent) _r1_o).@this((global::java.lang.Object) _r3_o, (global::com.codename1.ui.events.ActionEvent_2Type) _r2_o);
     ((global::com.codename1.ui.util.EventDispatcher) _r0_o).fireActionEvent((global::com.codename1.ui.events.ActionEvent) _r1_o);
     return;
 //XMLVM_END_WRAPPER[com.codename1.ui.Slider: void fireActionEventImpl()]

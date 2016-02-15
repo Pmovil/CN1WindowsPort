@@ -81,6 +81,55 @@ public virtual void schedule(int n1, bool n2, global::com.codename1.ui.Form n3){
 //XMLVM_END_WRAPPER[com.codename1.ui.util.UITimer: void schedule(int, boolean, com.codename1.ui.Form)]
 }
 
+public static global::System.Object timer(int n1, bool n2, global::com.codename1.ui.Form n3, global::java.lang.Runnable n4){
+//XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.UITimer: com.codename1.ui.util.UITimer timer(int, boolean, com.codename1.ui.Form, java.lang.Runnable)]
+    global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
+    _r1.i = n1;
+    _r2.i = n2 ? 1 : 0;
+    _r3_o = n3;
+    _r4_o = n4;
+    _r0_o = new global::com.codename1.ui.util.UITimer();
+    ((global::com.codename1.ui.util.UITimer) _r0_o).@this((global::java.lang.Runnable) _r4_o);
+    ((global::com.codename1.ui.util.UITimer) _r0_o).schedule((int) _r1.i, 0!=_r2.i, (global::com.codename1.ui.Form) _r3_o);
+    return (global::com.codename1.ui.util.UITimer) _r0_o;
+//XMLVM_END_WRAPPER[com.codename1.ui.util.UITimer: com.codename1.ui.util.UITimer timer(int, boolean, com.codename1.ui.Form, java.lang.Runnable)]
+}
+
+public static global::System.Object timer(int n1, bool n2, global::java.lang.Runnable n3){
+//XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.UITimer: com.codename1.ui.util.UITimer timer(int, boolean, java.lang.Runnable)]
+    global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
+    _r2.i = n1;
+    _r3.i = n2 ? 1 : 0;
+    _r4_o = n3;
+    _r0_o = new global::com.codename1.ui.util.UITimer();
+    ((global::com.codename1.ui.util.UITimer) _r0_o).@this((global::java.lang.Runnable) _r4_o);
+    _r1_o = global::com.codename1.ui.Display.getInstance();
+    _r1_o = ((global::com.codename1.ui.Display) _r1_o).getCurrent();
+    ((global::com.codename1.ui.util.UITimer) _r0_o).schedule((int) _r2.i, 0!=_r3.i, (global::com.codename1.ui.Form) _r1_o);
+    return (global::com.codename1.ui.util.UITimer) _r0_o;
+//XMLVM_END_WRAPPER[com.codename1.ui.util.UITimer: com.codename1.ui.util.UITimer timer(int, boolean, java.lang.Runnable)]
+}
+
 public virtual void cancel(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.util.UITimer: void cancel()]
     global::org.xmlvm._nElement _r0;

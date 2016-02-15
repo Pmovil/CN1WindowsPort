@@ -570,6 +570,42 @@ public override bool equals(global::java.lang.Object n1){
 //XMLVM_END_WRAPPER[com.codename1.ui.layouts.BoxLayout: boolean equals(java.lang.Object)]
 }
 
+public static global::System.Object encloseY(global::org.xmlvm._nArrayAdapter<global::System.Object> n1){
+//XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.BoxLayout: com.codename1.ui.Container encloseY(com.codename1.ui.Component[])]
+    global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
+    _r2_o = n1;
+    _r0_o = new global::com.codename1.ui.layouts.BoxLayout();
+    _r1.i = 2;
+    ((global::com.codename1.ui.layouts.BoxLayout) _r0_o).@this((int) _r1.i);
+    _r0_o = global::com.codename1.ui.Container.encloseIn((global::com.codename1.ui.layouts.Layout) _r0_o, (global::org.xmlvm._nArrayAdapter<global::System.Object>) _r2_o);
+    return (global::com.codename1.ui.Container) _r0_o;
+//XMLVM_END_WRAPPER[com.codename1.ui.layouts.BoxLayout: com.codename1.ui.Container encloseY(com.codename1.ui.Component[])]
+}
+
+public static global::System.Object encloseX(global::org.xmlvm._nArrayAdapter<global::System.Object> n1){
+//XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.BoxLayout: com.codename1.ui.Container encloseX(com.codename1.ui.Component[])]
+    global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
+    _r2_o = n1;
+    _r0_o = new global::com.codename1.ui.layouts.BoxLayout();
+    _r1.i = 1;
+    ((global::com.codename1.ui.layouts.BoxLayout) _r0_o).@this((int) _r1.i);
+    _r0_o = global::com.codename1.ui.Container.encloseIn((global::com.codename1.ui.layouts.Layout) _r0_o, (global::org.xmlvm._nArrayAdapter<global::System.Object>) _r2_o);
+    return (global::com.codename1.ui.Container) _r0_o;
+//XMLVM_END_WRAPPER[com.codename1.ui.layouts.BoxLayout: com.codename1.ui.Container encloseX(com.codename1.ui.Component[])]
+}
+
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.BoxLayout]
 //XMLVM_END_WRAPPER[com.codename1.ui.layouts.BoxLayout]
 

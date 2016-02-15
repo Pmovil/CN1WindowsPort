@@ -32,12 +32,12 @@ public virtual void run(){
     _r2_o = this;
     _r0_o = ((global::com.codename1.ui.Toolbar_2ToolbarSideMenu_21) _r2_o)._fthis_21;
     _r0_o = ((global::com.codename1.ui.Toolbar_2ToolbarSideMenu) _r0_o)._fthis_20;
-    _r0.i = global::com.codename1.ui.Toolbar.access_2600((global::com.codename1.ui.Toolbar) _r0_o) ? 1 : 0;
+    _r0.i = global::com.codename1.ui.Toolbar.access_2500((global::com.codename1.ui.Toolbar) _r0_o) ? 1 : 0;
     if (_r0.i == 0) goto label18;
     _r0_o = ((global::com.codename1.ui.Toolbar_2ToolbarSideMenu_21) _r2_o)._fthis_21;
     _r0_o = ((global::com.codename1.ui.Toolbar_2ToolbarSideMenu) _r0_o)._fthis_20;
     _r1.i = 1;
-    global::com.codename1.ui.Toolbar.access_2700((global::com.codename1.ui.Toolbar) _r0_o, 0!=_r1.i);
+    global::com.codename1.ui.Toolbar.access_2600((global::com.codename1.ui.Toolbar) _r0_o, 0!=_r1.i);
     label18:;
     return;
 //XMLVM_END_WRAPPER[com.codename1.ui.Toolbar$ToolbarSideMenu$1: void run()]

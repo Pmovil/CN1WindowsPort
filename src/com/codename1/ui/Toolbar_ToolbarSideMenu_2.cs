@@ -39,7 +39,7 @@ public override void actionPerformed(global::com.codename1.ui.events.ActionEvent
     _r2_o = n1;
     _r0_o = ((global::com.codename1.ui.Toolbar_2ToolbarSideMenu_22) _r1_o)._fthis_21;
     _r0_o = ((global::com.codename1.ui.Toolbar_2ToolbarSideMenu) _r0_o)._fthis_20;
-    _r0_o = global::com.codename1.ui.Toolbar.access_21000((global::com.codename1.ui.Toolbar) _r0_o);
+    _r0_o = global::com.codename1.ui.Toolbar.access_2900((global::com.codename1.ui.Toolbar) _r0_o);
     ((global::com.codename1.ui.Toolbar_2ToolbarSideMenu) _r0_o).showMenu();
     return;
 //XMLVM_END_WRAPPER[com.codename1.ui.Toolbar$ToolbarSideMenu$2: void actionPerformed(com.codename1.ui.events.ActionEvent)]

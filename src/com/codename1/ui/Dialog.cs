@@ -70,6 +70,8 @@ private global::com.codename1.ui.Label _fdialogTitle;
 
 private global::com.codename1.ui.Container _fdialogContentPane;
 
+private global::java.lang.Boolean _fpopupDirectionBiasPortrait;
+
 public void @this(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Dialog: void <init>(java.lang.String)]
     global::org.xmlvm._nElement _r0;
@@ -1684,42 +1686,44 @@ public override void keyReleased(int n1){
     _r4.i = 0;
     _r3.i = 1;
     _r0.i = global::com.codename1.ui.Dialog._fcommandsAsButtons ? 1 : 0;
-    if (_r0.i == 0) goto label70;
+    if (_r0.i == 0) goto label74;
     _r0.i = global::com.codename1.ui.MenuBar.isLSK((int) _r6.i) ? 1 : 0;
-    if (_r0.i == 0) goto label38;
+    if (_r0.i == 0) goto label40;
     _r0_o = ((global::com.codename1.ui.Dialog) _r5_o)._fbuttonCommands;
-    if (_r0_o == null) goto label38;
+    if (_r0_o == null) goto label40;
     _r0_o = ((global::com.codename1.ui.Dialog) _r5_o)._fbuttonCommands;
     _r0.i = ((global::org.xmlvm._nIArray) _r0_o).Length;
-    if (_r0.i <= 0) goto label38;
+    if (_r0.i <= 0) goto label40;
     _r0_o = ((global::com.codename1.ui.Dialog) _r5_o)._fbuttonCommands;
     _r0_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o)[_r4.i];
     _r1_o = new global::com.codename1.ui.events.ActionEvent();
     _r2_o = ((global::com.codename1.ui.Dialog) _r5_o)._fbuttonCommands;
     _r2_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r2_o)[_r4.i];
-    ((global::com.codename1.ui.events.ActionEvent) _r1_o).@this((global::java.lang.Object) _r2_o);
+    _r3_o = global::com.codename1.ui.events.ActionEvent_2Type._fKeyRelease;
+    ((global::com.codename1.ui.events.ActionEvent) _r1_o).@this((global::java.lang.Object) _r2_o, (global::com.codename1.ui.events.ActionEvent_2Type) _r3_o);
     ((global::com.codename1.ui.Dialog) _r5_o).dispatchCommand((global::com.codename1.ui.Command) _r0_o, (global::com.codename1.ui.events.ActionEvent) _r1_o);
-    label37:;
+    label39:;
     return;
-    label38:;
+    label40:;
     _r0.i = global::com.codename1.ui.MenuBar.isRSK((int) _r6.i) ? 1 : 0;
-    if (_r0.i == 0) goto label70;
+    if (_r0.i == 0) goto label74;
     _r0_o = ((global::com.codename1.ui.Dialog) _r5_o)._fbuttonCommands;
-    if (_r0_o == null) goto label70;
+    if (_r0_o == null) goto label74;
     _r0_o = ((global::com.codename1.ui.Dialog) _r5_o)._fbuttonCommands;
     _r0.i = ((global::org.xmlvm._nIArray) _r0_o).Length;
-    if (_r0.i <= _r3.i) goto label70;
+    if (_r0.i <= _r3.i) goto label74;
     _r0_o = ((global::com.codename1.ui.Dialog) _r5_o)._fbuttonCommands;
     _r0_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o)[_r3.i];
     _r1_o = new global::com.codename1.ui.events.ActionEvent();
     _r2_o = ((global::com.codename1.ui.Dialog) _r5_o)._fbuttonCommands;
     _r2_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r2_o)[_r3.i];
-    ((global::com.codename1.ui.events.ActionEvent) _r1_o).@this((global::java.lang.Object) _r2_o);
+    _r3_o = global::com.codename1.ui.events.ActionEvent_2Type._fKeyRelease;
+    ((global::com.codename1.ui.events.ActionEvent) _r1_o).@this((global::java.lang.Object) _r2_o, (global::com.codename1.ui.events.ActionEvent_2Type) _r3_o);
     ((global::com.codename1.ui.Dialog) _r5_o).dispatchCommand((global::com.codename1.ui.Command) _r0_o, (global::com.codename1.ui.events.ActionEvent) _r1_o);
-    goto label37;
-    label70:;
+    goto label39;
+    label74:;
     base.keyReleased((int) _r6.i);
-    goto label37;
+    goto label39;
 //XMLVM_END_WRAPPER[com.codename1.ui.Dialog: void keyReleased(int)]
 }
 
@@ -1858,20 +1862,23 @@ public override void onShowCompletedImpl(){
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
-    _r2_o = this;
-    ((global::com.codename1.ui.Dialog) _r2_o).onShowCompleted();
-    _r0.i = ((global::com.codename1.ui.Dialog) _r2_o).isDisposed() ? 1 : 0;
+    _r3_o = this;
+    ((global::com.codename1.ui.Dialog) _r3_o).onShowCompleted();
+    _r0.i = ((global::com.codename1.ui.Dialog) _r3_o).isDisposed() ? 1 : 0;
     if (_r0.i == 0) goto label12;
-    ((global::com.codename1.ui.Dialog) _r2_o).disposeImpl();
+    ((global::com.codename1.ui.Dialog) _r3_o).disposeImpl();
     label12:;
-    _r0_o = ((global::com.codename1.ui.Dialog) _r2_o)._fshowListener;
-    if (_r0_o == null) goto label26;
-    _r0_o = ((global::com.codename1.ui.Dialog) _r2_o)._fshowListener;
+    _r0_o = ((global::com.codename1.ui.Dialog) _r3_o)._fshowListener;
+    if (_r0_o == null) goto label28;
+    _r0_o = ((global::com.codename1.ui.Dialog) _r3_o)._fshowListener;
     _r1_o = new global::com.codename1.ui.events.ActionEvent();
-    ((global::com.codename1.ui.events.ActionEvent) _r1_o).@this((global::java.lang.Object) _r2_o);
+    _r2_o = global::com.codename1.ui.events.ActionEvent_2Type._fShow;
+    ((global::com.codename1.ui.events.ActionEvent) _r1_o).@this((global::java.lang.Object) _r3_o, (global::com.codename1.ui.events.ActionEvent_2Type) _r2_o);
     ((global::com.codename1.ui.util.EventDispatcher) _r0_o).fireActionEvent((global::com.codename1.ui.events.ActionEvent) _r1_o);
-    label26:;
+    label28:;
     return;
 //XMLVM_END_WRAPPER[com.codename1.ui.Dialog: void onShowCompletedImpl()]
 }
@@ -2307,7 +2314,7 @@ public virtual global::System.Object showPopupDialog(global::com.codename1.ui.ge
     if (_r8.i == 0) goto label331;
     _r8_o = ((global::com.codename1.ui.Dialog) _r40_o).getTitle();
     _r8.i = ((global::java.lang.String) _r8_o).length();
-    if (_r8.i <= 0) goto label711;
+    if (_r8.i <= 0) goto label719;
     _r8.i = 1;
     _r5.i = _r8.i;
     label139:;
@@ -2495,21 +2502,28 @@ public virtual global::System.Object showPopupDialog(global::com.codename1.ui.ge
     _r39.i = global::java.lang.Math.min((int) _r0.i, (int) _r1.i);
     _r11.i = 0;
     _r9.i = 0;
-    _r8_o = global::com.codename1.ui.Display.getInstance();
-    _r36.i = ((global::com.codename1.ui.Display) _r8_o).isPortrait() ? 1 : 0;
-    if (_r36.i == 0) goto label715;
+    _r0_o = _r40_o;
+    _r0_o = ((global::com.codename1.ui.Dialog) _r0_o)._fpopupDirectionBiasPortrait;
+    _r8_o = _r0_o;
+    if (_r8_o == null) goto label723;
+    _r0_o = _r40_o;
+    _r0_o = ((global::com.codename1.ui.Dialog) _r0_o)._fpopupDirectionBiasPortrait;
+    _r8_o = _r0_o;
+    _r36.i = ((global::java.lang.Boolean) _r8_o).booleanValue() ? 1 : 0;
+    label601:;
+    if (_r36.i == 0) goto label733;
     _r8.i = ((global::com.codename1.ui.geom.Rectangle) _r41_o).getWidth();
     _r8.i = _r20.i - _r8.i;
     _r8.i = _r8.i / 2;
     _r0.i = _r19.i;
     _r1.i = _r8.i;
-    if (_r0.i >= _r1.i) goto label610;
+    if (_r0.i >= _r1.i) goto label618;
     _r36.i = 0;
-    label610:;
-    if (_r36.i == 0) goto label769;
+    label618:;
+    if (_r36.i == 0) goto label787;
     _r0.i = _r39.i;
     _r1.i = _r20.i;
-    if (_r0.i >= _r1.i) goto label648;
+    if (_r0.i >= _r1.i) goto label656;
     _r8.i = ((global::com.codename1.ui.geom.Rectangle) _r41_o).getX();
     _r9.i = _r39.i / 2;
     _r8.i = _r8.i - _r9.i;
@@ -2517,16 +2531,16 @@ public virtual global::System.Object showPopupDialog(global::com.codename1.ui.ge
     _r9.i = ((global::com.codename1.ui.geom.Dimension) _r9_o).getWidth();
     _r9.i = _r9.i / 2;
     _r26.i = _r8.i + _r9.i;
-    if (_r26.i <= 0) goto label648;
+    if (_r26.i <= 0) goto label656;
     _r8.i = _r26.i + _r39.i;
     _r0.i = _r8.i;
     _r1.i = _r20.i;
-    if (_r0.i <= _r1.i) goto label728;
+    if (_r0.i <= _r1.i) goto label746;
     _r11.i = _r20.i - _r39.i;
-    label648:;
+    label656:;
     _r8.i = ((global::com.codename1.ui.geom.Rectangle) _r41_o).getY();
     _r9.i = _r19.i / 2;
-    if (_r8.i >= _r9.i) goto label731;
+    if (_r8.i >= _r9.i) goto label749;
     _r8.i = ((global::com.codename1.ui.geom.Rectangle) _r41_o).getY();
     _r9_o = ((global::com.codename1.ui.geom.Rectangle) _r41_o).getSize();
     _r9.i = ((global::com.codename1.ui.geom.Dimension) _r9_o).getHeight();
@@ -2543,32 +2557,36 @@ public virtual global::System.Object showPopupDialog(global::com.codename1.ui.ge
     _r14.i = 1;
     _r8_o = _r40_o;
     _r35_o = ((global::com.codename1.ui.Dialog) _r8_o).show((int) _r9.i, (int) _r10.i, (int) _r11.i, (int) _r12.i, 0!=_r13.i, 0!=_r14.i);
-    label694:;
-    if (_r34.i == 0) goto label703;
+    label702:;
+    if (_r34.i == 0) goto label711;
     _r8_o = ((global::com.codename1.ui.plaf.Style) _r23_o).getBorder();
     ((global::com.codename1.ui.plaf.Border) _r8_o).clearImageBorderSpecialTile();
-    label703:;
+    label711:;
     _r0_o = _r35_o;
     _r1_o = _r21_o;
-    if (_r0_o != _r1_o) goto label938;
+    if (_r0_o != _r1_o) goto label956;
     _r8_o = null;
-    label710:;
+    label718:;
     return (global::com.codename1.ui.Command) _r8_o;
-    label711:;
+    label719:;
     _r8.i = 0;
     _r5.i = _r8.i;
     goto label139;
-    label715:;
+    label723:;
+    _r8_o = global::com.codename1.ui.Display.getInstance();
+    _r36.i = ((global::com.codename1.ui.Display) _r8_o).isPortrait() ? 1 : 0;
+    goto label601;
+    label733:;
     _r8.i = _r19.i / 2;
     _r10.i = ((global::com.codename1.ui.geom.Rectangle) _r41_o).getWidth();
     _r10.i = _r20.i - _r10.i;
-    if (_r8.i <= _r10.i) goto label610;
+    if (_r8.i <= _r10.i) goto label618;
     _r36.i = 1;
-    goto label610;
-    label728:;
+    goto label618;
+    label746:;
     _r11.i = _r26.i;
-    goto label648;
-    label731:;
+    goto label656;
+    label749:;
     _r8.i = ((global::com.codename1.ui.geom.Rectangle) _r41_o).getY();
     _r8.i = _r19.i - _r8.i;
     _r8.i = _r19.i - _r8.i;
@@ -2585,14 +2603,14 @@ public virtual global::System.Object showPopupDialog(global::com.codename1.ui.ge
     _r14.i = 1;
     _r8_o = _r40_o;
     _r35_o = ((global::com.codename1.ui.Dialog) _r8_o).show((int) _r9.i, (int) _r10.i, (int) _r11.i, (int) _r12.i, 0!=_r13.i, 0!=_r14.i);
-    goto label694;
-    label769:;
+    goto label702;
+    label787:;
     _r0.i = _r31.i;
     _r1.i = _r19.i;
     _r25.i = global::java.lang.Math.min((int) _r0.i, (int) _r1.i);
     _r0.i = _r25.i;
     _r1.i = _r19.i;
-    if (_r0.i >= _r1.i) goto label813;
+    if (_r0.i >= _r1.i) goto label831;
     _r8.i = ((global::com.codename1.ui.geom.Rectangle) _r41_o).getY();
     _r10.i = _r25.i / 2;
     _r8.i = _r8.i - _r10.i;
@@ -2600,17 +2618,17 @@ public virtual global::System.Object showPopupDialog(global::com.codename1.ui.ge
     _r10.i = ((global::com.codename1.ui.geom.Dimension) _r10_o).getHeight();
     _r10.i = _r10.i / 2;
     _r27.i = _r8.i + _r10.i;
-    if (_r27.i <= 0) goto label813;
+    if (_r27.i <= 0) goto label831;
     _r8.i = _r27.i + _r25.i;
     _r0.i = _r8.i;
     _r1.i = _r19.i;
-    if (_r0.i <= _r1.i) goto label884;
+    if (_r0.i <= _r1.i) goto label902;
     _r9.i = _r19.i - _r25.i;
-    label813:;
+    label831:;
     _r8.i = ((global::com.codename1.ui.geom.Rectangle) _r41_o).getX();
     _r0.i = _r32.i;
     _r1.i = _r8.i;
-    if (_r0.i <= _r1.i) goto label887;
+    if (_r0.i <= _r1.i) goto label905;
     _r8.i = ((global::com.codename1.ui.geom.Rectangle) _r41_o).getX();
     _r10_o = ((global::com.codename1.ui.geom.Rectangle) _r41_o).getSize();
     _r10.i = ((global::com.codename1.ui.geom.Dimension) _r10_o).getWidth();
@@ -2618,9 +2636,9 @@ public virtual global::System.Object showPopupDialog(global::com.codename1.ui.ge
     _r8.i = _r11.i + _r32.i;
     _r0.i = _r8.i;
     _r1.i = _r20.i;
-    if (_r0.i <= _r1.i) goto label845;
+    if (_r0.i <= _r1.i) goto label863;
     _r11.i = _r20.i - _r32.i;
-    label845:;
+    label863:;
     _r8.i = _r20.i - _r11.i;
     _r0.i = _r32.i;
     _r1.i = _r8.i;
@@ -2638,11 +2656,11 @@ public virtual global::System.Object showPopupDialog(global::com.codename1.ui.ge
     _r12_o = _r40_o;
     _r13.i = _r9.i;
     _r35_o = ((global::com.codename1.ui.Dialog) _r12_o).show((int) _r13.i, (int) _r14.i, (int) _r15.i, (int) _r16.i, 0!=_r17.i, 0!=_r18.i);
-    goto label694;
-    label884:;
+    goto label702;
+    label902:;
     _r9.i = _r27.i;
-    goto label813;
-    label887:;
+    goto label831;
+    label905:;
     _r8.i = ((global::com.codename1.ui.geom.Rectangle) _r41_o).getX();
     _r8.i = _r20.i - _r8.i;
     _r8.i = _r20.i - _r8.i;
@@ -2664,10 +2682,10 @@ public virtual global::System.Object showPopupDialog(global::com.codename1.ui.ge
     _r12_o = _r40_o;
     _r13.i = _r9.i;
     _r35_o = ((global::com.codename1.ui.Dialog) _r12_o).show((int) _r13.i, (int) _r14.i, (int) _r15.i, (int) _r16.i, 0!=_r17.i, 0!=_r18.i);
-    goto label694;
-    label938:;
+    goto label702;
+    label956:;
     _r8_o = _r35_o;
-    goto label710;
+    goto label718;
 //XMLVM_END_WRAPPER[com.codename1.ui.Dialog: com.codename1.ui.Command showPopupDialog(com.codename1.ui.geom.Rectangle)]
 }
 
@@ -4247,6 +4265,33 @@ private void growOrShrinkImpl(int n1, int n2){
     ((global::com.codename1.ui.plaf.Style) _r0_o).setMargin((int) _r1.i, (int) _r2.i);
     goto label286;
 //XMLVM_END_WRAPPER[com.codename1.ui.Dialog: void growOrShrinkImpl(int, int)]
+}
+
+public virtual global::System.Object getPopupDirectionBiasPortrait(){
+//XMLVM_BEGIN_WRAPPER[com.codename1.ui.Dialog: java.lang.Boolean getPopupDirectionBiasPortrait()]
+    global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
+    _r1_o = this;
+    _r0_o = ((global::com.codename1.ui.Dialog) _r1_o)._fpopupDirectionBiasPortrait;
+    return (global::java.lang.Boolean) _r0_o;
+//XMLVM_END_WRAPPER[com.codename1.ui.Dialog: java.lang.Boolean getPopupDirectionBiasPortrait()]
+}
+
+public virtual void setPopupDirectionBiasPortrait(global::java.lang.Boolean n1){
+//XMLVM_BEGIN_WRAPPER[com.codename1.ui.Dialog: void setPopupDirectionBiasPortrait(java.lang.Boolean)]
+    global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
+    _r0_o = this;
+    _r1_o = n1;
+    ((global::com.codename1.ui.Dialog) _r0_o)._fpopupDirectionBiasPortrait = (global::java.lang.Boolean) _r1_o;
+    return;
+//XMLVM_END_WRAPPER[com.codename1.ui.Dialog: void setPopupDirectionBiasPortrait(java.lang.Boolean)]
 }
 
 public static void @static(){

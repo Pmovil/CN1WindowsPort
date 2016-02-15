@@ -17,19 +17,27 @@ private static int _fDECELERATION = 3;
 
 private static int _fCUBIC = 4;
 
+private static int _fCOLOR_1LINEAR = 5;
+
+private static int _fEXPONENTIAL_1DECAY = 6;
+
 private int _fsourceValue;
 
 private int _fdestinationValue;
+
+private int _ftargetPosition;
 
 private int _fduration;
 
 private long _fstartTime;
 
-private float _finitVelocity;
+private double _finitVelocity;
 
-private float _ffriction;
+private double _ffriction;
 
 private int _flastReturnedValue;
+
+private global::org.xmlvm._nArrayAdapter<int> _fpreviousLastReturnedValue;
 
 private long _fcurrentMotionTime;
 
@@ -76,26 +84,63 @@ public void @this(int n1, int n2, int n3){
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
-    _r2_o = this;
-    _r3.i = n1;
-    _r4.i = n2;
-    _r5.i = n3;
-    ((global::java.lang.Object) _r2_o).@this();
+    _r3_o = this;
+    _r4.i = n1;
+    _r5.i = n2;
+    _r6.i = n3;
+    ((global::java.lang.Object) _r3_o).@this();
+    _r0.i = 3;
+    _r0_o = new global::org.xmlvm._nArrayAdapter<int>(new int[_r0.i]);
+    ((global::com.codename1.ui.animations.Motion) _r3_o)._fpreviousLastReturnedValue = (global::org.xmlvm._nArrayAdapter<int>) _r0_o;
     _r0.l = -1L;
-    ((global::com.codename1.ui.animations.Motion) _r2_o)._fcurrentMotionTime = _r0.l;
-    ((global::com.codename1.ui.animations.Motion) _r2_o)._fsourceValue = _r3.i;
-    ((global::com.codename1.ui.animations.Motion) _r2_o)._fdestinationValue = _r4.i;
-    ((global::com.codename1.ui.animations.Motion) _r2_o)._fduration = _r5.i;
-    ((global::com.codename1.ui.animations.Motion) _r2_o)._flastReturnedValue = _r3.i;
+    ((global::com.codename1.ui.animations.Motion) _r3_o)._fcurrentMotionTime = _r0.l;
+    ((global::com.codename1.ui.animations.Motion) _r3_o)._fsourceValue = _r4.i;
+    ((global::com.codename1.ui.animations.Motion) _r3_o)._fdestinationValue = _r5.i;
+    ((global::com.codename1.ui.animations.Motion) _r3_o)._fduration = _r6.i;
+    ((global::com.codename1.ui.animations.Motion) _r3_o)._flastReturnedValue = _r4.i;
     _r0.i = global::com.codename1.ui.animations.Motion._fslowMotion ? 1 : 0;
-    if (_r0.i == 0) goto label25;
-    _r0.i = ((global::com.codename1.ui.animations.Motion) _r2_o)._fduration;
+    if (_r0.i == 0) goto label30;
+    _r0.i = ((global::com.codename1.ui.animations.Motion) _r3_o)._fduration;
     _r0.i = _r0.i * 50;
-    ((global::com.codename1.ui.animations.Motion) _r2_o)._fduration = _r0.i;
-    label25:;
+    ((global::com.codename1.ui.animations.Motion) _r3_o)._fduration = _r0.i;
+    label30:;
+    _r0_o = ((global::com.codename1.ui.animations.Motion) _r3_o)._fpreviousLastReturnedValue;
+    _r1.i = 0;
+    _r2.i = -1;
+    ((global::org.xmlvm._nArrayAdapter<int>) _r0_o)[_r1.i] = _r2.i;
     return;
 //XMLVM_END_WRAPPER[com.codename1.ui.animations.Motion: void <init>(int, int, int)]
+}
+
+public virtual void finish(){
+//XMLVM_BEGIN_WRAPPER[com.codename1.ui.animations.Motion: void finish()]
+    global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
+    _r4_o = this;
+    _r0.i = ((global::com.codename1.ui.animations.Motion) _r4_o).isFinished() ? 1 : 0;
+    if (_r0.i != 0) goto label20;
+    _r0.l = global::java.lang.System.currentTimeMillis();
+    _r2.i = ((global::com.codename1.ui.animations.Motion) _r4_o)._fduration;
+    _r2.l = (long) _r2.i;
+    _r0.l = _r0.l - _r2.l;
+    ((global::com.codename1.ui.animations.Motion) _r4_o)._fstartTime = _r0.l;
+    _r0.l = -1L;
+    ((global::com.codename1.ui.animations.Motion) _r4_o)._fcurrentMotionTime = _r0.l;
+    label20:;
+    return;
+//XMLVM_END_WRAPPER[com.codename1.ui.animations.Motion: void finish()]
 }
 
 public void @this(int n1, float n2, float n3){
@@ -112,23 +157,80 @@ public void @this(int n1, float n2, float n3){
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
-    _r2_o = this;
-    _r3.i = n1;
-    _r4.f = n2;
-    _r5.f = n3;
-    ((global::java.lang.Object) _r2_o).@this();
+    _r3_o = this;
+    _r4.i = n1;
+    _r5.f = n2;
+    _r6.f = n3;
+    ((global::java.lang.Object) _r3_o).@this();
+    _r0.i = 3;
+    _r0_o = new global::org.xmlvm._nArrayAdapter<int>(new int[_r0.i]);
+    ((global::com.codename1.ui.animations.Motion) _r3_o)._fpreviousLastReturnedValue = (global::org.xmlvm._nArrayAdapter<int>) _r0_o;
     _r0.l = -1L;
-    ((global::com.codename1.ui.animations.Motion) _r2_o)._fcurrentMotionTime = _r0.l;
-    ((global::com.codename1.ui.animations.Motion) _r2_o)._fsourceValue = _r3.i;
-    ((global::com.codename1.ui.animations.Motion) _r2_o)._finitVelocity = _r4.f;
-    ((global::com.codename1.ui.animations.Motion) _r2_o)._ffriction = _r5.f;
-    _r0.f = global::java.lang.Math.abs((float) _r4.f);
-    _r0.f = _r0.f / _r5.f;
+    ((global::com.codename1.ui.animations.Motion) _r3_o)._fcurrentMotionTime = _r0.l;
+    ((global::com.codename1.ui.animations.Motion) _r3_o)._fsourceValue = _r4.i;
+    _r0.d = (double) _r5.f;
+    ((global::com.codename1.ui.animations.Motion) _r3_o)._finitVelocity = _r0.d;
+    _r0.d = (double) _r6.f;
+    ((global::com.codename1.ui.animations.Motion) _r3_o)._ffriction = _r0.d;
+    _r0.f = global::java.lang.Math.abs((float) _r5.f);
+    _r0.f = _r0.f / _r6.f;
     _r0.i = (int) _r0.f;
-    ((global::com.codename1.ui.animations.Motion) _r2_o)._fduration = _r0.i;
+    ((global::com.codename1.ui.animations.Motion) _r3_o)._fduration = _r0.i;
+    _r0_o = ((global::com.codename1.ui.animations.Motion) _r3_o)._fpreviousLastReturnedValue;
+    _r1.i = 0;
+    _r2.i = -1;
+    ((global::org.xmlvm._nArrayAdapter<int>) _r0_o)[_r1.i] = _r2.i;
     return;
 //XMLVM_END_WRAPPER[com.codename1.ui.animations.Motion: void <init>(int, float, float)]
+}
+
+public void @this(int n1, double n2, double n3){
+//XMLVM_BEGIN_WRAPPER[com.codename1.ui.animations.Motion: void <init>(int, double, double)]
+    global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
+    _r3_o = this;
+    _r4.i = n1;
+    _r5.d = n2;
+    _r7.d = n3;
+    ((global::java.lang.Object) _r3_o).@this();
+    _r0.i = 3;
+    _r0_o = new global::org.xmlvm._nArrayAdapter<int>(new int[_r0.i]);
+    ((global::com.codename1.ui.animations.Motion) _r3_o)._fpreviousLastReturnedValue = (global::org.xmlvm._nArrayAdapter<int>) _r0_o;
+    _r0.l = -1L;
+    ((global::com.codename1.ui.animations.Motion) _r3_o)._fcurrentMotionTime = _r0.l;
+    ((global::com.codename1.ui.animations.Motion) _r3_o)._fsourceValue = _r4.i;
+    ((global::com.codename1.ui.animations.Motion) _r3_o)._finitVelocity = _r5.d;
+    ((global::com.codename1.ui.animations.Motion) _r3_o)._ffriction = _r7.d;
+    _r0.d = global::java.lang.Math.abs((double) _r5.d);
+    _r0.d = _r0.d / _r7.d;
+    _r0.i = (int) _r0.d;
+    ((global::com.codename1.ui.animations.Motion) _r3_o)._fduration = _r0.i;
+    _r0_o = ((global::com.codename1.ui.animations.Motion) _r3_o)._fpreviousLastReturnedValue;
+    _r1.i = 0;
+    _r2.i = -1;
+    ((global::org.xmlvm._nArrayAdapter<int>) _r0_o)[_r1.i] = _r2.i;
+    return;
+//XMLVM_END_WRAPPER[com.codename1.ui.animations.Motion: void <init>(int, double, double)]
 }
 
 public static global::System.Object createCubicBezierMotion(int n1, int n2, int n3, float n4, float n5, float n6, float n7){
@@ -347,6 +449,30 @@ public static global::System.Object createLinearMotion(int n1, int n2, int n3){
 //XMLVM_END_WRAPPER[com.codename1.ui.animations.Motion: com.codename1.ui.animations.Motion createLinearMotion(int, int, int)]
 }
 
+public static global::System.Object createLinearColorMotion(int n1, int n2, int n3){
+//XMLVM_BEGIN_WRAPPER[com.codename1.ui.animations.Motion: com.codename1.ui.animations.Motion createLinearColorMotion(int, int, int)]
+    global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
+    _r2.i = n1;
+    _r3.i = n2;
+    _r4.i = n3;
+    _r0_o = new global::com.codename1.ui.animations.Motion();
+    ((global::com.codename1.ui.animations.Motion) _r0_o).@this((int) _r2.i, (int) _r3.i, (int) _r4.i);
+    _r1.i = 5;
+    ((global::com.codename1.ui.animations.Motion) _r0_o)._fmotionType = _r1.i;
+    return (global::com.codename1.ui.animations.Motion) _r0_o;
+//XMLVM_END_WRAPPER[com.codename1.ui.animations.Motion: com.codename1.ui.animations.Motion createLinearColorMotion(int, int, int)]
+}
+
 public static global::System.Object createSplineMotion(int n1, int n2, int n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.animations.Motion: com.codename1.ui.animations.Motion createSplineMotion(int, int, int)]
     global::org.xmlvm._nElement _r0;
@@ -421,6 +547,64 @@ public static global::System.Object createFrictionMotion(int n1, int n2, float n
     ((global::com.codename1.ui.animations.Motion) _r0_o)._fmotionType = _r1.i;
     return (global::com.codename1.ui.animations.Motion) _r0_o;
 //XMLVM_END_WRAPPER[com.codename1.ui.animations.Motion: com.codename1.ui.animations.Motion createFrictionMotion(int, int, float, float)]
+}
+
+public static global::System.Object createExponentialDecayMotion(int n1, int n2, double n3, double n4){
+//XMLVM_BEGIN_WRAPPER[com.codename1.ui.animations.Motion: com.codename1.ui.animations.Motion createExponentialDecayMotion(int, int, double, double)]
+    global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
+    global::org.xmlvm._nElement _r9;
+    global::System.Object _r9_o = null;
+    global::org.xmlvm._nElement _r10;
+    global::System.Object _r10_o = null;
+    global::org.xmlvm._nElement _r11;
+    global::System.Object _r11_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
+    _r6.i = n1;
+    _r7.i = n2;
+    _r8.d = n3;
+    _r10.d = n4;
+    _r0_o = new global::com.codename1.ui.animations.Motion();
+    _r1.i = _r6.i;
+    _r2.d = _r8.d;
+    _r4.d = _r10.d;
+    ((global::com.codename1.ui.animations.Motion) _r0_o).@this((int) _r1.i, (double) _r2.d, (double) _r4.d);
+    ((global::com.codename1.ui.animations.Motion) _r0_o)._fdestinationValue = _r7.i;
+    _r1_o = global::com.codename1.ui.plaf.UIManager.getInstance();
+    // Value=DecayMotionScaleFactorInt
+    _r2_o = new global::java.lang.String();
+    ((global::java.lang.String)_r2_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)68)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 99)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 121)), unchecked((char) unchecked((uint) 77)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 83)), unchecked((char) unchecked((uint) 99)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 70)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 99)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 73)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 116))}));
+    _r3.i = 950;
+    _r1.i = ((global::com.codename1.ui.plaf.UIManager) _r1_o).getThemeConstant((global::java.lang.String) _r2_o, (int) _r3.i);
+    _r1.d = (double) _r1.i;
+    _r1.d = _r1.d * _r8.d;
+    _r1.i = (int) _r1.d;
+    _r1.i = _r1.i + _r6.i;
+    ((global::com.codename1.ui.animations.Motion) _r0_o)._ftargetPosition = _r1.i;
+    _r1.i = 6;
+    ((global::com.codename1.ui.animations.Motion) _r0_o)._fmotionType = _r1.i;
+    _r1.d = 6.0D;
+    _r1.d = _r1.d * _r10.d;
+    _r1.i = (int) _r1.d;
+    ((global::com.codename1.ui.animations.Motion) _r0_o)._fduration = _r1.i;
+    return (global::com.codename1.ui.animations.Motion) _r0_o;
+//XMLVM_END_WRAPPER[com.codename1.ui.animations.Motion: com.codename1.ui.animations.Motion createExponentialDecayMotion(int, int, double, double)]
 }
 
 public virtual void start(){
@@ -524,46 +708,31 @@ public virtual bool isFinished(){
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
-    global::org.xmlvm._nElement _r6;
-    global::System.Object _r6_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
-    _r6_o = this;
-    _r5.i = 1;
+    _r5_o = this;
     _r4.i = 0;
-    _r0.l = ((global::com.codename1.ui.animations.Motion) _r6_o)._fcurrentMotionTime;
-    _r2.l = 0L;
-    _r0.i = _r0.l > _r2.l ? 1 : (_r0.l == _r2.l ? 0 : -1);
-    if (_r0.i >= 0) goto label31;
-    _r0.l = ((global::com.codename1.ui.animations.Motion) _r6_o).getCurrentMotionTime();
-    _r2.i = ((global::com.codename1.ui.animations.Motion) _r6_o)._fduration;
+    _r0.l = ((global::com.codename1.ui.animations.Motion) _r5_o).getCurrentMotionTime();
+    _r2.i = ((global::com.codename1.ui.animations.Motion) _r5_o)._fduration;
     _r2.l = (long) _r2.i;
     _r0.i = _r0.l > _r2.l ? 1 : (_r0.l == _r2.l ? 0 : -1);
-    if (_r0.i > 0) goto label27;
-    _r0.i = ((global::com.codename1.ui.animations.Motion) _r6_o)._fdestinationValue;
-    _r1.i = ((global::com.codename1.ui.animations.Motion) _r6_o)._flastReturnedValue;
-    if (_r0.i != _r1.i) goto label29;
-    label27:;
-    _r0.i = _r5.i;
-    label28:;
-    return _r0.i!=0;
-    label29:;
-    _r0.i = _r4.i;
-    goto label28;
+    if (_r0.i > 0) goto label31;
+    _r0.i = ((global::com.codename1.ui.animations.Motion) _r5_o)._fdestinationValue;
+    _r1.i = ((global::com.codename1.ui.animations.Motion) _r5_o)._flastReturnedValue;
+    if (_r0.i == _r1.i) goto label31;
+    _r0.i = 6;
+    _r1.i = ((global::com.codename1.ui.animations.Motion) _r5_o)._fmotionType;
+    if (_r0.i != _r1.i) goto label33;
+    _r0_o = ((global::com.codename1.ui.animations.Motion) _r5_o)._fpreviousLastReturnedValue;
+    _r0.i = ((global::org.xmlvm._nArrayAdapter<int>) _r0_o)[_r4.i];
+    _r1.i = ((global::com.codename1.ui.animations.Motion) _r5_o)._flastReturnedValue;
+    if (_r0.i != _r1.i) goto label33;
     label31:;
-    _r0.l = ((global::com.codename1.ui.animations.Motion) _r6_o).getCurrentMotionTime();
-    _r2.i = ((global::com.codename1.ui.animations.Motion) _r6_o)._fduration;
-    _r2.l = (long) _r2.i;
-    _r0.i = _r0.l > _r2.l ? 1 : (_r0.l == _r2.l ? 0 : -1);
-    if (_r0.i > 0) goto label48;
-    _r0.i = ((global::com.codename1.ui.animations.Motion) _r6_o)._fdestinationValue;
-    _r1.i = ((global::com.codename1.ui.animations.Motion) _r6_o)._flastReturnedValue;
-    if (_r0.i != _r1.i) goto label50;
-    label48:;
-    _r0.i = _r5.i;
-    goto label28;
-    label50:;
+    _r0.i = 1;
+    label32:;
+    return _r0.i!=0;
+    label33:;
     _r0.i = _r4.i;
-    goto label28;
+    goto label32;
 //XMLVM_END_WRAPPER[com.codename1.ui.animations.Motion: boolean isFinished()]
 }
 
@@ -826,49 +995,77 @@ public virtual int getValue(){
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
-    _r4_o = this;
-    _r0.l = ((global::com.codename1.ui.animations.Motion) _r4_o)._fcurrentMotionTime;
+    _r6_o = this;
+    _r5.i = 2;
+    _r4.i = 1;
+    _r0.l = ((global::com.codename1.ui.animations.Motion) _r6_o)._fcurrentMotionTime;
     _r2.l = -1L;
     _r0.i = _r0.l > _r2.l ? 1 : (_r0.l == _r2.l ? 0 : -1);
-    if (_r0.i <= 0) goto label21;
-    _r0.l = ((global::com.codename1.ui.animations.Motion) _r4_o)._fstartTime;
-    _r2.l = ((global::com.codename1.ui.animations.Motion) _r4_o).getCurrentMotionTime();
+    if (_r0.i <= 0) goto label23;
+    _r0.l = ((global::com.codename1.ui.animations.Motion) _r6_o)._fstartTime;
+    _r2.l = ((global::com.codename1.ui.animations.Motion) _r6_o).getCurrentMotionTime();
     _r0.i = _r0.l > _r2.l ? 1 : (_r0.l == _r2.l ? 0 : -1);
-    if (_r0.i <= 0) goto label21;
-    _r0.i = ((global::com.codename1.ui.animations.Motion) _r4_o)._fsourceValue;
-    label20:;
+    if (_r0.i <= 0) goto label23;
+    _r0.i = ((global::com.codename1.ui.animations.Motion) _r6_o)._fsourceValue;
+    label22:;
     return _r0.i;
-    label21:;
-    _r0.i = ((global::com.codename1.ui.animations.Motion) _r4_o)._fmotionType;
+    label23:;
+    _r0_o = ((global::com.codename1.ui.animations.Motion) _r6_o)._fpreviousLastReturnedValue;
+    _r1.i = 0;
+    _r2_o = ((global::com.codename1.ui.animations.Motion) _r6_o)._fpreviousLastReturnedValue;
+    _r2.i = ((global::org.xmlvm._nArrayAdapter<int>) _r2_o)[_r4.i];
+    ((global::org.xmlvm._nArrayAdapter<int>) _r0_o)[_r1.i] = _r2.i;
+    _r0_o = ((global::com.codename1.ui.animations.Motion) _r6_o)._fpreviousLastReturnedValue;
+    _r1_o = ((global::com.codename1.ui.animations.Motion) _r6_o)._fpreviousLastReturnedValue;
+    _r1.i = ((global::org.xmlvm._nArrayAdapter<int>) _r1_o)[_r5.i];
+    ((global::org.xmlvm._nArrayAdapter<int>) _r0_o)[_r4.i] = _r1.i;
+    _r0_o = ((global::com.codename1.ui.animations.Motion) _r6_o)._fpreviousLastReturnedValue;
+    _r1.i = ((global::com.codename1.ui.animations.Motion) _r6_o)._flastReturnedValue;
+    ((global::org.xmlvm._nArrayAdapter<int>) _r0_o)[_r5.i] = _r1.i;
+    _r0.i = ((global::com.codename1.ui.animations.Motion) _r6_o)._fmotionType;
     switch (_r0.i) {
-    case 1: goto label35;
-    case 2: goto label49;
-    case 3: goto label56;
-    case 4: goto label42;
+    case 1: goto label60;
+    case 2: goto label74;
+    case 3: goto label81;
+    case 4: goto label67;
+    case 5: goto label88;
+    case 6: goto label95;
     }
-    _r0.i = ((global::com.codename1.ui.animations.Motion) _r4_o).getLinear();
-    ((global::com.codename1.ui.animations.Motion) _r4_o)._flastReturnedValue = _r0.i;
-    label32:;
-    _r0.i = ((global::com.codename1.ui.animations.Motion) _r4_o)._flastReturnedValue;
-    goto label20;
-    label35:;
-    _r0.i = ((global::com.codename1.ui.animations.Motion) _r4_o).getSplineValue();
-    ((global::com.codename1.ui.animations.Motion) _r4_o)._flastReturnedValue = _r0.i;
-    goto label32;
-    label42:;
-    _r0.i = ((global::com.codename1.ui.animations.Motion) _r4_o).getCubicValue();
-    ((global::com.codename1.ui.animations.Motion) _r4_o)._flastReturnedValue = _r0.i;
-    goto label32;
-    label49:;
-    _r0.i = ((global::com.codename1.ui.animations.Motion) _r4_o).getFriction();
-    ((global::com.codename1.ui.animations.Motion) _r4_o)._flastReturnedValue = _r0.i;
-    goto label32;
-    label56:;
-    _r0.i = ((global::com.codename1.ui.animations.Motion) _r4_o).getRubber();
-    ((global::com.codename1.ui.animations.Motion) _r4_o)._flastReturnedValue = _r0.i;
-    goto label32;
-    label64:;
+    _r0.i = ((global::com.codename1.ui.animations.Motion) _r6_o).getLinear();
+    ((global::com.codename1.ui.animations.Motion) _r6_o)._flastReturnedValue = _r0.i;
+    label57:;
+    _r0.i = ((global::com.codename1.ui.animations.Motion) _r6_o)._flastReturnedValue;
+    goto label22;
+    label60:;
+    _r0.i = ((global::com.codename1.ui.animations.Motion) _r6_o).getSplineValue();
+    ((global::com.codename1.ui.animations.Motion) _r6_o)._flastReturnedValue = _r0.i;
+    goto label57;
+    label67:;
+    _r0.i = ((global::com.codename1.ui.animations.Motion) _r6_o).getCubicValue();
+    ((global::com.codename1.ui.animations.Motion) _r6_o)._flastReturnedValue = _r0.i;
+    goto label57;
+    label74:;
+    _r0.i = ((global::com.codename1.ui.animations.Motion) _r6_o).getFriction();
+    ((global::com.codename1.ui.animations.Motion) _r6_o)._flastReturnedValue = _r0.i;
+    goto label57;
+    label81:;
+    _r0.i = ((global::com.codename1.ui.animations.Motion) _r6_o).getRubber();
+    ((global::com.codename1.ui.animations.Motion) _r6_o)._flastReturnedValue = _r0.i;
+    goto label57;
+    label88:;
+    _r0.i = ((global::com.codename1.ui.animations.Motion) _r6_o).getColorLinear();
+    ((global::com.codename1.ui.animations.Motion) _r6_o)._flastReturnedValue = _r0.i;
+    goto label57;
+    label95:;
+    _r0.i = ((global::com.codename1.ui.animations.Motion) _r6_o).getExponentialDecay();
+    ((global::com.codename1.ui.animations.Motion) _r6_o)._flastReturnedValue = _r0.i;
+    goto label57;
+    label102:;
 //XMLVM_END_WRAPPER[com.codename1.ui.animations.Motion: int getValue()]
 }
 
@@ -939,6 +1136,206 @@ private int getLinear(){
 //XMLVM_END_WRAPPER[com.codename1.ui.animations.Motion: int getLinear()]
 }
 
+private int getColorLinear(){
+//XMLVM_BEGIN_WRAPPER[com.codename1.ui.animations.Motion: int getColorLinear()]
+    global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
+    global::org.xmlvm._nElement _r9;
+    global::System.Object _r9_o = null;
+    global::org.xmlvm._nElement _r10;
+    global::System.Object _r10_o = null;
+    global::org.xmlvm._nElement _r11;
+    global::System.Object _r11_o = null;
+    global::org.xmlvm._nElement _r12;
+    global::System.Object _r12_o = null;
+    global::org.xmlvm._nElement _r13;
+    global::System.Object _r13_o = null;
+    global::org.xmlvm._nElement _r14;
+    global::System.Object _r14_o = null;
+    global::org.xmlvm._nElement _r15;
+    global::System.Object _r15_o = null;
+    global::org.xmlvm._nElement _r16;
+    global::System.Object _r16_o = null;
+    global::org.xmlvm._nElement _r17;
+    global::System.Object _r17_o = null;
+    global::org.xmlvm._nElement _r18;
+    global::System.Object _r18_o = null;
+    global::org.xmlvm._nElement _r19;
+    global::System.Object _r19_o = null;
+    global::org.xmlvm._nElement _r20;
+    global::System.Object _r20_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
+    _r20_o = this;
+    _r16.i = ((global::com.codename1.ui.animations.Motion) _r20_o).isFinished() ? 1 : 0;
+    if (_r16.i == 0) goto label13;
+    _r0_o = _r20_o;
+    _r0.i = ((global::com.codename1.ui.animations.Motion) _r0_o)._fdestinationValue;
+    _r16.i = _r0.i;
+    label12:;
+    return _r16.i;
+    label13:;
+    _r0_o = _r20_o;
+    _r0.i = ((global::com.codename1.ui.animations.Motion) _r0_o)._fduration;
+    _r16.i = _r0.i;
+    _r0.i = _r16.i;
+    _r0.f = (float) _r0.i;
+    _r12.f = _r0.f;
+    _r16.l = ((global::com.codename1.ui.animations.Motion) _r20_o).getCurrentMotionTime();
+    _r0.l = _r16.l;
+    _r0.i = (int) _r0.l;
+    _r16.i = _r0.i;
+    _r0.i = _r16.i;
+    _r0.f = (float) _r0.i;
+    _r2.f = _r0.f;
+    _r0_o = _r20_o;
+    _r0.l = ((global::com.codename1.ui.animations.Motion) _r0_o)._fcurrentMotionTime;
+    _r16.l = _r0.l;
+    _r18.l = -1L;
+    _r16.i = _r16.l > _r18.l ? 1 : (_r16.l == _r18.l ? 0 : -1);
+    if (_r16.i <= 0) goto label74;
+    _r0_o = _r20_o;
+    _r0.l = ((global::com.codename1.ui.animations.Motion) _r0_o)._fstartTime;
+    _r16.l = _r0.l;
+    _r0.l = _r16.l;
+    _r0.f = (float) _r0.l;
+    _r16.f = _r0.f;
+    _r2.f = _r2.f - _r16.f;
+    _r0_o = _r20_o;
+    _r0.l = ((global::com.codename1.ui.animations.Motion) _r0_o)._fstartTime;
+    _r16.l = _r0.l;
+    _r0.l = _r16.l;
+    _r0.f = (float) _r0.l;
+    _r16.f = _r0.f;
+    _r12.f = _r12.f - _r16.f;
+    label74:;
+    _r0_o = _r20_o;
+    _r0.i = ((global::com.codename1.ui.animations.Motion) _r0_o)._fsourceValue;
+    _r16.i = _r0.i;
+    _r16.i = _r16.i >> (0x1f & 16);
+    _r0.i = _r16.i;
+    _r0.i = _r0.i & 255;
+    _r11.i = _r0.i;
+    _r0_o = _r20_o;
+    _r0.i = ((global::com.codename1.ui.animations.Motion) _r0_o)._fdestinationValue;
+    _r16.i = _r0.i;
+    _r16.i = _r16.i >> (0x1f & 16);
+    _r0.i = _r16.i;
+    _r0.i = _r0.i & 255;
+    _r5.i = _r0.i;
+    _r0_o = _r20_o;
+    _r0.i = ((global::com.codename1.ui.animations.Motion) _r0_o)._fsourceValue;
+    _r16.i = _r0.i;
+    _r16.i = _r16.i >> (0x1f & 8);
+    _r0.i = _r16.i;
+    _r0.i = _r0.i & 255;
+    _r10.i = _r0.i;
+    _r0_o = _r20_o;
+    _r0.i = ((global::com.codename1.ui.animations.Motion) _r0_o)._fdestinationValue;
+    _r16.i = _r0.i;
+    _r16.i = _r16.i >> (0x1f & 8);
+    _r0.i = _r16.i;
+    _r0.i = _r0.i & 255;
+    _r4.i = _r0.i;
+    _r0_o = _r20_o;
+    _r0.i = ((global::com.codename1.ui.animations.Motion) _r0_o)._fsourceValue;
+    _r16.i = _r0.i;
+    _r0.i = _r16.i;
+    _r0.i = _r0.i & 255;
+    _r9.i = _r0.i;
+    _r0_o = _r20_o;
+    _r0.i = ((global::com.codename1.ui.animations.Motion) _r0_o)._fdestinationValue;
+    _r16.i = _r0.i;
+    _r0.i = _r16.i;
+    _r0.i = _r0.i & 255;
+    _r3.i = _r0.i;
+    _r8.i = _r5.i - _r11.i;
+    _r7.i = _r4.i - _r10.i;
+    _r6.i = _r3.i - _r9.i;
+    _r0.i = _r11.i;
+    _r0.f = (float) _r0.i;
+    _r16.f = _r0.f;
+    _r17.f = _r2.f / _r12.f;
+    _r0.i = _r8.i;
+    _r0.f = (float) _r0.i;
+    _r18.f = _r0.f;
+    _r17.f = _r17.f * _r18.f;
+    _r16.f = _r16.f + _r17.f;
+    _r0.f = _r16.f;
+    _r0.i = (int) _r0.f;
+    _r15.i = _r0.i;
+    _r0.i = _r10.i;
+    _r0.f = (float) _r0.i;
+    _r16.f = _r0.f;
+    _r17.f = _r2.f / _r12.f;
+    _r0.i = _r7.i;
+    _r0.f = (float) _r0.i;
+    _r18.f = _r0.f;
+    _r17.f = _r17.f * _r18.f;
+    _r16.f = _r16.f + _r17.f;
+    _r0.f = _r16.f;
+    _r0.i = (int) _r0.f;
+    _r14.i = _r0.i;
+    _r0.i = _r9.i;
+    _r0.f = (float) _r0.i;
+    _r16.f = _r0.f;
+    _r17.f = _r2.f / _r12.f;
+    _r0.i = _r6.i;
+    _r0.f = (float) _r0.i;
+    _r18.f = _r0.f;
+    _r17.f = _r17.f * _r18.f;
+    _r16.f = _r16.f + _r17.f;
+    _r0.f = _r16.f;
+    _r0.i = (int) _r0.f;
+    _r13.i = _r0.i;
+    if (_r5.i >= _r11.i) goto label250;
+    _r15.i = global::java.lang.Math.max((int) _r5.i, (int) _r15.i);
+    label214:;
+    if (_r4.i >= _r10.i) goto label255;
+    _r14.i = global::java.lang.Math.max((int) _r4.i, (int) _r14.i);
+    label220:;
+    if (_r3.i >= _r9.i) goto label260;
+    _r13.i = global::java.lang.Math.max((int) _r3.i, (int) _r13.i);
+    label226:;
+    _r16.i = _r15.i << (0x1f & 16);
+    _r17.i = 16711680;
+    _r16.i = _r16.i & _r17.i;
+    _r17.i = _r14.i << (0x1f & 8);
+    _r18.i = 65280;
+    _r17.i = _r17.i & _r18.i;
+    _r16.i = _r16.i | _r17.i;
+    _r0.i = _r13.i;
+    _r0.i = _r0.i & 255;
+    _r17.i = _r0.i;
+    _r16.i = _r16.i | _r17.i;
+    goto label12;
+    label250:;
+    _r15.i = global::java.lang.Math.min((int) _r5.i, (int) _r15.i);
+    goto label214;
+    label255:;
+    _r14.i = global::java.lang.Math.min((int) _r4.i, (int) _r14.i);
+    goto label220;
+    label260:;
+    _r13.i = global::java.lang.Math.min((int) _r3.i, (int) _r13.i);
+    goto label226;
+//XMLVM_END_WRAPPER[com.codename1.ui.animations.Motion: int getColorLinear()]
+}
+
 private int getFriction(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.animations.Motion: int getFriction()]
     global::org.xmlvm._nElement _r0;
@@ -955,44 +1352,110 @@ private int getFriction(){
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
+    global::org.xmlvm._nElement _r9;
+    global::System.Object _r9_o = null;
+    global::org.xmlvm._nElement _r10;
+    global::System.Object _r10_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
-    _r6_o = this;
-    _r2.l = ((global::com.codename1.ui.animations.Motion) _r6_o).getCurrentMotionTime();
+    _r10_o = this;
+    _r2.l = ((global::com.codename1.ui.animations.Motion) _r10_o).getCurrentMotionTime();
     _r1.i = (int) _r2.l;
     _r0.i = 0;
-    _r2.f = ((global::com.codename1.ui.animations.Motion) _r6_o)._finitVelocity;
-    _r2.f = global::java.lang.Math.abs((float) _r2.f);
-    _r3.f = (float) _r1.i;
-    _r2.f = _r2.f * _r3.f;
-    _r3.f = ((global::com.codename1.ui.animations.Motion) _r6_o)._ffriction;
-    _r4.f = (float) _r1.i;
-    _r5.f = (float) _r1.i;
-    _r4.f = _r4.f * _r5.f;
-    _r5.f = (float)2.0D;
-    _r4.f = _r4.f / _r5.f;
-    _r3.f = _r3.f * _r4.f;
-    _r2.f = _r2.f - _r3.f;
-    _r0.i = (int) _r2.f;
-    _r2.f = ((global::com.codename1.ui.animations.Motion) _r6_o)._finitVelocity;
-    _r3.f = (float)0.0D;
-    _r2.i = _r2.f > _r3.f ? 1 : (_r2.f == _r3.f ? 0 : -1);
-    if (_r2.i >= 0) goto label34;
+    _r2.d = ((global::com.codename1.ui.animations.Motion) _r10_o)._finitVelocity;
+    _r2.d = global::java.lang.Math.abs((double) _r2.d);
+    _r4.d = (double) _r1.i;
+    _r2.d = _r2.d * _r4.d;
+    _r4.d = ((global::com.codename1.ui.animations.Motion) _r10_o)._ffriction;
+    _r6.d = (double) _r1.i;
+    _r8.d = (double) _r1.i;
+    _r6.d = _r6.d * _r8.d;
+    _r8.d = 2.0D;
+    _r6.d = _r6.d / _r8.d;
+    _r4.d = _r4.d * _r6.d;
+    _r2.d = _r2.d - _r4.d;
+    _r0.i = (int) _r2.d;
+    _r2.d = ((global::com.codename1.ui.animations.Motion) _r10_o)._finitVelocity;
+    _r4.d = 0.0D;
+    _r2.i = _r2.d > _r4.d ? 1 : (_r2.d == _r4.d ? 0 : -1);
+    if (_r2.i >= 0) goto label35;
     _r0.i = _r0.i * -1;
-    label34:;
-    _r2.i = ((global::com.codename1.ui.animations.Motion) _r6_o)._fsourceValue;
+    label35:;
+    _r2.i = ((global::com.codename1.ui.animations.Motion) _r10_o)._fsourceValue;
     _r0.i = _r0.i + _r2.i;
-    _r2.i = ((global::com.codename1.ui.animations.Motion) _r6_o)._fdestinationValue;
-    _r3.i = ((global::com.codename1.ui.animations.Motion) _r6_o)._fsourceValue;
-    if (_r2.i <= _r3.i) goto label50;
-    _r2.i = ((global::com.codename1.ui.animations.Motion) _r6_o)._fdestinationValue;
+    _r2.i = ((global::com.codename1.ui.animations.Motion) _r10_o)._fdestinationValue;
+    _r3.i = ((global::com.codename1.ui.animations.Motion) _r10_o)._fsourceValue;
+    if (_r2.i <= _r3.i) goto label51;
+    _r2.i = ((global::com.codename1.ui.animations.Motion) _r10_o)._fdestinationValue;
     _r2.i = global::java.lang.Math.min((int) _r0.i, (int) _r2.i);
-    label49:;
-    return _r2.i;
     label50:;
-    _r2.i = ((global::com.codename1.ui.animations.Motion) _r6_o)._fdestinationValue;
+    return _r2.i;
+    label51:;
+    _r2.i = ((global::com.codename1.ui.animations.Motion) _r10_o)._fdestinationValue;
     _r2.i = global::java.lang.Math.max((int) _r0.i, (int) _r2.i);
-    goto label49;
+    goto label50;
 //XMLVM_END_WRAPPER[com.codename1.ui.animations.Motion: int getFriction()]
+}
+
+private int getExponentialDecay(){
+//XMLVM_BEGIN_WRAPPER[com.codename1.ui.animations.Motion: int getExponentialDecay()]
+    global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
+    global::org.xmlvm._nElement _r9;
+    global::System.Object _r9_o = null;
+    global::org.xmlvm._nElement _r10;
+    global::System.Object _r10_o = null;
+    global::org.xmlvm._nElement _r11;
+    global::System.Object _r11_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
+    _r11_o = this;
+    _r7.l = ((global::com.codename1.ui.animations.Motion) _r11_o).getCurrentMotionTime();
+    _r2.d = (double) _r7.l;
+    _r5.d = ((global::com.codename1.ui.animations.Motion) _r11_o)._ffriction;
+    _r7.i = ((global::com.codename1.ui.animations.Motion) _r11_o)._ftargetPosition;
+    _r8.i = ((global::com.codename1.ui.animations.Motion) _r11_o)._fsourceValue;
+    _r7.i = _r7.i - _r8.i;
+    _r0.d = (double) _r7.i;
+    _r7.i = ((global::com.codename1.ui.animations.Motion) _r11_o)._ftargetPosition;
+    _r7.d = (double) _r7.i;
+    _r9.d = -_r2.d;
+    _r9.d = _r9.d / _r5.d;
+    _r9.d = global::com.codename1.util.MathUtil.exp((double) _r9.d);
+    _r9.d = _r9.d * _r0.d;
+    _r7.d = _r7.d - _r9.d;
+    _r7.l = global::java.lang.Math.round((double) _r7.d);
+    _r4.i = (int) _r7.l;
+    _r7.i = ((global::com.codename1.ui.animations.Motion) _r11_o)._fdestinationValue;
+    _r8.i = ((global::com.codename1.ui.animations.Motion) _r11_o)._fsourceValue;
+    if (_r7.i <= _r8.i) goto label42;
+    _r7.i = ((global::com.codename1.ui.animations.Motion) _r11_o)._fdestinationValue;
+    _r7.i = global::java.lang.Math.min((int) _r4.i, (int) _r7.i);
+    label41:;
+    return _r7.i;
+    label42:;
+    _r7.i = ((global::com.codename1.ui.animations.Motion) _r11_o)._fdestinationValue;
+    _r7.i = global::java.lang.Math.max((int) _r4.i, (int) _r7.i);
+    goto label41;
+//XMLVM_END_WRAPPER[com.codename1.ui.animations.Motion: int getExponentialDecay()]
 }
 
 private int getRubber(){

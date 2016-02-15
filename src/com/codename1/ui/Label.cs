@@ -8,6 +8,8 @@ static Label() {
     @static();
 }
 
+private bool _flegacyRenderer;
+
 private global::java.lang.String _ftext;
 
 private global::com.codename1.ui.Image _ficon;
@@ -48,6 +50,8 @@ private bool _fshowEvenIfBlank;
 
 private int _fshiftMillimeters;
 
+private int _fstringWidthUnselected;
+
 public void @this(global::java.lang.String n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Label: void <init>(java.lang.String)]
     global::org.xmlvm._nElement _r0;
@@ -87,6 +91,8 @@ public void @this(global::java.lang.String n1){
     ((global::com.codename1.ui.Label) _r4_o)._fshouldLocalize = 0!=_r2.i;
     ((global::com.codename1.ui.Label) _r4_o)._fshowEvenIfBlank = 0!=_r1.i;
     ((global::com.codename1.ui.Label) _r4_o)._fshiftMillimeters = _r2.i;
+    _r0.i = -1;
+    ((global::com.codename1.ui.Label) _r4_o)._fstringWidthUnselected = _r0.i;
     ((global::com.codename1.ui.Label) _r4_o)._fnoBind = 0!=_r2.i;
     // Value=Label
     _r0_o = new global::java.lang.String();
@@ -145,6 +151,8 @@ public void @this(global::java.lang.String n1, global::java.lang.String n2){
     ((global::com.codename1.ui.Label) _r4_o)._fshouldLocalize = 0!=_r2.i;
     ((global::com.codename1.ui.Label) _r4_o)._fshowEvenIfBlank = 0!=_r1.i;
     ((global::com.codename1.ui.Label) _r4_o)._fshiftMillimeters = _r2.i;
+    _r0.i = -1;
+    ((global::com.codename1.ui.Label) _r4_o)._fstringWidthUnselected = _r0.i;
     ((global::com.codename1.ui.Label) _r4_o)._fnoBind = 0!=_r2.i;
     ((global::com.codename1.ui.Label) _r4_o)._ftext = (global::java.lang.String) _r5_o;
     ((global::com.codename1.ui.Label) _r4_o).localize();
@@ -194,12 +202,114 @@ public void @this(global::com.codename1.ui.Image n1){
     ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {}));
     ((global::com.codename1.ui.Label) _r1_o).@this((global::java.lang.String) _r0_o);
     ((global::com.codename1.ui.Label) _r1_o)._ficon = (global::com.codename1.ui.Image) _r2_o;
+    if (_r2_o == null) goto label18;
+    _r0.i = ((global::com.codename1.ui.Image) _r2_o).requiresDrawImage() ? 1 : 0;
+    if (_r0.i == 0) goto label18;
+    _r0.i = 1;
+    ((global::com.codename1.ui.Label) _r1_o)._flegacyRenderer = 0!=_r0.i;
+    label18:;
     _r0_o = global::com.codename1.ui.plaf.UIManager.getInstance();
     _r0_o = ((global::com.codename1.ui.plaf.UIManager) _r0_o).getLookAndFeel();
     _r0.i = ((global::com.codename1.ui.plaf.LookAndFeel) _r0_o).isDefaultEndsWith3Points() ? 1 : 0;
     ((global::com.codename1.ui.Label) _r1_o)._fendsWith3Points = 0!=_r0.i;
     return;
 //XMLVM_END_WRAPPER[com.codename1.ui.Label: void <init>(com.codename1.ui.Image)]
+}
+
+public void @this(global::com.codename1.ui.Image n1, global::java.lang.String n2){
+//XMLVM_BEGIN_WRAPPER[com.codename1.ui.Label: void <init>(com.codename1.ui.Image, java.lang.String)]
+    global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
+    _r1_o = this;
+    _r2_o = n1;
+    _r3_o = n2;
+    // Value=
+    _r0_o = new global::java.lang.String();
+    ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {}));
+    ((global::com.codename1.ui.Label) _r1_o).@this((global::java.lang.String) _r0_o, (global::java.lang.String) _r3_o);
+    ((global::com.codename1.ui.Label) _r1_o)._ficon = (global::com.codename1.ui.Image) _r2_o;
+    if (_r2_o == null) goto label18;
+    _r0.i = ((global::com.codename1.ui.Image) _r2_o).requiresDrawImage() ? 1 : 0;
+    if (_r0.i == 0) goto label18;
+    _r0.i = 1;
+    ((global::com.codename1.ui.Label) _r1_o)._flegacyRenderer = 0!=_r0.i;
+    label18:;
+    _r0_o = global::com.codename1.ui.plaf.UIManager.getInstance();
+    _r0_o = ((global::com.codename1.ui.plaf.UIManager) _r0_o).getLookAndFeel();
+    _r0.i = ((global::com.codename1.ui.plaf.LookAndFeel) _r0_o).isDefaultEndsWith3Points() ? 1 : 0;
+    ((global::com.codename1.ui.Label) _r1_o)._fendsWith3Points = 0!=_r0.i;
+    return;
+//XMLVM_END_WRAPPER[com.codename1.ui.Label: void <init>(com.codename1.ui.Image, java.lang.String)]
+}
+
+public void @this(global::java.lang.String n1, global::com.codename1.ui.Image n2, global::java.lang.String n3){
+//XMLVM_BEGIN_WRAPPER[com.codename1.ui.Label: void <init>(java.lang.String, com.codename1.ui.Image, java.lang.String)]
+    global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
+    _r1_o = this;
+    _r2_o = n1;
+    _r3_o = n2;
+    _r4_o = n3;
+    ((global::com.codename1.ui.Label) _r1_o).@this((global::java.lang.String) _r2_o, (global::java.lang.String) _r4_o);
+    ((global::com.codename1.ui.Label) _r1_o)._ficon = (global::com.codename1.ui.Image) _r3_o;
+    if (_r3_o == null) goto label16;
+    _r0.i = ((global::com.codename1.ui.Image) _r3_o).requiresDrawImage() ? 1 : 0;
+    if (_r0.i == 0) goto label16;
+    _r0.i = 1;
+    ((global::com.codename1.ui.Label) _r1_o)._flegacyRenderer = 0!=_r0.i;
+    label16:;
+    _r0_o = global::com.codename1.ui.plaf.UIManager.getInstance();
+    _r0_o = ((global::com.codename1.ui.plaf.UIManager) _r0_o).getLookAndFeel();
+    _r0.i = ((global::com.codename1.ui.plaf.LookAndFeel) _r0_o).isDefaultEndsWith3Points() ? 1 : 0;
+    ((global::com.codename1.ui.Label) _r1_o)._fendsWith3Points = 0!=_r0.i;
+    return;
+//XMLVM_END_WRAPPER[com.codename1.ui.Label: void <init>(java.lang.String, com.codename1.ui.Image, java.lang.String)]
+}
+
+public void @this(global::java.lang.String n1, global::com.codename1.ui.Image n2){
+//XMLVM_BEGIN_WRAPPER[com.codename1.ui.Label: void <init>(java.lang.String, com.codename1.ui.Image)]
+    global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
+    _r1_o = this;
+    _r2_o = n1;
+    _r3_o = n2;
+    ((global::com.codename1.ui.Label) _r1_o).@this((global::java.lang.String) _r2_o);
+    ((global::com.codename1.ui.Label) _r1_o)._ficon = (global::com.codename1.ui.Image) _r3_o;
+    if (_r3_o == null) goto label16;
+    _r0.i = ((global::com.codename1.ui.Image) _r3_o).requiresDrawImage() ? 1 : 0;
+    if (_r0.i == 0) goto label16;
+    _r0.i = 1;
+    ((global::com.codename1.ui.Label) _r1_o)._flegacyRenderer = 0!=_r0.i;
+    label16:;
+    _r0_o = global::com.codename1.ui.plaf.UIManager.getInstance();
+    _r0_o = ((global::com.codename1.ui.plaf.UIManager) _r0_o).getLookAndFeel();
+    _r0.i = ((global::com.codename1.ui.plaf.LookAndFeel) _r0_o).isDefaultEndsWith3Points() ? 1 : 0;
+    ((global::com.codename1.ui.Label) _r1_o)._fendsWith3Points = 0!=_r0.i;
+    return;
+//XMLVM_END_WRAPPER[com.codename1.ui.Label: void <init>(java.lang.String, com.codename1.ui.Image)]
 }
 
 public override int getBaselineResizeBehavior(){
@@ -288,6 +398,8 @@ public virtual void setText(global::java.lang.String n1){
     _r2_o = n1;
     ((global::com.codename1.ui.Label) _r1_o)._ftext = (global::java.lang.String) _r2_o;
     ((global::com.codename1.ui.Label) _r1_o).localize();
+    _r0.i = -1;
+    ((global::com.codename1.ui.Label) _r1_o)._fstringWidthUnselected = _r0.i;
     _r0.i = 1;
     ((global::com.codename1.ui.Label) _r1_o).setShouldCalcPreferredSize(0!=_r0.i);
     ((global::com.codename1.ui.Label) _r1_o).repaint();
@@ -416,27 +528,33 @@ public virtual void setIcon(global::com.codename1.ui.Image n1){
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
-    _r1_o = this;
-    _r2_o = n1;
-    _r0_o = ((global::com.codename1.ui.Label) _r1_o)._ficon;
-    if (_r0_o != _r2_o) goto label5;
-    label4:;
-    return;
+    _r2_o = this;
+    _r3_o = n1;
+    _r1.i = 1;
+    _r0_o = ((global::com.codename1.ui.Label) _r2_o)._ficon;
+    if (_r0_o != _r3_o) goto label6;
     label5:;
-    if (_r2_o == null) goto label19;
-    _r0_o = ((global::com.codename1.ui.Label) _r1_o)._fmask;
-    if (_r0_o == null) goto label19;
-    _r0_o = ((global::com.codename1.ui.Label) _r1_o)._fmask;
-    _r0_o = ((global::com.codename1.ui.Image) _r2_o).applyMaskAutoScale((global::java.lang.Object) _r0_o);
-    ((global::com.codename1.ui.Label) _r1_o)._fmaskedIcon = (global::com.codename1.ui.Image) _r0_o;
-    label19:;
-    ((global::com.codename1.ui.Label) _r1_o)._ficon = (global::com.codename1.ui.Image) _r2_o;
-    _r0.i = 1;
-    ((global::com.codename1.ui.Label) _r1_o).setShouldCalcPreferredSize(0!=_r0.i);
-    ((global::com.codename1.ui.Label) _r1_o).checkAnimation();
-    ((global::com.codename1.ui.Label) _r1_o).repaint();
-    goto label4;
+    return;
+    label6:;
+    if (_r3_o == null) goto label28;
+    _r0.i = ((global::com.codename1.ui.Image) _r3_o).requiresDrawImage() ? 1 : 0;
+    if (_r0.i == 0) goto label16;
+    ((global::com.codename1.ui.Label) _r2_o)._flegacyRenderer = 0!=_r1.i;
+    label16:;
+    _r0_o = ((global::com.codename1.ui.Label) _r2_o)._fmask;
+    if (_r0_o == null) goto label28;
+    _r0_o = ((global::com.codename1.ui.Label) _r2_o)._fmask;
+    _r0_o = ((global::com.codename1.ui.Image) _r3_o).applyMaskAutoScale((global::java.lang.Object) _r0_o);
+    ((global::com.codename1.ui.Label) _r2_o)._fmaskedIcon = (global::com.codename1.ui.Image) _r0_o;
+    label28:;
+    ((global::com.codename1.ui.Label) _r2_o)._ficon = (global::com.codename1.ui.Image) _r3_o;
+    ((global::com.codename1.ui.Label) _r2_o).setShouldCalcPreferredSize(0!=_r1.i);
+    ((global::com.codename1.ui.Label) _r2_o).checkAnimation();
+    ((global::com.codename1.ui.Label) _r2_o).repaint();
+    goto label5;
 //XMLVM_END_WRAPPER[com.codename1.ui.Label: void setIcon(com.codename1.ui.Image)]
 }
 
@@ -678,13 +796,139 @@ public override void paint(global::com.codename1.ui.Graphics n1){
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
+    global::org.xmlvm._nElement _r9;
+    global::System.Object _r9_o = null;
+    global::org.xmlvm._nElement _r10;
+    global::System.Object _r10_o = null;
+    global::org.xmlvm._nElement _r11;
+    global::System.Object _r11_o = null;
+    global::org.xmlvm._nElement _r12;
+    global::System.Object _r12_o = null;
+    global::org.xmlvm._nElement _r13;
+    global::System.Object _r13_o = null;
+    global::org.xmlvm._nElement _r14;
+    global::System.Object _r14_o = null;
+    global::org.xmlvm._nElement _r15;
+    global::System.Object _r15_o = null;
+    global::org.xmlvm._nElement _r16;
+    global::System.Object _r16_o = null;
+    global::org.xmlvm._nElement _r17;
+    global::System.Object _r17_o = null;
+    global::org.xmlvm._nElement _r18;
+    global::System.Object _r18_o = null;
+    global::org.xmlvm._nElement _r19;
+    global::System.Object _r19_o = null;
+    global::org.xmlvm._nElement _r20;
+    global::System.Object _r20_o = null;
+    global::org.xmlvm._nElement _r21;
+    global::System.Object _r21_o = null;
+    global::org.xmlvm._nElement _r22;
+    global::System.Object _r22_o = null;
+    global::org.xmlvm._nElement _r23;
+    global::System.Object _r23_o = null;
+    global::org.xmlvm._nElement _r24;
+    global::System.Object _r24_o = null;
+    global::org.xmlvm._nElement _r25;
+    global::System.Object _r25_o = null;
+    global::org.xmlvm._nElement _r26;
+    global::System.Object _r26_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
-    _r1_o = this;
-    _r2_o = n1;
-    _r0_o = ((global::com.codename1.ui.Label) _r1_o).getUIManager();
-    _r0_o = ((global::com.codename1.ui.plaf.UIManager) _r0_o).getLookAndFeel();
-    ((global::com.codename1.ui.plaf.LookAndFeel) _r0_o).drawLabel((global::com.codename1.ui.Graphics) _r2_o, (global::com.codename1.ui.Label) _r1_o);
+    _r25_o = this;
+    _r26_o = n1;
+    _r0_o = _r25_o;
+    _r0.i = ((global::com.codename1.ui.Label) _r0_o)._flegacyRenderer ? 1 : 0;
+    _r3.i = _r0.i;
+    if (_r3.i == 0) goto label24;
+    _r3_o = ((global::com.codename1.ui.Label) _r25_o).getUIManager();
+    _r3_o = ((global::com.codename1.ui.plaf.UIManager) _r3_o).getLookAndFeel();
+    _r0_o = _r3_o;
+    _r1_o = _r26_o;
+    _r2_o = _r25_o;
+    ((global::com.codename1.ui.plaf.LookAndFeel) _r0_o).drawLabel((global::com.codename1.ui.Graphics) _r1_o, (global::com.codename1.ui.Label) _r2_o);
+    label23:;
     return;
+    label24:;
+    _r11_o = null;
+    _r24_o = ((global::com.codename1.ui.Label) _r25_o).getIconFromState();
+    if (_r24_o == null) goto label137;
+    _r11_o = ((global::com.codename1.ui.Image) _r24_o).getImage();
+    label35:;
+    _r3.i = ((global::com.codename1.ui.Label) _r25_o).getX();
+    _r4.i = ((global::com.codename1.ui.Graphics) _r26_o).getTranslateX();
+    _r5.i = _r3.i + _r4.i;
+    _r3.i = ((global::com.codename1.ui.Label) _r25_o).getY();
+    _r4.i = ((global::com.codename1.ui.Graphics) _r26_o).getTranslateY();
+    _r6.i = _r3.i + _r4.i;
+    _r7.i = ((global::com.codename1.ui.Label) _r25_o).getHeight();
+    _r8.i = ((global::com.codename1.ui.Label) _r25_o).getWidth();
+    _r9_o = ((global::com.codename1.ui.Label) _r25_o).getStyle();
+    _r23_o = ((global::com.codename1.ui.plaf.Style) _r9_o).getFont();
+    _r3_o = global::com.codename1.ui.Display._fimpl;
+    _r4_o = ((global::com.codename1.ui.Graphics) _r26_o).getGraphics();
+    _r0_o = _r25_o;
+    _r0_o = ((global::com.codename1.ui.Label) _r0_o)._ftext;
+    _r10_o = _r0_o;
+    _r12_o = null;
+    _r13.i = 0;
+    _r0_o = _r25_o;
+    _r0.i = ((global::com.codename1.ui.Label) _r0_o)._fgap;
+    _r14.i = _r0.i;
+    _r15.i = ((global::com.codename1.ui.Label) _r25_o).isRTL() ? 1 : 0;
+    _r16.i = 0;
+    _r0_o = _r25_o;
+    _r0.i = ((global::com.codename1.ui.Label) _r0_o)._ftextPosition;
+    _r17.i = _r0.i;
+    _r0_o = _r25_o;
+    _r1_o = _r23_o;
+    _r18.i = ((global::com.codename1.ui.Label) _r0_o).getStringWidth((global::com.codename1.ui.Font) _r1_o);
+    _r0_o = _r25_o;
+    _r0.i = ((global::com.codename1.ui.Label) _r0_o)._ftickerRunning ? 1 : 0;
+    _r19.i = _r0.i;
+    _r0_o = _r25_o;
+    _r0.i = ((global::com.codename1.ui.Label) _r0_o)._fshiftText;
+    _r20.i = _r0.i;
+    _r0_o = _r25_o;
+    _r0.i = ((global::com.codename1.ui.Label) _r0_o)._fendsWith3Points ? 1 : 0;
+    _r21.i = _r0.i;
+    _r0_o = _r25_o;
+    _r0.i = ((global::com.codename1.ui.Label) _r0_o)._fvalign;
+    _r22.i = _r0.i;
+    ((global::com.codename1.impl.CodenameOneImplementation) _r3_o).drawLabelComponent((global::java.lang.Object) _r4_o, (int) _r5.i, (int) _r6.i, (int) _r7.i, (int) _r8.i, (global::com.codename1.ui.plaf.Style) _r9_o, (global::java.lang.String) _r10_o, (global::java.lang.Object) _r11_o, (global::java.lang.Object) _r12_o, (int) _r13.i, (int) _r14.i, 0!=_r15.i, 0!=_r16.i, (int) _r17.i, (int) _r18.i, 0!=_r19.i, (int) _r20.i, 0!=_r21.i, (int) _r22.i);
+    goto label23;
+    label137:;
+    _r0_o = _r25_o;
+    _r0_o = ((global::com.codename1.ui.Label) _r0_o)._ftext;
+    _r3_o = _r0_o;
+    if (_r3_o == null) goto label23;
+    _r0_o = _r25_o;
+    _r0_o = ((global::com.codename1.ui.Label) _r0_o)._ftext;
+    _r3_o = _r0_o;
+    // Value=
+    _r4_o = new global::java.lang.String();
+    ((global::java.lang.String)_r4_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {}));
+    _r3.i = ((global::java.lang.String) _r3_o).equals((global::java.lang.Object) _r4_o) ? 1 : 0;
+    if (_r3.i != 0) goto label23;
+    _r0_o = _r25_o;
+    _r0_o = ((global::com.codename1.ui.Label) _r0_o)._ftext;
+    _r3_o = _r0_o;
+    // Value= 
+    _r4_o = new global::java.lang.String();
+    ((global::java.lang.String)_r4_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)32))}));
+    _r3.i = ((global::java.lang.String) _r3_o).equals((global::java.lang.Object) _r4_o) ? 1 : 0;
+    if (_r3.i == 0) goto label35;
+    goto label23;
 //XMLVM_END_WRAPPER[com.codename1.ui.Label: void paint(com.codename1.ui.Graphics)]
 }
 
@@ -778,7 +1022,7 @@ public virtual global::System.Object getIconFromState(){
     global::System.Object _r1_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
-    _r0_o = ((global::com.codename1.ui.Label) _r1_o).getIcon();
+    _r0_o = ((global::com.codename1.ui.Label) _r1_o).getMaskedIcon();
     return (global::com.codename1.ui.Image) _r0_o;
 //XMLVM_END_WRAPPER[com.codename1.ui.Label: com.codename1.ui.Image getIconFromState()]
 }
@@ -1022,58 +1266,79 @@ public override bool animate(){
     _r7.i = 1;
     _r0.i = 0;
     _r3.i = ((global::com.codename1.ui.Label) _r9_o)._ftickerRunning ? 1 : 0;
-    if (_r3.i == 0) goto label46;
+    if (_r3.i == 0) goto label77;
     _r3.l = ((global::com.codename1.ui.Label) _r9_o)._ftickerStartTime;
     _r5.l = ((global::com.codename1.ui.Label) _r9_o)._ftickerDelay;
     _r3.l = _r3.l + _r5.l;
     _r5.l = global::java.lang.System.currentTimeMillis();
     _r3.i = _r3.l > _r5.l ? 1 : (_r3.l == _r5.l ? 0 : -1);
-    if (_r3.i >= 0) goto label46;
+    if (_r3.i >= 0) goto label77;
     _r3.l = global::java.lang.System.currentTimeMillis();
     ((global::com.codename1.ui.Label) _r9_o)._ftickerStartTime = _r3.l;
     _r3.i = ((global::com.codename1.ui.Label) _r9_o)._frightToLeft ? 1 : 0;
-    if (_r3.i == 0) goto label79;
+    if (_r3.i == 0) goto label110;
     _r3.i = ((global::com.codename1.ui.Label) _r9_o)._fshiftText;
     _r4_o = global::com.codename1.ui.Display.getInstance();
     _r5.i = ((global::com.codename1.ui.Label) _r9_o)._fshiftMillimeters;
     _r4.i = ((global::com.codename1.ui.Display) _r4_o).convertToPixels((int) _r5.i, 0!=_r7.i);
     _r3.i = _r3.i - _r4.i;
     ((global::com.codename1.ui.Label) _r9_o)._fshiftText = _r3.i;
-    label45:;
+    _r3.i = ((global::com.codename1.ui.Label) _r9_o)._fshiftText;
+    _r4_o = ((global::com.codename1.ui.Label) _r9_o).getStyle();
+    _r4_o = ((global::com.codename1.ui.plaf.Style) _r4_o).getFont();
+    _r4.i = ((global::com.codename1.ui.Label) _r9_o).getStringWidth((global::com.codename1.ui.Font) _r4_o);
+    _r3.i = _r3.i + _r4.i;
+    if (_r3.i >= 0) goto label76;
+    _r3_o = ((global::com.codename1.ui.Label) _r9_o).getStyle();
+    _r3_o = ((global::com.codename1.ui.plaf.Style) _r3_o).getFont();
+    _r3.i = ((global::com.codename1.ui.Label) _r9_o).getStringWidth((global::com.codename1.ui.Font) _r3_o);
+    ((global::com.codename1.ui.Label) _r9_o)._fshiftText = _r3.i;
+    label76:;
     _r0.i = 1;
-    label46:;
+    label77:;
     _r3_o = ((global::com.codename1.ui.Label) _r9_o)._ficon;
-    if (_r3_o == null) goto label95;
+    if (_r3_o == null) goto label158;
     _r3_o = ((global::com.codename1.ui.Label) _r9_o)._ficon;
     _r3.i = ((global::com.codename1.ui.Image) _r3_o).isAnimation() ? 1 : 0;
-    if (_r3.i == 0) goto label95;
+    if (_r3.i == 0) goto label158;
     _r3_o = ((global::com.codename1.ui.Label) _r9_o)._ficon;
     _r3.i = ((global::com.codename1.ui.Image) _r3_o).animate() ? 1 : 0;
-    if (_r3.i == 0) goto label95;
+    if (_r3.i == 0) goto label158;
     _r2.i = _r7.i;
-    label67:;
+    label98:;
     _r1.i = base.animate() ? 1 : 0;
-    if (_r2.i != 0) goto label77;
-    if (_r1.i != 0) goto label77;
-    if (_r0.i == 0) goto label97;
-    label77:;
+    if (_r2.i != 0) goto label108;
+    if (_r1.i != 0) goto label108;
+    if (_r0.i == 0) goto label160;
+    label108:;
     _r3.i = _r7.i;
-    label78:;
+    label109:;
     return _r3.i!=0;
-    label79:;
+    label110:;
     _r3.i = ((global::com.codename1.ui.Label) _r9_o)._fshiftText;
     _r4_o = global::com.codename1.ui.Display.getInstance();
     _r5.i = ((global::com.codename1.ui.Label) _r9_o)._fshiftMillimeters;
     _r4.i = ((global::com.codename1.ui.Display) _r4_o).convertToPixels((int) _r5.i, 0!=_r7.i);
     _r3.i = _r3.i + _r4.i;
     ((global::com.codename1.ui.Label) _r9_o)._fshiftText = _r3.i;
-    goto label45;
-    label95:;
+    _r3_o = ((global::com.codename1.ui.Label) _r9_o).getStyle();
+    _r3_o = ((global::com.codename1.ui.plaf.Style) _r3_o).getFont();
+    _r3.i = ((global::com.codename1.ui.Label) _r9_o).getStringWidth((global::com.codename1.ui.Font) _r3_o);
+    _r4.i = ((global::com.codename1.ui.Label) _r9_o)._fshiftText;
+    _r3.i = _r3.i - _r4.i;
+    if (_r3.i >= 0) goto label76;
+    _r3_o = ((global::com.codename1.ui.Label) _r9_o).getStyle();
+    _r3_o = ((global::com.codename1.ui.plaf.Style) _r3_o).getFont();
+    _r3.i = ((global::com.codename1.ui.Label) _r9_o).getStringWidth((global::com.codename1.ui.Font) _r3_o);
+    _r3.i = -_r3.i;
+    ((global::com.codename1.ui.Label) _r9_o)._fshiftText = _r3.i;
+    goto label76;
+    label158:;
     _r2.i = _r8.i;
-    goto label67;
-    label97:;
+    goto label98;
+    label160:;
     _r3.i = _r8.i;
-    goto label78;
+    goto label109;
 //XMLVM_END_WRAPPER[com.codename1.ui.Label: boolean animate()]
 }
 
@@ -1562,6 +1827,62 @@ public virtual void setShowEvenIfBlank(bool n1){
     ((global::com.codename1.ui.Label) _r0_o)._fshowEvenIfBlank = 0!=_r1.i;
     return;
 //XMLVM_END_WRAPPER[com.codename1.ui.Label: void setShowEvenIfBlank(boolean)]
+}
+
+public virtual int getStringWidth(global::com.codename1.ui.Font n1){
+//XMLVM_BEGIN_WRAPPER[com.codename1.ui.Label: int getStringWidth(com.codename1.ui.Font)]
+    global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
+    _r1_o = this;
+    _r2_o = n1;
+    _r0.i = ((global::com.codename1.ui.Label) _r1_o)._fisUnselectedStyle ? 1 : 0;
+    if (_r0.i == 0) goto label19;
+    _r0.i = ((global::com.codename1.ui.Label) _r1_o)._fstringWidthUnselected;
+    if (_r0.i >= 0) goto label16;
+    _r0_o = ((global::com.codename1.ui.Label) _r1_o)._ftext;
+    _r0.i = ((global::com.codename1.ui.Font) _r2_o).stringWidth((global::java.lang.String) _r0_o);
+    ((global::com.codename1.ui.Label) _r1_o)._fstringWidthUnselected = _r0.i;
+    label16:;
+    _r0.i = ((global::com.codename1.ui.Label) _r1_o)._fstringWidthUnselected;
+    label18:;
+    return _r0.i;
+    label19:;
+    _r0_o = ((global::com.codename1.ui.Label) _r1_o)._ftext;
+    _r0.i = ((global::com.codename1.ui.Font) _r2_o).stringWidth((global::java.lang.String) _r0_o);
+    goto label18;
+//XMLVM_END_WRAPPER[com.codename1.ui.Label: int getStringWidth(com.codename1.ui.Font)]
+}
+
+public virtual bool isLegacyRenderer(){
+//XMLVM_BEGIN_WRAPPER[com.codename1.ui.Label: boolean isLegacyRenderer()]
+    global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
+    _r1_o = this;
+    _r0.i = ((global::com.codename1.ui.Label) _r1_o)._flegacyRenderer ? 1 : 0;
+    return _r0.i!=0;
+//XMLVM_END_WRAPPER[com.codename1.ui.Label: boolean isLegacyRenderer()]
+}
+
+public virtual void setLegacyRenderer(bool n1){
+//XMLVM_BEGIN_WRAPPER[com.codename1.ui.Label: void setLegacyRenderer(boolean)]
+    global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
+    _r0_o = this;
+    _r1.i = n1 ? 1 : 0;
+    ((global::com.codename1.ui.Label) _r0_o)._flegacyRenderer = 0!=_r1.i;
+    return;
+//XMLVM_END_WRAPPER[com.codename1.ui.Label: void setLegacyRenderer(boolean)]
 }
 
 public static void @static(){

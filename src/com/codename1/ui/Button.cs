@@ -580,23 +580,25 @@ public virtual void fireActionEvent(int n1, int n2){
     global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
-    _r5_o = this;
-    _r6.i = n1;
-    _r7.i = n2;
+    _r6_o = this;
+    _r7.i = n1;
+    _r8.i = n2;
     base.fireActionEvent();
-    _r3_o = ((global::com.codename1.ui.Button) _r5_o)._fcmd;
+    _r3_o = ((global::com.codename1.ui.Button) _r6_o)._fcmd;
     if (_r3_o == null) goto label52;
     _r1_o = new global::com.codename1.ui.events.ActionEvent();
-    _r3_o = ((global::com.codename1.ui.Button) _r5_o)._fcmd;
-    ((global::com.codename1.ui.events.ActionEvent) _r1_o).@this((global::com.codename1.ui.Command) _r3_o, (global::com.codename1.ui.Component) _r5_o, (int) _r6.i, (int) _r7.i);
-    _r3_o = ((global::com.codename1.ui.Button) _r5_o)._fdispatcher;
+    _r3_o = ((global::com.codename1.ui.Button) _r6_o)._fcmd;
+    ((global::com.codename1.ui.events.ActionEvent) _r1_o).@this((global::com.codename1.ui.Command) _r3_o, (global::com.codename1.ui.Component) _r6_o, (int) _r7.i, (int) _r8.i);
+    _r3_o = ((global::com.codename1.ui.Button) _r6_o)._fdispatcher;
     ((global::com.codename1.ui.util.EventDispatcher) _r3_o).fireActionEvent((global::com.codename1.ui.events.ActionEvent) _r1_o);
     _r3.i = ((global::com.codename1.ui.events.ActionEvent) _r1_o).isConsumed() ? 1 : 0;
     if (_r3.i != 0) goto label36;
-    _r2_o = ((global::com.codename1.ui.Button) _r5_o).getComponentForm();
+    _r2_o = ((global::com.codename1.ui.Button) _r6_o).getComponentForm();
     if (_r2_o == null) goto label36;
-    _r3_o = ((global::com.codename1.ui.Button) _r5_o)._fcmd;
+    _r3_o = ((global::com.codename1.ui.Button) _r6_o)._fcmd;
     ((global::com.codename1.ui.Form) _r2_o).actionCommandImplNoRecurseComponent((global::com.codename1.ui.Command) _r3_o, (global::com.codename1.ui.events.ActionEvent) _r1_o);
     label36:;
     _r0_o = global::com.codename1.ui.Display.getInstance();
@@ -609,9 +611,10 @@ public virtual void fireActionEvent(int n1, int n2){
     label51:;
     return;
     label52:;
-    _r3_o = ((global::com.codename1.ui.Button) _r5_o)._fdispatcher;
+    _r3_o = ((global::com.codename1.ui.Button) _r6_o)._fdispatcher;
     _r4_o = new global::com.codename1.ui.events.ActionEvent();
-    ((global::com.codename1.ui.events.ActionEvent) _r4_o).@this((global::java.lang.Object) _r5_o, (int) _r6.i, (int) _r7.i);
+    _r5_o = global::com.codename1.ui.events.ActionEvent_2Type._fPointerPressed;
+    ((global::com.codename1.ui.events.ActionEvent) _r4_o).@this((global::java.lang.Object) _r6_o, (global::com.codename1.ui.events.ActionEvent_2Type) _r5_o, (int) _r7.i, (int) _r8.i);
     ((global::com.codename1.ui.util.EventDispatcher) _r3_o).fireActionEvent((global::com.codename1.ui.events.ActionEvent) _r4_o);
     goto label36;
 //XMLVM_END_WRAPPER[com.codename1.ui.Button: void fireActionEvent(int, int)]
@@ -900,24 +903,6 @@ public override void pointerDragged(int n1, int n2){
     base.pointerDragged((int) _r1.i, (int) _r2.i);
     return;
 //XMLVM_END_WRAPPER[com.codename1.ui.Button: void pointerDragged(int, int)]
-}
-
-public override void paint(global::com.codename1.ui.Graphics n1){
-//XMLVM_BEGIN_WRAPPER[com.codename1.ui.Button: void paint(com.codename1.ui.Graphics)]
-    global::org.xmlvm._nElement _r0;
-    global::System.Object _r0_o = null;
-    global::org.xmlvm._nElement _r1;
-    global::System.Object _r1_o = null;
-    global::org.xmlvm._nElement _r2;
-    global::System.Object _r2_o = null;
-    global::org.xmlvm._nExceptionAdapter _ex = null;
-    _r1_o = this;
-    _r2_o = n1;
-    _r0_o = ((global::com.codename1.ui.Button) _r1_o).getUIManager();
-    _r0_o = ((global::com.codename1.ui.plaf.UIManager) _r0_o).getLookAndFeel();
-    ((global::com.codename1.ui.plaf.LookAndFeel) _r0_o).drawButton((global::com.codename1.ui.Graphics) _r2_o, (global::com.codename1.ui.Button) _r1_o);
-    return;
-//XMLVM_END_WRAPPER[com.codename1.ui.Button: void paint(com.codename1.ui.Graphics)]
 }
 
 public override global::System.Object calcPreferredSize(){

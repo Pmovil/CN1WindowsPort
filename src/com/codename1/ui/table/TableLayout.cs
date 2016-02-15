@@ -207,61 +207,87 @@ public override void layoutContainer(global::com.codename1.ui.Container n1){
     global::System.Object _r37_o = null;
     global::org.xmlvm._nElement _r38;
     global::System.Object _r38_o = null;
+    global::org.xmlvm._nElement _r39;
+    global::System.Object _r39_o = null;
+    global::org.xmlvm._nElement _r40;
+    global::System.Object _r40_o = null;
+    global::org.xmlvm._nElement _r41;
+    global::System.Object _r41_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
-    _r37_o = this;
-    _r38_o = n1;
+    _r40_o = this;
+    _r41_o = n1;
     _r4.i = 0;
     try {
     _r0.i = _r4.i;
-    _r1_o = _r37_o;
+    _r1_o = _r40_o;
     ((global::com.codename1.ui.table.TableLayout) _r1_o)._fverticalSpanningExists = 0!=_r0.i;
     _r4.i = 0;
     _r0.i = _r4.i;
-    _r1_o = _r37_o;
+    _r1_o = _r40_o;
     ((global::com.codename1.ui.table.TableLayout) _r1_o)._fhorizontalSpanningExists = 0!=_r0.i;
-    _r27_o = ((global::com.codename1.ui.Container) _r38_o).getStyle();
+    _r30_o = ((global::com.codename1.ui.Container) _r41_o).getStyle();
     _r4.i = 0;
     _r5.i = 0;
-    _r0_o = _r27_o;
+    _r0_o = _r30_o;
     _r1.i = _r4.i;
     _r2.i = _r5.i;
-    _r30.i = ((global::com.codename1.ui.plaf.Style) _r0_o).getPadding(0!=_r1.i, (int) _r2.i);
-    _r4.i = ((global::com.codename1.ui.Container) _r38_o).isRTL() ? 1 : 0;
+    _r33.i = ((global::com.codename1.ui.plaf.Style) _r0_o).getPadding(0!=_r1.i, (int) _r2.i);
+    _r4.i = ((global::com.codename1.ui.Container) _r41_o).isRTL() ? 1 : 0;
     _r5.i = 1;
-    _r0_o = _r27_o;
+    _r0_o = _r30_o;
     _r1.i = _r4.i;
     _r2.i = _r5.i;
-    _r20.i = ((global::com.codename1.ui.plaf.Style) _r0_o).getPadding(0!=_r1.i, (int) _r2.i);
+    _r22.i = ((global::com.codename1.ui.plaf.Style) _r0_o).getPadding(0!=_r1.i, (int) _r2.i);
     _r4.i = 0;
     _r5.i = 2;
-    _r0_o = _r27_o;
+    _r0_o = _r30_o;
     _r1.i = _r4.i;
     _r2.i = _r5.i;
     _r12.i = ((global::com.codename1.ui.plaf.Style) _r0_o).getPadding(0!=_r1.i, (int) _r2.i);
-    _r4.i = ((global::com.codename1.ui.Container) _r38_o).isRTL() ? 1 : 0;
+    _r4.i = ((global::com.codename1.ui.Container) _r41_o).isRTL() ? 1 : 0;
     _r5.i = 3;
-    _r0_o = _r27_o;
+    _r0_o = _r30_o;
     _r1.i = _r4.i;
     _r2.i = _r5.i;
-    _r25.i = ((global::com.codename1.ui.plaf.Style) _r0_o).getPadding(0!=_r1.i, (int) _r2.i);
-    _r5.i = ((global::com.codename1.ui.Container) _r38_o).isRTL() ? 1 : 0;
-    _r0_o = _r37_o;
+    _r27.i = ((global::com.codename1.ui.plaf.Style) _r0_o).getPadding(0!=_r1.i, (int) _r2.i);
+    _r5.i = ((global::com.codename1.ui.Container) _r41_o).isRTL() ? 1 : 0;
+    _r0_o = _r40_o;
     _r0.i = ((global::com.codename1.ui.table.TableLayout) _r0_o)._fcolumns;
     _r4.i = _r0.i;
     _r4_o = new global::org.xmlvm._nArrayAdapter<int>(new int[_r4.i]);
     _r0_o = _r4_o;
-    _r1_o = _r37_o;
+    _r1_o = _r40_o;
     ((global::com.codename1.ui.table.TableLayout) _r1_o)._fcolumnSizes = (global::org.xmlvm._nArrayAdapter<int>) _r0_o;
-    _r0_o = _r37_o;
+    _r0_o = _r40_o;
     _r0_o = ((global::com.codename1.ui.table.TableLayout) _r0_o)._fmodifableColumnSize;
     _r4_o = _r0_o;
-    if (_r4_o != null) goto label97;
-    _r0_o = _r37_o;
+    if (_r4_o == null) goto label98;
+    _r0_o = _r40_o;
+    _r0.i = ((global::com.codename1.ui.table.TableLayout) _r0_o)._fcolumns;
+    _r4.i = _r0.i;
+    _r0_o = _r40_o;
+    _r0_o = ((global::com.codename1.ui.table.TableLayout) _r0_o)._fmodifableColumnSize;
+    _r6_o = _r0_o;
+    _r6.i = ((global::org.xmlvm._nIArray) _r6_o).Length;
+    if (_r4.i == _r6.i) goto label110;
+    }
+    catch (global::System.Exception e) {
+ global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
+        global::System.Object _java_exception = ex.getJavaException();
+        if (_java_exception is global::java.lang.ArrayIndexOutOfBoundsException) {
+            _ex = ex;
+            goto label454;
+        }
+        throw ex;
+    } // end catch
+    label98:;
+    try {
+    _r0_o = _r40_o;
     _r0.i = ((global::com.codename1.ui.table.TableLayout) _r0_o)._fcolumns;
     _r4.i = _r0.i;
     _r4_o = new global::org.xmlvm._nArrayAdapter<bool>(new bool[_r4.i]);
     _r0_o = _r4_o;
-    _r1_o = _r37_o;
+    _r1_o = _r40_o;
     ((global::com.codename1.ui.table.TableLayout) _r1_o)._fmodifableColumnSize = (global::org.xmlvm._nArrayAdapter<bool>) _r0_o;
     }
     catch (global::System.Exception e) {
@@ -269,407 +295,421 @@ public override void layoutContainer(global::com.codename1.ui.Container n1){
         global::System.Object _java_exception = ex.getJavaException();
         if (_java_exception is global::java.lang.ArrayIndexOutOfBoundsException) {
             _ex = ex;
-            goto label433;
+            goto label454;
         }
         throw ex;
     } // end catch
-    label97:;
+    label110:;
     try {
-    _r0_o = _r37_o;
+    _r0_o = _r40_o;
     _r0.i = ((global::com.codename1.ui.table.TableLayout) _r0_o)._fcolumns;
     _r4.i = _r0.i;
     _r4_o = new global::org.xmlvm._nArrayAdapter<int>(new int[_r4.i]);
     _r0_o = _r4_o;
-    _r1_o = _r37_o;
+    _r1_o = _r40_o;
     ((global::com.codename1.ui.table.TableLayout) _r1_o)._fcolumnPositions = (global::org.xmlvm._nArrayAdapter<int>) _r0_o;
-    _r0_o = _r37_o;
+    _r0_o = _r40_o;
     _r0.i = ((global::com.codename1.ui.table.TableLayout) _r0_o)._frows;
     _r4.i = _r0.i;
     _r0.i = _r4.i;
     _r0_o = new global::org.xmlvm._nArrayAdapter<int>(new int[_r0.i]);
-    _r26_o = _r0_o;
-    _r0_o = _r37_o;
+    _r29_o = _r0_o;
+    _r0_o = _r40_o;
     _r0.i = ((global::com.codename1.ui.table.TableLayout) _r0_o)._frows;
     _r4.i = _r0.i;
     _r4_o = new global::org.xmlvm._nArrayAdapter<int>(new int[_r4.i]);
     _r0_o = _r4_o;
-    _r1_o = _r37_o;
+    _r1_o = _r40_o;
     ((global::com.codename1.ui.table.TableLayout) _r1_o)._frowPositions = (global::org.xmlvm._nArrayAdapter<int>) _r0_o;
-    _r4.i = ((global::com.codename1.ui.Container) _r38_o).getLayoutWidth();
-    _r6.i = ((global::com.codename1.ui.Container) _r38_o).getSideGap();
+    _r4.i = ((global::com.codename1.ui.Container) _r41_o).getLayoutWidth();
+    _r6.i = ((global::com.codename1.ui.Container) _r41_o).getSideGap();
     _r4.i = _r4.i - _r6.i;
-    _r4.i = _r4.i - _r20.i;
-    _r23.i = _r4.i - _r25.i;
-    _r4.i = ((global::com.codename1.ui.Container) _r38_o).getLayoutHeight();
-    _r6.i = ((global::com.codename1.ui.Container) _r38_o).getBottomGap();
+    _r4.i = _r4.i - _r22.i;
+    _r25.i = _r4.i - _r27.i;
+    _r4.i = ((global::com.codename1.ui.Container) _r41_o).getLayoutHeight();
+    _r6.i = ((global::com.codename1.ui.Container) _r41_o).getBottomGap();
     _r4.i = _r4.i - _r6.i;
-    _r4.i = _r4.i - _r30.i;
-    _r22.i = _r4.i - _r12.i;
-    _r15.i = _r20.i;
-    _r11.i = _r23.i;
-    _r19.i = 0;
+    _r4.i = _r4.i - _r33.i;
+    _r24.i = _r4.i - _r12.i;
+    _r17.i = _r22.i;
+    _r11.i = _r25.i;
+    _r0_o = _r40_o;
+    _r0_o = ((global::com.codename1.ui.table.TableLayout) _r0_o)._fcolumnSizes;
+    _r4_o = _r0_o;
+    _r0_o = _r4_o;
+    _r0.i = ((global::org.xmlvm._nIArray) _r0_o).Length;
+    _r16.i = _r0.i;
+    _r21.i = 0;
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
         global::System.Object _java_exception = ex.getJavaException();
         if (_java_exception is global::java.lang.ArrayIndexOutOfBoundsException) {
             _ex = ex;
-            goto label433;
+            goto label454;
         }
         throw ex;
     } // end catch
-    label163:;
+    label185:;
     try {
-    _r0_o = _r37_o;
+    _r0.i = _r21.i;
+    _r1.i = _r16.i;
+    if (_r0.i >= _r1.i) goto label220;
+    _r0_o = _r40_o;
     _r0_o = ((global::com.codename1.ui.table.TableLayout) _r0_o)._fcolumnSizes;
     _r4_o = _r0_o;
-    _r4.i = ((global::org.xmlvm._nIArray) _r4_o).Length;
-    _r0.i = _r19.i;
-    _r1.i = _r4.i;
-    if (_r0.i >= _r1.i) goto label203;
-    _r0_o = _r37_o;
-    _r0_o = ((global::com.codename1.ui.table.TableLayout) _r0_o)._fcolumnSizes;
-    _r4_o = _r0_o;
-    _r0_o = _r37_o;
-    _r1.i = _r19.i;
-    _r2.i = _r23.i;
+    _r0_o = _r40_o;
+    _r1.i = _r21.i;
+    _r2.i = _r25.i;
     _r3.i = _r11.i;
     _r6.i = ((global::com.codename1.ui.table.TableLayout) _r0_o).getColumnWidthPixels((int) _r1.i, (int) _r2.i, (int) _r3.i);
-    ((global::org.xmlvm._nArrayAdapter<int>) _r4_o)[_r19.i] = _r6.i;
-    _r0_o = _r37_o;
+    ((global::org.xmlvm._nArrayAdapter<int>) _r4_o)[_r21.i] = _r6.i;
+    _r0_o = _r40_o;
     _r0_o = ((global::com.codename1.ui.table.TableLayout) _r0_o)._fcolumnSizes;
     _r4_o = _r0_o;
-    _r4.i = ((global::org.xmlvm._nArrayAdapter<int>) _r4_o)[_r19.i];
+    _r4.i = ((global::org.xmlvm._nArrayAdapter<int>) _r4_o)[_r21.i];
     _r11.i = _r11.i - _r4.i;
-    _r19.i = _r19.i + 1;
-    goto label163;
+    _r21.i = _r21.i + 1;
+    goto label185;
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
         global::System.Object _java_exception = ex.getJavaException();
         if (_java_exception is global::java.lang.ArrayIndexOutOfBoundsException) {
             _ex = ex;
-            goto label433;
+            goto label454;
         }
         throw ex;
     } // end catch
-    label203:;
+    label220:;
     try {
-    _r4.i = ((global::com.codename1.ui.Container) _r38_o).isScrollableX() ? 1 : 0;
-    if (_r4.i != 0) goto label317;
+    _r4.i = ((global::com.codename1.ui.Container) _r41_o).isScrollableX() ? 1 : 0;
+    if (_r4.i != 0) goto label334;
+    _r38.i = 0;
     _r35.i = 0;
-    _r32.i = 0;
-    _r19.i = 0;
+    _r21.i = 0;
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
         global::System.Object _java_exception = ex.getJavaException();
         if (_java_exception is global::java.lang.ArrayIndexOutOfBoundsException) {
             _ex = ex;
-            goto label433;
+            goto label454;
         }
         throw ex;
     } // end catch
-    label215:;
+    label232:;
     try {
-    _r0_o = _r37_o;
+    _r0_o = _r40_o;
     _r0_o = ((global::com.codename1.ui.table.TableLayout) _r0_o)._fmodifableColumnSize;
     _r4_o = _r0_o;
     _r4.i = ((global::org.xmlvm._nIArray) _r4_o).Length;
-    _r0.i = _r19.i;
+    _r0.i = _r21.i;
     _r1.i = _r4.i;
-    if (_r0.i >= _r1.i) goto label256;
-    _r0_o = _r37_o;
+    if (_r0.i >= _r1.i) goto label273;
+    _r0_o = _r40_o;
     _r0_o = ((global::com.codename1.ui.table.TableLayout) _r0_o)._fmodifableColumnSize;
     _r4_o = _r0_o;
-    _r4.i = ((global::org.xmlvm._nArrayAdapter<bool>) _r4_o)[_r19.i] ? 1 : 0;
-    if (_r4.i == 0) goto label244;
-    _r0_o = _r37_o;
+    _r4.i = ((global::org.xmlvm._nArrayAdapter<bool>) _r4_o)[_r21.i] ? 1 : 0;
+    if (_r4.i == 0) goto label261;
+    _r0_o = _r40_o;
     _r0_o = ((global::com.codename1.ui.table.TableLayout) _r0_o)._fcolumnSizes;
     _r4_o = _r0_o;
-    _r4.i = ((global::org.xmlvm._nArrayAdapter<int>) _r4_o)[_r19.i];
-    _r32.i = _r32.i + _r4.i;
-    }
-    catch (global::System.Exception e) {
- global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
-        global::System.Object _java_exception = ex.getJavaException();
-        if (_java_exception is global::java.lang.ArrayIndexOutOfBoundsException) {
-            _ex = ex;
-            goto label433;
-        }
-        throw ex;
-    } // end catch
-    label244:;
-    try {
-    _r0_o = _r37_o;
-    _r0_o = ((global::com.codename1.ui.table.TableLayout) _r0_o)._fcolumnSizes;
-    _r4_o = _r0_o;
-    _r4.i = ((global::org.xmlvm._nArrayAdapter<int>) _r4_o)[_r19.i];
+    _r4.i = ((global::org.xmlvm._nArrayAdapter<int>) _r4_o)[_r21.i];
     _r35.i = _r35.i + _r4.i;
-    _r19.i = _r19.i + 1;
-    goto label215;
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
         global::System.Object _java_exception = ex.getJavaException();
         if (_java_exception is global::java.lang.ArrayIndexOutOfBoundsException) {
             _ex = ex;
-            goto label433;
+            goto label454;
         }
         throw ex;
     } // end catch
-    label256:;
+    label261:;
     try {
-    _r0.i = _r23.i;
-    _r1.i = _r35.i;
-    if (_r0.i >= _r1.i) goto label317;
-    _r34.i = _r35.i - _r23.i;
-    _r33.i = _r32.i - _r34.i;
-    _r19.i = 0;
+    _r0_o = _r40_o;
+    _r0_o = ((global::com.codename1.ui.table.TableLayout) _r0_o)._fcolumnSizes;
+    _r4_o = _r0_o;
+    _r4.i = ((global::org.xmlvm._nArrayAdapter<int>) _r4_o)[_r21.i];
+    _r38.i = _r38.i + _r4.i;
+    _r21.i = _r21.i + 1;
+    goto label232;
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
         global::System.Object _java_exception = ex.getJavaException();
         if (_java_exception is global::java.lang.ArrayIndexOutOfBoundsException) {
             _ex = ex;
-            goto label433;
+            goto label454;
         }
         throw ex;
     } // end catch
-    label268:;
+    label273:;
     try {
-    _r0_o = _r37_o;
+    _r0.i = _r25.i;
+    _r1.i = _r38.i;
+    if (_r0.i >= _r1.i) goto label334;
+    _r37.i = _r38.i - _r25.i;
+    _r36.i = _r35.i - _r37.i;
+    _r21.i = 0;
+    }
+    catch (global::System.Exception e) {
+ global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
+        global::System.Object _java_exception = ex.getJavaException();
+        if (_java_exception is global::java.lang.ArrayIndexOutOfBoundsException) {
+            _ex = ex;
+            goto label454;
+        }
+        throw ex;
+    } // end catch
+    label285:;
+    try {
+    _r0_o = _r40_o;
     _r0_o = ((global::com.codename1.ui.table.TableLayout) _r0_o)._fmodifableColumnSize;
     _r4_o = _r0_o;
     _r4.i = ((global::org.xmlvm._nIArray) _r4_o).Length;
-    _r0.i = _r19.i;
+    _r0.i = _r21.i;
     _r1.i = _r4.i;
-    if (_r0.i >= _r1.i) goto label317;
-    _r0_o = _r37_o;
+    if (_r0.i >= _r1.i) goto label334;
+    _r0_o = _r40_o;
     _r0_o = ((global::com.codename1.ui.table.TableLayout) _r0_o)._fmodifableColumnSize;
     _r4_o = _r0_o;
-    _r4.i = ((global::org.xmlvm._nArrayAdapter<bool>) _r4_o)[_r19.i] ? 1 : 0;
-    if (_r4.i == 0) goto label314;
-    _r0_o = _r37_o;
+    _r4.i = ((global::org.xmlvm._nArrayAdapter<bool>) _r4_o)[_r21.i] ? 1 : 0;
+    if (_r4.i == 0) goto label331;
+    _r0_o = _r40_o;
     _r0_o = ((global::com.codename1.ui.table.TableLayout) _r0_o)._fcolumnSizes;
     _r4_o = _r0_o;
-    _r0_o = _r37_o;
+    _r0_o = _r40_o;
     _r0_o = ((global::com.codename1.ui.table.TableLayout) _r0_o)._fcolumnSizes;
     _r6_o = _r0_o;
-    _r6.i = ((global::org.xmlvm._nArrayAdapter<int>) _r6_o)[_r19.i];
+    _r6.i = ((global::org.xmlvm._nArrayAdapter<int>) _r6_o)[_r21.i];
     _r6.f = (float) _r6.i;
-    _r0.i = _r32.i;
+    _r0.i = _r35.i;
     _r0.f = (float) _r0.i;
     _r7.f = _r0.f;
     _r6.f = _r6.f / _r7.f;
-    _r0.i = _r33.i;
+    _r0.i = _r36.i;
     _r0.f = (float) _r0.i;
     _r7.f = _r0.f;
     _r6.f = _r6.f * _r7.f;
     _r6.i = (int) _r6.f;
-    ((global::org.xmlvm._nArrayAdapter<int>) _r4_o)[_r19.i] = _r6.i;
+    ((global::org.xmlvm._nArrayAdapter<int>) _r4_o)[_r21.i] = _r6.i;
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
         global::System.Object _java_exception = ex.getJavaException();
         if (_java_exception is global::java.lang.ArrayIndexOutOfBoundsException) {
             _ex = ex;
-            goto label433;
+            goto label454;
         }
         throw ex;
     } // end catch
-    label314:;
+    label331:;
     try {
-    _r19.i = _r19.i + 1;
-    goto label268;
+    _r21.i = _r21.i + 1;
+    goto label285;
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
         global::System.Object _java_exception = ex.getJavaException();
         if (_java_exception is global::java.lang.ArrayIndexOutOfBoundsException) {
             _ex = ex;
-            goto label433;
+            goto label454;
         }
         throw ex;
     } // end catch
-    label317:;
+    label334:;
     try {
-    _r19.i = 0;
+    _r21.i = 0;
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
         global::System.Object _java_exception = ex.getJavaException();
         if (_java_exception is global::java.lang.ArrayIndexOutOfBoundsException) {
             _ex = ex;
-            goto label433;
+            goto label454;
         }
         throw ex;
     } // end catch
-    label319:;
+    label336:;
     try {
-    _r0_o = _r37_o;
+    _r0_o = _r40_o;
     _r0_o = ((global::com.codename1.ui.table.TableLayout) _r0_o)._fcolumnSizes;
     _r4_o = _r0_o;
     _r4.i = ((global::org.xmlvm._nIArray) _r4_o).Length;
-    _r0.i = _r19.i;
+    _r0.i = _r21.i;
     _r1.i = _r4.i;
-    if (_r0.i >= _r1.i) goto label368;
-    if (_r5.i == 0) goto label352;
-    _r0_o = _r37_o;
+    if (_r0.i >= _r1.i) goto label387;
+    if (_r5.i == 0) goto label370;
+    _r0_o = _r40_o;
     _r0_o = ((global::com.codename1.ui.table.TableLayout) _r0_o)._fcolumnSizes;
     _r4_o = _r0_o;
-    _r4.i = ((global::org.xmlvm._nArrayAdapter<int>) _r4_o)[_r19.i];
-    _r15.i = _r15.i + _r4.i;
-    _r0_o = _r37_o;
+    _r4.i = ((global::org.xmlvm._nArrayAdapter<int>) _r4_o)[_r21.i];
+    _r17.i = _r17.i + _r4.i;
+    _r0_o = _r40_o;
     _r0_o = ((global::com.codename1.ui.table.TableLayout) _r0_o)._fcolumnPositions;
     _r4_o = _r0_o;
-    _r6.i = _r23.i - _r15.i;
-    ((global::org.xmlvm._nArrayAdapter<int>) _r4_o)[_r19.i] = _r6.i;
+    _r6.i = _r25.i - _r17.i;
+    ((global::org.xmlvm._nArrayAdapter<int>) _r4_o)[_r21.i] = _r6.i;
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
         global::System.Object _java_exception = ex.getJavaException();
         if (_java_exception is global::java.lang.ArrayIndexOutOfBoundsException) {
             _ex = ex;
-            goto label433;
+            goto label454;
         }
         throw ex;
     } // end catch
-    label349:;
+    label367:;
     try {
-    _r19.i = _r19.i + 1;
-    goto label319;
+    _r21.i = _r21.i + 1;
+    goto label336;
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
         global::System.Object _java_exception = ex.getJavaException();
         if (_java_exception is global::java.lang.ArrayIndexOutOfBoundsException) {
             _ex = ex;
-            goto label433;
+            goto label454;
         }
         throw ex;
     } // end catch
-    label352:;
+    label370:;
     try {
-    _r0_o = _r37_o;
+    _r0_o = _r40_o;
     _r0_o = ((global::com.codename1.ui.table.TableLayout) _r0_o)._fcolumnPositions;
     _r4_o = _r0_o;
-    ((global::org.xmlvm._nArrayAdapter<int>) _r4_o)[_r19.i] = _r15.i;
-    _r0_o = _r37_o;
+    ((global::org.xmlvm._nArrayAdapter<int>) _r4_o)[_r21.i] = _r17.i;
+    _r0_o = _r40_o;
     _r0_o = ((global::com.codename1.ui.table.TableLayout) _r0_o)._fcolumnSizes;
     _r4_o = _r0_o;
-    _r4.i = ((global::org.xmlvm._nArrayAdapter<int>) _r4_o)[_r19.i];
-    _r15.i = _r15.i + _r4.i;
-    goto label349;
+    _r4.i = ((global::org.xmlvm._nArrayAdapter<int>) _r4_o)[_r21.i];
+    _r17.i = _r17.i + _r4.i;
+    goto label367;
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
         global::System.Object _java_exception = ex.getJavaException();
         if (_java_exception is global::java.lang.ArrayIndexOutOfBoundsException) {
             _ex = ex;
-            goto label433;
+            goto label454;
         }
         throw ex;
     } // end catch
-    label368:;
+    label387:;
     try {
-    _r16.i = _r30.i;
-    _r19.i = 0;
-    }
-    catch (global::System.Exception e) {
- global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
-        global::System.Object _java_exception = ex.getJavaException();
-        if (_java_exception is global::java.lang.ArrayIndexOutOfBoundsException) {
-            _ex = ex;
-            goto label433;
-        }
-        throw ex;
-    } // end catch
-    label372:;
-    try {
-    _r0_o = _r26_o;
+    _r18.i = _r33.i;
+    _r0_o = _r29_o;
     _r0.i = ((global::org.xmlvm._nIArray) _r0_o).Length;
-    _r4.i = _r0.i;
-    _r0.i = _r19.i;
-    _r1.i = _r4.i;
-    if (_r0.i >= _r1.i) goto label440;
-    _r4.i = ((global::com.codename1.ui.Container) _r38_o).isScrollableY() ? 1 : 0;
-    if (_r4.i == 0) goto label415;
+    _r28.i = _r0.i;
+    _r21.i = 0;
+    }
+    catch (global::System.Exception e) {
+ global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
+        global::System.Object _java_exception = ex.getJavaException();
+        if (_java_exception is global::java.lang.ArrayIndexOutOfBoundsException) {
+            _ex = ex;
+            goto label454;
+        }
+        throw ex;
+    } // end catch
+    label396:;
+    try {
+    _r0.i = _r21.i;
+    _r1.i = _r28.i;
+    if (_r0.i >= _r1.i) goto label461;
+    _r4.i = ((global::com.codename1.ui.Container) _r41_o).isScrollableY() ? 1 : 0;
+    if (_r4.i == 0) goto label436;
     _r4.i = -1;
-    _r0_o = _r37_o;
-    _r1.i = _r19.i;
-    _r2.i = _r22.i;
+    _r0_o = _r40_o;
+    _r1.i = _r21.i;
+    _r2.i = _r24.i;
     _r3.i = _r4.i;
     _r4.i = ((global::com.codename1.ui.table.TableLayout) _r0_o).getRowHeightPixels((int) _r1.i, (int) _r2.i, (int) _r3.i);
-    ((global::org.xmlvm._nArrayAdapter<int>) _r26_o)[_r19.i] = _r4.i;
+    ((global::org.xmlvm._nArrayAdapter<int>) _r29_o)[_r21.i] = _r4.i;
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
         global::System.Object _java_exception = ex.getJavaException();
         if (_java_exception is global::java.lang.ArrayIndexOutOfBoundsException) {
             _ex = ex;
-            goto label433;
+            goto label454;
         }
         throw ex;
     } // end catch
-    label401:;
+    label422:;
     try {
-    _r0_o = _r37_o;
+    _r0_o = _r40_o;
     _r0_o = ((global::com.codename1.ui.table.TableLayout) _r0_o)._frowPositions;
     _r4_o = _r0_o;
-    ((global::org.xmlvm._nArrayAdapter<int>) _r4_o)[_r19.i] = _r16.i;
-    _r4.i = ((global::org.xmlvm._nArrayAdapter<int>) _r26_o)[_r19.i];
-    _r16.i = _r16.i + _r4.i;
-    _r19.i = _r19.i + 1;
-    goto label372;
+    ((global::org.xmlvm._nArrayAdapter<int>) _r4_o)[_r21.i] = _r18.i;
+    _r4.i = ((global::org.xmlvm._nArrayAdapter<int>) _r29_o)[_r21.i];
+    _r18.i = _r18.i + _r4.i;
+    _r21.i = _r21.i + 1;
+    goto label396;
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
         global::System.Object _java_exception = ex.getJavaException();
         if (_java_exception is global::java.lang.ArrayIndexOutOfBoundsException) {
             _ex = ex;
-            goto label433;
+            goto label454;
         }
         throw ex;
     } // end catch
-    label415:;
+    label436:;
     try {
-    _r4.i = _r22.i - _r16.i;
-    _r4.i = _r4.i + _r30.i;
-    _r0_o = _r37_o;
-    _r1.i = _r19.i;
-    _r2.i = _r22.i;
+    _r4.i = _r24.i - _r18.i;
+    _r4.i = _r4.i + _r33.i;
+    _r0_o = _r40_o;
+    _r1.i = _r21.i;
+    _r2.i = _r24.i;
     _r3.i = _r4.i;
     _r4.i = ((global::com.codename1.ui.table.TableLayout) _r0_o).getRowHeightPixels((int) _r1.i, (int) _r2.i, (int) _r3.i);
-    ((global::org.xmlvm._nArrayAdapter<int>) _r26_o)[_r19.i] = _r4.i;
+    ((global::org.xmlvm._nArrayAdapter<int>) _r29_o)[_r21.i] = _r4.i;
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
         global::System.Object _java_exception = ex.getJavaException();
         if (_java_exception is global::java.lang.ArrayIndexOutOfBoundsException) {
             _ex = ex;
-            goto label433;
+            goto label454;
         }
         throw ex;
     } // end catch
-    goto label401;
-    label433:;
+    goto label422;
+    label454:;
     _r4_o = _ex.getJavaException();
     _ex = null;
-    _r17_o = _r4_o;
-    ((global::java.lang.ArrayIndexOutOfBoundsException) _r17_o).printStackTrace();
-    label439:;
+    _r19_o = _r4_o;
+    ((global::java.lang.ArrayIndexOutOfBoundsException) _r19_o).printStackTrace();
+    label460:;
     return;
-    label440:;
-    _r24.i = 0;
-    label442:;
+    label461:;
     try {
-    _r0_o = _r26_o;
-    _r0.i = ((global::org.xmlvm._nIArray) _r0_o).Length;
-    _r4.i = _r0.i;
-    _r0.i = _r24.i;
-    _r1.i = _r4.i;
-    if (_r0.i >= _r1.i) goto label439;
+    _r0_o = _r40_o;
+    _r0_o = ((global::com.codename1.ui.table.TableLayout) _r0_o)._fcolumnSizes;
+    _r4_o = _r0_o;
+    _r14.i = ((global::org.xmlvm._nIArray) _r4_o).Length;
+    _r26.i = 0;
+    }
+    catch (global::System.Exception e) {
+ global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
+        global::System.Object _java_exception = ex.getJavaException();
+        if (_java_exception is global::java.lang.ArrayIndexOutOfBoundsException) {
+            _ex = ex;
+            goto label454;
+        }
+        throw ex;
+    } // end catch
+    label469:;
+    try {
+    _r0.i = _r26.i;
+    _r1.i = _r28.i;
+    if (_r0.i >= _r1.i) goto label460;
     _r13.i = 0;
     }
     catch (global::System.Exception e) {
@@ -677,84 +717,80 @@ public override void layoutContainer(global::com.codename1.ui.Container n1){
         global::System.Object _java_exception = ex.getJavaException();
         if (_java_exception is global::java.lang.ArrayIndexOutOfBoundsException) {
             _ex = ex;
-            goto label433;
+            goto label454;
         }
         throw ex;
     } // end catch
-    label452:;
+    label476:;
     try {
-    _r0_o = _r37_o;
-    _r0_o = ((global::com.codename1.ui.table.TableLayout) _r0_o)._fcolumnSizes;
-    _r4_o = _r0_o;
-    _r4.i = ((global::org.xmlvm._nIArray) _r4_o).Length;
-    if (_r13.i >= _r4.i) goto label717;
-    _r0_o = _r37_o;
+    if (_r13.i >= _r14.i) goto label735;
+    _r0_o = _r40_o;
     _r0_o = ((global::com.codename1.ui.table.TableLayout) _r0_o)._ftablePositions;
     _r4_o = _r0_o;
-    _r0_o = _r37_o;
+    _r0_o = _r40_o;
     _r0.i = ((global::com.codename1.ui.table.TableLayout) _r0_o)._fcolumns;
     _r6.i = _r0.i;
-    _r6.i = _r6.i * _r24.i;
+    _r6.i = _r6.i * _r26.i;
     _r6.i = _r6.i + _r13.i;
     _r6_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r4_o)[_r6.i];
-    if (_r6_o == null) goto label700;
+    if (_r6_o == null) goto label718;
     _r4_o = global::com.codename1.ui.table.TableLayout._fH_1SPAN_1CONSTRAINT;
-    if (_r6_o == _r4_o) goto label700;
+    if (_r6_o == _r4_o) goto label718;
     _r4_o = global::com.codename1.ui.table.TableLayout._fV_1SPAN_1CONSTRAINT;
-    if (_r6_o == _r4_o) goto label700;
+    if (_r6_o == _r4_o) goto label718;
     _r4_o = global::com.codename1.ui.table.TableLayout._fVH_1SPAN_1CONSTRAINT;
-    if (_r6_o == _r4_o) goto label700;
+    if (_r6_o == _r4_o) goto label718;
     _r4_o = global::com.codename1.ui.table.TableLayout_2Constraint.access_2200((global::com.codename1.ui.table.TableLayout_2Constraint) _r6_o);
-    _r14_o = ((global::com.codename1.ui.Component) _r4_o).getStyle();
-    _r4.i = ((global::com.codename1.ui.Container) _r38_o).isRTL() ? 1 : 0;
+    _r15_o = ((global::com.codename1.ui.Component) _r4_o).getStyle();
+    _r4.i = ((global::com.codename1.ui.Container) _r41_o).isRTL() ? 1 : 0;
     _r7.i = 1;
-    _r21.i = ((global::com.codename1.ui.plaf.Style) _r14_o).getMargin(0!=_r4.i, (int) _r7.i);
+    _r23.i = ((global::com.codename1.ui.plaf.Style) _r15_o).getMargin(0!=_r4.i, (int) _r7.i);
     _r4.i = 0;
     _r7.i = 0;
-    _r31.i = ((global::com.codename1.ui.plaf.Style) _r14_o).getMargin(0!=_r4.i, (int) _r7.i);
-    _r0_o = _r37_o;
+    _r34.i = ((global::com.codename1.ui.plaf.Style) _r15_o).getMargin(0!=_r4.i, (int) _r7.i);
+    _r0_o = _r40_o;
     _r0_o = ((global::com.codename1.ui.table.TableLayout) _r0_o)._fcolumnPositions;
     _r4_o = _r0_o;
     _r4.i = ((global::org.xmlvm._nArrayAdapter<int>) _r4_o)[_r13.i];
-    _r7.i = _r21.i + _r4.i;
-    _r0_o = _r37_o;
+    _r7.i = _r23.i + _r4.i;
+    _r0_o = _r40_o;
     _r0_o = ((global::com.codename1.ui.table.TableLayout) _r0_o)._frowPositions;
     _r4_o = _r0_o;
-    _r4.i = ((global::org.xmlvm._nArrayAdapter<int>) _r4_o)[_r24.i];
-    _r8.i = _r31.i + _r4.i;
+    _r4.i = ((global::org.xmlvm._nArrayAdapter<int>) _r4_o)[_r26.i];
+    _r8.i = _r34.i + _r4.i;
     _r4.i = global::com.codename1.ui.table.TableLayout_2Constraint.access_2300((global::com.codename1.ui.table.TableLayout_2Constraint) _r6_o);
     _r9.i = 1;
-    if (_r4.i <= _r9.i) goto label664;
+    if (_r4.i <= _r9.i) goto label682;
     _r4.i = 1;
     _r0.i = _r4.i;
-    _r1_o = _r37_o;
+    _r1_o = _r40_o;
     ((global::com.codename1.ui.table.TableLayout) _r1_o)._fhorizontalSpanningExists = 0!=_r0.i;
-    _r0_o = _r37_o;
+    _r0_o = _r40_o;
     _r0_o = ((global::com.codename1.ui.table.TableLayout) _r0_o)._fcolumnSizes;
     _r4_o = _r0_o;
-    _r36.i = ((global::org.xmlvm._nArrayAdapter<int>) _r4_o)[_r13.i];
-    _r28.i = 1;
+    _r39.i = ((global::org.xmlvm._nArrayAdapter<int>) _r4_o)[_r13.i];
+    _r31.i = 1;
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
         global::System.Object _java_exception = ex.getJavaException();
         if (_java_exception is global::java.lang.ArrayIndexOutOfBoundsException) {
             _ex = ex;
-            goto label433;
+            goto label454;
         }
         throw ex;
     } // end catch
-    label552:;
+    label570:;
     try {
     _r4.i = global::com.codename1.ui.table.TableLayout_2Constraint.access_2300((global::com.codename1.ui.table.TableLayout_2Constraint) _r6_o);
-    _r0.i = _r28.i;
+    _r0.i = _r31.i;
     _r1.i = _r4.i;
-    if (_r0.i >= _r1.i) goto label587;
-    _r0_o = _r37_o;
+    if (_r0.i >= _r1.i) goto label605;
+    _r0_o = _r40_o;
     _r0_o = ((global::com.codename1.ui.table.TableLayout) _r0_o)._fcolumnSizes;
     _r4_o = _r0_o;
-    _r9.i = _r13.i + _r28.i;
-    _r0_o = _r37_o;
+    _r9.i = _r13.i + _r31.i;
+    _r0_o = _r40_o;
     _r0_o = ((global::com.codename1.ui.table.TableLayout) _r0_o)._fcolumnSizes;
     _r10_o = _r0_o;
     _r10.i = ((global::org.xmlvm._nIArray) _r10_o).Length;
@@ -762,24 +798,24 @@ public override void layoutContainer(global::com.codename1.ui.Container n1){
     _r10.i = _r10.i - _r11.i;
     _r9.i = global::java.lang.Math.min((int) _r9.i, (int) _r10.i);
     _r4.i = ((global::org.xmlvm._nArrayAdapter<int>) _r4_o)[_r9.i];
-    _r36.i = _r36.i + _r4.i;
-    _r28.i = _r28.i + 1;
-    goto label552;
+    _r39.i = _r39.i + _r4.i;
+    _r31.i = _r31.i + 1;
+    goto label570;
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
         global::System.Object _java_exception = ex.getJavaException();
         if (_java_exception is global::java.lang.ArrayIndexOutOfBoundsException) {
             _ex = ex;
-            goto label433;
+            goto label454;
         }
         throw ex;
     } // end catch
-    label587:;
+    label605:;
     try {
-    if (_r5.i == 0) goto label606;
-    _r4.i = _r20.i + _r21.i;
-    _r0_o = _r37_o;
+    if (_r5.i == 0) goto label624;
+    _r4.i = _r22.i + _r23.i;
+    _r0_o = _r40_o;
     _r0_o = ((global::com.codename1.ui.table.TableLayout) _r0_o)._fcolumnPositions;
     _r7_o = _r0_o;
     _r9.i = global::com.codename1.ui.table.TableLayout_2Constraint.access_2300((global::com.codename1.ui.table.TableLayout_2Constraint) _r6_o);
@@ -794,16 +830,16 @@ public override void layoutContainer(global::com.codename1.ui.Container n1){
         global::System.Object _java_exception = ex.getJavaException();
         if (_java_exception is global::java.lang.ArrayIndexOutOfBoundsException) {
             _ex = ex;
-            goto label433;
+            goto label454;
         }
         throw ex;
     } // end catch
-    label606:;
+    label624:;
     try {
-    _r4.i = _r36.i - _r21.i;
-    _r9.i = ((global::com.codename1.ui.Container) _r38_o).isRTL() ? 1 : 0;
+    _r4.i = _r39.i - _r23.i;
+    _r9.i = ((global::com.codename1.ui.Container) _r41_o).isRTL() ? 1 : 0;
     _r10.i = 3;
-    _r9.i = ((global::com.codename1.ui.plaf.Style) _r14_o).getMargin(0!=_r9.i, (int) _r10.i);
+    _r9.i = ((global::com.codename1.ui.plaf.Style) _r15_o).getMargin(0!=_r9.i, (int) _r10.i);
     _r9.i = _r4.i - _r9.i;
     }
     catch (global::System.Exception e) {
@@ -811,86 +847,86 @@ public override void layoutContainer(global::com.codename1.ui.Container n1){
         global::System.Object _java_exception = ex.getJavaException();
         if (_java_exception is global::java.lang.ArrayIndexOutOfBoundsException) {
             _ex = ex;
-            goto label433;
+            goto label454;
         }
         throw ex;
     } // end catch
-    label619:;
+    label637:;
     try {
     _r4.i = global::com.codename1.ui.table.TableLayout_2Constraint.access_2400((global::com.codename1.ui.table.TableLayout_2Constraint) _r6_o);
     _r10.i = 1;
-    if (_r4.i <= _r10.i) goto label704;
+    if (_r4.i <= _r10.i) goto label722;
     _r4.i = 1;
     _r0.i = _r4.i;
-    _r1_o = _r37_o;
+    _r1_o = _r40_o;
     ((global::com.codename1.ui.table.TableLayout) _r1_o)._fverticalSpanningExists = 0!=_r0.i;
-    _r18.i = ((global::org.xmlvm._nArrayAdapter<int>) _r26_o)[_r24.i];
-    _r29.i = 1;
+    _r20.i = ((global::org.xmlvm._nArrayAdapter<int>) _r29_o)[_r26.i];
+    _r32.i = 1;
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
         global::System.Object _java_exception = ex.getJavaException();
         if (_java_exception is global::java.lang.ArrayIndexOutOfBoundsException) {
             _ex = ex;
-            goto label433;
+            goto label454;
         }
         throw ex;
     } // end catch
-    label636:;
+    label654:;
     try {
     _r4.i = global::com.codename1.ui.table.TableLayout_2Constraint.access_2400((global::com.codename1.ui.table.TableLayout_2Constraint) _r6_o);
-    _r0.i = _r29.i;
+    _r0.i = _r32.i;
     _r1.i = _r4.i;
-    if (_r0.i >= _r1.i) goto label685;
-    _r4.i = _r24.i + _r29.i;
-    _r0_o = _r26_o;
+    if (_r0.i >= _r1.i) goto label703;
+    _r4.i = _r26.i + _r32.i;
+    _r0_o = _r29_o;
     _r0.i = ((global::org.xmlvm._nIArray) _r0_o).Length;
     _r10.i = _r0.i;
     _r11.i = 1;
     _r10.i = _r10.i - _r11.i;
     _r4.i = global::java.lang.Math.min((int) _r4.i, (int) _r10.i);
-    _r4.i = ((global::org.xmlvm._nArrayAdapter<int>) _r26_o)[_r4.i];
-    _r18.i = _r18.i + _r4.i;
-    _r29.i = _r29.i + 1;
-    goto label636;
+    _r4.i = ((global::org.xmlvm._nArrayAdapter<int>) _r29_o)[_r4.i];
+    _r20.i = _r20.i + _r4.i;
+    _r32.i = _r32.i + 1;
+    goto label654;
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
         global::System.Object _java_exception = ex.getJavaException();
         if (_java_exception is global::java.lang.ArrayIndexOutOfBoundsException) {
             _ex = ex;
-            goto label433;
+            goto label454;
         }
         throw ex;
     } // end catch
-    label664:;
+    label682:;
     try {
-    _r0_o = _r37_o;
+    _r0_o = _r40_o;
     _r0_o = ((global::com.codename1.ui.table.TableLayout) _r0_o)._fcolumnSizes;
     _r4_o = _r0_o;
     _r4.i = ((global::org.xmlvm._nArrayAdapter<int>) _r4_o)[_r13.i];
-    _r4.i = _r4.i - _r21.i;
-    _r9.i = ((global::com.codename1.ui.Container) _r38_o).isRTL() ? 1 : 0;
+    _r4.i = _r4.i - _r23.i;
+    _r9.i = ((global::com.codename1.ui.Container) _r41_o).isRTL() ? 1 : 0;
     _r10.i = 3;
-    _r9.i = ((global::com.codename1.ui.plaf.Style) _r14_o).getMargin(0!=_r9.i, (int) _r10.i);
+    _r9.i = ((global::com.codename1.ui.plaf.Style) _r15_o).getMargin(0!=_r9.i, (int) _r10.i);
     _r9.i = _r4.i - _r9.i;
-    goto label619;
+    goto label637;
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
         global::System.Object _java_exception = ex.getJavaException();
         if (_java_exception is global::java.lang.ArrayIndexOutOfBoundsException) {
             _ex = ex;
-            goto label433;
+            goto label454;
         }
         throw ex;
     } // end catch
-    label685:;
+    label703:;
     try {
-    _r4.i = _r18.i - _r31.i;
+    _r4.i = _r20.i - _r34.i;
     _r10.i = 0;
     _r11.i = 2;
-    _r10.i = ((global::com.codename1.ui.plaf.Style) _r14_o).getMargin(0!=_r10.i, (int) _r11.i);
+    _r10.i = ((global::com.codename1.ui.plaf.Style) _r15_o).getMargin(0!=_r10.i, (int) _r11.i);
     _r10.i = _r4.i - _r10.i;
     }
     catch (global::System.Exception e) {
@@ -898,13 +934,13 @@ public override void layoutContainer(global::com.codename1.ui.Container n1){
         global::System.Object _java_exception = ex.getJavaException();
         if (_java_exception is global::java.lang.ArrayIndexOutOfBoundsException) {
             _ex = ex;
-            goto label433;
+            goto label454;
         }
         throw ex;
     } // end catch
-    label695:;
+    label713:;
     try {
-    _r4_o = _r37_o;
+    _r4_o = _r40_o;
     ((global::com.codename1.ui.table.TableLayout) _r4_o).placeComponent(0!=_r5.i, (global::com.codename1.ui.table.TableLayout_2Constraint) _r6_o, (int) _r7.i, (int) _r8.i, (int) _r9.i, (int) _r10.i);
     }
     catch (global::System.Exception e) {
@@ -912,46 +948,46 @@ public override void layoutContainer(global::com.codename1.ui.Container n1){
         global::System.Object _java_exception = ex.getJavaException();
         if (_java_exception is global::java.lang.ArrayIndexOutOfBoundsException) {
             _ex = ex;
-            goto label433;
+            goto label454;
         }
         throw ex;
     } // end catch
-    label700:;
+    label718:;
     try {
     _r13.i = _r13.i + 1;
-    goto label452;
+    goto label476;
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
         global::System.Object _java_exception = ex.getJavaException();
         if (_java_exception is global::java.lang.ArrayIndexOutOfBoundsException) {
             _ex = ex;
-            goto label433;
+            goto label454;
         }
         throw ex;
     } // end catch
-    label704:;
+    label722:;
     try {
-    _r4.i = ((global::org.xmlvm._nArrayAdapter<int>) _r26_o)[_r24.i];
-    _r4.i = _r4.i - _r31.i;
+    _r4.i = ((global::org.xmlvm._nArrayAdapter<int>) _r29_o)[_r26.i];
+    _r4.i = _r4.i - _r34.i;
     _r10.i = 0;
     _r11.i = 2;
-    _r10.i = ((global::com.codename1.ui.plaf.Style) _r14_o).getMargin(0!=_r10.i, (int) _r11.i);
+    _r10.i = ((global::com.codename1.ui.plaf.Style) _r15_o).getMargin(0!=_r10.i, (int) _r11.i);
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
         global::System.Object _java_exception = ex.getJavaException();
         if (_java_exception is global::java.lang.ArrayIndexOutOfBoundsException) {
             _ex = ex;
-            goto label433;
+            goto label454;
         }
         throw ex;
     } // end catch
     _r10.i = _r4.i - _r10.i;
-    goto label695;
-    label717:;
-    _r24.i = _r24.i + 1;
-    goto label442;
+    goto label713;
+    label735:;
+    _r26.i = _r26.i + 1;
+    goto label469;
 //XMLVM_END_WRAPPER[com.codename1.ui.table.TableLayout: void layoutContainer(com.codename1.ui.Container)]
 }
 

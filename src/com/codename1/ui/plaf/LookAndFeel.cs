@@ -2245,7 +2245,7 @@ public virtual void refreshTheme(bool n1){
     // Value=endsWith3PointsBool
     _r4_o = new global::java.lang.String();
     ((global::java.lang.String)_r4_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)101)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 100)), unchecked((char) unchecked((uint) 115)), unchecked((char) unchecked((uint) 87)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 104)), unchecked((char) unchecked((uint) 51)), unchecked((char) unchecked((uint) 80)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 115)), unchecked((char) unchecked((uint) 66)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 108))}));
-    _r5.i = 1;
+    _r5.i = 0;
     _r3.i = ((global::com.codename1.ui.plaf.UIManager) _r3_o).isThemeConstant((global::java.lang.String) _r4_o, 0!=_r5.i) ? 1 : 0;
     _r0.i = _r3.i;
     _r1_o = _r41_o;

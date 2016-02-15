@@ -1026,16 +1026,19 @@ public override void fireActionEvent(){
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
-    _r3_o = this;
-    _r0_o = ((global::com.codename1.ui.Calendar_2MonthView) _r3_o)._fthis_20;
+    _r4_o = this;
+    _r0_o = ((global::com.codename1.ui.Calendar_2MonthView) _r4_o)._fthis_20;
     ((global::com.codename1.ui.Calendar) _r0_o).componentChanged();
     base.fireActionEvent();
-    _r0_o = ((global::com.codename1.ui.Calendar_2MonthView) _r3_o)._fthis_20;
+    _r0_o = ((global::com.codename1.ui.Calendar_2MonthView) _r4_o)._fthis_20;
     _r0_o = global::com.codename1.ui.Calendar.access_21200((global::com.codename1.ui.Calendar) _r0_o);
     _r1_o = new global::com.codename1.ui.events.ActionEvent();
-    _r2_o = ((global::com.codename1.ui.Calendar_2MonthView) _r3_o)._fthis_20;
-    ((global::com.codename1.ui.events.ActionEvent) _r1_o).@this((global::java.lang.Object) _r2_o);
+    _r2_o = ((global::com.codename1.ui.Calendar_2MonthView) _r4_o)._fthis_20;
+    _r3_o = global::com.codename1.ui.events.ActionEvent_2Type._fCalendar;
+    ((global::com.codename1.ui.events.ActionEvent) _r1_o).@this((global::java.lang.Object) _r2_o, (global::com.codename1.ui.events.ActionEvent_2Type) _r3_o);
     ((global::com.codename1.ui.util.EventDispatcher) _r0_o).fireActionEvent((global::com.codename1.ui.events.ActionEvent) _r1_o);
     return;
 //XMLVM_END_WRAPPER[com.codename1.ui.Calendar$MonthView: void fireActionEvent()]

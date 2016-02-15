@@ -29,11 +29,13 @@ namespace com.codename1.impl
             this.graphics = graphics;
             this.graphics.Units = CanvasUnits.Pixels;
         }
+
         internal void setGraphics(CanvasDrawingSession graphics)
         {
             this.graphics = graphics;
             this.graphics.Units = CanvasUnits.Pixels;
         }
+
         internal void removeClip()
         {
             if (layer != null)
@@ -62,12 +64,12 @@ namespace com.codename1.impl
             }
             if (clip.getWidth() <= 0)
             {
-                System.Diagnostics.Debug.WriteLine("aaaaaaaaaaaaaaaaaaaa width");
+               // System.Diagnostics.Debug.WriteLine("aaaaaaaaaaaaaaaaaaaa width");
                 clip.setWidth(1);
             }
             if (clip.getHeight() <= 0)
             {
-                System.Diagnostics.Debug.WriteLine("aaaaaaaaaaaaaaaaaaaa height");
+               // System.Diagnostics.Debug.WriteLine("aaaaaaaaaaaaaaaaaaaa height");
                 clip.setHeight(1);
             }
             layer = graphics.CreateLayer(1, new Rect(
@@ -185,11 +187,8 @@ namespace com.codename1.impl
         }
 
         internal virtual void drawString(string str, int x, int y)
-        {
-            //graphics.DrawText(str, x, y, c, font);
-            //font.VerticalAlignment = CanvasVerticalAlignment.Center;
+        {            
             CanvasTextLayout l = new CanvasTextLayout(graphics, str, font, 0.0f, 0.0f);
-            //graphics.DrawRectangle(x, y, (float)l.DrawBounds.Width, (float)l.DrawBounds.Height, Colors.Red);
             graphics.DrawTextLayout(l, x, y, c);
         }
 
@@ -214,8 +213,7 @@ namespace com.codename1.impl
         }
 
         internal virtual void drawImage(CanvasBitmap canvasBitmap, int x, int y, int w, int h)
-        {
-
+        {           
             ScaleEffect scale = new ScaleEffect()
             {
                 Source = canvasBitmap,
@@ -308,6 +306,5 @@ namespace com.codename1.impl
         {
             return false;
         }
-
     }
 }

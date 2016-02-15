@@ -148,6 +148,20 @@ public virtual void setVerticalSpan(int n1){
 //XMLVM_END_WRAPPER[com.codename1.ui.table.TableLayout$Constraint: void setVerticalSpan(int)]
 }
 
+public virtual global::System.Object verticalSpan(int n1){
+//XMLVM_BEGIN_WRAPPER[com.codename1.ui.table.TableLayout$Constraint: com.codename1.ui.table.TableLayout$Constraint verticalSpan(int)]
+    global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
+    _r0_o = this;
+    _r1.i = n1;
+    ((global::com.codename1.ui.table.TableLayout_2Constraint) _r0_o).setVerticalSpan((int) _r1.i);
+    return (global::com.codename1.ui.table.TableLayout_2Constraint) _r0_o;
+//XMLVM_END_WRAPPER[com.codename1.ui.table.TableLayout$Constraint: com.codename1.ui.table.TableLayout$Constraint verticalSpan(int)]
+}
+
 public virtual void setHorizontalSpan(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.table.TableLayout$Constraint: void setHorizontalSpan(int)]
     global::org.xmlvm._nElement _r0;
@@ -175,6 +189,20 @@ public virtual void setHorizontalSpan(int n1){
 //XMLVM_END_WRAPPER[com.codename1.ui.table.TableLayout$Constraint: void setHorizontalSpan(int)]
 }
 
+public virtual global::System.Object horizontalSpan(int n1){
+//XMLVM_BEGIN_WRAPPER[com.codename1.ui.table.TableLayout$Constraint: com.codename1.ui.table.TableLayout$Constraint horizontalSpan(int)]
+    global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
+    _r0_o = this;
+    _r1.i = n1;
+    ((global::com.codename1.ui.table.TableLayout_2Constraint) _r0_o).setHorizontalSpan((int) _r1.i);
+    return (global::com.codename1.ui.table.TableLayout_2Constraint) _r0_o;
+//XMLVM_END_WRAPPER[com.codename1.ui.table.TableLayout$Constraint: com.codename1.ui.table.TableLayout$Constraint horizontalSpan(int)]
+}
+
 public virtual void setWidthPercentage(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.table.TableLayout$Constraint: void setWidthPercentage(int)]
     global::org.xmlvm._nElement _r0;
@@ -187,6 +215,20 @@ public virtual void setWidthPercentage(int n1){
     ((global::com.codename1.ui.table.TableLayout_2Constraint) _r0_o)._fwidth = _r1.i;
     return;
 //XMLVM_END_WRAPPER[com.codename1.ui.table.TableLayout$Constraint: void setWidthPercentage(int)]
+}
+
+public virtual global::System.Object widthPercentage(int n1){
+//XMLVM_BEGIN_WRAPPER[com.codename1.ui.table.TableLayout$Constraint: com.codename1.ui.table.TableLayout$Constraint widthPercentage(int)]
+    global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
+    _r0_o = this;
+    _r1.i = n1;
+    ((global::com.codename1.ui.table.TableLayout_2Constraint) _r0_o)._fwidth = _r1.i;
+    return (global::com.codename1.ui.table.TableLayout_2Constraint) _r0_o;
+//XMLVM_END_WRAPPER[com.codename1.ui.table.TableLayout$Constraint: com.codename1.ui.table.TableLayout$Constraint widthPercentage(int)]
 }
 
 public virtual void setHeightPercentage(int n1){
@@ -203,6 +245,20 @@ public virtual void setHeightPercentage(int n1){
 //XMLVM_END_WRAPPER[com.codename1.ui.table.TableLayout$Constraint: void setHeightPercentage(int)]
 }
 
+public virtual global::System.Object heightPercentage(int n1){
+//XMLVM_BEGIN_WRAPPER[com.codename1.ui.table.TableLayout$Constraint: com.codename1.ui.table.TableLayout$Constraint heightPercentage(int)]
+    global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
+    _r0_o = this;
+    _r1.i = n1;
+    ((global::com.codename1.ui.table.TableLayout_2Constraint) _r0_o)._fheight = _r1.i;
+    return (global::com.codename1.ui.table.TableLayout_2Constraint) _r0_o;
+//XMLVM_END_WRAPPER[com.codename1.ui.table.TableLayout$Constraint: com.codename1.ui.table.TableLayout$Constraint heightPercentage(int)]
+}
+
 public virtual void setHorizontalAlign(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.table.TableLayout$Constraint: void setHorizontalAlign(int)]
     global::org.xmlvm._nElement _r0;
@@ -217,6 +273,20 @@ public virtual void setHorizontalAlign(int n1){
 //XMLVM_END_WRAPPER[com.codename1.ui.table.TableLayout$Constraint: void setHorizontalAlign(int)]
 }
 
+public virtual global::System.Object horizontalAlign(int n1){
+//XMLVM_BEGIN_WRAPPER[com.codename1.ui.table.TableLayout$Constraint: com.codename1.ui.table.TableLayout$Constraint horizontalAlign(int)]
+    global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
+    _r0_o = this;
+    _r1.i = n1;
+    ((global::com.codename1.ui.table.TableLayout_2Constraint) _r0_o)._falign = _r1.i;
+    return (global::com.codename1.ui.table.TableLayout_2Constraint) _r0_o;
+//XMLVM_END_WRAPPER[com.codename1.ui.table.TableLayout$Constraint: com.codename1.ui.table.TableLayout$Constraint horizontalAlign(int)]
+}
+
 public virtual void setVerticalAlign(int n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.table.TableLayout$Constraint: void setVerticalAlign(int)]
     global::org.xmlvm._nElement _r0;
@@ -229,6 +299,20 @@ public virtual void setVerticalAlign(int n1){
     ((global::com.codename1.ui.table.TableLayout_2Constraint) _r0_o)._fvalign = _r1.i;
     return;
 //XMLVM_END_WRAPPER[com.codename1.ui.table.TableLayout$Constraint: void setVerticalAlign(int)]
+}
+
+public virtual global::System.Object verticalAlign(int n1){
+//XMLVM_BEGIN_WRAPPER[com.codename1.ui.table.TableLayout$Constraint: com.codename1.ui.table.TableLayout$Constraint verticalAlign(int)]
+    global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
+    _r0_o = this;
+    _r1.i = n1;
+    ((global::com.codename1.ui.table.TableLayout_2Constraint) _r0_o)._fvalign = _r1.i;
+    return (global::com.codename1.ui.table.TableLayout_2Constraint) _r0_o;
+//XMLVM_END_WRAPPER[com.codename1.ui.table.TableLayout$Constraint: com.codename1.ui.table.TableLayout$Constraint verticalAlign(int)]
 }
 
 public virtual int getRow(){

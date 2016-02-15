@@ -25,12 +25,12 @@ namespace com.codename1.social
         private static Facebook.FacebookClient fb;
         private static object result;
         private static GraphUser currentUser;
-       
-        public void @this()
-        {
-            FacebookConnect._fimplClass = ((java.lang.Class)(object)typeof(FacebookImpl));
-        }
 
+        public FacebookImpl(): base()
+        {
+            
+        }
+    
         public override bool isFacebookSDKSupported()
         {
             return true;
@@ -129,7 +129,6 @@ namespace com.codename1.social
                 {
                     return true;
                 }
-
             }
             return false;
         }
@@ -159,14 +158,16 @@ namespace com.codename1.social
         }
         public override bool isInviteFriendsSupported()
         {
-            return false;
+            return true;
         }
 
         internal async static void OnFacebookAuthenticationFinished(AccessTokenData session)
         {
             fb = new Facebook.FacebookClient(Session.ActiveSession.CurrentAccessTokenData.AccessToken);
-            result = await fb.GetTaskAsync("me");
+            result = await fb.GetTaskAsync("/me/friends");
             currentUser = new Facebook.Client.GraphUser(result);
-        }
+            }
+
+     
     }
 }

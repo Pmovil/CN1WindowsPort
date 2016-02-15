@@ -559,6 +559,82 @@ public virtual global::System.Object intersection(int n1, int n2, int n3, int n4
 //XMLVM_END_WRAPPER[com.codename1.ui.geom.Rectangle: com.codename1.ui.geom.Rectangle intersection(int, int, int, int)]
 }
 
+public virtual void intersection(global::com.codename1.ui.geom.Rectangle n1, global::com.codename1.ui.geom.Rectangle n2){
+//XMLVM_BEGIN_WRAPPER[com.codename1.ui.geom.Rectangle: void intersection(com.codename1.ui.geom.Rectangle, com.codename1.ui.geom.Rectangle)]
+    global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
+    global::org.xmlvm._nElement _r9;
+    global::System.Object _r9_o = null;
+    global::org.xmlvm._nElement _r10;
+    global::System.Object _r10_o = null;
+    global::org.xmlvm._nElement _r11;
+    global::System.Object _r11_o = null;
+    global::org.xmlvm._nElement _r12;
+    global::System.Object _r12_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
+    _r10_o = this;
+    _r11_o = n1;
+    _r12_o = n2;
+    _r9.i = -2147483648;
+    _r4.i = ((global::com.codename1.ui.geom.Rectangle) _r10_o)._fx;
+    _r6.i = ((global::com.codename1.ui.geom.Rectangle) _r10_o)._fy;
+    _r0.i = ((global::com.codename1.ui.geom.Rectangle) _r11_o).getX();
+    _r2.i = ((global::com.codename1.ui.geom.Rectangle) _r11_o).getY();
+    _r5.i = _r4.i;
+    _r8_o = ((global::com.codename1.ui.geom.Rectangle) _r10_o)._fsize;
+    _r8.i = ((global::com.codename1.ui.geom.Dimension) _r8_o).getWidth();
+    _r5.i = _r5.i + _r8.i;
+    _r7.i = _r6.i;
+    _r8_o = ((global::com.codename1.ui.geom.Rectangle) _r10_o)._fsize;
+    _r8.i = ((global::com.codename1.ui.geom.Dimension) _r8_o).getHeight();
+    _r7.i = _r7.i + _r8.i;
+    _r1.i = _r0.i;
+    _r8.i = ((global::com.codename1.ui.geom.Rectangle) _r11_o).getWidth();
+    _r1.i = _r1.i + _r8.i;
+    _r3.i = _r2.i;
+    _r8.i = ((global::com.codename1.ui.geom.Rectangle) _r11_o).getHeight();
+    _r3.i = _r3.i + _r8.i;
+    if (_r4.i >= _r0.i) goto label45;
+    _r4.i = _r0.i;
+    label45:;
+    if (_r6.i >= _r2.i) goto label48;
+    _r6.i = _r2.i;
+    label48:;
+    if (_r5.i <= _r1.i) goto label51;
+    _r5.i = _r1.i;
+    label51:;
+    if (_r7.i <= _r3.i) goto label54;
+    _r7.i = _r3.i;
+    label54:;
+    _r5.i = _r5.i - _r4.i;
+    _r7.i = _r7.i - _r6.i;
+    if (_r5.i >= _r9.i) goto label60;
+    _r5.i = -2147483648;
+    label60:;
+    if (_r7.i >= _r9.i) goto label64;
+    _r7.i = -2147483648;
+    label64:;
+    ((global::com.codename1.ui.geom.Rectangle) _r12_o).setBounds((int) _r4.i, (int) _r6.i, (int) _r5.i, (int) _r7.i);
+    return;
+//XMLVM_END_WRAPPER[com.codename1.ui.geom.Rectangle: void intersection(com.codename1.ui.geom.Rectangle, com.codename1.ui.geom.Rectangle)]
+}
+
 public static void intersection(int n1, int n2, int n3, int n4, int n5, int n6, int n7, int n8, global::com.codename1.ui.geom.Rectangle n9){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.geom.Rectangle: void intersection(int, int, int, int, int, int, int, int, com.codename1.ui.geom.Rectangle)]
     global::org.xmlvm._nElement _r0;

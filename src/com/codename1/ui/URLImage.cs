@@ -390,6 +390,26 @@ public override bool isAnimation(){
 //XMLVM_END_WRAPPER[com.codename1.ui.URLImage: boolean isAnimation()]
 }
 
+public static global::System.Object createToStorage(global::com.codename1.ui.EncodedImage n1, global::java.lang.String n2, global::java.lang.String n3){
+//XMLVM_BEGIN_WRAPPER[com.codename1.ui.URLImage: com.codename1.ui.URLImage createToStorage(com.codename1.ui.EncodedImage, java.lang.String, java.lang.String)]
+    global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
+    _r1_o = n1;
+    _r2_o = n2;
+    _r3_o = n3;
+    _r0_o = global::com.codename1.ui.URLImage._fRESIZE_1SCALE_1TO_1FILL;
+    _r0_o = global::com.codename1.ui.URLImage.createToStorage((global::com.codename1.ui.EncodedImage) _r1_o, (global::java.lang.String) _r2_o, (global::java.lang.String) _r3_o, (global::com.codename1.ui.URLImage_2ImageAdapter) _r0_o);
+    return (global::com.codename1.ui.URLImage) _r0_o;
+//XMLVM_END_WRAPPER[com.codename1.ui.URLImage: com.codename1.ui.URLImage createToStorage(com.codename1.ui.EncodedImage, java.lang.String, java.lang.String)]
+}
+
 public static global::System.Object createToStorage(global::com.codename1.ui.EncodedImage n1, global::java.lang.String n2, global::java.lang.String n3, global::com.codename1.ui.URLImage_2ImageAdapter n4){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.URLImage: com.codename1.ui.URLImage createToStorage(com.codename1.ui.EncodedImage, java.lang.String, java.lang.String, com.codename1.ui.URLImage$ImageAdapter)]
     global::org.xmlvm._nElement _r0;

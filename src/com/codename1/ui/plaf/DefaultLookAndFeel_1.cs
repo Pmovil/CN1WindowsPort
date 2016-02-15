@@ -39,14 +39,11 @@ public void @this(global::com.codename1.ui.plaf.DefaultLookAndFeel n1, global::c
     _r0_o = ((global::com.codename1.ui.plaf.UIManager) _r0_o).getThemeImageConstant((global::java.lang.String) _r1_o);
     ((global::com.codename1.ui.plaf.DefaultLookAndFeel_21) _r2_o)._fi = (global::com.codename1.ui.Image) _r0_o;
     _r0_o = ((global::com.codename1.ui.plaf.DefaultLookAndFeel_21) _r2_o)._fi;
-    if (_r0_o != null) goto label38;
-    _r0_o = global::com.codename1.ui.util.Resources.getSystemResource();
-    // Value=refresh-icon.png
-    _r1_o = new global::java.lang.String();
-    ((global::java.lang.String)_r1_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)114)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 102)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 115)), unchecked((char) unchecked((uint) 104)), unchecked((char) unchecked((uint) 45)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 99)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 46)), unchecked((char) unchecked((uint) 112)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 103))}));
-    _r0_o = ((global::com.codename1.ui.util.Resources) _r0_o).getImage((global::java.lang.String) _r1_o);
+    if (_r0_o != null) goto label34;
+    _r0_o = ((global::com.codename1.ui.plaf.DefaultLookAndFeel_21) _r2_o)._fthis_20;
+    _r0_o = global::com.codename1.ui.plaf.DefaultLookAndFeel.access_2000((global::com.codename1.ui.plaf.DefaultLookAndFeel) _r0_o);
     ((global::com.codename1.ui.plaf.DefaultLookAndFeel_21) _r2_o)._fi = (global::com.codename1.ui.Image) _r0_o;
-    label38:;
+    label34:;
     return;
 //XMLVM_END_WRAPPER[com.codename1.ui.plaf.DefaultLookAndFeel$1: void <init>(com.codename1.ui.plaf.DefaultLookAndFeel, com.codename1.ui.Component)]
 }
@@ -75,13 +72,13 @@ public virtual bool animate(){
     _r0.i = _r0.i + 1;
     ((global::com.codename1.ui.plaf.DefaultLookAndFeel_21) _r6_o)._fcounter = _r0.i;
     _r0_o = ((global::com.codename1.ui.plaf.DefaultLookAndFeel_21) _r6_o)._fthis_20;
-    _r0_o = global::com.codename1.ui.plaf.DefaultLookAndFeel.access_2000((global::com.codename1.ui.plaf.DefaultLookAndFeel) _r0_o);
+    _r0_o = global::com.codename1.ui.plaf.DefaultLookAndFeel.access_2100((global::com.codename1.ui.plaf.DefaultLookAndFeel) _r0_o);
     _r0_o = ((global::com.codename1.ui.Container) _r0_o).getComponentAt((int) _r5.i);
     _r1_o = ((global::com.codename1.ui.plaf.DefaultLookAndFeel_21) _r6_o)._fthis_20;
-    _r1_o = global::com.codename1.ui.plaf.DefaultLookAndFeel.access_2100((global::com.codename1.ui.plaf.DefaultLookAndFeel) _r1_o);
+    _r1_o = global::com.codename1.ui.plaf.DefaultLookAndFeel.access_2200((global::com.codename1.ui.plaf.DefaultLookAndFeel) _r1_o);
     if (_r0_o != _r1_o) goto label131;
     _r0_o = ((global::com.codename1.ui.plaf.DefaultLookAndFeel_21) _r6_o)._fthis_20;
-    _r0_o = global::com.codename1.ui.plaf.DefaultLookAndFeel.access_2100((global::com.codename1.ui.plaf.DefaultLookAndFeel) _r0_o);
+    _r0_o = global::com.codename1.ui.plaf.DefaultLookAndFeel.access_2200((global::com.codename1.ui.plaf.DefaultLookAndFeel) _r0_o);
     _r0_o = _r0_o;
     _r1_o = ((global::com.codename1.ui.plaf.DefaultLookAndFeel_21) _r6_o)._fi;
     _r2.i = ((global::com.codename1.ui.plaf.DefaultLookAndFeel_21) _r6_o)._fcounter;
@@ -94,12 +91,12 @@ public virtual bool animate(){
     _r1.i = 6;
     if (_r0.i != _r1.i) goto label94;
     _r0_o = ((global::com.codename1.ui.plaf.DefaultLookAndFeel_21) _r6_o)._fthis_20;
-    _r0_o = global::com.codename1.ui.plaf.DefaultLookAndFeel.access_2100((global::com.codename1.ui.plaf.DefaultLookAndFeel) _r0_o);
+    _r0_o = global::com.codename1.ui.plaf.DefaultLookAndFeel.access_2200((global::com.codename1.ui.plaf.DefaultLookAndFeel) _r0_o);
     _r0_o = _r0_o;
     _r1_o = ((global::com.codename1.ui.plaf.DefaultLookAndFeel_21) _r6_o)._fi;
     ((global::com.codename1.ui.Label) _r0_o).setIcon((global::com.codename1.ui.Image) _r1_o);
     _r0_o = ((global::com.codename1.ui.plaf.DefaultLookAndFeel_21) _r6_o)._fthis_20;
-    _r0_o = global::com.codename1.ui.plaf.DefaultLookAndFeel.access_2200((global::com.codename1.ui.plaf.DefaultLookAndFeel) _r0_o);
+    _r0_o = global::com.codename1.ui.plaf.DefaultLookAndFeel.access_2300((global::com.codename1.ui.plaf.DefaultLookAndFeel) _r0_o);
     _r0_o = _r0_o;
     _r1_o = ((global::com.codename1.ui.plaf.DefaultLookAndFeel_21) _r6_o)._fi;
     _r1_o = ((global::com.codename1.ui.Image) _r1_o).rotate((int) _r3.i);
@@ -124,7 +121,7 @@ public virtual bool animate(){
     return _r5.i!=0;
     label131:;
     _r0_o = ((global::com.codename1.ui.plaf.DefaultLookAndFeel_21) _r6_o)._fthis_20;
-    _r0_o = global::com.codename1.ui.plaf.DefaultLookAndFeel.access_2200((global::com.codename1.ui.plaf.DefaultLookAndFeel) _r0_o);
+    _r0_o = global::com.codename1.ui.plaf.DefaultLookAndFeel.access_2300((global::com.codename1.ui.plaf.DefaultLookAndFeel) _r0_o);
     _r0_o = _r0_o;
     _r1_o = ((global::com.codename1.ui.plaf.DefaultLookAndFeel_21) _r6_o)._fi;
     _r2.i = ((global::com.codename1.ui.plaf.DefaultLookAndFeel_21) _r6_o)._fcounter;

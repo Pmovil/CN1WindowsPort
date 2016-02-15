@@ -203,38 +203,41 @@ public virtual void fireDataChangeEvent(int n1, int n2){
     global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
+    global::org.xmlvm._nElement _r11;
+    global::System.Object _r11_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
-    _r8_o = this;
-    _r9.i = n1;
-    _r10.i = n2;
-    _r7.i = 0;
-    _r6.i = 1;
-    _r5_o = ((global::com.codename1.ui.util.EventDispatcher) _r8_o)._flisteners;
-    if (_r5_o == null) goto label14;
-    _r5_o = ((global::com.codename1.ui.util.EventDispatcher) _r8_o)._flisteners;
-    _r5.i = ((global::java.util.ArrayList) _r5_o).size();
-    if (_r5.i != 0) goto label15;
+    _r9_o = this;
+    _r10.i = n1;
+    _r11.i = n2;
+    _r8.i = 0;
+    _r7.i = 1;
+    _r6_o = ((global::com.codename1.ui.util.EventDispatcher) _r9_o)._flisteners;
+    if (_r6_o == null) goto label14;
+    _r6_o = ((global::com.codename1.ui.util.EventDispatcher) _r9_o)._flisteners;
+    _r6.i = ((global::java.util.ArrayList) _r6_o).size();
+    if (_r6.i != 0) goto label15;
     label14:;
     return;
     label15:;
-    _r5_o = global::com.codename1.ui.Display.getInstance();
-    _r3.i = ((global::com.codename1.ui.Display) _r5_o).isEdt() ? 1 : 0;
-    if (_r3.i == 0) goto label45;
-    _r5_o = ((global::com.codename1.ui.util.EventDispatcher) _r8_o)._flisteners;
-    _r5.i = ((global::java.util.ArrayList) _r5_o).size();
-    if (_r5.i != _r6.i) goto label45;
-    _r5_o = ((global::com.codename1.ui.util.EventDispatcher) _r8_o)._flisteners;
-    _r0_o = ((global::java.util.ArrayList) _r5_o).get((int) _r7.i);
+    _r6_o = global::com.codename1.ui.Display.getInstance();
+    _r4.i = ((global::com.codename1.ui.Display) _r6_o).isEdt() ? 1 : 0;
+    if (_r4.i == 0) goto label45;
+    _r6_o = ((global::com.codename1.ui.util.EventDispatcher) _r9_o)._flisteners;
+    _r6.i = ((global::java.util.ArrayList) _r6_o).size();
+    if (_r6.i != _r7.i) goto label45;
+    _r6_o = ((global::com.codename1.ui.util.EventDispatcher) _r9_o)._flisteners;
+    _r0_o = ((global::java.util.ArrayList) _r6_o).get((int) _r8.i);
     _r0_o = _r0_o;
-    ((global::com.codename1.ui.events.DataChangedListener) _r0_o).dataChanged((int) _r10.i, (int) _r9.i);
+    ((global::com.codename1.ui.events.DataChangedListener) _r0_o).dataChanged((int) _r11.i, (int) _r10.i);
     goto label14;
     label45:;
-    global::System.Threading.Monitor.Enter(_r8_o);
+    global::System.Threading.Monitor.Enter(_r9_o);
     try {
-    _r5_o = ((global::com.codename1.ui.util.EventDispatcher) _r8_o)._flisteners;
-    _r5.i = ((global::java.util.ArrayList) _r5_o).size();
-    _r1_o = new global::org.xmlvm._nArrayAdapter<global::System.Object>(new global::System.Object[_r5.i]);
-    _r4.i = 0;
+    _r6_o = ((global::com.codename1.ui.util.EventDispatcher) _r9_o)._flisteners;
+    _r6.i = ((global::java.util.ArrayList) _r6_o).size();
+    _r2_o = new global::org.xmlvm._nArrayAdapter<global::System.Object>(new global::System.Object[_r6.i]);
+    _r1.i = ((global::org.xmlvm._nIArray) _r2_o).Length;
+    _r5.i = 0;
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
@@ -245,16 +248,15 @@ public virtual void fireDataChangeEvent(int n1, int n2){
         }
         throw ex;
     } // end catch
-    label55:;
+    label56:;
     try {
-    _r5.i = ((global::org.xmlvm._nIArray) _r1_o).Length;
-    if (_r4.i >= _r5.i) goto label71;
-    _r5_o = ((global::com.codename1.ui.util.EventDispatcher) _r8_o)._flisteners;
-    _r5_o = ((global::java.util.ArrayList) _r5_o).get((int) _r4.i);
-    _r5_o = _r5_o;
-    ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r1_o)[_r4.i] = _r5_o;
-    _r4.i = _r4.i + 1;
-    goto label55;
+    if (_r5.i >= _r1.i) goto label71;
+    _r6_o = ((global::com.codename1.ui.util.EventDispatcher) _r9_o)._flisteners;
+    _r6_o = ((global::java.util.ArrayList) _r6_o).get((int) _r5.i);
+    _r6_o = _r6_o;
+    ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r2_o)[_r5.i] = _r6_o;
+    _r5.i = _r5.i + 1;
+    goto label56;
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
@@ -267,7 +269,7 @@ public virtual void fireDataChangeEvent(int n1, int n2){
     } // end catch
     label71:;
     try {
-    global::System.Threading.Monitor.Exit(_r8_o);
+    global::System.Threading.Monitor.Exit(_r9_o);
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
@@ -278,14 +280,14 @@ public virtual void fireDataChangeEvent(int n1, int n2){
         }
         throw ex;
     } // end catch
-    if (_r3.i == 0) goto label81;
-    ((global::com.codename1.ui.util.EventDispatcher) _r8_o).fireDataChangeSync((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r1_o, (int) _r10.i, (int) _r9.i);
+    if (_r4.i == 0) goto label81;
+    ((global::com.codename1.ui.util.EventDispatcher) _r9_o).fireDataChangeSync((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r2_o, (int) _r11.i, (int) _r10.i);
     goto label14;
     label78:;
-    _r5_o = _ex.getJavaException();
+    _r6_o = _ex.getJavaException();
     _ex = null;
     try {
-    global::System.Threading.Monitor.Exit(_r8_o);
+    global::System.Threading.Monitor.Exit(_r9_o);
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
@@ -296,23 +298,23 @@ public virtual void fireDataChangeEvent(int n1, int n2){
         }
         throw ex;
     } // end catch
-    throw new global::org.xmlvm._nExceptionAdapter((global::System.Object) _r5_o);
+    throw new global::org.xmlvm._nExceptionAdapter((global::System.Object) _r6_o);
     label81:;
-    ((global::com.codename1.ui.util.EventDispatcher) _r8_o)._fdataChangeListenerArray = 0!=_r6.i;
-    _r2_o = new global::com.codename1.ui.util.EventDispatcher_2CallbackClass();
-    _r5.i = 2;
-    _r5_o = new global::org.xmlvm._nArrayAdapter<int>(new int[_r5.i]);
-    ((global::org.xmlvm._nArrayAdapter<int>) _r5_o)[_r7.i] = _r10.i;
-    ((global::org.xmlvm._nArrayAdapter<int>) _r5_o)[_r6.i] = _r9.i;
-    ((global::com.codename1.ui.util.EventDispatcher_2CallbackClass) _r2_o).@this((global::com.codename1.ui.util.EventDispatcher) _r8_o, (global::org.xmlvm._nArrayAdapter<global::System.Object>) _r1_o, (global::java.lang.Object) _r5_o);
-    _r5.i = ((global::com.codename1.ui.util.EventDispatcher) _r8_o)._fblocking ? 1 : 0;
-    if (_r5.i == 0) goto label107;
-    _r5_o = global::com.codename1.ui.Display.getInstance();
-    ((global::com.codename1.ui.Display) _r5_o).callSeriallyAndWait((global::java.lang.Runnable) _r2_o);
+    ((global::com.codename1.ui.util.EventDispatcher) _r9_o)._fdataChangeListenerArray = 0!=_r7.i;
+    _r3_o = new global::com.codename1.ui.util.EventDispatcher_2CallbackClass();
+    _r6.i = 2;
+    _r6_o = new global::org.xmlvm._nArrayAdapter<int>(new int[_r6.i]);
+    ((global::org.xmlvm._nArrayAdapter<int>) _r6_o)[_r8.i] = _r11.i;
+    ((global::org.xmlvm._nArrayAdapter<int>) _r6_o)[_r7.i] = _r10.i;
+    ((global::com.codename1.ui.util.EventDispatcher_2CallbackClass) _r3_o).@this((global::com.codename1.ui.util.EventDispatcher) _r9_o, (global::org.xmlvm._nArrayAdapter<global::System.Object>) _r2_o, (global::java.lang.Object) _r6_o);
+    _r6.i = ((global::com.codename1.ui.util.EventDispatcher) _r9_o)._fblocking ? 1 : 0;
+    if (_r6.i == 0) goto label107;
+    _r6_o = global::com.codename1.ui.Display.getInstance();
+    ((global::com.codename1.ui.Display) _r6_o).callSeriallyAndWait((global::java.lang.Runnable) _r3_o);
     goto label14;
     label107:;
-    _r5_o = global::com.codename1.ui.Display.getInstance();
-    ((global::com.codename1.ui.Display) _r5_o).callSerially((global::java.lang.Runnable) _r2_o);
+    _r6_o = global::com.codename1.ui.Display.getInstance();
+    ((global::com.codename1.ui.Display) _r6_o).callSerially((global::java.lang.Runnable) _r3_o);
     goto label14;
 //XMLVM_END_WRAPPER[com.codename1.ui.util.EventDispatcher: void fireDataChangeEvent(int, int)]
 }
@@ -345,27 +347,30 @@ public virtual void fireBindTargetChange(global::com.codename1.ui.Component n1, 
     global::System.Object _r11_o = null;
     global::org.xmlvm._nElement _r12;
     global::System.Object _r12_o = null;
+    global::org.xmlvm._nElement _r13;
+    global::System.Object _r13_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
-    _r8_o = this;
-    _r9_o = n1;
-    _r10_o = n2;
-    _r11_o = n3;
-    _r12_o = n4;
+    _r9_o = this;
+    _r10_o = n1;
+    _r11_o = n2;
+    _r12_o = n3;
+    _r13_o = n4;
     _r3.i = 1;
-    _r0_o = ((global::com.codename1.ui.util.EventDispatcher) _r8_o)._flisteners;
+    _r0_o = ((global::com.codename1.ui.util.EventDispatcher) _r9_o)._flisteners;
     if (_r0_o == null) goto label13;
-    _r0_o = ((global::com.codename1.ui.util.EventDispatcher) _r8_o)._flisteners;
+    _r0_o = ((global::com.codename1.ui.util.EventDispatcher) _r9_o)._flisteners;
     _r0.i = ((global::java.util.ArrayList) _r0_o).size();
     if (_r0.i != 0) goto label14;
     label13:;
     return;
     label14:;
-    global::System.Threading.Monitor.Enter(_r8_o);
+    global::System.Threading.Monitor.Enter(_r9_o);
     try {
-    _r0_o = ((global::com.codename1.ui.util.EventDispatcher) _r8_o)._flisteners;
+    _r0_o = ((global::com.codename1.ui.util.EventDispatcher) _r9_o)._flisteners;
     _r0.i = ((global::java.util.ArrayList) _r0_o).size();
     _r1_o = new global::org.xmlvm._nArrayAdapter<global::System.Object>(new global::System.Object[_r0.i]);
-    _r7.i = 0;
+    _r6.i = ((global::org.xmlvm._nIArray) _r1_o).Length;
+    _r8.i = 0;
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
@@ -376,16 +381,15 @@ public virtual void fireBindTargetChange(global::com.codename1.ui.Component n1, 
         }
         throw ex;
     } // end catch
-    label24:;
+    label25:;
     try {
-    _r0.i = ((global::org.xmlvm._nIArray) _r1_o).Length;
-    if (_r7.i >= _r0.i) goto label40;
-    _r0_o = ((global::com.codename1.ui.util.EventDispatcher) _r8_o)._flisteners;
-    _r0_o = ((global::java.util.ArrayList) _r0_o).get((int) _r7.i);
+    if (_r8.i >= _r6.i) goto label40;
+    _r0_o = ((global::com.codename1.ui.util.EventDispatcher) _r9_o)._flisteners;
+    _r0_o = ((global::java.util.ArrayList) _r0_o).get((int) _r8.i);
     _r0_o = _r0_o;
-    ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r1_o)[_r7.i] = _r0_o;
-    _r7.i = _r7.i + 1;
-    goto label24;
+    ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r1_o)[_r8.i] = _r0_o;
+    _r8.i = _r8.i + 1;
+    goto label25;
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
@@ -398,7 +402,7 @@ public virtual void fireBindTargetChange(global::com.codename1.ui.Component n1, 
     } // end catch
     label40:;
     try {
-    global::System.Threading.Monitor.Exit(_r8_o);
+    global::System.Threading.Monitor.Exit(_r9_o);
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
@@ -412,18 +416,18 @@ public virtual void fireBindTargetChange(global::com.codename1.ui.Component n1, 
     _r0_o = global::com.codename1.ui.Display.getInstance();
     _r0.i = ((global::com.codename1.ui.Display) _r0_o).isEdt() ? 1 : 0;
     if (_r0.i == 0) goto label63;
-    _r0_o = _r8_o;
-    _r2_o = _r9_o;
-    _r3_o = _r10_o;
-    _r4_o = _r11_o;
-    _r5_o = _r12_o;
+    _r0_o = _r9_o;
+    _r2_o = _r10_o;
+    _r3_o = _r11_o;
+    _r4_o = _r12_o;
+    _r5_o = _r13_o;
     ((global::com.codename1.ui.util.EventDispatcher) _r0_o).fireBindTargetChangeSync((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r1_o, (global::com.codename1.ui.Component) _r2_o, (global::java.lang.String) _r3_o, (global::java.lang.Object) _r4_o, (global::java.lang.Object) _r5_o);
     goto label13;
     label60:;
     _r0_o = _ex.getJavaException();
     _ex = null;
     try {
-    global::System.Threading.Monitor.Exit(_r8_o);
+    global::System.Threading.Monitor.Exit(_r9_o);
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
@@ -436,26 +440,26 @@ public virtual void fireBindTargetChange(global::com.codename1.ui.Component n1, 
     } // end catch
     throw new global::org.xmlvm._nExceptionAdapter((global::System.Object) _r0_o);
     label63:;
-    ((global::com.codename1.ui.util.EventDispatcher) _r8_o)._fbindTargetArray = 0!=_r3.i;
-    _r6_o = new global::com.codename1.ui.util.EventDispatcher_2CallbackClass();
+    ((global::com.codename1.ui.util.EventDispatcher) _r9_o)._fbindTargetArray = 0!=_r3.i;
+    _r7_o = new global::com.codename1.ui.util.EventDispatcher_2CallbackClass();
     _r0.i = 4;
     _r0_o = new global::org.xmlvm._nArrayAdapter<global::System.Object>(new global::System.Object[_r0.i]);
     _r2.i = 0;
-    ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o)[_r2.i] = _r9_o;
-    ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o)[_r3.i] = _r10_o;
+    ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o)[_r2.i] = _r10_o;
+    ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o)[_r3.i] = _r11_o;
     _r2.i = 2;
-    ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o)[_r2.i] = _r11_o;
-    _r2.i = 3;
     ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o)[_r2.i] = _r12_o;
-    ((global::com.codename1.ui.util.EventDispatcher_2CallbackClass) _r6_o).@this((global::com.codename1.ui.util.EventDispatcher) _r8_o, (global::org.xmlvm._nArrayAdapter<global::System.Object>) _r1_o, (global::java.lang.Object) _r0_o);
-    _r0.i = ((global::com.codename1.ui.util.EventDispatcher) _r8_o)._fblocking ? 1 : 0;
+    _r2.i = 3;
+    ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o)[_r2.i] = _r13_o;
+    ((global::com.codename1.ui.util.EventDispatcher_2CallbackClass) _r7_o).@this((global::com.codename1.ui.util.EventDispatcher) _r9_o, (global::org.xmlvm._nArrayAdapter<global::System.Object>) _r1_o, (global::java.lang.Object) _r0_o);
+    _r0.i = ((global::com.codename1.ui.util.EventDispatcher) _r9_o)._fblocking ? 1 : 0;
     if (_r0.i == 0) goto label96;
     _r0_o = global::com.codename1.ui.Display.getInstance();
-    ((global::com.codename1.ui.Display) _r0_o).callSeriallyAndWait((global::java.lang.Runnable) _r6_o);
+    ((global::com.codename1.ui.Display) _r0_o).callSeriallyAndWait((global::java.lang.Runnable) _r7_o);
     goto label13;
     label96:;
     _r0_o = global::com.codename1.ui.Display.getInstance();
-    ((global::com.codename1.ui.Display) _r0_o).callSerially((global::java.lang.Runnable) _r6_o);
+    ((global::com.codename1.ui.Display) _r0_o).callSerially((global::java.lang.Runnable) _r7_o);
     goto label13;
 //XMLVM_END_WRAPPER[com.codename1.ui.util.EventDispatcher: void fireBindTargetChange(com.codename1.ui.Component, java.lang.String, java.lang.Object, java.lang.Object)]
 }
@@ -478,21 +482,23 @@ private void fireBindTargetChangeSync(global::org.xmlvm._nArrayAdapter<global::S
     global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
-    _r2_o = this;
-    _r3_o = n1;
-    _r4_o = n2;
-    _r5_o = n3;
-    _r6_o = n4;
-    _r7_o = n5;
-    _r0.i = 0;
-    label1:;
-    _r1.i = ((global::org.xmlvm._nIArray) _r3_o).Length;
-    if (_r0.i >= _r1.i) goto label12;
-    _r1_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r3_o)[_r0.i];
-    ((global::com.codename1.cloud.BindTarget) _r1_o).propertyChanged((global::com.codename1.ui.Component) _r4_o, (global::java.lang.String) _r5_o, (global::java.lang.Object) _r6_o, (global::java.lang.Object) _r7_o);
-    _r0.i = _r0.i + 1;
-    goto label1;
+    _r3_o = this;
+    _r4_o = n1;
+    _r5_o = n2;
+    _r6_o = n3;
+    _r7_o = n4;
+    _r8_o = n5;
+    _r0.i = ((global::org.xmlvm._nIArray) _r4_o).Length;
+    _r1.i = 0;
+    label2:;
+    if (_r1.i >= _r0.i) goto label12;
+    _r2_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r4_o)[_r1.i];
+    ((global::com.codename1.cloud.BindTarget) _r2_o).propertyChanged((global::com.codename1.ui.Component) _r5_o, (global::java.lang.String) _r6_o, (global::java.lang.Object) _r7_o, (global::java.lang.Object) _r8_o);
+    _r1.i = _r1.i + 1;
+    goto label2;
     label12:;
     return;
 //XMLVM_END_WRAPPER[com.codename1.ui.util.EventDispatcher: void fireBindTargetChangeSync(com.codename1.cloud.BindTarget[], com.codename1.ui.Component, java.lang.String, java.lang.Object, java.lang.Object)]
@@ -646,19 +652,21 @@ private void fireDataChangeSync(global::org.xmlvm._nArrayAdapter<global::System.
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
-    _r2_o = this;
-    _r3_o = n1;
-    _r4.i = n2;
-    _r5.i = n3;
-    _r0.i = 0;
-    label1:;
-    _r1.i = ((global::org.xmlvm._nIArray) _r3_o).Length;
-    if (_r0.i >= _r1.i) goto label12;
-    _r1_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r3_o)[_r0.i];
-    ((global::com.codename1.ui.events.DataChangedListener) _r1_o).dataChanged((int) _r4.i, (int) _r5.i);
-    _r0.i = _r0.i + 1;
-    goto label1;
+    _r3_o = this;
+    _r4_o = n1;
+    _r5.i = n2;
+    _r6.i = n3;
+    _r0.i = ((global::org.xmlvm._nIArray) _r4_o).Length;
+    _r1.i = 0;
+    label2:;
+    if (_r1.i >= _r0.i) goto label12;
+    _r2_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r4_o)[_r1.i];
+    ((global::com.codename1.ui.events.DataChangedListener) _r2_o).dataChanged((int) _r5.i, (int) _r6.i);
+    _r1.i = _r1.i + 1;
+    goto label2;
     label12:;
     return;
 //XMLVM_END_WRAPPER[com.codename1.ui.util.EventDispatcher: void fireDataChangeSync(com.codename1.ui.events.DataChangedListener[], int, int)]
@@ -678,19 +686,21 @@ private void fireStyleChangeSync(global::org.xmlvm._nArrayAdapter<global::System
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
-    _r2_o = this;
-    _r3_o = n1;
-    _r4_o = n2;
-    _r5_o = n3;
-    _r0.i = 0;
-    label1:;
-    _r1.i = ((global::org.xmlvm._nIArray) _r3_o).Length;
-    if (_r0.i >= _r1.i) goto label12;
-    _r1_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r3_o)[_r0.i];
-    ((global::com.codename1.ui.events.StyleListener) _r1_o).styleChanged((global::java.lang.String) _r4_o, (global::com.codename1.ui.plaf.Style) _r5_o);
-    _r0.i = _r0.i + 1;
-    goto label1;
+    _r3_o = this;
+    _r4_o = n1;
+    _r5_o = n2;
+    _r6_o = n3;
+    _r0.i = ((global::org.xmlvm._nIArray) _r4_o).Length;
+    _r1.i = 0;
+    label2:;
+    if (_r1.i >= _r0.i) goto label12;
+    _r2_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r4_o)[_r1.i];
+    ((global::com.codename1.ui.events.StyleListener) _r2_o).styleChanged((global::java.lang.String) _r5_o, (global::com.codename1.ui.plaf.Style) _r6_o);
+    _r1.i = _r1.i + 1;
+    goto label2;
     label12:;
     return;
 //XMLVM_END_WRAPPER[com.codename1.ui.util.EventDispatcher: void fireStyleChangeSync(com.codename1.ui.events.StyleListener[], java.lang.String, com.codename1.ui.plaf.Style)]
@@ -710,19 +720,21 @@ private void fireSelectionSync(global::org.xmlvm._nArrayAdapter<global::System.O
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
-    _r2_o = this;
-    _r3_o = n1;
-    _r4.i = n2;
-    _r5.i = n3;
-    _r0.i = 0;
-    label1:;
-    _r1.i = ((global::org.xmlvm._nIArray) _r3_o).Length;
-    if (_r0.i >= _r1.i) goto label12;
-    _r1_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r3_o)[_r0.i];
-    ((global::com.codename1.ui.events.SelectionListener) _r1_o).selectionChanged((int) _r4.i, (int) _r5.i);
-    _r0.i = _r0.i + 1;
-    goto label1;
+    _r3_o = this;
+    _r4_o = n1;
+    _r5.i = n2;
+    _r6.i = n3;
+    _r0.i = ((global::org.xmlvm._nIArray) _r4_o).Length;
+    _r1.i = 0;
+    label2:;
+    if (_r1.i >= _r0.i) goto label12;
+    _r2_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r4_o)[_r1.i];
+    ((global::com.codename1.ui.events.SelectionListener) _r2_o).selectionChanged((int) _r5.i, (int) _r6.i);
+    _r1.i = _r1.i + 1;
+    goto label2;
     label12:;
     return;
 //XMLVM_END_WRAPPER[com.codename1.ui.util.EventDispatcher: void fireSelectionSync(com.codename1.ui.events.SelectionListener[], int, int)]
@@ -746,21 +758,23 @@ private void fireScrollSync(global::org.xmlvm._nArrayAdapter<global::System.Obje
     global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
-    _r2_o = this;
-    _r3_o = n1;
-    _r4.i = n2;
-    _r5.i = n3;
-    _r6.i = n4;
-    _r7.i = n5;
-    _r0.i = 0;
-    label1:;
-    _r1.i = ((global::org.xmlvm._nIArray) _r3_o).Length;
-    if (_r0.i >= _r1.i) goto label12;
-    _r1_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r3_o)[_r0.i];
-    ((global::com.codename1.ui.events.ScrollListener) _r1_o).scrollChanged((int) _r4.i, (int) _r5.i, (int) _r6.i, (int) _r7.i);
-    _r0.i = _r0.i + 1;
-    goto label1;
+    _r3_o = this;
+    _r4_o = n1;
+    _r5.i = n2;
+    _r6.i = n3;
+    _r7.i = n4;
+    _r8.i = n5;
+    _r0.i = ((global::org.xmlvm._nIArray) _r4_o).Length;
+    _r1.i = 0;
+    label2:;
+    if (_r1.i >= _r0.i) goto label12;
+    _r2_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r4_o)[_r1.i];
+    ((global::com.codename1.ui.events.ScrollListener) _r2_o).scrollChanged((int) _r5.i, (int) _r6.i, (int) _r7.i, (int) _r8.i);
+    _r1.i = _r1.i + 1;
+    goto label2;
     label12:;
     return;
 //XMLVM_END_WRAPPER[com.codename1.ui.util.EventDispatcher: void fireScrollSync(com.codename1.ui.events.ScrollListener[], int, int, int, int)]
@@ -786,37 +800,40 @@ public virtual void fireActionEvent(global::com.codename1.ui.events.ActionEvent 
     global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
+    global::org.xmlvm._nElement _r9;
+    global::System.Object _r9_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
-    _r7_o = this;
-    _r8_o = n1;
-    _r6.i = 1;
-    _r5_o = ((global::com.codename1.ui.util.EventDispatcher) _r7_o)._flisteners;
-    if (_r5_o == null) goto label13;
-    _r5_o = ((global::com.codename1.ui.util.EventDispatcher) _r7_o)._flisteners;
-    _r5.i = ((global::java.util.ArrayList) _r5_o).size();
-    if (_r5.i != 0) goto label14;
+    _r8_o = this;
+    _r9_o = n1;
+    _r7.i = 1;
+    _r6_o = ((global::com.codename1.ui.util.EventDispatcher) _r8_o)._flisteners;
+    if (_r6_o == null) goto label13;
+    _r6_o = ((global::com.codename1.ui.util.EventDispatcher) _r8_o)._flisteners;
+    _r6.i = ((global::java.util.ArrayList) _r6_o).size();
+    if (_r6.i != 0) goto label14;
     label13:;
     return;
     label14:;
-    _r5_o = global::com.codename1.ui.Display.getInstance();
-    _r3.i = ((global::com.codename1.ui.Display) _r5_o).isEdt() ? 1 : 0;
-    if (_r3.i == 0) goto label45;
-    _r5_o = ((global::com.codename1.ui.util.EventDispatcher) _r7_o)._flisteners;
-    _r5.i = ((global::java.util.ArrayList) _r5_o).size();
-    if (_r5.i != _r6.i) goto label45;
-    _r5_o = ((global::com.codename1.ui.util.EventDispatcher) _r7_o)._flisteners;
-    _r6.i = 0;
-    _r0_o = ((global::java.util.ArrayList) _r5_o).get((int) _r6.i);
+    _r6_o = global::com.codename1.ui.Display.getInstance();
+    _r4.i = ((global::com.codename1.ui.Display) _r6_o).isEdt() ? 1 : 0;
+    if (_r4.i == 0) goto label45;
+    _r6_o = ((global::com.codename1.ui.util.EventDispatcher) _r8_o)._flisteners;
+    _r6.i = ((global::java.util.ArrayList) _r6_o).size();
+    if (_r6.i != _r7.i) goto label45;
+    _r6_o = ((global::com.codename1.ui.util.EventDispatcher) _r8_o)._flisteners;
+    _r7.i = 0;
+    _r0_o = ((global::java.util.ArrayList) _r6_o).get((int) _r7.i);
     _r0_o = _r0_o;
-    ((global::com.codename1.ui.events.ActionListener) _r0_o).actionPerformed((global::com.codename1.ui.events.ActionEvent) _r8_o);
+    ((global::com.codename1.ui.events.ActionListener) _r0_o).actionPerformed((global::com.codename1.ui.events.ActionEvent) _r9_o);
     goto label13;
     label45:;
-    global::System.Threading.Monitor.Enter(_r7_o);
+    global::System.Threading.Monitor.Enter(_r8_o);
     try {
-    _r5_o = ((global::com.codename1.ui.util.EventDispatcher) _r7_o)._flisteners;
-    _r5.i = ((global::java.util.ArrayList) _r5_o).size();
-    _r1_o = new global::org.xmlvm._nArrayAdapter<global::System.Object>(new global::System.Object[_r5.i]);
-    _r4.i = 0;
+    _r6_o = ((global::com.codename1.ui.util.EventDispatcher) _r8_o)._flisteners;
+    _r6.i = ((global::java.util.ArrayList) _r6_o).size();
+    _r2_o = new global::org.xmlvm._nArrayAdapter<global::System.Object>(new global::System.Object[_r6.i]);
+    _r1.i = ((global::org.xmlvm._nIArray) _r2_o).Length;
+    _r5.i = 0;
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
@@ -827,16 +844,15 @@ public virtual void fireActionEvent(global::com.codename1.ui.events.ActionEvent 
         }
         throw ex;
     } // end catch
-    label55:;
+    label56:;
     try {
-    _r5.i = ((global::org.xmlvm._nIArray) _r1_o).Length;
-    if (_r4.i >= _r5.i) goto label71;
-    _r5_o = ((global::com.codename1.ui.util.EventDispatcher) _r7_o)._flisteners;
-    _r5_o = ((global::java.util.ArrayList) _r5_o).get((int) _r4.i);
-    _r5_o = _r5_o;
-    ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r1_o)[_r4.i] = _r5_o;
-    _r4.i = _r4.i + 1;
-    goto label55;
+    if (_r5.i >= _r1.i) goto label71;
+    _r6_o = ((global::com.codename1.ui.util.EventDispatcher) _r8_o)._flisteners;
+    _r6_o = ((global::java.util.ArrayList) _r6_o).get((int) _r5.i);
+    _r6_o = _r6_o;
+    ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r2_o)[_r5.i] = _r6_o;
+    _r5.i = _r5.i + 1;
+    goto label56;
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
@@ -849,7 +865,7 @@ public virtual void fireActionEvent(global::com.codename1.ui.events.ActionEvent 
     } // end catch
     label71:;
     try {
-    global::System.Threading.Monitor.Exit(_r7_o);
+    global::System.Threading.Monitor.Exit(_r8_o);
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
@@ -860,14 +876,14 @@ public virtual void fireActionEvent(global::com.codename1.ui.events.ActionEvent 
         }
         throw ex;
     } // end catch
-    if (_r3.i == 0) goto label81;
-    ((global::com.codename1.ui.util.EventDispatcher) _r7_o).fireActionSync((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r1_o, (global::com.codename1.ui.events.ActionEvent) _r8_o);
+    if (_r4.i == 0) goto label81;
+    ((global::com.codename1.ui.util.EventDispatcher) _r8_o).fireActionSync((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r2_o, (global::com.codename1.ui.events.ActionEvent) _r9_o);
     goto label13;
     label78:;
-    _r5_o = _ex.getJavaException();
+    _r6_o = _ex.getJavaException();
     _ex = null;
     try {
-    global::System.Threading.Monitor.Exit(_r7_o);
+    global::System.Threading.Monitor.Exit(_r8_o);
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
@@ -878,19 +894,19 @@ public virtual void fireActionEvent(global::com.codename1.ui.events.ActionEvent 
         }
         throw ex;
     } // end catch
-    throw new global::org.xmlvm._nExceptionAdapter((global::System.Object) _r5_o);
+    throw new global::org.xmlvm._nExceptionAdapter((global::System.Object) _r6_o);
     label81:;
-    ((global::com.codename1.ui.util.EventDispatcher) _r7_o)._factionListenerArray = 0!=_r6.i;
-    _r2_o = new global::com.codename1.ui.util.EventDispatcher_2CallbackClass();
-    ((global::com.codename1.ui.util.EventDispatcher_2CallbackClass) _r2_o).@this((global::com.codename1.ui.util.EventDispatcher) _r7_o, (global::org.xmlvm._nArrayAdapter<global::System.Object>) _r1_o, (global::java.lang.Object) _r8_o);
-    _r5.i = ((global::com.codename1.ui.util.EventDispatcher) _r7_o)._fblocking ? 1 : 0;
-    if (_r5.i == 0) goto label100;
-    _r5_o = global::com.codename1.ui.Display.getInstance();
-    ((global::com.codename1.ui.Display) _r5_o).callSeriallyAndWait((global::java.lang.Runnable) _r2_o);
+    ((global::com.codename1.ui.util.EventDispatcher) _r8_o)._factionListenerArray = 0!=_r7.i;
+    _r3_o = new global::com.codename1.ui.util.EventDispatcher_2CallbackClass();
+    ((global::com.codename1.ui.util.EventDispatcher_2CallbackClass) _r3_o).@this((global::com.codename1.ui.util.EventDispatcher) _r8_o, (global::org.xmlvm._nArrayAdapter<global::System.Object>) _r2_o, (global::java.lang.Object) _r9_o);
+    _r6.i = ((global::com.codename1.ui.util.EventDispatcher) _r8_o)._fblocking ? 1 : 0;
+    if (_r6.i == 0) goto label100;
+    _r6_o = global::com.codename1.ui.Display.getInstance();
+    ((global::com.codename1.ui.Display) _r6_o).callSeriallyAndWait((global::java.lang.Runnable) _r3_o);
     goto label13;
     label100:;
-    _r5_o = global::com.codename1.ui.Display.getInstance();
-    ((global::com.codename1.ui.Display) _r5_o).callSerially((global::java.lang.Runnable) _r2_o);
+    _r6_o = global::com.codename1.ui.Display.getInstance();
+    ((global::com.codename1.ui.Display) _r6_o).callSerially((global::java.lang.Runnable) _r3_o);
     goto label13;
 //XMLVM_END_WRAPPER[com.codename1.ui.util.EventDispatcher: void fireActionEvent(com.codename1.ui.events.ActionEvent)]
 }
@@ -919,38 +935,41 @@ public virtual void fireSelectionEvent(int n1, int n2){
     global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
+    global::org.xmlvm._nElement _r11;
+    global::System.Object _r11_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
-    _r8_o = this;
-    _r9.i = n1;
-    _r10.i = n2;
-    _r7.i = 0;
-    _r6.i = 1;
-    _r5_o = ((global::com.codename1.ui.util.EventDispatcher) _r8_o)._flisteners;
-    if (_r5_o == null) goto label14;
-    _r5_o = ((global::com.codename1.ui.util.EventDispatcher) _r8_o)._flisteners;
-    _r5.i = ((global::java.util.ArrayList) _r5_o).size();
-    if (_r5.i != 0) goto label15;
+    _r9_o = this;
+    _r10.i = n1;
+    _r11.i = n2;
+    _r8.i = 0;
+    _r7.i = 1;
+    _r6_o = ((global::com.codename1.ui.util.EventDispatcher) _r9_o)._flisteners;
+    if (_r6_o == null) goto label14;
+    _r6_o = ((global::com.codename1.ui.util.EventDispatcher) _r9_o)._flisteners;
+    _r6.i = ((global::java.util.ArrayList) _r6_o).size();
+    if (_r6.i != 0) goto label15;
     label14:;
     return;
     label15:;
-    _r5_o = global::com.codename1.ui.Display.getInstance();
-    _r3.i = ((global::com.codename1.ui.Display) _r5_o).isEdt() ? 1 : 0;
-    if (_r3.i == 0) goto label45;
-    _r5_o = ((global::com.codename1.ui.util.EventDispatcher) _r8_o)._flisteners;
-    _r5.i = ((global::java.util.ArrayList) _r5_o).size();
-    if (_r5.i != _r6.i) goto label45;
-    _r5_o = ((global::com.codename1.ui.util.EventDispatcher) _r8_o)._flisteners;
-    _r0_o = ((global::java.util.ArrayList) _r5_o).get((int) _r7.i);
+    _r6_o = global::com.codename1.ui.Display.getInstance();
+    _r4.i = ((global::com.codename1.ui.Display) _r6_o).isEdt() ? 1 : 0;
+    if (_r4.i == 0) goto label45;
+    _r6_o = ((global::com.codename1.ui.util.EventDispatcher) _r9_o)._flisteners;
+    _r6.i = ((global::java.util.ArrayList) _r6_o).size();
+    if (_r6.i != _r7.i) goto label45;
+    _r6_o = ((global::com.codename1.ui.util.EventDispatcher) _r9_o)._flisteners;
+    _r0_o = ((global::java.util.ArrayList) _r6_o).get((int) _r8.i);
     _r0_o = _r0_o;
-    ((global::com.codename1.ui.events.SelectionListener) _r0_o).selectionChanged((int) _r9.i, (int) _r10.i);
+    ((global::com.codename1.ui.events.SelectionListener) _r0_o).selectionChanged((int) _r10.i, (int) _r11.i);
     goto label14;
     label45:;
-    global::System.Threading.Monitor.Enter(_r8_o);
+    global::System.Threading.Monitor.Enter(_r9_o);
     try {
-    _r5_o = ((global::com.codename1.ui.util.EventDispatcher) _r8_o)._flisteners;
-    _r5.i = ((global::java.util.ArrayList) _r5_o).size();
-    _r1_o = new global::org.xmlvm._nArrayAdapter<global::System.Object>(new global::System.Object[_r5.i]);
-    _r4.i = 0;
+    _r6_o = ((global::com.codename1.ui.util.EventDispatcher) _r9_o)._flisteners;
+    _r6.i = ((global::java.util.ArrayList) _r6_o).size();
+    _r2_o = new global::org.xmlvm._nArrayAdapter<global::System.Object>(new global::System.Object[_r6.i]);
+    _r1.i = ((global::org.xmlvm._nIArray) _r2_o).Length;
+    _r5.i = 0;
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
@@ -961,16 +980,15 @@ public virtual void fireSelectionEvent(int n1, int n2){
         }
         throw ex;
     } // end catch
-    label55:;
+    label56:;
     try {
-    _r5.i = ((global::org.xmlvm._nIArray) _r1_o).Length;
-    if (_r4.i >= _r5.i) goto label71;
-    _r5_o = ((global::com.codename1.ui.util.EventDispatcher) _r8_o)._flisteners;
-    _r5_o = ((global::java.util.ArrayList) _r5_o).get((int) _r4.i);
-    _r5_o = _r5_o;
-    ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r1_o)[_r4.i] = _r5_o;
-    _r4.i = _r4.i + 1;
-    goto label55;
+    if (_r5.i >= _r1.i) goto label71;
+    _r6_o = ((global::com.codename1.ui.util.EventDispatcher) _r9_o)._flisteners;
+    _r6_o = ((global::java.util.ArrayList) _r6_o).get((int) _r5.i);
+    _r6_o = _r6_o;
+    ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r2_o)[_r5.i] = _r6_o;
+    _r5.i = _r5.i + 1;
+    goto label56;
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
@@ -983,7 +1001,7 @@ public virtual void fireSelectionEvent(int n1, int n2){
     } // end catch
     label71:;
     try {
-    global::System.Threading.Monitor.Exit(_r8_o);
+    global::System.Threading.Monitor.Exit(_r9_o);
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
@@ -994,14 +1012,14 @@ public virtual void fireSelectionEvent(int n1, int n2){
         }
         throw ex;
     } // end catch
-    if (_r3.i == 0) goto label81;
-    ((global::com.codename1.ui.util.EventDispatcher) _r8_o).fireSelectionSync((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r1_o, (int) _r9.i, (int) _r10.i);
+    if (_r4.i == 0) goto label81;
+    ((global::com.codename1.ui.util.EventDispatcher) _r9_o).fireSelectionSync((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r2_o, (int) _r10.i, (int) _r11.i);
     goto label14;
     label78:;
-    _r5_o = _ex.getJavaException();
+    _r6_o = _ex.getJavaException();
     _ex = null;
     try {
-    global::System.Threading.Monitor.Exit(_r8_o);
+    global::System.Threading.Monitor.Exit(_r9_o);
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
@@ -1012,23 +1030,23 @@ public virtual void fireSelectionEvent(int n1, int n2){
         }
         throw ex;
     } // end catch
-    throw new global::org.xmlvm._nExceptionAdapter((global::System.Object) _r5_o);
+    throw new global::org.xmlvm._nExceptionAdapter((global::System.Object) _r6_o);
     label81:;
-    ((global::com.codename1.ui.util.EventDispatcher) _r8_o)._fselectionListenerArray = 0!=_r6.i;
-    _r2_o = new global::com.codename1.ui.util.EventDispatcher_2CallbackClass();
-    _r5.i = 2;
-    _r5_o = new global::org.xmlvm._nArrayAdapter<int>(new int[_r5.i]);
-    ((global::org.xmlvm._nArrayAdapter<int>) _r5_o)[_r7.i] = _r9.i;
-    ((global::org.xmlvm._nArrayAdapter<int>) _r5_o)[_r6.i] = _r10.i;
-    ((global::com.codename1.ui.util.EventDispatcher_2CallbackClass) _r2_o).@this((global::com.codename1.ui.util.EventDispatcher) _r8_o, (global::org.xmlvm._nArrayAdapter<global::System.Object>) _r1_o, (global::java.lang.Object) _r5_o);
-    _r5.i = ((global::com.codename1.ui.util.EventDispatcher) _r8_o)._fblocking ? 1 : 0;
-    if (_r5.i == 0) goto label107;
-    _r5_o = global::com.codename1.ui.Display.getInstance();
-    ((global::com.codename1.ui.Display) _r5_o).callSeriallyAndWait((global::java.lang.Runnable) _r2_o);
+    ((global::com.codename1.ui.util.EventDispatcher) _r9_o)._fselectionListenerArray = 0!=_r7.i;
+    _r3_o = new global::com.codename1.ui.util.EventDispatcher_2CallbackClass();
+    _r6.i = 2;
+    _r6_o = new global::org.xmlvm._nArrayAdapter<int>(new int[_r6.i]);
+    ((global::org.xmlvm._nArrayAdapter<int>) _r6_o)[_r8.i] = _r10.i;
+    ((global::org.xmlvm._nArrayAdapter<int>) _r6_o)[_r7.i] = _r11.i;
+    ((global::com.codename1.ui.util.EventDispatcher_2CallbackClass) _r3_o).@this((global::com.codename1.ui.util.EventDispatcher) _r9_o, (global::org.xmlvm._nArrayAdapter<global::System.Object>) _r2_o, (global::java.lang.Object) _r6_o);
+    _r6.i = ((global::com.codename1.ui.util.EventDispatcher) _r9_o)._fblocking ? 1 : 0;
+    if (_r6.i == 0) goto label107;
+    _r6_o = global::com.codename1.ui.Display.getInstance();
+    ((global::com.codename1.ui.Display) _r6_o).callSeriallyAndWait((global::java.lang.Runnable) _r3_o);
     goto label14;
     label107:;
-    _r5_o = global::com.codename1.ui.Display.getInstance();
-    ((global::com.codename1.ui.Display) _r5_o).callSerially((global::java.lang.Runnable) _r2_o);
+    _r6_o = global::com.codename1.ui.Display.getInstance();
+    ((global::com.codename1.ui.Display) _r6_o).callSerially((global::java.lang.Runnable) _r3_o);
     goto label14;
 //XMLVM_END_WRAPPER[com.codename1.ui.util.EventDispatcher: void fireSelectionEvent(int, int)]
 }
@@ -1065,40 +1083,43 @@ public virtual void fireScrollEvent(int n1, int n2, int n3, int n4){
     global::System.Object _r13_o = null;
     global::org.xmlvm._nElement _r14;
     global::System.Object _r14_o = null;
+    global::org.xmlvm._nElement _r15;
+    global::System.Object _r15_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
-    _r10_o = this;
-    _r11.i = n1;
-    _r12.i = n2;
-    _r13.i = n3;
-    _r14.i = n4;
+    _r11_o = this;
+    _r12.i = n1;
+    _r13.i = n2;
+    _r14.i = n3;
+    _r15.i = n4;
     _r3.i = 0;
     _r2.i = 1;
-    _r0_o = ((global::com.codename1.ui.util.EventDispatcher) _r10_o)._flisteners;
+    _r0_o = ((global::com.codename1.ui.util.EventDispatcher) _r11_o)._flisteners;
     if (_r0_o == null) goto label14;
-    _r0_o = ((global::com.codename1.ui.util.EventDispatcher) _r10_o)._flisteners;
+    _r0_o = ((global::com.codename1.ui.util.EventDispatcher) _r11_o)._flisteners;
     _r0.i = ((global::java.util.ArrayList) _r0_o).size();
     if (_r0.i != 0) goto label15;
     label14:;
     return;
     label15:;
     _r0_o = global::com.codename1.ui.Display.getInstance();
-    _r8.i = ((global::com.codename1.ui.Display) _r0_o).isEdt() ? 1 : 0;
-    if (_r8.i == 0) goto label45;
-    _r0_o = ((global::com.codename1.ui.util.EventDispatcher) _r10_o)._flisteners;
+    _r9.i = ((global::com.codename1.ui.Display) _r0_o).isEdt() ? 1 : 0;
+    if (_r9.i == 0) goto label45;
+    _r0_o = ((global::com.codename1.ui.util.EventDispatcher) _r11_o)._flisteners;
     _r0.i = ((global::java.util.ArrayList) _r0_o).size();
     if (_r0.i != _r2.i) goto label45;
-    _r0_o = ((global::com.codename1.ui.util.EventDispatcher) _r10_o)._flisteners;
+    _r0_o = ((global::com.codename1.ui.util.EventDispatcher) _r11_o)._flisteners;
     _r6_o = ((global::java.util.ArrayList) _r0_o).get((int) _r3.i);
     _r6_o = _r6_o;
-    ((global::com.codename1.ui.events.ScrollListener) _r6_o).scrollChanged((int) _r11.i, (int) _r12.i, (int) _r13.i, (int) _r14.i);
+    ((global::com.codename1.ui.events.ScrollListener) _r6_o).scrollChanged((int) _r12.i, (int) _r13.i, (int) _r14.i, (int) _r15.i);
     goto label14;
     label45:;
-    global::System.Threading.Monitor.Enter(_r10_o);
+    global::System.Threading.Monitor.Enter(_r11_o);
     try {
-    _r0_o = ((global::com.codename1.ui.util.EventDispatcher) _r10_o)._flisteners;
+    _r0_o = ((global::com.codename1.ui.util.EventDispatcher) _r11_o)._flisteners;
     _r0.i = ((global::java.util.ArrayList) _r0_o).size();
     _r1_o = new global::org.xmlvm._nArrayAdapter<global::System.Object>(new global::System.Object[_r0.i]);
-    _r9.i = 0;
+    _r7.i = ((global::org.xmlvm._nIArray) _r1_o).Length;
+    _r10.i = 0;
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
@@ -1109,16 +1130,15 @@ public virtual void fireScrollEvent(int n1, int n2, int n3, int n4){
         }
         throw ex;
     } // end catch
-    label55:;
+    label56:;
     try {
-    _r0.i = ((global::org.xmlvm._nIArray) _r1_o).Length;
-    if (_r9.i >= _r0.i) goto label71;
-    _r0_o = ((global::com.codename1.ui.util.EventDispatcher) _r10_o)._flisteners;
-    _r0_o = ((global::java.util.ArrayList) _r0_o).get((int) _r9.i);
+    if (_r10.i >= _r7.i) goto label71;
+    _r0_o = ((global::com.codename1.ui.util.EventDispatcher) _r11_o)._flisteners;
+    _r0_o = ((global::java.util.ArrayList) _r0_o).get((int) _r10.i);
     _r0_o = _r0_o;
-    ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r1_o)[_r9.i] = _r0_o;
-    _r9.i = _r9.i + 1;
-    goto label55;
+    ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r1_o)[_r10.i] = _r0_o;
+    _r10.i = _r10.i + 1;
+    goto label56;
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
@@ -1131,7 +1151,7 @@ public virtual void fireScrollEvent(int n1, int n2, int n3, int n4){
     } // end catch
     label71:;
     try {
-    global::System.Threading.Monitor.Exit(_r10_o);
+    global::System.Threading.Monitor.Exit(_r11_o);
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
@@ -1142,19 +1162,19 @@ public virtual void fireScrollEvent(int n1, int n2, int n3, int n4){
         }
         throw ex;
     } // end catch
-    if (_r8.i == 0) goto label86;
-    _r0_o = _r10_o;
-    _r2.i = _r11.i;
-    _r3.i = _r12.i;
-    _r4.i = _r13.i;
-    _r5.i = _r14.i;
+    if (_r9.i == 0) goto label86;
+    _r0_o = _r11_o;
+    _r2.i = _r12.i;
+    _r3.i = _r13.i;
+    _r4.i = _r14.i;
+    _r5.i = _r15.i;
     ((global::com.codename1.ui.util.EventDispatcher) _r0_o).fireScrollSync((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r1_o, (int) _r2.i, (int) _r3.i, (int) _r4.i, (int) _r5.i);
     goto label14;
     label83:;
     _r0_o = _ex.getJavaException();
     _ex = null;
     try {
-    global::System.Threading.Monitor.Exit(_r10_o);
+    global::System.Threading.Monitor.Exit(_r11_o);
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
@@ -1167,25 +1187,25 @@ public virtual void fireScrollEvent(int n1, int n2, int n3, int n4){
     } // end catch
     throw new global::org.xmlvm._nExceptionAdapter((global::System.Object) _r0_o);
     label86:;
-    ((global::com.codename1.ui.util.EventDispatcher) _r10_o)._fscrollListenerArray = 0!=_r2.i;
-    _r7_o = new global::com.codename1.ui.util.EventDispatcher_2CallbackClass();
+    ((global::com.codename1.ui.util.EventDispatcher) _r11_o)._fscrollListenerArray = 0!=_r2.i;
+    _r8_o = new global::com.codename1.ui.util.EventDispatcher_2CallbackClass();
     _r0.i = 4;
     _r0_o = new global::org.xmlvm._nArrayAdapter<int>(new int[_r0.i]);
-    ((global::org.xmlvm._nArrayAdapter<int>) _r0_o)[_r3.i] = _r11.i;
-    ((global::org.xmlvm._nArrayAdapter<int>) _r0_o)[_r2.i] = _r12.i;
-    _r2.i = 2;
+    ((global::org.xmlvm._nArrayAdapter<int>) _r0_o)[_r3.i] = _r12.i;
     ((global::org.xmlvm._nArrayAdapter<int>) _r0_o)[_r2.i] = _r13.i;
-    _r2.i = 3;
+    _r2.i = 2;
     ((global::org.xmlvm._nArrayAdapter<int>) _r0_o)[_r2.i] = _r14.i;
-    ((global::com.codename1.ui.util.EventDispatcher_2CallbackClass) _r7_o).@this((global::com.codename1.ui.util.EventDispatcher) _r10_o, (global::org.xmlvm._nArrayAdapter<global::System.Object>) _r1_o, (global::java.lang.Object) _r0_o);
-    _r0.i = ((global::com.codename1.ui.util.EventDispatcher) _r10_o)._fblocking ? 1 : 0;
+    _r2.i = 3;
+    ((global::org.xmlvm._nArrayAdapter<int>) _r0_o)[_r2.i] = _r15.i;
+    ((global::com.codename1.ui.util.EventDispatcher_2CallbackClass) _r8_o).@this((global::com.codename1.ui.util.EventDispatcher) _r11_o, (global::org.xmlvm._nArrayAdapter<global::System.Object>) _r1_o, (global::java.lang.Object) _r0_o);
+    _r0.i = ((global::com.codename1.ui.util.EventDispatcher) _r11_o)._fblocking ? 1 : 0;
     if (_r0.i == 0) goto label118;
     _r0_o = global::com.codename1.ui.Display.getInstance();
-    ((global::com.codename1.ui.Display) _r0_o).callSeriallyAndWait((global::java.lang.Runnable) _r7_o);
+    ((global::com.codename1.ui.Display) _r0_o).callSeriallyAndWait((global::java.lang.Runnable) _r8_o);
     goto label14;
     label118:;
     _r0_o = global::com.codename1.ui.Display.getInstance();
-    ((global::com.codename1.ui.Display) _r0_o).callSerially((global::java.lang.Runnable) _r7_o);
+    ((global::com.codename1.ui.Display) _r0_o).callSerially((global::java.lang.Runnable) _r8_o);
     goto label14;
 //XMLVM_END_WRAPPER[com.codename1.ui.util.EventDispatcher: void fireScrollEvent(int, int, int, int)]
 }
@@ -1202,23 +1222,25 @@ private void fireActionSync(global::org.xmlvm._nArrayAdapter<global::System.Obje
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
-    _r2_o = this;
-    _r3_o = n1;
-    _r4_o = n2;
-    _r0.i = 0;
-    label1:;
-    _r1.i = ((global::org.xmlvm._nIArray) _r3_o).Length;
-    if (_r0.i >= _r1.i) goto label20;
-    if (_r4_o == null) goto label12;
-    _r1.i = ((global::com.codename1.ui.events.ActionEvent) _r4_o).isConsumed() ? 1 : 0;
-    if (_r1.i != 0) goto label17;
+    _r3_o = this;
+    _r4_o = n1;
+    _r5_o = n2;
+    _r0.i = ((global::org.xmlvm._nIArray) _r4_o).Length;
+    _r1.i = 0;
+    label2:;
+    if (_r1.i >= _r0.i) goto label20;
+    if (_r5_o == null) goto label12;
+    _r2.i = ((global::com.codename1.ui.events.ActionEvent) _r5_o).isConsumed() ? 1 : 0;
+    if (_r2.i != 0) goto label17;
     label12:;
-    _r1_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r3_o)[_r0.i];
-    ((global::com.codename1.ui.events.ActionListener) _r1_o).actionPerformed((global::com.codename1.ui.events.ActionEvent) _r4_o);
+    _r2_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r4_o)[_r1.i];
+    ((global::com.codename1.ui.events.ActionListener) _r2_o).actionPerformed((global::com.codename1.ui.events.ActionEvent) _r5_o);
     label17:;
-    _r0.i = _r0.i + 1;
-    goto label1;
+    _r1.i = _r1.i + 1;
+    goto label2;
     label20:;
     return;
 //XMLVM_END_WRAPPER[com.codename1.ui.util.EventDispatcher: void fireActionSync(com.codename1.ui.events.ActionListener[], com.codename1.ui.events.ActionEvent)]
@@ -1244,42 +1266,45 @@ public virtual void fireFocus(global::com.codename1.ui.Component n1){
     global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
+    global::org.xmlvm._nElement _r9;
+    global::System.Object _r9_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
-    _r7_o = this;
-    _r8_o = n1;
-    _r6.i = 1;
-    _r5_o = ((global::com.codename1.ui.util.EventDispatcher) _r7_o)._flisteners;
-    if (_r5_o == null) goto label13;
-    _r5_o = ((global::com.codename1.ui.util.EventDispatcher) _r7_o)._flisteners;
-    _r5.i = ((global::java.util.ArrayList) _r5_o).size();
-    if (_r5.i != 0) goto label14;
+    _r8_o = this;
+    _r9_o = n1;
+    _r7.i = 1;
+    _r6_o = ((global::com.codename1.ui.util.EventDispatcher) _r8_o)._flisteners;
+    if (_r6_o == null) goto label13;
+    _r6_o = ((global::com.codename1.ui.util.EventDispatcher) _r8_o)._flisteners;
+    _r6.i = ((global::java.util.ArrayList) _r6_o).size();
+    if (_r6.i != 0) goto label14;
     label13:;
     return;
     label14:;
-    _r5_o = global::com.codename1.ui.Display.getInstance();
-    _r3.i = ((global::com.codename1.ui.Display) _r5_o).isEdt() ? 1 : 0;
-    if (_r3.i == 0) goto label55;
-    _r5_o = ((global::com.codename1.ui.util.EventDispatcher) _r7_o)._flisteners;
-    _r5.i = ((global::java.util.ArrayList) _r5_o).size();
-    if (_r5.i != _r6.i) goto label55;
-    _r5_o = ((global::com.codename1.ui.util.EventDispatcher) _r7_o)._flisteners;
-    _r6.i = 0;
-    _r0_o = ((global::java.util.ArrayList) _r5_o).get((int) _r6.i);
+    _r6_o = global::com.codename1.ui.Display.getInstance();
+    _r4.i = ((global::com.codename1.ui.Display) _r6_o).isEdt() ? 1 : 0;
+    if (_r4.i == 0) goto label55;
+    _r6_o = ((global::com.codename1.ui.util.EventDispatcher) _r8_o)._flisteners;
+    _r6.i = ((global::java.util.ArrayList) _r6_o).size();
+    if (_r6.i != _r7.i) goto label55;
+    _r6_o = ((global::com.codename1.ui.util.EventDispatcher) _r8_o)._flisteners;
+    _r7.i = 0;
+    _r0_o = ((global::java.util.ArrayList) _r6_o).get((int) _r7.i);
     _r0_o = _r0_o;
-    _r5.i = ((global::com.codename1.ui.Component) _r8_o).hasFocus() ? 1 : 0;
-    if (_r5.i == 0) goto label51;
-    ((global::com.codename1.ui.events.FocusListener) _r0_o).focusGained((global::com.codename1.ui.Component) _r8_o);
+    _r6.i = ((global::com.codename1.ui.Component) _r9_o).hasFocus() ? 1 : 0;
+    if (_r6.i == 0) goto label51;
+    ((global::com.codename1.ui.events.FocusListener) _r0_o).focusGained((global::com.codename1.ui.Component) _r9_o);
     goto label13;
     label51:;
-    ((global::com.codename1.ui.events.FocusListener) _r0_o).focusLost((global::com.codename1.ui.Component) _r8_o);
+    ((global::com.codename1.ui.events.FocusListener) _r0_o).focusLost((global::com.codename1.ui.Component) _r9_o);
     goto label13;
     label55:;
-    global::System.Threading.Monitor.Enter(_r7_o);
+    global::System.Threading.Monitor.Enter(_r8_o);
     try {
-    _r5_o = ((global::com.codename1.ui.util.EventDispatcher) _r7_o)._flisteners;
-    _r5.i = ((global::java.util.ArrayList) _r5_o).size();
-    _r1_o = new global::org.xmlvm._nArrayAdapter<global::System.Object>(new global::System.Object[_r5.i]);
-    _r4.i = 0;
+    _r6_o = ((global::com.codename1.ui.util.EventDispatcher) _r8_o)._flisteners;
+    _r6.i = ((global::java.util.ArrayList) _r6_o).size();
+    _r2_o = new global::org.xmlvm._nArrayAdapter<global::System.Object>(new global::System.Object[_r6.i]);
+    _r1.i = ((global::org.xmlvm._nIArray) _r2_o).Length;
+    _r5.i = 0;
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
@@ -1290,16 +1315,15 @@ public virtual void fireFocus(global::com.codename1.ui.Component n1){
         }
         throw ex;
     } // end catch
-    label65:;
+    label66:;
     try {
-    _r5.i = ((global::org.xmlvm._nIArray) _r1_o).Length;
-    if (_r4.i >= _r5.i) goto label81;
-    _r5_o = ((global::com.codename1.ui.util.EventDispatcher) _r7_o)._flisteners;
-    _r5_o = ((global::java.util.ArrayList) _r5_o).get((int) _r4.i);
-    _r5_o = _r5_o;
-    ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r1_o)[_r4.i] = _r5_o;
-    _r4.i = _r4.i + 1;
-    goto label65;
+    if (_r5.i >= _r1.i) goto label81;
+    _r6_o = ((global::com.codename1.ui.util.EventDispatcher) _r8_o)._flisteners;
+    _r6_o = ((global::java.util.ArrayList) _r6_o).get((int) _r5.i);
+    _r6_o = _r6_o;
+    ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r2_o)[_r5.i] = _r6_o;
+    _r5.i = _r5.i + 1;
+    goto label66;
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
@@ -1312,7 +1336,7 @@ public virtual void fireFocus(global::com.codename1.ui.Component n1){
     } // end catch
     label81:;
     try {
-    global::System.Threading.Monitor.Exit(_r7_o);
+    global::System.Threading.Monitor.Exit(_r8_o);
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
@@ -1323,14 +1347,14 @@ public virtual void fireFocus(global::com.codename1.ui.Component n1){
         }
         throw ex;
     } // end catch
-    if (_r3.i == 0) goto label91;
-    ((global::com.codename1.ui.util.EventDispatcher) _r7_o).fireFocusSync((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r1_o, (global::com.codename1.ui.Component) _r8_o);
+    if (_r4.i == 0) goto label91;
+    ((global::com.codename1.ui.util.EventDispatcher) _r8_o).fireFocusSync((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r2_o, (global::com.codename1.ui.Component) _r9_o);
     goto label13;
     label88:;
-    _r5_o = _ex.getJavaException();
+    _r6_o = _ex.getJavaException();
     _ex = null;
     try {
-    global::System.Threading.Monitor.Exit(_r7_o);
+    global::System.Threading.Monitor.Exit(_r8_o);
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
@@ -1341,19 +1365,19 @@ public virtual void fireFocus(global::com.codename1.ui.Component n1){
         }
         throw ex;
     } // end catch
-    throw new global::org.xmlvm._nExceptionAdapter((global::System.Object) _r5_o);
+    throw new global::org.xmlvm._nExceptionAdapter((global::System.Object) _r6_o);
     label91:;
-    ((global::com.codename1.ui.util.EventDispatcher) _r7_o)._ffocusListenerArray = 0!=_r6.i;
-    _r2_o = new global::com.codename1.ui.util.EventDispatcher_2CallbackClass();
-    ((global::com.codename1.ui.util.EventDispatcher_2CallbackClass) _r2_o).@this((global::com.codename1.ui.util.EventDispatcher) _r7_o, (global::org.xmlvm._nArrayAdapter<global::System.Object>) _r1_o, (global::java.lang.Object) _r8_o);
-    _r5.i = ((global::com.codename1.ui.util.EventDispatcher) _r7_o)._fblocking ? 1 : 0;
-    if (_r5.i == 0) goto label110;
-    _r5_o = global::com.codename1.ui.Display.getInstance();
-    ((global::com.codename1.ui.Display) _r5_o).callSeriallyAndWait((global::java.lang.Runnable) _r2_o);
+    ((global::com.codename1.ui.util.EventDispatcher) _r8_o)._ffocusListenerArray = 0!=_r7.i;
+    _r3_o = new global::com.codename1.ui.util.EventDispatcher_2CallbackClass();
+    ((global::com.codename1.ui.util.EventDispatcher_2CallbackClass) _r3_o).@this((global::com.codename1.ui.util.EventDispatcher) _r8_o, (global::org.xmlvm._nArrayAdapter<global::System.Object>) _r2_o, (global::java.lang.Object) _r9_o);
+    _r6.i = ((global::com.codename1.ui.util.EventDispatcher) _r8_o)._fblocking ? 1 : 0;
+    if (_r6.i == 0) goto label110;
+    _r6_o = global::com.codename1.ui.Display.getInstance();
+    ((global::com.codename1.ui.Display) _r6_o).callSeriallyAndWait((global::java.lang.Runnable) _r3_o);
     goto label13;
     label110:;
-    _r5_o = global::com.codename1.ui.Display.getInstance();
-    ((global::com.codename1.ui.Display) _r5_o).callSerially((global::java.lang.Runnable) _r2_o);
+    _r6_o = global::com.codename1.ui.Display.getInstance();
+    ((global::com.codename1.ui.Display) _r6_o).callSerially((global::java.lang.Runnable) _r3_o);
     goto label13;
 //XMLVM_END_WRAPPER[com.codename1.ui.util.EventDispatcher: void fireFocus(com.codename1.ui.Component)]
 }
@@ -1370,29 +1394,31 @@ private void fireFocusSync(global::org.xmlvm._nArrayAdapter<global::System.Objec
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
-    _r2_o = this;
-    _r3_o = n1;
-    _r4_o = n2;
-    _r1.i = ((global::com.codename1.ui.Component) _r4_o).hasFocus() ? 1 : 0;
-    if (_r1.i == 0) goto label18;
-    _r0.i = 0;
-    label7:;
-    _r1.i = ((global::org.xmlvm._nIArray) _r3_o).Length;
-    if (_r0.i >= _r1.i) goto label30;
-    _r1_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r3_o)[_r0.i];
-    ((global::com.codename1.ui.events.FocusListener) _r1_o).focusGained((global::com.codename1.ui.Component) _r4_o);
-    _r0.i = _r0.i + 1;
-    goto label7;
+    _r3_o = this;
+    _r4_o = n1;
+    _r5_o = n2;
+    _r2.i = ((global::com.codename1.ui.Component) _r5_o).hasFocus() ? 1 : 0;
+    if (_r2.i == 0) goto label18;
+    _r0.i = ((global::org.xmlvm._nIArray) _r4_o).Length;
+    _r1.i = 0;
+    label8:;
+    if (_r1.i >= _r0.i) goto label30;
+    _r2_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r4_o)[_r1.i];
+    ((global::com.codename1.ui.events.FocusListener) _r2_o).focusGained((global::com.codename1.ui.Component) _r5_o);
+    _r1.i = _r1.i + 1;
+    goto label8;
     label18:;
-    _r0.i = 0;
-    label19:;
-    _r1.i = ((global::org.xmlvm._nIArray) _r3_o).Length;
-    if (_r0.i >= _r1.i) goto label30;
-    _r1_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r3_o)[_r0.i];
-    ((global::com.codename1.ui.events.FocusListener) _r1_o).focusLost((global::com.codename1.ui.Component) _r4_o);
-    _r0.i = _r0.i + 1;
-    goto label19;
+    _r0.i = ((global::org.xmlvm._nIArray) _r4_o).Length;
+    _r1.i = 0;
+    label20:;
+    if (_r1.i >= _r0.i) goto label30;
+    _r2_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r4_o)[_r1.i];
+    ((global::com.codename1.ui.events.FocusListener) _r2_o).focusLost((global::com.codename1.ui.Component) _r5_o);
+    _r1.i = _r1.i + 1;
+    goto label20;
     label30:;
     return;
 //XMLVM_END_WRAPPER[com.codename1.ui.util.EventDispatcher: void fireFocusSync(com.codename1.ui.events.FocusListener[], com.codename1.ui.Component)]

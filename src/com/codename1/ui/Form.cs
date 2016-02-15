@@ -3,6 +3,10 @@
 using org.xmlvm;
 namespace com.codename1.ui {
 public class Form: global::com.codename1.ui.Container {
+private bool _fglobalAnimationLock;
+
+public static int _factivePeerCount;
+
 private global::com.codename1.ui.Painter _fglassPane;
 
 private global::com.codename1.ui.Container _flayeredPane;
@@ -18,6 +22,8 @@ private global::com.codename1.ui.MenuBar _fmenuBar;
 private global::com.codename1.ui.Component _fdragged;
 
 public global::java.util.ArrayList _fbuttonsAwatingRelease;
+
+private global::com.codename1.ui.AnimationManager _fanimMananger;
 
 public bool _ffocusScrolling;
 
@@ -71,10 +77,27 @@ private bool _fdragStopFlag;
 
 private global::com.codename1.ui.Toolbar _ftoolbar;
 
+private global::com.codename1.ui.TextArea _feditOnShow;
+
 private bool _finInternalPaint;
 
 public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Form: void <init>()]
+    global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
+    _r1_o = this;
+    _r0_o = new global::com.codename1.ui.layouts.FlowLayout();
+    ((global::com.codename1.ui.layouts.FlowLayout) _r0_o).@this();
+    ((global::com.codename1.ui.Form) _r1_o).@this((global::com.codename1.ui.layouts.Layout) _r0_o);
+    return;
+//XMLVM_END_WRAPPER[com.codename1.ui.Form: void <init>()]
+}
+
+public void @this(global::com.codename1.ui.layouts.Layout n1){
+//XMLVM_BEGIN_WRAPPER[com.codename1.ui.Form: void <init>(com.codename1.ui.layouts.Layout)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
@@ -99,8 +122,11 @@ public void @this(){
     global::System.Object _r10_o = null;
     global::org.xmlvm._nElement _r11;
     global::System.Object _r11_o = null;
+    global::org.xmlvm._nElement _r12;
+    global::System.Object _r12_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r11_o = this;
+    _r12_o = n1;
     _r9.i = 1;
     _r8.i = 0;
     // Value=Center
@@ -109,11 +135,6 @@ public void @this(){
     _r4_o = new global::com.codename1.ui.layouts.BorderLayout();
     ((global::com.codename1.ui.layouts.BorderLayout) _r4_o).@this();
     ((global::com.codename1.ui.Container) _r11_o).@this((global::com.codename1.ui.layouts.Layout) _r4_o);
-    _r4_o = new global::com.codename1.ui.Container();
-    _r5_o = new global::com.codename1.ui.layouts.FlowLayout();
-    ((global::com.codename1.ui.layouts.FlowLayout) _r5_o).@this();
-    ((global::com.codename1.ui.Container) _r4_o).@this((global::com.codename1.ui.layouts.Layout) _r5_o);
-    ((global::com.codename1.ui.Form) _r11_o)._fcontentPane = (global::com.codename1.ui.Container) _r4_o;
     _r4_o = new global::com.codename1.ui.Container();
     _r5_o = new global::com.codename1.ui.layouts.BorderLayout();
     ((global::com.codename1.ui.layouts.BorderLayout) _r5_o).@this();
@@ -128,7 +149,13 @@ public void @this(){
     ((global::java.lang.String)_r6_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)84)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 101))}));
     ((global::com.codename1.ui.Label) _r4_o).@this((global::java.lang.String) _r5_o, (global::java.lang.String) _r6_o);
     ((global::com.codename1.ui.Form) _r11_o)._ftitle = (global::com.codename1.ui.Label) _r4_o;
+    _r4_o = new global::com.codename1.ui.AnimationManager();
+    ((global::com.codename1.ui.AnimationManager) _r4_o).@this((global::com.codename1.ui.Form) _r11_o);
+    ((global::com.codename1.ui.Form) _r11_o)._fanimMananger = (global::com.codename1.ui.AnimationManager) _r4_o;
     ((global::com.codename1.ui.Form) _r11_o)._fcyclicFocus = 0!=_r9.i;
+    _r4_o = new global::com.codename1.ui.Container();
+    ((global::com.codename1.ui.Container) _r4_o).@this((global::com.codename1.ui.layouts.Layout) _r12_o);
+    ((global::com.codename1.ui.Form) _r11_o)._fcontentPane = (global::com.codename1.ui.Container) _r4_o;
     // Value=Form
     _r4_o = new global::java.lang.String();
     ((global::java.lang.String)_r4_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)70)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 109))}));
@@ -189,21 +216,21 @@ public void @this(){
     ((global::com.codename1.ui.Container) _r4_o).setScrollableY(0!=_r9.i);
     _r4_o = ((global::com.codename1.ui.Form) _r11_o)._ftitle;
     _r4_o = ((global::com.codename1.ui.Label) _r4_o).getText();
-    if (_r4_o == null) goto label205;
+    if (_r4_o == null) goto label207;
     _r4_o = ((global::com.codename1.ui.Form) _r11_o)._ftitle;
     _r4.i = ((global::com.codename1.ui.Label) _r4_o).shouldTickerStart() ? 1 : 0;
-    if (_r4.i == 0) goto label205;
+    if (_r4.i == 0) goto label207;
     _r4_o = ((global::com.codename1.ui.Form) _r11_o)._ftitle;
     _r5_o = ((global::com.codename1.ui.Form) _r11_o).getUIManager();
     _r5_o = ((global::com.codename1.ui.plaf.UIManager) _r5_o).getLookAndFeel();
     _r5.l = ((global::com.codename1.ui.plaf.LookAndFeel) _r5_o).getTickerSpeed();
     ((global::com.codename1.ui.Label) _r4_o).startTicker((long) _r5.l, 0!=_r9.i);
-    label205:;
+    label207:;
     ((global::com.codename1.ui.Form) _r11_o).initTitleBarStatus();
     _r4.i = 255;
     ((global::com.codename1.ui.plaf.Style) _r1_o).setBgTransparency((int) _r4.i);
     return;
-//XMLVM_END_WRAPPER[com.codename1.ui.Form: void <init>()]
+//XMLVM_END_WRAPPER[com.codename1.ui.Form: void <init>(com.codename1.ui.layouts.Layout)]
 }
 
 public static int getInvisibleAreaUnderVKB(global::com.codename1.ui.Form n1){
@@ -238,11 +265,23 @@ public virtual int getInvisibleAreaUnderVKB(){
     label5:;
     return _r0.i;
     label6:;
-    _r0_o = global::com.codename1.ui.Display.getInstance();
-    _r0_o = ((global::com.codename1.ui.Display) _r0_o).getImplementation();
+    _r0_o = global::com.codename1.ui.Display._fimpl;
     _r0.i = ((global::com.codename1.impl.CodenameOneImplementation) _r0_o).getInvisibleAreaUnderVKB();
     goto label5;
 //XMLVM_END_WRAPPER[com.codename1.ui.Form: int getInvisibleAreaUnderVKB()]
+}
+
+public override global::System.Object getAnimationManager(){
+//XMLVM_BEGIN_WRAPPER[com.codename1.ui.Form: com.codename1.ui.AnimationManager getAnimationManager()]
+    global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
+    _r1_o = this;
+    _r0_o = ((global::com.codename1.ui.Form) _r1_o)._fanimMananger;
+    return (global::com.codename1.ui.AnimationManager) _r0_o;
+//XMLVM_END_WRAPPER[com.codename1.ui.Form: com.codename1.ui.AnimationManager getAnimationManager()]
 }
 
 public virtual void setFormBottomPaddingEditingMode(bool n1){
@@ -462,6 +501,43 @@ public override bool isAlwaysTensile(){
     _r0.i = ((global::com.codename1.ui.Container) _r0_o).isAlwaysTensile() ? 1 : 0;
     return _r0.i!=0;
 //XMLVM_END_WRAPPER[com.codename1.ui.Form: boolean isAlwaysTensile()]
+}
+
+public virtual bool grabAnimationLock(){
+//XMLVM_BEGIN_WRAPPER[com.codename1.ui.Form: boolean grabAnimationLock()]
+    global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
+    _r2_o = this;
+    _r1.i = 1;
+    _r0.i = ((global::com.codename1.ui.Form) _r2_o)._fglobalAnimationLock ? 1 : 0;
+    if (_r0.i == 0) goto label7;
+    _r0.i = 0;
+    label6:;
+    return _r0.i!=0;
+    label7:;
+    ((global::com.codename1.ui.Form) _r2_o)._fglobalAnimationLock = 0!=_r1.i;
+    _r0.i = _r1.i;
+    goto label6;
+//XMLVM_END_WRAPPER[com.codename1.ui.Form: boolean grabAnimationLock()]
+}
+
+public virtual void releaseAnimationLock(){
+//XMLVM_BEGIN_WRAPPER[com.codename1.ui.Form: void releaseAnimationLock()]
+    global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
+    _r1_o = this;
+    _r0.i = 0;
+    ((global::com.codename1.ui.Form) _r1_o)._fglobalAnimationLock = 0!=_r0.i;
+    return;
+//XMLVM_END_WRAPPER[com.codename1.ui.Form: void releaseAnimationLock()]
 }
 
 public override void setAlwaysTensile(bool n1){
@@ -799,22 +875,24 @@ public virtual void sizeChangedInternal(int n1, int n2){
     ((global::com.codename1.ui.Form) _r8_o).scrollComponentToVisible((global::com.codename1.ui.Component) _r3_o);
     global::com.codename1.ui.Component.setDisableSmoothScrolling(0!=_r6.i);
     label82:;
-    if (_r2.i == _r9.i) goto label100;
-    if (_r1.i == _r10.i) goto label100;
+    if (_r2.i == _r9.i) goto label102;
+    if (_r1.i == _r10.i) goto label102;
     _r3_o = ((global::com.codename1.ui.Form) _r8_o)._forientationListener;
-    if (_r3_o == null) goto label100;
+    if (_r3_o == null) goto label102;
     _r3_o = ((global::com.codename1.ui.Form) _r8_o)._forientationListener;
     _r4_o = new global::com.codename1.ui.events.ActionEvent();
-    ((global::com.codename1.ui.events.ActionEvent) _r4_o).@this((global::java.lang.Object) _r8_o);
+    _r5_o = global::com.codename1.ui.events.ActionEvent_2Type._fOrientationChange;
+    ((global::com.codename1.ui.events.ActionEvent) _r4_o).@this((global::java.lang.Object) _r8_o, (global::com.codename1.ui.events.ActionEvent_2Type) _r5_o);
     ((global::com.codename1.ui.util.EventDispatcher) _r3_o).fireActionEvent((global::com.codename1.ui.events.ActionEvent) _r4_o);
-    label100:;
+    label102:;
     _r3_o = ((global::com.codename1.ui.Form) _r8_o)._fsizeChangedListener;
-    if (_r3_o == null) goto label114;
+    if (_r3_o == null) goto label118;
     _r3_o = ((global::com.codename1.ui.Form) _r8_o)._fsizeChangedListener;
     _r4_o = new global::com.codename1.ui.events.ActionEvent();
-    ((global::com.codename1.ui.events.ActionEvent) _r4_o).@this((global::java.lang.Object) _r8_o, (int) _r9.i, (int) _r10.i);
+    _r5_o = global::com.codename1.ui.events.ActionEvent_2Type._fSizeChange;
+    ((global::com.codename1.ui.events.ActionEvent) _r4_o).@this((global::java.lang.Object) _r8_o, (global::com.codename1.ui.events.ActionEvent_2Type) _r5_o, (int) _r9.i, (int) _r10.i);
     ((global::com.codename1.ui.util.EventDispatcher) _r3_o).fireActionEvent((global::com.codename1.ui.events.ActionEvent) _r4_o);
-    label114:;
+    label118:;
     ((global::com.codename1.ui.Form) _r8_o).repaint();
     return;
 //XMLVM_END_WRAPPER[com.codename1.ui.Form: void sizeChangedInternal(int, int)]
@@ -1609,6 +1687,24 @@ public void @this(global::java.lang.String n1){
 //XMLVM_END_WRAPPER[com.codename1.ui.Form: void <init>(java.lang.String)]
 }
 
+public void @this(global::java.lang.String n1, global::com.codename1.ui.layouts.Layout n2){
+//XMLVM_BEGIN_WRAPPER[com.codename1.ui.Form: void <init>(java.lang.String, com.codename1.ui.layouts.Layout)]
+    global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
+    _r0_o = this;
+    _r1_o = n1;
+    _r2_o = n2;
+    ((global::com.codename1.ui.Form) _r0_o).@this((global::com.codename1.ui.layouts.Layout) _r2_o);
+    ((global::com.codename1.ui.Form) _r0_o).setTitle((global::java.lang.String) _r1_o);
+    return;
+//XMLVM_END_WRAPPER[com.codename1.ui.Form: void <init>(java.lang.String, com.codename1.ui.layouts.Layout)]
+}
+
 public virtual global::System.Object getContentPane(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Form: com.codename1.ui.Container getContentPane()]
     global::org.xmlvm._nElement _r0;
@@ -1630,21 +1726,125 @@ public virtual global::System.Object getLayeredPane(){
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
+    _r2_o = this;
+    _r0_o = null;
+    _r1.i = 0;
+    _r0_o = ((global::com.codename1.ui.Form) _r2_o).getLayeredPane((global::java.lang.Class) _r0_o, 0!=_r1.i);
+    return (global::com.codename1.ui.Container) _r0_o;
+//XMLVM_END_WRAPPER[com.codename1.ui.Form: com.codename1.ui.Container getLayeredPane()]
+}
+
+public virtual global::System.Object getLayeredPane(global::java.lang.Class n1, bool n2){
+//XMLVM_BEGIN_WRAPPER[com.codename1.ui.Form: com.codename1.ui.Container getLayeredPane(java.lang.Class, boolean)]
+    global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
+    _r6_o = this;
+    _r7_o = n1;
+    _r8.i = n2 ? 1 : 0;
+    // Value=cn1$_cls
+    _r5_o = new global::java.lang.String();
+    ((global::java.lang.String)_r5_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)99)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 49)), unchecked((char) unchecked((uint) 36)), unchecked((char) unchecked((uint) 95)), unchecked((char) unchecked((uint) 99)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 115))}));
+    if (_r7_o != null) goto label36;
+    _r3_o = ((global::com.codename1.ui.Form) _r6_o).getLayeredPaneImpl();
+    _r3_o = ((global::com.codename1.ui.Container) _r3_o).iterator();
+    label12:;
+    _r4.i = ((global::java.util.Iterator) _r3_o).hasNext() ? 1 : 0;
+    if (_r4.i == 0) goto label36;
+    _r0_o = ((global::java.util.Iterator) _r3_o).next();
+    _r0_o = _r0_o;
+    // Value=cn1$_cls
+    _r4_o = new global::java.lang.String();
+    ((global::java.lang.String)_r4_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)99)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 49)), unchecked((char) unchecked((uint) 36)), unchecked((char) unchecked((uint) 95)), unchecked((char) unchecked((uint) 99)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 115))}));
+    _r4_o = ((global::com.codename1.ui.Component) _r0_o).getClientProperty((global::java.lang.String) _r5_o);
+    if (_r4_o != null) goto label12;
+    _r0_o = _r0_o;
+    _r3_o = _r0_o;
+    label35:;
+    return (global::com.codename1.ui.Container) _r3_o;
+    label36:;
+    _r2_o = ((global::java.lang.Class) _r7_o).getName();
+    _r3_o = ((global::com.codename1.ui.Form) _r6_o).getLayeredPaneImpl();
+    _r3_o = ((global::com.codename1.ui.Container) _r3_o).iterator();
+    label48:;
+    _r4.i = ((global::java.util.Iterator) _r3_o).hasNext() ? 1 : 0;
+    if (_r4.i == 0) goto label76;
+    _r0_o = ((global::java.util.Iterator) _r3_o).next();
+    _r0_o = _r0_o;
+    // Value=cn1$_cls
+    _r4_o = new global::java.lang.String();
+    ((global::java.lang.String)_r4_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)99)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 49)), unchecked((char) unchecked((uint) 36)), unchecked((char) unchecked((uint) 95)), unchecked((char) unchecked((uint) 99)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 115))}));
+    _r4_o = ((global::com.codename1.ui.Component) _r0_o).getClientProperty((global::java.lang.String) _r5_o);
+    _r4.i = ((global::java.lang.String) _r2_o).equals((global::java.lang.Object) _r4_o) ? 1 : 0;
+    if (_r4.i == 0) goto label48;
+    _r0_o = _r0_o;
+    _r3_o = _r0_o;
+    goto label35;
+    label76:;
+    _r1_o = new global::com.codename1.ui.Container();
+    ((global::com.codename1.ui.Container) _r1_o).@this();
+    if (_r8.i == 0) goto label97;
+    _r3_o = ((global::com.codename1.ui.Form) _r6_o).getLayeredPaneImpl();
+    ((global::com.codename1.ui.Container) _r3_o).add((global::com.codename1.ui.Component) _r1_o);
+    label90:;
+    // Value=cn1$_cls
+    _r3_o = new global::java.lang.String();
+    ((global::java.lang.String)_r3_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)99)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 49)), unchecked((char) unchecked((uint) 36)), unchecked((char) unchecked((uint) 95)), unchecked((char) unchecked((uint) 99)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 115))}));
+    ((global::com.codename1.ui.Container) _r1_o).putClientProperty((global::java.lang.String) _r5_o, (global::java.lang.Object) _r2_o);
+    _r3_o = _r1_o;
+    goto label35;
+    label97:;
+    _r3_o = ((global::com.codename1.ui.Form) _r6_o).getLayeredPaneImpl();
+    _r4.i = 0;
+    ((global::com.codename1.ui.Container) _r3_o).addComponent((int) _r4.i, (global::com.codename1.ui.Component) _r1_o);
+    goto label90;
+//XMLVM_END_WRAPPER[com.codename1.ui.Form: com.codename1.ui.Container getLayeredPane(java.lang.Class, boolean)]
+}
+
+private global::System.Object getLayeredPaneImpl(){
+//XMLVM_BEGIN_WRAPPER[com.codename1.ui.Form: com.codename1.ui.Container getLayeredPaneImpl()]
+    global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r1_o = ((global::com.codename1.ui.Form) _r3_o)._flayeredPane;
-    if (_r1_o != null) goto label49;
+    if (_r1_o != null) goto label59;
     _r0_o = new global::com.codename1.ui.Container();
     _r1_o = new global::com.codename1.ui.layouts.LayeredLayout();
     ((global::com.codename1.ui.layouts.LayeredLayout) _r1_o).@this();
     ((global::com.codename1.ui.Container) _r0_o).@this((global::com.codename1.ui.layouts.Layout) _r1_o);
     _r1_o = new global::com.codename1.ui.Container();
-    _r2_o = new global::com.codename1.ui.layouts.FlowLayout();
-    ((global::com.codename1.ui.layouts.FlowLayout) _r2_o).@this();
+    _r2_o = new global::com.codename1.ui.layouts.LayeredLayout();
+    ((global::com.codename1.ui.layouts.LayeredLayout) _r2_o).@this();
     ((global::com.codename1.ui.Container) _r1_o).@this((global::com.codename1.ui.layouts.Layout) _r2_o);
     ((global::com.codename1.ui.Form) _r3_o)._flayeredPane = (global::com.codename1.ui.Container) _r1_o;
+    _r1_o = ((global::com.codename1.ui.Form) _r3_o)._flayeredPane;
+    _r2_o = new global::com.codename1.ui.Container();
+    ((global::com.codename1.ui.Container) _r2_o).@this();
+    ((global::com.codename1.ui.Container) _r1_o).add((global::com.codename1.ui.Component) _r2_o);
     _r1_o = ((global::com.codename1.ui.Form) _r3_o)._fcontentPane;
     ((global::com.codename1.ui.Form) _r3_o).removeComponentFromForm((global::com.codename1.ui.Component) _r1_o);
     // Value=Center
@@ -1656,10 +1856,10 @@ public virtual global::System.Object getLayeredPane(){
     _r1_o = ((global::com.codename1.ui.Form) _r3_o)._flayeredPane;
     ((global::com.codename1.ui.Container) _r0_o).addComponent((global::com.codename1.ui.Component) _r1_o);
     ((global::com.codename1.ui.Form) _r3_o).revalidate();
-    label49:;
+    label59:;
     _r1_o = ((global::com.codename1.ui.Form) _r3_o)._flayeredPane;
     return (global::com.codename1.ui.Container) _r1_o;
-//XMLVM_END_WRAPPER[com.codename1.ui.Form: com.codename1.ui.Container getLayeredPane()]
+//XMLVM_END_WRAPPER[com.codename1.ui.Form: com.codename1.ui.Container getLayeredPaneImpl()]
 }
 
 public virtual global::System.Object getActualPane(){
@@ -1752,14 +1952,13 @@ public virtual void updateIcsIconCommandBehavior(){
     _r3_o = global::com.codename1.ui.Display.getInstance();
     _r0.i = ((global::com.codename1.ui.Display) _r3_o).getCommandBehavior();
     _r3.i = 7;
-    if (_r0.i != _r3.i) goto label62;
+    if (_r0.i != _r3.i) goto label56;
     _r3_o = ((global::com.codename1.ui.Form) _r4_o).getTitleComponent();
     _r3_o = ((global::com.codename1.ui.Label) _r3_o).getIcon();
-    if (_r3_o != null) goto label62;
-    _r3_o = global::com.codename1.ui.Display.getInstance();
-    _r3_o = ((global::com.codename1.ui.Display) _r3_o).getImplementation();
+    if (_r3_o != null) goto label56;
+    _r3_o = global::com.codename1.ui.Display._fimpl;
     _r2_o = ((global::com.codename1.impl.CodenameOneImplementation) _r3_o).getApplicationIconImage();
-    if (_r2_o == null) goto label62;
+    if (_r2_o == null) goto label56;
     _r3_o = ((global::com.codename1.ui.Form) _r4_o).getTitleComponent();
     _r3_o = ((global::com.codename1.ui.Label) _r3_o).getStyle();
     _r3_o = ((global::com.codename1.ui.plaf.Style) _r3_o).getFont();
@@ -1767,7 +1966,7 @@ public virtual void updateIcsIconCommandBehavior(){
     _r2_o = ((global::com.codename1.ui.Image) _r2_o).scaled((int) _r1.i, (int) _r1.i);
     _r3_o = ((global::com.codename1.ui.Form) _r4_o).getTitleComponent();
     ((global::com.codename1.ui.Label) _r3_o).setIcon((global::com.codename1.ui.Image) _r2_o);
-    label62:;
+    label56:;
     return;
 //XMLVM_END_WRAPPER[com.codename1.ui.Form: void updateIcsIconCommandBehavior()]
 }
@@ -1791,62 +1990,68 @@ public virtual void setTitle(global::java.lang.String n1){
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r5_o = this;
     _r6_o = n1;
+    _r1_o = ((global::com.codename1.ui.Form) _r5_o)._ftoolbar;
+    if (_r1_o == null) goto label10;
+    _r1_o = ((global::com.codename1.ui.Form) _r5_o)._ftoolbar;
+    ((global::com.codename1.ui.Toolbar) _r1_o).setTitle((global::java.lang.String) _r6_o);
+    label9:;
+    return;
+    label10:;
     _r1_o = ((global::com.codename1.ui.Form) _r5_o)._ftitle;
     ((global::com.codename1.ui.Label) _r1_o).setText((global::java.lang.String) _r6_o);
     _r1_o = global::com.codename1.ui.Display.getInstance();
     _r1.i = ((global::com.codename1.ui.Display) _r1_o).isNativeTitle() ? 1 : 0;
-    if (_r1.i != 0) goto label99;
+    if (_r1.i != 0) goto label109;
     ((global::com.codename1.ui.Form) _r5_o).updateIcsIconCommandBehavior();
     _r1.i = ((global::com.codename1.ui.Form) _r5_o).isInitialized() ? 1 : 0;
-    if (_r1.i == 0) goto label84;
+    if (_r1.i == 0) goto label9;
     _r1_o = ((global::com.codename1.ui.Form) _r5_o)._ftitle;
     _r1.i = ((global::com.codename1.ui.Label) _r1_o).isTickerEnabled() ? 1 : 0;
-    if (_r1.i == 0) goto label84;
+    if (_r1.i == 0) goto label9;
     _r1_o = global::com.codename1.ui.Display.getInstance();
     _r0.i = ((global::com.codename1.ui.Display) _r1_o).getCommandBehavior();
     _r1.i = 5;
-    if (_r0.i == _r1.i) goto label53;
+    if (_r0.i == _r1.i) goto label63;
     _r1.i = 6;
-    if (_r0.i == _r1.i) goto label53;
+    if (_r0.i == _r1.i) goto label63;
     _r1.i = 7;
-    if (_r0.i == _r1.i) goto label53;
+    if (_r0.i == _r1.i) goto label63;
     _r1.i = 8;
-    if (_r0.i != _r1.i) goto label58;
-    label53:;
+    if (_r0.i != _r1.i) goto label68;
+    label63:;
     _r1_o = ((global::com.codename1.ui.Form) _r5_o)._ftitleArea;
     ((global::com.codename1.ui.Container) _r1_o).revalidate();
-    label58:;
+    label68:;
     _r1_o = ((global::com.codename1.ui.Form) _r5_o)._ftitle;
     _r1.i = ((global::com.codename1.ui.Label) _r1_o).shouldTickerStart() ? 1 : 0;
-    if (_r1.i == 0) goto label85;
+    if (_r1.i == 0) goto label95;
     _r1_o = ((global::com.codename1.ui.Form) _r5_o)._ftitle;
     _r2_o = ((global::com.codename1.ui.Form) _r5_o).getUIManager();
     _r2_o = ((global::com.codename1.ui.plaf.UIManager) _r2_o).getLookAndFeel();
     _r2.l = ((global::com.codename1.ui.plaf.LookAndFeel) _r2_o).getTickerSpeed();
     _r4.i = 1;
     ((global::com.codename1.ui.Label) _r1_o).startTicker((long) _r2.l, 0!=_r4.i);
-    label84:;
-    return;
-    label85:;
+    goto label9;
+    label95:;
     _r1_o = ((global::com.codename1.ui.Form) _r5_o)._ftitle;
     _r1.i = ((global::com.codename1.ui.Label) _r1_o).isTickerRunning() ? 1 : 0;
-    if (_r1.i == 0) goto label84;
+    if (_r1.i == 0) goto label9;
     _r1_o = ((global::com.codename1.ui.Form) _r5_o)._ftitle;
     ((global::com.codename1.ui.Label) _r1_o).stopTicker();
-    goto label84;
-    label99:;
+    goto label9;
+    label109:;
     _r1_o = ((global::com.codename1.ui.Form) _r5_o)._ftitleArea;
     _r1.i = base.contains((global::com.codename1.ui.Component) _r1_o) ? 1 : 0;
-    if (_r1.i == 0) goto label112;
+    if (_r1.i == 0) goto label122;
     _r1_o = ((global::com.codename1.ui.Form) _r5_o)._ftitleArea;
     ((global::com.codename1.ui.Form) _r5_o).removeComponentFromForm((global::com.codename1.ui.Component) _r1_o);
-    label112:;
+    label122:;
     _r1_o = global::com.codename1.ui.Display.getInstance();
     _r1_o = ((global::com.codename1.ui.Display) _r1_o).getCurrent();
-    if (_r1_o != _r5_o) goto label84;
+    if (_r1_o != _r5_o) goto label9;
     _r1_o = global::com.codename1.ui.Display.getInstance();
     ((global::com.codename1.ui.Display) _r1_o).refreshNativeTitle();
-    goto label84;
+    goto label9;
 //XMLVM_END_WRAPPER[com.codename1.ui.Form: void setTitle(java.lang.String)]
 }
 
@@ -2241,6 +2446,11 @@ public virtual void repaintAnimations(){
     _r1_o = ((global::com.codename1.ui.Form) _r2_o)._fanimatableComponents;
     ((global::com.codename1.ui.Form) _r2_o).loopAnimations((global::java.util.ArrayList) _r0_o, (global::java.util.ArrayList) _r1_o);
     label21:;
+    _r0_o = ((global::com.codename1.ui.Form) _r2_o)._fanimMananger;
+    if (_r0_o == null) goto label30;
+    _r0_o = ((global::com.codename1.ui.Form) _r2_o)._fanimMananger;
+    ((global::com.codename1.ui.AnimationManager) _r0_o).updateAnimations();
+    label30:;
     return;
 //XMLVM_END_WRAPPER[com.codename1.ui.Form: void repaintAnimations()]
 }
@@ -2332,20 +2542,26 @@ public virtual bool hasAnimations(){
     if (_r0_o == null) goto label12;
     _r0_o = ((global::com.codename1.ui.Form) _r1_o)._fanimatableComponents;
     _r0.i = ((global::java.util.ArrayList) _r0_o).size();
-    if (_r0.i > 0) goto label24;
+    if (_r0.i > 0) goto label36;
     label12:;
     _r0_o = ((global::com.codename1.ui.Form) _r1_o)._finternalAnimatableComponents;
-    if (_r0_o == null) goto label26;
+    if (_r0_o == null) goto label24;
     _r0_o = ((global::com.codename1.ui.Form) _r1_o)._finternalAnimatableComponents;
     _r0.i = ((global::java.util.ArrayList) _r0_o).size();
-    if (_r0.i <= 0) goto label26;
+    if (_r0.i > 0) goto label36;
     label24:;
+    _r0_o = ((global::com.codename1.ui.Form) _r1_o)._fanimMananger;
+    if (_r0_o == null) goto label38;
+    _r0_o = ((global::com.codename1.ui.Form) _r1_o)._fanimMananger;
+    _r0.i = ((global::com.codename1.ui.AnimationManager) _r0_o).isAnimating() ? 1 : 0;
+    if (_r0.i == 0) goto label38;
+    label36:;
     _r0.i = 1;
-    label25:;
+    label37:;
     return _r0.i!=0;
-    label26:;
+    label38:;
     _r0.i = 0;
-    goto label25;
+    goto label37;
 //XMLVM_END_WRAPPER[com.codename1.ui.Form: boolean hasAnimations()]
 }
 
@@ -2568,12 +2784,15 @@ public virtual void actionCommandImpl(global::com.codename1.ui.Command n1){
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
-    _r1_o = this;
-    _r2_o = n1;
+    _r2_o = this;
+    _r3_o = n1;
     _r0_o = new global::com.codename1.ui.events.ActionEvent();
-    ((global::com.codename1.ui.events.ActionEvent) _r0_o).@this((global::java.lang.Object) _r2_o);
-    ((global::com.codename1.ui.Form) _r1_o).actionCommandImpl((global::com.codename1.ui.Command) _r2_o, (global::com.codename1.ui.events.ActionEvent) _r0_o);
+    _r1_o = global::com.codename1.ui.events.ActionEvent_2Type._fCommand;
+    ((global::com.codename1.ui.events.ActionEvent) _r0_o).@this((global::java.lang.Object) _r3_o, (global::com.codename1.ui.events.ActionEvent_2Type) _r1_o);
+    ((global::com.codename1.ui.Form) _r2_o).actionCommandImpl((global::com.codename1.ui.Command) _r3_o, (global::com.codename1.ui.events.ActionEvent) _r0_o);
     return;
 //XMLVM_END_WRAPPER[com.codename1.ui.Form: void actionCommandImpl(com.codename1.ui.Command)]
 }
@@ -2704,8 +2923,7 @@ public virtual void show(){
     global::System.Object _r1_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
-    _r0_o = global::com.codename1.ui.Display.getInstance();
-    _r0_o = ((global::com.codename1.ui.Display) _r0_o).getImplementation();
+    _r0_o = global::com.codename1.ui.Display._fimpl;
     ((global::com.codename1.impl.CodenameOneImplementation) _r0_o).onShow((global::com.codename1.ui.Form) _r1_o);
     _r0.i = 0;
     ((global::com.codename1.ui.Form) _r1_o).show(0!=_r0.i);
@@ -2767,12 +2985,16 @@ public override void deinitializeImpl(){
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
-    _r1_o = this;
-    _r0_o = null;
+    _r2_o = this;
+    _r1_o = null;
     base.deinitializeImpl();
-    ((global::com.codename1.ui.Form) _r1_o)._fbuttonsAwatingRelease = (global::java.util.ArrayList) _r0_o;
-    ((global::com.codename1.ui.Form) _r1_o)._fdragged = (global::com.codename1.ui.Component) _r0_o;
+    _r0_o = ((global::com.codename1.ui.Form) _r2_o)._fanimMananger;
+    ((global::com.codename1.ui.AnimationManager) _r0_o).flush();
+    ((global::com.codename1.ui.Form) _r2_o)._fbuttonsAwatingRelease = (global::java.util.ArrayList) _r1_o;
+    ((global::com.codename1.ui.Form) _r2_o)._fdragged = (global::com.codename1.ui.Component) _r1_o;
     return;
 //XMLVM_END_WRAPPER[com.codename1.ui.Form: void deinitializeImpl()]
 }
@@ -2792,19 +3014,18 @@ public override void initComponentImpl(){
     ((global::com.codename1.ui.Form) _r2_o)._fdragged = (global::com.codename1.ui.Component) _r0_o;
     _r0_o = global::com.codename1.ui.Display.getInstance();
     _r0.i = ((global::com.codename1.ui.Display) _r0_o).isNativeCommands() ? 1 : 0;
-    if (_r0.i == 0) goto label33;
-    _r0_o = global::com.codename1.ui.Display.getInstance();
-    _r0_o = ((global::com.codename1.ui.Display) _r0_o).getImplementation();
+    if (_r0.i == 0) goto label27;
+    _r0_o = global::com.codename1.ui.Display._fimpl;
     _r1_o = ((global::com.codename1.ui.Form) _r2_o)._fmenuBar;
     _r1_o = ((global::com.codename1.ui.MenuBar) _r1_o).getCommands();
     ((global::com.codename1.impl.CodenameOneImplementation) _r0_o).setNativeCommands((global::java.util.Vector) _r1_o);
-    label33:;
+    label27:;
     _r0_o = ((global::com.codename1.ui.Form) _r2_o).getParent();
-    if (_r0_o == null) goto label50;
+    if (_r0_o == null) goto label44;
     _r0_o = ((global::com.codename1.ui.Form) _r2_o).getParent();
     _r0_o = ((global::com.codename1.ui.Container) _r0_o).getComponentForm();
     ((global::com.codename1.ui.Form) _r0_o).registerAnimated((global::com.codename1.ui.animations.Animation) _r2_o);
-    label50:;
+    label44:;
     return;
 //XMLVM_END_WRAPPER[com.codename1.ui.Form: void initComponentImpl()]
 }
@@ -2902,18 +3123,26 @@ public virtual void onShowCompletedImpl(){
     global::System.Object _r1_o = null;
     global::org.xmlvm._nElement _r2;
     global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
-    _r2_o = this;
+    _r3_o = this;
     _r0.i = 0;
-    ((global::com.codename1.ui.Form) _r2_o).setLightweightMode(0!=_r0.i);
-    ((global::com.codename1.ui.Form) _r2_o).onShowCompleted();
-    _r0_o = ((global::com.codename1.ui.Form) _r2_o)._fshowListener;
-    if (_r0_o == null) goto label21;
-    _r0_o = ((global::com.codename1.ui.Form) _r2_o)._fshowListener;
+    ((global::com.codename1.ui.Form) _r3_o).setLightweightMode(0!=_r0.i);
+    ((global::com.codename1.ui.Form) _r3_o).onShowCompleted();
+    _r0_o = ((global::com.codename1.ui.Form) _r3_o)._fshowListener;
+    if (_r0_o == null) goto label23;
+    _r0_o = ((global::com.codename1.ui.Form) _r3_o)._fshowListener;
     _r1_o = new global::com.codename1.ui.events.ActionEvent();
-    ((global::com.codename1.ui.events.ActionEvent) _r1_o).@this((global::java.lang.Object) _r2_o);
+    _r2_o = global::com.codename1.ui.events.ActionEvent_2Type._fShow;
+    ((global::com.codename1.ui.events.ActionEvent) _r1_o).@this((global::java.lang.Object) _r3_o, (global::com.codename1.ui.events.ActionEvent_2Type) _r2_o);
     ((global::com.codename1.ui.util.EventDispatcher) _r0_o).fireActionEvent((global::com.codename1.ui.events.ActionEvent) _r1_o);
-    label21:;
+    label23:;
+    _r0_o = ((global::com.codename1.ui.Form) _r3_o)._feditOnShow;
+    if (_r0_o == null) goto label32;
+    _r0_o = ((global::com.codename1.ui.Form) _r3_o)._feditOnShow;
+    ((global::com.codename1.ui.TextArea) _r0_o).startEditingAsync();
+    label32:;
     return;
 //XMLVM_END_WRAPPER[com.codename1.ui.Form: void onShowCompletedImpl()]
 }
@@ -3258,43 +3487,62 @@ public virtual void disposeImpl(){
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
-    _r4_o = this;
-    _r3.i = 0;
-    _r1_o = ((global::com.codename1.ui.Form) _r4_o)._fpreviousForm;
-    if (_r1_o == null) goto label51;
-    _r1_o = global::com.codename1.ui.Display.getInstance();
-    _r1_o = ((global::com.codename1.ui.Display) _r1_o).getCurrent();
-    if (_r1_o != _r4_o) goto label52;
-    _r1.i = 1;
-    _r0.i = _r1.i;
-    label17:;
-    _r1_o = ((global::com.codename1.ui.Form) _r4_o)._fpreviousForm;
-    ((global::com.codename1.ui.Form) _r1_o)._ftint = 0!=_r3.i;
-    _r1_o = ((global::com.codename1.ui.Form) _r4_o)._fpreviousForm;
-    _r1.i = ((_r1_o != null) && (_r1_o is global::com.codename1.ui.Dialog)) ? 1 : 0;
-    if (_r1.i == 0) goto label54;
-    _r1_o = ((global::com.codename1.ui.Form) _r4_o)._fpreviousForm;
-    _r1_o = _r1_o;
-    _r1.i = ((global::com.codename1.ui.Dialog) _r1_o).isDisposed() ? 1 : 0;
-    if (_r1.i != 0) goto label46;
-    _r1_o = global::com.codename1.ui.Display.getInstance();
-    _r2_o = ((global::com.codename1.ui.Form) _r4_o)._fpreviousForm;
-    ((global::com.codename1.ui.Display) _r1_o).setCurrent((global::com.codename1.ui.Form) _r2_o, 0!=_r3.i);
-    label46:;
-    if (_r0.i == 0) goto label51;
-    _r1_o = null;
-    ((global::com.codename1.ui.Form) _r4_o)._fpreviousForm = (global::com.codename1.ui.Form) _r1_o;
-    label51:;
+    _r6_o = this;
+    _r5_o = null;
+    _r4.i = 0;
+    _r2_o = ((global::com.codename1.ui.Form) _r6_o)._fpreviousForm;
+    if (_r2_o == null) goto label40;
+    _r2_o = global::com.codename1.ui.Display.getInstance();
+    _r2_o = ((global::com.codename1.ui.Display) _r2_o).getCurrent();
+    if (_r2_o != _r6_o) goto label41;
+    _r2.i = 1;
+    _r0.i = _r2.i;
+    label18:;
+    if (_r0.i != 0) goto label46;
+    _r2_o = global::com.codename1.ui.Display.getInstance();
+    _r1_o = ((global::com.codename1.ui.Display) _r2_o).getCurrent();
+    label28:;
+    if (_r1_o == null) goto label46;
+    _r2_o = ((global::com.codename1.ui.Form) _r1_o)._fpreviousForm;
+    if (_r2_o != _r6_o) goto label43;
+    _r2_o = ((global::com.codename1.ui.Form) _r6_o)._fpreviousForm;
+    ((global::com.codename1.ui.Form) _r1_o)._fpreviousForm = (global::com.codename1.ui.Form) _r2_o;
+    ((global::com.codename1.ui.Form) _r6_o)._fpreviousForm = (global::com.codename1.ui.Form) _r5_o;
+    label40:;
     return;
-    label52:;
-    _r0.i = _r3.i;
-    goto label17;
-    label54:;
-    _r1_o = global::com.codename1.ui.Display.getInstance();
-    _r2_o = ((global::com.codename1.ui.Form) _r4_o)._fpreviousForm;
-    ((global::com.codename1.ui.Display) _r1_o).setCurrent((global::com.codename1.ui.Form) _r2_o, 0!=_r3.i);
-    goto label46;
+    label41:;
+    _r0.i = _r4.i;
+    goto label18;
+    label43:;
+    _r1_o = ((global::com.codename1.ui.Form) _r1_o)._fpreviousForm;
+    goto label28;
+    label46:;
+    _r2_o = ((global::com.codename1.ui.Form) _r6_o)._fpreviousForm;
+    ((global::com.codename1.ui.Form) _r2_o)._ftint = 0!=_r4.i;
+    _r2_o = ((global::com.codename1.ui.Form) _r6_o)._fpreviousForm;
+    _r2.i = ((_r2_o != null) && (_r2_o is global::com.codename1.ui.Dialog)) ? 1 : 0;
+    if (_r2.i == 0) goto label80;
+    _r2_o = ((global::com.codename1.ui.Form) _r6_o)._fpreviousForm;
+    _r2_o = _r2_o;
+    _r2.i = ((global::com.codename1.ui.Dialog) _r2_o).isDisposed() ? 1 : 0;
+    if (_r2.i != 0) goto label75;
+    _r2_o = global::com.codename1.ui.Display.getInstance();
+    _r3_o = ((global::com.codename1.ui.Form) _r6_o)._fpreviousForm;
+    ((global::com.codename1.ui.Display) _r2_o).setCurrent((global::com.codename1.ui.Form) _r3_o, 0!=_r4.i);
+    label75:;
+    if (_r0.i == 0) goto label40;
+    ((global::com.codename1.ui.Form) _r6_o)._fpreviousForm = (global::com.codename1.ui.Form) _r5_o;
+    goto label40;
+    label80:;
+    _r2_o = global::com.codename1.ui.Display.getInstance();
+    _r3_o = ((global::com.codename1.ui.Form) _r6_o)._fpreviousForm;
+    ((global::com.codename1.ui.Display) _r2_o).setCurrent((global::com.codename1.ui.Form) _r3_o, 0!=_r4.i);
+    goto label75;
 //XMLVM_END_WRAPPER[com.codename1.ui.Form: void disposeImpl()]
 }
 
@@ -3973,118 +4221,121 @@ public override void pointerPressed(int n1, int n2){
     global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
+    global::org.xmlvm._nElement _r10;
+    global::System.Object _r10_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
-    _r7_o = this;
-    _r8.i = n1;
-    _r9.i = n2;
-    _r6.i = 1;
+    _r8_o = this;
+    _r9.i = n1;
+    _r10.i = n2;
+    _r7.i = 1;
     _r4_o = null;
-    ((global::com.codename1.ui.Form) _r7_o)._fstickyDrag = (global::com.codename1.ui.Component) _r4_o;
+    ((global::com.codename1.ui.Form) _r8_o)._fstickyDrag = (global::com.codename1.ui.Component) _r4_o;
     _r4.i = 0;
-    ((global::com.codename1.ui.Form) _r7_o)._fdragStopFlag = 0!=_r4.i;
-    _r4_o = ((global::com.codename1.ui.Form) _r7_o)._fpointerPressedListeners;
-    if (_r4_o == null) goto label29;
-    _r4_o = ((global::com.codename1.ui.Form) _r7_o)._fpointerPressedListeners;
+    ((global::com.codename1.ui.Form) _r8_o)._fdragStopFlag = 0!=_r4.i;
+    _r4_o = ((global::com.codename1.ui.Form) _r8_o)._fpointerPressedListeners;
+    if (_r4_o == null) goto label31;
+    _r4_o = ((global::com.codename1.ui.Form) _r8_o)._fpointerPressedListeners;
     _r4.i = ((global::com.codename1.ui.util.EventDispatcher) _r4_o).hasListeners() ? 1 : 0;
-    if (_r4.i == 0) goto label29;
-    _r4_o = ((global::com.codename1.ui.Form) _r7_o)._fpointerPressedListeners;
+    if (_r4.i == 0) goto label31;
+    _r4_o = ((global::com.codename1.ui.Form) _r8_o)._fpointerPressedListeners;
     _r5_o = new global::com.codename1.ui.events.ActionEvent();
-    ((global::com.codename1.ui.events.ActionEvent) _r5_o).@this((global::java.lang.Object) _r7_o, (int) _r8.i, (int) _r9.i);
+    _r6_o = global::com.codename1.ui.events.ActionEvent_2Type._fPointerPressed;
+    ((global::com.codename1.ui.events.ActionEvent) _r5_o).@this((global::java.lang.Object) _r8_o, (global::com.codename1.ui.events.ActionEvent_2Type) _r6_o, (int) _r9.i, (int) _r10.i);
     ((global::com.codename1.ui.util.EventDispatcher) _r4_o).fireActionEvent((global::com.codename1.ui.events.ActionEvent) _r5_o);
-    label29:;
-    _r4_o = ((global::com.codename1.ui.Form) _r7_o)._fmenuBar;
-    _r4.i = ((global::com.codename1.ui.MenuBar) _r4_o).contains((int) _r8.i, (int) _r9.i) ? 1 : 0;
-    if (_r4.i == 0) goto label58;
-    _r4_o = ((global::com.codename1.ui.Form) _r7_o)._fmenuBar;
-    _r2_o = ((global::com.codename1.ui.MenuBar) _r4_o).getComponentAt((int) _r8.i, (int) _r9.i);
-    if (_r2_o == null) goto label57;
+    label31:;
+    _r4_o = ((global::com.codename1.ui.Form) _r8_o)._fmenuBar;
+    _r4.i = ((global::com.codename1.ui.MenuBar) _r4_o).contains((int) _r9.i, (int) _r10.i) ? 1 : 0;
+    if (_r4.i == 0) goto label60;
+    _r4_o = ((global::com.codename1.ui.Form) _r8_o)._fmenuBar;
+    _r2_o = ((global::com.codename1.ui.MenuBar) _r4_o).getComponentAt((int) _r9.i, (int) _r10.i);
+    if (_r2_o == null) goto label59;
     _r4.i = ((global::com.codename1.ui.Component) _r2_o).isEnabled() ? 1 : 0;
-    if (_r4.i == 0) goto label57;
-    ((global::com.codename1.ui.Component) _r2_o).pointerPressed((int) _r8.i, (int) _r9.i);
-    ((global::com.codename1.ui.Form) _r7_o).tactileTouchVibe((int) _r8.i, (int) _r9.i, (global::com.codename1.ui.Component) _r2_o);
-    label57:;
+    if (_r4.i == 0) goto label59;
+    ((global::com.codename1.ui.Component) _r2_o).pointerPressed((int) _r9.i, (int) _r10.i);
+    ((global::com.codename1.ui.Form) _r8_o).tactileTouchVibe((int) _r9.i, (int) _r10.i, (global::com.codename1.ui.Component) _r2_o);
+    label59:;
     return;
-    label58:;
-    _r1_o = ((global::com.codename1.ui.Form) _r7_o).getActualPane();
+    label60:;
+    _r1_o = ((global::com.codename1.ui.Form) _r8_o).getActualPane();
     _r4.i = ((global::com.codename1.ui.Container) _r1_o).getY();
-    if (_r9.i < _r4.i) goto label172;
+    if (_r10.i < _r4.i) goto label174;
     _r4.i = ((global::com.codename1.ui.Container) _r1_o).getX();
-    if (_r8.i < _r4.i) goto label172;
-    _r2_o = ((global::com.codename1.ui.Container) _r1_o).getComponentAt((int) _r8.i, (int) _r9.i);
-    if (_r2_o == null) goto label124;
-    ((global::com.codename1.ui.Component) _r2_o).initDragAndDrop((int) _r8.i, (int) _r9.i);
+    if (_r9.i < _r4.i) goto label174;
+    _r2_o = ((global::com.codename1.ui.Container) _r1_o).getComponentAt((int) _r9.i, (int) _r10.i);
+    if (_r2_o == null) goto label126;
+    ((global::com.codename1.ui.Component) _r2_o).initDragAndDrop((int) _r9.i, (int) _r10.i);
     _r4.i = ((global::com.codename1.ui.Component) _r2_o)._fhasLead ? 1 : 0;
-    if (_r4.i == 0) goto label138;
-    _r4.i = ((global::com.codename1.ui.Form) _r7_o).isCurrentlyScrolling((global::com.codename1.ui.Component) _r2_o) ? 1 : 0;
-    if (_r4.i == 0) goto label99;
-    ((global::com.codename1.ui.Form) _r7_o)._fdragStopFlag = 0!=_r6.i;
+    if (_r4.i == 0) goto label140;
+    _r4.i = ((global::com.codename1.ui.Form) _r8_o).isCurrentlyScrolling((global::com.codename1.ui.Component) _r2_o) ? 1 : 0;
+    if (_r4.i == 0) goto label101;
+    ((global::com.codename1.ui.Form) _r8_o)._fdragStopFlag = 0!=_r7.i;
     ((global::com.codename1.ui.Component) _r2_o).clearDrag();
-    goto label57;
-    label99:;
+    goto label59;
+    label101:;
     _r4.i = ((_r2_o != null) && (_r2_o is global::com.codename1.ui.Container)) ? 1 : 0;
-    if (_r4.i == 0) goto label129;
+    if (_r4.i == 0) goto label131;
     _r0_o = _r2_o;
     _r0_o = _r0_o;
     _r4_o = _r0_o;
     _r3_o = ((global::com.codename1.ui.Container) _r4_o).getLeadParent();
-    label111:;
+    label113:;
     ((global::com.codename1.ui.Container) _r3_o).repaint();
-    ((global::com.codename1.ui.Form) _r7_o).setFocused((global::com.codename1.ui.Component) _r3_o);
+    ((global::com.codename1.ui.Form) _r8_o).setFocused((global::com.codename1.ui.Component) _r3_o);
     _r4_o = ((global::com.codename1.ui.Component) _r2_o).getLeadComponent();
-    ((global::com.codename1.ui.Component) _r4_o).pointerPressed((int) _r8.i, (int) _r9.i);
-    label124:;
-    ((global::com.codename1.ui.Form) _r7_o)._finitialPressX = _r8.i;
-    ((global::com.codename1.ui.Form) _r7_o)._finitialPressY = _r9.i;
-    goto label57;
-    label129:;
+    ((global::com.codename1.ui.Component) _r4_o).pointerPressed((int) _r9.i, (int) _r10.i);
+    label126:;
+    ((global::com.codename1.ui.Form) _r8_o)._finitialPressX = _r9.i;
+    ((global::com.codename1.ui.Form) _r8_o)._finitialPressY = _r10.i;
+    goto label59;
+    label131:;
     _r4_o = ((global::com.codename1.ui.Component) _r2_o).getParent();
     _r3_o = ((global::com.codename1.ui.Container) _r4_o).getLeadParent();
-    goto label111;
-    label138:;
-    _r4.i = ((global::com.codename1.ui.Form) _r7_o).isCurrentlyScrolling((global::com.codename1.ui.Component) _r2_o) ? 1 : 0;
-    if (_r4.i == 0) goto label150;
-    ((global::com.codename1.ui.Form) _r7_o)._fdragStopFlag = 0!=_r6.i;
+    goto label113;
+    label140:;
+    _r4.i = ((global::com.codename1.ui.Form) _r8_o).isCurrentlyScrolling((global::com.codename1.ui.Component) _r2_o) ? 1 : 0;
+    if (_r4.i == 0) goto label152;
+    ((global::com.codename1.ui.Form) _r8_o)._fdragStopFlag = 0!=_r7.i;
     ((global::com.codename1.ui.Component) _r2_o).clearDrag();
-    goto label57;
-    label150:;
+    goto label59;
+    label152:;
     _r4.i = ((global::com.codename1.ui.Component) _r2_o).isEnabled() ? 1 : 0;
-    if (_r4.i == 0) goto label124;
+    if (_r4.i == 0) goto label126;
     _r4.i = ((global::com.codename1.ui.Component) _r2_o).isFocusable() ? 1 : 0;
-    if (_r4.i == 0) goto label165;
-    ((global::com.codename1.ui.Form) _r7_o).setFocused((global::com.codename1.ui.Component) _r2_o);
-    label165:;
-    ((global::com.codename1.ui.Component) _r2_o).pointerPressed((int) _r8.i, (int) _r9.i);
-    ((global::com.codename1.ui.Form) _r7_o).tactileTouchVibe((int) _r8.i, (int) _r9.i, (global::com.codename1.ui.Component) _r2_o);
-    goto label124;
-    label172:;
+    if (_r4.i == 0) goto label167;
+    ((global::com.codename1.ui.Form) _r8_o).setFocused((global::com.codename1.ui.Component) _r2_o);
+    label167:;
+    ((global::com.codename1.ui.Component) _r2_o).pointerPressed((int) _r9.i, (int) _r10.i);
+    ((global::com.codename1.ui.Form) _r8_o).tactileTouchVibe((int) _r9.i, (int) _r10.i, (global::com.codename1.ui.Component) _r2_o);
+    goto label126;
+    label174:;
     _r4.i = ((global::com.codename1.ui.Container) _r1_o).getY();
-    if (_r9.i >= _r4.i) goto label207;
-    _r4_o = ((global::com.codename1.ui.Form) _r7_o).getTitleArea();
-    _r2_o = ((global::com.codename1.ui.Container) _r4_o).getComponentAt((int) _r8.i, (int) _r9.i);
-    if (_r2_o == null) goto label124;
+    if (_r10.i >= _r4.i) goto label209;
+    _r4_o = ((global::com.codename1.ui.Form) _r8_o).getTitleArea();
+    _r2_o = ((global::com.codename1.ui.Container) _r4_o).getComponentAt((int) _r9.i, (int) _r10.i);
+    if (_r2_o == null) goto label126;
     _r4.i = ((global::com.codename1.ui.Component) _r2_o).isEnabled() ? 1 : 0;
-    if (_r4.i == 0) goto label124;
+    if (_r4.i == 0) goto label126;
     _r4.i = ((global::com.codename1.ui.Component) _r2_o).isFocusable() ? 1 : 0;
-    if (_r4.i == 0) goto label124;
-    ((global::com.codename1.ui.Component) _r2_o).pointerPressed((int) _r8.i, (int) _r9.i);
-    ((global::com.codename1.ui.Form) _r7_o).tactileTouchVibe((int) _r8.i, (int) _r9.i, (global::com.codename1.ui.Component) _r2_o);
-    goto label124;
-    label207:;
+    if (_r4.i == 0) goto label126;
+    ((global::com.codename1.ui.Component) _r2_o).pointerPressed((int) _r9.i, (int) _r10.i);
+    ((global::com.codename1.ui.Form) _r8_o).tactileTouchVibe((int) _r9.i, (int) _r10.i, (global::com.codename1.ui.Component) _r2_o);
+    goto label126;
+    label209:;
     _r4_o = base.getLayout();
     _r4_o = _r4_o;
     _r2_o = ((global::com.codename1.ui.layouts.BorderLayout) _r4_o).getWest();
-    if (_r2_o == null) goto label124;
+    if (_r2_o == null) goto label126;
     _r2_o = _r2_o;
-    _r2_o = ((global::com.codename1.ui.Container) _r2_o).getComponentAt((int) _r8.i, (int) _r9.i);
-    if (_r2_o == null) goto label124;
+    _r2_o = ((global::com.codename1.ui.Container) _r2_o).getComponentAt((int) _r9.i, (int) _r10.i);
+    if (_r2_o == null) goto label126;
     _r4.i = ((global::com.codename1.ui.Component) _r2_o).isEnabled() ? 1 : 0;
-    if (_r4.i == 0) goto label124;
+    if (_r4.i == 0) goto label126;
     _r4.i = ((global::com.codename1.ui.Component) _r2_o).isFocusable() ? 1 : 0;
-    if (_r4.i == 0) goto label124;
-    ((global::com.codename1.ui.Component) _r2_o).initDragAndDrop((int) _r8.i, (int) _r9.i);
-    ((global::com.codename1.ui.Component) _r2_o).pointerPressed((int) _r8.i, (int) _r9.i);
-    ((global::com.codename1.ui.Form) _r7_o).tactileTouchVibe((int) _r8.i, (int) _r9.i, (global::com.codename1.ui.Component) _r2_o);
-    goto label124;
+    if (_r4.i == 0) goto label126;
+    ((global::com.codename1.ui.Component) _r2_o).initDragAndDrop((int) _r9.i, (int) _r10.i);
+    ((global::com.codename1.ui.Component) _r2_o).pointerPressed((int) _r9.i, (int) _r10.i);
+    ((global::com.codename1.ui.Form) _r8_o).tactileTouchVibe((int) _r9.i, (int) _r10.i, (global::com.codename1.ui.Component) _r2_o);
+    goto label126;
 //XMLVM_END_WRAPPER[com.codename1.ui.Form: void pointerPressed(int, int)]
 }
 
@@ -4234,69 +4485,72 @@ public override void pointerDragged(int n1, int n2){
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
-    _r4_o = this;
-    _r5.i = n1;
-    _r6.i = n2;
-    _r2.i = ((global::com.codename1.ui.Form) _r4_o)._fdragStopFlag ? 1 : 0;
+    _r5_o = this;
+    _r6.i = n1;
+    _r7.i = n2;
+    _r2.i = ((global::com.codename1.ui.Form) _r5_o)._fdragStopFlag ? 1 : 0;
     if (_r2.i == 0) goto label7;
-    ((global::com.codename1.ui.Form) _r4_o).pointerPressed((int) _r5.i, (int) _r6.i);
+    ((global::com.codename1.ui.Form) _r5_o).pointerPressed((int) _r6.i, (int) _r7.i);
     label7:;
-    ((global::com.codename1.ui.Form) _r4_o).autoRelease((int) _r5.i, (int) _r6.i);
-    _r2_o = ((global::com.codename1.ui.Form) _r4_o)._fpointerDraggedListeners;
-    if (_r2_o == null) goto label24;
-    _r2_o = ((global::com.codename1.ui.Form) _r4_o)._fpointerDraggedListeners;
+    ((global::com.codename1.ui.Form) _r5_o).autoRelease((int) _r6.i, (int) _r7.i);
+    _r2_o = ((global::com.codename1.ui.Form) _r5_o)._fpointerDraggedListeners;
+    if (_r2_o == null) goto label26;
+    _r2_o = ((global::com.codename1.ui.Form) _r5_o)._fpointerDraggedListeners;
     _r3_o = new global::com.codename1.ui.events.ActionEvent();
-    ((global::com.codename1.ui.events.ActionEvent) _r3_o).@this((global::java.lang.Object) _r4_o, (int) _r5.i, (int) _r6.i);
+    _r4_o = global::com.codename1.ui.events.ActionEvent_2Type._fPointerDrag;
+    ((global::com.codename1.ui.events.ActionEvent) _r3_o).@this((global::java.lang.Object) _r5_o, (global::com.codename1.ui.events.ActionEvent_2Type) _r4_o, (int) _r6.i, (int) _r7.i);
     ((global::com.codename1.ui.util.EventDispatcher) _r2_o).fireActionEvent((global::com.codename1.ui.events.ActionEvent) _r3_o);
-    label24:;
-    _r2_o = ((global::com.codename1.ui.Form) _r4_o)._fdragged;
-    if (_r2_o == null) goto label34;
-    _r2_o = ((global::com.codename1.ui.Form) _r4_o)._fdragged;
-    ((global::com.codename1.ui.Component) _r2_o).pointerDragged((int) _r5.i, (int) _r6.i);
-    label33:;
+    label26:;
+    _r2_o = ((global::com.codename1.ui.Form) _r5_o)._fdragged;
+    if (_r2_o == null) goto label36;
+    _r2_o = ((global::com.codename1.ui.Form) _r5_o)._fdragged;
+    ((global::com.codename1.ui.Component) _r2_o).pointerDragged((int) _r6.i, (int) _r7.i);
+    label35:;
     return;
-    label34:;
-    _r2_o = ((global::com.codename1.ui.Form) _r4_o)._fstickyDrag;
-    if (_r2_o == null) goto label47;
-    _r2_o = ((global::com.codename1.ui.Form) _r4_o)._fstickyDrag;
-    ((global::com.codename1.ui.Component) _r2_o).pointerDragged((int) _r5.i, (int) _r6.i);
-    ((global::com.codename1.ui.Form) _r4_o).repaint();
-    goto label33;
-    label47:;
-    _r0_o = ((global::com.codename1.ui.Form) _r4_o).getActualPane();
+    label36:;
+    _r2_o = ((global::com.codename1.ui.Form) _r5_o)._fstickyDrag;
+    if (_r2_o == null) goto label49;
+    _r2_o = ((global::com.codename1.ui.Form) _r5_o)._fstickyDrag;
+    ((global::com.codename1.ui.Component) _r2_o).pointerDragged((int) _r6.i, (int) _r7.i);
+    ((global::com.codename1.ui.Form) _r5_o).repaint();
+    goto label35;
+    label49:;
+    _r0_o = ((global::com.codename1.ui.Form) _r5_o).getActualPane();
     _r2.i = ((global::com.codename1.ui.Container) _r0_o).getX();
-    if (_r5.i >= _r2.i) goto label98;
+    if (_r6.i >= _r2.i) goto label100;
     _r2_o = base.getLayout();
     _r2_o = _r2_o;
     _r1_o = ((global::com.codename1.ui.layouts.BorderLayout) _r2_o).getWest();
-    if (_r1_o == null) goto label33;
+    if (_r1_o == null) goto label35;
     _r1_o = _r1_o;
-    _r1_o = ((global::com.codename1.ui.Container) _r1_o).getComponentAt((int) _r5.i, (int) _r6.i);
-    if (_r1_o == null) goto label33;
+    _r1_o = ((global::com.codename1.ui.Container) _r1_o).getComponentAt((int) _r6.i, (int) _r7.i);
+    if (_r1_o == null) goto label35;
     _r2.i = ((global::com.codename1.ui.Component) _r1_o).isEnabled() ? 1 : 0;
-    if (_r2.i == 0) goto label33;
-    ((global::com.codename1.ui.Component) _r1_o).pointerDragged((int) _r5.i, (int) _r6.i);
+    if (_r2.i == 0) goto label35;
+    ((global::com.codename1.ui.Component) _r1_o).pointerDragged((int) _r6.i, (int) _r7.i);
     ((global::com.codename1.ui.Component) _r1_o).repaint();
     _r2.i = ((global::com.codename1.ui.Component) _r1_o).isStickyDrag() ? 1 : 0;
-    if (_r2.i == 0) goto label33;
-    ((global::com.codename1.ui.Form) _r4_o)._fstickyDrag = (global::com.codename1.ui.Component) _r1_o;
-    goto label33;
-    label98:;
-    _r1_o = ((global::com.codename1.ui.Container) _r0_o).getComponentAt((int) _r5.i, (int) _r6.i);
-    if (_r1_o == null) goto label33;
+    if (_r2.i == 0) goto label35;
+    ((global::com.codename1.ui.Form) _r5_o)._fstickyDrag = (global::com.codename1.ui.Component) _r1_o;
+    goto label35;
+    label100:;
+    _r1_o = ((global::com.codename1.ui.Container) _r0_o).getComponentAt((int) _r6.i, (int) _r7.i);
+    if (_r1_o == null) goto label35;
     _r2.i = ((global::com.codename1.ui.Component) _r1_o).isFocusable() ? 1 : 0;
-    if (_r2.i == 0) goto label119;
+    if (_r2.i == 0) goto label121;
     _r2.i = ((global::com.codename1.ui.Component) _r1_o).isEnabled() ? 1 : 0;
-    if (_r2.i == 0) goto label119;
-    ((global::com.codename1.ui.Form) _r4_o).setFocused((global::com.codename1.ui.Component) _r1_o);
-    label119:;
-    ((global::com.codename1.ui.Component) _r1_o).pointerDragged((int) _r5.i, (int) _r6.i);
+    if (_r2.i == 0) goto label121;
+    ((global::com.codename1.ui.Form) _r5_o).setFocused((global::com.codename1.ui.Component) _r1_o);
+    label121:;
+    ((global::com.codename1.ui.Component) _r1_o).pointerDragged((int) _r6.i, (int) _r7.i);
     ((global::com.codename1.ui.Component) _r1_o).repaint();
     _r2.i = ((global::com.codename1.ui.Component) _r1_o).isStickyDrag() ? 1 : 0;
-    if (_r2.i == 0) goto label33;
-    ((global::com.codename1.ui.Form) _r4_o)._fstickyDrag = (global::com.codename1.ui.Component) _r1_o;
-    goto label33;
+    if (_r2.i == 0) goto label35;
+    ((global::com.codename1.ui.Form) _r5_o)._fstickyDrag = (global::com.codename1.ui.Component) _r1_o;
+    goto label35;
 //XMLVM_END_WRAPPER[com.codename1.ui.Form: void pointerDragged(int, int)]
 }
 
@@ -4322,82 +4576,85 @@ public override void pointerDragged(global::org.xmlvm._nArrayAdapter<int> n1, gl
     global::System.Object _r8_o = null;
     global::org.xmlvm._nElement _r9;
     global::System.Object _r9_o = null;
+    global::org.xmlvm._nElement _r10;
+    global::System.Object _r10_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
-    _r7_o = this;
-    _r8_o = n1;
-    _r9_o = n2;
-    _r6.i = 0;
-    _r2.i = ((global::com.codename1.ui.Form) _r7_o)._fdragStopFlag ? 1 : 0;
+    _r8_o = this;
+    _r9_o = n1;
+    _r10_o = n2;
+    _r7.i = 0;
+    _r2.i = ((global::com.codename1.ui.Form) _r8_o)._fdragStopFlag ? 1 : 0;
     if (_r2.i == 0) goto label8;
-    ((global::com.codename1.ui.Form) _r7_o).pointerPressed((global::org.xmlvm._nArrayAdapter<int>) _r8_o, (global::org.xmlvm._nArrayAdapter<int>) _r9_o);
+    ((global::com.codename1.ui.Form) _r8_o).pointerPressed((global::org.xmlvm._nArrayAdapter<int>) _r9_o, (global::org.xmlvm._nArrayAdapter<int>) _r10_o);
     label8:;
-    _r2.i = ((global::org.xmlvm._nArrayAdapter<int>) _r8_o)[_r6.i];
-    _r3.i = ((global::org.xmlvm._nArrayAdapter<int>) _r9_o)[_r6.i];
-    ((global::com.codename1.ui.Form) _r7_o).autoRelease((int) _r2.i, (int) _r3.i);
-    _r2_o = ((global::com.codename1.ui.Form) _r7_o)._fpointerDraggedListeners;
-    if (_r2_o == null) goto label41;
-    _r2_o = ((global::com.codename1.ui.Form) _r7_o)._fpointerDraggedListeners;
+    _r2.i = ((global::org.xmlvm._nArrayAdapter<int>) _r9_o)[_r7.i];
+    _r3.i = ((global::org.xmlvm._nArrayAdapter<int>) _r10_o)[_r7.i];
+    ((global::com.codename1.ui.Form) _r8_o).autoRelease((int) _r2.i, (int) _r3.i);
+    _r2_o = ((global::com.codename1.ui.Form) _r8_o)._fpointerDraggedListeners;
+    if (_r2_o == null) goto label43;
+    _r2_o = ((global::com.codename1.ui.Form) _r8_o)._fpointerDraggedListeners;
     _r2.i = ((global::com.codename1.ui.util.EventDispatcher) _r2_o).hasListeners() ? 1 : 0;
-    if (_r2.i == 0) goto label41;
-    _r2_o = ((global::com.codename1.ui.Form) _r7_o)._fpointerDraggedListeners;
+    if (_r2.i == 0) goto label43;
+    _r2_o = ((global::com.codename1.ui.Form) _r8_o)._fpointerDraggedListeners;
     _r3_o = new global::com.codename1.ui.events.ActionEvent();
-    _r4.i = ((global::org.xmlvm._nArrayAdapter<int>) _r8_o)[_r6.i];
-    _r5.i = ((global::org.xmlvm._nArrayAdapter<int>) _r9_o)[_r6.i];
-    ((global::com.codename1.ui.events.ActionEvent) _r3_o).@this((global::java.lang.Object) _r7_o, (int) _r4.i, (int) _r5.i);
+    _r4_o = global::com.codename1.ui.events.ActionEvent_2Type._fPointerDrag;
+    _r5.i = ((global::org.xmlvm._nArrayAdapter<int>) _r9_o)[_r7.i];
+    _r6.i = ((global::org.xmlvm._nArrayAdapter<int>) _r10_o)[_r7.i];
+    ((global::com.codename1.ui.events.ActionEvent) _r3_o).@this((global::java.lang.Object) _r8_o, (global::com.codename1.ui.events.ActionEvent_2Type) _r4_o, (int) _r5.i, (int) _r6.i);
     ((global::com.codename1.ui.util.EventDispatcher) _r2_o).fireActionEvent((global::com.codename1.ui.events.ActionEvent) _r3_o);
-    label41:;
-    _r2_o = ((global::com.codename1.ui.Form) _r7_o)._fdragged;
-    if (_r2_o == null) goto label51;
-    _r2_o = ((global::com.codename1.ui.Form) _r7_o)._fdragged;
-    ((global::com.codename1.ui.Component) _r2_o).pointerDragged((global::org.xmlvm._nArrayAdapter<int>) _r8_o, (global::org.xmlvm._nArrayAdapter<int>) _r9_o);
-    label50:;
+    label43:;
+    _r2_o = ((global::com.codename1.ui.Form) _r8_o)._fdragged;
+    if (_r2_o == null) goto label53;
+    _r2_o = ((global::com.codename1.ui.Form) _r8_o)._fdragged;
+    ((global::com.codename1.ui.Component) _r2_o).pointerDragged((global::org.xmlvm._nArrayAdapter<int>) _r9_o, (global::org.xmlvm._nArrayAdapter<int>) _r10_o);
+    label52:;
     return;
-    label51:;
-    _r2_o = ((global::com.codename1.ui.Form) _r7_o)._fstickyDrag;
-    if (_r2_o == null) goto label64;
-    _r2_o = ((global::com.codename1.ui.Form) _r7_o)._fstickyDrag;
-    ((global::com.codename1.ui.Component) _r2_o).pointerDragged((global::org.xmlvm._nArrayAdapter<int>) _r8_o, (global::org.xmlvm._nArrayAdapter<int>) _r9_o);
-    ((global::com.codename1.ui.Form) _r7_o).repaint();
-    goto label50;
-    label64:;
-    _r0_o = ((global::com.codename1.ui.Form) _r7_o).getActualPane();
-    _r2.i = ((global::org.xmlvm._nArrayAdapter<int>) _r8_o)[_r6.i];
+    label53:;
+    _r2_o = ((global::com.codename1.ui.Form) _r8_o)._fstickyDrag;
+    if (_r2_o == null) goto label66;
+    _r2_o = ((global::com.codename1.ui.Form) _r8_o)._fstickyDrag;
+    ((global::com.codename1.ui.Component) _r2_o).pointerDragged((global::org.xmlvm._nArrayAdapter<int>) _r9_o, (global::org.xmlvm._nArrayAdapter<int>) _r10_o);
+    ((global::com.codename1.ui.Form) _r8_o).repaint();
+    goto label52;
+    label66:;
+    _r0_o = ((global::com.codename1.ui.Form) _r8_o).getActualPane();
+    _r2.i = ((global::org.xmlvm._nArrayAdapter<int>) _r9_o)[_r7.i];
     _r3.i = ((global::com.codename1.ui.Container) _r0_o).getX();
-    if (_r2.i >= _r3.i) goto label121;
+    if (_r2.i >= _r3.i) goto label123;
     _r2_o = base.getLayout();
     _r2_o = _r2_o;
     _r1_o = ((global::com.codename1.ui.layouts.BorderLayout) _r2_o).getWest();
-    if (_r1_o == null) goto label50;
+    if (_r1_o == null) goto label52;
     _r1_o = _r1_o;
-    _r2.i = ((global::org.xmlvm._nArrayAdapter<int>) _r8_o)[_r6.i];
-    _r3.i = ((global::org.xmlvm._nArrayAdapter<int>) _r9_o)[_r6.i];
+    _r2.i = ((global::org.xmlvm._nArrayAdapter<int>) _r9_o)[_r7.i];
+    _r3.i = ((global::org.xmlvm._nArrayAdapter<int>) _r10_o)[_r7.i];
     _r1_o = ((global::com.codename1.ui.Container) _r1_o).getComponentAt((int) _r2.i, (int) _r3.i);
-    if (_r1_o == null) goto label50;
+    if (_r1_o == null) goto label52;
     _r2.i = ((global::com.codename1.ui.Component) _r1_o).isEnabled() ? 1 : 0;
-    if (_r2.i == 0) goto label50;
-    ((global::com.codename1.ui.Component) _r1_o).pointerDragged((global::org.xmlvm._nArrayAdapter<int>) _r8_o, (global::org.xmlvm._nArrayAdapter<int>) _r9_o);
+    if (_r2.i == 0) goto label52;
+    ((global::com.codename1.ui.Component) _r1_o).pointerDragged((global::org.xmlvm._nArrayAdapter<int>) _r9_o, (global::org.xmlvm._nArrayAdapter<int>) _r10_o);
     ((global::com.codename1.ui.Component) _r1_o).repaint();
     _r2.i = ((global::com.codename1.ui.Component) _r1_o).isStickyDrag() ? 1 : 0;
-    if (_r2.i == 0) goto label50;
-    ((global::com.codename1.ui.Form) _r7_o)._fstickyDrag = (global::com.codename1.ui.Component) _r1_o;
-    goto label50;
-    label121:;
-    _r2.i = ((global::org.xmlvm._nArrayAdapter<int>) _r8_o)[_r6.i];
-    _r3.i = ((global::org.xmlvm._nArrayAdapter<int>) _r9_o)[_r6.i];
+    if (_r2.i == 0) goto label52;
+    ((global::com.codename1.ui.Form) _r8_o)._fstickyDrag = (global::com.codename1.ui.Component) _r1_o;
+    goto label52;
+    label123:;
+    _r2.i = ((global::org.xmlvm._nArrayAdapter<int>) _r9_o)[_r7.i];
+    _r3.i = ((global::org.xmlvm._nArrayAdapter<int>) _r10_o)[_r7.i];
     _r1_o = ((global::com.codename1.ui.Container) _r0_o).getComponentAt((int) _r2.i, (int) _r3.i);
-    if (_r1_o == null) goto label50;
+    if (_r1_o == null) goto label52;
     _r2.i = ((global::com.codename1.ui.Component) _r1_o).isFocusable() ? 1 : 0;
-    if (_r2.i == 0) goto label146;
+    if (_r2.i == 0) goto label148;
     _r2.i = ((global::com.codename1.ui.Component) _r1_o).isEnabled() ? 1 : 0;
-    if (_r2.i == 0) goto label146;
-    ((global::com.codename1.ui.Form) _r7_o).setFocused((global::com.codename1.ui.Component) _r1_o);
-    label146:;
-    ((global::com.codename1.ui.Component) _r1_o).pointerDragged((global::org.xmlvm._nArrayAdapter<int>) _r8_o, (global::org.xmlvm._nArrayAdapter<int>) _r9_o);
+    if (_r2.i == 0) goto label148;
+    ((global::com.codename1.ui.Form) _r8_o).setFocused((global::com.codename1.ui.Component) _r1_o);
+    label148:;
+    ((global::com.codename1.ui.Component) _r1_o).pointerDragged((global::org.xmlvm._nArrayAdapter<int>) _r9_o, (global::org.xmlvm._nArrayAdapter<int>) _r10_o);
     ((global::com.codename1.ui.Component) _r1_o).repaint();
     _r2.i = ((global::com.codename1.ui.Component) _r1_o).isStickyDrag() ? 1 : 0;
-    if (_r2.i == 0) goto label50;
-    ((global::com.codename1.ui.Form) _r7_o)._fstickyDrag = (global::com.codename1.ui.Component) _r1_o;
-    goto label50;
+    if (_r2.i == 0) goto label52;
+    ((global::com.codename1.ui.Form) _r8_o)._fstickyDrag = (global::com.codename1.ui.Component) _r1_o;
+    goto label52;
 //XMLVM_END_WRAPPER[com.codename1.ui.Form: void pointerDragged(int[], int[])]
 }
 
@@ -4735,29 +4992,31 @@ public override void pointerReleased(int n1, int n2){
     _r0_o = _r20_o;
     _r0_o = ((global::com.codename1.ui.Form) _r0_o)._fpointerReleasedListeners;
     _r15_o = _r0_o;
-    if (_r15_o == null) goto label188;
+    if (_r15_o == null) goto label191;
     _r0_o = _r20_o;
     _r0_o = ((global::com.codename1.ui.Form) _r0_o)._fpointerReleasedListeners;
     _r15_o = _r0_o;
     _r15.i = ((global::com.codename1.ui.util.EventDispatcher) _r15_o).hasListeners() ? 1 : 0;
-    if (_r15.i == 0) goto label188;
+    if (_r15.i == 0) goto label191;
     _r9_o = new global::com.codename1.ui.events.ActionEvent();
+    _r15_o = global::com.codename1.ui.events.ActionEvent_2Type._fPointerReleased;
     _r0_o = _r9_o;
     _r1_o = _r20_o;
-    _r2.i = _r21.i;
-    _r3.i = _r22.i;
-    ((global::com.codename1.ui.events.ActionEvent) _r0_o).@this((global::java.lang.Object) _r1_o, (int) _r2.i, (int) _r3.i);
+    _r2_o = _r15_o;
+    _r3.i = _r21.i;
+    _r4.i = _r22.i;
+    ((global::com.codename1.ui.events.ActionEvent) _r0_o).@this((global::java.lang.Object) _r1_o, (global::com.codename1.ui.events.ActionEvent_2Type) _r2_o, (int) _r3.i, (int) _r4.i);
     _r0_o = _r20_o;
     _r0_o = ((global::com.codename1.ui.Form) _r0_o)._fpointerReleasedListeners;
     _r15_o = _r0_o;
     ((global::com.codename1.ui.util.EventDispatcher) _r15_o).fireActionEvent((global::com.codename1.ui.events.ActionEvent) _r9_o);
     _r15.i = ((global::com.codename1.ui.events.ActionEvent) _r9_o).isConsumed() ? 1 : 0;
     if (_r15.i != 0) goto label51;
-    label188:;
+    label191:;
     _r0_o = _r20_o;
     _r0.i = ((global::com.codename1.ui.Form) _r0_o)._fdragStopFlag ? 1 : 0;
     _r15.i = _r0.i;
-    if (_r15.i == 0) goto label209;
+    if (_r15.i == 0) goto label212;
     _r15.i = 0;
     _r0.i = _r15.i;
     _r1_o = _r20_o;
@@ -4767,11 +5026,11 @@ public override void pointerReleased(int n1, int n2){
     _r1_o = _r20_o;
     ((global::com.codename1.ui.Form) _r1_o)._fdragged = (global::com.codename1.ui.Component) _r0_o;
     goto label51;
-    label209:;
+    label212:;
     _r0_o = _r20_o;
     _r0_o = ((global::com.codename1.ui.Form) _r0_o)._fdragged;
     _r15_o = _r0_o;
-    if (_r15_o != null) goto label539;
+    if (_r15_o != null) goto label542;
     _r0_o = _r20_o;
     _r0_o = ((global::com.codename1.ui.Form) _r0_o)._fmenuBar;
     _r15_o = _r0_o;
@@ -4779,7 +5038,7 @@ public override void pointerReleased(int n1, int n2){
     _r1.i = _r21.i;
     _r2.i = _r22.i;
     _r15.i = ((global::com.codename1.ui.MenuBar) _r0_o).contains((int) _r1.i, (int) _r2.i) ? 1 : 0;
-    if (_r15.i == 0) goto label264;
+    if (_r15.i == 0) goto label267;
     _r0_o = _r20_o;
     _r0_o = ((global::com.codename1.ui.Form) _r0_o)._fmenuBar;
     _r15_o = _r0_o;
@@ -4795,11 +5054,11 @@ public override void pointerReleased(int n1, int n2){
     _r2.i = _r22.i;
     ((global::com.codename1.ui.Component) _r0_o).pointerReleased((int) _r1.i, (int) _r2.i);
     goto label51;
-    label264:;
+    label267:;
     _r0_o = _r20_o;
     _r0_o = ((global::com.codename1.ui.Form) _r0_o)._fstickyDrag;
     _r15_o = _r0_o;
-    if (_r15_o == null) goto label343;
+    if (_r15_o == null) goto label346;
     _r0_o = _r20_o;
     _r0_o = ((global::com.codename1.ui.Form) _r0_o)._fstickyDrag;
     _r15_o = _r0_o;
@@ -4808,7 +5067,7 @@ public override void pointerReleased(int n1, int n2){
     _r2.i = _r22.i;
     ((global::com.codename1.ui.Component) _r0_o).pointerReleased((int) _r1.i, (int) _r2.i);
     ((global::com.codename1.ui.Form) _r20_o).repaint();
-    label287:;
+    label290:;
     _r15_o = null;
     _r0_o = _r15_o;
     _r1_o = _r20_o;
@@ -4821,12 +5080,12 @@ public override void pointerReleased(int n1, int n2){
     _r15.i = ((global::com.codename1.ui.Display) _r15_o).isRecursivePointerRelease() ? 1 : 0;
     if (_r15.i != 0) goto label51;
     _r10.i = 0;
-    label311:;
+    label314:;
     _r0_o = _r20_o;
     _r0_o = ((global::com.codename1.ui.Form) _r0_o)._fbuttonsAwatingRelease;
     _r15_o = _r0_o;
     _r15.i = ((global::java.util.ArrayList) _r15_o).size();
-    if (_r10.i >= _r15.i) goto label592;
+    if (_r10.i >= _r15.i) goto label595;
     _r0_o = _r20_o;
     _r0_o = ((global::com.codename1.ui.Form) _r0_o)._fbuttonsAwatingRelease;
     _r15_o = _r0_o;
@@ -4836,33 +5095,33 @@ public override void pointerReleased(int n1, int n2){
     ((global::com.codename1.ui.Button) _r7_o).setState((int) _r15.i);
     ((global::com.codename1.ui.Button) _r7_o).repaint();
     _r10.i = _r10.i + 1;
-    goto label311;
-    label343:;
+    goto label314;
+    label346:;
     _r5_o = ((global::com.codename1.ui.Form) _r20_o).getActualPane();
     _r15.i = ((global::com.codename1.ui.Container) _r5_o).getY();
     _r0.i = _r22.i;
     _r1.i = _r15.i;
-    if (_r0.i < _r1.i) goto label458;
+    if (_r0.i < _r1.i) goto label461;
     _r15.i = ((global::com.codename1.ui.Container) _r5_o).getX();
     _r0.i = _r21.i;
     _r1.i = _r15.i;
-    if (_r0.i < _r1.i) goto label458;
+    if (_r0.i < _r1.i) goto label461;
     _r0_o = _r5_o;
     _r1.i = _r21.i;
     _r2.i = _r22.i;
     _r8_o = ((global::com.codename1.ui.Container) _r0_o).getComponentAt((int) _r1.i, (int) _r2.i);
-    if (_r8_o == null) goto label287;
+    if (_r8_o == null) goto label290;
     _r15.i = ((global::com.codename1.ui.Component) _r8_o).isEnabled() ? 1 : 0;
-    if (_r15.i == 0) goto label287;
+    if (_r15.i == 0) goto label290;
     _r15.i = ((global::com.codename1.ui.Component) _r8_o)._fhasLead ? 1 : 0;
-    if (_r15.i == 0) goto label430;
+    if (_r15.i == 0) goto label433;
     _r15.i = ((_r8_o != null) && (_r8_o is global::com.codename1.ui.Container)) ? 1 : 0;
-    if (_r15.i == 0) goto label421;
+    if (_r15.i == 0) goto label424;
     _r0_o = _r8_o;
     _r0_o = _r0_o;
     _r9_o = _r0_o;
     _r11_o = ((global::com.codename1.ui.Container) _r9_o).getLeadParent();
-    label398:;
+    label401:;
     ((global::com.codename1.ui.Container) _r11_o).repaint();
     _r0_o = _r20_o;
     _r1_o = _r11_o;
@@ -4872,67 +5131,67 @@ public override void pointerReleased(int n1, int n2){
     _r1.i = _r21.i;
     _r2.i = _r22.i;
     ((global::com.codename1.ui.Component) _r0_o).pointerReleased((int) _r1.i, (int) _r2.i);
-    goto label287;
-    label421:;
+    goto label290;
+    label424:;
     _r15_o = ((global::com.codename1.ui.Component) _r8_o).getParent();
     _r11_o = ((global::com.codename1.ui.Container) _r15_o).getLeadParent();
-    goto label398;
-    label430:;
+    goto label401;
+    label433:;
     _r15.i = ((global::com.codename1.ui.Component) _r8_o).isEnabled() ? 1 : 0;
-    if (_r15.i == 0) goto label287;
+    if (_r15.i == 0) goto label290;
     _r15.i = ((global::com.codename1.ui.Component) _r8_o).isFocusable() ? 1 : 0;
-    if (_r15.i == 0) goto label448;
+    if (_r15.i == 0) goto label451;
     _r0_o = _r20_o;
     _r1_o = _r8_o;
     ((global::com.codename1.ui.Form) _r0_o).setFocused((global::com.codename1.ui.Component) _r1_o);
-    label448:;
+    label451:;
     _r0_o = _r8_o;
     _r1.i = _r21.i;
     _r2.i = _r22.i;
     ((global::com.codename1.ui.Component) _r0_o).pointerReleased((int) _r1.i, (int) _r2.i);
-    goto label287;
-    label458:;
+    goto label290;
+    label461:;
     _r15.i = ((global::com.codename1.ui.Container) _r5_o).getY();
     _r0.i = _r22.i;
     _r1.i = _r15.i;
-    if (_r0.i >= _r1.i) goto label498;
+    if (_r0.i >= _r1.i) goto label501;
     _r15_o = ((global::com.codename1.ui.Form) _r20_o).getTitleArea();
     _r0_o = _r15_o;
     _r1.i = _r21.i;
     _r2.i = _r22.i;
     _r8_o = ((global::com.codename1.ui.Container) _r0_o).getComponentAt((int) _r1.i, (int) _r2.i);
-    if (_r8_o == null) goto label287;
+    if (_r8_o == null) goto label290;
     _r15.i = ((global::com.codename1.ui.Component) _r8_o).isEnabled() ? 1 : 0;
-    if (_r15.i == 0) goto label287;
+    if (_r15.i == 0) goto label290;
     _r0_o = _r8_o;
     _r1.i = _r21.i;
     _r2.i = _r22.i;
     ((global::com.codename1.ui.Component) _r0_o).pointerReleased((int) _r1.i, (int) _r2.i);
-    goto label287;
-    label498:;
+    goto label290;
+    label501:;
     _r5_o = base.getLayout();
     _r5_o = _r5_o;
     _r8_o = ((global::com.codename1.ui.layouts.BorderLayout) _r5_o).getWest();
-    if (_r8_o == null) goto label287;
+    if (_r8_o == null) goto label290;
     _r8_o = _r8_o;
     _r0_o = _r8_o;
     _r1.i = _r21.i;
     _r2.i = _r22.i;
     _r8_o = ((global::com.codename1.ui.Container) _r0_o).getComponentAt((int) _r1.i, (int) _r2.i);
-    if (_r8_o == null) goto label287;
+    if (_r8_o == null) goto label290;
     _r15.i = ((global::com.codename1.ui.Component) _r8_o).isEnabled() ? 1 : 0;
-    if (_r15.i == 0) goto label287;
+    if (_r15.i == 0) goto label290;
     _r0_o = _r8_o;
     _r1.i = _r21.i;
     _r2.i = _r22.i;
     ((global::com.codename1.ui.Component) _r0_o).pointerReleased((int) _r1.i, (int) _r2.i);
-    goto label287;
-    label539:;
+    goto label290;
+    label542:;
     _r0_o = _r20_o;
     _r0_o = ((global::com.codename1.ui.Form) _r0_o)._fdragged;
     _r15_o = _r0_o;
     _r15.i = ((global::com.codename1.ui.Component) _r15_o).isDragAndDropInitialized() ? 1 : 0;
-    if (_r15.i == 0) goto label571;
+    if (_r15.i == 0) goto label574;
     _r0_o = _r20_o;
     _r0_o = ((global::com.codename1.ui.Form) _r0_o)._fdragged;
     _r15_o = _r0_o;
@@ -4944,8 +5203,8 @@ public override void pointerReleased(int n1, int n2){
     _r0_o = _r15_o;
     _r1_o = _r20_o;
     ((global::com.codename1.ui.Form) _r1_o)._fdragged = (global::com.codename1.ui.Component) _r0_o;
-    goto label287;
-    label571:;
+    goto label290;
+    label574:;
     _r0_o = _r20_o;
     _r0_o = ((global::com.codename1.ui.Form) _r0_o)._fdragged;
     _r15_o = _r0_o;
@@ -4957,8 +5216,8 @@ public override void pointerReleased(int n1, int n2){
     _r0_o = _r15_o;
     _r1_o = _r20_o;
     ((global::com.codename1.ui.Form) _r1_o)._fdragged = (global::com.codename1.ui.Component) _r0_o;
-    goto label287;
-    label592:;
+    goto label290;
+    label595:;
     _r15_o = null;
     _r0_o = _r15_o;
     _r1_o = _r20_o;
@@ -6049,6 +6308,24 @@ public virtual void setToolBar(global::com.codename1.ui.Toolbar n1){
 //XMLVM_END_WRAPPER[com.codename1.ui.Form: void setToolBar(com.codename1.ui.Toolbar)]
 }
 
+public virtual void setToolbar(global::com.codename1.ui.Toolbar n1){
+//XMLVM_BEGIN_WRAPPER[com.codename1.ui.Form: void setToolbar(com.codename1.ui.Toolbar)]
+    global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
+    _r1_o = this;
+    _r2_o = n1;
+    ((global::com.codename1.ui.Form) _r1_o)._ftoolbar = (global::com.codename1.ui.Toolbar) _r2_o;
+    _r0_o = ((global::com.codename1.ui.Toolbar) _r2_o).getMenuBar();
+    ((global::com.codename1.ui.Form) _r1_o).setMenuBar((global::com.codename1.ui.MenuBar) _r0_o);
+    return;
+//XMLVM_END_WRAPPER[com.codename1.ui.Form: void setToolbar(com.codename1.ui.Toolbar)]
+}
+
 public virtual global::System.Object getToolbar(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Form: com.codename1.ui.Toolbar getToolbar()]
     global::org.xmlvm._nElement _r0;
@@ -6265,6 +6542,33 @@ public override global::System.Object setPropertyValue(global::java.lang.String 
     _r0_o = base.setPropertyValue((global::java.lang.String) _r3_o, (global::java.lang.Object) _r4_o);
     goto label25;
 //XMLVM_END_WRAPPER[com.codename1.ui.Form: java.lang.String setPropertyValue(java.lang.String, java.lang.Object)]
+}
+
+public virtual global::System.Object getEditOnShow(){
+//XMLVM_BEGIN_WRAPPER[com.codename1.ui.Form: com.codename1.ui.TextArea getEditOnShow()]
+    global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
+    _r1_o = this;
+    _r0_o = ((global::com.codename1.ui.Form) _r1_o)._feditOnShow;
+    return (global::com.codename1.ui.TextArea) _r0_o;
+//XMLVM_END_WRAPPER[com.codename1.ui.Form: com.codename1.ui.TextArea getEditOnShow()]
+}
+
+public virtual void setEditOnShow(global::com.codename1.ui.TextArea n1){
+//XMLVM_BEGIN_WRAPPER[com.codename1.ui.Form: void setEditOnShow(com.codename1.ui.TextArea)]
+    global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
+    _r0_o = this;
+    _r1_o = n1;
+    ((global::com.codename1.ui.Form) _r0_o)._feditOnShow = (global::com.codename1.ui.TextArea) _r1_o;
+    return;
+//XMLVM_END_WRAPPER[com.codename1.ui.Form: void setEditOnShow(com.codename1.ui.TextArea)]
 }
 
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Form]

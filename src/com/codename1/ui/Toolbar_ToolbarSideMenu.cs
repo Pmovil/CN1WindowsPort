@@ -20,6 +20,60 @@ public void @this(global::com.codename1.ui.Toolbar n1){
 //XMLVM_END_WRAPPER[com.codename1.ui.Toolbar$ToolbarSideMenu: void <init>(com.codename1.ui.Toolbar)]
 }
 
+public override global::System.Object createSideNavigationComponent(global::java.util.Vector n1, global::java.lang.String n2){
+//XMLVM_BEGIN_WRAPPER[com.codename1.ui.Toolbar$ToolbarSideMenu: com.codename1.ui.Container createSideNavigationComponent(java.util.Vector, java.lang.String)]
+    global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
+    _r1_o = this;
+    _r2_o = n1;
+    _r3_o = n2;
+    _r0_o = ((global::com.codename1.ui.Toolbar_2ToolbarSideMenu) _r1_o)._fthis_20;
+    _r0_o = ((global::com.codename1.ui.Toolbar) _r0_o).createSideNavigationComponent((global::java.util.Vector) _r2_o, (global::java.lang.String) _r3_o);
+    return (global::com.codename1.ui.Container) _r0_o;
+//XMLVM_END_WRAPPER[com.codename1.ui.Toolbar$ToolbarSideMenu: com.codename1.ui.Container createSideNavigationComponent(java.util.Vector, java.lang.String)]
+}
+
+public override global::System.Object constructSideNavigationComponent(){
+//XMLVM_BEGIN_WRAPPER[com.codename1.ui.Toolbar$ToolbarSideMenu: com.codename1.ui.Container constructSideNavigationComponent()]
+    global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
+    _r1_o = this;
+    _r0_o = ((global::com.codename1.ui.Toolbar_2ToolbarSideMenu) _r1_o)._fthis_20;
+    _r0_o = ((global::com.codename1.ui.Toolbar) _r0_o).constructSideNavigationComponent();
+    return (global::com.codename1.ui.Container) _r0_o;
+//XMLVM_END_WRAPPER[com.codename1.ui.Toolbar$ToolbarSideMenu: com.codename1.ui.Container constructSideNavigationComponent()]
+}
+
+public override void addComponentToSideMenu(global::com.codename1.ui.Container n1, global::com.codename1.ui.Component n2){
+//XMLVM_BEGIN_WRAPPER[com.codename1.ui.Toolbar$ToolbarSideMenu: void addComponentToSideMenu(com.codename1.ui.Container, com.codename1.ui.Component)]
+    global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
+    _r1_o = this;
+    _r2_o = n1;
+    _r3_o = n2;
+    _r0_o = ((global::com.codename1.ui.Toolbar_2ToolbarSideMenu) _r1_o)._fthis_20;
+    ((global::com.codename1.ui.Toolbar) _r0_o).addComponentToSideMenu((global::com.codename1.ui.Container) _r2_o, (global::com.codename1.ui.Component) _r3_o);
+    return;
+//XMLVM_END_WRAPPER[com.codename1.ui.Toolbar$ToolbarSideMenu: void addComponentToSideMenu(com.codename1.ui.Container, com.codename1.ui.Component)]
+}
+
 public override global::System.Object getTitleAreaContainer(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Toolbar$ToolbarSideMenu: com.codename1.ui.Container getTitleAreaContainer()]
     global::org.xmlvm._nElement _r0;
@@ -42,7 +96,7 @@ public override global::System.Object getTitleComponent(){
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r0_o = ((global::com.codename1.ui.Toolbar_2ToolbarSideMenu) _r1_o)._fthis_20;
-    _r0_o = global::com.codename1.ui.Toolbar.access_2400((global::com.codename1.ui.Toolbar) _r0_o);
+    _r0_o = ((global::com.codename1.ui.Toolbar) _r0_o).getTitleComponent();
     return (global::com.codename1.ui.Component) _r0_o;
 //XMLVM_END_WRAPPER[com.codename1.ui.Toolbar$ToolbarSideMenu: com.codename1.ui.Component getTitleComponent()]
 }
@@ -92,7 +146,7 @@ public override void initMenuBar(global::com.codename1.ui.Form n1){
     label48:;
     _r4_o = ((global::com.codename1.ui.Toolbar_2ToolbarSideMenu) _r6_o)._fthis_20;
     _r5.i = 1;
-    global::com.codename1.ui.Toolbar.access_2502((global::com.codename1.ui.Toolbar) _r4_o, 0!=_r5.i);
+    global::com.codename1.ui.Toolbar.access_2402((global::com.codename1.ui.Toolbar) _r4_o, 0!=_r5.i);
     _r4_o = ((global::com.codename1.ui.Toolbar_2ToolbarSideMenu) _r6_o)._fthis_20;
     _r5_o = ((global::com.codename1.ui.Form) _r7_o).getTitle();
     ((global::com.codename1.ui.Toolbar) _r4_o).setTitle((global::java.lang.String) _r5_o);
@@ -187,129 +241,181 @@ public override void installRightCommands(){
     global::System.Object _r14_o = null;
     global::org.xmlvm._nElement _r15;
     global::System.Object _r15_o = null;
+    global::org.xmlvm._nElement _r16;
+    global::System.Object _r16_o = null;
+    global::org.xmlvm._nElement _r17;
+    global::System.Object _r17_o = null;
+    global::org.xmlvm._nElement _r18;
+    global::System.Object _r18_o = null;
+    global::org.xmlvm._nElement _r19;
+    global::System.Object _r19_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
-    _r15_o = this;
+    _r19_o = this;
+    // Value=TitleCommand
+    _r18_o = new global::java.lang.String();
+    ((global::java.lang.String)_r18_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)84)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 67)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 109)), unchecked((char) unchecked((uint) 109)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 100))}));
     // Value=East
+    _r17_o = new global::java.lang.String();
+    ((global::java.lang.String)_r17_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)69)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 115)), unchecked((char) unchecked((uint) 116))}));
+    // Value=overflow
+    _r16_o = new global::java.lang.String();
+    ((global::java.lang.String)_r16_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)111)), unchecked((char) unchecked((uint) 118)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 102)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 119))}));
+    base.installRightCommands();
+    _r0_o = _r19_o;
+    _r0_o = ((global::com.codename1.ui.Toolbar_2ToolbarSideMenu) _r0_o)._fthis_20;
+    _r12_o = _r0_o;
+    _r12_o = global::com.codename1.ui.Toolbar.access_2700((global::com.codename1.ui.Toolbar) _r12_o);
+    if (_r12_o == null) goto label181;
+    _r0_o = _r19_o;
+    _r0_o = ((global::com.codename1.ui.Toolbar_2ToolbarSideMenu) _r0_o)._fthis_20;
+    _r12_o = _r0_o;
+    _r12_o = global::com.codename1.ui.Toolbar.access_2700((global::com.codename1.ui.Toolbar) _r12_o);
+    _r12.i = ((global::java.util.Vector) _r12_o).size();
+    if (_r12.i <= 0) goto label181;
+    _r12_o = global::com.codename1.ui.plaf.UIManager.getInstance();
+    // Value=menuImage
+    _r13_o = new global::java.lang.String();
+    ((global::java.lang.String)_r13_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)109)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 117)), unchecked((char) unchecked((uint) 73)), unchecked((char) unchecked((uint) 109)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 103)), unchecked((char) unchecked((uint) 101))}));
+    _r9_o = ((global::com.codename1.ui.plaf.UIManager) _r12_o).getThemeImageConstant((global::java.lang.String) _r13_o);
+    if (_r9_o != null) goto label67;
+    _r12.i = 58836;
+    _r13_o = global::com.codename1.ui.plaf.UIManager.getInstance();
+    // Value=TitleCommand
     _r14_o = new global::java.lang.String();
-    ((global::java.lang.String)_r14_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)69)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 115)), unchecked((char) unchecked((uint) 116))}));
+    ((global::java.lang.String)_r14_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)84)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 67)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 109)), unchecked((char) unchecked((uint) 109)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 100))}));
+    _r0_o = _r13_o;
+    _r1_o = _r18_o;
+    _r13_o = ((global::com.codename1.ui.plaf.UIManager) _r0_o).getComponentStyle((global::java.lang.String) _r1_o);
+    _r9_o = global::com.codename1.ui.FontImage.createMaterial((char) _r12.i, (global::com.codename1.ui.plaf.Style) _r13_o);
+    label67:;
+    _r0_o = _r19_o;
+    _r0_o = ((global::com.codename1.ui.Toolbar_2ToolbarSideMenu) _r0_o)._fthis_20;
+    _r12_o = _r0_o;
+    _r0_o = _r19_o;
+    _r0_o = ((global::com.codename1.ui.Toolbar_2ToolbarSideMenu) _r0_o)._fthis_20;
+    _r13_o = _r0_o;
+    _r13_o = global::com.codename1.ui.Toolbar.access_2900((global::com.codename1.ui.Toolbar) _r13_o);
+    _r14_o = new global::com.codename1.ui.Toolbar_2ToolbarSideMenu_22();
+    // Value=
+    _r15_o = new global::java.lang.String();
+    ((global::java.lang.String)_r15_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {}));
+    _r0_o = _r14_o;
+    _r1_o = _r19_o;
+    _r2_o = _r15_o;
+    _r3_o = _r9_o;
+    ((global::com.codename1.ui.Toolbar_2ToolbarSideMenu_22) _r0_o).@this((global::com.codename1.ui.Toolbar_2ToolbarSideMenu) _r1_o, (global::java.lang.String) _r2_o, (global::com.codename1.ui.Image) _r3_o);
+    _r13_o = ((global::com.codename1.ui.Toolbar_2ToolbarSideMenu) _r13_o).createTouchCommandButton((global::com.codename1.ui.Command) _r14_o);
+    global::com.codename1.ui.Toolbar.access_2802((global::com.codename1.ui.Toolbar) _r12_o, (global::com.codename1.ui.Button) _r13_o);
+    _r0_o = _r19_o;
+    _r0_o = ((global::com.codename1.ui.Toolbar_2ToolbarSideMenu) _r0_o)._fthis_20;
+    _r12_o = _r0_o;
+    _r12_o = global::com.codename1.ui.Toolbar.access_2800((global::com.codename1.ui.Toolbar) _r12_o);
     // Value=overflow
     _r13_o = new global::java.lang.String();
     ((global::java.lang.String)_r13_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)111)), unchecked((char) unchecked((uint) 118)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 102)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 119))}));
-    base.installRightCommands();
-    _r9_o = ((global::com.codename1.ui.Toolbar_2ToolbarSideMenu) _r15_o)._fthis_20;
-    _r9_o = global::com.codename1.ui.Toolbar.access_2800((global::com.codename1.ui.Toolbar) _r9_o);
-    if (_r9_o == null) goto label132;
-    _r9_o = ((global::com.codename1.ui.Toolbar_2ToolbarSideMenu) _r15_o)._fthis_20;
-    _r9_o = global::com.codename1.ui.Toolbar.access_2800((global::com.codename1.ui.Toolbar) _r9_o);
-    _r9.i = ((global::java.util.Vector) _r9_o).size();
-    if (_r9.i <= 0) goto label132;
-    _r9_o = global::com.codename1.ui.plaf.UIManager.getInstance();
-    // Value=menuImage
-    _r10_o = new global::java.lang.String();
-    ((global::java.lang.String)_r10_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)109)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 117)), unchecked((char) unchecked((uint) 73)), unchecked((char) unchecked((uint) 109)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 103)), unchecked((char) unchecked((uint) 101))}));
-    _r6_o = ((global::com.codename1.ui.plaf.UIManager) _r9_o).getThemeImageConstant((global::java.lang.String) _r10_o);
-    if (_r6_o != null) goto label49;
-    _r9_o = global::com.codename1.ui.util.Resources.getSystemResource();
-    // Value=of_menu.png
-    _r10_o = new global::java.lang.String();
-    ((global::java.lang.String)_r10_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)111)), unchecked((char) unchecked((uint) 102)), unchecked((char) unchecked((uint) 95)), unchecked((char) unchecked((uint) 109)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 117)), unchecked((char) unchecked((uint) 46)), unchecked((char) unchecked((uint) 112)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 103))}));
-    _r6_o = ((global::com.codename1.ui.util.Resources) _r9_o).getImage((global::java.lang.String) _r10_o);
-    label49:;
-    _r9_o = ((global::com.codename1.ui.Toolbar_2ToolbarSideMenu) _r15_o)._fthis_20;
-    _r10_o = ((global::com.codename1.ui.Toolbar_2ToolbarSideMenu) _r15_o)._fthis_20;
-    _r10_o = global::com.codename1.ui.Toolbar.access_21000((global::com.codename1.ui.Toolbar) _r10_o);
-    _r11_o = new global::com.codename1.ui.Toolbar_2ToolbarSideMenu_22();
-    // Value=
-    _r12_o = new global::java.lang.String();
-    ((global::java.lang.String)_r12_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {}));
-    ((global::com.codename1.ui.Toolbar_2ToolbarSideMenu_22) _r11_o).@this((global::com.codename1.ui.Toolbar_2ToolbarSideMenu) _r15_o, (global::java.lang.String) _r12_o, (global::com.codename1.ui.Image) _r6_o);
-    _r10_o = ((global::com.codename1.ui.Toolbar_2ToolbarSideMenu) _r10_o).createTouchCommandButton((global::com.codename1.ui.Command) _r11_o);
-    global::com.codename1.ui.Toolbar.access_2902((global::com.codename1.ui.Toolbar) _r9_o, (global::com.codename1.ui.Button) _r10_o);
-    _r9_o = ((global::com.codename1.ui.Toolbar_2ToolbarSideMenu) _r15_o)._fthis_20;
-    _r9_o = global::com.codename1.ui.Toolbar.access_2900((global::com.codename1.ui.Toolbar) _r9_o);
-    // Value=overflow
-    _r10_o = new global::java.lang.String();
-    ((global::java.lang.String)_r10_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)111)), unchecked((char) unchecked((uint) 118)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 102)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 119))}));
-    _r10_o = global::java.lang.Boolean._fTRUE;
-    ((global::com.codename1.ui.Button) _r9_o).putClientProperty((global::java.lang.String) _r13_o, (global::java.lang.Object) _r10_o);
-    _r9_o = ((global::com.codename1.ui.Toolbar_2ToolbarSideMenu) _r15_o)._fthis_20;
-    _r9_o = global::com.codename1.ui.Toolbar.access_2900((global::com.codename1.ui.Toolbar) _r9_o);
+    _r13_o = global::java.lang.Boolean._fTRUE;
+    _r0_o = _r12_o;
+    _r1_o = _r16_o;
+    _r2_o = _r13_o;
+    ((global::com.codename1.ui.Button) _r0_o).putClientProperty((global::java.lang.String) _r1_o, (global::java.lang.Object) _r2_o);
+    _r0_o = _r19_o;
+    _r0_o = ((global::com.codename1.ui.Toolbar_2ToolbarSideMenu) _r0_o)._fthis_20;
+    _r12_o = _r0_o;
+    _r12_o = global::com.codename1.ui.Toolbar.access_2800((global::com.codename1.ui.Toolbar) _r12_o);
     // Value=TitleCommand
-    _r10_o = new global::java.lang.String();
-    ((global::java.lang.String)_r10_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)84)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 67)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 109)), unchecked((char) unchecked((uint) 109)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 100))}));
-    ((global::com.codename1.ui.Button) _r9_o).setUIID((global::java.lang.String) _r10_o);
-    _r9_o = ((global::com.codename1.ui.Toolbar_2ToolbarSideMenu) _r15_o).getTitleAreaContainer();
-    _r8_o = ((global::com.codename1.ui.Container) _r9_o).getLayout();
-    _r9.i = ((_r8_o != null) && (_r8_o is global::com.codename1.ui.layouts.BorderLayout)) ? 1 : 0;
-    if (_r9.i == 0) goto label132;
-    _r0_o = _r8_o;
-    _r0_o = _r0_o;
-    _r1_o = _r0_o;
-    _r5_o = ((global::com.codename1.ui.layouts.BorderLayout) _r1_o).getEast();
-    if (_r5_o != null) goto label133;
-    _r9_o = ((global::com.codename1.ui.Toolbar_2ToolbarSideMenu) _r15_o).getTitleAreaContainer();
-    // Value=East
-    _r10_o = new global::java.lang.String();
-    ((global::java.lang.String)_r10_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)69)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 115)), unchecked((char) unchecked((uint) 116))}));
-    _r10_o = ((global::com.codename1.ui.Toolbar_2ToolbarSideMenu) _r15_o)._fthis_20;
-    _r10_o = global::com.codename1.ui.Toolbar.access_2900((global::com.codename1.ui.Toolbar) _r10_o);
-    ((global::com.codename1.ui.Container) _r9_o).addComponent((global::java.lang.Object) _r14_o, (global::com.codename1.ui.Component) _r10_o);
-    label132:;
-    return;
-    label133:;
-    _r9.i = ((_r5_o != null) && (_r5_o is global::com.codename1.ui.Container)) ? 1 : 0;
-    if (_r9.i == 0) goto label184;
-    _r0_o = _r5_o;
+    _r13_o = new global::java.lang.String();
+    ((global::java.lang.String)_r13_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)84)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 67)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 109)), unchecked((char) unchecked((uint) 109)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 100))}));
+    _r0_o = _r12_o;
+    _r1_o = _r18_o;
+    ((global::com.codename1.ui.Button) _r0_o).setUIID((global::java.lang.String) _r1_o);
+    _r12_o = ((global::com.codename1.ui.Toolbar_2ToolbarSideMenu) _r19_o).getTitleAreaContainer();
+    _r11_o = ((global::com.codename1.ui.Container) _r12_o).getLayout();
+    _r12.i = ((_r11_o != null) && (_r11_o is global::com.codename1.ui.layouts.BorderLayout)) ? 1 : 0;
+    if (_r12.i == 0) goto label181;
+    _r0_o = _r11_o;
     _r0_o = _r0_o;
     _r4_o = _r0_o;
-    _r7.i = 0;
-    label142:;
-    _r9.i = ((global::com.codename1.ui.Container) _r4_o).getComponentCount();
-    if (_r7.i >= _r9.i) goto label170;
-    _r3_o = ((global::com.codename1.ui.Container) _r4_o).getComponentAt((int) _r7.i);
-    _r9.i = ((_r3_o != null) && (_r3_o is global::com.codename1.ui.Button)) ? 1 : 0;
-    if (_r9.i == 0) goto label167;
-    // Value=overflow
-    _r9_o = new global::java.lang.String();
-    ((global::java.lang.String)_r9_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)111)), unchecked((char) unchecked((uint) 118)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 102)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 119))}));
-    _r9_o = ((global::com.codename1.ui.Component) _r3_o).getClientProperty((global::java.lang.String) _r13_o);
-    if (_r9_o == null) goto label167;
-    ((global::com.codename1.ui.Container) _r4_o).removeComponent((global::com.codename1.ui.Component) _r3_o);
-    label167:;
-    _r7.i = _r7.i + 1;
-    goto label142;
-    label170:;
-    _r9.i = ((global::com.codename1.ui.Container) _r4_o).getComponentCount();
-    _r10_o = ((global::com.codename1.ui.Toolbar_2ToolbarSideMenu) _r15_o)._fthis_20;
-    _r10_o = global::com.codename1.ui.Toolbar.access_2900((global::com.codename1.ui.Toolbar) _r10_o);
-    ((global::com.codename1.ui.Container) _r4_o).addComponent((int) _r9.i, (global::com.codename1.ui.Component) _r10_o);
-    goto label132;
-    label184:;
-    _r9.i = ((_r5_o != null) && (_r5_o is global::com.codename1.ui.Button)) ? 1 : 0;
-    if (_r9.i == 0) goto label196;
-    // Value=overflow
-    _r9_o = new global::java.lang.String();
-    ((global::java.lang.String)_r9_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)111)), unchecked((char) unchecked((uint) 118)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 102)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 119))}));
-    _r9_o = ((global::com.codename1.ui.Component) _r5_o).getClientProperty((global::java.lang.String) _r13_o);
-    if (_r9_o != null) goto label132;
-    label196:;
-    _r9_o = ((global::com.codename1.ui.Component) _r5_o).getParent();
-    ((global::com.codename1.ui.Container) _r9_o).removeComponent((global::com.codename1.ui.Component) _r5_o);
-    _r2_o = new global::com.codename1.ui.Container();
-    _r9_o = new global::com.codename1.ui.layouts.BoxLayout();
-    _r10.i = 1;
-    ((global::com.codename1.ui.layouts.BoxLayout) _r9_o).@this((int) _r10.i);
-    ((global::com.codename1.ui.Container) _r2_o).@this((global::com.codename1.ui.layouts.Layout) _r9_o);
-    ((global::com.codename1.ui.Container) _r2_o).addComponent((global::com.codename1.ui.Component) _r5_o);
-    _r9_o = ((global::com.codename1.ui.Toolbar_2ToolbarSideMenu) _r15_o)._fthis_20;
-    _r9_o = global::com.codename1.ui.Toolbar.access_2900((global::com.codename1.ui.Toolbar) _r9_o);
-    ((global::com.codename1.ui.Container) _r2_o).addComponent((global::com.codename1.ui.Component) _r9_o);
-    _r9_o = ((global::com.codename1.ui.Toolbar_2ToolbarSideMenu) _r15_o).getTitleAreaContainer();
+    _r8_o = ((global::com.codename1.ui.layouts.BorderLayout) _r4_o).getEast();
+    if (_r8_o != null) goto label182;
+    _r12_o = ((global::com.codename1.ui.Toolbar_2ToolbarSideMenu) _r19_o).getTitleAreaContainer();
     // Value=East
-    _r10_o = new global::java.lang.String();
-    ((global::java.lang.String)_r10_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)69)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 115)), unchecked((char) unchecked((uint) 116))}));
-    ((global::com.codename1.ui.Container) _r9_o).addComponent((global::java.lang.Object) _r14_o, (global::com.codename1.ui.Component) _r2_o);
-    goto label132;
+    _r13_o = new global::java.lang.String();
+    ((global::java.lang.String)_r13_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)69)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 115)), unchecked((char) unchecked((uint) 116))}));
+    _r0_o = _r19_o;
+    _r0_o = ((global::com.codename1.ui.Toolbar_2ToolbarSideMenu) _r0_o)._fthis_20;
+    _r13_o = _r0_o;
+    _r13_o = global::com.codename1.ui.Toolbar.access_2800((global::com.codename1.ui.Toolbar) _r13_o);
+    _r0_o = _r12_o;
+    _r1_o = _r17_o;
+    _r2_o = _r13_o;
+    ((global::com.codename1.ui.Container) _r0_o).addComponent((global::java.lang.Object) _r1_o, (global::com.codename1.ui.Component) _r2_o);
+    label181:;
+    return;
+    label182:;
+    _r12.i = ((_r8_o != null) && (_r8_o is global::com.codename1.ui.Container)) ? 1 : 0;
+    if (_r12.i == 0) goto label239;
+    _r0_o = _r8_o;
+    _r0_o = _r0_o;
+    _r7_o = _r0_o;
+    _r10.i = 0;
+    label191:;
+    _r12.i = ((global::com.codename1.ui.Container) _r7_o).getComponentCount();
+    if (_r10.i >= _r12.i) goto label222;
+    _r6_o = ((global::com.codename1.ui.Container) _r7_o).getComponentAt((int) _r10.i);
+    _r12.i = ((_r6_o != null) && (_r6_o is global::com.codename1.ui.Button)) ? 1 : 0;
+    if (_r12.i == 0) goto label219;
+    // Value=overflow
+    _r12_o = new global::java.lang.String();
+    ((global::java.lang.String)_r12_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)111)), unchecked((char) unchecked((uint) 118)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 102)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 119))}));
+    _r0_o = _r6_o;
+    _r1_o = _r16_o;
+    _r12_o = ((global::com.codename1.ui.Component) _r0_o).getClientProperty((global::java.lang.String) _r1_o);
+    if (_r12_o == null) goto label219;
+    ((global::com.codename1.ui.Container) _r7_o).removeComponent((global::com.codename1.ui.Component) _r6_o);
+    label219:;
+    _r10.i = _r10.i + 1;
+    goto label191;
+    label222:;
+    _r12.i = ((global::com.codename1.ui.Container) _r7_o).getComponentCount();
+    _r0_o = _r19_o;
+    _r0_o = ((global::com.codename1.ui.Toolbar_2ToolbarSideMenu) _r0_o)._fthis_20;
+    _r13_o = _r0_o;
+    _r13_o = global::com.codename1.ui.Toolbar.access_2800((global::com.codename1.ui.Toolbar) _r13_o);
+    ((global::com.codename1.ui.Container) _r7_o).addComponent((int) _r12.i, (global::com.codename1.ui.Component) _r13_o);
+    goto label181;
+    label239:;
+    _r12.i = ((_r8_o != null) && (_r8_o is global::com.codename1.ui.Button)) ? 1 : 0;
+    if (_r12.i == 0) goto label254;
+    // Value=overflow
+    _r12_o = new global::java.lang.String();
+    ((global::java.lang.String)_r12_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)111)), unchecked((char) unchecked((uint) 118)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 102)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 119))}));
+    _r0_o = _r8_o;
+    _r1_o = _r16_o;
+    _r12_o = ((global::com.codename1.ui.Component) _r0_o).getClientProperty((global::java.lang.String) _r1_o);
+    if (_r12_o != null) goto label181;
+    label254:;
+    _r12_o = ((global::com.codename1.ui.Component) _r8_o).getParent();
+    ((global::com.codename1.ui.Container) _r12_o).removeComponent((global::com.codename1.ui.Component) _r8_o);
+    _r5_o = new global::com.codename1.ui.Container();
+    _r12_o = new global::com.codename1.ui.layouts.BoxLayout();
+    _r13.i = 1;
+    ((global::com.codename1.ui.layouts.BoxLayout) _r12_o).@this((int) _r13.i);
+    ((global::com.codename1.ui.Container) _r5_o).@this((global::com.codename1.ui.layouts.Layout) _r12_o);
+    ((global::com.codename1.ui.Container) _r5_o).addComponent((global::com.codename1.ui.Component) _r8_o);
+    _r0_o = _r19_o;
+    _r0_o = ((global::com.codename1.ui.Toolbar_2ToolbarSideMenu) _r0_o)._fthis_20;
+    _r12_o = _r0_o;
+    _r12_o = global::com.codename1.ui.Toolbar.access_2800((global::com.codename1.ui.Toolbar) _r12_o);
+    ((global::com.codename1.ui.Container) _r5_o).addComponent((global::com.codename1.ui.Component) _r12_o);
+    _r12_o = ((global::com.codename1.ui.Toolbar_2ToolbarSideMenu) _r19_o).getTitleAreaContainer();
+    // Value=East
+    _r13_o = new global::java.lang.String();
+    ((global::java.lang.String)_r13_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)69)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 115)), unchecked((char) unchecked((uint) 116))}));
+    _r0_o = _r12_o;
+    _r1_o = _r17_o;
+    _r2_o = _r5_o;
+    ((global::com.codename1.ui.Container) _r0_o).addComponent((global::java.lang.Object) _r1_o, (global::com.codename1.ui.Component) _r2_o);
+    goto label181;
 //XMLVM_END_WRAPPER[com.codename1.ui.Toolbar$ToolbarSideMenu: void installRightCommands()]
 }
 
@@ -328,7 +434,7 @@ public override global::System.Object createCommandComponent(global::java.util.V
     _r3_o = n1;
     _r0_o = ((global::com.codename1.ui.Toolbar_2ToolbarSideMenu) _r2_o)._fthis_20;
     _r1_o = ((global::com.codename1.ui.Toolbar_2ToolbarSideMenu) _r2_o)._fthis_20;
-    _r1_o = global::com.codename1.ui.Toolbar.access_2800((global::com.codename1.ui.Toolbar) _r1_o);
+    _r1_o = global::com.codename1.ui.Toolbar.access_2700((global::com.codename1.ui.Toolbar) _r1_o);
     _r0_o = ((global::com.codename1.ui.Toolbar) _r0_o).createOverflowCommandList((global::java.util.Vector) _r1_o);
     return (global::com.codename1.ui.Component) _r0_o;
 //XMLVM_END_WRAPPER[com.codename1.ui.Toolbar$ToolbarSideMenu: com.codename1.ui.Component createCommandComponent(java.util.Vector)]

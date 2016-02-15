@@ -56,33 +56,35 @@ private void initOpaque(){
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
-    _r4_o = this;
-    _r3.i = 0;
-    _r2.i = -16777216;
-    _r1_o = ((global::com.codename1.ui.IndexedImage) _r4_o)._fpalette;
-    if (_r1_o == null) goto label32;
+    _r5_o = this;
+    _r4.i = 0;
+    _r3.i = -16777216;
+    _r2_o = ((global::com.codename1.ui.IndexedImage) _r5_o)._fpalette;
+    if (_r2_o == null) goto label32;
+    _r2_o = ((global::com.codename1.ui.IndexedImage) _r5_o)._fpalette;
+    _r1.i = ((global::org.xmlvm._nIArray) _r2_o).Length;
     _r0.i = 0;
-    label8:;
-    _r1_o = ((global::com.codename1.ui.IndexedImage) _r4_o)._fpalette;
-    _r1.i = ((global::org.xmlvm._nIArray) _r1_o).Length;
+    label11:;
     if (_r0.i >= _r1.i) goto label27;
-    _r1_o = ((global::com.codename1.ui.IndexedImage) _r4_o)._fpalette;
-    _r1.i = ((global::org.xmlvm._nArrayAdapter<int>) _r1_o)[_r0.i];
-    _r1.i = _r1.i & _r2.i;
-    if (_r1.i == _r2.i) goto label24;
-    ((global::com.codename1.ui.IndexedImage) _r4_o).setOpaque(0!=_r3.i);
+    _r2_o = ((global::com.codename1.ui.IndexedImage) _r5_o)._fpalette;
+    _r2.i = ((global::org.xmlvm._nArrayAdapter<int>) _r2_o)[_r0.i];
+    _r2.i = _r2.i & _r3.i;
+    if (_r2.i == _r3.i) goto label24;
+    ((global::com.codename1.ui.IndexedImage) _r5_o).setOpaque(0!=_r4.i);
     label23:;
     return;
     label24:;
     _r0.i = _r0.i + 1;
-    goto label8;
+    goto label11;
     label27:;
-    _r1.i = 1;
-    ((global::com.codename1.ui.IndexedImage) _r4_o).setOpaque(0!=_r1.i);
+    _r2.i = 1;
+    ((global::com.codename1.ui.IndexedImage) _r5_o).setOpaque(0!=_r2.i);
     goto label23;
     label32:;
-    ((global::com.codename1.ui.IndexedImage) _r4_o).setOpaque(0!=_r3.i);
+    ((global::com.codename1.ui.IndexedImage) _r5_o).setOpaque(0!=_r4.i);
     goto label23;
 //XMLVM_END_WRAPPER[com.codename1.ui.IndexedImage: void initOpaque()]
 }
@@ -105,34 +107,36 @@ private void @this(int n1, int n2, global::org.xmlvm._nArrayAdapter<int> n3, glo
     global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
-    _r3_o = this;
-    _r4.i = n1;
-    _r5.i = n2;
-    _r6_o = n3;
-    _r7_o = n4;
-    _r1_o = null;
-    ((global::com.codename1.ui.Image) _r3_o).@this((global::java.lang.Object) _r1_o);
-    ((global::com.codename1.ui.IndexedImage) _r3_o)._fwidth = _r4.i;
-    ((global::com.codename1.ui.IndexedImage) _r3_o)._fheight = _r5.i;
-    ((global::com.codename1.ui.IndexedImage) _r3_o)._fpalette = (global::org.xmlvm._nArrayAdapter<int>) _r6_o;
-    _r1.i = _r4.i * _r5.i;
-    _r1_o = new global::org.xmlvm._nArrayAdapter<sbyte>(new sbyte[_r1.i]);
-    ((global::com.codename1.ui.IndexedImage) _r3_o)._fimageDataByte = (global::org.xmlvm._nArrayAdapter<sbyte>) _r1_o;
-    _r0.i = 0;
-    label17:;
-    _r1_o = ((global::com.codename1.ui.IndexedImage) _r3_o)._fimageDataByte;
-    _r1.i = ((global::org.xmlvm._nIArray) _r1_o).Length;
-    if (_r0.i >= _r1.i) goto label36;
-    _r1_o = ((global::com.codename1.ui.IndexedImage) _r3_o)._fimageDataByte;
-    _r2.i = ((global::org.xmlvm._nArrayAdapter<int>) _r7_o)[_r0.i];
-    _r2.i = ((global::com.codename1.ui.IndexedImage) _r3_o).paletteOffset((int) _r2.i);
-    _r2.i = (_r2.i << 24) >> 24;
-    ((global::org.xmlvm._nArrayAdapter<sbyte>) _r1_o)[_r0.i] = (sbyte)_r2.i;
-    _r0.i = _r0.i + 1;
-    goto label17;
+    _r4_o = this;
+    _r5.i = n1;
+    _r6.i = n2;
+    _r7_o = n3;
+    _r8_o = n4;
+    _r2_o = null;
+    ((global::com.codename1.ui.Image) _r4_o).@this((global::java.lang.Object) _r2_o);
+    ((global::com.codename1.ui.IndexedImage) _r4_o)._fwidth = _r5.i;
+    ((global::com.codename1.ui.IndexedImage) _r4_o)._fheight = _r6.i;
+    ((global::com.codename1.ui.IndexedImage) _r4_o)._fpalette = (global::org.xmlvm._nArrayAdapter<int>) _r7_o;
+    _r2.i = _r5.i * _r6.i;
+    _r2_o = new global::org.xmlvm._nArrayAdapter<sbyte>(new sbyte[_r2.i]);
+    ((global::com.codename1.ui.IndexedImage) _r4_o)._fimageDataByte = (global::org.xmlvm._nArrayAdapter<sbyte>) _r2_o;
+    _r2_o = ((global::com.codename1.ui.IndexedImage) _r4_o)._fimageDataByte;
+    _r0.i = ((global::org.xmlvm._nIArray) _r2_o).Length;
+    _r1.i = 0;
+    label20:;
+    if (_r1.i >= _r0.i) goto label36;
+    _r2_o = ((global::com.codename1.ui.IndexedImage) _r4_o)._fimageDataByte;
+    _r3.i = ((global::org.xmlvm._nArrayAdapter<int>) _r8_o)[_r1.i];
+    _r3.i = ((global::com.codename1.ui.IndexedImage) _r4_o).paletteOffset((int) _r3.i);
+    _r3.i = (_r3.i << 24) >> 24;
+    ((global::org.xmlvm._nArrayAdapter<sbyte>) _r2_o)[_r1.i] = (sbyte)_r3.i;
+    _r1.i = _r1.i + 1;
+    goto label20;
     label36:;
-    ((global::com.codename1.ui.IndexedImage) _r3_o).initOpaque();
+    ((global::com.codename1.ui.IndexedImage) _r4_o).initOpaque();
     return;
 //XMLVM_END_WRAPPER[com.codename1.ui.IndexedImage: void <init>(int, int, int[], int[])]
 }
@@ -149,28 +153,30 @@ private int paletteOffset(int n1){
     global::System.Object _r3_o = null;
     global::org.xmlvm._nElement _r4;
     global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
-    _r3_o = this;
-    _r4.i = n1;
+    _r4_o = this;
+    _r5.i = n1;
+    _r2_o = ((global::com.codename1.ui.IndexedImage) _r4_o)._fpalette;
+    _r1.i = ((global::org.xmlvm._nIArray) _r2_o).Length;
     _r0.i = 0;
-    label1:;
-    _r1_o = ((global::com.codename1.ui.IndexedImage) _r3_o)._fpalette;
-    _r1.i = ((global::org.xmlvm._nIArray) _r1_o).Length;
+    label4:;
     if (_r0.i >= _r1.i) goto label16;
-    _r1_o = ((global::com.codename1.ui.IndexedImage) _r3_o)._fpalette;
-    _r1.i = ((global::org.xmlvm._nArrayAdapter<int>) _r1_o)[_r0.i];
-    if (_r4.i != _r1.i) goto label13;
+    _r2_o = ((global::com.codename1.ui.IndexedImage) _r4_o)._fpalette;
+    _r2.i = ((global::org.xmlvm._nArrayAdapter<int>) _r2_o)[_r0.i];
+    if (_r5.i != _r2.i) goto label13;
     return _r0.i;
     label13:;
     _r0.i = _r0.i + 1;
-    goto label1;
+    goto label4;
     label16:;
-    _r1_o = new global::java.lang.IllegalStateException();
+    _r2_o = new global::java.lang.IllegalStateException();
     // Value=Invalid palette request in paletteOffset
-    _r2_o = new global::java.lang.String();
-    ((global::java.lang.String)_r2_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)73)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 118)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 100)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 112)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 113)), unchecked((char) unchecked((uint) 117)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 115)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 112)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 79)), unchecked((char) unchecked((uint) 102)), unchecked((char) unchecked((uint) 102)), unchecked((char) unchecked((uint) 115)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 116))}));
-    ((global::java.lang.IllegalStateException) _r1_o).@this((global::java.lang.String) _r2_o);
-    throw new global::org.xmlvm._nExceptionAdapter((global::java.lang.IllegalStateException) _r1_o);
+    _r3_o = new global::java.lang.String();
+    ((global::java.lang.String)_r3_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)73)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 118)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 100)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 112)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 113)), unchecked((char) unchecked((uint) 117)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 115)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 112)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 79)), unchecked((char) unchecked((uint) 102)), unchecked((char) unchecked((uint) 102)), unchecked((char) unchecked((uint) 115)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 116))}));
+    ((global::java.lang.IllegalStateException) _r2_o).@this((global::java.lang.String) _r3_o);
+    throw new global::org.xmlvm._nExceptionAdapter((global::java.lang.IllegalStateException) _r2_o);
 //XMLVM_END_WRAPPER[com.codename1.ui.IndexedImage: int paletteOffset(int)]
 }
 
@@ -218,36 +224,38 @@ public override global::System.Object subImage(int n1, int n2, int n3, int n4, b
     global::System.Object _r12_o = null;
     global::org.xmlvm._nElement _r13;
     global::System.Object _r13_o = null;
+    global::org.xmlvm._nElement _r14;
+    global::System.Object _r14_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
-    _r8_o = this;
-    _r9.i = n1;
-    _r10.i = n2;
-    _r11.i = n3;
-    _r12.i = n4;
-    _r13.i = n5 ? 1 : 0;
-    _r5.i = _r11.i * _r12.i;
-    _r0_o = new global::org.xmlvm._nArrayAdapter<sbyte>(new sbyte[_r5.i]);
-    _r3.i = 0;
-    label5:;
-    _r5.i = ((global::org.xmlvm._nIArray) _r0_o).Length;
-    if (_r3.i >= _r5.i) goto label30;
-    _r2.i = _r3.i / _r11.i;
-    _r1.i = _r3.i % _r11.i;
-    _r5.i = _r9.i + _r1.i;
+    _r9_o = this;
+    _r10.i = n1;
+    _r11.i = n2;
+    _r12.i = n3;
+    _r13.i = n4;
+    _r14.i = n5 ? 1 : 0;
+    _r6.i = _r12.i * _r13.i;
+    _r1_o = new global::org.xmlvm._nArrayAdapter<sbyte>(new sbyte[_r6.i]);
+    _r0.i = ((global::org.xmlvm._nIArray) _r1_o).Length;
+    _r4.i = 0;
+    label6:;
+    if (_r4.i >= _r0.i) goto label30;
+    _r3.i = _r4.i / _r12.i;
+    _r2.i = _r4.i % _r12.i;
     _r6.i = _r10.i + _r2.i;
-    _r7.i = ((global::com.codename1.ui.IndexedImage) _r8_o)._fwidth;
-    _r6.i = _r6.i * _r7.i;
-    _r4.i = _r5.i + _r6.i;
-    _r5_o = ((global::com.codename1.ui.IndexedImage) _r8_o)._fimageDataByte;
-    _r5.i = ((global::org.xmlvm._nArrayAdapter<sbyte>) _r5_o)[_r4.i];
-    ((global::org.xmlvm._nArrayAdapter<sbyte>) _r0_o)[_r3.i] = (sbyte)_r5.i;
-    _r3.i = _r3.i + 1;
-    goto label5;
+    _r7.i = _r11.i + _r3.i;
+    _r8.i = ((global::com.codename1.ui.IndexedImage) _r9_o)._fwidth;
+    _r7.i = _r7.i * _r8.i;
+    _r5.i = _r6.i + _r7.i;
+    _r6_o = ((global::com.codename1.ui.IndexedImage) _r9_o)._fimageDataByte;
+    _r6.i = ((global::org.xmlvm._nArrayAdapter<sbyte>) _r6_o)[_r5.i];
+    ((global::org.xmlvm._nArrayAdapter<sbyte>) _r1_o)[_r4.i] = (sbyte)_r6.i;
+    _r4.i = _r4.i + 1;
+    goto label6;
     label30:;
-    _r5_o = new global::com.codename1.ui.IndexedImage();
-    _r6_o = ((global::com.codename1.ui.IndexedImage) _r8_o)._fpalette;
-    ((global::com.codename1.ui.IndexedImage) _r5_o).@this((int) _r11.i, (int) _r12.i, (global::org.xmlvm._nArrayAdapter<int>) _r6_o, (global::org.xmlvm._nArrayAdapter<sbyte>) _r0_o);
-    return (global::com.codename1.ui.Image) _r5_o;
+    _r6_o = new global::com.codename1.ui.IndexedImage();
+    _r7_o = ((global::com.codename1.ui.IndexedImage) _r9_o)._fpalette;
+    ((global::com.codename1.ui.IndexedImage) _r6_o).@this((int) _r12.i, (int) _r13.i, (global::org.xmlvm._nArrayAdapter<int>) _r7_o, (global::org.xmlvm._nArrayAdapter<sbyte>) _r1_o);
+    return (global::com.codename1.ui.Image) _r6_o;
 //XMLVM_END_WRAPPER[com.codename1.ui.IndexedImage: com.codename1.ui.Image subImage(int, int, int, int, boolean)]
 }
 
@@ -293,45 +301,47 @@ public override global::System.Object modifyAlpha(sbyte n1){
     global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
+    global::org.xmlvm._nElement _r9;
+    global::System.Object _r9_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
-    _r7_o = this;
-    _r8.i = n1;
-    _r6.i = 0;
-    _r5.i = -16777216;
-    _r3_o = ((global::com.codename1.ui.IndexedImage) _r7_o)._fpalette;
-    _r3.i = ((global::org.xmlvm._nIArray) _r3_o).Length;
-    _r2_o = new global::org.xmlvm._nArrayAdapter<int>(new int[_r3.i]);
-    _r3_o = ((global::com.codename1.ui.IndexedImage) _r7_o)._fpalette;
-    _r4_o = ((global::com.codename1.ui.IndexedImage) _r7_o)._fpalette;
+    _r8_o = this;
+    _r9.i = n1;
+    _r7.i = 0;
+    _r6.i = -16777216;
+    _r4_o = ((global::com.codename1.ui.IndexedImage) _r8_o)._fpalette;
     _r4.i = ((global::org.xmlvm._nIArray) _r4_o).Length;
-    global::java.lang.System.arraycopy((global::java.lang.Object) _r3_o, (int) _r6.i, (global::java.lang.Object) _r2_o, (int) _r6.i, (int) _r4.i);
-    _r3.i = _r8.i << (0x1f & 24);
-    _r0.i = _r3.i & _r5.i;
+    _r2_o = new global::org.xmlvm._nArrayAdapter<int>(new int[_r4.i]);
+    _r4_o = ((global::com.codename1.ui.IndexedImage) _r8_o)._fpalette;
+    _r5_o = ((global::com.codename1.ui.IndexedImage) _r8_o)._fpalette;
+    _r5.i = ((global::org.xmlvm._nIArray) _r5_o).Length;
+    global::java.lang.System.arraycopy((global::java.lang.Object) _r4_o, (int) _r7.i, (global::java.lang.Object) _r2_o, (int) _r7.i, (int) _r5.i);
+    _r4.i = _r9.i << (0x1f & 24);
+    _r0.i = _r4.i & _r6.i;
+    _r4_o = ((global::com.codename1.ui.IndexedImage) _r8_o)._fpalette;
+    _r3.i = ((global::org.xmlvm._nIArray) _r4_o).Length;
     _r1.i = 0;
-    label21:;
-    _r3_o = ((global::com.codename1.ui.IndexedImage) _r7_o)._fpalette;
-    _r3.i = ((global::org.xmlvm._nIArray) _r3_o).Length;
+    label24:;
     if (_r1.i >= _r3.i) goto label47;
-    _r3_o = ((global::com.codename1.ui.IndexedImage) _r7_o)._fpalette;
-    _r3.i = ((global::org.xmlvm._nArrayAdapter<int>) _r3_o)[_r1.i];
-    _r3.i = _r3.i & _r5.i;
-    if (_r3.i == 0) goto label44;
-    _r3_o = ((global::com.codename1.ui.IndexedImage) _r7_o)._fpalette;
-    _r3.i = ((global::org.xmlvm._nArrayAdapter<int>) _r3_o)[_r1.i];
-    _r4.i = 16777215;
-    _r3.i = _r3.i & _r4.i;
-    _r3.i = _r3.i | _r0.i;
-    ((global::org.xmlvm._nArrayAdapter<int>) _r2_o)[_r1.i] = _r3.i;
+    _r4_o = ((global::com.codename1.ui.IndexedImage) _r8_o)._fpalette;
+    _r4.i = ((global::org.xmlvm._nArrayAdapter<int>) _r4_o)[_r1.i];
+    _r4.i = _r4.i & _r6.i;
+    if (_r4.i == 0) goto label44;
+    _r4_o = ((global::com.codename1.ui.IndexedImage) _r8_o)._fpalette;
+    _r4.i = ((global::org.xmlvm._nArrayAdapter<int>) _r4_o)[_r1.i];
+    _r5.i = 16777215;
+    _r4.i = _r4.i & _r5.i;
+    _r4.i = _r4.i | _r0.i;
+    ((global::org.xmlvm._nArrayAdapter<int>) _r2_o)[_r1.i] = _r4.i;
     label44:;
     _r1.i = _r1.i + 1;
-    goto label21;
+    goto label24;
     label47:;
-    _r3_o = new global::com.codename1.ui.IndexedImage();
-    _r4.i = ((global::com.codename1.ui.IndexedImage) _r7_o)._fwidth;
-    _r5.i = ((global::com.codename1.ui.IndexedImage) _r7_o)._fheight;
-    _r6_o = ((global::com.codename1.ui.IndexedImage) _r7_o)._fimageDataByte;
-    ((global::com.codename1.ui.IndexedImage) _r3_o).@this((int) _r4.i, (int) _r5.i, (global::org.xmlvm._nArrayAdapter<int>) _r2_o, (global::org.xmlvm._nArrayAdapter<sbyte>) _r6_o);
-    return (global::com.codename1.ui.Image) _r3_o;
+    _r4_o = new global::com.codename1.ui.IndexedImage();
+    _r5.i = ((global::com.codename1.ui.IndexedImage) _r8_o)._fwidth;
+    _r6.i = ((global::com.codename1.ui.IndexedImage) _r8_o)._fheight;
+    _r7_o = ((global::com.codename1.ui.IndexedImage) _r8_o)._fimageDataByte;
+    ((global::com.codename1.ui.IndexedImage) _r4_o).@this((int) _r5.i, (int) _r6.i, (global::org.xmlvm._nArrayAdapter<int>) _r2_o, (global::org.xmlvm._nArrayAdapter<sbyte>) _r7_o);
+    return (global::com.codename1.ui.Image) _r4_o;
 //XMLVM_END_WRAPPER[com.codename1.ui.IndexedImage: com.codename1.ui.Image modifyAlpha(byte)]
 }
 
@@ -920,24 +930,25 @@ public override global::System.Object getRGBImpl(){
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
-    _r5_o = this;
-    _r3.i = ((global::com.codename1.ui.IndexedImage) _r5_o)._fwidth;
-    _r4.i = ((global::com.codename1.ui.IndexedImage) _r5_o)._fheight;
-    _r3.i = _r3.i * _r4.i;
+    _r6_o = this;
+    _r4.i = ((global::com.codename1.ui.IndexedImage) _r6_o)._fwidth;
+    _r5.i = ((global::com.codename1.ui.IndexedImage) _r6_o)._fheight;
+    _r3.i = _r4.i * _r5.i;
     _r2_o = new global::org.xmlvm._nArrayAdapter<int>(new int[_r3.i]);
     _r1.i = 0;
-    label8:;
-    _r3.i = ((global::org.xmlvm._nIArray) _r2_o).Length;
+    label9:;
     if (_r1.i >= _r3.i) goto label26;
-    _r3_o = ((global::com.codename1.ui.IndexedImage) _r5_o)._fimageDataByte;
-    _r3.i = ((global::org.xmlvm._nArrayAdapter<sbyte>) _r3_o)[_r1.i];
-    _r0.i = _r3.i & 255;
-    _r3_o = ((global::com.codename1.ui.IndexedImage) _r5_o)._fpalette;
-    _r3.i = ((global::org.xmlvm._nArrayAdapter<int>) _r3_o)[_r0.i];
-    ((global::org.xmlvm._nArrayAdapter<int>) _r2_o)[_r1.i] = _r3.i;
+    _r4_o = ((global::com.codename1.ui.IndexedImage) _r6_o)._fimageDataByte;
+    _r4.i = ((global::org.xmlvm._nArrayAdapter<sbyte>) _r4_o)[_r1.i];
+    _r0.i = _r4.i & 255;
+    _r4_o = ((global::com.codename1.ui.IndexedImage) _r6_o)._fpalette;
+    _r4.i = ((global::org.xmlvm._nArrayAdapter<int>) _r4_o)[_r0.i];
+    ((global::org.xmlvm._nArrayAdapter<int>) _r2_o)[_r1.i] = _r4.i;
     _r1.i = _r1.i + 1;
-    goto label8;
+    goto label9;
     label26:;
     return (global::org.xmlvm._nArrayAdapter<int>) _r2_o;
 //XMLVM_END_WRAPPER[com.codename1.ui.IndexedImage: int[] getRGBImpl()]
@@ -983,20 +994,24 @@ public virtual global::System.Object toByteArray(){
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
-    _r5_o = this;
+    _r6_o = this;
     try {
     _r0_o = new global::java.io.ByteArrayOutputStream();
     ((global::java.io.ByteArrayOutputStream) _r0_o).@this();
     _r3_o = new global::java.io.DataOutputStream();
     ((global::java.io.DataOutputStream) _r3_o).@this((global::java.io.OutputStream) _r0_o);
-    _r4.i = ((global::com.codename1.ui.IndexedImage) _r5_o)._fwidth;
-    ((global::java.io.DataOutputStream) _r3_o).writeShort((int) _r4.i);
-    _r4.i = ((global::com.codename1.ui.IndexedImage) _r5_o)._fheight;
-    ((global::java.io.DataOutputStream) _r3_o).writeShort((int) _r4.i);
-    _r4_o = ((global::com.codename1.ui.IndexedImage) _r5_o)._fpalette;
-    _r4.i = ((global::org.xmlvm._nIArray) _r4_o).Length;
-    ((global::java.io.DataOutputStream) _r3_o).writeByte((int) _r4.i);
+    _r5.i = ((global::com.codename1.ui.IndexedImage) _r6_o)._fwidth;
+    ((global::java.io.DataOutputStream) _r3_o).writeShort((int) _r5.i);
+    _r5.i = ((global::com.codename1.ui.IndexedImage) _r6_o)._fheight;
+    ((global::java.io.DataOutputStream) _r3_o).writeShort((int) _r5.i);
+    _r5_o = ((global::com.codename1.ui.IndexedImage) _r6_o)._fpalette;
+    _r5.i = ((global::org.xmlvm._nIArray) _r5_o).Length;
+    ((global::java.io.DataOutputStream) _r3_o).writeByte((int) _r5.i);
+    _r5_o = ((global::com.codename1.ui.IndexedImage) _r6_o)._fpalette;
+    _r4.i = ((global::org.xmlvm._nIArray) _r5_o).Length;
     _r2.i = 0;
     }
     catch (global::System.Exception e) {
@@ -1008,16 +1023,14 @@ public virtual global::System.Object toByteArray(){
         }
         throw ex;
     } // end catch
-    label27:;
+    label30:;
     try {
-    _r4_o = ((global::com.codename1.ui.IndexedImage) _r5_o)._fpalette;
-    _r4.i = ((global::org.xmlvm._nIArray) _r4_o).Length;
     if (_r2.i >= _r4.i) goto label42;
-    _r4_o = ((global::com.codename1.ui.IndexedImage) _r5_o)._fpalette;
-    _r4.i = ((global::org.xmlvm._nArrayAdapter<int>) _r4_o)[_r2.i];
-    ((global::java.io.DataOutputStream) _r3_o).writeInt((int) _r4.i);
+    _r5_o = ((global::com.codename1.ui.IndexedImage) _r6_o)._fpalette;
+    _r5.i = ((global::org.xmlvm._nArrayAdapter<int>) _r5_o)[_r2.i];
+    ((global::java.io.DataOutputStream) _r3_o).writeInt((int) _r5.i);
     _r2.i = _r2.i + 1;
-    goto label27;
+    goto label30;
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
@@ -1030,10 +1043,10 @@ public virtual global::System.Object toByteArray(){
     } // end catch
     label42:;
     try {
-    _r4_o = ((global::com.codename1.ui.IndexedImage) _r5_o)._fimageDataByte;
-    ((global::java.io.DataOutputStream) _r3_o).write((global::org.xmlvm._nArrayAdapter<sbyte>) _r4_o);
+    _r5_o = ((global::com.codename1.ui.IndexedImage) _r6_o)._fimageDataByte;
+    ((global::java.io.DataOutputStream) _r3_o).write((global::org.xmlvm._nArrayAdapter<sbyte>) _r5_o);
     ((global::java.io.DataOutputStream) _r3_o).close();
-    _r4_o = ((global::java.io.ByteArrayOutputStream) _r0_o).toByteArray();
+    _r5_o = ((global::java.io.ByteArrayOutputStream) _r0_o).toByteArray();
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
@@ -1045,13 +1058,13 @@ public virtual global::System.Object toByteArray(){
         throw ex;
     } // end catch
     label54:;
-    return (global::org.xmlvm._nArrayAdapter<sbyte>) _r4_o;
+    return (global::org.xmlvm._nArrayAdapter<sbyte>) _r5_o;
     label55:;
-    _r4_o = _ex.getJavaException();
+    _r5_o = _ex.getJavaException();
     _ex = null;
-    _r1_o = _r4_o;
+    _r1_o = _r5_o;
     ((global::java.io.IOException) _r1_o).printStackTrace();
-    _r4_o = null;
+    _r5_o = null;
     goto label54;
 //XMLVM_END_WRAPPER[com.codename1.ui.IndexedImage: byte[] toByteArray()]
 }
@@ -1076,18 +1089,21 @@ public static global::System.Object load(global::org.xmlvm._nArrayAdapter<sbyte>
     global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
+    global::org.xmlvm._nElement _r9;
+    global::System.Object _r9_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
-    _r8_o = n1;
+    _r9_o = n1;
     try {
     _r3_o = new global::java.io.DataInputStream();
-    _r7_o = new global::java.io.ByteArrayInputStream();
-    ((global::java.io.ByteArrayInputStream) _r7_o).@this((global::org.xmlvm._nArrayAdapter<sbyte>) _r8_o);
-    ((global::java.io.DataInputStream) _r3_o).@this((global::java.io.InputStream) _r7_o);
-    _r6.i = ((global::java.io.DataInputStream) _r3_o).readShort();
+    _r8_o = new global::java.io.ByteArrayInputStream();
+    ((global::java.io.ByteArrayInputStream) _r8_o).@this((global::org.xmlvm._nArrayAdapter<sbyte>) _r9_o);
+    ((global::java.io.DataInputStream) _r3_o).@this((global::java.io.InputStream) _r8_o);
+    _r7.i = ((global::java.io.DataInputStream) _r3_o).readShort();
     _r2.i = ((global::java.io.DataInputStream) _r3_o).readShort();
-    _r7.i = ((global::java.io.DataInputStream) _r3_o).readByte();
-    _r7.i = _r7.i & 255;
-    _r5_o = new global::org.xmlvm._nArrayAdapter<int>(new int[_r7.i]);
+    _r8.i = ((global::java.io.DataInputStream) _r3_o).readByte();
+    _r8.i = _r8.i & 255;
+    _r5_o = new global::org.xmlvm._nArrayAdapter<int>(new int[_r8.i]);
+    _r6.i = ((global::org.xmlvm._nIArray) _r5_o).Length;
     _r4.i = 0;
     }
     catch (global::System.Exception e) {
@@ -1099,14 +1115,13 @@ public static global::System.Object load(global::org.xmlvm._nArrayAdapter<sbyte>
         }
         throw ex;
     } // end catch
-    label27:;
+    label28:;
     try {
-    _r7.i = ((global::org.xmlvm._nIArray) _r5_o).Length;
-    if (_r4.i >= _r7.i) goto label39;
-    _r7.i = ((global::java.io.DataInputStream) _r3_o).readInt();
-    ((global::org.xmlvm._nArrayAdapter<int>) _r5_o)[_r4.i] = _r7.i;
+    if (_r4.i >= _r6.i) goto label39;
+    _r8.i = ((global::java.io.DataInputStream) _r3_o).readInt();
+    ((global::org.xmlvm._nArrayAdapter<int>) _r5_o)[_r4.i] = _r8.i;
     _r4.i = _r4.i + 1;
-    goto label27;
+    goto label28;
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
@@ -1119,11 +1134,11 @@ public static global::System.Object load(global::org.xmlvm._nArrayAdapter<sbyte>
     } // end catch
     label39:;
     try {
-    _r7.i = _r6.i * _r2.i;
-    _r0_o = new global::org.xmlvm._nArrayAdapter<sbyte>(new sbyte[_r7.i]);
+    _r8.i = _r7.i * _r2.i;
+    _r0_o = new global::org.xmlvm._nArrayAdapter<sbyte>(new sbyte[_r8.i]);
     ((global::java.io.DataInputStream) _r3_o).readFully((global::org.xmlvm._nArrayAdapter<sbyte>) _r0_o);
-    _r7_o = new global::com.codename1.ui.IndexedImage();
-    ((global::com.codename1.ui.IndexedImage) _r7_o).@this((int) _r6.i, (int) _r2.i, (global::org.xmlvm._nArrayAdapter<int>) _r5_o, (global::org.xmlvm._nArrayAdapter<sbyte>) _r0_o);
+    _r8_o = new global::com.codename1.ui.IndexedImage();
+    ((global::com.codename1.ui.IndexedImage) _r8_o).@this((int) _r7.i, (int) _r2.i, (global::org.xmlvm._nArrayAdapter<int>) _r5_o, (global::org.xmlvm._nArrayAdapter<sbyte>) _r0_o);
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
@@ -1135,15 +1150,28 @@ public static global::System.Object load(global::org.xmlvm._nArrayAdapter<sbyte>
         throw ex;
     } // end catch
     label51:;
-    return (global::com.codename1.ui.IndexedImage) _r7_o;
+    return (global::com.codename1.ui.IndexedImage) _r8_o;
     label52:;
-    _r7_o = _ex.getJavaException();
+    _r8_o = _ex.getJavaException();
     _ex = null;
-    _r1_o = _r7_o;
+    _r1_o = _r8_o;
     ((global::java.io.IOException) _r1_o).printStackTrace();
-    _r7_o = null;
+    _r8_o = null;
     goto label51;
 //XMLVM_END_WRAPPER[com.codename1.ui.IndexedImage: com.codename1.ui.IndexedImage load(byte[])]
+}
+
+public override bool requiresDrawImage(){
+//XMLVM_BEGIN_WRAPPER[com.codename1.ui.IndexedImage: boolean requiresDrawImage()]
+    global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
+    _r1_o = this;
+    _r0.i = 1;
+    return _r0.i!=0;
+//XMLVM_END_WRAPPER[com.codename1.ui.IndexedImage: boolean requiresDrawImage()]
 }
 
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.IndexedImage]

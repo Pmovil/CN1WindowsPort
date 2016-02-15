@@ -90,35 +90,37 @@ public override global::System.Object subImage(int n1, int n2, int n3, int n4, b
     global::System.Object _r12_o = null;
     global::org.xmlvm._nElement _r13;
     global::System.Object _r13_o = null;
+    global::org.xmlvm._nElement _r14;
+    global::System.Object _r14_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
-    _r8_o = this;
-    _r9.i = n1;
-    _r10.i = n2;
-    _r11.i = n3;
-    _r12.i = n4;
-    _r13.i = n5 ? 1 : 0;
-    _r5.i = _r11.i * _r12.i;
-    _r0_o = new global::org.xmlvm._nArrayAdapter<int>(new int[_r5.i]);
-    _r3.i = 0;
-    label5:;
-    _r5.i = ((global::org.xmlvm._nIArray) _r0_o).Length;
-    if (_r3.i >= _r5.i) goto label30;
-    _r2.i = _r3.i / _r11.i;
-    _r1.i = _r3.i % _r11.i;
-    _r5.i = _r9.i + _r1.i;
+    _r9_o = this;
+    _r10.i = n1;
+    _r11.i = n2;
+    _r12.i = n3;
+    _r13.i = n4;
+    _r14.i = n5 ? 1 : 0;
+    _r6.i = _r12.i * _r13.i;
+    _r1_o = new global::org.xmlvm._nArrayAdapter<int>(new int[_r6.i]);
+    _r0.i = ((global::org.xmlvm._nIArray) _r1_o).Length;
+    _r4.i = 0;
+    label6:;
+    if (_r4.i >= _r0.i) goto label30;
+    _r3.i = _r4.i / _r12.i;
+    _r2.i = _r4.i % _r12.i;
     _r6.i = _r10.i + _r2.i;
-    _r7.i = ((global::com.codename1.ui.RGBImage) _r8_o)._fwidth;
-    _r6.i = _r6.i * _r7.i;
-    _r4.i = _r5.i + _r6.i;
-    _r5_o = ((global::com.codename1.ui.RGBImage) _r8_o)._frgb;
-    _r5.i = ((global::org.xmlvm._nArrayAdapter<int>) _r5_o)[_r4.i];
-    ((global::org.xmlvm._nArrayAdapter<int>) _r0_o)[_r3.i] = _r5.i;
-    _r3.i = _r3.i + 1;
-    goto label5;
+    _r7.i = _r11.i + _r3.i;
+    _r8.i = ((global::com.codename1.ui.RGBImage) _r9_o)._fwidth;
+    _r7.i = _r7.i * _r8.i;
+    _r5.i = _r6.i + _r7.i;
+    _r6_o = ((global::com.codename1.ui.RGBImage) _r9_o)._frgb;
+    _r6.i = ((global::org.xmlvm._nArrayAdapter<int>) _r6_o)[_r5.i];
+    ((global::org.xmlvm._nArrayAdapter<int>) _r1_o)[_r4.i] = _r6.i;
+    _r4.i = _r4.i + 1;
+    goto label6;
     label30:;
-    _r5_o = new global::com.codename1.ui.RGBImage();
-    ((global::com.codename1.ui.RGBImage) _r5_o).@this((global::org.xmlvm._nArrayAdapter<int>) _r0_o, (int) _r11.i, (int) _r12.i);
-    return (global::com.codename1.ui.Image) _r5_o;
+    _r6_o = new global::com.codename1.ui.RGBImage();
+    ((global::com.codename1.ui.RGBImage) _r6_o).@this((global::org.xmlvm._nArrayAdapter<int>) _r1_o, (int) _r12.i, (int) _r13.i);
+    return (global::com.codename1.ui.Image) _r6_o;
 //XMLVM_END_WRAPPER[com.codename1.ui.RGBImage: com.codename1.ui.Image subImage(int, int, int, int, boolean)]
 }
 
@@ -258,42 +260,44 @@ public override global::System.Object modifyAlpha(sbyte n1){
     global::System.Object _r7_o = null;
     global::org.xmlvm._nElement _r8;
     global::System.Object _r8_o = null;
+    global::org.xmlvm._nElement _r9;
+    global::System.Object _r9_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
-    _r7_o = this;
-    _r8.i = n1;
-    _r6.i = 0;
-    _r5.i = -16777216;
-    _r3_o = ((global::com.codename1.ui.RGBImage) _r7_o)._frgb;
-    _r3.i = ((global::org.xmlvm._nIArray) _r3_o).Length;
-    _r1_o = new global::org.xmlvm._nArrayAdapter<int>(new int[_r3.i]);
-    _r3_o = ((global::com.codename1.ui.RGBImage) _r7_o)._frgb;
-    _r4_o = ((global::com.codename1.ui.RGBImage) _r7_o)._frgb;
+    _r8_o = this;
+    _r9.i = n1;
+    _r7.i = 0;
+    _r6.i = -16777216;
+    _r4_o = ((global::com.codename1.ui.RGBImage) _r8_o)._frgb;
     _r4.i = ((global::org.xmlvm._nIArray) _r4_o).Length;
-    global::java.lang.System.arraycopy((global::java.lang.Object) _r3_o, (int) _r6.i, (global::java.lang.Object) _r1_o, (int) _r6.i, (int) _r4.i);
-    _r3.i = _r8.i << (0x1f & 24);
-    _r0.i = _r3.i & _r5.i;
+    _r1_o = new global::org.xmlvm._nArrayAdapter<int>(new int[_r4.i]);
+    _r4_o = ((global::com.codename1.ui.RGBImage) _r8_o)._frgb;
+    _r5_o = ((global::com.codename1.ui.RGBImage) _r8_o)._frgb;
+    _r5.i = ((global::org.xmlvm._nIArray) _r5_o).Length;
+    global::java.lang.System.arraycopy((global::java.lang.Object) _r4_o, (int) _r7.i, (global::java.lang.Object) _r1_o, (int) _r7.i, (int) _r5.i);
+    _r4.i = _r9.i << (0x1f & 24);
+    _r0.i = _r4.i & _r6.i;
+    _r4_o = ((global::com.codename1.ui.RGBImage) _r8_o)._frgb;
+    _r3.i = ((global::org.xmlvm._nIArray) _r4_o).Length;
     _r2.i = 0;
-    label21:;
-    _r3_o = ((global::com.codename1.ui.RGBImage) _r7_o)._frgb;
-    _r3.i = ((global::org.xmlvm._nIArray) _r3_o).Length;
+    label24:;
     if (_r2.i >= _r3.i) goto label43;
-    _r3.i = ((global::org.xmlvm._nArrayAdapter<int>) _r1_o)[_r2.i];
-    _r3.i = _r3.i & _r5.i;
-    if (_r3.i == 0) goto label40;
-    _r3.i = ((global::org.xmlvm._nArrayAdapter<int>) _r1_o)[_r2.i];
-    _r4.i = 16777215;
-    _r3.i = _r3.i & _r4.i;
-    _r3.i = _r3.i | _r0.i;
-    ((global::org.xmlvm._nArrayAdapter<int>) _r1_o)[_r2.i] = _r3.i;
+    _r4.i = ((global::org.xmlvm._nArrayAdapter<int>) _r1_o)[_r2.i];
+    _r4.i = _r4.i & _r6.i;
+    if (_r4.i == 0) goto label40;
+    _r4.i = ((global::org.xmlvm._nArrayAdapter<int>) _r1_o)[_r2.i];
+    _r5.i = 16777215;
+    _r4.i = _r4.i & _r5.i;
+    _r4.i = _r4.i | _r0.i;
+    ((global::org.xmlvm._nArrayAdapter<int>) _r1_o)[_r2.i] = _r4.i;
     label40:;
     _r2.i = _r2.i + 1;
-    goto label21;
+    goto label24;
     label43:;
-    _r3_o = new global::com.codename1.ui.RGBImage();
-    _r4.i = ((global::com.codename1.ui.RGBImage) _r7_o)._fwidth;
-    _r5.i = ((global::com.codename1.ui.RGBImage) _r7_o)._fheight;
-    ((global::com.codename1.ui.RGBImage) _r3_o).@this((global::org.xmlvm._nArrayAdapter<int>) _r1_o, (int) _r4.i, (int) _r5.i);
-    return (global::com.codename1.ui.Image) _r3_o;
+    _r4_o = new global::com.codename1.ui.RGBImage();
+    _r5.i = ((global::com.codename1.ui.RGBImage) _r8_o)._fwidth;
+    _r6.i = ((global::com.codename1.ui.RGBImage) _r8_o)._fheight;
+    ((global::com.codename1.ui.RGBImage) _r4_o).@this((global::org.xmlvm._nArrayAdapter<int>) _r1_o, (int) _r5.i, (int) _r6.i);
+    return (global::com.codename1.ui.Image) _r4_o;
 //XMLVM_END_WRAPPER[com.codename1.ui.RGBImage: com.codename1.ui.Image modifyAlpha(byte)]
 }
 
@@ -500,6 +504,19 @@ public override int getHeight(){
     _r0.i = ((global::com.codename1.ui.RGBImage) _r1_o)._fheight;
     return _r0.i;
 //XMLVM_END_WRAPPER[com.codename1.ui.RGBImage: int getHeight()]
+}
+
+public override bool requiresDrawImage(){
+//XMLVM_BEGIN_WRAPPER[com.codename1.ui.RGBImage: boolean requiresDrawImage()]
+    global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
+    _r1_o = this;
+    _r0.i = 1;
+    return _r0.i!=0;
+//XMLVM_END_WRAPPER[com.codename1.ui.RGBImage: boolean requiresDrawImage()]
 }
 
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.RGBImage]

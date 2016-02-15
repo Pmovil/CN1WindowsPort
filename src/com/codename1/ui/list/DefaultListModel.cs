@@ -125,25 +125,27 @@ private static global::System.Object createList(global::org.xmlvm._nArrayAdapter
     global::System.Object _r2_o = null;
     global::org.xmlvm._nElement _r3;
     global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
-    _r3_o = n1;
-    if (_r3_o != null) goto label5;
-    _r2.i = 0;
-    _r3_o = new global::org.xmlvm._nArrayAdapter<global::System.Object>(new global::System.Object[_r2.i]);
+    _r4_o = n1;
+    if (_r4_o != null) goto label5;
+    _r3.i = 0;
+    _r4_o = new global::org.xmlvm._nArrayAdapter<global::System.Object>(new global::System.Object[_r3.i]);
     label5:;
-    _r1_o = new global::java.util.ArrayList();
-    _r2.i = ((global::org.xmlvm._nIArray) _r3_o).Length;
-    ((global::java.util.ArrayList) _r1_o).@this((int) _r2.i);
-    _r0.i = 0;
-    label12:;
-    _r2.i = ((global::org.xmlvm._nIArray) _r3_o).Length;
-    if (_r0.i >= _r2.i) goto label23;
-    _r2_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r3_o)[_r0.i];
-    ((global::java.util.List) _r1_o).add((global::java.lang.Object) _r2_o);
-    _r0.i = _r0.i + 1;
-    goto label12;
+    _r2_o = new global::java.util.ArrayList();
+    _r3.i = ((global::org.xmlvm._nIArray) _r4_o).Length;
+    ((global::java.util.ArrayList) _r2_o).@this((int) _r3.i);
+    _r0.i = ((global::org.xmlvm._nIArray) _r4_o).Length;
+    _r1.i = 0;
+    label13:;
+    if (_r1.i >= _r0.i) goto label23;
+    _r3_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r4_o)[_r1.i];
+    ((global::java.util.List) _r2_o).add((global::java.lang.Object) _r3_o);
+    _r1.i = _r1.i + 1;
+    goto label13;
     label23:;
-    return (global::java.util.List) _r1_o;
+    return (global::java.util.List) _r2_o;
 //XMLVM_END_WRAPPER[com.codename1.ui.list.DefaultListModel: java.util.List createList(java.lang.Object[])]
 }
 

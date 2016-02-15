@@ -38,6 +38,12 @@ private global::java.lang.Object _ffont;
 
 private bool _fttf;
 
+private global::java.lang.String _ffontUniqueId;
+
+private static global::java.util.HashMap _fderivedFontCache;
+
+private static float _ffontReturnedHeight;
+
 public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Font: void <init>()]
     global::org.xmlvm._nElement _r0;
@@ -125,8 +131,7 @@ public static bool isTrueTypeFileSupported(){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
-    _r0_o = global::com.codename1.ui.Display.getInstance();
-    _r0_o = ((global::com.codename1.ui.Display) _r0_o).getImplementation();
+    _r0_o = global::com.codename1.ui.Display._fimpl;
     _r0.i = ((global::com.codename1.impl.CodenameOneImplementation) _r0_o).isTrueTypeSupported() ? 1 : 0;
     return _r0.i!=0;
 //XMLVM_END_WRAPPER[com.codename1.ui.Font: boolean isTrueTypeFileSupported()]
@@ -137,11 +142,21 @@ public static bool isCreationByStringSupported(){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
-    _r0_o = global::com.codename1.ui.Display.getInstance();
-    _r0_o = ((global::com.codename1.ui.Display) _r0_o).getImplementation();
+    _r0_o = global::com.codename1.ui.Display._fimpl;
     _r0.i = ((global::com.codename1.impl.CodenameOneImplementation) _r0_o).isLookupFontSupported() ? 1 : 0;
     return _r0.i!=0;
 //XMLVM_END_WRAPPER[com.codename1.ui.Font: boolean isCreationByStringSupported()]
+}
+
+public static bool isNativeFontSchemeSupported(){
+//XMLVM_BEGIN_WRAPPER[com.codename1.ui.Font: boolean isNativeFontSchemeSupported()]
+    global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
+    _r0_o = global::com.codename1.ui.Display._fimpl;
+    _r0.i = ((global::com.codename1.impl.CodenameOneImplementation) _r0_o).isNativeFontSchemeSupported() ? 1 : 0;
+    return _r0.i!=0;
+//XMLVM_END_WRAPPER[com.codename1.ui.Font: boolean isNativeFontSchemeSupported()]
 }
 
 public static global::System.Object createTrueTypeFont(global::java.lang.String n1, global::java.lang.String n2){
@@ -160,49 +175,116 @@ public static global::System.Object createTrueTypeFont(global::java.lang.String 
     global::System.Object _r5_o = null;
     global::org.xmlvm._nElement _r6;
     global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
+    global::org.xmlvm._nElement _r9;
+    global::System.Object _r9_o = null;
+    global::org.xmlvm._nElement _r10;
+    global::System.Object _r10_o = null;
+    global::org.xmlvm._nElement _r11;
+    global::System.Object _r11_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
-    _r5_o = n1;
-    _r6_o = n2;
-    _r3.i = -1;
-    if (_r6_o == null) goto label52;
-    _r2.i = 47;
-    _r2.i = ((global::java.lang.String) _r6_o).indexOf((int) _r2.i);
-    if (_r2.i > _r3.i) goto label27;
-    _r2.i = 92;
-    _r2.i = ((global::java.lang.String) _r6_o).indexOf((int) _r2.i);
-    if (_r2.i > _r3.i) goto label27;
-    // Value=.ttf
-    _r2_o = new global::java.lang.String();
-    ((global::java.lang.String)_r2_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)46)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 102))}));
-    _r2.i = ((global::java.lang.String) _r6_o).endsWith((global::java.lang.String) _r2_o) ? 1 : 0;
-    if (_r2.i != 0) goto label52;
-    label27:;
-    _r2_o = new global::java.lang.IllegalArgumentException();
-    _r3_o = new global::java.lang.StringBuilder();
-    ((global::java.lang.StringBuilder) _r3_o).@this();
-    // Value=The font file name must be relative to the root and end with ttf: 
-    _r4_o = new global::java.lang.String();
-    ((global::java.lang.String)_r4_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)84)), unchecked((char) unchecked((uint) 104)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 102)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 102)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 109)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 109)), unchecked((char) unchecked((uint) 117)), unchecked((char) unchecked((uint) 115)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 98)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 118)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 104)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 100)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 100)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 119)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 104)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 102)), unchecked((char) unchecked((uint) 58)), unchecked((char) unchecked((uint) 32))}));
-    _r3_o = ((global::java.lang.StringBuilder) _r3_o).append((global::java.lang.String) _r4_o);
-    _r3_o = ((global::java.lang.StringBuilder) _r3_o).append((global::java.lang.String) _r6_o);
-    _r3_o = ((global::java.lang.StringBuilder) _r3_o).toString();
-    ((global::java.lang.IllegalArgumentException) _r2_o).@this((global::java.lang.String) _r3_o);
-    throw new global::org.xmlvm._nExceptionAdapter((global::java.lang.IllegalArgumentException) _r2_o);
+    _r10_o = n1;
+    _r11_o = n2;
+    _r9_o = null;
+    _r8.i = 0;
+    _r6.i = -1;
+    // Value=_
+    _r7_o = new global::java.lang.String();
+    ((global::java.lang.String)_r7_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)95))}));
+    _r4_o = new global::java.lang.StringBuilder();
+    ((global::java.lang.StringBuilder) _r4_o).@this();
+    _r4_o = ((global::java.lang.StringBuilder) _r4_o).append((global::java.lang.String) _r11_o);
+    // Value=_
+    _r5_o = new global::java.lang.String();
+    ((global::java.lang.String)_r5_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)95))}));
+    _r4_o = ((global::java.lang.StringBuilder) _r4_o).append((global::java.lang.String) _r7_o);
+    _r5.f = global::com.codename1.ui.Font._ffontReturnedHeight;
+    _r4_o = ((global::java.lang.StringBuilder) _r4_o).append((float) _r5.f);
+    // Value=_
+    _r5_o = new global::java.lang.String();
+    ((global::java.lang.String)_r5_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)95))}));
+    _r4_o = ((global::java.lang.StringBuilder) _r4_o).append((global::java.lang.String) _r7_o);
+    _r4_o = ((global::java.lang.StringBuilder) _r4_o).append((int) _r8.i);
+    _r0_o = ((global::java.lang.StringBuilder) _r4_o).toString();
+    _r4_o = global::com.codename1.ui.Font._fderivedFontCache;
+    _r1_o = ((global::java.util.HashMap) _r4_o).get((global::java.lang.Object) _r0_o);
+    _r1_o = _r1_o;
+    if (_r1_o == null) goto label52;
+    _r4_o = _r1_o;
+    label51:;
+    return (global::com.codename1.ui.Font) _r4_o;
     label52:;
-    _r2_o = global::com.codename1.ui.Display.getInstance();
-    _r2_o = ((global::com.codename1.ui.Display) _r2_o).getImplementation();
-    _r1_o = ((global::com.codename1.impl.CodenameOneImplementation) _r2_o).loadTrueTypeFont((global::java.lang.String) _r5_o, (global::java.lang.String) _r6_o);
-    if (_r1_o != null) goto label68;
-    _r2_o = null;
-    label67:;
-    return (global::com.codename1.ui.Font) _r2_o;
-    label68:;
-    _r0_o = new global::com.codename1.ui.Font();
-    ((global::com.codename1.ui.Font) _r0_o).@this((global::java.lang.Object) _r1_o);
-    _r2.i = 1;
-    ((global::com.codename1.ui.Font) _r0_o)._fttf = 0!=_r2.i;
-    _r2_o = _r0_o;
-    goto label67;
+    // Value=native:
+    _r4_o = new global::java.lang.String();
+    ((global::java.lang.String)_r4_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)110)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 118)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 58))}));
+    _r4.i = ((global::java.lang.String) _r10_o).startsWith((global::java.lang.String) _r4_o) ? 1 : 0;
+    if (_r4.i == 0) goto label70;
+    _r4_o = global::com.codename1.ui.Display._fimpl;
+    _r4.i = ((global::com.codename1.impl.CodenameOneImplementation) _r4_o).isNativeFontSchemeSupported() ? 1 : 0;
+    if (_r4.i != 0) goto label121;
+    _r4_o = _r9_o;
+    goto label51;
+    label70:;
+    if (_r11_o == null) goto label121;
+    _r4.i = 47;
+    _r4.i = ((global::java.lang.String) _r11_o).indexOf((int) _r4.i);
+    if (_r4.i > _r6.i) goto label96;
+    _r4.i = 92;
+    _r4.i = ((global::java.lang.String) _r11_o).indexOf((int) _r4.i);
+    if (_r4.i > _r6.i) goto label96;
+    // Value=.ttf
+    _r4_o = new global::java.lang.String();
+    ((global::java.lang.String)_r4_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)46)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 102))}));
+    _r4.i = ((global::java.lang.String) _r11_o).endsWith((global::java.lang.String) _r4_o) ? 1 : 0;
+    if (_r4.i != 0) goto label121;
+    label96:;
+    _r4_o = new global::java.lang.IllegalArgumentException();
+    _r5_o = new global::java.lang.StringBuilder();
+    ((global::java.lang.StringBuilder) _r5_o).@this();
+    // Value=The font file name must be relative to the root and end with ttf: 
+    _r6_o = new global::java.lang.String();
+    ((global::java.lang.String)_r6_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)84)), unchecked((char) unchecked((uint) 104)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 102)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 102)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 109)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 109)), unchecked((char) unchecked((uint) 117)), unchecked((char) unchecked((uint) 115)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 98)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 118)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 104)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 100)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 100)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 119)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 104)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 102)), unchecked((char) unchecked((uint) 58)), unchecked((char) unchecked((uint) 32))}));
+    _r5_o = ((global::java.lang.StringBuilder) _r5_o).append((global::java.lang.String) _r6_o);
+    _r5_o = ((global::java.lang.StringBuilder) _r5_o).append((global::java.lang.String) _r11_o);
+    _r5_o = ((global::java.lang.StringBuilder) _r5_o).toString();
+    ((global::java.lang.IllegalArgumentException) _r4_o).@this((global::java.lang.String) _r5_o);
+    throw new global::org.xmlvm._nExceptionAdapter((global::java.lang.IllegalArgumentException) _r4_o);
+    label121:;
+    _r4_o = global::com.codename1.ui.Display._fimpl;
+    _r2_o = ((global::com.codename1.impl.CodenameOneImplementation) _r4_o).loadTrueTypeFont((global::java.lang.String) _r10_o, (global::java.lang.String) _r11_o);
+    if (_r2_o != null) goto label131;
+    _r4_o = _r9_o;
+    goto label51;
+    label131:;
+    _r1_o = new global::com.codename1.ui.Font();
+    ((global::com.codename1.ui.Font) _r1_o).@this((global::java.lang.Object) _r2_o);
+    _r4.i = 1;
+    ((global::com.codename1.ui.Font) _r1_o)._fttf = 0!=_r4.i;
+    ((global::com.codename1.ui.Font) _r1_o)._ffontUniqueId = (global::java.lang.String) _r10_o;
+    _r4.i = ((global::com.codename1.ui.Font) _r1_o).getHeight();
+    _r3.f = (float) _r4.i;
+    global::com.codename1.ui.Font._ffontReturnedHeight = _r3.f;
+    _r4_o = global::com.codename1.ui.Font._fderivedFontCache;
+    _r5_o = new global::java.lang.StringBuilder();
+    ((global::java.lang.StringBuilder) _r5_o).@this();
+    _r5_o = ((global::java.lang.StringBuilder) _r5_o).append((global::java.lang.String) _r11_o);
+    // Value=_
+    _r6_o = new global::java.lang.String();
+    ((global::java.lang.String)_r6_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)95))}));
+    _r5_o = ((global::java.lang.StringBuilder) _r5_o).append((global::java.lang.String) _r7_o);
+    _r5_o = ((global::java.lang.StringBuilder) _r5_o).append((float) _r3.f);
+    // Value=_
+    _r6_o = new global::java.lang.String();
+    ((global::java.lang.String)_r6_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)95))}));
+    _r5_o = ((global::java.lang.StringBuilder) _r5_o).append((global::java.lang.String) _r7_o);
+    _r5_o = ((global::java.lang.StringBuilder) _r5_o).append((int) _r8.i);
+    _r5_o = ((global::java.lang.StringBuilder) _r5_o).toString();
+    ((global::java.util.HashMap) _r4_o).put((global::java.lang.Object) _r5_o, (global::java.lang.Object) _r1_o);
+    _r4_o = _r1_o;
+    goto label51;
 //XMLVM_END_WRAPPER[com.codename1.ui.Font: com.codename1.ui.Font createTrueTypeFont(java.lang.String, java.lang.String)]
 }
 
@@ -220,20 +302,75 @@ public virtual global::System.Object derive(float n1, int n2){
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
-    _r3_o = this;
-    _r4.f = n1;
-    _r5.i = n2;
-    _r0_o = new global::com.codename1.ui.Font();
-    _r1_o = global::com.codename1.ui.Display.getInstance();
-    _r1_o = ((global::com.codename1.ui.Display) _r1_o).getImplementation();
-    _r2_o = ((global::com.codename1.ui.Font) _r3_o)._ffont;
-    _r1_o = ((global::com.codename1.impl.CodenameOneImplementation) _r1_o).deriveTrueTypeFont((global::java.lang.Object) _r2_o, (float) _r4.f, (int) _r5.i);
-    ((global::com.codename1.ui.Font) _r0_o).@this((global::java.lang.Object) _r1_o);
-    _r1.i = 1;
-    ((global::com.codename1.ui.Font) _r0_o)._fttf = 0!=_r1.i;
+    _r6_o = this;
+    _r7.f = n1;
+    _r8.i = n2;
+    _r4.i = 1;
+    // Value=_
+    _r5_o = new global::java.lang.String();
+    ((global::java.lang.String)_r5_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)95))}));
+    _r2_o = ((global::com.codename1.ui.Font) _r6_o)._ffontUniqueId;
+    if (_r2_o == null) goto label74;
+    _r2_o = new global::java.lang.StringBuilder();
+    ((global::java.lang.StringBuilder) _r2_o).@this();
+    _r3_o = ((global::com.codename1.ui.Font) _r6_o)._ffontUniqueId;
+    _r2_o = ((global::java.lang.StringBuilder) _r2_o).append((global::java.lang.String) _r3_o);
+    // Value=_
+    _r3_o = new global::java.lang.String();
+    ((global::java.lang.String)_r3_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)95))}));
+    _r2_o = ((global::java.lang.StringBuilder) _r2_o).append((global::java.lang.String) _r5_o);
+    _r2_o = ((global::java.lang.StringBuilder) _r2_o).append((float) _r7.f);
+    // Value=_
+    _r3_o = new global::java.lang.String();
+    ((global::java.lang.String)_r3_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)95))}));
+    _r2_o = ((global::java.lang.StringBuilder) _r2_o).append((global::java.lang.String) _r5_o);
+    _r2_o = ((global::java.lang.StringBuilder) _r2_o).append((int) _r8.i);
+    _r1_o = ((global::java.lang.StringBuilder) _r2_o).toString();
+    _r2_o = global::com.codename1.ui.Font._fderivedFontCache;
+    _r0_o = ((global::java.util.HashMap) _r2_o).get((global::java.lang.Object) _r1_o);
+    _r0_o = _r0_o;
+    if (_r0_o == null) goto label53;
+    label52:;
     return (global::com.codename1.ui.Font) _r0_o;
+    label53:;
+    _r0_o = new global::com.codename1.ui.Font();
+    _r2_o = global::com.codename1.ui.Display._fimpl;
+    _r3_o = ((global::com.codename1.ui.Font) _r6_o)._ffont;
+    _r2_o = ((global::com.codename1.impl.CodenameOneImplementation) _r2_o).deriveTrueTypeFont((global::java.lang.Object) _r3_o, (float) _r7.f, (int) _r8.i);
+    ((global::com.codename1.ui.Font) _r0_o).@this((global::java.lang.Object) _r2_o);
+    _r2_o = global::com.codename1.ui.Font._fderivedFontCache;
+    ((global::java.util.HashMap) _r2_o).put((global::java.lang.Object) _r1_o, (global::java.lang.Object) _r0_o);
+    ((global::com.codename1.ui.Font) _r0_o)._fttf = 0!=_r4.i;
+    goto label52;
+    label74:;
+    _r0_o = new global::com.codename1.ui.Font();
+    _r2_o = global::com.codename1.ui.Display._fimpl;
+    _r3_o = ((global::com.codename1.ui.Font) _r6_o)._ffont;
+    _r2_o = ((global::com.codename1.impl.CodenameOneImplementation) _r2_o).deriveTrueTypeFont((global::java.lang.Object) _r3_o, (float) _r7.f, (int) _r8.i);
+    ((global::com.codename1.ui.Font) _r0_o).@this((global::java.lang.Object) _r2_o);
+    ((global::com.codename1.ui.Font) _r0_o)._fttf = 0!=_r4.i;
+    goto label52;
 //XMLVM_END_WRAPPER[com.codename1.ui.Font: com.codename1.ui.Font derive(float, int)]
+}
+
+public virtual bool isTTFNativeFont(){
+//XMLVM_BEGIN_WRAPPER[com.codename1.ui.Font: boolean isTTFNativeFont()]
+    global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
+    _r1_o = this;
+    _r0.i = ((global::com.codename1.ui.Font) _r1_o)._fttf ? 1 : 0;
+    return _r0.i!=0;
+//XMLVM_END_WRAPPER[com.codename1.ui.Font: boolean isTTFNativeFont()]
 }
 
 public static global::System.Object create(global::java.lang.String n1){
@@ -246,17 +383,16 @@ public static global::System.Object create(global::java.lang.String n1){
     global::System.Object _r2_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = n1;
-    _r1_o = global::com.codename1.ui.Display.getInstance();
-    _r1_o = ((global::com.codename1.ui.Display) _r1_o).getImplementation();
+    _r1_o = global::com.codename1.ui.Display._fimpl;
     _r0_o = ((global::com.codename1.impl.CodenameOneImplementation) _r1_o).loadNativeFont((global::java.lang.String) _r2_o);
-    if (_r0_o != null) goto label16;
+    if (_r0_o != null) goto label10;
     _r1_o = null;
-    label15:;
+    label9:;
     return (global::com.codename1.ui.Font) _r1_o;
-    label16:;
+    label10:;
     _r1_o = new global::com.codename1.ui.Font();
     ((global::com.codename1.ui.Font) _r1_o).@this((global::java.lang.Object) _r0_o);
-    goto label15;
+    goto label9;
 //XMLVM_END_WRAPPER[com.codename1.ui.Font: com.codename1.ui.Font create(java.lang.String)]
 }
 
@@ -364,8 +500,7 @@ public virtual int charsWidth(global::org.xmlvm._nArrayAdapter<char> n1, int n2,
     _r3_o = n1;
     _r4.i = n2;
     _r5.i = n3;
-    _r0_o = global::com.codename1.ui.Display.getInstance();
-    _r0_o = ((global::com.codename1.ui.Display) _r0_o).getImplementation();
+    _r0_o = global::com.codename1.ui.Display._fimpl;
     _r1_o = ((global::com.codename1.ui.Font) _r2_o)._ffont;
     _r0.i = ((global::com.codename1.impl.CodenameOneImplementation) _r0_o).charsWidth((global::java.lang.Object) _r1_o, (global::org.xmlvm._nArrayAdapter<char>) _r3_o, (int) _r4.i, (int) _r5.i);
     return _r0.i;
@@ -393,8 +528,7 @@ public virtual int substringWidth(global::java.lang.String n1, int n2, int n3){
     _r4_o = n1;
     _r5.i = n2;
     _r6.i = n3;
-    _r0_o = global::com.codename1.ui.Display.getInstance();
-    _r0_o = ((global::com.codename1.ui.Display) _r0_o).getImplementation();
+    _r0_o = global::com.codename1.ui.Display._fimpl;
     _r1_o = ((global::com.codename1.ui.Font) _r3_o)._ffont;
     _r2.i = _r5.i + _r6.i;
     _r2_o = ((global::java.lang.String) _r4_o).substring((int) _r5.i, (int) _r2.i);
@@ -431,8 +565,7 @@ public virtual int stringWidth(global::java.lang.String n1){
     _r0.i = 5;
     goto label9;
     label16:;
-    _r0_o = global::com.codename1.ui.Display.getInstance();
-    _r0_o = ((global::com.codename1.ui.Display) _r0_o).getImplementation();
+    _r0_o = global::com.codename1.ui.Display._fimpl;
     _r1_o = ((global::com.codename1.ui.Font) _r2_o)._ffont;
     _r0.i = ((global::com.codename1.impl.CodenameOneImplementation) _r0_o).stringWidth((global::java.lang.Object) _r1_o, (global::java.lang.String) _r3_o);
     goto label9;
@@ -452,8 +585,7 @@ public virtual int charWidth(char n1){
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3.i = n1;
-    _r0_o = global::com.codename1.ui.Display.getInstance();
-    _r0_o = ((global::com.codename1.ui.Display) _r0_o).getImplementation();
+    _r0_o = global::com.codename1.ui.Display._fimpl;
     _r1_o = ((global::com.codename1.ui.Font) _r2_o)._ffont;
     _r0.i = ((global::com.codename1.impl.CodenameOneImplementation) _r0_o).charWidth((global::java.lang.Object) _r1_o, (char) _r3.i);
     return _r0.i;
@@ -470,8 +602,7 @@ public virtual int getHeight(){
     global::System.Object _r2_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
-    _r0_o = global::com.codename1.ui.Display.getInstance();
-    _r0_o = ((global::com.codename1.ui.Display) _r0_o).getImplementation();
+    _r0_o = global::com.codename1.ui.Display._fimpl;
     _r1_o = ((global::com.codename1.ui.Font) _r2_o)._ffont;
     _r0.i = ((global::com.codename1.impl.CodenameOneImplementation) _r0_o).getHeight((global::java.lang.Object) _r1_o);
     return _r0.i;
@@ -583,8 +714,7 @@ public virtual int getFace(){
     global::System.Object _r2_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
-    _r0_o = global::com.codename1.ui.Display.getInstance();
-    _r0_o = ((global::com.codename1.ui.Display) _r0_o).getImplementation();
+    _r0_o = global::com.codename1.ui.Display._fimpl;
     _r1_o = ((global::com.codename1.ui.Font) _r2_o)._ffont;
     _r0.i = ((global::com.codename1.impl.CodenameOneImplementation) _r0_o).getFace((global::java.lang.Object) _r1_o);
     return _r0.i;
@@ -601,8 +731,7 @@ public virtual int getSize(){
     global::System.Object _r2_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
-    _r0_o = global::com.codename1.ui.Display.getInstance();
-    _r0_o = ((global::com.codename1.ui.Display) _r0_o).getImplementation();
+    _r0_o = global::com.codename1.ui.Display._fimpl;
     _r1_o = ((global::com.codename1.ui.Font) _r2_o)._ffont;
     _r0.i = ((global::com.codename1.impl.CodenameOneImplementation) _r0_o).getSize((global::java.lang.Object) _r1_o);
     return _r0.i;
@@ -619,8 +748,7 @@ public virtual int getStyle(){
     global::System.Object _r2_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
-    _r0_o = global::com.codename1.ui.Display.getInstance();
-    _r0_o = ((global::com.codename1.ui.Display) _r0_o).getImplementation();
+    _r0_o = global::com.codename1.ui.Display._fimpl;
     _r1_o = ((global::com.codename1.ui.Font) _r2_o)._ffont;
     _r0.i = ((global::com.codename1.impl.CodenameOneImplementation) _r0_o).getStyle((global::java.lang.Object) _r1_o);
     return _r0.i;
@@ -760,8 +888,7 @@ public virtual int getAscent(){
     global::System.Object _r2_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
-    _r0_o = global::com.codename1.ui.Display.getInstance();
-    _r0_o = ((global::com.codename1.ui.Display) _r0_o).getImplementation();
+    _r0_o = global::com.codename1.ui.Display._fimpl;
     _r1_o = ((global::com.codename1.ui.Font) _r2_o)._ffont;
     _r0.i = ((global::com.codename1.impl.CodenameOneImplementation) _r0_o).getFontAscent((global::java.lang.Object) _r1_o);
     return _r0.i;
@@ -778,8 +905,7 @@ public virtual int getDescent(){
     global::System.Object _r2_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
-    _r0_o = global::com.codename1.ui.Display.getInstance();
-    _r0_o = ((global::com.codename1.ui.Display) _r0_o).getImplementation();
+    _r0_o = global::com.codename1.ui.Display._fimpl;
     _r1_o = ((global::com.codename1.ui.Font) _r2_o)._ffont;
     _r0.i = ((global::com.codename1.impl.CodenameOneImplementation) _r0_o).getFontDescent((global::java.lang.Object) _r1_o);
     return _r0.i;
@@ -802,6 +928,9 @@ public static void @static(){
     global::com.codename1.ui.Font._fbitmapCache = (global::java.util.Hashtable) _r0_o;
     _r0.i = 1;
     global::com.codename1.ui.Font._fenableBitmapFont = 0!=_r0.i;
+    _r0_o = new global::java.util.HashMap();
+    ((global::java.util.HashMap) _r0_o).@this();
+    global::com.codename1.ui.Font._fderivedFontCache = (global::java.util.HashMap) _r0_o;
     return;
 //XMLVM_END_WRAPPER[com.codename1.ui.Font: void <clinit>()]
 }

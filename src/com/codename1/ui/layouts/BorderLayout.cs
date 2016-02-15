@@ -1510,6 +1510,106 @@ public override bool obscuresPotential(global::com.codename1.ui.Container n1){
 //XMLVM_END_WRAPPER[com.codename1.ui.layouts.BorderLayout: boolean obscuresPotential(com.codename1.ui.Container)]
 }
 
+public static global::System.Object center(global::com.codename1.ui.Component n1){
+//XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.BorderLayout: com.codename1.ui.Container center(com.codename1.ui.Component)]
+    global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
+    _r2_o = n1;
+    _r0_o = new global::com.codename1.ui.layouts.BorderLayout();
+    ((global::com.codename1.ui.layouts.BorderLayout) _r0_o).@this();
+    // Value=Center
+    _r1_o = new global::java.lang.String();
+    ((global::java.lang.String)_r1_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)67)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 114))}));
+    _r0_o = global::com.codename1.ui.Container.encloseIn((global::com.codename1.ui.layouts.Layout) _r0_o, (global::com.codename1.ui.Component) _r2_o, (global::java.lang.Object) _r1_o);
+    return (global::com.codename1.ui.Container) _r0_o;
+//XMLVM_END_WRAPPER[com.codename1.ui.layouts.BorderLayout: com.codename1.ui.Container center(com.codename1.ui.Component)]
+}
+
+public static global::System.Object north(global::com.codename1.ui.Component n1){
+//XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.BorderLayout: com.codename1.ui.Container north(com.codename1.ui.Component)]
+    global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
+    _r2_o = n1;
+    _r0_o = new global::com.codename1.ui.layouts.BorderLayout();
+    ((global::com.codename1.ui.layouts.BorderLayout) _r0_o).@this();
+    // Value=North
+    _r1_o = new global::java.lang.String();
+    ((global::java.lang.String)_r1_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)78)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 104))}));
+    _r0_o = global::com.codename1.ui.Container.encloseIn((global::com.codename1.ui.layouts.Layout) _r0_o, (global::com.codename1.ui.Component) _r2_o, (global::java.lang.Object) _r1_o);
+    return (global::com.codename1.ui.Container) _r0_o;
+//XMLVM_END_WRAPPER[com.codename1.ui.layouts.BorderLayout: com.codename1.ui.Container north(com.codename1.ui.Component)]
+}
+
+public static global::System.Object south(global::com.codename1.ui.Component n1){
+//XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.BorderLayout: com.codename1.ui.Container south(com.codename1.ui.Component)]
+    global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
+    _r2_o = n1;
+    _r0_o = new global::com.codename1.ui.layouts.BorderLayout();
+    ((global::com.codename1.ui.layouts.BorderLayout) _r0_o).@this();
+    // Value=South
+    _r1_o = new global::java.lang.String();
+    ((global::java.lang.String)_r1_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)83)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 117)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 104))}));
+    _r0_o = global::com.codename1.ui.Container.encloseIn((global::com.codename1.ui.layouts.Layout) _r0_o, (global::com.codename1.ui.Component) _r2_o, (global::java.lang.Object) _r1_o);
+    return (global::com.codename1.ui.Container) _r0_o;
+//XMLVM_END_WRAPPER[com.codename1.ui.layouts.BorderLayout: com.codename1.ui.Container south(com.codename1.ui.Component)]
+}
+
+public static global::System.Object east(global::com.codename1.ui.Component n1){
+//XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.BorderLayout: com.codename1.ui.Container east(com.codename1.ui.Component)]
+    global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
+    _r2_o = n1;
+    _r0_o = new global::com.codename1.ui.layouts.BorderLayout();
+    ((global::com.codename1.ui.layouts.BorderLayout) _r0_o).@this();
+    // Value=East
+    _r1_o = new global::java.lang.String();
+    ((global::java.lang.String)_r1_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)69)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 115)), unchecked((char) unchecked((uint) 116))}));
+    _r0_o = global::com.codename1.ui.Container.encloseIn((global::com.codename1.ui.layouts.Layout) _r0_o, (global::com.codename1.ui.Component) _r2_o, (global::java.lang.Object) _r1_o);
+    return (global::com.codename1.ui.Container) _r0_o;
+//XMLVM_END_WRAPPER[com.codename1.ui.layouts.BorderLayout: com.codename1.ui.Container east(com.codename1.ui.Component)]
+}
+
+public static global::System.Object west(global::com.codename1.ui.Component n1){
+//XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.BorderLayout: com.codename1.ui.Container west(com.codename1.ui.Component)]
+    global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
+    _r2_o = n1;
+    _r0_o = new global::com.codename1.ui.layouts.BorderLayout();
+    ((global::com.codename1.ui.layouts.BorderLayout) _r0_o).@this();
+    // Value=West
+    _r1_o = new global::java.lang.String();
+    ((global::java.lang.String)_r1_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)87)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 115)), unchecked((char) unchecked((uint) 116))}));
+    _r0_o = global::com.codename1.ui.Container.encloseIn((global::com.codename1.ui.layouts.Layout) _r0_o, (global::com.codename1.ui.Component) _r2_o, (global::java.lang.Object) _r1_o);
+    return (global::com.codename1.ui.Container) _r0_o;
+//XMLVM_END_WRAPPER[com.codename1.ui.layouts.BorderLayout: com.codename1.ui.Container west(com.codename1.ui.Component)]
+}
+
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.layouts.BorderLayout]
 //XMLVM_END_WRAPPER[com.codename1.ui.layouts.BorderLayout]
 

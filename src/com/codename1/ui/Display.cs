@@ -172,7 +172,7 @@ private static global::com.codename1.ui.Display _fINSTANCE;
 
 public static int _ftransitionDelay;
 
-private global::com.codename1.impl.CodenameOneImplementation _fimpl;
+public static global::com.codename1.impl.CodenameOneImplementation _fimpl;
 
 private bool _fcodenameOneRunning;
 
@@ -292,6 +292,8 @@ private int _fpreviousKeyPressed;
 
 private int _flastKeyPressed;
 
+private int _flastDragOffset;
+
 private global::com.codename1.ui.Form _feventForm;
 
 private static global::org.xmlvm._nArrayAdapter<int> _fxArray1;
@@ -372,87 +374,87 @@ public static void init(global::java.lang.Object n1){
     ((global::com.codename1.ui.Display) _r1_o)._fdisplayInitTime = _r2.l;
     _r0.i = 1;
     _r1_o = global::com.codename1.ui.Display._fINSTANCE;
-    _r1_o = ((global::com.codename1.ui.Display) _r1_o)._fimpl;
+    _r1_o = global::com.codename1.ui.Display._fimpl;
     if (_r1_o == null) goto label35;
     _r1_o = global::com.codename1.ui.Display._fINSTANCE;
-    _r1_o = ((global::com.codename1.ui.Display) _r1_o)._fimpl;
+    _r1_o = global::com.codename1.ui.Display._fimpl;
     _r0.i = ((global::com.codename1.impl.CodenameOneImplementation) _r1_o).getCommandBehavior();
     label35:;
-    _r2_o = global::com.codename1.ui.Display._fINSTANCE;
+    _r1_o = global::com.codename1.ui.Display._fINSTANCE;
     _r1_o = global::com.codename1.impl.ImplementationFactory.getInstance();
     _r1_o = ((global::com.codename1.impl.ImplementationFactory) _r1_o).createImplementation();
     _r1_o = _r1_o;
-    ((global::com.codename1.ui.Display) _r2_o)._fimpl = (global::com.codename1.impl.CodenameOneImplementation) _r1_o;
+    global::com.codename1.ui.Display._fimpl = (global::com.codename1.impl.CodenameOneImplementation) _r1_o;
     _r1_o = global::com.codename1.ui.Display._fINSTANCE;
-    _r1_o = ((global::com.codename1.ui.Display) _r1_o)._fimpl;
+    _r1_o = global::com.codename1.ui.Display._fimpl;
     _r2_o = global::com.codename1.ui.Display._flock;
     ((global::com.codename1.impl.CodenameOneImplementation) _r1_o).setDisplayLock((global::java.lang.Object) _r2_o);
     _r1_o = global::com.codename1.ui.Display._fINSTANCE;
-    _r1_o = ((global::com.codename1.ui.Display) _r1_o)._fimpl;
+    _r1_o = global::com.codename1.ui.Display._fimpl;
     ((global::com.codename1.impl.CodenameOneImplementation) _r1_o).initImpl((global::java.lang.Object) _r6_o);
     _r1_o = global::com.codename1.ui.Display._fINSTANCE;
     _r2_o = new global::com.codename1.ui.Graphics();
     _r3_o = global::com.codename1.ui.Display._fINSTANCE;
-    _r3_o = ((global::com.codename1.ui.Display) _r3_o)._fimpl;
+    _r3_o = global::com.codename1.ui.Display._fimpl;
     _r3_o = ((global::com.codename1.impl.CodenameOneImplementation) _r3_o).getNativeGraphics();
     ((global::com.codename1.ui.Graphics) _r2_o).@this((global::java.lang.Object) _r3_o);
     ((global::com.codename1.ui.Display) _r1_o)._fcodenameOneGraphics = (global::com.codename1.ui.Graphics) _r2_o;
     _r1_o = global::com.codename1.ui.Display._fINSTANCE;
-    _r1_o = ((global::com.codename1.ui.Display) _r1_o)._fimpl;
+    _r1_o = global::com.codename1.ui.Display._fimpl;
     _r2_o = global::com.codename1.ui.Display._fINSTANCE;
     _r2_o = ((global::com.codename1.ui.Display) _r2_o)._fcodenameOneGraphics;
     ((global::com.codename1.impl.CodenameOneImplementation) _r1_o).setCodenameOneGraphics((global::com.codename1.ui.Graphics) _r2_o);
     _r1_o = global::com.codename1.ui.Display._fINSTANCE;
-    _r1_o = ((global::com.codename1.ui.Display) _r1_o)._fimpl;
+    _r1_o = global::com.codename1.ui.Display._fimpl;
     _r1.i = ((global::com.codename1.impl.CodenameOneImplementation) _r1_o).isThirdSoftButton() ? 1 : 0;
     if (_r1.i == 0) goto label107;
     _r1_o = global::com.codename1.ui.Display._fINSTANCE;
     ((global::com.codename1.ui.Display) _r1_o)._fthirdSoftButton = 0!=_r4.i;
     label107:;
     _r1_o = global::com.codename1.ui.Display._fINSTANCE;
-    _r1_o = ((global::com.codename1.ui.Display) _r1_o)._fimpl;
+    _r1_o = global::com.codename1.ui.Display._fimpl;
     _r1.i = ((global::com.codename1.impl.CodenameOneImplementation) _r1_o).getSoftkeyCount();
     if (_r1.i <= 0) goto label174;
     _r1_o = global::com.codename1.ui.Display._fINSTANCE;
-    _r1_o = ((global::com.codename1.ui.Display) _r1_o)._fimpl;
+    _r1_o = global::com.codename1.ui.Display._fimpl;
     _r1_o = ((global::com.codename1.impl.CodenameOneImplementation) _r1_o).getSoftkeyCode((int) _r5.i);
     _r1.i = ((global::org.xmlvm._nArrayAdapter<int>) _r1_o)[_r5.i];
     global::com.codename1.ui.MenuBar._fleftSK = _r1.i;
     _r1_o = global::com.codename1.ui.Display._fINSTANCE;
-    _r1_o = ((global::com.codename1.ui.Display) _r1_o)._fimpl;
+    _r1_o = global::com.codename1.ui.Display._fimpl;
     _r1.i = ((global::com.codename1.impl.CodenameOneImplementation) _r1_o).getSoftkeyCount();
     if (_r1.i <= _r4.i) goto label174;
     _r1_o = global::com.codename1.ui.Display._fINSTANCE;
-    _r1_o = ((global::com.codename1.ui.Display) _r1_o)._fimpl;
+    _r1_o = global::com.codename1.ui.Display._fimpl;
     _r1_o = ((global::com.codename1.impl.CodenameOneImplementation) _r1_o).getSoftkeyCode((int) _r4.i);
     _r1.i = ((global::org.xmlvm._nArrayAdapter<int>) _r1_o)[_r5.i];
     global::com.codename1.ui.MenuBar._frightSK = _r1.i;
     _r1_o = global::com.codename1.ui.Display._fINSTANCE;
-    _r1_o = ((global::com.codename1.ui.Display) _r1_o)._fimpl;
+    _r1_o = global::com.codename1.ui.Display._fimpl;
     _r1_o = ((global::com.codename1.impl.CodenameOneImplementation) _r1_o).getSoftkeyCode((int) _r4.i);
     _r1.i = ((global::org.xmlvm._nIArray) _r1_o).Length;
     if (_r1.i <= _r4.i) goto label174;
     _r1_o = global::com.codename1.ui.Display._fINSTANCE;
-    _r1_o = ((global::com.codename1.ui.Display) _r1_o)._fimpl;
+    _r1_o = global::com.codename1.ui.Display._fimpl;
     _r1_o = ((global::com.codename1.impl.CodenameOneImplementation) _r1_o).getSoftkeyCode((int) _r4.i);
     _r1.i = ((global::org.xmlvm._nArrayAdapter<int>) _r1_o)[_r4.i];
     global::com.codename1.ui.MenuBar._frightSK2 = _r1.i;
     label174:;
     _r1_o = global::com.codename1.ui.Display._fINSTANCE;
-    _r1_o = ((global::com.codename1.ui.Display) _r1_o)._fimpl;
+    _r1_o = global::com.codename1.ui.Display._fimpl;
     _r1.i = ((global::com.codename1.impl.CodenameOneImplementation) _r1_o).getBackKeyCode();
     global::com.codename1.ui.MenuBar._fbackSK = _r1.i;
     _r1_o = global::com.codename1.ui.Display._fINSTANCE;
-    _r1_o = ((global::com.codename1.ui.Display) _r1_o)._fimpl;
+    _r1_o = global::com.codename1.ui.Display._fimpl;
     _r1.i = ((global::com.codename1.impl.CodenameOneImplementation) _r1_o).getBackspaceKeyCode();
     global::com.codename1.ui.MenuBar._fbackspaceSK = _r1.i;
     _r1_o = global::com.codename1.ui.Display._fINSTANCE;
-    _r1_o = ((global::com.codename1.ui.Display) _r1_o)._fimpl;
+    _r1_o = global::com.codename1.ui.Display._fimpl;
     _r1.i = ((global::com.codename1.impl.CodenameOneImplementation) _r1_o).getClearKeyCode();
     global::com.codename1.ui.MenuBar._fclearSK = _r1.i;
     _r1_o = global::com.codename1.ui.Display._fINSTANCE;
     _r2_o = global::com.codename1.ui.Display._fINSTANCE;
-    _r2_o = ((global::com.codename1.ui.Display) _r2_o)._fimpl;
+    _r2_o = global::com.codename1.ui.Display._fimpl;
     _r2.i = ((global::com.codename1.impl.CodenameOneImplementation) _r2_o).getDragPathLength();
     ((global::com.codename1.ui.Display) _r1_o)._fPATHLENGTH = _r2.i;
     _r1_o = global::com.codename1.ui.Display._fINSTANCE;
@@ -471,17 +473,17 @@ public static void init(global::java.lang.Object n1){
     _r2_o = new global::org.xmlvm._nArrayAdapter<long>(new long[_r2.i]);
     ((global::com.codename1.ui.Display) _r1_o)._fdragPathTime = (global::org.xmlvm._nArrayAdapter<long>) _r2_o;
     _r1_o = global::com.codename1.ui.Display._fINSTANCE;
-    _r1_o = ((global::com.codename1.ui.Display) _r1_o)._fimpl;
+    _r1_o = global::com.codename1.ui.Display._fimpl;
     global::com.codename1.util.StringUtil.setImplementation((global::com.codename1.impl.CodenameOneImplementation) _r1_o);
     _r1_o = global::com.codename1.ui.Display._fINSTANCE;
-    _r1_o = ((global::com.codename1.ui.Display) _r1_o)._fimpl;
+    _r1_o = global::com.codename1.ui.Display._fimpl;
     global::com.codename1.io.Util.setImplementation((global::com.codename1.impl.CodenameOneImplementation) _r1_o);
     _r1_o = global::com.codename1.ui.Display._fINSTANCE;
     _r1_o = ((global::com.codename1.ui.Display) _r1_o)._fedt;
     if (_r1_o != null) goto label322;
     _r1_o = global::com.codename1.ui.Display._fINSTANCE;
     _r2_o = global::com.codename1.ui.Display._fINSTANCE;
-    _r2_o = ((global::com.codename1.ui.Display) _r2_o)._fimpl;
+    _r2_o = global::com.codename1.ui.Display._fimpl;
     _r2.i = ((global::com.codename1.impl.CodenameOneImplementation) _r2_o).isTouchDevice() ? 1 : 0;
     ((global::com.codename1.ui.Display) _r1_o)._ftouchScreen = 0!=_r2.i;
     _r1_o = global::com.codename1.ui.Display._fINSTANCE;
@@ -496,11 +498,11 @@ public static void init(global::java.lang.Object n1){
     ((global::com.codename1.impl.CodenameOneThread) _r2_o).@this((global::java.lang.Runnable) _r3_o, (global::java.lang.String) _r4_o);
     ((global::com.codename1.ui.Display) _r1_o)._fedt = (global::java.lang.Thread) _r2_o;
     _r1_o = global::com.codename1.ui.Display._fINSTANCE;
-    _r1_o = ((global::com.codename1.ui.Display) _r1_o)._fimpl;
+    _r1_o = global::com.codename1.ui.Display._fimpl;
     _r2_o = global::com.codename1.ui.Display._fINSTANCE;
     _r2_o = ((global::com.codename1.ui.Display) _r2_o)._fedt;
     _r3_o = global::com.codename1.ui.Display._fINSTANCE;
-    _r3_o = ((global::com.codename1.ui.Display) _r3_o)._fimpl;
+    _r3_o = global::com.codename1.ui.Display._fimpl;
     _r3.i = ((global::com.codename1.impl.CodenameOneImplementation) _r3_o).getEDTThreadPriority();
     ((global::com.codename1.impl.CodenameOneImplementation) _r1_o).setThreadPriority((global::java.lang.Thread) _r2_o, (int) _r3.i);
     _r1_o = global::com.codename1.ui.Display._fINSTANCE;
@@ -508,7 +510,7 @@ public static void init(global::java.lang.Object n1){
     ((global::java.lang.Thread) _r1_o).start();
     label322:;
     _r1_o = global::com.codename1.ui.Display._fINSTANCE;
-    _r1_o = ((global::com.codename1.ui.Display) _r1_o)._fimpl;
+    _r1_o = global::com.codename1.ui.Display._fimpl;
     ((global::com.codename1.impl.CodenameOneImplementation) _r1_o).postInit();
     _r1_o = global::com.codename1.ui.Display._fINSTANCE;
     ((global::com.codename1.ui.Display) _r1_o).setCommandBehavior((int) _r0.i);
@@ -516,7 +518,7 @@ public static void init(global::java.lang.Object n1){
     return;
     label335:;
     _r1_o = global::com.codename1.ui.Display._fINSTANCE;
-    _r1_o = ((global::com.codename1.ui.Display) _r1_o)._fimpl;
+    _r1_o = global::com.codename1.ui.Display._fimpl;
     ((global::com.codename1.impl.CodenameOneImplementation) _r1_o).confirmControlView();
     goto label334;
 //XMLVM_END_WRAPPER[com.codename1.ui.Display: void init(java.lang.Object)]
@@ -577,7 +579,7 @@ public static bool isInitialized(){
     _r0.i = ((global::com.codename1.ui.Display) _r0_o)._fcodenameOneRunning ? 1 : 0;
     if (_r0.i == 0) goto label12;
     _r0_o = global::com.codename1.ui.Display._fINSTANCE;
-    _r0_o = ((global::com.codename1.ui.Display) _r0_o)._fimpl;
+    _r0_o = global::com.codename1.ui.Display._fimpl;
     if (_r0_o != null) goto label14;
     label12:;
     _r0.i = 0;
@@ -585,7 +587,7 @@ public static bool isInitialized(){
     return _r0.i!=0;
     label14:;
     _r0_o = global::com.codename1.ui.Display._fINSTANCE;
-    _r0_o = ((global::com.codename1.ui.Display) _r0_o)._fimpl;
+    _r0_o = global::com.codename1.ui.Display._fimpl;
     _r0.i = ((global::com.codename1.impl.CodenameOneImplementation) _r0_o).isInitialized() ? 1 : 0;
     if (_r0.i == 0) goto label12;
     _r0.i = 1;
@@ -642,7 +644,7 @@ public virtual global::System.Object getImplementation(){
     global::System.Object _r1_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
-    _r0_o = ((global::com.codename1.ui.Display) _r1_o)._fimpl;
+    _r0_o = global::com.codename1.ui.Display._fimpl;
     return (global::com.codename1.impl.CodenameOneImplementation) _r0_o;
 //XMLVM_END_WRAPPER[com.codename1.ui.Display: com.codename1.impl.CodenameOneImplementation getImplementation()]
 }
@@ -676,7 +678,7 @@ public virtual void vibrate(int n1){
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
-    _r0_o = ((global::com.codename1.ui.Display) _r1_o)._fimpl;
+    _r0_o = global::com.codename1.ui.Display._fimpl;
     ((global::com.codename1.impl.CodenameOneImplementation) _r0_o).vibrate((int) _r2.i);
     return;
 //XMLVM_END_WRAPPER[com.codename1.ui.Display: void vibrate(int)]
@@ -693,7 +695,7 @@ public virtual void flashBacklight(int n1){
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
-    _r0_o = ((global::com.codename1.ui.Display) _r1_o)._fimpl;
+    _r0_o = global::com.codename1.ui.Display._fimpl;
     ((global::com.codename1.impl.CodenameOneImplementation) _r0_o).flashBacklight((int) _r2.i);
     return;
 //XMLVM_END_WRAPPER[com.codename1.ui.Display: void flashBacklight(int)]
@@ -776,7 +778,7 @@ public virtual void playDialogSound(int n1){
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
-    _r0_o = ((global::com.codename1.ui.Display) _r1_o)._fimpl;
+    _r0_o = global::com.codename1.ui.Display._fimpl;
     ((global::com.codename1.impl.CodenameOneImplementation) _r0_o).playDialogSound((int) _r2.i);
     return;
 //XMLVM_END_WRAPPER[com.codename1.ui.Display: void playDialogSound(int)]
@@ -1304,7 +1306,7 @@ private void paintTransitionAnimation(){
     _r3_o = _r3_o;
     ((global::com.codename1.ui.Display) _r9_o).restoreMenu((global::com.codename1.ui.Form) _r3_o);
     if (_r4_o == null) goto label94;
-    _r5_o = ((global::com.codename1.ui.Display) _r9_o)._fimpl;
+    _r5_o = global::com.codename1.ui.Display._fimpl;
     _r5_o = ((global::com.codename1.impl.CodenameOneImplementation) _r5_o).getCurrentForm();
     if (_r4_o == _r5_o) goto label94;
     _r5_o = ((global::com.codename1.ui.Display) _r9_o).getCurrent();
@@ -1320,7 +1322,7 @@ private void paintTransitionAnimation(){
     label105:;
     _r5_o = ((global::com.codename1.ui.Display) _r9_o)._fcodenameOneGraphics;
     ((global::com.codename1.ui.animations.Animation) _r1_o).paint((global::com.codename1.ui.Graphics) _r5_o);
-    _r5_o = ((global::com.codename1.ui.Display) _r9_o)._fimpl;
+    _r5_o = global::com.codename1.ui.Display._fimpl;
     ((global::com.codename1.impl.CodenameOneImplementation) _r5_o).flushGraphics();
     _r5.i = global::com.codename1.ui.Display._ftransitionDelay;
     if (_r5.i <= 0) goto label64;
@@ -1424,7 +1426,7 @@ public virtual void mainEDTLoop(){
     // Value=An internal application error occurred: 
     _r6_o = new global::java.lang.String();
     ((global::java.lang.String)_r6_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)65)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 112)), unchecked((char) unchecked((uint) 112)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 99)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 99)), unchecked((char) unchecked((uint) 99)), unchecked((char) unchecked((uint) 117)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 100)), unchecked((char) unchecked((uint) 58)), unchecked((char) unchecked((uint) 32))}));
-    _r2_o = ((global::com.codename1.ui.Display) _r9_o)._fimpl;
+    _r2_o = global::com.codename1.ui.Display._fimpl;
     ((global::com.codename1.impl.CodenameOneImplementation) _r2_o).initEDT();
     global::com.codename1.ui.plaf.UIManager.getInstance();
     _r1_o = new global::com.codename1.ui.VirtualKeyboard();
@@ -1433,9 +1435,9 @@ public virtual void mainEDTLoop(){
     ((global::com.codename1.ui.Display) _r2_o).registerVirtualKeyboard((global::com.codename1.impl.VirtualKeyboardInterface) _r1_o);
     label25:;
     try {
-    _r2_o = ((global::com.codename1.ui.Display) _r9_o)._fimpl;
+    _r2_o = global::com.codename1.ui.Display._fimpl;
     _r2_o = ((global::com.codename1.impl.CodenameOneImplementation) _r2_o).getCurrentForm();
-    if (_r2_o != null) goto label103;
+    if (_r2_o != null) goto label105;
     _r2_o = global::com.codename1.ui.Display._flock;
     global::System.Threading.Monitor.Enter(_r2_o);
     }
@@ -1466,10 +1468,10 @@ public virtual void mainEDTLoop(){
     label47:;
     try {
     _r3_o = ((global::com.codename1.ui.Display) _r9_o)._fanimationQueue;
-    if (_r3_o == null) goto label145;
+    if (_r3_o == null) goto label147;
     _r3_o = ((global::com.codename1.ui.Display) _r9_o)._fanimationQueue;
     _r3.i = ((global::java.util.ArrayList) _r3_o).size();
-    if (_r3.i <= 0) goto label145;
+    if (_r3.i <= 0) goto label147;
     ((global::com.codename1.ui.Display) _r9_o).paintTransitionAnimation();
     global::System.Threading.Monitor.Exit(_r2_o);
     goto label25;
@@ -1520,18 +1522,19 @@ public virtual void mainEDTLoop(){
     _r2_o = ((global::com.codename1.ui.Display) _r9_o)._fcrashReporter;
     ((global::com.codename1.system.CrashReport) _r2_o).exception((global::java.lang.Throwable) _r0_o);
     label81:;
-    _r2_o = ((global::com.codename1.ui.Display) _r9_o)._fimpl;
+    _r2_o = global::com.codename1.ui.Display._fimpl;
     _r2.i = ((global::com.codename1.impl.CodenameOneImplementation) _r2_o).handleEDTException((global::java.lang.Throwable) _r0_o) ? 1 : 0;
-    if (_r2.i != 0) goto label103;
+    if (_r2.i != 0) goto label105;
     _r2_o = ((global::com.codename1.ui.Display) _r9_o)._ferrorHandler;
-    if (_r2_o == null) goto label150;
+    if (_r2_o == null) goto label152;
     _r2_o = ((global::com.codename1.ui.Display) _r9_o)._ferrorHandler;
     _r3_o = new global::com.codename1.ui.events.ActionEvent();
-    ((global::com.codename1.ui.events.ActionEvent) _r3_o).@this((global::java.lang.Object) _r0_o);
+    _r4_o = global::com.codename1.ui.events.ActionEvent_2Type._fException;
+    ((global::com.codename1.ui.events.ActionEvent) _r3_o).@this((global::java.lang.Object) _r0_o, (global::com.codename1.ui.events.ActionEvent_2Type) _r4_o);
     ((global::com.codename1.ui.util.EventDispatcher) _r2_o).fireActionEvent((global::com.codename1.ui.events.ActionEvent) _r3_o);
-    label103:;
+    label105:;
     _r2.i = ((global::com.codename1.ui.Display) _r9_o)._fcodenameOneRunning ? 1 : 0;
-    if (_r2.i == 0) goto label249;
+    if (_r2.i == 0) goto label253;
     try {
     _r2_o = global::com.codename1.ui.Display._flock;
     global::System.Threading.Monitor.Enter(_r2_o);
@@ -1541,19 +1544,19 @@ public virtual void mainEDTLoop(){
         global::System.Object _java_exception = ex.getJavaException();
         if (_java_exception is global::java.lang.Throwable) {
             _ex = ex;
-            goto label138;
+            goto label140;
         }
         throw ex;
     } // end catch
     try {
     _r3.i = ((global::com.codename1.ui.Display) _r9_o).shouldEDTSleep() ? 1 : 0;
-    if (_r3.i == 0) goto label133;
-    _r3_o = ((global::com.codename1.ui.Display) _r9_o)._fimpl;
+    if (_r3.i == 0) goto label135;
+    _r3_o = global::com.codename1.ui.Display._fimpl;
     _r4.i = 1;
     ((global::com.codename1.impl.CodenameOneImplementation) _r3_o).edtIdle(0!=_r4.i);
     _r3_o = global::com.codename1.ui.Display._flock;
     ((global::java.lang.Object) _r3_o).wait();
-    _r3_o = ((global::com.codename1.ui.Display) _r9_o)._fimpl;
+    _r3_o = global::com.codename1.ui.Display._fimpl;
     _r4.i = 0;
     ((global::com.codename1.impl.CodenameOneImplementation) _r3_o).edtIdle(0!=_r4.i);
     }
@@ -1562,11 +1565,11 @@ public virtual void mainEDTLoop(){
         global::System.Object _java_exception = ex.getJavaException();
         if (_java_exception is global::java.lang.Object) {
             _ex = ex;
-            goto label181;
+            goto label183;
         }
         throw ex;
     } // end catch
-    label133:;
+    label135:;
     try {
     global::System.Threading.Monitor.Exit(_r2_o);
     }
@@ -1575,7 +1578,7 @@ public virtual void mainEDTLoop(){
         global::System.Object _java_exception = ex.getJavaException();
         if (_java_exception is global::java.lang.Object) {
             _ex = ex;
-            goto label181;
+            goto label183;
         }
         throw ex;
     } // end catch
@@ -1587,20 +1590,20 @@ public virtual void mainEDTLoop(){
         global::System.Object _java_exception = ex.getJavaException();
         if (_java_exception is global::java.lang.Throwable) {
             _ex = ex;
-            goto label138;
+            goto label140;
         }
         throw ex;
     } // end catch
-    goto label103;
-    label138:;
+    goto label105;
+    label140:;
     _r2_o = _ex.getJavaException();
     _ex = null;
     _r0_o = _r2_o;
     _r2.i = ((global::com.codename1.ui.Display) _r9_o)._fcodenameOneRunning ? 1 : 0;
-    if (_r2.i != 0) goto label184;
-    label144:;
+    if (_r2.i != 0) goto label186;
+    label146:;
     return;
-    label145:;
+    label147:;
     try {
     global::System.Threading.Monitor.Exit(_r2_o);
     }
@@ -1626,7 +1629,7 @@ public virtual void mainEDTLoop(){
         throw ex;
     } // end catch
     goto label25;
-    label150:;
+    label152:;
     // Value=Error
     _r2_o = new global::java.lang.String();
     ((global::java.lang.String)_r2_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)69)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 114))}));
@@ -1643,8 +1646,8 @@ public virtual void mainEDTLoop(){
     _r3_o = new global::java.lang.String();
     ((global::java.lang.String)_r3_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)79)), unchecked((char) unchecked((uint) 75))}));
     global::com.codename1.ui.Dialog.show((global::java.lang.String) _r7_o, (global::java.lang.String) _r2_o, (global::java.lang.String) _r8_o, (global::java.lang.String) _r5_o);
-    goto label103;
-    label181:;
+    goto label105;
+    label183:;
     _r3_o = _ex.getJavaException();
     _ex = null;
     try {
@@ -1655,7 +1658,7 @@ public virtual void mainEDTLoop(){
         global::System.Object _java_exception = ex.getJavaException();
         if (_java_exception is global::java.lang.Object) {
             _ex = ex;
-            goto label181;
+            goto label183;
         }
         throw ex;
     } // end catch
@@ -1667,27 +1670,28 @@ public virtual void mainEDTLoop(){
         global::System.Object _java_exception = ex.getJavaException();
         if (_java_exception is global::java.lang.Throwable) {
             _ex = ex;
-            goto label138;
+            goto label140;
         }
         throw ex;
     } // end catch
-    label184:;
+    label186:;
     ((global::java.lang.Throwable) _r0_o).printStackTrace();
     _r2_o = ((global::com.codename1.ui.Display) _r9_o)._fcrashReporter;
-    if (_r2_o == null) goto label194;
+    if (_r2_o == null) goto label196;
     global::com.codename1.impl.CodenameOneThread.handleException((global::java.lang.Throwable) _r0_o);
-    label194:;
-    _r2_o = ((global::com.codename1.ui.Display) _r9_o)._fimpl;
+    label196:;
+    _r2_o = global::com.codename1.ui.Display._fimpl;
     _r2.i = ((global::com.codename1.impl.CodenameOneImplementation) _r2_o).handleEDTException((global::java.lang.Throwable) _r0_o) ? 1 : 0;
-    if (_r2.i != 0) goto label103;
+    if (_r2.i != 0) goto label105;
     _r2_o = ((global::com.codename1.ui.Display) _r9_o)._ferrorHandler;
-    if (_r2_o == null) goto label217;
+    if (_r2_o == null) goto label221;
     _r2_o = ((global::com.codename1.ui.Display) _r9_o)._ferrorHandler;
     _r3_o = new global::com.codename1.ui.events.ActionEvent();
-    ((global::com.codename1.ui.events.ActionEvent) _r3_o).@this((global::java.lang.Object) _r0_o);
+    _r4_o = global::com.codename1.ui.events.ActionEvent_2Type._fException;
+    ((global::com.codename1.ui.events.ActionEvent) _r3_o).@this((global::java.lang.Object) _r0_o, (global::com.codename1.ui.events.ActionEvent_2Type) _r4_o);
     ((global::com.codename1.ui.util.EventDispatcher) _r2_o).fireActionEvent((global::com.codename1.ui.events.ActionEvent) _r3_o);
-    goto label103;
-    label217:;
+    goto label105;
+    label221:;
     // Value=Error
     _r2_o = new global::java.lang.String();
     ((global::java.lang.String)_r2_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)69)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 114))}));
@@ -1704,14 +1708,14 @@ public virtual void mainEDTLoop(){
     _r3_o = new global::java.lang.String();
     ((global::java.lang.String)_r3_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)79)), unchecked((char) unchecked((uint) 75))}));
     global::com.codename1.ui.Dialog.show((global::java.lang.String) _r7_o, (global::java.lang.String) _r2_o, (global::java.lang.String) _r8_o, (global::java.lang.String) _r5_o);
-    goto label103;
-    label249:;
+    goto label105;
+    label253:;
     _r2_o = global::com.codename1.ui.Display._fINSTANCE;
-    _r2_o = ((global::com.codename1.ui.Display) _r2_o)._fimpl;
+    _r2_o = global::com.codename1.ui.Display._fimpl;
     ((global::com.codename1.impl.CodenameOneImplementation) _r2_o).deinitialize();
     _r2_o = global::com.codename1.ui.Display._fINSTANCE;
     ((global::com.codename1.ui.Display) _r2_o)._fedt = (global::java.lang.Thread) _r5_o;
-    goto label144;
+    goto label146;
 //XMLVM_END_WRAPPER[com.codename1.ui.Display: void mainEDTLoop()]
 }
 
@@ -1768,14 +1772,14 @@ public virtual void edtLoopImpl(){
     _r0_o = ((global::com.codename1.ui.Display) _r0_o)._fanimationQueue;
     _r11_o = _r0_o;
     _r11.i = ((global::java.util.ArrayList) _r11_o).size();
-    if (_r11.i != 0) goto label154;
+    if (_r11.i != 0) goto label160;
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
         global::System.Object _java_exception = ex.getJavaException();
         if (_java_exception is global::java.lang.Exception) {
             _ex = ex;
-            goto label148;
+            goto label154;
         }
         throw ex;
     } // end catch
@@ -1784,7 +1788,7 @@ public virtual void edtLoopImpl(){
     _r0_o = _r19_o;
     _r0.i = ((global::com.codename1.ui.Display) _r0_o)._fnoSleep ? 1 : 0;
     _r11.i = _r0.i;
-    if (_r11.i != 0) goto label72;
+    if (_r11.i != 0) goto label66;
     _r11_o = global::com.codename1.ui.Display._flock;
     global::System.Threading.Monitor.Enter(_r11_o);
     }
@@ -1793,14 +1797,12 @@ public virtual void edtLoopImpl(){
         global::System.Object _java_exception = ex.getJavaException();
         if (_java_exception is global::java.lang.Exception) {
             _ex = ex;
-            goto label148;
+            goto label154;
         }
         throw ex;
     } // end catch
     try {
-    _r0_o = _r19_o;
-    _r0_o = ((global::com.codename1.ui.Display) _r0_o)._fimpl;
-    _r12_o = _r0_o;
+    _r12_o = global::com.codename1.ui.Display._fimpl;
     _r13.i = 1;
     ((global::com.codename1.impl.CodenameOneImplementation) _r12_o).edtIdle(0!=_r13.i);
     _r12_o = global::com.codename1.ui.Display._flock;
@@ -1815,9 +1817,7 @@ public virtual void edtLoopImpl(){
     _r15.l = _r15.l - _r17.l;
     _r13.l = global::java.lang.Math.max((long) _r13.l, (long) _r15.l);
     ((global::java.lang.Object) _r12_o).wait((long) _r13.l);
-    _r0_o = _r19_o;
-    _r0_o = ((global::com.codename1.ui.Display) _r0_o)._fimpl;
-    _r12_o = _r0_o;
+    _r12_o = global::com.codename1.ui.Display._fimpl;
     _r13.i = 0;
     ((global::com.codename1.impl.CodenameOneImplementation) _r12_o).edtIdle(0!=_r13.i);
     global::System.Threading.Monitor.Exit(_r11_o);
@@ -1827,11 +1827,11 @@ public virtual void edtLoopImpl(){
         global::System.Object _java_exception = ex.getJavaException();
         if (_java_exception is global::java.lang.Object) {
             _ex = ex;
-            goto label145;
+            goto label151;
         }
         throw ex;
     } // end catch
-    label72:;
+    label66:;
     _r4.l = global::java.lang.System.currentTimeMillis();
     _r11_o = global::com.codename1.ui.Display._flock;
     global::System.Threading.Monitor.Enter(_r11_o);
@@ -1846,6 +1846,10 @@ public virtual void edtLoopImpl(){
     _r0.i = _r12.i;
     _r1_o = _r19_o;
     ((global::com.codename1.ui.Display) _r1_o)._finputEventStackPointer = _r0.i;
+    _r12.i = -1;
+    _r0.i = _r12.i;
+    _r1_o = _r19_o;
+    ((global::com.codename1.ui.Display) _r1_o)._flastDragOffset = _r0.i;
     _r0_o = _r19_o;
     _r0_o = ((global::com.codename1.ui.Display) _r0_o)._finputEventStackTmp;
     _r8_o = _r0_o;
@@ -1865,7 +1869,7 @@ public virtual void edtLoopImpl(){
         global::System.Object _java_exception = ex.getJavaException();
         if (_java_exception is global::java.lang.Object) {
             _ex = ex;
-            goto label158;
+            goto label164;
         }
         throw ex;
     } // end catch
@@ -1874,21 +1878,25 @@ public virtual void edtLoopImpl(){
     _r0_o = _r19_o;
     _r0.i = ((global::com.codename1.ui.Display) _r0_o)._finputEventStackPointerTmp;
     _r11.i = _r0.i;
-    if (_r7.i >= _r11.i) goto label161;
+    if (_r7.i >= _r11.i) goto label167;
     _r0_o = _r19_o;
     _r0.i = ((global::com.codename1.ui.Display) _r0_o)._finputEventStackPointer;
     _r11.i = _r0.i;
-    if (_r7.i != _r11.i) goto label137;
+    if (_r7.i != _r11.i) goto label143;
     _r11.i = 0;
     _r0.i = _r11.i;
     _r1_o = _r19_o;
     ((global::com.codename1.ui.Display) _r1_o)._finputEventStackPointer = _r0.i;
-    label137:;
+    _r11.i = -1;
+    _r0.i = _r11.i;
+    _r1_o = _r19_o;
+    ((global::com.codename1.ui.Display) _r1_o)._flastDragOffset = _r0.i;
+    label143:;
     _r0_o = _r19_o;
     _r1.i = _r7.i;
     _r7.i = ((global::com.codename1.ui.Display) _r0_o).handleEvent((int) _r1.i);
     goto label117;
-    label145:;
+    label151:;
     _r12_o = _ex.getJavaException();
     _ex = null;
     try {
@@ -1899,7 +1907,7 @@ public virtual void edtLoopImpl(){
         global::System.Object _java_exception = ex.getJavaException();
         if (_java_exception is global::java.lang.Object) {
             _ex = ex;
-            goto label145;
+            goto label151;
         }
         throw ex;
     } // end catch
@@ -1911,17 +1919,17 @@ public virtual void edtLoopImpl(){
         global::System.Object _java_exception = ex.getJavaException();
         if (_java_exception is global::java.lang.Exception) {
             _ex = ex;
-            goto label148;
+            goto label154;
         }
         throw ex;
     } // end catch
-    label148:;
+    label154:;
     _r11_o = _ex.getJavaException();
     _ex = null;
     _r6_o = _r11_o;
     ((global::java.lang.Exception) _r6_o).printStackTrace();
-    goto label72;
-    label154:;
+    goto label66;
+    label160:;
     try {
     ((global::com.codename1.ui.Display) _r19_o).paintTransitionAnimation();
     }
@@ -1930,13 +1938,13 @@ public virtual void edtLoopImpl(){
         global::System.Object _java_exception = ex.getJavaException();
         if (_java_exception is global::java.lang.Exception) {
             _ex = ex;
-            goto label148;
+            goto label154;
         }
         throw ex;
     } // end catch
-    label157:;
+    label163:;
     return;
-    label158:;
+    label164:;
     _r12_o = _ex.getJavaException();
     _ex = null;
     try {
@@ -1947,45 +1955,37 @@ public virtual void edtLoopImpl(){
         global::System.Object _java_exception = ex.getJavaException();
         if (_java_exception is global::java.lang.Object) {
             _ex = ex;
-            goto label158;
+            goto label164;
         }
         throw ex;
     } // end catch
     throw new global::org.xmlvm._nExceptionAdapter((global::System.Object) _r12_o);
-    label161:;
-    _r0_o = _r19_o;
-    _r0_o = ((global::com.codename1.ui.Display) _r0_o)._fimpl;
-    _r11_o = _r0_o;
+    label167:;
+    _r11_o = global::com.codename1.ui.Display._fimpl;
     _r11.i = ((global::com.codename1.impl.CodenameOneImplementation) _r11_o).isInitialized() ? 1 : 0;
-    if (_r11.i == 0) goto label157;
+    if (_r11.i == 0) goto label163;
     _r0_o = _r19_o;
     _r0_o = ((global::com.codename1.ui.Display) _r0_o)._fcodenameOneGraphics;
     _r11_o = _r0_o;
-    _r0_o = _r19_o;
-    _r0_o = ((global::com.codename1.ui.Display) _r0_o)._fimpl;
-    _r12_o = _r0_o;
+    _r12_o = global::com.codename1.ui.Display._fimpl;
     _r12_o = ((global::com.codename1.impl.CodenameOneImplementation) _r12_o).getNativeGraphics();
     ((global::com.codename1.ui.Graphics) _r11_o).setGraphics((global::java.lang.Object) _r12_o);
-    _r0_o = _r19_o;
-    _r0_o = ((global::com.codename1.ui.Display) _r0_o)._fimpl;
-    _r11_o = _r0_o;
+    _r11_o = global::com.codename1.ui.Display._fimpl;
     ((global::com.codename1.impl.CodenameOneImplementation) _r11_o).paintDirty();
-    _r0_o = _r19_o;
-    _r0_o = ((global::com.codename1.ui.Display) _r0_o)._fimpl;
-    _r11_o = _r0_o;
+    _r11_o = global::com.codename1.ui.Display._fimpl;
     _r3_o = ((global::com.codename1.impl.CodenameOneImplementation) _r11_o).getCurrentForm();
-    if (_r3_o == null) goto label332;
+    if (_r3_o == null) goto label326;
     ((global::com.codename1.ui.Form) _r3_o).repaintAnimations();
     _r9.l = global::java.lang.System.currentTimeMillis();
     _r0_o = _r19_o;
     _r0.i = ((global::com.codename1.ui.Display) _r0_o)._fkeyRepeatCharged ? 1 : 0;
     _r11.i = _r0.i;
-    if (_r11.i == 0) goto label251;
+    if (_r11.i == 0) goto label245;
     _r0_o = _r19_o;
     _r0.l = ((global::com.codename1.ui.Display) _r0_o)._fnextKeyRepeatEvent;
     _r11.l = _r0.l;
     _r11.i = _r11.l > _r9.l ? 1 : (_r11.l == _r9.l ? 0 : -1);
-    if (_r11.i > 0) goto label251;
+    if (_r11.i > 0) goto label245;
     _r0_o = _r19_o;
     _r0.i = ((global::com.codename1.ui.Display) _r0_o)._fkeyRepeatValue;
     _r11.i = _r0.i;
@@ -1998,11 +1998,11 @@ public virtual void edtLoopImpl(){
     _r0.l = _r11.l;
     _r2_o = _r19_o;
     ((global::com.codename1.ui.Display) _r2_o)._fnextKeyRepeatEvent = _r0.l;
-    label251:;
+    label245:;
     _r0_o = _r19_o;
     _r0.i = ((global::com.codename1.ui.Display) _r0_o)._flongPressCharged ? 1 : 0;
     _r11.i = _r0.i;
-    if (_r11.i == 0) goto label289;
+    if (_r11.i == 0) goto label283;
     _r0_o = _r19_o;
     _r0.i = ((global::com.codename1.ui.Display) _r0_o)._flongPressInterval;
     _r11.i = _r0.i;
@@ -2012,7 +2012,7 @@ public virtual void edtLoopImpl(){
     _r13.l = _r0.l;
     _r13.l = _r9.l - _r13.l;
     _r11.i = _r11.l > _r13.l ? 1 : (_r11.l == _r13.l ? 0 : -1);
-    if (_r11.i > 0) goto label289;
+    if (_r11.i > 0) goto label283;
     _r11.i = 0;
     _r0.i = _r11.i;
     _r1_o = _r19_o;
@@ -2021,11 +2021,11 @@ public virtual void edtLoopImpl(){
     _r0.i = ((global::com.codename1.ui.Display) _r0_o)._fkeyRepeatValue;
     _r11.i = _r0.i;
     ((global::com.codename1.ui.Form) _r3_o).longKeyPress((int) _r11.i);
-    label289:;
+    label283:;
     _r0_o = _r19_o;
     _r0.i = ((global::com.codename1.ui.Display) _r0_o)._flongPointerCharged ? 1 : 0;
     _r11.i = _r0.i;
-    if (_r11.i == 0) goto label332;
+    if (_r11.i == 0) goto label326;
     _r0_o = _r19_o;
     _r0.i = ((global::com.codename1.ui.Display) _r0_o)._flongPressInterval;
     _r11.i = _r0.i;
@@ -2035,7 +2035,7 @@ public virtual void edtLoopImpl(){
     _r13.l = _r0.l;
     _r13.l = _r9.l - _r13.l;
     _r11.i = _r11.l > _r13.l ? 1 : (_r11.l == _r13.l ? 0 : -1);
-    if (_r11.i > 0) goto label332;
+    if (_r11.i > 0) goto label326;
     _r11.i = 0;
     _r0.i = _r11.i;
     _r1_o = _r19_o;
@@ -2047,14 +2047,14 @@ public virtual void edtLoopImpl(){
     _r0.i = ((global::com.codename1.ui.Display) _r0_o)._fpointerY;
     _r12.i = _r0.i;
     ((global::com.codename1.ui.Form) _r3_o).longPointerPress((int) _r11.i, (int) _r12.i);
-    label332:;
+    label326:;
     ((global::com.codename1.ui.Display) _r19_o).processSerialCalls();
     _r11.l = global::java.lang.System.currentTimeMillis();
     _r11.l = _r11.l - _r4.l;
     _r0.l = _r11.l;
     _r2_o = _r19_o;
     ((global::com.codename1.ui.Display) _r2_o)._ftime = _r0.l;
-    goto label157;
+    goto label163;
 //XMLVM_END_WRAPPER[com.codename1.ui.Display: void edtLoopImpl()]
 }
 
@@ -2423,7 +2423,7 @@ public virtual void invokeAndBlock(global::java.lang.Runnable n1, bool n2){
     try {
     _r4.i = ((global::com.codename1.ui.Display) _r8_o).shouldEDTSleep() ? 1 : 0;
     if (_r4.i == 0) goto label70;
-    _r4_o = ((global::com.codename1.ui.Display) _r8_o)._fimpl;
+    _r4_o = global::com.codename1.ui.Display._fimpl;
     _r5.i = 1;
     ((global::com.codename1.impl.CodenameOneImplementation) _r4_o).edtIdle(0!=_r5.i);
     }
@@ -2456,7 +2456,7 @@ public virtual void invokeAndBlock(global::java.lang.Runnable n1, bool n2){
     } // end catch
     label64:;
     try {
-    _r4_o = ((global::com.codename1.ui.Display) _r8_o)._fimpl;
+    _r4_o = global::com.codename1.ui.Display._fimpl;
     _r5.i = 0;
     ((global::com.codename1.impl.CodenameOneImplementation) _r4_o).edtIdle(0!=_r5.i);
     }
@@ -2734,7 +2734,7 @@ public virtual void setCurrent(global::com.codename1.ui.Form n1, bool n2){
     ((global::java.lang.IllegalStateException) _r6_o).@this((global::java.lang.String) _r7_o);
     throw new global::org.xmlvm._nExceptionAdapter((global::java.lang.IllegalStateException) _r6_o);
     label14:;
-    _r6_o = ((global::com.codename1.ui.Display) _r11_o)._fimpl;
+    _r6_o = global::com.codename1.ui.Display._fimpl;
     _r1_o = ((global::com.codename1.impl.CodenameOneImplementation) _r6_o).getCurrentForm();
     _r6.i = ((global::com.codename1.ui.Display) _r11_o)._fautoFoldVKBOnFormSwitch ? 1 : 0;
     if (_r6.i == 0) goto label31;
@@ -2742,63 +2742,64 @@ public virtual void setCurrent(global::com.codename1.ui.Form n1, bool n2){
     if (_r6.i != 0) goto label31;
     ((global::com.codename1.ui.Display) _r11_o).setShowVirtualKeyboard(0!=_r9.i);
     label31:;
-    if (_r1_o != _r12_o) goto label40;
+    if (_r1_o != _r12_o) goto label43;
     ((global::com.codename1.ui.Form) _r1_o).revalidate();
     ((global::com.codename1.ui.Form) _r1_o).repaint();
-    label39:;
+    ((global::com.codename1.ui.Form) _r1_o).onShowCompletedImpl();
+    label42:;
     return;
-    label40:;
-    _r6_o = ((global::com.codename1.ui.Display) _r11_o)._fimpl;
+    label43:;
+    _r6_o = global::com.codename1.ui.Display._fimpl;
     _r6.i = ((global::com.codename1.impl.CodenameOneImplementation) _r6_o).isEditingText() ? 1 : 0;
-    if (_r6.i == 0) goto label53;
+    if (_r6.i == 0) goto label56;
     _r6.i = ((global::com.codename1.ui.Display) _r11_o)._fshowDuringEdit;
     switch (_r6.i) {
-    case 1: goto label39;
-    case 2: goto label75;
-    case 3: goto label53;
-    case 4: goto label69;
-    case 5: goto label83;
+    case 1: goto label42;
+    case 2: goto label78;
+    case 3: goto label56;
+    case 4: goto label72;
+    case 5: goto label86;
     }
-    label53:;
+    label56:;
     _r6.i = ((global::com.codename1.ui.Display) _r11_o).isEdt() ? 1 : 0;
-    if (_r6.i != 0) goto label89;
+    if (_r6.i != 0) goto label92;
     _r6_o = new global::com.codename1.ui.RunnableWrapper();
     _r7_o = null;
     ((global::com.codename1.ui.RunnableWrapper) _r6_o).@this((global::com.codename1.ui.Form) _r12_o, (global::com.codename1.ui.Painter) _r7_o, 0!=_r13.i);
     ((global::com.codename1.ui.Display) _r11_o).callSerially((global::java.lang.Runnable) _r6_o);
-    goto label39;
-    label69:;
-    _r6_o = ((global::com.codename1.ui.Display) _r11_o)._fimpl;
+    goto label42;
+    label72:;
+    _r6_o = global::com.codename1.ui.Display._fimpl;
     ((global::com.codename1.impl.CodenameOneImplementation) _r6_o).saveTextEditingState();
-    goto label53;
-    label75:;
+    goto label56;
+    label78:;
     _r6_o = new global::java.lang.IllegalStateException();
     // Value=Show during edit
     _r7_o = new global::java.lang.String();
     ((global::java.lang.String)_r7_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)83)), unchecked((char) unchecked((uint) 104)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 119)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 100)), unchecked((char) unchecked((uint) 117)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 103)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 100)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 116))}));
     ((global::java.lang.IllegalStateException) _r6_o).@this((global::java.lang.String) _r7_o);
     throw new global::org.xmlvm._nExceptionAdapter((global::java.lang.IllegalStateException) _r6_o);
-    label83:;
-    _r6_o = ((global::com.codename1.ui.Display) _r11_o)._fimpl;
+    label86:;
+    _r6_o = global::com.codename1.ui.Display._fimpl;
     ((global::com.codename1.impl.CodenameOneImplementation) _r6_o).setCurrentForm((global::com.codename1.ui.Form) _r12_o);
-    goto label39;
-    label89:;
-    if (_r1_o == null) goto label100;
+    goto label42;
+    label92:;
+    if (_r1_o == null) goto label103;
     _r6.i = ((global::com.codename1.ui.Form) _r1_o).isInitialized() ? 1 : 0;
-    if (_r6.i == 0) goto label349;
+    if (_r6.i == 0) goto label352;
     ((global::com.codename1.ui.Form) _r1_o).deinitializeImpl();
-    label100:;
+    label103:;
     _r6.i = ((global::com.codename1.ui.Form) _r12_o).isInitialized() ? 1 : 0;
-    if (_r6.i != 0) goto label109;
+    if (_r6.i != 0) goto label112;
     ((global::com.codename1.ui.Form) _r12_o).initComponentImpl();
-    label109:;
+    label112:;
     _r6.i = ((global::com.codename1.ui.Form) _r12_o).getWidth();
     _r7.i = ((global::com.codename1.ui.Display) _r11_o).getDisplayWidth();
-    if (_r6.i != _r7.i) goto label129;
+    if (_r6.i != _r7.i) goto label132;
     _r6.i = ((global::com.codename1.ui.Form) _r12_o).getHeight();
     _r7.i = ((global::com.codename1.ui.Display) _r11_o).getDisplayHeight();
-    if (_r6.i == _r7.i) goto label366;
-    label129:;
+    if (_r6.i == _r7.i) goto label369;
+    label132:;
     _r6_o = new global::com.codename1.ui.geom.Dimension();
     _r7.i = ((global::com.codename1.ui.Display) _r11_o).getDisplayWidth();
     _r8.i = ((global::com.codename1.ui.Display) _r11_o).getDisplayHeight();
@@ -2806,84 +2807,84 @@ public virtual void setCurrent(global::com.codename1.ui.Form n1, bool n2){
     ((global::com.codename1.ui.Form) _r12_o).setSize((global::com.codename1.ui.geom.Dimension) _r6_o);
     ((global::com.codename1.ui.Form) _r12_o).setShouldCalcPreferredSize(0!=_r10.i);
     ((global::com.codename1.ui.Form) _r12_o).layoutContainer();
-    label151:;
+    label154:;
     _r5.i = 0;
     _r6_o = ((global::com.codename1.ui.Display) _r11_o)._fanimationQueue;
-    if (_r6_o == null) goto label194;
+    if (_r6_o == null) goto label197;
     _r6_o = ((global::com.codename1.ui.Display) _r11_o)._fanimationQueue;
     _r6.i = ((global::java.util.ArrayList) _r6_o).size();
-    if (_r6.i <= 0) goto label194;
+    if (_r6.i <= 0) goto label197;
     _r6_o = ((global::com.codename1.ui.Display) _r11_o)._fanimationQueue;
     _r7_o = ((global::com.codename1.ui.Display) _r11_o)._fanimationQueue;
     _r7.i = ((global::java.util.ArrayList) _r7_o).size();
     _r7.i = _r7.i - _r10.i;
     _r3_o = ((global::java.util.ArrayList) _r6_o).get((int) _r7.i);
     _r6.i = ((_r3_o != null) && (_r3_o is global::com.codename1.ui.animations.Transition)) ? 1 : 0;
-    if (_r6.i == 0) goto label194;
+    if (_r6.i == 0) goto label197;
     _r3_o = _r3_o;
     _r1_o = ((global::com.codename1.ui.animations.Transition) _r3_o).getDestination();
     _r1_o = _r1_o;
-    _r6_o = ((global::com.codename1.ui.Display) _r11_o)._fimpl;
+    _r6_o = global::com.codename1.ui.Display._fimpl;
     ((global::com.codename1.impl.CodenameOneImplementation) _r6_o).setCurrentForm((global::com.codename1.ui.Form) _r1_o);
-    label194:;
-    if (_r1_o == null) goto label321;
+    label197:;
+    if (_r1_o == null) goto label324;
     _r6.i = ((_r1_o != null) && (_r1_o is global::com.codename1.ui.Dialog)) ? 1 : 0;
-    if (_r6.i == 0) goto label252;
+    if (_r6.i == 0) goto label255;
     _r0_o = _r1_o;
     _r0_o = _r0_o;
     _r6_o = _r0_o;
     _r6.i = ((global::com.codename1.ui.Dialog) _r6_o).isMenu() ? 1 : 0;
-    if (_r6.i == 0) goto label252;
+    if (_r6.i == 0) goto label255;
     _r4_o = ((global::com.codename1.ui.Form) _r1_o).getTransitionOutAnimator();
-    if (_r4_o == null) goto label241;
+    if (_r4_o == null) goto label244;
     _r0_o = _r1_o;
     _r0_o = _r0_o;
     _r6_o = _r0_o;
     _r6_o = ((global::com.codename1.ui.Dialog) _r6_o).getPreviousForm();
-    if (_r6_o == null) goto label241;
+    if (_r6_o == null) goto label244;
     _r7_o = ((global::com.codename1.ui.animations.Transition) _r4_o).copy(0!=_r9.i);
     _r0_o = _r1_o;
     _r0_o = _r0_o;
     _r6_o = _r0_o;
     _r6_o = ((global::com.codename1.ui.Dialog) _r6_o).getPreviousForm();
     ((global::com.codename1.ui.Display) _r11_o).initTransition((global::com.codename1.ui.animations.Transition) _r7_o, (global::com.codename1.ui.Form) _r1_o, (global::com.codename1.ui.Form) _r6_o);
-    label241:;
+    label244:;
     _r1_o = _r1_o;
     _r1_o = ((global::com.codename1.ui.Dialog) _r1_o).getPreviousForm();
-    _r6_o = ((global::com.codename1.ui.Display) _r11_o)._fimpl;
+    _r6_o = global::com.codename1.ui.Display._fimpl;
     ((global::com.codename1.impl.CodenameOneImplementation) _r6_o).setCurrentForm((global::com.codename1.ui.Form) _r1_o);
-    label252:;
-    if (_r12_o == _r1_o) goto label321;
-    if (_r1_o == null) goto label262;
+    label255:;
+    if (_r12_o == _r1_o) goto label324;
+    if (_r1_o == null) goto label265;
     _r6_o = ((global::com.codename1.ui.Form) _r1_o).getTransitionOutAnimator();
-    if (_r6_o != null) goto label268;
-    label262:;
+    if (_r6_o != null) goto label271;
+    label265:;
     _r6_o = ((global::com.codename1.ui.Form) _r12_o).getTransitionInAnimator();
-    if (_r6_o == null) goto label321;
-    label268:;
+    if (_r6_o == null) goto label324;
+    label271:;
     _r6_o = ((global::com.codename1.ui.Display) _r11_o)._fanimationQueue;
-    if (_r6_o != null) goto label279;
+    if (_r6_o != null) goto label282;
     _r6_o = new global::java.util.ArrayList();
     ((global::java.util.ArrayList) _r6_o).@this();
     ((global::com.codename1.ui.Display) _r11_o)._fanimationQueue = (global::java.util.ArrayList) _r6_o;
-    label279:;
-    if (_r1_o == null) goto label301;
+    label282:;
+    if (_r1_o == null) goto label304;
     _r6.i = ((_r12_o != null) && (_r12_o is global::com.codename1.ui.Dialog)) ? 1 : 0;
-    if (_r6.i != 0) goto label301;
+    if (_r6.i != 0) goto label304;
     _r4_o = ((global::com.codename1.ui.Form) _r1_o).getTransitionOutAnimator();
-    if (_r1_o == null) goto label301;
-    if (_r4_o == null) goto label301;
+    if (_r1_o == null) goto label304;
+    if (_r4_o == null) goto label304;
     _r6_o = ((global::com.codename1.ui.animations.Transition) _r4_o).copy(0!=_r13.i);
     _r5.i = ((global::com.codename1.ui.Display) _r11_o).initTransition((global::com.codename1.ui.animations.Transition) _r6_o, (global::com.codename1.ui.Form) _r1_o, (global::com.codename1.ui.Form) _r12_o) ? 1 : 0;
-    label301:;
-    if (_r1_o == null) goto label321;
+    label304:;
+    if (_r1_o == null) goto label324;
     _r6.i = ((_r1_o != null) && (_r1_o is global::com.codename1.ui.Dialog)) ? 1 : 0;
-    if (_r6.i != 0) goto label321;
+    if (_r6.i != 0) goto label324;
     _r4_o = ((global::com.codename1.ui.Form) _r12_o).getTransitionInAnimator();
-    if (_r4_o == null) goto label321;
+    if (_r4_o == null) goto label324;
     _r6_o = ((global::com.codename1.ui.animations.Transition) _r4_o).copy(0!=_r13.i);
     _r5.i = ((global::com.codename1.ui.Display) _r11_o).initTransition((global::com.codename1.ui.animations.Transition) _r6_o, (global::com.codename1.ui.Form) _r1_o, (global::com.codename1.ui.Form) _r12_o) ? 1 : 0;
-    label321:;
+    label324:;
     _r6_o = global::com.codename1.ui.Display._flock;
     global::System.Threading.Monitor.Enter(_r6_o);
     try {
@@ -2896,30 +2897,30 @@ public virtual void setCurrent(global::com.codename1.ui.Form n1, bool n2){
         global::System.Object _java_exception = ex.getJavaException();
         if (_java_exception is global::java.lang.Object) {
             _ex = ex;
-            goto label371;
+            goto label374;
         }
         throw ex;
     } // end catch
-    if (_r5.i != 0) goto label39;
+    if (_r5.i != 0) goto label42;
     _r6_o = ((global::com.codename1.ui.Display) _r11_o)._fanimationQueue;
-    if (_r6_o == null) goto label344;
+    if (_r6_o == null) goto label347;
     _r6_o = ((global::com.codename1.ui.Display) _r11_o)._fanimationQueue;
     _r6.i = ((global::java.util.ArrayList) _r6_o).size();
-    if (_r6.i != 0) goto label374;
-    label344:;
+    if (_r6.i != 0) goto label377;
+    label347:;
     ((global::com.codename1.ui.Display) _r11_o).setCurrentForm((global::com.codename1.ui.Form) _r12_o);
-    goto label39;
-    label349:;
+    goto label42;
+    label352:;
     _r2_o = ((global::com.codename1.ui.Display) _r11_o).getCurrentUpcoming();
-    if (_r2_o == _r1_o) goto label100;
+    if (_r2_o == _r1_o) goto label103;
     _r6.i = ((global::com.codename1.ui.Form) _r2_o).isInitialized() ? 1 : 0;
-    if (_r6.i == 0) goto label100;
+    if (_r6.i == 0) goto label103;
     ((global::com.codename1.ui.Form) _r2_o).deinitializeImpl();
-    goto label100;
-    label366:;
+    goto label103;
+    label369:;
     ((global::com.codename1.ui.Form) _r12_o).layoutContainer();
-    goto label151;
-    label371:;
+    goto label154;
+    label374:;
     _r7_o = _ex.getJavaException();
     _ex = null;
     try {
@@ -2930,16 +2931,16 @@ public virtual void setCurrent(global::com.codename1.ui.Form n1, bool n2){
         global::System.Object _java_exception = ex.getJavaException();
         if (_java_exception is global::java.lang.Object) {
             _ex = ex;
-            goto label371;
+            goto label374;
         }
         throw ex;
     } // end catch
     throw new global::org.xmlvm._nExceptionAdapter((global::System.Object) _r7_o);
-    label374:;
+    label377:;
     _r4_o = global::com.codename1.ui.animations.CommonTransitions.createEmpty();
     ((global::com.codename1.ui.Display) _r11_o).initTransition((global::com.codename1.ui.animations.Transition) _r4_o, (global::com.codename1.ui.Form) _r1_o, (global::com.codename1.ui.Form) _r12_o);
-    goto label39;
-    label384:;
+    goto label42;
+    label386:;
 //XMLVM_END_WRAPPER[com.codename1.ui.Display: void setCurrent(com.codename1.ui.Form, boolean)]
 }
 
@@ -2999,7 +3000,7 @@ private bool initTransition(global::com.codename1.ui.animations.Transition n1, g
     } // end catch
     label20:;
     try {
-    _r1_o = ((global::com.codename1.ui.Display) _r3_o)._fimpl;
+    _r1_o = global::com.codename1.ui.Display._fimpl;
     _r4_o = ((global::com.codename1.impl.CodenameOneImplementation) _r1_o).getNativeTransition((global::com.codename1.ui.animations.Transition) _r4_o);
     _r1_o = ((global::com.codename1.ui.Display) _r3_o)._fanimationQueue;
     ((global::java.util.ArrayList) _r1_o).add((global::java.lang.Object) _r4_o);
@@ -3059,7 +3060,7 @@ public virtual void setCurrentForm(global::com.codename1.ui.Form n1){
     _r8_o = n1;
     _r6.i = 0;
     _r1.i = 0;
-    _r4_o = ((global::com.codename1.ui.Display) _r7_o)._fimpl;
+    _r4_o = global::com.codename1.ui.Display._fimpl;
     _r0_o = ((global::com.codename1.impl.CodenameOneImplementation) _r4_o).getCurrentForm();
     if (_r0_o == null) goto label97;
     ((global::com.codename1.ui.Form) _r0_o).setVisible(0!=_r6.i);
@@ -3068,7 +3069,7 @@ public virtual void setCurrentForm(global::com.codename1.ui.Form n1){
     ((global::com.codename1.ui.Display) _r7_o)._flongPressCharged = 0!=_r6.i;
     ((global::com.codename1.ui.Display) _r7_o)._flongPointerCharged = 0!=_r6.i;
     _r0_o = _r8_o;
-    _r4_o = ((global::com.codename1.ui.Display) _r7_o)._fimpl;
+    _r4_o = global::com.codename1.ui.Display._fimpl;
     ((global::com.codename1.impl.CodenameOneImplementation) _r4_o).setCurrentForm((global::com.codename1.ui.Form) _r0_o);
     _r4.i = 1;
     ((global::com.codename1.ui.Form) _r0_o).setVisible(0!=_r4.i);
@@ -3078,23 +3079,23 @@ public virtual void setCurrentForm(global::com.codename1.ui.Form n1){
     _r4.i = ((global::com.codename1.ui.Display) _r7_o)._finNativeUI ? 1 : 0;
     if (_r4.i == 0) goto label44;
     label39:;
-    _r4_o = ((global::com.codename1.ui.Display) _r7_o)._fimpl;
+    _r4_o = global::com.codename1.ui.Display._fimpl;
     ((global::com.codename1.impl.CodenameOneImplementation) _r4_o).confirmControlView();
     label44:;
     _r3.i = ((global::com.codename1.ui.Form) _r0_o).getWidth();
     _r2.i = ((global::com.codename1.ui.Form) _r0_o).getHeight();
     _r4.i = ((global::com.codename1.ui.Display) _r7_o).isEdt() ? 1 : 0;
     if (_r4.i == 0) goto label99;
-    _r4_o = ((global::com.codename1.ui.Display) _r7_o)._fimpl;
+    _r4_o = global::com.codename1.ui.Display._fimpl;
     _r4.i = ((global::com.codename1.impl.CodenameOneImplementation) _r4_o).getDisplayWidth();
     if (_r3.i != _r4.i) goto label74;
-    _r4_o = ((global::com.codename1.ui.Display) _r7_o)._fimpl;
+    _r4_o = global::com.codename1.ui.Display._fimpl;
     _r4.i = ((global::com.codename1.impl.CodenameOneImplementation) _r4_o).getDisplayHeight();
     if (_r2.i == _r4.i) goto label99;
     label74:;
-    _r4_o = ((global::com.codename1.ui.Display) _r7_o)._fimpl;
+    _r4_o = global::com.codename1.ui.Display._fimpl;
     _r4.i = ((global::com.codename1.impl.CodenameOneImplementation) _r4_o).getDisplayWidth();
-    _r5_o = ((global::com.codename1.ui.Display) _r7_o)._fimpl;
+    _r5_o = global::com.codename1.ui.Display._fimpl;
     _r5.i = ((global::com.codename1.impl.CodenameOneImplementation) _r5_o).getDisplayHeight();
     ((global::com.codename1.ui.Form) _r0_o).sizeChangedInternal((int) _r4.i, (int) _r5.i);
     label89:;
@@ -3215,7 +3216,7 @@ public virtual void editString(global::com.codename1.ui.Component n1, int n2, in
     ((global::com.codename1.ui.Display) _r7_o)._flongPressCharged = 0!=_r1.i;
     ((global::com.codename1.ui.Display) _r7_o)._flastKeyPressed = _r1.i;
     ((global::com.codename1.ui.Display) _r7_o)._fpreviousKeyPressed = _r1.i;
-    _r0_o = ((global::com.codename1.ui.Display) _r7_o)._fimpl;
+    _r0_o = global::com.codename1.ui.Display._fimpl;
     _r1_o = _r8_o;
     _r2.i = _r9.i;
     _r3.i = _r10.i;
@@ -3239,7 +3240,7 @@ public virtual void stopEditing(global::com.codename1.ui.Component n1){
     _r2_o = n1;
     _r0.i = ((global::com.codename1.ui.Display) _r1_o).isTextEditing((global::com.codename1.ui.Component) _r2_o) ? 1 : 0;
     if (_r0.i == 0) goto label11;
-    _r0_o = ((global::com.codename1.ui.Display) _r1_o)._fimpl;
+    _r0_o = global::com.codename1.ui.Display._fimpl;
     ((global::com.codename1.impl.CodenameOneImplementation) _r0_o).stopTextEditing();
     label11:;
     return;
@@ -3257,7 +3258,7 @@ public virtual bool isTextEditing(global::com.codename1.ui.Component n1){
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
-    _r0_o = ((global::com.codename1.ui.Display) _r1_o)._fimpl;
+    _r0_o = global::com.codename1.ui.Display._fimpl;
     _r0.i = ((global::com.codename1.impl.CodenameOneImplementation) _r0_o).isEditingText((global::com.codename1.ui.Component) _r2_o) ? 1 : 0;
     return _r0.i!=0;
 //XMLVM_END_WRAPPER[com.codename1.ui.Display: boolean isTextEditing(com.codename1.ui.Component)]
@@ -3418,7 +3419,7 @@ public virtual void keyPressed(int n1){
     _r5.i = n1;
     _r2.i = 1;
     _r1.i = 0;
-    _r0_o = ((global::com.codename1.ui.Display) _r4_o)._fimpl;
+    _r0_o = global::com.codename1.ui.Display._fimpl;
     _r0_o = ((global::com.codename1.impl.CodenameOneImplementation) _r0_o).getCurrentForm();
     if (_r0_o != null) goto label11;
     label10:;
@@ -3441,7 +3442,7 @@ public virtual void keyPressed(int n1){
     if (_r5.i >= 0) goto label50;
     _r0.i = ((global::com.codename1.ui.Display) _r4_o).getGameAction((int) _r5.i);
     if (_r0.i > 0) goto label50;
-    _r0_o = ((global::com.codename1.ui.Display) _r4_o)._fimpl;
+    _r0_o = global::com.codename1.ui.Display._fimpl;
     _r0.i = ((global::com.codename1.impl.CodenameOneImplementation) _r0_o).getClearKeyCode();
     if (_r5.i != _r0.i) goto label84;
     label50:;
@@ -3487,7 +3488,7 @@ public virtual void keyReleased(int n1){
     _r1.i = 0;
     ((global::com.codename1.ui.Display) _r2_o)._fkeyRepeatCharged = 0!=_r1.i;
     ((global::com.codename1.ui.Display) _r2_o)._flongPressCharged = 0!=_r1.i;
-    _r0_o = ((global::com.codename1.ui.Display) _r2_o)._fimpl;
+    _r0_o = global::com.codename1.ui.Display._fimpl;
     _r0_o = ((global::com.codename1.impl.CodenameOneImplementation) _r0_o).getCurrentForm();
     if (_r0_o != null) goto label14;
     label13:;
@@ -3807,6 +3808,190 @@ private void addPointerEvent(int n1, global::org.xmlvm._nArrayAdapter<int> n2, g
 //XMLVM_END_WRAPPER[com.codename1.ui.Display: void addPointerEvent(int, int[], int[])]
 }
 
+private void addPointerDragEventWithTimestamp(int n1, int n2){
+//XMLVM_BEGIN_WRAPPER[com.codename1.ui.Display: void addPointerDragEventWithTimestamp(int, int)]
+    global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
+    global::org.xmlvm._nElement _r7;
+    global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
+    global::org.xmlvm._nElement _r9;
+    global::System.Object _r9_o = null;
+    global::org.xmlvm._nElement _r10;
+    global::System.Object _r10_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
+    _r8_o = this;
+    _r9.i = n1;
+    _r10.i = n2;
+    _r1_o = global::com.codename1.ui.Display._flock;
+    global::System.Threading.Monitor.Enter(_r1_o);
+    try {
+    _r2.i = ((global::com.codename1.ui.Display) _r8_o)._fdropEvents ? 1 : 0;
+    if (_r2.i == 0) goto label9;
+    global::System.Threading.Monitor.Exit(_r1_o);
+    }
+    catch (global::System.Exception e) {
+ global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
+        global::System.Object _java_exception = ex.getJavaException();
+        if (_java_exception is global::java.lang.Object) {
+            _ex = ex;
+            goto label51;
+        }
+        throw ex;
+    } // end catch
+    label8:;
+    return;
+    label9:;
+    try {
+    _r2.i = ((global::com.codename1.ui.Display) _r8_o)._flastDragOffset;
+    _r3.i = -1;
+    if (_r2.i <= _r3.i) goto label54;
+    _r2_o = ((global::com.codename1.ui.Display) _r8_o)._finputEventStack;
+    _r3.i = ((global::com.codename1.ui.Display) _r8_o)._flastDragOffset;
+    ((global::org.xmlvm._nArrayAdapter<int>) _r2_o)[_r3.i] = _r9.i;
+    _r2_o = ((global::com.codename1.ui.Display) _r8_o)._finputEventStack;
+    _r3.i = ((global::com.codename1.ui.Display) _r8_o)._flastDragOffset;
+    _r3.i = _r3.i + 1;
+    ((global::org.xmlvm._nArrayAdapter<int>) _r2_o)[_r3.i] = _r10.i;
+    _r2_o = ((global::com.codename1.ui.Display) _r8_o)._finputEventStack;
+    _r3.i = ((global::com.codename1.ui.Display) _r8_o)._flastDragOffset;
+    _r3.i = _r3.i + 2;
+    _r4.l = global::java.lang.System.currentTimeMillis();
+    _r6.l = ((global::com.codename1.ui.Display) _r8_o)._fdisplayInitTime;
+    _r4.l = _r4.l - _r6.l;
+    _r4.i = (int) _r4.l;
+    ((global::org.xmlvm._nArrayAdapter<int>) _r2_o)[_r3.i] = _r4.i;
+    }
+    catch (global::System.Exception e) {
+ global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
+        global::System.Object _java_exception = ex.getJavaException();
+        if (_java_exception is global::java.lang.ArrayIndexOutOfBoundsException) {
+            _ex = ex;
+            goto label116;
+        }
+        if (_java_exception is global::java.lang.Object) {
+            _ex = ex;
+            goto label51;
+        }
+        throw ex;
+    } // end catch
+    label44:;
+    try {
+    _r2_o = global::com.codename1.ui.Display._flock;
+    ((global::java.lang.Object) _r2_o).notify();
+    global::System.Threading.Monitor.Exit(_r1_o);
+    goto label8;
+    }
+    catch (global::System.Exception e) {
+ global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
+        global::System.Object _java_exception = ex.getJavaException();
+        if (_java_exception is global::java.lang.Object) {
+            _ex = ex;
+            goto label51;
+        }
+        throw ex;
+    } // end catch
+    label51:;
+    try {
+    _r2_o = _ex.getJavaException();
+    _ex = null;
+    global::System.Threading.Monitor.Exit(_r1_o);
+    }
+    catch (global::System.Exception e) {
+ global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
+        global::System.Object _java_exception = ex.getJavaException();
+        if (_java_exception is global::java.lang.Object) {
+            _ex = ex;
+            goto label51;
+        }
+        throw ex;
+    } // end catch
+    throw new global::org.xmlvm._nExceptionAdapter((global::System.Object) _r2_o);
+    label54:;
+    try {
+    _r2_o = ((global::com.codename1.ui.Display) _r8_o)._finputEventStack;
+    _r3.i = ((global::com.codename1.ui.Display) _r8_o)._finputEventStackPointer;
+    _r4.i = 3;
+    ((global::org.xmlvm._nArrayAdapter<int>) _r2_o)[_r3.i] = _r4.i;
+    _r2.i = ((global::com.codename1.ui.Display) _r8_o)._finputEventStackPointer;
+    _r2.i = _r2.i + 1;
+    ((global::com.codename1.ui.Display) _r8_o)._finputEventStackPointer = _r2.i;
+    _r2.i = ((global::com.codename1.ui.Display) _r8_o)._finputEventStackPointer;
+    ((global::com.codename1.ui.Display) _r8_o)._flastDragOffset = _r2.i;
+    _r2_o = ((global::com.codename1.ui.Display) _r8_o)._finputEventStack;
+    _r3.i = ((global::com.codename1.ui.Display) _r8_o)._finputEventStackPointer;
+    ((global::org.xmlvm._nArrayAdapter<int>) _r2_o)[_r3.i] = _r9.i;
+    _r2.i = ((global::com.codename1.ui.Display) _r8_o)._finputEventStackPointer;
+    _r2.i = _r2.i + 1;
+    ((global::com.codename1.ui.Display) _r8_o)._finputEventStackPointer = _r2.i;
+    _r2_o = ((global::com.codename1.ui.Display) _r8_o)._finputEventStack;
+    _r3.i = ((global::com.codename1.ui.Display) _r8_o)._finputEventStackPointer;
+    ((global::org.xmlvm._nArrayAdapter<int>) _r2_o)[_r3.i] = _r10.i;
+    _r2.i = ((global::com.codename1.ui.Display) _r8_o)._finputEventStackPointer;
+    _r2.i = _r2.i + 1;
+    ((global::com.codename1.ui.Display) _r8_o)._finputEventStackPointer = _r2.i;
+    _r2_o = ((global::com.codename1.ui.Display) _r8_o)._finputEventStack;
+    _r3.i = ((global::com.codename1.ui.Display) _r8_o)._finputEventStackPointer;
+    _r4.l = global::java.lang.System.currentTimeMillis();
+    _r6.l = ((global::com.codename1.ui.Display) _r8_o)._fdisplayInitTime;
+    _r4.l = _r4.l - _r6.l;
+    _r4.i = (int) _r4.l;
+    ((global::org.xmlvm._nArrayAdapter<int>) _r2_o)[_r3.i] = _r4.i;
+    _r2.i = ((global::com.codename1.ui.Display) _r8_o)._finputEventStackPointer;
+    _r2.i = _r2.i + 1;
+    ((global::com.codename1.ui.Display) _r8_o)._finputEventStackPointer = _r2.i;
+    }
+    catch (global::System.Exception e) {
+ global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
+        global::System.Object _java_exception = ex.getJavaException();
+        if (_java_exception is global::java.lang.ArrayIndexOutOfBoundsException) {
+            _ex = ex;
+            goto label116;
+        }
+        if (_java_exception is global::java.lang.Object) {
+            _ex = ex;
+            goto label51;
+        }
+        throw ex;
+    } // end catch
+    goto label44;
+    label116:;
+    _r2_o = _ex.getJavaException();
+    _ex = null;
+    _r0_o = _r2_o;
+    try {
+    // Value=EDT performance is very slow triggering this exception!
+    _r2_o = new global::java.lang.String();
+    ((global::java.lang.String)_r2_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)69)), unchecked((char) unchecked((uint) 68)), unchecked((char) unchecked((uint) 84)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 112)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 102)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 109)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 99)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 115)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 118)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 121)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 115)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 119)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 103)), unchecked((char) unchecked((uint) 103)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 103)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 104)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 115)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 120)), unchecked((char) unchecked((uint) 99)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 112)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 33))}));
+    global::com.codename1.io.Log.p((global::java.lang.String) _r2_o);
+    global::com.codename1.io.Log.e((global::java.lang.Throwable) _r0_o);
+    }
+    catch (global::System.Exception e) {
+ global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
+        global::System.Object _java_exception = ex.getJavaException();
+        if (_java_exception is global::java.lang.Object) {
+            _ex = ex;
+            goto label51;
+        }
+        throw ex;
+    } // end catch
+    goto label44;
+//XMLVM_END_WRAPPER[com.codename1.ui.Display: void addPointerDragEventWithTimestamp(int, int)]
+}
+
 private void addPointerEventWithTimestamp(int n1, int n2, int n3){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.Display: void addPointerEventWithTimestamp(int, int, int)]
     global::org.xmlvm._nElement _r0;
@@ -3831,17 +4016,19 @@ private void addPointerEventWithTimestamp(int n1, int n2, int n3){
     global::System.Object _r9_o = null;
     global::org.xmlvm._nElement _r10;
     global::System.Object _r10_o = null;
+    global::org.xmlvm._nElement _r11;
+    global::System.Object _r11_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
-    _r7_o = this;
-    _r8.i = n1;
-    _r9.i = n2;
-    _r10.i = n3;
-    _r0_o = global::com.codename1.ui.Display._flock;
-    global::System.Threading.Monitor.Enter(_r0_o);
+    _r8_o = this;
+    _r9.i = n1;
+    _r10.i = n2;
+    _r11.i = n3;
+    _r1_o = global::com.codename1.ui.Display._flock;
+    global::System.Threading.Monitor.Enter(_r1_o);
     try {
-    _r1.i = ((global::com.codename1.ui.Display) _r7_o)._fdropEvents ? 1 : 0;
-    if (_r1.i == 0) goto label9;
-    global::System.Threading.Monitor.Exit(_r0_o);
+    _r2.i = ((global::com.codename1.ui.Display) _r8_o)._fdropEvents ? 1 : 0;
+    if (_r2.i == 0) goto label9;
+    global::System.Threading.Monitor.Exit(_r1_o);
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
@@ -3853,51 +4040,56 @@ private void addPointerEventWithTimestamp(int n1, int n2, int n3){
         throw ex;
     } // end catch
     label8:;
-    try {
     return;
+    label9:;
+    try {
+    _r2_o = ((global::com.codename1.ui.Display) _r8_o)._finputEventStack;
+    _r3.i = ((global::com.codename1.ui.Display) _r8_o)._finputEventStackPointer;
+    ((global::org.xmlvm._nArrayAdapter<int>) _r2_o)[_r3.i] = _r9.i;
+    _r2.i = ((global::com.codename1.ui.Display) _r8_o)._finputEventStackPointer;
+    _r2.i = _r2.i + 1;
+    ((global::com.codename1.ui.Display) _r8_o)._finputEventStackPointer = _r2.i;
+    _r2_o = ((global::com.codename1.ui.Display) _r8_o)._finputEventStack;
+    _r3.i = ((global::com.codename1.ui.Display) _r8_o)._finputEventStackPointer;
+    ((global::org.xmlvm._nArrayAdapter<int>) _r2_o)[_r3.i] = _r10.i;
+    _r2.i = ((global::com.codename1.ui.Display) _r8_o)._finputEventStackPointer;
+    _r2.i = _r2.i + 1;
+    ((global::com.codename1.ui.Display) _r8_o)._finputEventStackPointer = _r2.i;
+    _r2_o = ((global::com.codename1.ui.Display) _r8_o)._finputEventStack;
+    _r3.i = ((global::com.codename1.ui.Display) _r8_o)._finputEventStackPointer;
+    ((global::org.xmlvm._nArrayAdapter<int>) _r2_o)[_r3.i] = _r11.i;
+    _r2.i = ((global::com.codename1.ui.Display) _r8_o)._finputEventStackPointer;
+    _r2.i = _r2.i + 1;
+    ((global::com.codename1.ui.Display) _r8_o)._finputEventStackPointer = _r2.i;
+    _r2_o = ((global::com.codename1.ui.Display) _r8_o)._finputEventStack;
+    _r3.i = ((global::com.codename1.ui.Display) _r8_o)._finputEventStackPointer;
+    _r4.l = global::java.lang.System.currentTimeMillis();
+    _r6.l = ((global::com.codename1.ui.Display) _r8_o)._fdisplayInitTime;
+    _r4.l = _r4.l - _r6.l;
+    _r4.i = (int) _r4.l;
+    ((global::org.xmlvm._nArrayAdapter<int>) _r2_o)[_r3.i] = _r4.i;
+    _r2.i = ((global::com.codename1.ui.Display) _r8_o)._finputEventStackPointer;
+    _r2.i = _r2.i + 1;
+    ((global::com.codename1.ui.Display) _r8_o)._finputEventStackPointer = _r2.i;
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
         global::System.Object _java_exception = ex.getJavaException();
+        if (_java_exception is global::java.lang.ArrayIndexOutOfBoundsException) {
+            _ex = ex;
+            goto label75;
+        }
         if (_java_exception is global::java.lang.Object) {
             _ex = ex;
             goto label72;
         }
         throw ex;
     } // end catch
-    label9:;
+    label65:;
     try {
-    _r1_o = ((global::com.codename1.ui.Display) _r7_o)._finputEventStack;
-    _r2.i = ((global::com.codename1.ui.Display) _r7_o)._finputEventStackPointer;
-    ((global::org.xmlvm._nArrayAdapter<int>) _r1_o)[_r2.i] = _r8.i;
-    _r1.i = ((global::com.codename1.ui.Display) _r7_o)._finputEventStackPointer;
-    _r1.i = _r1.i + 1;
-    ((global::com.codename1.ui.Display) _r7_o)._finputEventStackPointer = _r1.i;
-    _r1_o = ((global::com.codename1.ui.Display) _r7_o)._finputEventStack;
-    _r2.i = ((global::com.codename1.ui.Display) _r7_o)._finputEventStackPointer;
-    ((global::org.xmlvm._nArrayAdapter<int>) _r1_o)[_r2.i] = _r9.i;
-    _r1.i = ((global::com.codename1.ui.Display) _r7_o)._finputEventStackPointer;
-    _r1.i = _r1.i + 1;
-    ((global::com.codename1.ui.Display) _r7_o)._finputEventStackPointer = _r1.i;
-    _r1_o = ((global::com.codename1.ui.Display) _r7_o)._finputEventStack;
-    _r2.i = ((global::com.codename1.ui.Display) _r7_o)._finputEventStackPointer;
-    ((global::org.xmlvm._nArrayAdapter<int>) _r1_o)[_r2.i] = _r10.i;
-    _r1.i = ((global::com.codename1.ui.Display) _r7_o)._finputEventStackPointer;
-    _r1.i = _r1.i + 1;
-    ((global::com.codename1.ui.Display) _r7_o)._finputEventStackPointer = _r1.i;
-    _r1_o = ((global::com.codename1.ui.Display) _r7_o)._finputEventStack;
-    _r2.i = ((global::com.codename1.ui.Display) _r7_o)._finputEventStackPointer;
-    _r3.l = global::java.lang.System.currentTimeMillis();
-    _r5.l = ((global::com.codename1.ui.Display) _r7_o)._fdisplayInitTime;
-    _r3.l = _r3.l - _r5.l;
-    _r3.i = (int) _r3.l;
-    ((global::org.xmlvm._nArrayAdapter<int>) _r1_o)[_r2.i] = _r3.i;
-    _r1.i = ((global::com.codename1.ui.Display) _r7_o)._finputEventStackPointer;
-    _r1.i = _r1.i + 1;
-    ((global::com.codename1.ui.Display) _r7_o)._finputEventStackPointer = _r1.i;
-    _r1_o = global::com.codename1.ui.Display._flock;
-    ((global::java.lang.Object) _r1_o).notify();
-    global::System.Threading.Monitor.Exit(_r0_o);
+    _r2_o = global::com.codename1.ui.Display._flock;
+    ((global::java.lang.Object) _r2_o).notify();
+    global::System.Threading.Monitor.Exit(_r1_o);
     goto label8;
     }
     catch (global::System.Exception e) {
@@ -3911,9 +4103,9 @@ private void addPointerEventWithTimestamp(int n1, int n2, int n3){
     } // end catch
     label72:;
     try {
-    _r1_o = _ex.getJavaException();
+    _r2_o = _ex.getJavaException();
     _ex = null;
-    global::System.Threading.Monitor.Exit(_r0_o);
+    global::System.Threading.Monitor.Exit(_r1_o);
     }
     catch (global::System.Exception e) {
  global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
@@ -3924,7 +4116,28 @@ private void addPointerEventWithTimestamp(int n1, int n2, int n3){
         }
         throw ex;
     } // end catch
-    throw new global::org.xmlvm._nExceptionAdapter((global::System.Object) _r1_o);
+    throw new global::org.xmlvm._nExceptionAdapter((global::System.Object) _r2_o);
+    label75:;
+    _r2_o = _ex.getJavaException();
+    _ex = null;
+    _r0_o = _r2_o;
+    try {
+    // Value=EDT performance is very slow triggering this exception!
+    _r2_o = new global::java.lang.String();
+    ((global::java.lang.String)_r2_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)69)), unchecked((char) unchecked((uint) 68)), unchecked((char) unchecked((uint) 84)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 112)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 102)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 109)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 99)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 115)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 118)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 121)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 115)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 119)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 103)), unchecked((char) unchecked((uint) 103)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 103)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 104)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 115)), unchecked((char) unchecked((uint) 32)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 120)), unchecked((char) unchecked((uint) 99)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 112)), unchecked((char) unchecked((uint) 116)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 33))}));
+    global::com.codename1.io.Log.p((global::java.lang.String) _r2_o);
+    global::com.codename1.io.Log.e((global::java.lang.Throwable) _r0_o);
+    }
+    catch (global::System.Exception e) {
+ global::org.xmlvm._nExceptionAdapter ex = e as global::org.xmlvm._nExceptionAdapter ?? new global::org.xmlvm._nExceptionAdapter(e.ToString(), e.ToJavaException());
+        global::System.Object _java_exception = ex.getJavaException();
+        if (_java_exception is global::java.lang.Object) {
+            _ex = ex;
+            goto label72;
+        }
+        throw ex;
+    } // end catch
+    goto label65;
 //XMLVM_END_WRAPPER[com.codename1.ui.Display: void addPointerEventWithTimestamp(int, int, int)]
 }
 
@@ -3947,7 +4160,7 @@ public virtual void pointerDragged(global::org.xmlvm._nArrayAdapter<int> n1, glo
     _r4_o = n1;
     _r5_o = n2;
     _r2.i = 0;
-    _r0_o = ((global::com.codename1.ui.Display) _r3_o)._fimpl;
+    _r0_o = global::com.codename1.ui.Display._fimpl;
     _r0_o = ((global::com.codename1.impl.CodenameOneImplementation) _r0_o).getCurrentForm();
     if (_r0_o != null) goto label10;
     label9:;
@@ -3956,13 +4169,12 @@ public virtual void pointerDragged(global::org.xmlvm._nArrayAdapter<int> n1, glo
     ((global::com.codename1.ui.Display) _r3_o)._flongPointerCharged = 0!=_r2.i;
     _r0.i = ((global::org.xmlvm._nIArray) _r4_o).Length;
     _r1.i = 1;
-    if (_r0.i != _r1.i) goto label25;
-    _r0.i = 3;
-    _r1.i = ((global::org.xmlvm._nArrayAdapter<int>) _r4_o)[_r2.i];
-    _r2.i = ((global::org.xmlvm._nArrayAdapter<int>) _r5_o)[_r2.i];
-    ((global::com.codename1.ui.Display) _r3_o).addPointerEventWithTimestamp((int) _r0.i, (int) _r1.i, (int) _r2.i);
+    if (_r0.i != _r1.i) goto label24;
+    _r0.i = ((global::org.xmlvm._nArrayAdapter<int>) _r4_o)[_r2.i];
+    _r1.i = ((global::org.xmlvm._nArrayAdapter<int>) _r5_o)[_r2.i];
+    ((global::com.codename1.ui.Display) _r3_o).addPointerDragEventWithTimestamp((int) _r0.i, (int) _r1.i);
     goto label9;
-    label25:;
+    label24:;
     _r0.i = 23;
     ((global::com.codename1.ui.Display) _r3_o).addPointerEvent((int) _r0.i, (global::org.xmlvm._nArrayAdapter<int>) _r4_o, (global::org.xmlvm._nArrayAdapter<int>) _r5_o);
     goto label9;
@@ -3991,7 +4203,7 @@ public virtual void pointerHover(global::org.xmlvm._nArrayAdapter<int> n1, globa
     _r6_o = n2;
     _r3.i = 8;
     _r2.i = 0;
-    _r0_o = ((global::com.codename1.ui.Display) _r4_o)._fimpl;
+    _r0_o = global::com.codename1.ui.Display._fimpl;
     _r0_o = ((global::com.codename1.impl.CodenameOneImplementation) _r0_o).getCurrentForm();
     if (_r0_o != null) goto label12;
     label11:;
@@ -4029,7 +4241,7 @@ public virtual void pointerHoverPressed(global::org.xmlvm._nArrayAdapter<int> n1
     _r4_o = n1;
     _r5_o = n2;
     _r2.i = 0;
-    _r0_o = ((global::com.codename1.ui.Display) _r3_o)._fimpl;
+    _r0_o = global::com.codename1.ui.Display._fimpl;
     _r0_o = ((global::com.codename1.impl.CodenameOneImplementation) _r0_o).getCurrentForm();
     if (_r0_o != null) goto label10;
     label9:;
@@ -4062,7 +4274,7 @@ public virtual void pointerHoverReleased(global::org.xmlvm._nArrayAdapter<int> n
     _r4_o = n1;
     _r5_o = n2;
     _r2.i = 0;
-    _r0_o = ((global::com.codename1.ui.Display) _r3_o)._fimpl;
+    _r0_o = global::com.codename1.ui.Display._fimpl;
     _r0_o = ((global::com.codename1.impl.CodenameOneImplementation) _r0_o).getCurrentForm();
     if (_r0_o != null) goto label10;
     label9:;
@@ -4098,7 +4310,7 @@ public virtual void pointerPressed(global::org.xmlvm._nArrayAdapter<int> n1, glo
     _r6_o = n2;
     _r3.i = 1;
     _r2.i = 0;
-    _r0_o = ((global::com.codename1.ui.Display) _r4_o)._fimpl;
+    _r0_o = global::com.codename1.ui.Display._fimpl;
     _r0_o = ((global::com.codename1.impl.CodenameOneImplementation) _r0_o).getCurrentForm();
     if (_r0_o != null) goto label11;
     label10:;
@@ -4145,7 +4357,7 @@ public virtual void pointerReleased(global::org.xmlvm._nArrayAdapter<int> n1, gl
     _r5_o = n2;
     _r2.i = 0;
     ((global::com.codename1.ui.Display) _r3_o)._flongPointerCharged = 0!=_r2.i;
-    _r0_o = ((global::com.codename1.ui.Display) _r3_o)._fimpl;
+    _r0_o = global::com.codename1.ui.Display._fimpl;
     _r0_o = ((global::com.codename1.impl.CodenameOneImplementation) _r0_o).getCurrentForm();
     if (_r0_o != null) goto label12;
     label11:;
@@ -4257,17 +4469,17 @@ public virtual void sizeChanged(int n1, int n2){
     _r2_o = this;
     _r3.i = n1;
     _r4.i = n2;
-    _r1_o = ((global::com.codename1.ui.Display) _r2_o)._fimpl;
+    _r1_o = global::com.codename1.ui.Display._fimpl;
     _r0_o = ((global::com.codename1.impl.CodenameOneImplementation) _r1_o).getCurrentForm();
     if (_r0_o != null) goto label9;
     label8:;
     return;
     label9:;
-    _r1.i = ((global::com.codename1.ui.Form) _r0_o).getWidth();
+    _r1.i = ((global::com.codename1.ui.Form)_r0_o).getWidth();
     if (_r3.i != _r1.i) goto label21;
-    _r1.i = ((global::com.codename1.ui.Form) _r0_o).getHeight();
+    _r1.i = ((global::com.codename1.ui.Form)_r0_o).getHeight();
     if (_r4.i == _r1.i) goto label8;
-    label21:;
+label21: ;
     _r1.i = 7;
     ((global::com.codename1.ui.Display) _r2_o).addSizeChangeEvent((int) _r1.i, (int) _r3.i, (int) _r4.i);
     goto label8;
@@ -4547,23 +4759,25 @@ private global::System.Object readArrayStackArgument(int n1){
     global::System.Object _r4_o = null;
     global::org.xmlvm._nElement _r5;
     global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
-    _r4_o = this;
-    _r5.i = n1;
-    _r2_o = ((global::com.codename1.ui.Display) _r4_o)._finputEventStackTmp;
-    _r2.i = ((global::org.xmlvm._nArrayAdapter<int>) _r2_o)[_r5.i];
-    _r0_o = new global::org.xmlvm._nArrayAdapter<int>(new int[_r2.i]);
-    _r5.i = _r5.i + 1;
-    _r1.i = 0;
-    label9:;
-    _r2.i = ((global::org.xmlvm._nIArray) _r0_o).Length;
-    if (_r1.i >= _r2.i) goto label23;
-    _r2_o = ((global::com.codename1.ui.Display) _r4_o)._finputEventStackTmp;
-    _r3.i = _r5.i + _r1.i;
-    _r2.i = ((global::org.xmlvm._nArrayAdapter<int>) _r2_o)[_r3.i];
-    ((global::org.xmlvm._nArrayAdapter<int>) _r0_o)[_r1.i] = _r2.i;
-    _r1.i = _r1.i + 1;
-    goto label9;
+    _r5_o = this;
+    _r6.i = n1;
+    _r3_o = ((global::com.codename1.ui.Display) _r5_o)._finputEventStackTmp;
+    _r3.i = ((global::org.xmlvm._nArrayAdapter<int>) _r3_o)[_r6.i];
+    _r0_o = new global::org.xmlvm._nArrayAdapter<int>(new int[_r3.i]);
+    _r6.i = _r6.i + 1;
+    _r1.i = ((global::org.xmlvm._nIArray) _r0_o).Length;
+    _r2.i = 0;
+    label10:;
+    if (_r2.i >= _r1.i) goto label23;
+    _r3_o = ((global::com.codename1.ui.Display) _r5_o)._finputEventStackTmp;
+    _r4.i = _r6.i + _r2.i;
+    _r3.i = ((global::org.xmlvm._nArrayAdapter<int>) _r3_o)[_r4.i];
+    ((global::org.xmlvm._nArrayAdapter<int>) _r0_o)[_r2.i] = _r3.i;
+    _r2.i = _r2.i + 1;
+    goto label10;
     label23:;
     return (global::org.xmlvm._nArrayAdapter<int>) _r0_o;
 //XMLVM_END_WRAPPER[com.codename1.ui.Display: int[] readArrayStackArgument(int)]
@@ -5108,7 +5322,7 @@ public virtual bool shouldEDTSleep(){
     global::System.Object _r2_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
-    _r1_o = ((global::com.codename1.ui.Display) _r2_o)._fimpl;
+    _r1_o = global::com.codename1.ui.Display._fimpl;
     _r0_o = ((global::com.codename1.impl.CodenameOneImplementation) _r1_o).getCurrentForm();
     if (_r0_o == null) goto label14;
     _r1.i = ((global::com.codename1.ui.Form) _r0_o).hasAnimations() ? 1 : 0;
@@ -5122,7 +5336,7 @@ public virtual bool shouldEDTSleep(){
     label26:;
     _r1.i = ((global::com.codename1.ui.Display) _r2_o)._finputEventStackPointer;
     if (_r1.i != 0) goto label52;
-    _r1_o = ((global::com.codename1.ui.Display) _r2_o)._fimpl;
+    _r1_o = global::com.codename1.ui.Display._fimpl;
     _r1.i = ((global::com.codename1.impl.CodenameOneImplementation) _r1_o).hasPendingPaints() ? 1 : 0;
     if (_r1.i != 0) goto label52;
     _r1.i = ((global::com.codename1.ui.Display) _r2_o).hasNoSerialCallsPending() ? 1 : 0;
@@ -5154,7 +5368,7 @@ public virtual global::System.Object getCurrentInternal(){
     global::System.Object _r1_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
-    _r0_o = ((global::com.codename1.ui.Display) _r1_o)._fimpl;
+    _r0_o = global::com.codename1.ui.Display._fimpl;
     _r0_o = ((global::com.codename1.impl.CodenameOneImplementation) _r0_o).getCurrentForm();
     return (global::com.codename1.ui.Form) _r0_o;
 //XMLVM_END_WRAPPER[com.codename1.ui.Display: com.codename1.ui.Form getCurrentInternal()]
@@ -5219,7 +5433,7 @@ private global::System.Object getCurrentUpcomingForm(bool n1){
     label37:;
     if (_r5_o != null) goto label73;
     if (_r8.i == 0) goto label68;
-    _r6_o = ((global::com.codename1.ui.Display) _r7_o)._fimpl;
+    _r6_o = global::com.codename1.ui.Display._fimpl;
     _r1_o = ((global::com.codename1.impl.CodenameOneImplementation) _r6_o).getCurrentForm();
     _r6.i = ((_r1_o != null) && (_r1_o is global::com.codename1.ui.Dialog)) ? 1 : 0;
     if (_r6.i == 0) goto label66;
@@ -5263,7 +5477,7 @@ public virtual global::System.Object getCurrent(){
     global::System.Object _r7_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r7_o = this;
-    _r6_o = ((global::com.codename1.ui.Display) _r7_o)._fimpl;
+    _r6_o = global::com.codename1.ui.Display._fimpl;
     _r1_o = ((global::com.codename1.impl.CodenameOneImplementation) _r6_o).getCurrentForm();
     if (_r1_o == null) goto label78;
     _r6.i = ((_r1_o != null) && (_r1_o is global::com.codename1.ui.Dialog)) ? 1 : 0;
@@ -5319,7 +5533,7 @@ public virtual int numAlphaLevels(){
     global::System.Object _r1_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
-    _r0_o = ((global::com.codename1.ui.Display) _r1_o)._fimpl;
+    _r0_o = global::com.codename1.ui.Display._fimpl;
     _r0.i = ((global::com.codename1.impl.CodenameOneImplementation) _r0_o).numAlphaLevels();
     return _r0.i;
 //XMLVM_END_WRAPPER[com.codename1.ui.Display: int numAlphaLevels()]
@@ -5333,7 +5547,7 @@ public virtual int numColors(){
     global::System.Object _r1_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
-    _r0_o = ((global::com.codename1.ui.Display) _r1_o)._fimpl;
+    _r0_o = global::com.codename1.ui.Display._fimpl;
     _r0.i = ((global::com.codename1.impl.CodenameOneImplementation) _r0_o).numColors();
     return _r0.i;
 //XMLVM_END_WRAPPER[com.codename1.ui.Display: int numColors()]
@@ -5347,7 +5561,7 @@ public virtual int getDisplayWidth(){
     global::System.Object _r1_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
-    _r0_o = ((global::com.codename1.ui.Display) _r1_o)._fimpl;
+    _r0_o = global::com.codename1.ui.Display._fimpl;
     _r0.i = ((global::com.codename1.impl.CodenameOneImplementation) _r0_o).getDisplayWidth();
     return _r0.i;
 //XMLVM_END_WRAPPER[com.codename1.ui.Display: int getDisplayWidth()]
@@ -5361,7 +5575,7 @@ public virtual int getDisplayHeight(){
     global::System.Object _r1_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
-    _r0_o = ((global::com.codename1.ui.Display) _r1_o)._fimpl;
+    _r0_o = global::com.codename1.ui.Display._fimpl;
     _r0.i = ((global::com.codename1.impl.CodenameOneImplementation) _r0_o).getDisplayHeight();
     return _r0.i;
 //XMLVM_END_WRAPPER[com.codename1.ui.Display: int getDisplayHeight()]
@@ -5378,7 +5592,7 @@ public virtual void repaint(global::com.codename1.ui.animations.Animation n1){
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
-    _r0_o = ((global::com.codename1.ui.Display) _r1_o)._fimpl;
+    _r0_o = global::com.codename1.ui.Display._fimpl;
     ((global::com.codename1.impl.CodenameOneImplementation) _r0_o).repaint((global::com.codename1.ui.animations.Animation) _r2_o);
     return;
 //XMLVM_END_WRAPPER[com.codename1.ui.Display: void repaint(com.codename1.ui.animations.Animation)]
@@ -5398,7 +5612,7 @@ public virtual int convertToPixels(int n1, bool n2){
     _r1_o = this;
     _r2.i = n1;
     _r3.i = n2 ? 1 : 0;
-    _r0_o = ((global::com.codename1.ui.Display) _r1_o)._fimpl;
+    _r0_o = global::com.codename1.ui.Display._fimpl;
     _r0.i = ((global::com.codename1.impl.CodenameOneImplementation) _r0_o).convertToPixels((int) _r2.i, 0!=_r3.i);
     return _r0.i;
 //XMLVM_END_WRAPPER[com.codename1.ui.Display: int convertToPixels(int, boolean)]
@@ -5415,7 +5629,7 @@ public virtual int getGameAction(int n1){
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
-    _r0_o = ((global::com.codename1.ui.Display) _r1_o)._fimpl;
+    _r0_o = global::com.codename1.ui.Display._fimpl;
     _r0.i = ((global::com.codename1.impl.CodenameOneImplementation) _r0_o).getGameAction((int) _r2.i);
     return _r0.i;
 //XMLVM_END_WRAPPER[com.codename1.ui.Display: int getGameAction(int)]
@@ -5432,7 +5646,7 @@ public virtual int getKeyCode(int n1){
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
-    _r0_o = ((global::com.codename1.ui.Display) _r1_o)._fimpl;
+    _r0_o = global::com.codename1.ui.Display._fimpl;
     _r0.i = ((global::com.codename1.impl.CodenameOneImplementation) _r0_o).getKeyCode((int) _r2.i);
     return _r0.i;
 //XMLVM_END_WRAPPER[com.codename1.ui.Display: int getKeyCode(int)]
@@ -5637,7 +5851,7 @@ public virtual int getKeyboardType(){
     global::System.Object _r1_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
-    _r0_o = ((global::com.codename1.ui.Display) _r1_o)._fimpl;
+    _r0_o = global::com.codename1.ui.Display._fimpl;
     _r0.i = ((global::com.codename1.impl.CodenameOneImplementation) _r0_o).getKeyboardType();
     return _r0.i;
 //XMLVM_END_WRAPPER[com.codename1.ui.Display: int getKeyboardType()]
@@ -5651,7 +5865,7 @@ public virtual bool isNativeInputSupported(){
     global::System.Object _r1_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
-    _r0_o = ((global::com.codename1.ui.Display) _r1_o)._fimpl;
+    _r0_o = global::com.codename1.ui.Display._fimpl;
     _r0.i = ((global::com.codename1.impl.CodenameOneImplementation) _r0_o).isNativeInputSupported() ? 1 : 0;
     return _r0.i!=0;
 //XMLVM_END_WRAPPER[com.codename1.ui.Display: boolean isNativeInputSupported()]
@@ -5665,7 +5879,7 @@ public virtual bool isMultiTouch(){
     global::System.Object _r1_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
-    _r0_o = ((global::com.codename1.ui.Display) _r1_o)._fimpl;
+    _r0_o = global::com.codename1.ui.Display._fimpl;
     _r0.i = ((global::com.codename1.impl.CodenameOneImplementation) _r0_o).isMultiTouch() ? 1 : 0;
     return _r0.i!=0;
 //XMLVM_END_WRAPPER[com.codename1.ui.Display: boolean isMultiTouch()]
@@ -5679,7 +5893,7 @@ public virtual bool isClickTouchScreen(){
     global::System.Object _r1_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
-    _r0_o = ((global::com.codename1.ui.Display) _r1_o)._fimpl;
+    _r0_o = global::com.codename1.ui.Display._fimpl;
     _r0.i = ((global::com.codename1.impl.CodenameOneImplementation) _r0_o).isClickTouchScreen() ? 1 : 0;
     return _r0.i!=0;
 //XMLVM_END_WRAPPER[com.codename1.ui.Display: boolean isClickTouchScreen()]
@@ -5707,7 +5921,7 @@ public virtual float getDragSpeed(bool n1){
     _r6_o = this;
     _r7.i = n1 ? 1 : 0;
     if (_r7.i == 0) goto label17;
-    _r1_o = ((global::com.codename1.ui.Display) _r6_o)._fimpl;
+    _r1_o = global::com.codename1.ui.Display._fimpl;
     _r2_o = ((global::com.codename1.ui.Display) _r6_o)._fdragPathY;
     _r3_o = ((global::com.codename1.ui.Display) _r6_o)._fdragPathTime;
     _r4.i = ((global::com.codename1.ui.Display) _r6_o)._fdragPathOffset;
@@ -5716,7 +5930,7 @@ public virtual float getDragSpeed(bool n1){
     label16:;
     return _r0.f;
     label17:;
-    _r1_o = ((global::com.codename1.ui.Display) _r6_o)._fimpl;
+    _r1_o = global::com.codename1.ui.Display._fimpl;
     _r2_o = ((global::com.codename1.ui.Display) _r6_o)._fdragPathX;
     _r3_o = ((global::com.codename1.ui.Display) _r6_o)._fdragPathTime;
     _r4.i = ((global::com.codename1.ui.Display) _r6_o)._fdragPathOffset;
@@ -5734,7 +5948,7 @@ public virtual bool isBidiAlgorithm(){
     global::System.Object _r1_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
-    _r0_o = ((global::com.codename1.ui.Display) _r1_o)._fimpl;
+    _r0_o = global::com.codename1.ui.Display._fimpl;
     _r0.i = ((global::com.codename1.impl.CodenameOneImplementation) _r0_o).isBidiAlgorithm() ? 1 : 0;
     return _r0.i!=0;
 //XMLVM_END_WRAPPER[com.codename1.ui.Display: boolean isBidiAlgorithm()]
@@ -5751,7 +5965,7 @@ public virtual void setBidiAlgorithm(bool n1){
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1 ? 1 : 0;
-    _r0_o = ((global::com.codename1.ui.Display) _r1_o)._fimpl;
+    _r0_o = global::com.codename1.ui.Display._fimpl;
     ((global::com.codename1.impl.CodenameOneImplementation) _r0_o).setBidiAlgorithm(0!=_r2.i);
     return;
 //XMLVM_END_WRAPPER[com.codename1.ui.Display: void setBidiAlgorithm(boolean)]
@@ -5768,7 +5982,7 @@ public virtual global::System.Object convertBidiLogicalToVisual(global::java.lan
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
-    _r0_o = ((global::com.codename1.ui.Display) _r1_o)._fimpl;
+    _r0_o = global::com.codename1.ui.Display._fimpl;
     _r0_o = ((global::com.codename1.impl.CodenameOneImplementation) _r0_o).convertBidiLogicalToVisual((global::java.lang.String) _r2_o);
     return (global::java.lang.String) _r0_o;
 //XMLVM_END_WRAPPER[com.codename1.ui.Display: java.lang.String convertBidiLogicalToVisual(java.lang.String)]
@@ -5788,7 +6002,7 @@ public virtual int getCharLocation(global::java.lang.String n1, int n2){
     _r1_o = this;
     _r2_o = n1;
     _r3.i = n2;
-    _r0_o = ((global::com.codename1.ui.Display) _r1_o)._fimpl;
+    _r0_o = global::com.codename1.ui.Display._fimpl;
     _r0.i = ((global::com.codename1.impl.CodenameOneImplementation) _r0_o).getCharLocation((global::java.lang.String) _r2_o, (int) _r3.i);
     return _r0.i;
 //XMLVM_END_WRAPPER[com.codename1.ui.Display: int getCharLocation(java.lang.String, int)]
@@ -5805,7 +6019,7 @@ public virtual bool isRTL(char n1){
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
-    _r0_o = ((global::com.codename1.ui.Display) _r1_o)._fimpl;
+    _r0_o = global::com.codename1.ui.Display._fimpl;
     _r0.i = ((global::com.codename1.impl.CodenameOneImplementation) _r0_o).isRTL((char) _r2.i) ? 1 : 0;
     return _r0.i!=0;
 //XMLVM_END_WRAPPER[com.codename1.ui.Display: boolean isRTL(char)]
@@ -5825,7 +6039,7 @@ public virtual global::System.Object getResourceAsStream(global::java.lang.Class
     _r1_o = this;
     _r2_o = n1;
     _r3_o = n2;
-    _r0_o = ((global::com.codename1.ui.Display) _r1_o)._fimpl;
+    _r0_o = global::com.codename1.ui.Display._fimpl;
     _r0_o = ((global::com.codename1.impl.CodenameOneImplementation) _r0_o).getResourceAsStream((global::java.lang.Class) _r2_o, (global::java.lang.String) _r3_o);
     return (global::java.io.InputStream) _r0_o;
 //XMLVM_END_WRAPPER[com.codename1.ui.Display: java.io.InputStream getResourceAsStream(java.lang.Class, java.lang.String)]
@@ -6049,7 +6263,7 @@ public virtual void exitApplication(){
     _r1_o = this;
     _r0.i = 1;
     ((global::com.codename1.ui.Display) _r1_o)._fcodenameOneExited = 0!=_r0.i;
-    _r0_o = ((global::com.codename1.ui.Display) _r1_o)._fimpl;
+    _r0_o = global::com.codename1.ui.Display._fimpl;
     ((global::com.codename1.impl.CodenameOneImplementation) _r0_o).exit();
     return;
 //XMLVM_END_WRAPPER[com.codename1.ui.Display: void exitApplication()]
@@ -6068,7 +6282,7 @@ public virtual void showNativeScreen(global::java.lang.Object n1){
     _r2_o = n1;
     _r0.i = 1;
     ((global::com.codename1.ui.Display) _r1_o)._finNativeUI = 0!=_r0.i;
-    _r0_o = ((global::com.codename1.ui.Display) _r1_o)._fimpl;
+    _r0_o = global::com.codename1.ui.Display._fimpl;
     ((global::com.codename1.impl.CodenameOneImplementation) _r0_o).showNativeScreen((global::java.lang.Object) _r2_o);
     return;
 //XMLVM_END_WRAPPER[com.codename1.ui.Display: void showNativeScreen(java.lang.Object)]
@@ -6109,7 +6323,7 @@ public virtual int getCommandBehavior(){
     global::System.Object _r1_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
-    _r0_o = ((global::com.codename1.ui.Display) _r1_o)._fimpl;
+    _r0_o = global::com.codename1.ui.Display._fimpl;
     _r0.i = ((global::com.codename1.impl.CodenameOneImplementation) _r0_o).getCommandBehavior();
     return _r0.i;
 //XMLVM_END_WRAPPER[com.codename1.ui.Display: int getCommandBehavior()]
@@ -6126,7 +6340,7 @@ public virtual void setCommandBehavior(int n1){
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
-    _r0_o = ((global::com.codename1.ui.Display) _r1_o)._fimpl;
+    _r0_o = global::com.codename1.ui.Display._fimpl;
     ((global::com.codename1.impl.CodenameOneImplementation) _r0_o).setCommandBehavior((int) _r2.i);
     return;
 //XMLVM_END_WRAPPER[com.codename1.ui.Display: void setCommandBehavior(int)]
@@ -6155,7 +6369,7 @@ public virtual global::System.Object getProperty(global::java.lang.String n1, gl
     ((global::java.lang.String)_r2_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)65)), unchecked((char) unchecked((uint) 112)), unchecked((char) unchecked((uint) 112)), unchecked((char) unchecked((uint) 65)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 103))}));
     _r2.i = ((global::java.lang.String) _r2_o).equals((global::java.lang.Object) _r4_o) ? 1 : 0;
     if (_r2.i == 0) goto label20;
-    _r2_o = ((global::com.codename1.ui.Display) _r3_o)._fimpl;
+    _r2_o = global::com.codename1.ui.Display._fimpl;
     _r0_o = ((global::com.codename1.impl.CodenameOneImplementation) _r2_o).getAppArg();
     if (_r0_o != null) goto label18;
     _r2_o = _r5_o;
@@ -6174,7 +6388,7 @@ public virtual global::System.Object getProperty(global::java.lang.String n1, gl
     _r2_o = _r1_o;
     goto label17;
     label36:;
-    _r2_o = ((global::com.codename1.ui.Display) _r3_o)._fimpl;
+    _r2_o = global::com.codename1.ui.Display._fimpl;
     _r2_o = ((global::com.codename1.impl.CodenameOneImplementation) _r2_o).getProperty((global::java.lang.String) _r4_o, (global::java.lang.String) _r5_o);
     goto label17;
 //XMLVM_END_WRAPPER[com.codename1.ui.Display: java.lang.String getProperty(java.lang.String, java.lang.String)]
@@ -6199,7 +6413,7 @@ public virtual void setProperty(global::java.lang.String n1, global::java.lang.S
     ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)65)), unchecked((char) unchecked((uint) 112)), unchecked((char) unchecked((uint) 112)), unchecked((char) unchecked((uint) 65)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 103))}));
     _r0.i = ((global::java.lang.String) _r0_o).equals((global::java.lang.Object) _r2_o) ? 1 : 0;
     if (_r0.i == 0) goto label14;
-    _r0_o = ((global::com.codename1.ui.Display) _r1_o)._fimpl;
+    _r0_o = global::com.codename1.ui.Display._fimpl;
     ((global::com.codename1.impl.CodenameOneImplementation) _r0_o).setAppArg((global::java.lang.String) _r3_o);
     label13:;
     return;
@@ -6241,7 +6455,7 @@ public virtual global::System.Object canExecute(global::java.lang.String n1){
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
-    _r0_o = ((global::com.codename1.ui.Display) _r1_o)._fimpl;
+    _r0_o = global::com.codename1.ui.Display._fimpl;
     _r0_o = ((global::com.codename1.impl.CodenameOneImplementation) _r0_o).canExecute((global::java.lang.String) _r2_o);
     return (global::java.lang.Boolean) _r0_o;
 //XMLVM_END_WRAPPER[com.codename1.ui.Display: java.lang.Boolean canExecute(java.lang.String)]
@@ -6258,7 +6472,7 @@ public virtual void execute(global::java.lang.String n1){
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
-    _r0_o = ((global::com.codename1.ui.Display) _r1_o)._fimpl;
+    _r0_o = global::com.codename1.ui.Display._fimpl;
     ((global::com.codename1.impl.CodenameOneImplementation) _r0_o).execute((global::java.lang.String) _r2_o);
     return;
 //XMLVM_END_WRAPPER[com.codename1.ui.Display: void execute(java.lang.String)]
@@ -6278,7 +6492,7 @@ public virtual void execute(global::java.lang.String n1, global::com.codename1.u
     _r1_o = this;
     _r2_o = n1;
     _r3_o = n2;
-    _r0_o = ((global::com.codename1.ui.Display) _r1_o)._fimpl;
+    _r0_o = global::com.codename1.ui.Display._fimpl;
     ((global::com.codename1.impl.CodenameOneImplementation) _r0_o).execute((global::java.lang.String) _r2_o, (global::com.codename1.ui.events.ActionListener) _r3_o);
     return;
 //XMLVM_END_WRAPPER[com.codename1.ui.Display: void execute(java.lang.String, com.codename1.ui.events.ActionListener)]
@@ -6292,7 +6506,7 @@ public virtual int getDeviceDensity(){
     global::System.Object _r1_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
-    _r0_o = ((global::com.codename1.ui.Display) _r1_o)._fimpl;
+    _r0_o = global::com.codename1.ui.Display._fimpl;
     _r0.i = ((global::com.codename1.impl.CodenameOneImplementation) _r0_o).getDeviceDensity();
     return _r0.i;
 //XMLVM_END_WRAPPER[com.codename1.ui.Display: int getDeviceDensity()]
@@ -6309,7 +6523,7 @@ public virtual void playBuiltinSound(global::java.lang.String n1){
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
-    _r0_o = ((global::com.codename1.ui.Display) _r1_o)._fimpl;
+    _r0_o = global::com.codename1.ui.Display._fimpl;
     ((global::com.codename1.impl.CodenameOneImplementation) _r0_o).playBuiltinSound((global::java.lang.String) _r2_o);
     return;
 //XMLVM_END_WRAPPER[com.codename1.ui.Display: void playBuiltinSound(java.lang.String)]
@@ -6329,7 +6543,7 @@ public virtual void installBuiltinSound(global::java.lang.String n1, global::jav
     _r1_o = this;
     _r2_o = n1;
     _r3_o = n2;
-    _r0_o = ((global::com.codename1.ui.Display) _r1_o)._fimpl;
+    _r0_o = global::com.codename1.ui.Display._fimpl;
     ((global::com.codename1.impl.CodenameOneImplementation) _r0_o).installBuiltinSound((global::java.lang.String) _r2_o, (global::java.io.InputStream) _r3_o);
     return;
 //XMLVM_END_WRAPPER[com.codename1.ui.Display: void installBuiltinSound(java.lang.String, java.io.InputStream)]
@@ -6346,7 +6560,7 @@ public virtual bool isBuiltinSoundAvailable(global::java.lang.String n1){
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
-    _r0_o = ((global::com.codename1.ui.Display) _r1_o)._fimpl;
+    _r0_o = global::com.codename1.ui.Display._fimpl;
     _r0.i = ((global::com.codename1.impl.CodenameOneImplementation) _r0_o).isBuiltinSoundAvailable((global::java.lang.String) _r2_o) ? 1 : 0;
     return _r0.i!=0;
 //XMLVM_END_WRAPPER[com.codename1.ui.Display: boolean isBuiltinSoundAvailable(java.lang.String)]
@@ -6363,7 +6577,7 @@ public virtual void setBuiltinSoundsEnabled(bool n1){
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1 ? 1 : 0;
-    _r0_o = ((global::com.codename1.ui.Display) _r1_o)._fimpl;
+    _r0_o = global::com.codename1.ui.Display._fimpl;
     ((global::com.codename1.impl.CodenameOneImplementation) _r0_o).setBuiltinSoundsEnabled(0!=_r2.i);
     return;
 //XMLVM_END_WRAPPER[com.codename1.ui.Display: void setBuiltinSoundsEnabled(boolean)]
@@ -6377,7 +6591,7 @@ public virtual bool isBuiltinSoundsEnabled(){
     global::System.Object _r1_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
-    _r0_o = ((global::com.codename1.ui.Display) _r1_o)._fimpl;
+    _r0_o = global::com.codename1.ui.Display._fimpl;
     _r0.i = ((global::com.codename1.impl.CodenameOneImplementation) _r0_o).isBuiltinSoundsEnabled() ? 1 : 0;
     return _r0.i!=0;
 //XMLVM_END_WRAPPER[com.codename1.ui.Display: boolean isBuiltinSoundsEnabled()]
@@ -6400,7 +6614,7 @@ public virtual global::System.Object createMedia(global::java.lang.String n1, bo
     _r2_o = n1;
     _r3.i = n2 ? 1 : 0;
     _r4_o = n3;
-    _r0_o = ((global::com.codename1.ui.Display) _r1_o)._fimpl;
+    _r0_o = global::com.codename1.ui.Display._fimpl;
     _r0_o = ((global::com.codename1.impl.CodenameOneImplementation) _r0_o).createMedia((global::java.lang.String) _r2_o, 0!=_r3.i, (global::java.lang.Runnable) _r4_o);
     return (global::com.codename1.media.Media) _r0_o;
 //XMLVM_END_WRAPPER[com.codename1.ui.Display: com.codename1.media.Media createMedia(java.lang.String, boolean, java.lang.Runnable)]
@@ -6423,7 +6637,7 @@ public virtual global::System.Object createMedia(global::java.io.InputStream n1,
     _r2_o = n1;
     _r3_o = n2;
     _r4_o = n3;
-    _r0_o = ((global::com.codename1.ui.Display) _r1_o)._fimpl;
+    _r0_o = global::com.codename1.ui.Display._fimpl;
     _r0_o = ((global::com.codename1.impl.CodenameOneImplementation) _r0_o).createMedia((global::java.io.InputStream) _r2_o, (global::java.lang.String) _r3_o, (global::java.lang.Runnable) _r4_o);
     return (global::com.codename1.media.Media) _r0_o;
 //XMLVM_END_WRAPPER[com.codename1.ui.Display: com.codename1.media.Media createMedia(java.io.InputStream, java.lang.String, java.lang.Runnable)]
@@ -6440,7 +6654,7 @@ public virtual global::System.Object createSoftWeakRef(global::java.lang.Object 
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
-    _r0_o = ((global::com.codename1.ui.Display) _r1_o)._fimpl;
+    _r0_o = global::com.codename1.ui.Display._fimpl;
     _r0_o = ((global::com.codename1.impl.CodenameOneImplementation) _r0_o).createSoftWeakRef((global::java.lang.Object) _r2_o);
     return (global::java.lang.Object) _r0_o;
 //XMLVM_END_WRAPPER[com.codename1.ui.Display: java.lang.Object createSoftWeakRef(java.lang.Object)]
@@ -6457,7 +6671,7 @@ public virtual global::System.Object extractHardRef(global::java.lang.Object n1)
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
-    _r0_o = ((global::com.codename1.ui.Display) _r1_o)._fimpl;
+    _r0_o = global::com.codename1.ui.Display._fimpl;
     _r0_o = ((global::com.codename1.impl.CodenameOneImplementation) _r0_o).extractHardRef((global::java.lang.Object) _r2_o);
     return (global::java.lang.Object) _r0_o;
 //XMLVM_END_WRAPPER[com.codename1.ui.Display: java.lang.Object extractHardRef(java.lang.Object)]
@@ -6471,7 +6685,7 @@ public virtual bool hasNativeTheme(){
     global::System.Object _r1_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
-    _r0_o = ((global::com.codename1.ui.Display) _r1_o)._fimpl;
+    _r0_o = global::com.codename1.ui.Display._fimpl;
     _r0.i = ((global::com.codename1.impl.CodenameOneImplementation) _r0_o).hasNativeTheme() ? 1 : 0;
     return _r0.i!=0;
 //XMLVM_END_WRAPPER[com.codename1.ui.Display: boolean hasNativeTheme()]
@@ -6485,7 +6699,7 @@ public virtual void installNativeTheme(){
     global::System.Object _r1_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
-    _r0_o = ((global::com.codename1.ui.Display) _r1_o)._fimpl;
+    _r0_o = global::com.codename1.ui.Display._fimpl;
     ((global::com.codename1.impl.CodenameOneImplementation) _r0_o).installNativeTheme();
     return;
 //XMLVM_END_WRAPPER[com.codename1.ui.Display: void installNativeTheme()]
@@ -6502,7 +6716,7 @@ public virtual void copyToClipboard(global::java.lang.Object n1){
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
-    _r0_o = ((global::com.codename1.ui.Display) _r1_o)._fimpl;
+    _r0_o = global::com.codename1.ui.Display._fimpl;
     ((global::com.codename1.impl.CodenameOneImplementation) _r0_o).copyToClipboard((global::java.lang.Object) _r2_o);
     return;
 //XMLVM_END_WRAPPER[com.codename1.ui.Display: void copyToClipboard(java.lang.Object)]
@@ -6516,7 +6730,7 @@ public virtual global::System.Object getPasteDataFromClipboard(){
     global::System.Object _r1_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
-    _r0_o = ((global::com.codename1.ui.Display) _r1_o)._fimpl;
+    _r0_o = global::com.codename1.ui.Display._fimpl;
     _r0_o = ((global::com.codename1.impl.CodenameOneImplementation) _r0_o).getPasteDataFromClipboard();
     return (global::java.lang.Object) _r0_o;
 //XMLVM_END_WRAPPER[com.codename1.ui.Display: java.lang.Object getPasteDataFromClipboard()]
@@ -6530,7 +6744,7 @@ public virtual bool isPortrait(){
     global::System.Object _r1_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
-    _r0_o = ((global::com.codename1.ui.Display) _r1_o)._fimpl;
+    _r0_o = global::com.codename1.ui.Display._fimpl;
     _r0.i = ((global::com.codename1.impl.CodenameOneImplementation) _r0_o).isPortrait() ? 1 : 0;
     return _r0.i!=0;
 //XMLVM_END_WRAPPER[com.codename1.ui.Display: boolean isPortrait()]
@@ -6544,7 +6758,7 @@ public virtual bool canForceOrientation(){
     global::System.Object _r1_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
-    _r0_o = ((global::com.codename1.ui.Display) _r1_o)._fimpl;
+    _r0_o = global::com.codename1.ui.Display._fimpl;
     _r0.i = ((global::com.codename1.impl.CodenameOneImplementation) _r0_o).canForceOrientation() ? 1 : 0;
     return _r0.i!=0;
 //XMLVM_END_WRAPPER[com.codename1.ui.Display: boolean canForceOrientation()]
@@ -6561,7 +6775,7 @@ public virtual void lockOrientation(bool n1){
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1 ? 1 : 0;
-    _r0_o = ((global::com.codename1.ui.Display) _r1_o)._fimpl;
+    _r0_o = global::com.codename1.ui.Display._fimpl;
     ((global::com.codename1.impl.CodenameOneImplementation) _r0_o).lockOrientation(0!=_r2.i);
     return;
 //XMLVM_END_WRAPPER[com.codename1.ui.Display: void lockOrientation(boolean)]
@@ -6575,7 +6789,7 @@ public virtual void unlockOrientation(){
     global::System.Object _r1_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
-    _r0_o = ((global::com.codename1.ui.Display) _r1_o)._fimpl;
+    _r0_o = global::com.codename1.ui.Display._fimpl;
     ((global::com.codename1.impl.CodenameOneImplementation) _r0_o).unlockOrientation();
     return;
 //XMLVM_END_WRAPPER[com.codename1.ui.Display: void unlockOrientation()]
@@ -6589,7 +6803,7 @@ public virtual bool isTablet(){
     global::System.Object _r1_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
-    _r0_o = ((global::com.codename1.ui.Display) _r1_o)._fimpl;
+    _r0_o = global::com.codename1.ui.Display._fimpl;
     _r0.i = ((global::com.codename1.impl.CodenameOneImplementation) _r0_o).isTablet() ? 1 : 0;
     return _r0.i!=0;
 //XMLVM_END_WRAPPER[com.codename1.ui.Display: boolean isTablet()]
@@ -6603,7 +6817,7 @@ public virtual bool isDesktop(){
     global::System.Object _r1_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
-    _r0_o = ((global::com.codename1.ui.Display) _r1_o)._fimpl;
+    _r0_o = global::com.codename1.ui.Display._fimpl;
     _r0.i = ((global::com.codename1.impl.CodenameOneImplementation) _r0_o).isDesktop() ? 1 : 0;
     return _r0.i!=0;
 //XMLVM_END_WRAPPER[com.codename1.ui.Display: boolean isDesktop()]
@@ -6617,7 +6831,7 @@ public virtual bool canDial(){
     global::System.Object _r1_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
-    _r0_o = ((global::com.codename1.ui.Display) _r1_o)._fimpl;
+    _r0_o = global::com.codename1.ui.Display._fimpl;
     _r0.i = ((global::com.codename1.impl.CodenameOneImplementation) _r0_o).canDial() ? 1 : 0;
     return _r0.i!=0;
 //XMLVM_END_WRAPPER[com.codename1.ui.Display: boolean canDial()]
@@ -6631,7 +6845,7 @@ public virtual bool areMutableImagesFast(){
     global::System.Object _r1_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
-    _r0_o = ((global::com.codename1.ui.Display) _r1_o)._fimpl;
+    _r0_o = global::com.codename1.ui.Display._fimpl;
     _r0.i = ((global::com.codename1.impl.CodenameOneImplementation) _r0_o).areMutableImagesFast() ? 1 : 0;
     return _r0.i!=0;
 //XMLVM_END_WRAPPER[com.codename1.ui.Display: boolean areMutableImagesFast()]
@@ -6645,7 +6859,7 @@ public virtual global::System.Object getLocationManager(){
     global::System.Object _r1_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
-    _r0_o = ((global::com.codename1.ui.Display) _r1_o)._fimpl;
+    _r0_o = global::com.codename1.ui.Display._fimpl;
     _r0_o = ((global::com.codename1.impl.CodenameOneImplementation) _r0_o).getLocationManager();
     return (global::com.codename1.location.LocationManager) _r0_o;
 //XMLVM_END_WRAPPER[com.codename1.ui.Display: com.codename1.location.LocationManager getLocationManager()]
@@ -6662,7 +6876,7 @@ public virtual void capturePhoto(global::com.codename1.ui.events.ActionListener 
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
-    _r0_o = ((global::com.codename1.ui.Display) _r1_o)._fimpl;
+    _r0_o = global::com.codename1.ui.Display._fimpl;
     ((global::com.codename1.impl.CodenameOneImplementation) _r0_o).capturePhoto((global::com.codename1.ui.events.ActionListener) _r2_o);
     return;
 //XMLVM_END_WRAPPER[com.codename1.ui.Display: void capturePhoto(com.codename1.ui.events.ActionListener)]
@@ -6679,7 +6893,7 @@ public virtual void captureAudio(global::com.codename1.ui.events.ActionListener 
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
-    _r0_o = ((global::com.codename1.ui.Display) _r1_o)._fimpl;
+    _r0_o = global::com.codename1.ui.Display._fimpl;
     ((global::com.codename1.impl.CodenameOneImplementation) _r0_o).captureAudio((global::com.codename1.ui.events.ActionListener) _r2_o);
     return;
 //XMLVM_END_WRAPPER[com.codename1.ui.Display: void captureAudio(com.codename1.ui.events.ActionListener)]
@@ -6696,7 +6910,7 @@ public virtual void captureVideo(global::com.codename1.ui.events.ActionListener 
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
-    _r0_o = ((global::com.codename1.ui.Display) _r1_o)._fimpl;
+    _r0_o = global::com.codename1.ui.Display._fimpl;
     ((global::com.codename1.impl.CodenameOneImplementation) _r0_o).captureVideo((global::com.codename1.ui.events.ActionListener) _r2_o);
     return;
 //XMLVM_END_WRAPPER[com.codename1.ui.Display: void captureVideo(com.codename1.ui.events.ActionListener)]
@@ -6713,7 +6927,7 @@ public virtual void openImageGallery(global::com.codename1.ui.events.ActionListe
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
-    _r0_o = ((global::com.codename1.ui.Display) _r1_o)._fimpl;
+    _r0_o = global::com.codename1.ui.Display._fimpl;
     ((global::com.codename1.impl.CodenameOneImplementation) _r0_o).openImageGallery((global::com.codename1.ui.events.ActionListener) _r2_o);
     return;
 //XMLVM_END_WRAPPER[com.codename1.ui.Display: void openImageGallery(com.codename1.ui.events.ActionListener)]
@@ -6733,7 +6947,7 @@ public virtual void openGallery(global::com.codename1.ui.events.ActionListener n
     _r1_o = this;
     _r2_o = n1;
     _r3.i = n2;
-    _r0_o = ((global::com.codename1.ui.Display) _r1_o)._fimpl;
+    _r0_o = global::com.codename1.ui.Display._fimpl;
     ((global::com.codename1.impl.CodenameOneImplementation) _r0_o).openGallery((global::com.codename1.ui.events.ActionListener) _r2_o, (int) _r3.i);
     return;
 //XMLVM_END_WRAPPER[com.codename1.ui.Display: void openGallery(com.codename1.ui.events.ActionListener, int)]
@@ -6747,7 +6961,7 @@ public virtual global::System.Object getPlatformName(){
     global::System.Object _r1_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
-    _r0_o = ((global::com.codename1.ui.Display) _r1_o)._fimpl;
+    _r0_o = global::com.codename1.ui.Display._fimpl;
     _r0_o = ((global::com.codename1.impl.CodenameOneImplementation) _r0_o).getPlatformName();
     return (global::java.lang.String) _r0_o;
 //XMLVM_END_WRAPPER[com.codename1.ui.Display: java.lang.String getPlatformName()]
@@ -6761,7 +6975,7 @@ public virtual global::System.Object getPlatformOverrides(){
     global::System.Object _r1_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
-    _r0_o = ((global::com.codename1.ui.Display) _r1_o)._fimpl;
+    _r0_o = global::com.codename1.ui.Display._fimpl;
     _r0_o = ((global::com.codename1.impl.CodenameOneImplementation) _r0_o).getPlatformOverrides();
     return (global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o;
 //XMLVM_END_WRAPPER[com.codename1.ui.Display: java.lang.String[] getPlatformOverrides()]
@@ -6784,7 +6998,7 @@ public virtual void sendMessage(global::org.xmlvm._nArrayAdapter<global::System.
     _r2_o = n1;
     _r3_o = n2;
     _r4_o = n3;
-    _r0_o = ((global::com.codename1.ui.Display) _r1_o)._fimpl;
+    _r0_o = global::com.codename1.ui.Display._fimpl;
     ((global::com.codename1.impl.CodenameOneImplementation) _r0_o).sendMessage((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r2_o, (global::java.lang.String) _r3_o, (global::com.codename1.messaging.Message) _r4_o);
     return;
 //XMLVM_END_WRAPPER[com.codename1.ui.Display: void sendMessage(java.lang.String[], java.lang.String, com.codename1.messaging.Message)]
@@ -6801,7 +7015,7 @@ public virtual void dial(global::java.lang.String n1){
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
-    _r0_o = ((global::com.codename1.ui.Display) _r1_o)._fimpl;
+    _r0_o = global::com.codename1.ui.Display._fimpl;
     ((global::com.codename1.impl.CodenameOneImplementation) _r0_o).dial((global::java.lang.String) _r2_o);
     return;
 //XMLVM_END_WRAPPER[com.codename1.ui.Display: void dial(java.lang.String)]
@@ -6815,7 +7029,7 @@ public virtual int getSMSSupport(){
     global::System.Object _r1_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
-    _r0_o = ((global::com.codename1.ui.Display) _r1_o)._fimpl;
+    _r0_o = global::com.codename1.ui.Display._fimpl;
     _r0.i = ((global::com.codename1.impl.CodenameOneImplementation) _r0_o).getSMSSupport();
     return _r0.i;
 //XMLVM_END_WRAPPER[com.codename1.ui.Display: int getSMSSupport()]
@@ -6837,7 +7051,7 @@ public virtual void sendSMS(global::java.lang.String n1, global::java.lang.Strin
     _r2_o = this;
     _r3_o = n1;
     _r4_o = n2;
-    _r0_o = ((global::com.codename1.ui.Display) _r2_o)._fimpl;
+    _r0_o = global::com.codename1.ui.Display._fimpl;
     _r1.i = 0;
     ((global::com.codename1.impl.CodenameOneImplementation) _r0_o).sendSMS((global::java.lang.String) _r3_o, (global::java.lang.String) _r4_o, 0!=_r1.i);
     return;
@@ -6861,7 +7075,7 @@ public virtual void sendSMS(global::java.lang.String n1, global::java.lang.Strin
     _r2_o = n1;
     _r3_o = n2;
     _r4.i = n3 ? 1 : 0;
-    _r0_o = ((global::com.codename1.ui.Display) _r1_o)._fimpl;
+    _r0_o = global::com.codename1.ui.Display._fimpl;
     ((global::com.codename1.impl.CodenameOneImplementation) _r0_o).sendSMS((global::java.lang.String) _r2_o, (global::java.lang.String) _r3_o, 0!=_r4.i);
     return;
 //XMLVM_END_WRAPPER[com.codename1.ui.Display: void sendSMS(java.lang.String, java.lang.String, boolean)]
@@ -6922,7 +7136,7 @@ public virtual bool isNotificationSupported(){
     global::System.Object _r1_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
-    _r0_o = ((global::com.codename1.ui.Display) _r1_o)._fimpl;
+    _r0_o = global::com.codename1.ui.Display._fimpl;
     _r0.i = ((global::com.codename1.impl.CodenameOneImplementation) _r0_o).isNotificationSupported() ? 1 : 0;
     return _r0.i!=0;
 //XMLVM_END_WRAPPER[com.codename1.ui.Display: boolean isNotificationSupported()]
@@ -6966,7 +7180,7 @@ public virtual global::System.Object notifyStatusBar(global::java.lang.String n1
     _r11.i = n4 ? 1 : 0;
     _r12.i = n5 ? 1 : 0;
     _r13_o = n6;
-    _r0_o = ((global::com.codename1.ui.Display) _r7_o)._fimpl;
+    _r0_o = global::com.codename1.ui.Display._fimpl;
     _r1_o = _r8_o;
     _r2_o = _r9_o;
     _r3_o = _r10_o;
@@ -6989,7 +7203,7 @@ public virtual void dismissNotification(global::java.lang.Object n1){
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
-    _r0_o = ((global::com.codename1.ui.Display) _r1_o)._fimpl;
+    _r0_o = global::com.codename1.ui.Display._fimpl;
     ((global::com.codename1.impl.CodenameOneImplementation) _r0_o).dismissNotification((global::java.lang.Object) _r2_o);
     return;
 //XMLVM_END_WRAPPER[com.codename1.ui.Display: void dismissNotification(java.lang.Object)]
@@ -7003,7 +7217,7 @@ public virtual bool isBadgingSupported(){
     global::System.Object _r1_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
-    _r0_o = ((global::com.codename1.ui.Display) _r1_o)._fimpl;
+    _r0_o = global::com.codename1.ui.Display._fimpl;
     _r0.i = ((global::com.codename1.impl.CodenameOneImplementation) _r0_o).isBadgingSupported() ? 1 : 0;
     return _r0.i!=0;
 //XMLVM_END_WRAPPER[com.codename1.ui.Display: boolean isBadgingSupported()]
@@ -7020,7 +7234,7 @@ public virtual void setBadgeNumber(int n1){
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
-    _r0_o = ((global::com.codename1.ui.Display) _r1_o)._fimpl;
+    _r0_o = global::com.codename1.ui.Display._fimpl;
     ((global::com.codename1.impl.CodenameOneImplementation) _r0_o).setBadgeNumber((int) _r2.i);
     return;
 //XMLVM_END_WRAPPER[com.codename1.ui.Display: void setBadgeNumber(int)]
@@ -7034,7 +7248,7 @@ public virtual bool isOpenNativeNavigationAppSupported(){
     global::System.Object _r1_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
-    _r0_o = ((global::com.codename1.ui.Display) _r1_o)._fimpl;
+    _r0_o = global::com.codename1.ui.Display._fimpl;
     _r0.i = ((global::com.codename1.impl.CodenameOneImplementation) _r0_o).isOpenNativeNavigationAppSupported() ? 1 : 0;
     return _r0.i!=0;
 //XMLVM_END_WRAPPER[com.codename1.ui.Display: boolean isOpenNativeNavigationAppSupported()]
@@ -7058,7 +7272,7 @@ public virtual void openNativeNavigationApp(double n1, double n2){
     _r1_o = this;
     _r2.d = n1;
     _r4.d = n2;
-    _r0_o = ((global::com.codename1.ui.Display) _r1_o)._fimpl;
+    _r0_o = global::com.codename1.ui.Display._fimpl;
     ((global::com.codename1.impl.CodenameOneImplementation) _r0_o).openNativeNavigationApp((double) _r2.d, (double) _r4.d);
     return;
 //XMLVM_END_WRAPPER[com.codename1.ui.Display: void openNativeNavigationApp(double, double)]
@@ -7075,7 +7289,7 @@ public virtual global::System.Object getAllContacts(bool n1){
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1 ? 1 : 0;
-    _r0_o = ((global::com.codename1.ui.Display) _r1_o)._fimpl;
+    _r0_o = global::com.codename1.ui.Display._fimpl;
     _r0_o = ((global::com.codename1.impl.CodenameOneImplementation) _r0_o).getAllContacts(0!=_r2.i);
     return (global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o;
 //XMLVM_END_WRAPPER[com.codename1.ui.Display: java.lang.String[] getAllContacts(boolean)]
@@ -7119,7 +7333,7 @@ public virtual global::System.Object getAllContacts(bool n1, bool n2, bool n3, b
     _r11.i = n4 ? 1 : 0;
     _r12.i = n5 ? 1 : 0;
     _r13.i = n6 ? 1 : 0;
-    _r0_o = ((global::com.codename1.ui.Display) _r7_o)._fimpl;
+    _r0_o = global::com.codename1.ui.Display._fimpl;
     _r1.i = _r8.i;
     _r2.i = _r9.i;
     _r3.i = _r10.i;
@@ -7139,7 +7353,7 @@ public virtual bool isGetAllContactsFast(){
     global::System.Object _r1_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
-    _r0_o = ((global::com.codename1.ui.Display) _r1_o)._fimpl;
+    _r0_o = global::com.codename1.ui.Display._fimpl;
     _r0.i = ((global::com.codename1.impl.CodenameOneImplementation) _r0_o).isGetAllContactsFast() ? 1 : 0;
     return _r0.i!=0;
 //XMLVM_END_WRAPPER[com.codename1.ui.Display: boolean isGetAllContactsFast()]
@@ -7156,7 +7370,7 @@ public virtual global::System.Object getContactById(global::java.lang.String n1)
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
-    _r0_o = ((global::com.codename1.ui.Display) _r1_o)._fimpl;
+    _r0_o = global::com.codename1.ui.Display._fimpl;
     _r0_o = ((global::com.codename1.impl.CodenameOneImplementation) _r0_o).getContactById((global::java.lang.String) _r2_o);
     return (global::com.codename1.contacts.Contact) _r0_o;
 //XMLVM_END_WRAPPER[com.codename1.ui.Display: com.codename1.contacts.Contact getContactById(java.lang.String)]
@@ -7200,7 +7414,7 @@ public virtual global::System.Object getContactById(global::java.lang.String n1,
     _r11.i = n4 ? 1 : 0;
     _r12.i = n5 ? 1 : 0;
     _r13.i = n6 ? 1 : 0;
-    _r0_o = ((global::com.codename1.ui.Display) _r7_o)._fimpl;
+    _r0_o = global::com.codename1.ui.Display._fimpl;
     _r1_o = _r8_o;
     _r2.i = _r9.i;
     _r3.i = _r10.i;
@@ -7220,7 +7434,7 @@ public virtual bool isContactsPermissionGranted(){
     global::System.Object _r1_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
-    _r0_o = ((global::com.codename1.ui.Display) _r1_o)._fimpl;
+    _r0_o = global::com.codename1.ui.Display._fimpl;
     _r0.i = ((global::com.codename1.impl.CodenameOneImplementation) _r0_o).isContactsPermissionGranted() ? 1 : 0;
     return _r0.i!=0;
 //XMLVM_END_WRAPPER[com.codename1.ui.Display: boolean isContactsPermissionGranted()]
@@ -7264,7 +7478,7 @@ public virtual global::System.Object createContact(global::java.lang.String n1, 
     _r11_o = n4;
     _r12_o = n5;
     _r13_o = n6;
-    _r0_o = ((global::com.codename1.ui.Display) _r7_o)._fimpl;
+    _r0_o = global::com.codename1.ui.Display._fimpl;
     _r1_o = _r8_o;
     _r2_o = _r9_o;
     _r3_o = _r10_o;
@@ -7287,7 +7501,7 @@ public virtual bool deleteContact(global::java.lang.String n1){
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
-    _r0_o = ((global::com.codename1.ui.Display) _r1_o)._fimpl;
+    _r0_o = global::com.codename1.ui.Display._fimpl;
     _r0.i = ((global::com.codename1.impl.CodenameOneImplementation) _r0_o).deleteContact((global::java.lang.String) _r2_o) ? 1 : 0;
     return _r0.i!=0;
 //XMLVM_END_WRAPPER[com.codename1.ui.Display: boolean deleteContact(java.lang.String)]
@@ -7301,7 +7515,7 @@ public virtual bool isNativeVideoPlayerControlsIncluded(){
     global::System.Object _r1_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
-    _r0_o = ((global::com.codename1.ui.Display) _r1_o)._fimpl;
+    _r0_o = global::com.codename1.ui.Display._fimpl;
     _r0.i = ((global::com.codename1.impl.CodenameOneImplementation) _r0_o).isNativeVideoPlayerControlsIncluded() ? 1 : 0;
     return _r0.i!=0;
 //XMLVM_END_WRAPPER[com.codename1.ui.Display: boolean isNativeVideoPlayerControlsIncluded()]
@@ -7315,7 +7529,7 @@ public virtual bool isNativeShareSupported(){
     global::System.Object _r1_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
-    _r0_o = ((global::com.codename1.ui.Display) _r1_o)._fimpl;
+    _r0_o = global::com.codename1.ui.Display._fimpl;
     _r0.i = ((global::com.codename1.impl.CodenameOneImplementation) _r0_o).isNativeShareSupported() ? 1 : 0;
     return _r0.i!=0;
 //XMLVM_END_WRAPPER[com.codename1.ui.Display: boolean isNativeShareSupported()]
@@ -7381,7 +7595,7 @@ public virtual void share(global::java.lang.String n1, global::java.lang.String 
     _r3_o = n2;
     _r4_o = n3;
     _r5_o = n4;
-    _r0_o = ((global::com.codename1.ui.Display) _r1_o)._fimpl;
+    _r0_o = global::com.codename1.ui.Display._fimpl;
     ((global::com.codename1.impl.CodenameOneImplementation) _r0_o).share((global::java.lang.String) _r2_o, (global::java.lang.String) _r3_o, (global::java.lang.String) _r4_o, (global::com.codename1.ui.geom.Rectangle) _r5_o);
     return;
 //XMLVM_END_WRAPPER[com.codename1.ui.Display: void share(java.lang.String, java.lang.String, java.lang.String, com.codename1.ui.geom.Rectangle)]
@@ -7395,7 +7609,7 @@ public virtual global::System.Object getLocalizationManager(){
     global::System.Object _r1_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
-    _r0_o = ((global::com.codename1.ui.Display) _r1_o)._fimpl;
+    _r0_o = global::com.codename1.ui.Display._fimpl;
     _r0_o = ((global::com.codename1.impl.CodenameOneImplementation) _r0_o).getLocalizationManager();
     return (global::com.codename1.l10n.L10NManager) _r0_o;
 //XMLVM_END_WRAPPER[com.codename1.ui.Display: com.codename1.l10n.L10NManager getLocalizationManager()]
@@ -7455,7 +7669,7 @@ public virtual void registerPush(global::java.util.Hashtable n1, bool n2){
     _r0.l = global::com.codename1.io.Preferences.get((global::java.lang.String) _r0_o, (long) _r2.l);
     _r0.i = _r0.l > _r2.l ? 1 : (_r0.l == _r2.l ? 0 : -1);
     if (_r0.i != 0) goto label17;
-    _r0_o = ((global::com.codename1.ui.Display) _r4_o)._fimpl;
+    _r0_o = global::com.codename1.ui.Display._fimpl;
     ((global::com.codename1.impl.CodenameOneImplementation) _r0_o).registerPush((global::java.util.Hashtable) _r5_o, 0!=_r6.i);
     label17:;
     return;
@@ -7470,7 +7684,7 @@ public virtual void deregisterPush(){
     global::System.Object _r1_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
-    _r0_o = ((global::com.codename1.ui.Display) _r1_o)._fimpl;
+    _r0_o = global::com.codename1.ui.Display._fimpl;
     ((global::com.codename1.impl.CodenameOneImplementation) _r0_o).deregisterPush();
     return;
 //XMLVM_END_WRAPPER[com.codename1.ui.Display: void deregisterPush()]
@@ -7511,7 +7725,7 @@ public virtual global::System.Object createMediaRecorder(global::java.lang.Strin
     _r1_o = this;
     _r2_o = n1;
     _r3_o = n2;
-    _r0_o = ((global::com.codename1.ui.Display) _r1_o)._fimpl;
+    _r0_o = global::com.codename1.ui.Display._fimpl;
     _r0_o = ((global::com.codename1.impl.CodenameOneImplementation) _r0_o).createMediaRecorder((global::java.lang.String) _r2_o, (global::java.lang.String) _r3_o);
     return (global::com.codename1.media.Media) _r0_o;
 //XMLVM_END_WRAPPER[com.codename1.ui.Display: com.codename1.media.Media createMediaRecorder(java.lang.String, java.lang.String)]
@@ -7525,7 +7739,7 @@ public virtual global::System.Object getImageIO(){
     global::System.Object _r1_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
-    _r0_o = ((global::com.codename1.ui.Display) _r1_o)._fimpl;
+    _r0_o = global::com.codename1.ui.Display._fimpl;
     _r0_o = ((global::com.codename1.impl.CodenameOneImplementation) _r0_o).getImageIO();
     return (global::com.codename1.ui.util.ImageIO) _r0_o;
 //XMLVM_END_WRAPPER[com.codename1.ui.Display: com.codename1.ui.util.ImageIO getImageIO()]
@@ -7541,7 +7755,7 @@ public virtual global::System.Object getMediaRecorderingMimeType(){
     global::System.Object _r2_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
-    _r0_o = ((global::com.codename1.ui.Display) _r2_o)._fimpl;
+    _r0_o = global::com.codename1.ui.Display._fimpl;
     _r0_o = ((global::com.codename1.impl.CodenameOneImplementation) _r0_o).getAvailableRecordingMimeTypes();
     _r1.i = 0;
     _r0_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o)[_r1.i];
@@ -7560,7 +7774,7 @@ public virtual global::System.Object openOrCreate(global::java.lang.String n1){
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
-    _r0_o = ((global::com.codename1.ui.Display) _r1_o)._fimpl;
+    _r0_o = global::com.codename1.ui.Display._fimpl;
     _r0_o = ((global::com.codename1.impl.CodenameOneImplementation) _r0_o).openOrCreateDB((global::java.lang.String) _r2_o);
     return (global::com.codename1.db.Database) _r0_o;
 //XMLVM_END_WRAPPER[com.codename1.ui.Display: com.codename1.db.Database openOrCreate(java.lang.String)]
@@ -7577,7 +7791,7 @@ public virtual void delete(global::java.lang.String n1){
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
-    _r0_o = ((global::com.codename1.ui.Display) _r1_o)._fimpl;
+    _r0_o = global::com.codename1.ui.Display._fimpl;
     ((global::com.codename1.impl.CodenameOneImplementation) _r0_o).deleteDB((global::java.lang.String) _r2_o);
     return;
 //XMLVM_END_WRAPPER[com.codename1.ui.Display: void delete(java.lang.String)]
@@ -7594,7 +7808,7 @@ public virtual bool exists(global::java.lang.String n1){
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
-    _r0_o = ((global::com.codename1.ui.Display) _r1_o)._fimpl;
+    _r0_o = global::com.codename1.ui.Display._fimpl;
     _r0.i = ((global::com.codename1.impl.CodenameOneImplementation) _r0_o).existsDB((global::java.lang.String) _r2_o) ? 1 : 0;
     return _r0.i!=0;
 //XMLVM_END_WRAPPER[com.codename1.ui.Display: boolean exists(java.lang.String)]
@@ -7611,7 +7825,7 @@ public virtual global::System.Object getDatabasePath(global::java.lang.String n1
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
-    _r0_o = ((global::com.codename1.ui.Display) _r1_o)._fimpl;
+    _r0_o = global::com.codename1.ui.Display._fimpl;
     _r0_o = ((global::com.codename1.impl.CodenameOneImplementation) _r0_o).getDatabasePath((global::java.lang.String) _r2_o);
     return (global::java.lang.String) _r0_o;
 //XMLVM_END_WRAPPER[com.codename1.ui.Display: java.lang.String getDatabasePath(java.lang.String)]
@@ -7628,7 +7842,7 @@ public virtual void setPollingFrequency(int n1){
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
-    _r0_o = ((global::com.codename1.ui.Display) _r1_o)._fimpl;
+    _r0_o = global::com.codename1.ui.Display._fimpl;
     ((global::com.codename1.impl.CodenameOneImplementation) _r0_o).setPollingFrequency((int) _r2.i);
     return;
 //XMLVM_END_WRAPPER[com.codename1.ui.Display: void setPollingFrequency(int)]
@@ -7662,7 +7876,7 @@ public virtual bool isNativeTitle(){
     global::System.Object _r1_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
-    _r0_o = ((global::com.codename1.ui.Display) _r1_o)._fimpl;
+    _r0_o = global::com.codename1.ui.Display._fimpl;
     _r0.i = ((global::com.codename1.impl.CodenameOneImplementation) _r0_o).isNativeTitle() ? 1 : 0;
     return _r0.i!=0;
 //XMLVM_END_WRAPPER[com.codename1.ui.Display: boolean isNativeTitle()]
@@ -7676,7 +7890,7 @@ public virtual void refreshNativeTitle(){
     global::System.Object _r1_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
-    _r0_o = ((global::com.codename1.ui.Display) _r1_o)._fimpl;
+    _r0_o = global::com.codename1.ui.Display._fimpl;
     ((global::com.codename1.impl.CodenameOneImplementation) _r0_o).refreshNativeTitle();
     return;
 //XMLVM_END_WRAPPER[com.codename1.ui.Display: void refreshNativeTitle()]
@@ -7717,7 +7931,7 @@ public virtual global::System.Object getUdid(){
     global::System.Object _r1_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
-    _r0_o = ((global::com.codename1.ui.Display) _r1_o)._fimpl;
+    _r0_o = global::com.codename1.ui.Display._fimpl;
     _r0_o = ((global::com.codename1.impl.CodenameOneImplementation) _r0_o).getUdid();
     return (global::java.lang.String) _r0_o;
 //XMLVM_END_WRAPPER[com.codename1.ui.Display: java.lang.String getUdid()]
@@ -7731,7 +7945,7 @@ public virtual global::System.Object getMsisdn(){
     global::System.Object _r1_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
-    _r0_o = ((global::com.codename1.ui.Display) _r1_o)._fimpl;
+    _r0_o = global::com.codename1.ui.Display._fimpl;
     _r0_o = ((global::com.codename1.impl.CodenameOneImplementation) _r0_o).getMsisdn();
     return (global::java.lang.String) _r0_o;
 //XMLVM_END_WRAPPER[com.codename1.ui.Display: java.lang.String getMsisdn()]
@@ -7745,7 +7959,7 @@ public virtual global::System.Object getInAppPurchase(){
     global::System.Object _r1_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
-    _r0_o = ((global::com.codename1.ui.Display) _r1_o)._fimpl;
+    _r0_o = global::com.codename1.ui.Display._fimpl;
     _r0_o = ((global::com.codename1.impl.CodenameOneImplementation) _r0_o).getInAppPurchase();
     return (global::com.codename1.payment.Purchase) _r0_o;
 //XMLVM_END_WRAPPER[com.codename1.ui.Display: com.codename1.payment.Purchase getInAppPurchase()]
@@ -7781,7 +7995,7 @@ public virtual global::System.Object getCodeScanner(){
     label7:;
     return (global::com.codename1.codescan.CodeScanner) _r0_o;
     label8:;
-    _r0_o = ((global::com.codename1.ui.Display) _r1_o)._fimpl;
+    _r0_o = global::com.codename1.ui.Display._fimpl;
     _r0_o = ((global::com.codename1.impl.CodenameOneImplementation) _r0_o).getCodeScanner();
     goto label7;
 //XMLVM_END_WRAPPER[com.codename1.ui.Display: com.codename1.codescan.CodeScanner getCodeScanner()]
@@ -7795,7 +8009,7 @@ public virtual global::System.Object getAvailableRecordingMimeTypes(){
     global::System.Object _r1_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
-    _r0_o = ((global::com.codename1.ui.Display) _r1_o)._fimpl;
+    _r0_o = global::com.codename1.ui.Display._fimpl;
     _r0_o = ((global::com.codename1.impl.CodenameOneImplementation) _r0_o).getAvailableRecordingMimeTypes();
     return (global::org.xmlvm._nArrayAdapter<global::System.Object>) _r0_o;
 //XMLVM_END_WRAPPER[com.codename1.ui.Display: java.lang.String[] getAvailableRecordingMimeTypes()]
@@ -7809,7 +8023,7 @@ public virtual bool isScreenSaverDisableSupported(){
     global::System.Object _r1_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
-    _r0_o = ((global::com.codename1.ui.Display) _r1_o)._fimpl;
+    _r0_o = global::com.codename1.ui.Display._fimpl;
     _r0.i = ((global::com.codename1.impl.CodenameOneImplementation) _r0_o).isScreenLockSupported() ? 1 : 0;
     return _r0.i!=0;
 //XMLVM_END_WRAPPER[com.codename1.ui.Display: boolean isScreenSaverDisableSupported()]
@@ -7827,12 +8041,12 @@ public virtual void setScreenSaverEnabled(bool n1){
     _r1_o = this;
     _r2.i = n1 ? 1 : 0;
     if (_r2.i == 0) goto label8;
-    _r0_o = ((global::com.codename1.ui.Display) _r1_o)._fimpl;
+    _r0_o = global::com.codename1.ui.Display._fimpl;
     ((global::com.codename1.impl.CodenameOneImplementation) _r0_o).unlockScreen();
     label7:;
     return;
     label8:;
-    _r0_o = ((global::com.codename1.ui.Display) _r1_o)._fimpl;
+    _r0_o = global::com.codename1.ui.Display._fimpl;
     ((global::com.codename1.impl.CodenameOneImplementation) _r0_o).lockScreen();
     goto label7;
 //XMLVM_END_WRAPPER[com.codename1.ui.Display: void setScreenSaverEnabled(boolean)]
@@ -7846,7 +8060,7 @@ public virtual bool hasCamera(){
     global::System.Object _r1_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
-    _r0_o = ((global::com.codename1.ui.Display) _r1_o)._fimpl;
+    _r0_o = global::com.codename1.ui.Display._fimpl;
     _r0.i = ((global::com.codename1.impl.CodenameOneImplementation) _r0_o).hasCamera() ? 1 : 0;
     return _r0.i!=0;
 //XMLVM_END_WRAPPER[com.codename1.ui.Display: boolean hasCamera()]
@@ -7863,7 +8077,7 @@ public virtual bool isNativePickerTypeSupported(int n1){
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2.i = n1;
-    _r0_o = ((global::com.codename1.ui.Display) _r1_o)._fimpl;
+    _r0_o = global::com.codename1.ui.Display._fimpl;
     _r0.i = ((global::com.codename1.impl.CodenameOneImplementation) _r0_o).isNativePickerTypeSupported((int) _r2.i) ? 1 : 0;
     return _r0.i!=0;
 //XMLVM_END_WRAPPER[com.codename1.ui.Display: boolean isNativePickerTypeSupported(int)]
@@ -7889,7 +8103,7 @@ public virtual global::System.Object showNativePicker(int n1, global::com.codena
     _r3_o = n2;
     _r4_o = n3;
     _r5_o = n4;
-    _r0_o = ((global::com.codename1.ui.Display) _r1_o)._fimpl;
+    _r0_o = global::com.codename1.ui.Display._fimpl;
     _r0_o = ((global::com.codename1.impl.CodenameOneImplementation) _r0_o).showNativePicker((int) _r2.i, (global::com.codename1.ui.Component) _r3_o, (global::java.lang.Object) _r4_o, (global::java.lang.Object) _r5_o);
     return (global::java.lang.Object) _r0_o;
 //XMLVM_END_WRAPPER[com.codename1.ui.Display: java.lang.Object showNativePicker(int, com.codename1.ui.Component, java.lang.Object, java.lang.Object)]
@@ -8011,7 +8225,7 @@ public virtual void scheduleLocalNotification(global::com.codename1.notification
     ((global::java.lang.IllegalArgumentException) _r0_o).@this((global::java.lang.String) _r1_o);
     throw new global::org.xmlvm._nExceptionAdapter((global::java.lang.IllegalArgumentException) _r0_o);
     label76:;
-    _r0_o = ((global::com.codename1.ui.Display) _r2_o)._fimpl;
+    _r0_o = global::com.codename1.ui.Display._fimpl;
     ((global::com.codename1.impl.CodenameOneImplementation) _r0_o).scheduleLocalNotification((global::com.codename1.notifications.LocalNotification) _r3_o, (long) _r4.l, (int) _r6.i);
     return;
 //XMLVM_END_WRAPPER[com.codename1.ui.Display: void scheduleLocalNotification(com.codename1.notifications.LocalNotification, long, int)]
@@ -8028,10 +8242,41 @@ public virtual void cancelLocalNotification(global::java.lang.String n1){
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
-    _r0_o = ((global::com.codename1.ui.Display) _r1_o)._fimpl;
+    _r0_o = global::com.codename1.ui.Display._fimpl;
     ((global::com.codename1.impl.CodenameOneImplementation) _r0_o).cancelLocalNotification((global::java.lang.String) _r2_o);
     return;
 //XMLVM_END_WRAPPER[com.codename1.ui.Display: void cancelLocalNotification(java.lang.String)]
+}
+
+public virtual bool isSimulator(){
+//XMLVM_BEGIN_WRAPPER[com.codename1.ui.Display: boolean isSimulator()]
+    global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
+    _r1_o = this;
+    _r0_o = global::com.codename1.ui.Display._fimpl;
+    _r0.i = ((global::com.codename1.impl.CodenameOneImplementation) _r0_o).isSimulator() ? 1 : 0;
+    return _r0.i!=0;
+//XMLVM_END_WRAPPER[com.codename1.ui.Display: boolean isSimulator()]
+}
+
+public virtual global::System.Object createBackgroundMedia(global::java.lang.String n1){
+//XMLVM_BEGIN_WRAPPER[com.codename1.ui.Display: com.codename1.media.Media createBackgroundMedia(java.lang.String)]
+    global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
+    _r1_o = this;
+    _r2_o = n1;
+    _r0_o = global::com.codename1.ui.Display._fimpl;
+    _r0_o = ((global::com.codename1.impl.CodenameOneImplementation) _r0_o).createBackgroundMedia((global::java.lang.String) _r2_o);
+    return (global::com.codename1.media.Media) _r0_o;
+//XMLVM_END_WRAPPER[com.codename1.ui.Display: com.codename1.media.Media createBackgroundMedia(java.lang.String)]
 }
 
 public static global::System.Object access_2000(global::com.codename1.ui.Display n1){

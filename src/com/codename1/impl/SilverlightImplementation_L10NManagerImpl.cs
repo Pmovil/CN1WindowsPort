@@ -39,7 +39,7 @@ new public void @this(){
 
 public override global::System.Object getLanguage()
 {
-    return SilverlightImplementation.toJava(CultureInfo.CurrentCulture.TwoLetterISOLanguageName);
+    return SilverlightImplementation.toJava(CultureInfo.CurrentCulture.NativeName);
 }
 
 public override global::System.Object format(int n1)

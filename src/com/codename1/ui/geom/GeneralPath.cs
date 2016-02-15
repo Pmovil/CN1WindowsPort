@@ -91,6 +91,88 @@ public void @this(int n1, int n2){
 //XMLVM_END_WRAPPER[com.codename1.ui.geom.GeneralPath: void <init>(int, int)]
 }
 
+public virtual int getTypesSize(){
+//XMLVM_BEGIN_WRAPPER[com.codename1.ui.geom.GeneralPath: int getTypesSize()]
+    global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
+    _r1_o = this;
+    _r0.i = ((global::com.codename1.ui.geom.GeneralPath) _r1_o)._ftypeSize;
+    return _r0.i;
+//XMLVM_END_WRAPPER[com.codename1.ui.geom.GeneralPath: int getTypesSize()]
+}
+
+public virtual int getPointsSize(){
+//XMLVM_BEGIN_WRAPPER[com.codename1.ui.geom.GeneralPath: int getPointsSize()]
+    global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
+    _r1_o = this;
+    _r0.i = ((global::com.codename1.ui.geom.GeneralPath) _r1_o)._fpointSize;
+    return _r0.i;
+//XMLVM_END_WRAPPER[com.codename1.ui.geom.GeneralPath: int getPointsSize()]
+}
+
+public virtual void getTypes(global::org.xmlvm._nArrayAdapter<sbyte> n1){
+//XMLVM_BEGIN_WRAPPER[com.codename1.ui.geom.GeneralPath: void getTypes(byte[])]
+    global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
+    _r4_o = this;
+    _r5_o = n1;
+    _r3.i = 0;
+    _r0_o = ((global::com.codename1.ui.geom.GeneralPath) _r4_o)._ftypes;
+    _r1_o = ((global::com.codename1.ui.geom.GeneralPath) _r4_o)._ftypes;
+    _r1.i = ((global::org.xmlvm._nIArray) _r1_o).Length;
+    _r2.i = ((global::org.xmlvm._nIArray) _r5_o).Length;
+    _r1.i = global::java.lang.Math.min((int) _r1.i, (int) _r2.i);
+    global::java.lang.System.arraycopy((global::java.lang.Object) _r0_o, (int) _r3.i, (global::java.lang.Object) _r5_o, (int) _r3.i, (int) _r1.i);
+    return;
+//XMLVM_END_WRAPPER[com.codename1.ui.geom.GeneralPath: void getTypes(byte[])]
+}
+
+public virtual void getPoints(global::org.xmlvm._nArrayAdapter<float> n1){
+//XMLVM_BEGIN_WRAPPER[com.codename1.ui.geom.GeneralPath: void getPoints(float[])]
+    global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
+    _r4_o = this;
+    _r5_o = n1;
+    _r3.i = 0;
+    _r0_o = ((global::com.codename1.ui.geom.GeneralPath) _r4_o)._fpoints;
+    _r1_o = ((global::com.codename1.ui.geom.GeneralPath) _r4_o)._fpoints;
+    _r1.i = ((global::org.xmlvm._nIArray) _r1_o).Length;
+    _r2.i = ((global::org.xmlvm._nIArray) _r5_o).Length;
+    _r1.i = global::java.lang.Math.min((int) _r1.i, (int) _r2.i);
+    global::java.lang.System.arraycopy((global::java.lang.Object) _r0_o, (int) _r3.i, (global::java.lang.Object) _r5_o, (int) _r3.i, (int) _r1.i);
+    return;
+//XMLVM_END_WRAPPER[com.codename1.ui.geom.GeneralPath: void getPoints(float[])]
+}
+
 public void @this(global::com.codename1.ui.geom.Shape n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.geom.GeneralPath: void <init>(com.codename1.ui.geom.Shape)]
     global::org.xmlvm._nElement _r0;

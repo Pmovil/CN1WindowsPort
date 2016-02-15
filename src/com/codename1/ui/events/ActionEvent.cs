@@ -3,6 +3,8 @@
 using org.xmlvm;
 namespace com.codename1.ui.events {
 public class ActionEvent: global::java.lang.Object {
+private global::com.codename1.ui.events.ActionEvent_2Type _ftrigger;
+
 private bool _fconsumed;
 
 private global::java.lang.Object _fsource;
@@ -14,6 +16,19 @@ private int _fkeyEvent;
 private int _fy;
 
 private bool _flongEvent;
+
+public virtual global::System.Object getEventType(){
+//XMLVM_BEGIN_WRAPPER[com.codename1.ui.events.ActionEvent: com.codename1.ui.events.ActionEvent$Type getEventType()]
+    global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
+    _r1_o = this;
+    _r0_o = ((global::com.codename1.ui.events.ActionEvent) _r1_o)._ftrigger;
+    return (global::com.codename1.ui.events.ActionEvent_2Type) _r0_o;
+//XMLVM_END_WRAPPER[com.codename1.ui.events.ActionEvent: com.codename1.ui.events.ActionEvent$Type getEventType()]
+}
 
 public void @this(global::java.lang.Object n1){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.events.ActionEvent: void <init>(java.lang.Object)]
@@ -33,8 +48,176 @@ public void @this(global::java.lang.Object n1){
     _r0.i = 0;
     ((global::com.codename1.ui.events.ActionEvent) _r1_o)._flongEvent = 0!=_r0.i;
     ((global::com.codename1.ui.events.ActionEvent) _r1_o)._fsource = (global::java.lang.Object) _r2_o;
+    _r0_o = global::com.codename1.ui.events.ActionEvent_2Type._fOther;
+    ((global::com.codename1.ui.events.ActionEvent) _r1_o)._ftrigger = (global::com.codename1.ui.events.ActionEvent_2Type) _r0_o;
     return;
 //XMLVM_END_WRAPPER[com.codename1.ui.events.ActionEvent: void <init>(java.lang.Object)]
+}
+
+public void @this(global::java.lang.Object n1, global::com.codename1.ui.events.ActionEvent_2Type n2){
+//XMLVM_BEGIN_WRAPPER[com.codename1.ui.events.ActionEvent: void <init>(java.lang.Object, com.codename1.ui.events.ActionEvent$Type)]
+    global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
+    _r1_o = this;
+    _r2_o = n1;
+    _r3_o = n2;
+    _r0.i = -1;
+    ((global::java.lang.Object) _r1_o).@this();
+    ((global::com.codename1.ui.events.ActionEvent) _r1_o)._fkeyEvent = _r0.i;
+    ((global::com.codename1.ui.events.ActionEvent) _r1_o)._fy = _r0.i;
+    _r0.i = 0;
+    ((global::com.codename1.ui.events.ActionEvent) _r1_o)._flongEvent = 0!=_r0.i;
+    ((global::com.codename1.ui.events.ActionEvent) _r1_o)._fsource = (global::java.lang.Object) _r2_o;
+    ((global::com.codename1.ui.events.ActionEvent) _r1_o)._ftrigger = (global::com.codename1.ui.events.ActionEvent_2Type) _r3_o;
+    return;
+//XMLVM_END_WRAPPER[com.codename1.ui.events.ActionEvent: void <init>(java.lang.Object, com.codename1.ui.events.ActionEvent$Type)]
+}
+
+public void @this(global::java.lang.Object n1, global::com.codename1.ui.events.ActionEvent_2Type n2, int n3, int n4){
+//XMLVM_BEGIN_WRAPPER[com.codename1.ui.events.ActionEvent: void <init>(java.lang.Object, com.codename1.ui.events.ActionEvent$Type, int, int)]
+    global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
+    _r1_o = this;
+    _r2_o = n1;
+    _r3_o = n2;
+    _r4.i = n3;
+    _r5.i = n4;
+    _r0.i = -1;
+    ((global::java.lang.Object) _r1_o).@this();
+    ((global::com.codename1.ui.events.ActionEvent) _r1_o)._fkeyEvent = _r0.i;
+    ((global::com.codename1.ui.events.ActionEvent) _r1_o)._fy = _r0.i;
+    _r0.i = 0;
+    ((global::com.codename1.ui.events.ActionEvent) _r1_o)._flongEvent = 0!=_r0.i;
+    ((global::com.codename1.ui.events.ActionEvent) _r1_o)._fsource = (global::java.lang.Object) _r2_o;
+    ((global::com.codename1.ui.events.ActionEvent) _r1_o)._fkeyEvent = _r4.i;
+    ((global::com.codename1.ui.events.ActionEvent) _r1_o)._fy = _r5.i;
+    ((global::com.codename1.ui.events.ActionEvent) _r1_o)._ftrigger = (global::com.codename1.ui.events.ActionEvent_2Type) _r3_o;
+    return;
+//XMLVM_END_WRAPPER[com.codename1.ui.events.ActionEvent: void <init>(java.lang.Object, com.codename1.ui.events.ActionEvent$Type, int, int)]
+}
+
+public void @this(global::com.codename1.ui.Command n1, global::com.codename1.ui.events.ActionEvent_2Type n2, global::com.codename1.ui.Component n3, int n4, int n5){
+//XMLVM_BEGIN_WRAPPER[com.codename1.ui.events.ActionEvent: void <init>(com.codename1.ui.Command, com.codename1.ui.events.ActionEvent$Type, com.codename1.ui.Component, int, int)]
+    global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
+    _r1_o = this;
+    _r2_o = n1;
+    _r3_o = n2;
+    _r4_o = n3;
+    _r5.i = n4;
+    _r6.i = n5;
+    _r0.i = -1;
+    ((global::java.lang.Object) _r1_o).@this();
+    ((global::com.codename1.ui.events.ActionEvent) _r1_o)._fkeyEvent = _r0.i;
+    ((global::com.codename1.ui.events.ActionEvent) _r1_o)._fy = _r0.i;
+    _r0.i = 0;
+    ((global::com.codename1.ui.events.ActionEvent) _r1_o)._flongEvent = 0!=_r0.i;
+    ((global::com.codename1.ui.events.ActionEvent) _r1_o)._fsource = (global::java.lang.Object) _r2_o;
+    ((global::com.codename1.ui.events.ActionEvent) _r1_o)._fsourceComponent = (global::java.lang.Object) _r4_o;
+    ((global::com.codename1.ui.events.ActionEvent) _r1_o)._fkeyEvent = _r5.i;
+    ((global::com.codename1.ui.events.ActionEvent) _r1_o)._fy = _r6.i;
+    ((global::com.codename1.ui.events.ActionEvent) _r1_o)._ftrigger = (global::com.codename1.ui.events.ActionEvent_2Type) _r3_o;
+    return;
+//XMLVM_END_WRAPPER[com.codename1.ui.events.ActionEvent: void <init>(com.codename1.ui.Command, com.codename1.ui.events.ActionEvent$Type, com.codename1.ui.Component, int, int)]
+}
+
+public void @this(global::com.codename1.ui.Component n1, global::com.codename1.ui.events.ActionEvent_2Type n2, global::com.codename1.ui.Component n3, int n4, int n5){
+//XMLVM_BEGIN_WRAPPER[com.codename1.ui.events.ActionEvent: void <init>(com.codename1.ui.Component, com.codename1.ui.events.ActionEvent$Type, com.codename1.ui.Component, int, int)]
+    global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nElement _r5;
+    global::System.Object _r5_o = null;
+    global::org.xmlvm._nElement _r6;
+    global::System.Object _r6_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
+    _r1_o = this;
+    _r2_o = n1;
+    _r3_o = n2;
+    _r4_o = n3;
+    _r5.i = n4;
+    _r6.i = n5;
+    _r0.i = -1;
+    ((global::java.lang.Object) _r1_o).@this();
+    ((global::com.codename1.ui.events.ActionEvent) _r1_o)._fkeyEvent = _r0.i;
+    ((global::com.codename1.ui.events.ActionEvent) _r1_o)._fy = _r0.i;
+    _r0.i = 0;
+    ((global::com.codename1.ui.events.ActionEvent) _r1_o)._flongEvent = 0!=_r0.i;
+    ((global::com.codename1.ui.events.ActionEvent) _r1_o)._fsource = (global::java.lang.Object) _r2_o;
+    ((global::com.codename1.ui.events.ActionEvent) _r1_o)._fsourceComponent = (global::java.lang.Object) _r4_o;
+    ((global::com.codename1.ui.events.ActionEvent) _r1_o)._fkeyEvent = _r5.i;
+    ((global::com.codename1.ui.events.ActionEvent) _r1_o)._fy = _r6.i;
+    ((global::com.codename1.ui.events.ActionEvent) _r1_o)._ftrigger = (global::com.codename1.ui.events.ActionEvent_2Type) _r3_o;
+    return;
+//XMLVM_END_WRAPPER[com.codename1.ui.events.ActionEvent: void <init>(com.codename1.ui.Component, com.codename1.ui.events.ActionEvent$Type, com.codename1.ui.Component, int, int)]
+}
+
+public void @this(global::java.lang.Object n1, global::com.codename1.ui.events.ActionEvent_2Type n2, int n3){
+//XMLVM_BEGIN_WRAPPER[com.codename1.ui.events.ActionEvent: void <init>(java.lang.Object, com.codename1.ui.events.ActionEvent$Type, int)]
+    global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nElement _r3;
+    global::System.Object _r3_o = null;
+    global::org.xmlvm._nElement _r4;
+    global::System.Object _r4_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
+    _r1_o = this;
+    _r2_o = n1;
+    _r3_o = n2;
+    _r4.i = n3;
+    _r0.i = -1;
+    ((global::java.lang.Object) _r1_o).@this();
+    ((global::com.codename1.ui.events.ActionEvent) _r1_o)._fkeyEvent = _r0.i;
+    ((global::com.codename1.ui.events.ActionEvent) _r1_o)._fy = _r0.i;
+    _r0.i = 0;
+    ((global::com.codename1.ui.events.ActionEvent) _r1_o)._flongEvent = 0!=_r0.i;
+    ((global::com.codename1.ui.events.ActionEvent) _r1_o)._fsource = (global::java.lang.Object) _r2_o;
+    ((global::com.codename1.ui.events.ActionEvent) _r1_o)._fkeyEvent = _r4.i;
+    ((global::com.codename1.ui.events.ActionEvent) _r1_o)._ftrigger = (global::com.codename1.ui.events.ActionEvent_2Type) _r3_o;
+    return;
+//XMLVM_END_WRAPPER[com.codename1.ui.events.ActionEvent: void <init>(java.lang.Object, com.codename1.ui.events.ActionEvent$Type, int)]
 }
 
 public void @this(global::java.lang.Object n1, int n2){
@@ -59,6 +242,8 @@ public void @this(global::java.lang.Object n1, int n2){
     ((global::com.codename1.ui.events.ActionEvent) _r1_o)._flongEvent = 0!=_r0.i;
     ((global::com.codename1.ui.events.ActionEvent) _r1_o)._fsource = (global::java.lang.Object) _r2_o;
     ((global::com.codename1.ui.events.ActionEvent) _r1_o)._fkeyEvent = _r3.i;
+    _r0_o = global::com.codename1.ui.events.ActionEvent_2Type._fKeyRelease;
+    ((global::com.codename1.ui.events.ActionEvent) _r1_o)._ftrigger = (global::com.codename1.ui.events.ActionEvent_2Type) _r0_o;
     return;
 //XMLVM_END_WRAPPER[com.codename1.ui.events.ActionEvent: void <init>(java.lang.Object, int)]
 }
@@ -89,6 +274,8 @@ public void @this(global::java.lang.Object n1, int n2, bool n3){
     ((global::com.codename1.ui.events.ActionEvent) _r1_o)._fsource = (global::java.lang.Object) _r2_o;
     ((global::com.codename1.ui.events.ActionEvent) _r1_o)._fkeyEvent = _r3.i;
     ((global::com.codename1.ui.events.ActionEvent) _r1_o)._flongEvent = 0!=_r4.i;
+    _r0_o = global::com.codename1.ui.events.ActionEvent_2Type._fKeyPress;
+    ((global::com.codename1.ui.events.ActionEvent) _r1_o)._ftrigger = (global::com.codename1.ui.events.ActionEvent_2Type) _r0_o;
     return;
 //XMLVM_END_WRAPPER[com.codename1.ui.events.ActionEvent: void <init>(java.lang.Object, int, boolean)]
 }
@@ -123,6 +310,8 @@ public void @this(global::java.lang.Object n1, int n2, int n3, bool n4){
     ((global::com.codename1.ui.events.ActionEvent) _r1_o)._fkeyEvent = _r3.i;
     ((global::com.codename1.ui.events.ActionEvent) _r1_o)._fy = _r4.i;
     ((global::com.codename1.ui.events.ActionEvent) _r1_o)._flongEvent = 0!=_r5.i;
+    _r0_o = global::com.codename1.ui.events.ActionEvent_2Type._fPointerReleased;
+    ((global::com.codename1.ui.events.ActionEvent) _r1_o)._ftrigger = (global::com.codename1.ui.events.ActionEvent_2Type) _r0_o;
     return;
 //XMLVM_END_WRAPPER[com.codename1.ui.events.ActionEvent: void <init>(java.lang.Object, int, int, boolean)]
 }
@@ -153,6 +342,8 @@ public void @this(global::java.lang.Object n1, int n2, int n3){
     ((global::com.codename1.ui.events.ActionEvent) _r1_o)._fsource = (global::java.lang.Object) _r2_o;
     ((global::com.codename1.ui.events.ActionEvent) _r1_o)._fkeyEvent = _r3.i;
     ((global::com.codename1.ui.events.ActionEvent) _r1_o)._fy = _r4.i;
+    _r0_o = global::com.codename1.ui.events.ActionEvent_2Type._fPointer;
+    ((global::com.codename1.ui.events.ActionEvent) _r1_o)._ftrigger = (global::com.codename1.ui.events.ActionEvent_2Type) _r0_o;
     return;
 //XMLVM_END_WRAPPER[com.codename1.ui.events.ActionEvent: void <init>(java.lang.Object, int, int)]
 }
@@ -187,6 +378,8 @@ public void @this(global::com.codename1.ui.Command n1, global::com.codename1.ui.
     ((global::com.codename1.ui.events.ActionEvent) _r1_o)._fsourceComponent = (global::java.lang.Object) _r3_o;
     ((global::com.codename1.ui.events.ActionEvent) _r1_o)._fkeyEvent = _r4.i;
     ((global::com.codename1.ui.events.ActionEvent) _r1_o)._fy = _r5.i;
+    _r0_o = global::com.codename1.ui.events.ActionEvent_2Type._fCommand;
+    ((global::com.codename1.ui.events.ActionEvent) _r1_o)._ftrigger = (global::com.codename1.ui.events.ActionEvent_2Type) _r0_o;
     return;
 //XMLVM_END_WRAPPER[com.codename1.ui.events.ActionEvent: void <init>(com.codename1.ui.Command, com.codename1.ui.Component, int, int)]
 }
@@ -221,6 +414,8 @@ public void @this(global::com.codename1.ui.Component n1, global::com.codename1.u
     ((global::com.codename1.ui.events.ActionEvent) _r1_o)._fsourceComponent = (global::java.lang.Object) _r3_o;
     ((global::com.codename1.ui.events.ActionEvent) _r1_o)._fkeyEvent = _r4.i;
     ((global::com.codename1.ui.events.ActionEvent) _r1_o)._fy = _r5.i;
+    _r0_o = global::com.codename1.ui.events.ActionEvent_2Type._fPointerDrag;
+    ((global::com.codename1.ui.events.ActionEvent) _r1_o)._ftrigger = (global::com.codename1.ui.events.ActionEvent_2Type) _r0_o;
     return;
 //XMLVM_END_WRAPPER[com.codename1.ui.events.ActionEvent: void <init>(com.codename1.ui.Component, com.codename1.ui.Component, int, int)]
 }

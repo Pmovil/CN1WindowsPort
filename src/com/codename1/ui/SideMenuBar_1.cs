@@ -3,12 +3,12 @@
 using org.xmlvm;
 namespace com.codename1.ui {
 public class SideMenuBar_21: global::java.lang.Object,global::com.codename1.ui.events.ActionListener {
-public global::java.lang.Runnable _fval_2callback;
-
 public global::com.codename1.ui.SideMenuBar _fval_2b;
 
-public void @this(global::java.lang.Runnable n1, global::com.codename1.ui.SideMenuBar n2){
-//XMLVM_BEGIN_WRAPPER[com.codename1.ui.SideMenuBar$1: void <init>(java.lang.Runnable, com.codename1.ui.SideMenuBar)]
+public global::java.lang.Runnable _fval_2callback;
+
+public void @this(global::com.codename1.ui.SideMenuBar n1, global::java.lang.Runnable n2){
+//XMLVM_BEGIN_WRAPPER[com.codename1.ui.SideMenuBar$1: void <init>(com.codename1.ui.SideMenuBar, java.lang.Runnable)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
@@ -19,11 +19,11 @@ public void @this(global::java.lang.Runnable n1, global::com.codename1.ui.SideMe
     _r0_o = this;
     _r1_o = n1;
     _r2_o = n2;
-    ((global::com.codename1.ui.SideMenuBar_21) _r0_o)._fval_2callback = (global::java.lang.Runnable) _r1_o;
-    ((global::com.codename1.ui.SideMenuBar_21) _r0_o)._fval_2b = (global::com.codename1.ui.SideMenuBar) _r2_o;
+    ((global::com.codename1.ui.SideMenuBar_21) _r0_o)._fval_2b = (global::com.codename1.ui.SideMenuBar) _r1_o;
+    ((global::com.codename1.ui.SideMenuBar_21) _r0_o)._fval_2callback = (global::java.lang.Runnable) _r2_o;
     ((global::java.lang.Object) _r0_o).@this();
     return;
-//XMLVM_END_WRAPPER[com.codename1.ui.SideMenuBar$1: void <init>(java.lang.Runnable, com.codename1.ui.SideMenuBar)]
+//XMLVM_END_WRAPPER[com.codename1.ui.SideMenuBar$1: void <init>(com.codename1.ui.SideMenuBar, java.lang.Runnable)]
 }
 
 public virtual void actionPerformed(global::com.codename1.ui.events.ActionEvent n1){
@@ -37,11 +37,11 @@ public virtual void actionPerformed(global::com.codename1.ui.events.ActionEvent 
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     _r2_o = n1;
-    _r0_o = ((global::com.codename1.ui.SideMenuBar_21) _r1_o)._fval_2callback;
-    ((global::java.lang.Runnable) _r0_o).run();
     _r0_o = ((global::com.codename1.ui.SideMenuBar_21) _r1_o)._fval_2b;
     _r0_o = global::com.codename1.ui.SideMenuBar.access_2000((global::com.codename1.ui.SideMenuBar) _r0_o);
     ((global::com.codename1.ui.Form) _r0_o).removeShowListener((global::com.codename1.ui.events.ActionListener) _r1_o);
+    _r0_o = ((global::com.codename1.ui.SideMenuBar_21) _r1_o)._fval_2callback;
+    ((global::java.lang.Runnable) _r0_o).run();
     return;
 //XMLVM_END_WRAPPER[com.codename1.ui.SideMenuBar$1: void actionPerformed(com.codename1.ui.events.ActionEvent)]
 }

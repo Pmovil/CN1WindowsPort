@@ -56,14 +56,13 @@ public virtual void run(){
         global::System.Object _java_exception = ex.getJavaException();
         if (_java_exception is global::java.lang.Exception) {
             _ex = ex;
-            goto label63;
+            goto label57;
         }
         throw ex;
     } // end catch
     label29:;
     try {
-    _r4_o = global::com.codename1.ui.Display.getInstance();
-    _r3_o = ((global::com.codename1.ui.Display) _r4_o).getImplementation();
+    _r3_o = global::com.codename1.ui.Display._fimpl;
     _r4_o = ((global::com.codename1.ui.Image) _r2_o).getImage();
     _r5_o = ((global::com.codename1.ui.EncodedImage_21) _r6_o)._fthis_20;
     _r5_o = ((global::com.codename1.ui.EncodedImage) _r5_o).getImageName();
@@ -78,18 +77,18 @@ public virtual void run(){
         global::System.Object _java_exception = ex.getJavaException();
         if (_java_exception is global::java.lang.Exception) {
             _ex = ex;
-            goto label63;
+            goto label57;
         }
         throw ex;
     } // end catch
-    label62:;
+    label56:;
     return;
-    label63:;
+    label57:;
     _r4_o = _ex.getJavaException();
     _ex = null;
     _r1_o = _r4_o;
     ((global::java.lang.Exception) _r1_o).printStackTrace();
-    goto label62;
+    goto label56;
 //XMLVM_END_WRAPPER[com.codename1.ui.EncodedImage$1: void run()]
 }
 

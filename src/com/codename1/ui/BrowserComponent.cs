@@ -66,8 +66,7 @@ public void @this(){
     _r2_o = new global::java.lang.String();
     ((global::java.lang.String)_r2_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)66)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 119)), unchecked((char) unchecked((uint) 115)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 114)), unchecked((char) unchecked((uint) 67)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 109)), unchecked((char) unchecked((uint) 112)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 101)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 116))}));
     ((global::com.codename1.ui.BrowserComponent) _r4_o).setUIID((global::java.lang.String) _r2_o);
-    _r2_o = global::com.codename1.ui.Display.getInstance();
-    _r2_o = ((global::com.codename1.ui.Display) _r2_o).getImplementation();
+    _r2_o = global::com.codename1.ui.Display._fimpl;
     _r0_o = ((global::com.codename1.impl.CodenameOneImplementation) _r2_o).createBrowserComponent((global::java.lang.Object) _r4_o);
     _r2_o = new global::com.codename1.ui.layouts.BorderLayout();
     ((global::com.codename1.ui.layouts.BorderLayout) _r2_o).@this();
@@ -92,8 +91,7 @@ public static bool isNativeBrowserSupported(){
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
-    _r0_o = global::com.codename1.ui.Display.getInstance();
-    _r0_o = ((global::com.codename1.ui.Display) _r0_o).getImplementation();
+    _r0_o = global::com.codename1.ui.Display._fimpl;
     _r0.i = ((global::com.codename1.impl.CodenameOneImplementation) _r0_o).isNativeBrowserComponentSupported() ? 1 : 0;
     return _r0.i!=0;
 //XMLVM_END_WRAPPER[com.codename1.ui.BrowserComponent: boolean isNativeBrowserSupported()]
@@ -115,8 +113,7 @@ public virtual void setProperty(global::java.lang.String n1, global::java.lang.O
     _r2_o = this;
     _r3_o = n1;
     _r4_o = n2;
-    _r0_o = global::com.codename1.ui.Display.getInstance();
-    _r0_o = ((global::com.codename1.ui.Display) _r0_o).getImplementation();
+    _r0_o = global::com.codename1.ui.Display._fimpl;
     _r1_o = ((global::com.codename1.ui.BrowserComponent) _r2_o)._finternal;
     ((global::com.codename1.impl.CodenameOneImplementation) _r0_o).setBrowserProperty((global::com.codename1.ui.PeerComponent) _r1_o, (global::java.lang.String) _r3_o, (global::java.lang.Object) _r4_o);
     return;
@@ -133,8 +130,7 @@ public virtual global::System.Object getTitle(){
     global::System.Object _r2_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
-    _r0_o = global::com.codename1.ui.Display.getInstance();
-    _r0_o = ((global::com.codename1.ui.Display) _r0_o).getImplementation();
+    _r0_o = global::com.codename1.ui.Display._fimpl;
     _r1_o = ((global::com.codename1.ui.BrowserComponent) _r2_o)._finternal;
     _r0_o = ((global::com.codename1.impl.CodenameOneImplementation) _r0_o).getBrowserTitle((global::com.codename1.ui.PeerComponent) _r1_o);
     return (global::java.lang.String) _r0_o;
@@ -151,8 +147,7 @@ public virtual global::System.Object getURL(){
     global::System.Object _r2_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
-    _r0_o = global::com.codename1.ui.Display.getInstance();
-    _r0_o = ((global::com.codename1.ui.Display) _r0_o).getImplementation();
+    _r0_o = global::com.codename1.ui.Display._fimpl;
     _r1_o = ((global::com.codename1.ui.BrowserComponent) _r2_o)._finternal;
     _r0_o = ((global::com.codename1.impl.CodenameOneImplementation) _r0_o).getBrowserURL((global::com.codename1.ui.PeerComponent) _r1_o);
     return (global::java.lang.String) _r0_o;
@@ -172,8 +167,7 @@ public virtual void setURL(global::java.lang.String n1){
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
-    _r0_o = global::com.codename1.ui.Display.getInstance();
-    _r0_o = ((global::com.codename1.ui.Display) _r0_o).getImplementation();
+    _r0_o = global::com.codename1.ui.Display._fimpl;
     _r1_o = ((global::com.codename1.ui.BrowserComponent) _r2_o)._finternal;
     ((global::com.codename1.impl.CodenameOneImplementation) _r0_o).setBrowserURL((global::com.codename1.ui.PeerComponent) _r1_o, (global::java.lang.String) _r3_o);
     return;
@@ -193,8 +187,7 @@ public virtual void setURLHierarchy(global::java.lang.String n1){
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
-    _r0_o = global::com.codename1.ui.Display.getInstance();
-    _r0_o = ((global::com.codename1.ui.Display) _r0_o).getImplementation();
+    _r0_o = global::com.codename1.ui.Display._fimpl;
     _r1_o = ((global::com.codename1.ui.BrowserComponent) _r2_o)._finternal;
     ((global::com.codename1.impl.CodenameOneImplementation) _r0_o).setBrowserPageInHierarchy((global::com.codename1.ui.PeerComponent) _r1_o, (global::java.lang.String) _r3_o);
     return;
@@ -211,8 +204,7 @@ public virtual void reload(){
     global::System.Object _r2_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
-    _r0_o = global::com.codename1.ui.Display.getInstance();
-    _r0_o = ((global::com.codename1.ui.Display) _r0_o).getImplementation();
+    _r0_o = global::com.codename1.ui.Display._fimpl;
     _r1_o = ((global::com.codename1.ui.BrowserComponent) _r2_o)._finternal;
     ((global::com.codename1.impl.CodenameOneImplementation) _r0_o).browserReload((global::com.codename1.ui.PeerComponent) _r1_o);
     return;
@@ -229,8 +221,7 @@ public virtual bool hasBack(){
     global::System.Object _r2_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
-    _r0_o = global::com.codename1.ui.Display.getInstance();
-    _r0_o = ((global::com.codename1.ui.Display) _r0_o).getImplementation();
+    _r0_o = global::com.codename1.ui.Display._fimpl;
     _r1_o = ((global::com.codename1.ui.BrowserComponent) _r2_o)._finternal;
     _r0.i = ((global::com.codename1.impl.CodenameOneImplementation) _r0_o).browserHasBack((global::com.codename1.ui.PeerComponent) _r1_o) ? 1 : 0;
     return _r0.i!=0;
@@ -247,8 +238,7 @@ public virtual bool hasForward(){
     global::System.Object _r2_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
-    _r0_o = global::com.codename1.ui.Display.getInstance();
-    _r0_o = ((global::com.codename1.ui.Display) _r0_o).getImplementation();
+    _r0_o = global::com.codename1.ui.Display._fimpl;
     _r1_o = ((global::com.codename1.ui.BrowserComponent) _r2_o)._finternal;
     _r0.i = ((global::com.codename1.impl.CodenameOneImplementation) _r0_o).browserHasForward((global::com.codename1.ui.PeerComponent) _r1_o) ? 1 : 0;
     return _r0.i!=0;
@@ -265,8 +255,7 @@ public virtual void back(){
     global::System.Object _r2_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
-    _r0_o = global::com.codename1.ui.Display.getInstance();
-    _r0_o = ((global::com.codename1.ui.Display) _r0_o).getImplementation();
+    _r0_o = global::com.codename1.ui.Display._fimpl;
     _r1_o = ((global::com.codename1.ui.BrowserComponent) _r2_o)._finternal;
     ((global::com.codename1.impl.CodenameOneImplementation) _r0_o).browserBack((global::com.codename1.ui.PeerComponent) _r1_o);
     return;
@@ -283,8 +272,7 @@ public virtual void forward(){
     global::System.Object _r2_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
-    _r0_o = global::com.codename1.ui.Display.getInstance();
-    _r0_o = ((global::com.codename1.ui.Display) _r0_o).getImplementation();
+    _r0_o = global::com.codename1.ui.Display._fimpl;
     _r1_o = ((global::com.codename1.ui.BrowserComponent) _r2_o)._finternal;
     ((global::com.codename1.impl.CodenameOneImplementation) _r0_o).browserForward((global::com.codename1.ui.PeerComponent) _r1_o);
     return;
@@ -301,8 +289,7 @@ public virtual void clearHistory(){
     global::System.Object _r2_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
-    _r0_o = global::com.codename1.ui.Display.getInstance();
-    _r0_o = ((global::com.codename1.ui.Display) _r0_o).getImplementation();
+    _r0_o = global::com.codename1.ui.Display._fimpl;
     _r1_o = ((global::com.codename1.ui.BrowserComponent) _r2_o)._finternal;
     ((global::com.codename1.impl.CodenameOneImplementation) _r0_o).browserClearHistory((global::com.codename1.ui.PeerComponent) _r1_o);
     return;
@@ -323,8 +310,7 @@ public virtual void setPinchToZoomEnabled(bool n1){
     _r2_o = this;
     _r3.i = n1 ? 1 : 0;
     ((global::com.codename1.ui.BrowserComponent) _r2_o)._fpinchToZoom = 0!=_r3.i;
-    _r0_o = global::com.codename1.ui.Display.getInstance();
-    _r0_o = ((global::com.codename1.ui.Display) _r0_o).getImplementation();
+    _r0_o = global::com.codename1.ui.Display._fimpl;
     _r1_o = ((global::com.codename1.ui.BrowserComponent) _r2_o)._finternal;
     ((global::com.codename1.impl.CodenameOneImplementation) _r0_o).setPinchToZoomEnabled((global::com.codename1.ui.PeerComponent) _r1_o, 0!=_r3.i);
     return;
@@ -358,8 +344,7 @@ public virtual void setNativeScrollingEnabled(bool n1){
     _r2_o = this;
     _r3.i = n1 ? 1 : 0;
     ((global::com.codename1.ui.BrowserComponent) _r2_o)._fnativeScrolling = 0!=_r3.i;
-    _r0_o = global::com.codename1.ui.Display.getInstance();
-    _r0_o = ((global::com.codename1.ui.Display) _r0_o).getImplementation();
+    _r0_o = global::com.codename1.ui.Display._fimpl;
     _r1_o = ((global::com.codename1.ui.BrowserComponent) _r2_o)._finternal;
     ((global::com.codename1.impl.CodenameOneImplementation) _r0_o).setNativeBrowserScrollingEnabled((global::com.codename1.ui.PeerComponent) _r1_o, 0!=_r3.i);
     return;
@@ -395,8 +380,7 @@ public virtual void setPage(global::java.lang.String n1, global::java.lang.Strin
     _r2_o = this;
     _r3_o = n1;
     _r4_o = n2;
-    _r0_o = global::com.codename1.ui.Display.getInstance();
-    _r0_o = ((global::com.codename1.ui.Display) _r0_o).getImplementation();
+    _r0_o = global::com.codename1.ui.Display._fimpl;
     _r1_o = ((global::com.codename1.ui.BrowserComponent) _r2_o)._finternal;
     ((global::com.codename1.impl.CodenameOneImplementation) _r0_o).setBrowserPage((global::com.codename1.ui.PeerComponent) _r1_o, (global::java.lang.String) _r3_o, (global::java.lang.String) _r4_o);
     return;
@@ -511,8 +495,7 @@ public virtual void stop(){
     global::System.Object _r2_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
-    _r0_o = global::com.codename1.ui.Display.getInstance();
-    _r0_o = ((global::com.codename1.ui.Display) _r0_o).getImplementation();
+    _r0_o = global::com.codename1.ui.Display._fimpl;
     _r1_o = ((global::com.codename1.ui.BrowserComponent) _r2_o)._finternal;
     ((global::com.codename1.impl.CodenameOneImplementation) _r0_o).browserStop((global::com.codename1.ui.PeerComponent) _r1_o);
     return;
@@ -529,8 +512,7 @@ public virtual void destroy(){
     global::System.Object _r2_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
-    _r0_o = global::com.codename1.ui.Display.getInstance();
-    _r0_o = ((global::com.codename1.ui.Display) _r0_o).getImplementation();
+    _r0_o = global::com.codename1.ui.Display._fimpl;
     _r1_o = ((global::com.codename1.ui.BrowserComponent) _r2_o)._finternal;
     ((global::com.codename1.impl.CodenameOneImplementation) _r0_o).browserDestroy((global::com.codename1.ui.PeerComponent) _r1_o);
     return;
@@ -575,8 +557,7 @@ public virtual void execute(global::java.lang.String n1){
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
-    _r0_o = global::com.codename1.ui.Display.getInstance();
-    _r0_o = ((global::com.codename1.ui.Display) _r0_o).getImplementation();
+    _r0_o = global::com.codename1.ui.Display._fimpl;
     _r1_o = ((global::com.codename1.ui.BrowserComponent) _r2_o)._finternal;
     ((global::com.codename1.impl.CodenameOneImplementation) _r0_o).browserExecute((global::com.codename1.ui.PeerComponent) _r1_o, (global::java.lang.String) _r3_o);
     return;
@@ -596,8 +577,7 @@ public virtual global::System.Object executeAndReturnString(global::java.lang.St
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r2_o = this;
     _r3_o = n1;
-    _r0_o = global::com.codename1.ui.Display.getInstance();
-    _r0_o = ((global::com.codename1.ui.Display) _r0_o).getImplementation();
+    _r0_o = global::com.codename1.ui.Display._fimpl;
     _r1_o = ((global::com.codename1.ui.BrowserComponent) _r2_o)._finternal;
     _r0_o = ((global::com.codename1.impl.CodenameOneImplementation) _r0_o).browserExecuteAndReturnString((global::com.codename1.ui.PeerComponent) _r1_o, (global::java.lang.String) _r3_o);
     return (global::java.lang.String) _r0_o;
@@ -620,8 +600,7 @@ public virtual void exposeInJavaScript(global::java.lang.Object n1, global::java
     _r2_o = this;
     _r3_o = n1;
     _r4_o = n2;
-    _r0_o = global::com.codename1.ui.Display.getInstance();
-    _r0_o = ((global::com.codename1.ui.Display) _r0_o).getImplementation();
+    _r0_o = global::com.codename1.ui.Display._fimpl;
     _r1_o = ((global::com.codename1.ui.BrowserComponent) _r2_o)._finternal;
     ((global::com.codename1.impl.CodenameOneImplementation) _r0_o).browserExposeInJavaScript((global::com.codename1.ui.PeerComponent) _r1_o, (global::java.lang.Object) _r3_o, (global::java.lang.String) _r4_o);
     return;

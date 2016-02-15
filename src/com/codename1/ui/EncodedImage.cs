@@ -371,45 +371,47 @@ public virtual global::System.Object getImageData(){
     global::System.Object _r6_o = null;
     global::org.xmlvm._nElement _r7;
     global::System.Object _r7_o = null;
+    global::org.xmlvm._nElement _r8;
+    global::System.Object _r8_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
-    _r7_o = this;
-    _r5_o = ((global::com.codename1.ui.EncodedImage) _r7_o)._fimageData;
-    _r5.i = ((global::org.xmlvm._nIArray) _r5_o).Length;
-    _r6.i = 1;
-    if (_r5.i != _r6.i) goto label12;
-    _r5_o = ((global::com.codename1.ui.EncodedImage) _r7_o)._fimageData;
-    _r6.i = 0;
-    _r5_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r5_o)[_r6.i];
+    _r8_o = this;
+    _r6_o = ((global::com.codename1.ui.EncodedImage) _r8_o)._fimageData;
+    _r6.i = ((global::org.xmlvm._nIArray) _r6_o).Length;
+    _r7.i = 1;
+    if (_r6.i != _r7.i) goto label12;
+    _r6_o = ((global::com.codename1.ui.EncodedImage) _r8_o)._fimageData;
+    _r7.i = 0;
+    _r6_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r6_o)[_r7.i];
     label11:;
-    return (global::org.xmlvm._nArrayAdapter<sbyte>) _r5_o;
+    return (global::org.xmlvm._nArrayAdapter<sbyte>) _r6_o;
     label12:;
-    _r5_o = global::com.codename1.ui.Display.getInstance();
-    _r3.i = ((global::com.codename1.ui.Display) _r5_o).getDeviceDensity();
+    _r6_o = global::com.codename1.ui.Display.getInstance();
+    _r4.i = ((global::com.codename1.ui.Display) _r6_o).getDeviceDensity();
     _r1.i = 0;
     _r0.i = 0;
-    _r4.i = 0;
-    label23:;
-    _r5_o = ((global::com.codename1.ui.EncodedImage) _r7_o)._fdpis;
-    _r5.i = ((global::org.xmlvm._nIArray) _r5_o).Length;
-    if (_r4.i >= _r5.i) goto label35;
-    _r5_o = ((global::com.codename1.ui.EncodedImage) _r7_o)._fdpis;
-    _r2.i = ((global::org.xmlvm._nArrayAdapter<int>) _r5_o)[_r4.i];
-    if (_r3.i != _r2.i) goto label42;
-    _r1.i = _r4.i;
+    _r6_o = ((global::com.codename1.ui.EncodedImage) _r8_o)._fdpis;
+    _r3.i = ((global::org.xmlvm._nIArray) _r6_o).Length;
+    _r5.i = 0;
+    label26:;
+    if (_r5.i >= _r3.i) goto label35;
+    _r6_o = ((global::com.codename1.ui.EncodedImage) _r8_o)._fdpis;
+    _r2.i = ((global::org.xmlvm._nArrayAdapter<int>) _r6_o)[_r5.i];
+    if (_r4.i != _r2.i) goto label42;
+    _r1.i = _r5.i;
     label35:;
-    ((global::com.codename1.ui.EncodedImage) _r7_o)._flastTestedDPI = _r3.i;
-    _r5_o = ((global::com.codename1.ui.EncodedImage) _r7_o)._fimageData;
-    _r5_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r5_o)[_r1.i];
+    ((global::com.codename1.ui.EncodedImage) _r8_o)._flastTestedDPI = _r4.i;
+    _r6_o = ((global::com.codename1.ui.EncodedImage) _r8_o)._fimageData;
+    _r6_o = ((global::org.xmlvm._nArrayAdapter<global::System.Object>) _r6_o)[_r1.i];
     goto label11;
     label42:;
-    if (_r0.i == _r3.i) goto label50;
-    if (_r3.i < _r2.i) goto label50;
+    if (_r0.i == _r4.i) goto label50;
+    if (_r4.i < _r2.i) goto label50;
     if (_r2.i < _r0.i) goto label50;
     _r0.i = _r2.i;
-    _r1.i = _r4.i;
+    _r1.i = _r5.i;
     label50:;
-    _r4.i = _r4.i + 1;
-    goto label23;
+    _r5.i = _r5.i + 1;
+    goto label26;
 //XMLVM_END_WRAPPER[com.codename1.ui.EncodedImage: byte[] getImageData()]
 }
 
@@ -657,14 +659,13 @@ public virtual global::System.Object getInternal(){
         global::System.Object _java_exception = ex.getJavaException();
         if (_java_exception is global::java.lang.Exception) {
             _ex = ex;
-            goto label71;
+            goto label65;
         }
         throw ex;
     } // end catch
     label40:;
     try {
-    _r5_o = global::com.codename1.ui.Display.getInstance();
-    _r4_o = ((global::com.codename1.ui.Display) _r5_o).getImplementation();
+    _r4_o = global::com.codename1.ui.Display._fimpl;
     _r5_o = ((global::com.codename1.ui.Image) _r2_o).getImage();
     _r6_o = ((global::com.codename1.ui.EncodedImage) _r8_o).getImageName();
     ((global::com.codename1.impl.CodenameOneImplementation) _r4_o).setImageName((global::java.lang.Object) _r5_o, (global::java.lang.String) _r6_o);
@@ -674,23 +675,23 @@ public virtual global::System.Object getInternal(){
         global::System.Object _java_exception = ex.getJavaException();
         if (_java_exception is global::java.lang.Exception) {
             _ex = ex;
-            goto label71;
+            goto label65;
         }
         throw ex;
     } // end catch
-    label59:;
+    label53:;
     _r5_o = global::com.codename1.ui.Display.getInstance();
     _r5_o = ((global::com.codename1.ui.Display) _r5_o).createSoftWeakRef((global::java.lang.Object) _r2_o);
     ((global::com.codename1.ui.EncodedImage) _r8_o)._fcache = (global::java.lang.Object) _r5_o;
     _r3_o = _r2_o;
     goto label20;
-    label71:;
+    label65:;
     _r5_o = _ex.getJavaException();
     _ex = null;
     _r1_o = _r5_o;
     ((global::java.lang.Exception) _r1_o).printStackTrace();
     _r2_o = global::com.codename1.ui.Image.createImage((int) _r7.i, (int) _r7.i);
-    goto label59;
+    goto label53;
 //XMLVM_END_WRAPPER[com.codename1.ui.EncodedImage: com.codename1.ui.Image getInternal()]
 }
 
@@ -1019,21 +1020,20 @@ public override void drawImage(global::com.codename1.ui.Graphics n1, global::jav
     _r10.i = n3;
     _r11.i = n4;
     _r2.i = -1;
-    _r1_o = global::com.codename1.ui.Display.getInstance();
-    _r1_o = ((global::com.codename1.ui.Display) _r1_o).getImplementation();
+    _r1_o = global::com.codename1.ui.Display._fimpl;
     ((global::com.codename1.impl.CodenameOneImplementation) _r1_o).drawingEncodedImage((global::com.codename1.ui.EncodedImage) _r7_o);
     _r0_o = ((global::com.codename1.ui.EncodedImage) _r7_o).getInternalImpl();
     _r1.i = ((global::com.codename1.ui.EncodedImage) _r7_o)._fwidth;
-    if (_r1.i <= _r2.i) goto label52;
+    if (_r1.i <= _r2.i) goto label46;
     _r1.i = ((global::com.codename1.ui.EncodedImage) _r7_o)._fheight;
-    if (_r1.i <= _r2.i) goto label52;
+    if (_r1.i <= _r2.i) goto label46;
     _r1.i = ((global::com.codename1.ui.Image) _r0_o).getWidth();
     _r2.i = ((global::com.codename1.ui.EncodedImage) _r7_o)._fwidth;
-    if (_r1.i != _r2.i) goto label40;
+    if (_r1.i != _r2.i) goto label34;
     _r1.i = ((global::com.codename1.ui.Image) _r0_o).getHeight();
     _r2.i = ((global::com.codename1.ui.EncodedImage) _r7_o)._fheight;
-    if (_r1.i == _r2.i) goto label52;
-    label40:;
+    if (_r1.i == _r2.i) goto label46;
+    label34:;
     _r5.i = ((global::com.codename1.ui.EncodedImage) _r7_o)._fwidth;
     _r6.i = ((global::com.codename1.ui.EncodedImage) _r7_o)._fheight;
     _r1_o = _r8_o;
@@ -1041,11 +1041,11 @@ public override void drawImage(global::com.codename1.ui.Graphics n1, global::jav
     _r3.i = _r10.i;
     _r4.i = _r11.i;
     ((global::com.codename1.ui.Image) _r0_o).drawImage((global::com.codename1.ui.Graphics) _r1_o, (global::java.lang.Object) _r2_o, (int) _r3.i, (int) _r4.i, (int) _r5.i, (int) _r6.i);
-    label51:;
+    label45:;
     return;
-    label52:;
+    label46:;
     ((global::com.codename1.ui.Image) _r0_o).drawImage((global::com.codename1.ui.Graphics) _r8_o, (global::java.lang.Object) _r9_o, (int) _r10.i, (int) _r11.i);
-    goto label51;
+    goto label45;
 //XMLVM_END_WRAPPER[com.codename1.ui.EncodedImage: void drawImage(com.codename1.ui.Graphics, java.lang.Object, int, int)]
 }
 
@@ -1087,8 +1087,7 @@ public override void drawImage(global::com.codename1.ui.Graphics n1, global::jav
     _r11.i = n4;
     _r12.i = n5;
     _r13.i = n6;
-    _r0_o = global::com.codename1.ui.Display.getInstance();
-    _r0_o = ((global::com.codename1.ui.Display) _r0_o).getImplementation();
+    _r0_o = global::com.codename1.ui.Display._fimpl;
     ((global::com.codename1.impl.CodenameOneImplementation) _r0_o).drawingEncodedImage((global::com.codename1.ui.EncodedImage) _r7_o);
     _r0_o = ((global::com.codename1.ui.EncodedImage) _r7_o).getInternalImpl();
     _r1_o = _r8_o;

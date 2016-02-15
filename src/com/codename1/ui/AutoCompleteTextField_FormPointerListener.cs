@@ -76,6 +76,10 @@ public virtual void actionPerformed(global::com.codename1.ui.events.ActionEvent 
     if (_r1.i == 0) goto label75;
     _r1_o = ((global::com.codename1.ui.AutoCompleteTextField_2FormPointerListener) _r6_o)._fthis_20;
     _r1_o = global::com.codename1.ui.AutoCompleteTextField.access_2400((global::com.codename1.ui.AutoCompleteTextField) _r1_o);
+    _r1_o = ((global::com.codename1.ui.Container) _r1_o).getComponentAt((int) _r4.i);
+    ((global::com.codename1.ui.Component) _r1_o).setScrollY((int) _r4.i);
+    _r1_o = ((global::com.codename1.ui.AutoCompleteTextField_2FormPointerListener) _r6_o)._fthis_20;
+    _r1_o = global::com.codename1.ui.AutoCompleteTextField.access_2400((global::com.codename1.ui.AutoCompleteTextField) _r1_o);
     ((global::com.codename1.ui.Container) _r1_o).setVisible(0!=_r5.i);
     _r1_o = ((global::com.codename1.ui.AutoCompleteTextField_2FormPointerListener) _r6_o)._fthis_20;
     _r1_o = global::com.codename1.ui.AutoCompleteTextField.access_2400((global::com.codename1.ui.AutoCompleteTextField) _r1_o);

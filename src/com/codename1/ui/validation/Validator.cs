@@ -13,6 +13,10 @@ static Validator() {
 
 private static global::java.lang.String _fVALID_1MARKER;
 
+private global::com.codename1.components.InteractionDialog _fmessage;
+
+private global::java.lang.String _ferrorMessageUIID;
+
 private static global::com.codename1.ui.validation.Validator_2HighlightMode _fdefaultValidationFailureHighlightMode;
 
 private global::com.codename1.ui.validation.Validator_2HighlightMode _fvalidationFailureHighlightMode;
@@ -35,6 +39,8 @@ private global::java.util.ArrayList _fsubmitButtons;
 
 private static bool _fvalidateOnEveryKey;
 
+private bool _fshowErrorMessageForFocusedComponent;
+
 public void @this(){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.validation.Validator: void <init>()]
     global::org.xmlvm._nElement _r0;
@@ -44,6 +50,13 @@ public void @this(){
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = this;
     ((global::java.lang.Object) _r1_o).@this();
+    _r0_o = new global::com.codename1.components.InteractionDialog();
+    ((global::com.codename1.components.InteractionDialog) _r0_o).@this();
+    ((global::com.codename1.ui.validation.Validator) _r1_o)._fmessage = (global::com.codename1.components.InteractionDialog) _r0_o;
+    // Value=DialogBody
+    _r0_o = new global::java.lang.String();
+    ((global::java.lang.String)_r0_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)68)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 103)), unchecked((char) unchecked((uint) 66)), unchecked((char) unchecked((uint) 111)), unchecked((char) unchecked((uint) 100)), unchecked((char) unchecked((uint) 121))}));
+    ((global::com.codename1.ui.validation.Validator) _r1_o)._ferrorMessageUIID = (global::java.lang.String) _r0_o;
     _r0_o = global::com.codename1.ui.validation.Validator._fdefaultValidationFailureHighlightMode;
     ((global::com.codename1.ui.validation.Validator) _r1_o)._fvalidationFailureHighlightMode = (global::com.codename1.ui.validation.Validator_2HighlightMode) _r0_o;
     _r0_o = global::com.codename1.ui.validation.Validator._fdefaultValidationFailedEmblem;
@@ -275,6 +288,60 @@ public virtual void setValidationEmblemPositionY(float n1){
 //XMLVM_END_WRAPPER[com.codename1.ui.validation.Validator: void setValidationEmblemPositionY(float)]
 }
 
+public virtual bool isShowErrorMessageForFocusedComponent(){
+//XMLVM_BEGIN_WRAPPER[com.codename1.ui.validation.Validator: boolean isShowErrorMessageForFocusedComponent()]
+    global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
+    _r1_o = this;
+    _r0.i = ((global::com.codename1.ui.validation.Validator) _r1_o)._fshowErrorMessageForFocusedComponent ? 1 : 0;
+    return _r0.i!=0;
+//XMLVM_END_WRAPPER[com.codename1.ui.validation.Validator: boolean isShowErrorMessageForFocusedComponent()]
+}
+
+public virtual void setShowErrorMessageForFocusedComponent(bool n1){
+//XMLVM_BEGIN_WRAPPER[com.codename1.ui.validation.Validator: void setShowErrorMessageForFocusedComponent(boolean)]
+    global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
+    _r0_o = this;
+    _r1.i = n1 ? 1 : 0;
+    ((global::com.codename1.ui.validation.Validator) _r0_o)._fshowErrorMessageForFocusedComponent = 0!=_r1.i;
+    return;
+//XMLVM_END_WRAPPER[com.codename1.ui.validation.Validator: void setShowErrorMessageForFocusedComponent(boolean)]
+}
+
+public virtual global::System.Object getErrorMessageUIID(){
+//XMLVM_BEGIN_WRAPPER[com.codename1.ui.validation.Validator: java.lang.String getErrorMessageUIID()]
+    global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
+    _r1_o = this;
+    _r0_o = ((global::com.codename1.ui.validation.Validator) _r1_o)._ferrorMessageUIID;
+    return (global::java.lang.String) _r0_o;
+//XMLVM_END_WRAPPER[com.codename1.ui.validation.Validator: java.lang.String getErrorMessageUIID()]
+}
+
+public virtual void setErrorMessageUIID(global::java.lang.String n1){
+//XMLVM_BEGIN_WRAPPER[com.codename1.ui.validation.Validator: void setErrorMessageUIID(java.lang.String)]
+    global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
+    _r0_o = this;
+    _r1_o = n1;
+    ((global::com.codename1.ui.validation.Validator) _r0_o)._ferrorMessageUIID = (global::java.lang.String) _r1_o;
+    return;
+//XMLVM_END_WRAPPER[com.codename1.ui.validation.Validator: void setErrorMessageUIID(java.lang.String)]
+}
+
 public virtual global::System.Object addConstraint(global::com.codename1.ui.Component n1, global::org.xmlvm._nArrayAdapter<global::System.Object> n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.validation.Validator: com.codename1.ui.validation.Validator addConstraint(com.codename1.ui.Component, com.codename1.ui.validation.Constraint[])]
     global::org.xmlvm._nElement _r0;
@@ -409,51 +476,57 @@ public virtual void bindDataListener(global::com.codename1.ui.Component n1){
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r3_o = this;
     _r4_o = n1;
+    _r1.i = ((global::com.codename1.ui.validation.Validator) _r3_o)._fshowErrorMessageForFocusedComponent ? 1 : 0;
+    if (_r1.i == 0) goto label12;
+    _r1_o = new global::com.codename1.ui.validation.Validator_21();
+    ((global::com.codename1.ui.validation.Validator_21) _r1_o).@this((global::com.codename1.ui.validation.Validator) _r3_o);
+    ((global::com.codename1.ui.Component) _r4_o).addFocusListener((global::com.codename1.ui.events.FocusListener) _r1_o);
+    label12:;
     _r1.i = global::com.codename1.ui.validation.Validator._fvalidateOnEveryKey ? 1 : 0;
-    if (_r1.i == 0) goto label21;
+    if (_r1.i == 0) goto label33;
     _r1.i = ((_r4_o != null) && (_r4_o is global::com.codename1.ui.TextField)) ? 1 : 0;
-    if (_r1.i == 0) goto label21;
+    if (_r1.i == 0) goto label33;
     _r0_o = _r4_o;
     _r0_o = _r0_o;
     _r1_o = _r0_o;
     _r2_o = new global::com.codename1.ui.validation.Validator_2ComponentListener();
     ((global::com.codename1.ui.validation.Validator_2ComponentListener) _r2_o).@this((global::com.codename1.ui.validation.Validator) _r3_o, (global::com.codename1.ui.Component) _r4_o);
     ((global::com.codename1.ui.TextField) _r1_o).addDataChangeListener((global::com.codename1.ui.events.DataChangedListener) _r2_o);
-    label20:;
+    label32:;
     return;
-    label21:;
+    label33:;
     _r1.i = ((_r4_o != null) && (_r4_o is global::com.codename1.ui.TextArea)) ? 1 : 0;
-    if (_r1.i == 0) goto label38;
+    if (_r1.i == 0) goto label50;
     _r0_o = _r4_o;
     _r0_o = _r0_o;
     _r1_o = _r0_o;
     _r2_o = new global::com.codename1.ui.validation.Validator_2ComponentListener();
     ((global::com.codename1.ui.validation.Validator_2ComponentListener) _r2_o).@this((global::com.codename1.ui.validation.Validator) _r3_o, (global::com.codename1.ui.Component) _r4_o);
     ((global::com.codename1.ui.TextArea) _r1_o).addActionListener((global::com.codename1.ui.events.ActionListener) _r2_o);
-    goto label20;
-    label38:;
+    goto label32;
+    label50:;
     _r1.i = ((_r4_o != null) && (_r4_o is global::com.codename1.ui.List)) ? 1 : 0;
-    if (_r1.i == 0) goto label55;
+    if (_r1.i == 0) goto label67;
     _r0_o = _r4_o;
     _r0_o = _r0_o;
     _r1_o = _r0_o;
     _r2_o = new global::com.codename1.ui.validation.Validator_2ComponentListener();
     ((global::com.codename1.ui.validation.Validator_2ComponentListener) _r2_o).@this((global::com.codename1.ui.validation.Validator) _r3_o, (global::com.codename1.ui.Component) _r4_o);
     ((global::com.codename1.ui.List) _r1_o).addActionListener((global::com.codename1.ui.events.ActionListener) _r2_o);
-    goto label20;
-    label55:;
+    goto label32;
+    label67:;
     _r1.i = ((_r4_o != null) && (_r4_o is global::com.codename1.ui.CheckBox)) ? 1 : 0;
-    if (_r1.i != 0) goto label63;
+    if (_r1.i != 0) goto label75;
     _r1.i = ((_r4_o != null) && (_r4_o is global::com.codename1.ui.RadioButton)) ? 1 : 0;
-    if (_r1.i == 0) goto label20;
-    label63:;
+    if (_r1.i == 0) goto label32;
+    label75:;
     _r0_o = _r4_o;
     _r0_o = _r0_o;
     _r1_o = _r0_o;
     _r2_o = new global::com.codename1.ui.validation.Validator_2ComponentListener();
     ((global::com.codename1.ui.validation.Validator_2ComponentListener) _r2_o).@this((global::com.codename1.ui.validation.Validator) _r3_o, (global::com.codename1.ui.Component) _r4_o);
     ((global::com.codename1.ui.Button) _r1_o).addActionListener((global::com.codename1.ui.events.ActionListener) _r2_o);
-    goto label20;
+    goto label32;
 //XMLVM_END_WRAPPER[com.codename1.ui.validation.Validator: void bindDataListener(com.codename1.ui.Component)]
 }
 
@@ -545,6 +618,25 @@ public virtual bool isValid(global::com.codename1.ui.Component n1){
 //XMLVM_END_WRAPPER[com.codename1.ui.validation.Validator: boolean isValid(com.codename1.ui.Component)]
 }
 
+public virtual global::System.Object getErrorMessage(global::com.codename1.ui.Component n1){
+//XMLVM_BEGIN_WRAPPER[com.codename1.ui.validation.Validator: java.lang.String getErrorMessage(com.codename1.ui.Component)]
+    global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nElement _r2;
+    global::System.Object _r2_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
+    _r1_o = this;
+    _r2_o = n1;
+    _r0_o = ((global::com.codename1.ui.validation.Validator) _r1_o)._fconstraintList;
+    _r1_o = ((global::java.util.HashMap) _r0_o).get((global::java.lang.Object) _r2_o);
+    _r1_o = _r1_o;
+    _r0_o = ((global::com.codename1.ui.validation.Constraint) _r1_o).getDefaultFailMessage();
+    return (global::java.lang.String) _r0_o;
+//XMLVM_END_WRAPPER[com.codename1.ui.validation.Validator: java.lang.String getErrorMessage(com.codename1.ui.Component)]
+}
+
 public virtual void setValid(global::com.codename1.ui.Component n1, bool n2){
 //XMLVM_BEGIN_WRAPPER[com.codename1.ui.validation.Validator: void setValid(com.codename1.ui.Component, boolean)]
     global::org.xmlvm._nElement _r0;
@@ -594,7 +686,7 @@ public virtual void setValid(global::com.codename1.ui.Component n1, bool n2){
     _r4_o = ((global::java.util.ArrayList) _r4_o).iterator();
     label27:;
     _r5.i = ((global::java.util.Iterator) _r4_o).hasNext() ? 1 : 0;
-    if (_r5.i == 0) goto label182;
+    if (_r5.i == 0) goto label197;
     _r1_o = ((global::java.util.Iterator) _r4_o).next();
     _r1_o = _r1_o;
     _r5.i = ((global::java.lang.Boolean) _r0_o).booleanValue() ? 1 : 0;
@@ -606,7 +698,7 @@ public virtual void setValid(global::com.codename1.ui.Component n1, bool n2){
     _r4_o = ((global::java.util.ArrayList) _r4_o).iterator();
     label55:;
     _r5.i = ((global::java.util.Iterator) _r4_o).hasNext() ? 1 : 0;
-    if (_r5.i == 0) goto label97;
+    if (_r5.i == 0) goto label112;
     _r1_o = ((global::java.util.Iterator) _r4_o).next();
     _r1_o = _r1_o;
     ((global::com.codename1.ui.Component) _r1_o).setEnabled(0!=_r8.i);
@@ -623,6 +715,13 @@ public virtual void setValid(global::com.codename1.ui.Component n1, bool n2){
     ((global::com.codename1.ui.Component) _r1_o).setEnabled(0!=_r2.i);
     goto label81;
     label97:;
+    _r4_o = ((global::com.codename1.ui.validation.Validator) _r9_o)._fmessage;
+    if (_r4_o == null) goto label112;
+    _r4.i = ((global::com.codename1.ui.Component) _r10_o).hasFocus() ? 1 : 0;
+    if (_r4.i == 0) goto label112;
+    _r4_o = ((global::com.codename1.ui.validation.Validator) _r9_o)._fmessage;
+    ((global::com.codename1.components.InteractionDialog) _r4_o).dispose();
+    label112:;
     // Value=cn1$$VALID_MARKER
     _r4_o = new global::java.lang.String();
     ((global::java.lang.String)_r4_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)99)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 49)), unchecked((char) unchecked((uint) 36)), unchecked((char) unchecked((uint) 36)), unchecked((char) unchecked((uint) 86)), unchecked((char) unchecked((uint) 65)), unchecked((char) unchecked((uint) 76)), unchecked((char) unchecked((uint) 73)), unchecked((char) unchecked((uint) 68)), unchecked((char) unchecked((uint) 95)), unchecked((char) unchecked((uint) 77)), unchecked((char) unchecked((uint) 65)), unchecked((char) unchecked((uint) 82)), unchecked((char) unchecked((uint) 75)), unchecked((char) unchecked((uint) 69)), unchecked((char) unchecked((uint) 82))}));
@@ -630,63 +729,63 @@ public virtual void setValid(global::com.codename1.ui.Component n1, bool n2){
     ((global::com.codename1.ui.Component) _r10_o).putClientProperty((global::java.lang.String) _r6_o, (global::java.lang.Object) _r4_o);
     _r4_o = ((global::com.codename1.ui.validation.Validator) _r9_o)._fvalidationFailureHighlightMode;
     _r5_o = global::com.codename1.ui.validation.Validator_2HighlightMode._fEMBLEM;
-    if (_r4_o == _r5_o) goto label118;
+    if (_r4_o == _r5_o) goto label133;
     _r4_o = ((global::com.codename1.ui.validation.Validator) _r9_o)._fvalidationFailureHighlightMode;
     _r5_o = global::com.codename1.ui.validation.Validator_2HighlightMode._fUIID_1AND_1EMBLEM;
-    if (_r4_o != _r5_o) goto label143;
-    label118:;
+    if (_r4_o != _r5_o) goto label158;
+    label133:;
     _r4_o = ((global::com.codename1.ui.Component) _r10_o).getComponentForm();
     _r4_o = ((global::com.codename1.ui.Form) _r4_o).getGlassPane();
     _r4.i = ((_r4_o != null) && (_r4_o is global::com.codename1.ui.validation.Validator_2ComponentListener)) ? 1 : 0;
-    if (_r4.i != 0) goto label143;
+    if (_r4.i != 0) goto label158;
     _r4_o = ((global::com.codename1.ui.Component) _r10_o).getComponentForm();
     _r5_o = new global::com.codename1.ui.validation.Validator_2ComponentListener();
     _r6_o = null;
     ((global::com.codename1.ui.validation.Validator_2ComponentListener) _r5_o).@this((global::com.codename1.ui.validation.Validator) _r9_o, (global::com.codename1.ui.Component) _r6_o);
     ((global::com.codename1.ui.Form) _r4_o).setGlassPane((global::com.codename1.ui.Painter) _r5_o);
-    label143:;
-    if (_r11.i == 0) goto label194;
+    label158:;
+    if (_r11.i == 0) goto label209;
     _r4_o = ((global::com.codename1.ui.validation.Validator) _r9_o)._fvalidationFailureHighlightMode;
     _r5_o = global::com.codename1.ui.validation.Validator_2HighlightMode._fUIID;
-    if (_r4_o == _r5_o) goto label157;
+    if (_r4_o == _r5_o) goto label172;
     _r4_o = ((global::com.codename1.ui.validation.Validator) _r9_o)._fvalidationFailureHighlightMode;
     _r5_o = global::com.codename1.ui.validation.Validator_2HighlightMode._fUIID_1AND_1EMBLEM;
-    if (_r4_o != _r5_o) goto label183;
-    label157:;
+    if (_r4_o != _r5_o) goto label198;
+    label172:;
     _r3_o = ((global::com.codename1.ui.Component) _r10_o).getUIID();
     // Value=Invalid
     _r4_o = new global::java.lang.String();
     ((global::java.lang.String)_r4_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)73)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 118)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 100))}));
     _r4.i = ((global::java.lang.String) _r3_o).endsWith((global::java.lang.String) _r7_o) ? 1 : 0;
-    if (_r4.i == 0) goto label182;
+    if (_r4.i == 0) goto label197;
     _r4.i = ((global::java.lang.String) _r3_o).length();
     _r5.i = 7;
     _r4.i = _r4.i - _r5.i;
     _r3_o = ((global::java.lang.String) _r3_o).substring((int) _r8.i, (int) _r4.i);
     ((global::com.codename1.ui.Component) _r10_o).setUIID((global::java.lang.String) _r3_o);
-    label182:;
+    label197:;
     return;
-    label183:;
+    label198:;
     _r4_o = ((global::com.codename1.ui.validation.Validator) _r9_o)._fvalidationFailureHighlightMode;
     _r5_o = global::com.codename1.ui.validation.Validator_2HighlightMode._fEMBLEM;
-    if (_r4_o != _r5_o) goto label182;
+    if (_r4_o != _r5_o) goto label197;
     _r4_o = ((global::com.codename1.ui.validation.Validator) _r9_o)._fvalidationFailedEmblem;
-    if (_r4_o == null) goto label182;
-    goto label182;
-    label194:;
+    if (_r4_o == null) goto label197;
+    goto label197;
+    label209:;
     _r4_o = ((global::com.codename1.ui.validation.Validator) _r9_o)._fvalidationFailureHighlightMode;
     _r5_o = global::com.codename1.ui.validation.Validator_2HighlightMode._fUIID;
-    if (_r4_o == _r5_o) goto label206;
+    if (_r4_o == _r5_o) goto label221;
     _r4_o = ((global::com.codename1.ui.validation.Validator) _r9_o)._fvalidationFailureHighlightMode;
     _r5_o = global::com.codename1.ui.validation.Validator_2HighlightMode._fUIID_1AND_1EMBLEM;
-    if (_r4_o != _r5_o) goto label182;
-    label206:;
+    if (_r4_o != _r5_o) goto label197;
+    label221:;
     _r3_o = ((global::com.codename1.ui.Component) _r10_o).getUIID();
     // Value=Invalid
     _r4_o = new global::java.lang.String();
     ((global::java.lang.String)_r4_o).@this(new global::org.xmlvm._nArrayAdapter<char>(new char[] {unchecked((char) unchecked((uint)73)), unchecked((char) unchecked((uint) 110)), unchecked((char) unchecked((uint) 118)), unchecked((char) unchecked((uint) 97)), unchecked((char) unchecked((uint) 108)), unchecked((char) unchecked((uint) 105)), unchecked((char) unchecked((uint) 100))}));
     _r4.i = ((global::java.lang.String) _r3_o).endsWith((global::java.lang.String) _r7_o) ? 1 : 0;
-    if (_r4.i != 0) goto label182;
+    if (_r4.i != 0) goto label197;
     _r4_o = new global::java.lang.StringBuilder();
     ((global::java.lang.StringBuilder) _r4_o).@this();
     _r4_o = ((global::java.lang.StringBuilder) _r4_o).append((global::java.lang.String) _r3_o);
@@ -696,25 +795,65 @@ public virtual void setValid(global::com.codename1.ui.Component n1, bool n2){
     _r4_o = ((global::java.lang.StringBuilder) _r4_o).append((global::java.lang.String) _r7_o);
     _r4_o = ((global::java.lang.StringBuilder) _r4_o).toString();
     ((global::com.codename1.ui.Component) _r10_o).setUIID((global::java.lang.String) _r4_o);
-    goto label182;
+    goto label197;
 //XMLVM_END_WRAPPER[com.codename1.ui.validation.Validator: void setValid(com.codename1.ui.Component, boolean)]
 }
 
 public static global::System.Object access_2000(global::com.codename1.ui.validation.Validator n1){
-//XMLVM_BEGIN_WRAPPER[com.codename1.ui.validation.Validator: java.util.HashMap access$000(com.codename1.ui.validation.Validator)]
+//XMLVM_BEGIN_WRAPPER[com.codename1.ui.validation.Validator: com.codename1.components.InteractionDialog access$000(com.codename1.ui.validation.Validator)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
     global::System.Object _r1_o = null;
     global::org.xmlvm._nExceptionAdapter _ex = null;
     _r1_o = n1;
-    _r0_o = ((global::com.codename1.ui.validation.Validator) _r1_o)._fconstraintList;
-    return (global::java.util.HashMap) _r0_o;
-//XMLVM_END_WRAPPER[com.codename1.ui.validation.Validator: java.util.HashMap access$000(com.codename1.ui.validation.Validator)]
+    _r0_o = ((global::com.codename1.ui.validation.Validator) _r1_o)._fmessage;
+    return (global::com.codename1.components.InteractionDialog) _r0_o;
+//XMLVM_END_WRAPPER[com.codename1.ui.validation.Validator: com.codename1.components.InteractionDialog access$000(com.codename1.ui.validation.Validator)]
 }
 
-public static float access_2100(global::com.codename1.ui.validation.Validator n1){
-//XMLVM_BEGIN_WRAPPER[com.codename1.ui.validation.Validator: float access$100(com.codename1.ui.validation.Validator)]
+public static global::System.Object access_2002(global::com.codename1.ui.validation.Validator n1, global::com.codename1.components.InteractionDialog n2){
+//XMLVM_BEGIN_WRAPPER[com.codename1.ui.validation.Validator: com.codename1.components.InteractionDialog access$002(com.codename1.ui.validation.Validator, com.codename1.components.InteractionDialog)]
+    global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
+    _r0_o = n1;
+    _r1_o = n2;
+    ((global::com.codename1.ui.validation.Validator) _r0_o)._fmessage = (global::com.codename1.components.InteractionDialog) _r1_o;
+    return (global::com.codename1.components.InteractionDialog) _r1_o;
+//XMLVM_END_WRAPPER[com.codename1.ui.validation.Validator: com.codename1.components.InteractionDialog access$002(com.codename1.ui.validation.Validator, com.codename1.components.InteractionDialog)]
+}
+
+public static global::System.Object access_2100(global::com.codename1.ui.validation.Validator n1){
+//XMLVM_BEGIN_WRAPPER[com.codename1.ui.validation.Validator: java.lang.String access$100(com.codename1.ui.validation.Validator)]
+    global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
+    _r1_o = n1;
+    _r0_o = ((global::com.codename1.ui.validation.Validator) _r1_o)._ferrorMessageUIID;
+    return (global::java.lang.String) _r0_o;
+//XMLVM_END_WRAPPER[com.codename1.ui.validation.Validator: java.lang.String access$100(com.codename1.ui.validation.Validator)]
+}
+
+public static global::System.Object access_2200(global::com.codename1.ui.validation.Validator n1){
+//XMLVM_BEGIN_WRAPPER[com.codename1.ui.validation.Validator: com.codename1.ui.validation.Validator$HighlightMode access$200(com.codename1.ui.validation.Validator)]
+    global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
+    _r1_o = n1;
+    _r0_o = ((global::com.codename1.ui.validation.Validator) _r1_o)._fvalidationFailureHighlightMode;
+    return (global::com.codename1.ui.validation.Validator_2HighlightMode) _r0_o;
+//XMLVM_END_WRAPPER[com.codename1.ui.validation.Validator: com.codename1.ui.validation.Validator$HighlightMode access$200(com.codename1.ui.validation.Validator)]
+}
+
+public static float access_2300(global::com.codename1.ui.validation.Validator n1){
+//XMLVM_BEGIN_WRAPPER[com.codename1.ui.validation.Validator: float access$300(com.codename1.ui.validation.Validator)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
@@ -723,11 +862,11 @@ public static float access_2100(global::com.codename1.ui.validation.Validator n1
     _r1_o = n1;
     _r0.f = ((global::com.codename1.ui.validation.Validator) _r1_o)._fvalidationEmblemPositionX;
     return _r0.f;
-//XMLVM_END_WRAPPER[com.codename1.ui.validation.Validator: float access$100(com.codename1.ui.validation.Validator)]
+//XMLVM_END_WRAPPER[com.codename1.ui.validation.Validator: float access$300(com.codename1.ui.validation.Validator)]
 }
 
-public static float access_2200(global::com.codename1.ui.validation.Validator n1){
-//XMLVM_BEGIN_WRAPPER[com.codename1.ui.validation.Validator: float access$200(com.codename1.ui.validation.Validator)]
+public static float access_2400(global::com.codename1.ui.validation.Validator n1){
+//XMLVM_BEGIN_WRAPPER[com.codename1.ui.validation.Validator: float access$400(com.codename1.ui.validation.Validator)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
@@ -736,11 +875,11 @@ public static float access_2200(global::com.codename1.ui.validation.Validator n1
     _r1_o = n1;
     _r0.f = ((global::com.codename1.ui.validation.Validator) _r1_o)._fvalidationEmblemPositionY;
     return _r0.f;
-//XMLVM_END_WRAPPER[com.codename1.ui.validation.Validator: float access$200(com.codename1.ui.validation.Validator)]
+//XMLVM_END_WRAPPER[com.codename1.ui.validation.Validator: float access$400(com.codename1.ui.validation.Validator)]
 }
 
-public static global::System.Object access_2300(global::com.codename1.ui.validation.Validator n1){
-//XMLVM_BEGIN_WRAPPER[com.codename1.ui.validation.Validator: com.codename1.ui.Image access$300(com.codename1.ui.validation.Validator)]
+public static global::System.Object access_2500(global::com.codename1.ui.validation.Validator n1){
+//XMLVM_BEGIN_WRAPPER[com.codename1.ui.validation.Validator: com.codename1.ui.Image access$500(com.codename1.ui.validation.Validator)]
     global::org.xmlvm._nElement _r0;
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
@@ -749,7 +888,20 @@ public static global::System.Object access_2300(global::com.codename1.ui.validat
     _r1_o = n1;
     _r0_o = ((global::com.codename1.ui.validation.Validator) _r1_o)._fvalidationFailedEmblem;
     return (global::com.codename1.ui.Image) _r0_o;
-//XMLVM_END_WRAPPER[com.codename1.ui.validation.Validator: com.codename1.ui.Image access$300(com.codename1.ui.validation.Validator)]
+//XMLVM_END_WRAPPER[com.codename1.ui.validation.Validator: com.codename1.ui.Image access$500(com.codename1.ui.validation.Validator)]
+}
+
+public static global::System.Object access_2600(global::com.codename1.ui.validation.Validator n1){
+//XMLVM_BEGIN_WRAPPER[com.codename1.ui.validation.Validator: java.util.HashMap access$600(com.codename1.ui.validation.Validator)]
+    global::org.xmlvm._nElement _r0;
+    global::System.Object _r0_o = null;
+    global::org.xmlvm._nElement _r1;
+    global::System.Object _r1_o = null;
+    global::org.xmlvm._nExceptionAdapter _ex = null;
+    _r1_o = n1;
+    _r0_o = ((global::com.codename1.ui.validation.Validator) _r1_o)._fconstraintList;
+    return (global::java.util.HashMap) _r0_o;
+//XMLVM_END_WRAPPER[com.codename1.ui.validation.Validator: java.util.HashMap access$600(com.codename1.ui.validation.Validator)]
 }
 
 public static void @static(){
