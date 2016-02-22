@@ -5,14 +5,10 @@ using Microsoft.Graphics.Canvas.Effects;
 using Microsoft.Graphics.Canvas.Geometry;
 using Microsoft.Graphics.Canvas.Numerics;
 using Microsoft.Graphics.Canvas.Text;
-using Microsoft.Graphics.Canvas.UI.Xaml;
 using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using Windows.Foundation;
 using Windows.UI;
-using Windows.UI.Xaml.Media;
 
 namespace com.codename1.impl
 {

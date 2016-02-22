@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Windows.ApplicationModel.Activation;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
@@ -28,7 +24,6 @@ namespace com.codename1.impl
         {
             Continue(args, Window.Current.Content as Frame);
         }
-
         /// <summary>
         /// Sets the ContinuationArgs for this instance. Should be called by the main activation
         /// handling code in App.xaml.cs

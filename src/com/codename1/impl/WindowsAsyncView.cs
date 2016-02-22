@@ -1,14 +1,8 @@
 ﻿using Microsoft.Graphics.Canvas;
 using System.Collections.Generic;
-using System.Linq;
-using com.codename1.impl;
 using Microsoft.Graphics.Canvas.UI.Xaml;
-using Microsoft.Graphics.Canvas.Geometry;
 using Microsoft.Graphics.Canvas.Text;
-using System.Diagnostics;
 using com.codename1.ui.geom;
-using System.Threading.Tasks;
-using Microsoft.Graphics.Canvas.UI;
 using System;
 
 namespace com.codename1.impl

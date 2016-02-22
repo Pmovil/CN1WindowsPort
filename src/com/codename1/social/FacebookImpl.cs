@@ -13,57 +13,129 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Diagnostics;
+using Facebook;
+using Windows.Security.Authentication.Web;
+using System.Xml.Linq;
+using Windows.ApplicationModel.Core;
+using Windows.ApplicationModel.Activation;
+
 
 namespace com.codename1.social
 {
 
     public class FacebookImpl : FacebookConnect
     {
-        private static LoginButton loginFace;
-        static Callback inviteCallback;
-        public static bool loginLock = false;
-        private static Facebook.FacebookClient fb;
-        private static object result;
-        private static GraphUser currentUser;
+        private static java.lang.String PREF_TOKEN = SilverlightImplementation.toJava("$CN1_FB_TOKEN");
+        private static java.lang.String PREF_EXPIRES = SilverlightImplementation.toJava("$CN1_FB_EXPIRES");
+        private FacebookClient fb = new FacebookClient();
+        private static string appId = "";
+        private static string redirectUrl = "";
+        private string permissions = "";
+        private CoreApplicationView view;
+        private static bool configLoaded = false;
 
-        public FacebookImpl(): base()
+        public void @this()
         {
-            
+         
         }
-    
+
         public override bool isFacebookSDKSupported()
         {
-            return true;
+
+            try
+            {
+                if (!configLoaded)
+                {
+                    XDocument doc = XDocument.Load(@"FacebookConfig.xml");
+                    foreach (XElement facebookElement in doc.Descendants().Elements("Facebook"))
+                    {
+                        appId = facebookElement.Attribute("AppId").Value;
+                        redirectUrl = facebookElement.Attribute("RedirectUrl").Value;
+                        permissions = facebookElement.Attribute("Permissions").Value;
+                    }
+                }
+                else
+                {
+                    return true;
+                }
+            }
+            catch (System.Exception ex)
+            {
+                return false;
+            }
+            if (appId != "" && redirectUrl != "" && permissions != "")
+            {
+                configLoaded = true;
+                return true;
+            }
+            return false;
         }
 
         public override void login()
         {
-            login(_fcallback);
+            loginFacebook();
         }
 
-        private void login(LoginCallback cb)
+        private void loginFacebook()
         {
-            if (loginLock)
+            SilverlightImplementation.dispatcher.RunAsync(Windows.UI.Core.CoreDispatcherPriority.Normal, () =>
             {
-                return;
-            }
-            loginLock = true;
+                Uri loginUrl = fb.GetLoginUrl(new
+                {
+                    client_id = appId,
+                    redirect_uri = redirectUrl,
+                    response_type = "token",
+                    scope = permissions
+                });              
+                Uri startUri = loginUrl;
+                Uri endUri = new Uri(redirectUrl, UriKind.Absolute);
+                view = CoreApplication.GetCurrentView();          
+                WebAuthenticationBroker.AuthenticateAndContinue(startUri, endUri, null, WebAuthenticationOptions.None);
+                view.Activated += view_Activated;
+            }).AsTask().ConfigureAwait(false).GetAwaiter().GetResult();
+        }
 
-            SilverlightImplementation.dispatcher.RunAsync(Windows.UI.Core.CoreDispatcherPriority.Normal, async () =>
-           {
-               loginFace = new LoginButton();
-               await loginFace.RequestNewPermissions("publish_actions");
-               Session.ActiveSession.LoginWithBehavior("email,public_profile,user_friends", FacebookLoginBehavior.LoginBehaviorAppwithMobileInternetFallback);
-           }).AsTask().GetAwaiter().GetResult();  
+        void view_Activated(CoreApplicationView sender, IActivatedEventArgs args)
+        {
+            if (args.Kind == ActivationKind.WebAuthenticationBrokerContinuation)
+            {
+               var continuationEventArgs = args as WebAuthenticationBrokerContinuationEventArgs;
+                if (continuationEventArgs.WebAuthenticationResult != null)
+                {
+                    ParseAuthenticationResult(continuationEventArgs.WebAuthenticationResult);
+                }
+
+            }
+        }
+
+        public void ParseAuthenticationResult(WebAuthenticationResult result)
+        {
+            switch (result.ResponseStatus)
+            {
+                //connection error
+                case WebAuthenticationStatus.ErrorHttp:
+                    _fcallback.loginFailed(SilverlightImplementation.toJava("Failed to connect."));
+                    break;
+                //authentication successfull
+                case WebAuthenticationStatus.Success:
+                    var oAuthResult = fb.ParseOAuthCallbackUrl(new Uri(result.ResponseData));
+                    com.codename1.io.Preferences.set(PREF_TOKEN, SilverlightImplementation.toJava(oAuthResult.AccessToken));
+                    com.codename1.io.Preferences.set(PREF_EXPIRES, oAuthResult.Expires.Ticks);
+                    _fcallback.loginSuccessful();
+                    break;
+                //operation aborted by the user
+                case WebAuthenticationStatus.UserCancel:
+                    _fcallback.loginFailed(SilverlightImplementation.toJava("Operation aborted"));
+                    break;
+                default:
+                    break;
+            }
+
         }
 
         public override void askPublishPermissions(LoginCallback lc)
         {
-            if (loginLock)
-            {
-                return;
-            }
-            loginLock = true;
+         
             if (!isLoggedIn())
             {
                 _fcallback.loginSuccessful();
@@ -75,16 +147,14 @@ namespace com.codename1.social
 
         public override object getAccessToken()
         {
-            var fbToken = Session.ActiveSession.CurrentAccessTokenData.AccessToken;
+            java.lang.String fbToken = (java.lang.String)com.codename1.io.Preferences.get(PREF_TOKEN, (java.lang.String)null);
 
             AccessToken token1 = new AccessToken();
             if (fbToken != null)
             {
-                java.lang.String stirngToke = SilverlightImplementation.toJava(fbToken);
-                long diff = Session.ActiveSession.CurrentAccessTokenData.Expires.Ticks - Session.ActiveSession.CurrentAccessTokenData.Issued.Ticks;
-                diff = diff / 1000;
-                java.lang.String diffstring = SilverlightImplementation.toJava(diff.ToString());
-                ((AccessToken)token1).@this(stirngToke, diffstring);
+                long expires = com.codename1.io.Preferences.get(PREF_EXPIRES, 0L) / 1000;
+                java.lang.String diffstring = SilverlightImplementation.toJava(expires.ToString());
+                ((AccessToken)token1).@this(fbToken, diffstring);
                 return token1;
             }
             return null;
@@ -99,33 +169,24 @@ namespace com.codename1.social
             return null;
         }
 
-        public override object createOauth2()
-        {
-            FaceBookAccess.setClientId(SilverlightImplementation.toJava(currentUser.Id));
-            FaceBookAccess.setClientSecret(SilverlightImplementation.toJava(currentUser.UserName));
-            FaceBookAccess.setRedirectURI(SilverlightImplementation.toJava(currentUser.Link));
-            FaceBookAccess.setToken(SilverlightImplementation.toJava(fb.AccessToken));
-            return ((FaceBookAccess)FaceBookAccess.getInstance()).createOAuth();
-        }
         public override bool hasPublishPermissions()
         {
-            AccessToken fbToken = (AccessToken)getToken();
-            if (fbToken != null)
-            {
-                if (Session.ActiveSession.CurrentAccessTokenData.Issued <= Session.ActiveSession.CurrentAccessTokenData.Expires.Date)
-                {
-                    return Session.ActiveSession.CurrentAccessTokenData.CurrentPermissions.Contains("PUBLISH_PERMISSIONS");
-                }
-            }
-            return false;
+            // TODO
+            return isLoggedIn();
         }
 
         public override bool isLoggedIn()
         {
-            var token = Session.ActiveSession.CurrentAccessTokenData.AccessToken;
-            if (token != "")
+            AccessToken fbToken = (AccessToken)getAccessToken();
+            if (fbToken == null)
             {
-                if (Session.ActiveSession.CurrentAccessTokenData.Issued <= Session.ActiveSession.CurrentAccessTokenData.Expires.Date)
+                return false;
+            }
+            string token = SilverlightImplementation.toCSharp((java.lang.String)fbToken.getToken());         
+            if (token != null && !"".Equals(token))
+            {
+                long expires = Convert.ToInt64(SilverlightImplementation.toCSharp((java.lang.String)fbToken.getExpires()));
+                if (DateTime.Now.Ticks/1000 <= expires)
                 {
                     return true;
                 }
@@ -135,39 +196,7 @@ namespace com.codename1.social
 
         public override void logout()
         {
-            Session.ActiveSession.Logout();
+            com.codename1.io.Preferences.delete(PREF_TOKEN);
         }
-        public override void inviteFriends(java.lang.String appLinkUrl, java.lang.String previewImageUrl)
-        {
-            inviteFriends(appLinkUrl, previewImageUrl, null);
-        }
-        public override void inviteFriends(java.lang.String appLinkUrl, java.lang.String previewImageUrl, Callback cb)
-        {
-            inviteCallback = cb;
-            if (inviteCallback != null)
-            {
-                if (inviteCallback != null)
-                {
-                    inviteCallback.onSucess(null);
-                    inviteCallback = null;
-                }
-            }
-
-            base.inviteFriends(appLinkUrl, previewImageUrl);
-
-        }
-        public override bool isInviteFriendsSupported()
-        {
-            return true;
-        }
-
-        internal async static void OnFacebookAuthenticationFinished(AccessTokenData session)
-        {
-            fb = new Facebook.FacebookClient(Session.ActiveSession.CurrentAccessTokenData.AccessToken);
-            result = await fb.GetTaskAsync("/me/friends");
-            currentUser = new Facebook.Client.GraphUser(result);
-            }
-
-     
     }
 }
