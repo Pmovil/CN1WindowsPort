@@ -78,12 +78,13 @@ git clone https://github.com/Pmovil/CN1WindowsPort.git
 
 ##Facebook support:
 
-- In order to use the Facebook support you must add a FacebookConfig.xml with your id like this:
+- In order to use the native Facebook support you must add a FacebookConfig.xml with your id like this:
 
 ```
 <?xml version="1.0" encoding="utf-8" ?>
 <Extensions>
-  <Facebook AppId="0000000000000000" />
+  <Facebook AppId="0000000000000000" 
+            RedirectUrl="http://my.redirect.com/"
+            Permissions="public_profile,email,user_friends"/>
 </Extensions>
 ```
-- In your Package.appxmanifest under Declarations you must add a new Protocol with name fb0000000000000000
