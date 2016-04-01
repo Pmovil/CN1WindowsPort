@@ -172,7 +172,7 @@ public virtual bool animate(){
     _r6_o = ((global::com.codename1.ui.Container_2Anim) _r12_o)._fthisContainer;
     _r7_o = new global::java.util.Vector();
     ((global::java.util.Vector) _r7_o).@this();
-    global::com.codename1.ui.Container.access_2302((global::com.codename1.ui.Container) _r6_o, (global::java.util.Vector) _r7_o);
+    global::com.codename1.ui.Container.access_2202((global::com.codename1.ui.Container) _r6_o, (global::java.util.Vector) _r7_o);
     label65:;
     _r6_o = ((global::com.codename1.ui.Container_2Anim) _r12_o)._fthisContainer;
     _r6_o = global::com.codename1.ui.Container.access_2300((global::com.codename1.ui.Container) _r6_o);
@@ -299,9 +299,9 @@ public virtual bool animate(){
     _r8.l = (long) _r8.i;
     _r6.i = _r6.l > _r8.l ? 1 : (_r6.l == _r8.l ? 0 : -1);
     if (_r6.i < 0) goto label375;
-    global::com.codename1.ui.Container.access_2102(0!=_r11.i);
+    global::com.codename1.ui.Container.access_2302(0!=_r11.i);
     _r6_o = ((global::com.codename1.ui.Container_2Anim) _r12_o)._fthisContainer;
-    global::com.codename1.ui.Container.access_2202((global::com.codename1.ui.Container) _r6_o, 0!=_r10.i);
+    global::com.codename1.ui.Container.access_2402((global::com.codename1.ui.Container) _r6_o, 0!=_r10.i);
     _r6_o = ((global::com.codename1.ui.Container_2Anim) _r12_o)._fthisContainer;
     _r2_o = ((global::com.codename1.ui.Container) _r6_o).getComponentForm();
     if (_r2_o != null) goto label357;

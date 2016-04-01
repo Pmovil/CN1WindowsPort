@@ -6,23 +6,21 @@ using System;
 using System.Threading;
 using System.Collections.Generic;
 using System.Net;
-using Windows.Devices.Geolocation;
 using System.Diagnostics;
 using Microsoft.Graphics.Canvas;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml;
 using System.Threading.Tasks;
 using Windows.UI.Core;
-using Windows.Phone.UI.Input;
+using Windows.UI.Input;
 using Windows.UI.Xaml.Input;
 using Windows.Foundation;
 using Windows.Storage;
 using Windows.Devices.Sensors;
 using Windows.ApplicationModel.Contacts;
-using Windows.ApplicationModel.Email;
+using Windows.ApplicationModel;
 using Windows.Storage.Streams;
 using Windows.UI.Xaml.Media;
-using Windows.Phone.Devices.Notification;
 using Windows.Media.Capture;
 using Windows.Storage.Pickers;
 using Microsoft.Graphics.Canvas.UI.Xaml;
@@ -42,20 +40,29 @@ using Windows.ApplicationModel.Core;
 using com.codename1.ui.events;
 using System.Collections;
 using Windows.Data.Xml.Dom;
+using Windows.Devices.Input;
+using Windows.Graphics.Imaging;
+#if WINDOWS_UWP
+using Windows.Graphics.DirectX;
+#else
+using Microsoft.Graphics.Canvas.DirectX;
+#endif
+
+
 
 
 namespace com.codename1.impl
 {
-    public class SilverlightImplementation : global::com.codename1.impl.CodenameOneImplementation, com.codename1.impl.IFileOpenPickerContinuable
+    public class SilverlightImplementation : CodenameOneImplementation
     {
         private LocationManager locationManager;
-        private static Object PAINT_LOCK = new Object();
+        private static object PAINT_LOCK = new object();
         public static SilverlightImplementation instance;
         public static Canvas cl;
         private int displayWidth = -1, displayHeight = -1;
         private CanvasTextFormat defaulFontCanvas;
         private NativeFont defaultFont;
-        public com.codename1.ui.TextArea currentlyEditing;
+        public TextArea currentlyEditing;
         public static Control textInputInstance;
         public static Page app;
         public static CanvasControl screen;
@@ -63,25 +70,37 @@ namespace com.codename1.impl
         public static CoreDispatcher dispatcher;
         public static StorageFolder iDefaultStore;
         private static CoreApplicationView view;
+        public static bool isPhone = true;
+        private static string ss;
+#if WINDOWS_PHONE_APP
         public FileOpenPickerContinuationEventArgs FilePickerContinuationArgs { get; set; }
+#endif
         public static Dictionary<string, string> iCN1Settings; // = new Dictionary<string, string>();
 
         public static void setCanvas(Page page, Canvas LayoutRoot)
         {
             iCN1Settings = loadSettings("/install:/CN1WindowsPort.xml"); // ms-appx:///CN1WindowsPort.xml");
             view = CoreApplication.GetCurrentView();
-            var ss = getDictValue(iCN1Settings, "DefaultStorageFolder", "Cache:");
-            iDefaultStore = getStore(ss); // storeApplicationData.Current.CacheFolder; // Faster, avoid cloud backup. See https://www.suchan.cz/2014/07/file-io-best-practices-in-windows-and-phone-apps-part-1-available-apis-and-file-exists-checking/
             dispatcher = CoreWindow.GetForCurrentThread().Dispatcher;
             cl = LayoutRoot;
             app = page;
+#if WINDOWS_PHONE_APP
             scaleFactor = Windows.Graphics.Display.DisplayInformation.GetForCurrentView().RawPixelsPerViewPixel;
+               ss = getDictValue(iCN1Settings, "DefaultStorageFolder", "Cache:");
+#elif WINDOWS_UWP
+              ss = getDictValue(iCN1Settings, "DefaultStorageFolder", "Local:");
+              scaleFactor = Windows.Graphics.Display.DisplayInformation.GetForCurrentView().RawPixelsPerViewPixel;
+#elif WINDOWS_APP
+             ss = getDictValue(iCN1Settings, "DefaultStorageFolder", "Local:");
+            scaleFactor = ScaleDesktop.ScaleFactor;
+#endif
+            iDefaultStore = getStore(ss); // storeApplicationData.Current.CacheFolder; // Faster, avoid cloud backup. See https://www.suchan.cz/2014/07/file-io-best-practices-in-windows-and-phone-apps-part-1-available-apis-and-file-exists-checking/
             rawDpiy = DisplayInformation.GetForCurrentView().RawDpiY;
             rawDpix = DisplayInformation.GetForCurrentView().RawDpiX;
             screen = new CanvasControl();
             screen.Width = cl.ActualWidth * scaleFactor;
             screen.Height = cl.ActualHeight * scaleFactor;
-            cl.Children.Add(screen);  
+            cl.Children.Add(screen);
             screen.ClearColor = Windows.UI.Colors.Transparent; // Maybe white ?
             Canvas.SetLeft(screen, 0);
             Canvas.SetTop(screen, 0);
@@ -100,13 +119,12 @@ namespace com.codename1.impl
         {
             Dictionary<string, string> settings = new Dictionary<string, string>();
             XmlDocument doc = null; // = new XmlDocument();
-
             try
             {
                 StorageFile file = getFile(aUrl);
                 if (file != null) doc = XmlDocument.LoadFromFileAsync(file).AsTask().GetAwaiter().GetResult();
             }
-            catch (System.Exception ) { }
+            catch (Exception) { }
             if (doc == null)
                 return settings;
             XmlNodeList elemList = doc.GetElementsByTagName("add");
@@ -131,15 +149,15 @@ namespace com.codename1.impl
             }
             return settings;
         }
-
-        private void page_BackKeyPress(object sender, BackPressedEventArgs e)
+#if WINDOWS_PHONE_APP
+        private void page_BackKeyPress(object sender, Windows.Phone.UI.Input.BackPressedEventArgs e)
         {
             keyPressed(getBackKeyCode());
             keyReleased(getBackKeyCode());
             e.Handled = true;
         }
-
-        public void @this()
+#endif
+        public new void @this()
         {
             base.@this();
             instance = this;
@@ -150,7 +168,7 @@ namespace com.codename1.impl
             return true;
         }
 
-        public override global::System.Object getResourceAsStream(global::java.lang.Class n1, global::java.lang.String n2)
+        public override object getResourceAsStream(java.lang.Class n1, java.lang.String n2)
         {
             try
             {
@@ -160,7 +178,7 @@ namespace com.codename1.impl
                     uri = @"res\" + uri.Substring(1);
                 }
                 uri = uri.Replace('/', '\\');
-                StorageFolder installFolder = Windows.ApplicationModel.Package.Current.InstalledLocation;
+                StorageFolder installFolder = Package.Current.InstalledLocation;
                 StorageFile file = installFolder.GetFileAsync(uri).AsTask().GetAwaiter().GetResult();
                 Stream strm = Task.Run(() => file.OpenStreamForReadAsync()).GetAwaiter().GetResult();
                 byte[] byteArr = new byte[strm.Length];
@@ -169,7 +187,7 @@ namespace com.codename1.impl
                 bi.@this(new _nArrayAdapter<sbyte>(toSByteArray(byteArr)));
                 return bi;
             }
-            catch (System.Exception)
+            catch (Exception)
             {
                 return null;
             }
@@ -186,10 +204,10 @@ namespace com.codename1.impl
             return sbyteArray;
         }
 
-        public static java.lang.String toJava(System.String str)
+        public static java.lang.String toJava(string str)
         {
             if (str == null) return null;
-            global::org.xmlvm._nArrayAdapter<char> n = new global::org.xmlvm._nArrayAdapter<char>(str.ToCharArray());
+            _nArrayAdapter<char> n = new _nArrayAdapter<char>(str.ToCharArray());
             java.lang.String s = new java.lang.String();
             s.@this(n);
             return s;
@@ -201,7 +219,7 @@ namespace com.codename1.impl
             {
                 return null;
             }
-            global::org.xmlvm._nArrayAdapter<char> n = new global::org.xmlvm._nArrayAdapter<char>(str.ToString().ToCharArray());
+            _nArrayAdapter<char> n = new _nArrayAdapter<char>(str.ToString().ToCharArray());
             java.lang.String s = new java.lang.String();
             s.@this(n);
             return s;
@@ -209,7 +227,7 @@ namespace com.codename1.impl
 
         public static string toCSharp(java.lang.String str)
         {
-            global::org.xmlvm._nArrayAdapter<char> n = (global::org.xmlvm._nArrayAdapter<char>)str.toCharArray();
+            _nArrayAdapter<char> n = (_nArrayAdapter<char>)str.toCharArray();
             return new string(n.getCSharpArray());
         }
 
@@ -218,25 +236,53 @@ namespace com.codename1.impl
             instance = this;
             dispatcher.RunAsync(CoreDispatcherPriority.Normal, () =>
           {
-              HardwareButtons.BackPressed += page_BackKeyPress;
+#if WINDOWS_PHONE_APP
+              Windows.Phone.UI.Input.HardwareButtons.BackPressed += page_BackKeyPress;
+               isPhone = false;
+#elif WINDOWS_UWP
+              if (Windows.Foundation.Metadata.ApiInformation.IsTypePresent("Windows.Phone.UI.Input.HardwareButtons"))
+              {
+                  isPhone = false;
+                  Windows.UI.Core.SystemNavigationManager.GetForCurrentView().BackRequested += SilverlightImplementation_BackRequested;
+              }
+#endif
+              cl.SizeChanged += cl_SizeChanged;
               cl.ManipulationMode = ManipulationModes.All;
               screen.ManipulationMode = ManipulationModes.All;
               screen.PointerPressed += new PointerEventHandler(LayoutRoot_PointerPressed);
               screen.PointerReleased += new PointerEventHandler(LayoutRoot_PointerReleased);
               screen.PointerMoved += new PointerEventHandler(LayoutRoot_PointerMoved);
           }).AsTask().GetAwaiter();
-            ((com.codename1.ui.Display)com.codename1.ui.Display.getInstance()).getDragSpeed(true);
+            ((Display)Display.getInstance()).getDragSpeed(true);
             _sensor = SimpleOrientationSensor.GetDefault();
-            _sensor.OrientationChanged += new TypedEventHandler<SimpleOrientationSensor, SimpleOrientationSensorOrientationChangedEventArgs>(app_OrientationChanged);
-            ((com.codename1.ui.Display)com.codename1.ui.Display.getInstance()).setTransitionYield(0);
+            if (_sensor != null)
+            {
+                _sensor.OrientationChanged += new TypedEventHandler<SimpleOrientationSensor, SimpleOrientationSensorOrientationChangedEventArgs>(app_OrientationChanged);
+            }
+            ((Display)Display.getInstance()).setTransitionYield(0);
             setDragStartPercentage(3);
         }
-
-        async void app_OrientationChanged(object sender, SimpleOrientationSensorOrientationChangedEventArgs e)
+#if WINDOWS_UWP
+        private void SilverlightImplementation_BackRequested(object sender,Windows.UI.Core.BackRequestedEventArgs e)
         {
-            displayHeight = -1;
-            displayWidth = -1;
-            e.Timestamp.Add(new TimeSpan(1));
+            keyPressed(getBackKeyCode());
+            keyReleased(getBackKeyCode());
+            e.Handled = true;
+        }
+#endif
+         void cl_SizeChanged(object sender, SizeChangedEventArgs e)
+        {
+            InvalidateLayout();
+        }
+ 
+        void app_OrientationChanged(object sender, SimpleOrientationSensorOrientationChangedEventArgs e)
+        {
+            InvalidateLayout();
+        }
+
+        private async void InvalidateLayout()
+        {
+
             await dispatcher.RunAsync(CoreDispatcherPriority.Normal, () =>
             {
                 screen.Height = displayHeight = Convert.ToInt32(cl.ActualHeight * scaleFactor);
@@ -249,13 +295,13 @@ namespace com.codename1.impl
                 }
             });
         }
-      
+
         public override bool canForceOrientation()
         {
             return true;
         }
- 
-        public override global::System.Object getProperty(global::java.lang.String n1, global::java.lang.String n2)
+      
+        public override object getProperty(java.lang.String n1, java.lang.String n2)
         {
             string p = toCSharp(n1).ToLower();
 
@@ -265,11 +311,11 @@ namespace com.codename1.impl
             }
             if (p.Equals("platform"))
             {
-                return toJava("" + Windows.ApplicationModel.Package.Current.Id.Version.Build);
+                return toJava("" + Package.Current.Id.Version.Build);
             }
             if (p.Equals("osver"))
             {
-                return toJava("" + Windows.ApplicationModel.Package.Current.Id.Version.Major + "." + Windows.ApplicationModel.Package.Current.Id.Version.Minor);
+                return toJava("" + Package.Current.Id.Version.Major + "." + Package.Current.Id.Version.Minor);
             }
             if (p.Equals("user-agent"))
             {
@@ -287,17 +333,16 @@ namespace com.codename1.impl
         {
             return true;
         }
-
         public override void exitApplication()
         {
             Application.Current.Exit();
         }
 
-        public override global::System.Object createMedia(global::java.io.InputStream n1, global::java.lang.String n2, global::java.lang.Runnable n3)
+        public override object createMedia(java.io.InputStream n1, java.lang.String n2, java.lang.Runnable n3)
         {
             object ss = createStorageOutputStream(toJava("CN1TempVideodu73aFljhuiw3yrindo87.mp4"));
             java.io.OutputStream os = (java.io.OutputStream)ss;
-            com.codename1.io.Util.copy(n1, os);
+            io.Util.copy(n1, os);
             StorageFile storageTask = getFile("CN1TempVideodu73aFljhuiw3yrindo87.mp4");
             StorageFile file = storageTask;
             Task<Stream> streamTask = file.OpenStreamForReadAsync();
@@ -337,11 +382,11 @@ namespace com.codename1.impl
 
         public override void installNativeTheme()
         {
-            com.codename1.ui.util.Resources r = (com.codename1.ui.util.Resources)com.codename1.ui.util.Resources.open(toJava("/winTheme.res"));
-            com.codename1.ui.plaf.UIManager uim = (com.codename1.ui.plaf.UIManager)com.codename1.ui.plaf.UIManager.getInstance();
-            global::System.Object[] themeNames = ((_nArrayAdapter<global::System.Object>)r.getThemeResourceNames()).getCSharpArray();
+            ui.util.Resources r = (ui.util.Resources)ui.util.Resources.open(toJava("/winTheme.res"));
+            ui.plaf.UIManager uim = (ui.plaf.UIManager)ui.plaf.UIManager.getInstance();
+            object[] themeNames = ((_nArrayAdapter<object>)r.getThemeResourceNames()).getCSharpArray();
             uim.setThemeProps((java.util.Hashtable)r.getTheme((java.lang.String)themeNames[0]));
-            com.codename1.ui.plaf.DefaultLookAndFeel dl = (com.codename1.ui.plaf.DefaultLookAndFeel)uim.getLookAndFeel();
+            ui.plaf.DefaultLookAndFeel dl = (ui.plaf.DefaultLookAndFeel)uim.getLookAndFeel();
             dl.setDefaultEndsWith3Points(false);
         }
 
@@ -355,9 +400,9 @@ namespace com.codename1.impl
             var pointerId = e.Pointer;
             point = e.GetCurrentPoint(cl).Position;
             var BB = e.GetIntermediatePoints(cl);
-            if (pointerId.PointerDeviceType == Windows.Devices.Input.PointerDeviceType.Touch)
+            if (pointerId.PointerDeviceType == PointerDeviceType.Touch || pointerId.PointerDeviceType == PointerDeviceType.Mouse || pointerId.PointerDeviceType == PointerDeviceType.Pen)
             {
-                Windows.UI.Input.PointerPoint ptrPt = e.GetCurrentPoint(screen);
+                PointerPoint ptrPt = e.GetCurrentPoint(screen);
                 if (ptrPt.Properties.IsLeftButtonPressed)
                 {
                     pointerDragged(Convert.ToInt32(point.X * scaleFactor), Convert.ToInt32(point.Y * scaleFactor));
@@ -379,7 +424,7 @@ namespace com.codename1.impl
             point = e.GetCurrentPoint(cl).Position;
             if (instance.currentlyEditing != null)
             {
-                com.codename1.ui.Form f = (com.codename1.ui.Form)instance.currentlyEditing.getComponentForm();
+                Form f = (Form)instance.currentlyEditing.getComponentForm();
                 if (f.getComponentAt(Convert.ToInt32(point.X * scaleFactor), Convert.ToInt32(point.Y * scaleFactor)) == instance.currentlyEditing)
                 {
                     return;
@@ -395,7 +440,7 @@ namespace com.codename1.impl
             point = e.GetCurrentPoint(cl).Position;
             if (instance.currentlyEditing != null)
             {
-                com.codename1.ui.Form f = (com.codename1.ui.Form)instance.currentlyEditing.getComponentForm();
+                Form f = (Form)instance.currentlyEditing.getComponentForm();
                 if (f.getComponentAt(Convert.ToInt32(point.X * scaleFactor), Convert.ToInt32(point.Y * scaleFactor)) != instance.currentlyEditing)
                 {
                     commitEditing();
@@ -469,9 +514,9 @@ namespace com.codename1.impl
 
         private bool lockEditing;
 
-        public override void editString(global::com.codename1.ui.Component n1, int n2, int n3, global::java.lang.String n4, int n5)
+        public override void editString(Component n1, int n2, int n3, java.lang.String n4, int n5)
         {
-            com.codename1.ui.Display d = (com.codename1.ui.Display)com.codename1.ui.Display.getInstance();
+            Display d = (Display)Display.getInstance();
             if (textInputInstance != null)
             {
                 commitEditing();
@@ -484,13 +529,13 @@ namespace com.codename1.impl
                 return;
             }
             lockEditing = true;
-            currentlyEditing = (com.codename1.ui.TextArea)n1;
+            currentlyEditing = (TextArea)n1;
             using (AutoResetEvent are = new AutoResetEvent(false))
             {
                 dispatcher.RunAsync(CoreDispatcherPriority.Normal, () =>
                {
                    int constraints = currentlyEditing.getConstraint();
-                   bool isPassword = (constraints & com.codename1.ui.TextArea._fPASSWORD) == com.codename1.ui.TextArea._fPASSWORD;
+                   bool isPassword = (constraints & TextArea._fPASSWORD) == TextArea._fPASSWORD;
                    if (n1.getClientProperty(toJava("disableWinPassword")) != null)
                    {
                        isPassword = false;
@@ -511,36 +556,36 @@ namespace com.codename1.impl
                        ((TextBox)textInputInstance).AcceptsReturn = !currentlyEditing.isSingleLineTextArea();
                        ((TextBox)textInputInstance).MaxLength = n2;
 
-                       if ((constraints & com.codename1.ui.TextArea._fNON_1PREDICTIVE) == com.codename1.ui.TextArea._fNON_1PREDICTIVE)
+                       if ((constraints & TextArea._fNON_1PREDICTIVE) == TextArea._fNON_1PREDICTIVE)
                        {
                            ((TextBox)textInputInstance).InputScope = new InputScope();
                        }
 
-                       if ((constraints & com.codename1.ui.TextArea._fNUMERIC) == com.codename1.ui.TextArea._fNUMERIC)
+                       if ((constraints & TextArea._fNUMERIC) == TextArea._fNUMERIC)
                        {
                            setConstraint((TextBox)textInputInstance, InputScopeNameValue.NumberFullWidth);
                        }
                        else
                        {
-                           if ((constraints & com.codename1.ui.TextArea._fDECIMAL) == com.codename1.ui.TextArea._fDECIMAL)
+                           if ((constraints & TextArea._fDECIMAL) == TextArea._fDECIMAL)
                            {
                                setConstraint((TextBox)textInputInstance, InputScopeNameValue.Number);
                            }
                            else
                            {
-                               if ((constraints & com.codename1.ui.TextArea._fEMAILADDR) == com.codename1.ui.TextArea._fEMAILADDR)
+                               if ((constraints & TextArea._fEMAILADDR) == TextArea._fEMAILADDR)
                                {
                                    setConstraint((TextBox)textInputInstance, InputScopeNameValue.EmailSmtpAddress);
                                }
                                else
                                {
-                                   if ((constraints & com.codename1.ui.TextArea._fURL) == com.codename1.ui.TextArea._fURL)
+                                   if ((constraints & TextArea._fURL) == TextArea._fURL)
                                    {
                                        setConstraint((TextBox)textInputInstance, InputScopeNameValue.Url);
                                    }
                                    else
                                    {
-                                       if ((constraints & com.codename1.ui.TextArea._fPHONENUMBER) == com.codename1.ui.TextArea._fPHONENUMBER)
+                                       if ((constraints & TextArea._fPHONENUMBER) == TextArea._fPHONENUMBER)
                                        {
                                            setConstraint((TextBox)textInputInstance, InputScopeNameValue.TelephoneNumber);
                                        }
@@ -552,7 +597,7 @@ namespace com.codename1.impl
                    cl.Children.Add(textInputInstance);
                    Canvas.SetZIndex(textInputInstance, 50000);
                    textInputInstance.IsEnabled = true;
-                   com.codename1.ui.Font fnt = (com.codename1.ui.Font)((com.codename1.ui.plaf.Style)currentlyEditing.getStyle()).getFont();
+                   Font fnt = (Font)((ui.plaf.Style)currentlyEditing.getStyle()).getFont();
                    NativeFont font = f((java.lang.Object)fnt.getNativeFont());
                    // workaround forsome weird unspecified margin that appears around the text box
                    Canvas.SetTop(textInputInstance, (currentlyEditing.getAbsoluteY() / scaleFactor));
@@ -577,7 +622,7 @@ namespace com.codename1.impl
                {
                    cl.Children.Remove(textInputInstance);
                    //wait for textChangedEvent
-                   Task.Run(() => global::System.Threading.Tasks.Task.Delay(TimeSpan.FromMilliseconds(100))).ConfigureAwait(false).GetAwaiter().GetResult();
+                   Task.Run(() => Task.Delay(TimeSpan.FromMilliseconds(100))).ConfigureAwait(false).GetAwaiter().GetResult();
                    textInputInstance = null;
                    // cl.Focus;
                }).AsTask().ConfigureAwait(false).GetAwaiter().GetResult();
@@ -589,10 +634,10 @@ namespace com.codename1.impl
         {
             if (textInputInstance == null)
             {
-                System.Diagnostics.Debug.WriteLine("[textChangeEvent] textInput is null. Shoud not happen!!");
+                Debug.WriteLine("[textChangeEvent] textInput is null. Shoud not happen!!");
                 return;
             }
-            com.codename1.ui.Display disp = (com.codename1.ui.Display)com.codename1.ui.Display.getInstance();
+            Display disp = (Display)Display.getInstance();
             Tchange t = new Tchange();
             t.currentlyEditing = currentlyEditing;
             if (textInputInstance is TextBox)
@@ -604,19 +649,6 @@ namespace com.codename1.impl
                 t.text = toJava(((PasswordBox)textInputInstance).Password);
             }
             disp.callSerially(t);
-        }
-
-        class Tchange : java.lang.Object, java.lang.Runnable
-        {
-            public com.codename1.ui.TextArea currentlyEditing;
-            public java.lang.String text;
-            public virtual void run()
-            {
-                if (currentlyEditing != null)
-                {
-                    currentlyEditing.setText(text);
-                }
-            }
         }
 
         public override bool hasPendingPaints()
@@ -683,9 +715,9 @@ namespace com.codename1.impl
             myView.flushGraphics();
         }
 
-        public override void systemOut(global::java.lang.String n1)
+        public override void systemOut(java.lang.String n1)
         {
-            System.Diagnostics.Debug.WriteLine(toCSharp(n1));
+            Debug.WriteLine(toCSharp(n1));
         }
 
         public override bool isOpaque(ui.Image n1, java.lang.Object n2)
@@ -700,7 +732,7 @@ namespace com.codename1.impl
             System.Buffer.BlockCopy(buffer, 0, arr.getCSharpArray(), 0, buffer.Length);
         }
 
-        public override void setImageName(global::java.lang.Object n1, global::java.lang.String n2)
+        public override void setImageName(java.lang.Object n1, java.lang.String n2)
         {
             if (n2 != null)
             {
@@ -875,13 +907,13 @@ namespace com.codename1.impl
             {
                 return createImage((java.io.InputStream)openFileInputStream(path));
             }
-            global::java.io.InputStream s = (global::java.io.InputStream)getResourceAsStream(null, path);
+            java.io.InputStream s = (java.io.InputStream)getResourceAsStream(null, path);
             return createImage(s);
         }
 
         public override object createImage(java.io.InputStream n1)
         {
-            global::org.xmlvm._nArrayAdapter<sbyte> b = (global::org.xmlvm._nArrayAdapter<sbyte>)com.codename1.io.Util.readInputStream(n1);
+            _nArrayAdapter<sbyte> b = (_nArrayAdapter<sbyte>)io.Util.readInputStream(n1);
             return createImage(b, 0, b.Length);
         }
 
@@ -899,14 +931,14 @@ namespace com.codename1.impl
         const int maxCacheSize = 50;
         private static ConcurrentDictionary<int, CodenameOneImage> imageCache = new ConcurrentDictionary<int, CodenameOneImage>();
 
-        public override global::System.Object createImage(global::org.xmlvm._nArrayAdapter<sbyte> bytes, int offset, int len)
+        public override object createImage(_nArrayAdapter<sbyte> bytes, int offset, int len)
         {
 
             if (imageCache.ContainsKey(bytes.hashCode()))
             {
                 CodenameOneImage cached;
                 imageCache.TryGetValue(bytes.hashCode(), out cached);
-                cached.lastAccess = System.DateTime.Now.Ticks;
+                cached.lastAccess = DateTime.Now.Ticks;
                 return cached;
             }
             if (bytes.Length == 0)
@@ -967,33 +999,85 @@ namespace com.codename1.impl
         public override void tileImage(java.lang.Object graphics, java.lang.Object image, int x, int y, int w, int h)
         {
             CodenameOneImage img = (CodenameOneImage)image;
-            img.lastAccess = System.DateTime.Now.Ticks;
+            img.lastAccess = DateTime.Now.Ticks;
             NativeGraphics ng = (NativeGraphics)graphics;
             ng.destination.tileImage(img.image, x, y, w, h);
         }
 
         public static bool exitLock;
-        private global::com.codename1.ui.events.ActionListener pendingCaptureCallback;
+        private ActionListener pendingCaptureCallback;
 
         public override void capturePhoto(ActionListener response)
         {
+#if WINDOWS_PHONE_APP
+            openGaleriaCamera();
+#else
             exitLock = true;
             pendingCaptureCallback = response;
-            // Windows.ApplicationModel.CameraApplicationManager.ShowInstalledApplicationsUI(); 
-            openGaleriaCamera();
-            
+            dispatcher.RunAsync(CoreDispatcherPriority.Normal, async () =>
+            {
+                try
+                {
+                    // Using Windows.Media.Capture.CameraCaptureUI API to capture a photo
+                    CameraCaptureUI dialog = new CameraCaptureUI();
+                    dialog.PhotoSettings.CroppedAspectRatio = new Size(16, 9);
+                    dialog.PhotoSettings.Format = CameraCaptureUIPhotoFormat.Jpeg;
+                    dialog.PhotoSettings.MaxResolution = CameraCaptureUIMaxPhotoResolution.HighestAvailable;
+                    StorageFile photo = await dialog.CaptureFileAsync(CameraCaptureUIMode.Photo);
+                    if (photo != null)
+                    {
+                        var foldersave = KnownFolders.CameraRoll;
+                        await photo.MoveAsync(foldersave);
+
+                        BitmapImage bitmapImage = new BitmapImage();
+                        Windows.UI.Xaml.Controls.Image Capturedphoto = new Windows.UI.Xaml.Controls.Image();
+                        Capturedphoto.Source = bitmapImage;
+                        toSendPhoto(photo);
+                    }
+                }
+                catch (Exception)
+                {
+                   
+                }
+            }).AsTask().ConfigureAwait(false).GetAwaiter().GetResult();
+#endif
         }
-    
+        public async void toSendPhoto(StorageFile photo)
+        {
+            try
+            {
+                fileName = photo.Name;
+#if WINDOWS_PHONE_APP
+              
+                ActionEvent ac = new ActionEvent();
+                ac.@this(toJava("cameraroll:/" + fileName));
+                fireCapture(ac);
+
+#else
+                StorageFolder folder = await photo.GetParentAsync();
+                string folderName = folder.Name.ToLower();
+                folderName = folderName.Replace(" ", "");
+                ActionEvent ac = new ActionEvent();
+                ac.@this(toJava(folderName + ":/" + fileName));
+                fireCapture(ac);
+#endif
+            }
+            catch (Exception ex)
+            {
+
+            }
+
+        }
         public override void openImageGallery(ActionListener response)
         {
             exitLock = true;
             pendingCaptureCallback = response;
             openGaleriaCamera();
         }
-      
+
         private void openGaleriaCamera()
         {
-            dispatcher.RunAsync(CoreDispatcherPriority.Normal, () =>
+            dispatcher.RunAsync(CoreDispatcherPriority.Normal, async () =>
             {
                 FileOpenPicker openPicker = new FileOpenPicker();
                 openPicker.ViewMode = PickerViewMode.Thumbnail;
@@ -1001,25 +1085,23 @@ namespace com.codename1.impl
                 openPicker.FileTypeFilter.Add(".jpg");
                 openPicker.FileTypeFilter.Add(".jpeg");
                 openPicker.FileTypeFilter.Add(".png");
-                // Launch file open picker and caller app is suspended and may be terminated if required 
+#if WINDOWS_PHONE_APP
                 openPicker.PickSingleFileAndContinue();
-                var e = PhotoCaptureSource.Photo;
                 view.Activated += view_Activated;
+#else
+                StorageFile photo = await openPicker.PickSingleFileAsync();
+                if (photo != null)
+                {
+                    toSendPhoto(photo);
+                }
+#endif
             }).AsTask().ConfigureAwait(false).GetAwaiter().GetResult();
-        }
 
-        private void fireCapture(com.codename1.ui.events.ActionEvent ev)
-        {
-            com.codename1.ui.util.EventDispatcher ed = new com.codename1.ui.util.EventDispatcher();
-            ed.@this();
-            ed.addListener((java.lang.Object)pendingCaptureCallback);
-            ed.fireActionEvent(ev);
-            pendingCaptureCallback = null;
-            exitLock = false;
         }
-
+ #if WINDOWS_PHONE_APP
         void view_Activated(CoreApplicationView sender, IActivatedEventArgs args)
         {
+
             var filePickerContinuationArgs = args as FileOpenPickerContinuationEventArgs;
             if (filePickerContinuationArgs != null)
             {
@@ -1032,7 +1114,6 @@ namespace com.codename1.impl
             }
 
         }
-
         public void ContinueFileOpenPicker(FileOpenPickerContinuationEventArgs args)
         {
             if (args != null)
@@ -1045,34 +1126,15 @@ namespace com.codename1.impl
                 fireCapture(ac);
             }
         }
-
-        public override object getCodeScanner()
+#endif
+        private void fireCapture(ActionEvent ev)
         {
-            ZxingCN1 z = new ZxingCN1();
-            return z;
-        }
-
-        class ZxingCN1 : com.codename1.codescan.CodeScanner
-        {
-
-            private WindowsPhone8Demo.Extensions.AsyncPictureDecoderExtension asyncPictureDecoder;
-            private codescan.ScanResult result;
-            public override void scanBarCode(codescan.ScanResult n1)
-            {
-                result = n1;
-                MediaCapture capture = new MediaCapture();
-                capture.PhotoConfirmationCaptured += captureTask_Completed;
-            }
-
-            private void captureTask_Completed(MediaCapture sender, PhotoConfirmationCapturedEventArgs e)
-            {
-                asyncPictureDecoder = new WindowsPhone8Demo.Extensions.AsyncPictureDecoderExtension(result, e);
-            }
-
-            public override void scanQRCode(codescan.ScanResult n1)
-            {
-                scanBarCode(n1);
-            }
+            ui.util.EventDispatcher ed = new ui.util.EventDispatcher();
+            ed.@this();
+            ed.addListener((java.lang.Object)pendingCaptureCallback);
+            ed.fireActionEvent(ev);
+            pendingCaptureCallback = null;
+            exitLock = false;
         }
 
         public override bool isNativeBrowserComponentSupported()
@@ -1080,9 +1142,9 @@ namespace com.codename1.impl
             return true;
         }
 
-        com.codename1.ui.BrowserComponent currentBrowser;
+        BrowserComponent currentBrowser;
         public WebView webView;
-        public override global::System.Object createBrowserComponent(global::java.lang.Object n1)
+        public override object createBrowserComponent(java.lang.Object n1)
         {
             SilverlightPeer sp = null;
             using (AutoResetEvent are = new AutoResetEvent(false))
@@ -1090,7 +1152,7 @@ namespace com.codename1.impl
                 dispatcher.RunAsync(CoreDispatcherPriority.Normal, () =>
                 {
                     webView = new WebView();
-                    currentBrowser = (com.codename1.ui.BrowserComponent)n1;
+                    currentBrowser = (BrowserComponent)n1;
                     webView.DOMContentLoaded += webview_DOMContentLoaded;
                     webView.NavigationStarting += webview_Navigating;
                     webView.ContentLoading += webview_ContentLoading;
@@ -1106,9 +1168,8 @@ namespace com.codename1.impl
 
         void webview_DOMContentLoaded(WebView sender, WebViewDOMContentLoadedEventArgs e)
         {
-            //string html = sender.InvokeScriptAsync("eval", new string[] { "[].map.call(document.getElementsByTagName('a'), function(node){ return node.href; }).join('||');" }).AsTask().GetAwaiter().GetResult();
-            com.codename1.ui.events.BrowserNavigationCallback bn = (com.codename1.ui.events.BrowserNavigationCallback)currentBrowser.getBrowserNavigationCallback();
-            com.codename1.ui.events.ActionEvent ev = new com.codename1.ui.events.ActionEvent();
+            BrowserNavigationCallback bn = (BrowserNavigationCallback)currentBrowser.getBrowserNavigationCallback();
+            ActionEvent ev = new ActionEvent();
             ev.@this(toJava(e.Uri.OriginalString));
             currentBrowser.fireWebEvent(toJava("onLoadResource"), ev);
 
@@ -1116,8 +1177,8 @@ namespace com.codename1.impl
 
         void webview_NavigationCompleted(WebView sender, WebViewNavigationCompletedEventArgs e)
         {
-            com.codename1.ui.events.BrowserNavigationCallback bn = (com.codename1.ui.events.BrowserNavigationCallback)currentBrowser.getBrowserNavigationCallback();
-            com.codename1.ui.events.ActionEvent ev = new com.codename1.ui.events.ActionEvent();
+            BrowserNavigationCallback bn = (BrowserNavigationCallback)currentBrowser.getBrowserNavigationCallback();
+            ActionEvent ev = new ActionEvent();
             if (e.IsSuccess == false)
             {
                 ev.@this(toJava(e.Uri.OriginalString));
@@ -1127,25 +1188,25 @@ namespace com.codename1.impl
 
         void webview_ContentLoading(WebView sender, WebViewContentLoadingEventArgs e)
         {
-            com.codename1.ui.events.BrowserNavigationCallback bn = (com.codename1.ui.events.BrowserNavigationCallback)currentBrowser.getBrowserNavigationCallback();
-            com.codename1.ui.events.ActionEvent ev = new com.codename1.ui.events.ActionEvent();
+            BrowserNavigationCallback bn = (BrowserNavigationCallback)currentBrowser.getBrowserNavigationCallback();
+            ActionEvent ev = new ActionEvent();
             ev.@this(toJava(e.Uri.OriginalString));
             currentBrowser.fireWebEvent(toJava("onLoad"), ev);
         }
 
         void webview_Navigating(WebView sender, WebViewNavigationStartingEventArgs e)
         {
-            com.codename1.ui.events.BrowserNavigationCallback bn = (com.codename1.ui.events.BrowserNavigationCallback)currentBrowser.getBrowserNavigationCallback();
+            BrowserNavigationCallback bn = (BrowserNavigationCallback)currentBrowser.getBrowserNavigationCallback();
             if (!bn.shouldNavigate(toJava(e.Uri.ToString())))
             {
                 e.Cancel = true;
             }
-            com.codename1.ui.events.ActionEvent ev = new com.codename1.ui.events.ActionEvent();
+            ActionEvent ev = new ActionEvent();
             ev.@this(toJava(e.Uri.OriginalString));
             currentBrowser.fireWebEvent(toJava("onStart"), ev);
         }
 
-        public override global::System.Object getBrowserTitle(global::com.codename1.ui.PeerComponent n1)
+        public override object getBrowserTitle(PeerComponent n1)
         {
             string st = null;
             using (AutoResetEvent are = new AutoResetEvent(false))
@@ -1161,7 +1222,7 @@ namespace com.codename1.impl
             return toJava(st);
         }
 
-        public override global::System.Object getBrowserURL(global::com.codename1.ui.PeerComponent n1)
+        public override object getBrowserURL(PeerComponent n1)
         {
             dispatcher.RunAsync(CoreDispatcherPriority.Normal, () =>
            {
@@ -1171,7 +1232,7 @@ namespace com.codename1.impl
             return toJava(webView.Source.OriginalString);
         }
 
-        public override void setBrowserURL(global::com.codename1.ui.PeerComponent browserPeer, global::java.lang.String url)
+        public override void setBrowserURL(PeerComponent browserPeer, java.lang.String url)
         {
             dispatcher.RunAsync(CoreDispatcherPriority.Normal, () =>
            {
@@ -1192,7 +1253,7 @@ namespace com.codename1.impl
            }).AsTask().GetAwaiter().GetResult();
         }
  
-        public override void browserReload(global::com.codename1.ui.PeerComponent n1)
+        public override void browserReload(PeerComponent n1)
         {
             dispatcher.RunAsync(CoreDispatcherPriority.Normal, () =>
             {
@@ -1201,7 +1262,7 @@ namespace com.codename1.impl
             }).AsTask().GetAwaiter().GetResult();
         }
 
-        public override bool browserHasBack(global::com.codename1.ui.PeerComponent n1)
+        public override bool browserHasBack(PeerComponent n1)
         {
             bool ret = false;
             using (AutoResetEvent are = new AutoResetEvent(false))
@@ -1217,7 +1278,7 @@ namespace com.codename1.impl
             return ret;
         }
 
-        public override bool browserHasForward(global::com.codename1.ui.PeerComponent n1)
+        public override bool browserHasForward(PeerComponent n1)
         {
             bool ret = false;
             using (AutoResetEvent are = new AutoResetEvent(false))
@@ -1233,7 +1294,7 @@ namespace com.codename1.impl
             return ret;
         }
 
-        public override void browserBack(global::com.codename1.ui.PeerComponent n1)
+        public override void browserBack(PeerComponent n1)
         {
             dispatcher.RunAsync(CoreDispatcherPriority.Normal, () =>
             {
@@ -1242,7 +1303,7 @@ namespace com.codename1.impl
             }).AsTask().GetAwaiter().GetResult();
         }
 
-        public override void browserStop(global::com.codename1.ui.PeerComponent n1)
+        public override void browserStop(PeerComponent n1)
         {
           dispatcher.RunAsync(CoreDispatcherPriority.Normal, () =>
          {
@@ -1251,7 +1312,7 @@ namespace com.codename1.impl
          }).AsTask().GetAwaiter().GetResult();
         }
 
-        public override void browserForward(global::com.codename1.ui.PeerComponent n1)
+        public override void browserForward(PeerComponent n1)
         {
               dispatcher.RunAsync(CoreDispatcherPriority.Normal, () =>
          {
@@ -1260,7 +1321,7 @@ namespace com.codename1.impl
          }).AsTask().GetAwaiter().GetResult();
         }
 
-        public override void setBrowserPage(global::com.codename1.ui.PeerComponent n1, global::java.lang.String n2, global::java.lang.String n3)
+        public override void setBrowserPage(PeerComponent n1, java.lang.String n2, java.lang.String n3)
         {
             dispatcher.RunAsync(CoreDispatcherPriority.Normal, () =>
            {
@@ -1278,7 +1339,7 @@ namespace com.codename1.impl
             }).AsTask().GetAwaiter();
         }
 
-        public override void execute(global::java.lang.String n1)
+        public override void execute(java.lang.String n1)
         {
             using (AutoResetEvent are = new AutoResetEvent(false))
             {
@@ -1292,7 +1353,7 @@ namespace com.codename1.impl
             }
         }
 
-        public override void browserExecute(global::com.codename1.ui.PeerComponent n1, global::java.lang.String n2)
+        public override void browserExecute(PeerComponent n1, java.lang.String n2)
         {
             dispatcher.RunAsync(CoreDispatcherPriority.Normal, async () =>
             {
@@ -1301,7 +1362,7 @@ namespace com.codename1.impl
             }).AsTask().GetAwaiter();
         }
 
-        public override global::System.Object browserExecuteAndReturnString(global::com.codename1.ui.PeerComponent n1, global::java.lang.String n2)
+        public override object browserExecuteAndReturnString(PeerComponent n1, java.lang.String n2)
         {
             string st = null;
             using (AutoResetEvent are = new AutoResetEvent(false))
@@ -1338,7 +1399,7 @@ namespace com.codename1.impl
         {
 
             string subject = toCSharp(n2);
-            var contactPicker = new Windows.ApplicationModel.Contacts.ContactPicker();
+            var contactPicker = new ContactPicker();
             contactPicker.DesiredFieldsWithContactFieldType.Add(ContactFieldType.Email);
             Contact recipient = contactPicker.PickContactAsync().AsTask().ConfigureAwait(false).GetAwaiter().GetResult();
             if (recipient != null)
@@ -1351,13 +1412,23 @@ namespace com.codename1.impl
                     {
                         foreach (ContactEmail email in fields as IList<ContactEmail>)
                         {
-                            EmailMessage emailMessage = new EmailMessage();
+#if WINDOWS_PHONE_APP
+                            Windows.ApplicationModel.Email.EmailMessage emailMessage = new Windows.ApplicationModel.Email.EmailMessage();
                             emailMessage.Body = toCSharp((java.lang.String)n3.getContent()); ;
                             emailMessage.Subject = subject;
                             var emailRecipient = new Windows.ApplicationModel.Email.EmailRecipient(email.Address);
                             emailMessage.To.Add(emailRecipient);
-                            EmailManager.ShowComposeNewEmailAsync(emailMessage).AsTask().ConfigureAwait(false).GetAwaiter().GetResult();
+                            Windows.ApplicationModel.Email.EmailManager.ShowComposeNewEmailAsync(emailMessage).AsTask().ConfigureAwait(false).GetAwaiter().GetResult();
                             break;
+#elif WINDOWS_UWP
+                                Windows.ApplicationModel.Email.EmailMessage emailMessage = new Windows.ApplicationModel.Email.EmailMessage();
+                            emailMessage.Body = toCSharp((java.lang.String)n3.getContent()); ;
+                            emailMessage.Subject = subject;
+                            var emailRecipient = new Windows.ApplicationModel.Email.EmailRecipient(email.Address);
+                            emailMessage.To.Add(emailRecipient);
+                            Windows.ApplicationModel.Email.EmailManager.ShowComposeNewEmailAsync(emailMessage).AsTask().ConfigureAwait(false).GetAwaiter().GetResult();
+                            break;
+#endif
                         }
                     }
                 }
@@ -1374,10 +1445,17 @@ namespace com.codename1.impl
 
         public override void sendSMS(java.lang.String n1, java.lang.String n2, bool n)
         {
+#if WINDOWS_PHONE_APP
             var chatMessage = new Windows.ApplicationModel.Chat.ChatMessage();
             chatMessage.Body = toCSharp(n2);
             chatMessage.Recipients.Add(toCSharp(n1));
             Windows.ApplicationModel.Chat.ChatMessageManager.ShowComposeSmsMessageAsync(chatMessage).AsTask().ConfigureAwait(false).GetAwaiter().GetResult();
+#elif WINDOWS_UWP
+             var chatMessage = new Windows.ApplicationModel.Chat.ChatMessage();
+            chatMessage.Body = toCSharp(n2);
+            chatMessage.Recipients.Add(toCSharp(n1));
+            Windows.ApplicationModel.Chat.ChatMessageManager.ShowComposeSmsMessageAsync(chatMessage).AsTask().ConfigureAwait(false).GetAwaiter().GetResult();
+#endif
         }
 
         public override object createMutableImage(int width, int height, int color)
@@ -1478,6 +1556,10 @@ namespace com.codename1.impl
         {
             return true;
         }
+        public override bool isPortrait()
+        {
+            return false;
+        }
 
         public override int getColor(java.lang.Object graphics)
         {
@@ -1528,13 +1610,13 @@ namespace com.codename1.impl
 
         public override int getFontAscent(java.lang.Object nativeFont)
         {
-            CanvasTextFormat font = (nativeFont == null ? this.defaulFontCanvas : (CanvasTextFormat)((NativeFont)nativeFont).font);
+            CanvasTextFormat font = (nativeFont == null ? defaulFontCanvas : ((NativeFont)nativeFont).font);
             return (int)-Math.Round(font.FontSize);
         }
 
         public override int getFontDescent(java.lang.Object nativeFont)
         {
-            CanvasTextFormat font = (nativeFont == null ? this.defaulFontCanvas : (CanvasTextFormat)((NativeFont)nativeFont).font);
+            CanvasTextFormat font = (nativeFont == null ? defaulFontCanvas : ((NativeFont)nativeFont).font);
             return (int)Math.Abs(Math.Round(font.FontSize));
         }
 
@@ -1629,7 +1711,7 @@ namespace com.codename1.impl
         public override void drawImage(java.lang.Object graphics, java.lang.Object img, int x, int y)
         {
             CodenameOneImage ci = (CodenameOneImage)img;
-            ci.lastAccess = System.DateTime.Now.Ticks;
+            ci.lastAccess = DateTime.Now.Ticks;
             if (ci.image != null)
             {
                 ((NativeGraphics)graphics).destination.drawImage(ci.image, x, y);
@@ -1649,7 +1731,7 @@ namespace com.codename1.impl
         public override void drawImage(java.lang.Object graphics, java.lang.Object img, int x, int y, int w, int h)
         {
             CodenameOneImage ci = (CodenameOneImage)img;
-            ci.lastAccess = System.DateTime.Now.Ticks;
+            ci.lastAccess = DateTime.Now.Ticks;
             if(ci.image != null){
                 ((NativeGraphics)graphics).destination.drawImage(ci.image, x, y, w, h);
             }
@@ -1688,12 +1770,12 @@ namespace com.codename1.impl
 
         public override int charsWidth(java.lang.Object n1, _nArrayAdapter<char> n2, int n3, int n4)
         {
-            global::java.lang.String s = new global::java.lang.String();
+            java.lang.String s = new java.lang.String();
             s.@this(n2, n3, n4);
             return stringWidth(n1, s);
         }
 
-        private static readonly Dictionary<StringFontPair, Int32> stringWidthCache = new Dictionary<StringFontPair, Int32>();
+        private static readonly Dictionary<StringFontPair, int> stringWidthCache = new Dictionary<StringFontPair, int>();
 
         public override int stringWidth(java.lang.Object n1, java.lang.String n2)
         {
@@ -1711,17 +1793,17 @@ namespace com.codename1.impl
             return stringWidth(n1, toJava(n2));
         }
 
-        public override int getFace(global::java.lang.Object n1)
+        public override int getFace(java.lang.Object n1)
         {
             return f(n1).face;
         }
 
-        public override int getSize(global::java.lang.Object n1)
+        public override int getSize(java.lang.Object n1)
         {
             return f(n1).size;
         }
 
-        public override int getStyle(global::java.lang.Object n1)
+        public override int getStyle(java.lang.Object n1)
         {
             return f(n1).style;
         }
@@ -1739,15 +1821,15 @@ namespace com.codename1.impl
         public override object loadNativeFont(java.lang.String lookupStr)
         {
             string lookup = nativePath(lookupStr);
-            string[] fonts = lookup.Split(new Char[] { ';' });
+            string[] fonts = lookup.Split(new char[] { ';' });
             foreach (string f in fonts)
             {
                 try
                 {
-                    string[] split = f.Split(new Char[] { '-' });
-                    String familyName = split[0];
-                    String style = split[1];
-                    String size = split[2];
+                    string[] split = f.Split(new char[] { '-' });
+                    string familyName = split[0];
+                    string style = split[1];
+                    string size = split[2];
 
                     NativeFont nf = new NativeFont(0, 0, 0, new CanvasTextFormat());
                     using (AutoResetEvent are = new AutoResetEvent(false))
@@ -1843,7 +1925,7 @@ namespace com.codename1.impl
         {
             if (defaultFont == null)
             {
-                object defaul = createFont(com.codename1.ui.Font._fFACE_1SYSTEM, com.codename1.ui.Font._fSTYLE_1PLAIN, com.codename1.ui.Font._fSIZE_1MEDIUM);
+                object defaul = createFont(Font._fFACE_1SYSTEM, Font._fSTYLE_1PLAIN, Font._fSIZE_1MEDIUM);
                 defaultFont = (NativeFont)defaul;
             }
             return defaultFont;
@@ -1895,12 +1977,12 @@ namespace com.codename1.impl
             return true;
         }
 
-        public override global::System.Object createSoftWeakRef(global::java.lang.Object n1)
+        public override object createSoftWeakRef(java.lang.Object n1)
         {
             return new SoftRef(n1);
         }
 
-        public override global::System.Object extractHardRef(global::java.lang.Object n1)
+        public override object extractHardRef(java.lang.Object n1)
         {
             if (n1 != null)
             {
@@ -1909,7 +1991,7 @@ namespace com.codename1.impl
             return null;
         }
         
-        public override global::System.Object connect(global::java.lang.String n1, bool read, bool write)
+        public override object connect(java.lang.String n1, bool read, bool write)
         {
             NetworkOperation n = new NetworkOperation();
             Uri uri = new Uri(nativePath(n1));
@@ -1917,7 +1999,7 @@ namespace com.codename1.impl
             return n;
         }
 
-        public override void setHeader(global::java.lang.Object n1, global::java.lang.String n2, global::java.lang.String n3)
+        public override void setHeader(java.lang.Object n1, java.lang.String n2, java.lang.String n3)
         {
             NetworkOperation n = (NetworkOperation)n1;
             string key = toCSharp(n2);
@@ -1937,7 +2019,6 @@ namespace com.codename1.impl
             }
             if (key.ToLower().Equals("content-length"))
             {
-                //   n.request.ContentLength = Int32.Parse(value);
                 return;
             }
             if (key.ToLower().Equals("content-type"))
@@ -1954,12 +2035,12 @@ namespace com.codename1.impl
             n.request.Headers[key] = value;
         }
 
-        public override int getContentLength(global::java.lang.Object n1)
+        public override int getContentLength(java.lang.Object n1)
         {
             return Convert.ToInt32(((NetworkOperation)n1).response.ContentLength);
         }
 
-        public override global::System.Object openOutputStream(global::java.lang.Object connection)
+        public override object openOutputStream(java.lang.Object connection)
         {
             if (connection is java.lang.String)
             {
@@ -1971,17 +2052,17 @@ namespace com.codename1.impl
                 }
                 catch (Exception e)
                 {
-                    java.io.FileNotFoundException ex = new global::java.io.FileNotFoundException();
+                    java.io.FileNotFoundException ex = new java.io.FileNotFoundException();
                     ex.@this(toJava("FileNotFoundException - " + e.Message));
-                    throw new global::org.xmlvm._nExceptionAdapter(ex);
+                    throw new _nExceptionAdapter(ex);
                 }
             }
-            com.codename1.io.BufferedOutputStream bo = new com.codename1.io.BufferedOutputStream();
+            io.BufferedOutputStream bo = new io.BufferedOutputStream();
             bo.@this(new OutputStreamProxy(((NetworkOperation)connection).requestStream));
             return bo;
         }
 
-        public override global::System.Object openOutputStream(global::java.lang.Object connection, int offset)
+        public override object openOutputStream(java.lang.Object connection, int offset)
         {
             if (connection is java.lang.String)
             {
@@ -1994,15 +2075,15 @@ namespace com.codename1.impl
                 }
                 catch (Exception e)
                 {
-                    java.io.FileNotFoundException ex = new global::java.io.FileNotFoundException();
+                    java.io.FileNotFoundException ex = new java.io.FileNotFoundException();
                     ex.@this(toJava("FileNotFoundException - " + e.Message));
-                    throw new global::org.xmlvm._nExceptionAdapter(ex);
+                    throw new _nExceptionAdapter(ex);
                 }
             }
             return null;
         }
 
-        public override global::System.Object openInputStream(global::java.lang.Object connection)
+        public override object openInputStream(java.lang.Object connection)
         {
             if (connection is java.lang.String)
             {
@@ -2015,17 +2096,17 @@ namespace com.codename1.impl
                 }
                 catch (Exception e)
                 {
-                    java.io.FileNotFoundException ex = new global::java.io.FileNotFoundException();
+                    java.io.FileNotFoundException ex = new java.io.FileNotFoundException();
                     ex.@this(toJava("FileNotFoundException - " + e.Message));
-                    throw new global::org.xmlvm._nExceptionAdapter(ex);
+                    throw new _nExceptionAdapter(ex);
                 }
             }
-            com.codename1.io.BufferedInputStream bo = new com.codename1.io.BufferedInputStream();
+            io.BufferedInputStream bo = new io.BufferedInputStream();
             bo.@this(new InputStreamProxy(((NetworkOperation)connection).response.GetResponseStream()));
             return bo;
         }
 
-        public override void setPostRequest(global::java.lang.Object n1, bool n2)
+        public override void setPostRequest(java.lang.Object n1, bool n2)
         {
             if (n2)
             {
@@ -2037,32 +2118,33 @@ namespace com.codename1.impl
             }
         }
 
-        public override int getResponseCode(global::java.lang.Object n1)
+        public override int getResponseCode(java.lang.Object n1)
         {
             return Convert.ToInt32(((NetworkOperation)n1).response.StatusCode);
         }
 
-        public override global::System.Object getResponseMessage(global::java.lang.Object n1)
+        public override object getResponseMessage(java.lang.Object n1)
         {
             return toJava(((NetworkOperation)n1).response.StatusDescription);
         }
-
+#if WINDOWS_PHONE_APP
         public override void vibrate(int n1)
         {
-            VibrationDevice vc = VibrationDevice.GetDefault();
+
+            Windows.Phone.Devices.Notification.VibrationDevice vc = Windows.Phone.Devices.Notification.VibrationDevice.GetDefault();
             vc.Vibrate(TimeSpan.FromMilliseconds(n1));
         }
-
-        public override global::System.Object getHeaderField(global::java.lang.String n1, global::java.lang.Object n2)
+#endif
+        public override object getHeaderField(java.lang.String n1, java.lang.Object n2)
         {
             return toJava(((NetworkOperation)n2).response.Headers[toCSharp(n1)]);
         }
 
-        public override global::System.Object getHeaderFieldNames(global::java.lang.Object n1)
+        public override object getHeaderFieldNames(java.lang.Object n1)
         {
             int i = ((NetworkOperation)n1).response.Headers.Count;
             java.lang.String[] arr = new java.lang.String[i];
-            _nArrayAdapter<global::System.Object> r = new _nArrayAdapter<global::System.Object>(arr);
+            _nArrayAdapter<object> r = new _nArrayAdapter<object>(arr);
             string[] keys = ((NetworkOperation)n1).response.Headers.AllKeys;
             for (int iter = 0; iter < i; iter++)
             {
@@ -2071,14 +2153,14 @@ namespace com.codename1.impl
             return r;
         }
 
-        public override global::System.Object getHeaderFields(global::java.lang.String n1, global::java.lang.Object n2)
+        public override object getHeaderFields(java.lang.String n1, java.lang.Object n2)
         {
-            String s = ((NetworkOperation)n2).response.Headers[toCSharp(n1)];
+            string s = ((NetworkOperation)n2).response.Headers[toCSharp(n1)];
             if (s == null)
             {
                 return null;
             }
-            return new _nArrayAdapter<global::System.Object>(new java.lang.String[] { toJava(s) });
+            return new _nArrayAdapter<object>(new java.lang.String[] { toJava(s) });
         }
 
         public override int getCommandBehavior()
@@ -2087,7 +2169,7 @@ namespace com.codename1.impl
             return 4;
         }
 
-        public override void deleteStorageFile(global::java.lang.String name)
+        public override void deleteStorageFile(java.lang.String name)
         {
             deleteFile(iDefaultStore, nativePath(name));
         }
@@ -2103,7 +2185,7 @@ namespace com.codename1.impl
             return Convert.ToInt32(size);
         }
 
-        public override global::System.Object createStorageOutputStream(global::java.lang.String name)
+        public override object createStorageOutputStream(java.lang.String name)
         {
             try
             {
@@ -2112,13 +2194,13 @@ namespace com.codename1.impl
             }
             catch (Exception e)
             {
-                java.io.FileNotFoundException ex = new global::java.io.FileNotFoundException();
+                java.io.FileNotFoundException ex = new java.io.FileNotFoundException();
                 ex.@this(toJava("FileNotFoundException - " + e.Message));
-                throw new global::org.xmlvm._nExceptionAdapter(ex);
+                throw new _nExceptionAdapter(ex);
             }
         }
 
-        public override global::System.Object createStorageInputStream(global::java.lang.String name)
+        public override object createStorageInputStream(java.lang.String name)
         {
             try
             {
@@ -2134,14 +2216,14 @@ namespace com.codename1.impl
                 }
                 catch (Exception e)
                 {
-                    java.io.FileNotFoundException ex = new global::java.io.FileNotFoundException();
+                    java.io.FileNotFoundException ex = new java.io.FileNotFoundException();
                     ex.@this(toJava("FileNotFoundException - " + e.Message));
-                    throw new global::org.xmlvm._nExceptionAdapter(ex);
+                    throw new _nExceptionAdapter(ex);
                 }
             }
         }
 
-        public override bool storageFileExists(global::java.lang.String name)
+        public override bool storageFileExists(java.lang.String name)
         {
             string uri = nativePath(name);
             if (uri.StartsWith("/"))
@@ -2159,10 +2241,10 @@ namespace com.codename1.impl
             {
                 resp[iter] = toJava(arr[iter]);
             }
-            return new _nArrayAdapter<global::System.Object>(resp);
+            return new _nArrayAdapter<object>(resp);
         }
 
-        public override global::System.Object listStorageEntries()
+        public override object listStorageEntries()
         {
             IReadOnlyList<StorageFile> filesInFolder = iDefaultStore.GetFilesAsync().AsTask().ConfigureAwait(false).GetAwaiter().GetResult();
 
@@ -2174,9 +2256,14 @@ namespace com.codename1.impl
             return convertArray(ss);
         }
 
-        public override global::System.Object getAppHomePath()
+        public override object getAppHomePath()
         {
+#if WINDOWS_PHONE_APP
+
             return toJava("file:///" + getDictValue(iCN1Settings, "DefaultStorageFolder", "Cache:"));
+#else
+            return toJava("file:///" + getDictValue(iCN1Settings, "DefaultStorageFolder", "Local:"));
+#endif
         }
 
         public override object listFilesystemRoots()
@@ -2187,27 +2274,23 @@ namespace com.codename1.impl
             if (sdcards != null)
             {
                 roots.Add(toJava("removable:"));
-                //var storageAssets = (sdcards.GetFoldersAsync().AsTask().ConfigureAwait(false).GetAwaiter().GetResult()).FirstOrDefault();
-
-                //foreach (StorageFolder f in storageAssets)
-                //{
-                //    roots.Add(toJava(f.DisplayName));
-                //}
             }
             roots.Add(toJava("install:"));
             roots.Add(toJava("roaming:"));
             roots.Add(toJava("cache:"));
             roots.Add(toJava("temp:"));
             roots.Add(toJava("CameraRoll:"));
+            roots.Add(toJava("Pictures:"));
             roots.Add(toJava("SDCard:"));
+           
 
-            var rootsAll = new _nArrayAdapter<global::System.Object>(roots.ToArray());
+            var rootsAll = new _nArrayAdapter<object>(roots.ToArray());
             return rootsAll;
         }
 
         private static StorageFolder getStore(java.lang.String url)
         {
-            String ss = toCSharp(url);
+            string ss = toCSharp(url);
             return getStore(ss);
         }
 
@@ -2238,16 +2321,20 @@ namespace com.codename1.impl
                         //        ss = ss.Substring(1);
                         if (ss.Equals("local"))
                             return ApplicationData.Current.LocalFolder;
+#if WINDOWS_PHONE_APP
                         else if (ss.Equals("cache"))
                             return ApplicationData.Current.LocalCacheFolder;
+#endif
                         else if (ss.Equals("roaming"))
                             return ApplicationData.Current.RoamingFolder;
                         else if (ss.Equals("install"))
-                            return Windows.ApplicationModel.Package.Current.InstalledLocation;
+                            return Package.Current.InstalledLocation;
                         else if (ss.Equals("temp"))
                             return ApplicationData.Current.TemporaryFolder;
                         else if (ss.Equals("cameraroll"))
                             return KnownFolders.CameraRoll;
+                        else if (ss.Equals("pictures"))
+                            return KnownFolders.PicturesLibrary;
                         else if (ss.Equals("removable"))
                             return KnownFolders.RemovableDevices;
                         else if (ss.Equals("sdcard"))
@@ -2260,7 +2347,13 @@ namespace com.codename1.impl
                     }
                 }
                 if (iDefaultStore == null)
+                {
+#if WINDOWS_PHONE_APP
                     return ApplicationData.Current.LocalCacheFolder;
+#else
+                    return ApplicationData.Current.LocalFolder;
+#endif
+                }
                 else
                     return iDefaultStore;
             }
@@ -2369,15 +2462,6 @@ namespace com.codename1.impl
                     s = s + "/";
                 dirnames[i] = s;
             }
-            //for (int N = dirnames.Length, i = 0; i < N; i++)
-            //{
-            //    if (!dirnames[i].EndsWith("/"))
-            //    {
-            //        dirnames[i] = dirnames[i] + "/";
-            //    }
-            //}
-            //string[] filenames = await store.GetFileNames(nativePath(directory) + "\\*.*");
-
             IReadOnlyList<StorageFile> fileNames = folder.GetFilesAsync().AsTask().ConfigureAwait(false).GetAwaiter().GetResult();
             string[] filenames = new string[fileNames.Count];
             for (int i = 0; i < fileNames.Count; i++)
@@ -2393,31 +2477,23 @@ namespace com.codename1.impl
         public override long getRootSizeBytes(java.lang.String root)
         {
             return 0;
-             //StorageFolder s = getStore(root);
-            //if (s == null) return 0;
-            //var properties = s.GetBasicPropertiesAsync().AsTask().ConfigureAwait(false).GetAwaiter().GetResult();
-            //var filteredProperties = properties.RetrievePropertiesAsync(new[] { "System.Size" }).AsTask().ConfigureAwait(false).GetAwaiter().GetResult();
-            //var free = filteredProperties["System.Size"];
-            //return Convert.ToInt64(free);
         }
 
         public override long getRootAvailableSpace(java.lang.String root)
         {
 
             StorageFolder s = getStore(root);
-            if (s == null) 
-                return 0;
+            if (s == null)  return 0;
             var properties = s.GetBasicPropertiesAsync().AsTask().ConfigureAwait(false).GetAwaiter().GetResult();
             var filteredProperties = properties.RetrievePropertiesAsync(new[] { "System.FreeSpace" }).AsTask().ConfigureAwait(false).GetAwaiter().GetResult();
             var free = filteredProperties["System.FreeSpace"];
             return Convert.ToInt64(free);
-            ///return (long)store.GetBasicPropertiesAsync().AsTask().ConfigureAwait(false).GetAwaiter().GetResult().Size;
         }
 
         public override void mkdir(java.lang.String directory)
         {
             StorageFolder store = getStore(directory);
-            String f = nativePathStore(directory);
+            string f = nativePathStore(directory);
             store.CreateFolderAsync(f).AsTask().ConfigureAwait(false).GetAwaiter().GetResult();
         }
 
@@ -2432,12 +2508,11 @@ namespace com.codename1.impl
         {
             try
             {
-                if (f.Length == 0 || (f.Length == 1 && f[0] == '\\'))
-                    return; //root folder
+                if (f.Length == 0 || (f.Length == 1 && f[0] == '\\')) return; //root folder
                 var item = store.GetItemAsync(f).AsTask().ConfigureAwait(false).GetAwaiter().GetResult();
                 item.DeleteAsync().AsTask().ConfigureAwait(false).GetAwaiter().GetResult();
             }
-            catch (System.Exception err)
+            catch (Exception err)
             {
                 //ignore file deletion errors 
                 err.ToJavaException().printStackTrace();
@@ -2454,13 +2529,33 @@ namespace com.codename1.impl
             StorageFolder store = getStore(n1);
         }
 
+        public override bool isTablet()
+        {
+            return isPhone;
+        }
+
+        public override object getDisplayLock()
+        {
+            return base.getDisplayLock();
+        }
+
         public override long getFileLength(java.lang.String aFile)
         {
             StorageFolder store = getStore(aFile);
-            StorageFile file = store.GetFileAsync(nativePathStore(aFile)).AsTask().ConfigureAwait(false).GetAwaiter().GetResult();
-            Stream stream = file.OpenReadAsync().AsTask().ConfigureAwait(false).GetAwaiter().GetResult().AsStream();
-            long l1 = stream.Length;
-            stream.Dispose();
+            string name = nativePathStore(aFile);
+            long l1;
+            try
+            {
+                StorageFile file = store.GetFileAsync(name).AsTask().ConfigureAwait(false).GetAwaiter().GetResult();
+                Stream stream = file.OpenReadAsync().AsTask().ConfigureAwait(false).GetAwaiter().GetResult().AsStream();
+                l1 = stream.Length;
+                stream.Dispose();
+            }
+            catch (Exception)
+            {
+                throw;
+            }
+    
             return l1;
         }
 
@@ -2474,8 +2569,6 @@ namespace com.codename1.impl
                     return true; //root folder
                 var item = store.GetItemAsync(f).AsTask().ConfigureAwait(false).GetAwaiter().GetResult();
                 return item.IsOfType(StorageItemTypes.Folder);
-                //   folder = store.GetFolderAsync(nativePathStore(file)).AsTask().ConfigureAwait(false).GetAwaiter().GetResult();
-                //   return folder != null; //.Name.Equals(nativePath(file));
             }
             catch (Exception )
             {
@@ -2487,33 +2580,12 @@ namespace com.codename1.impl
         public override bool exists(java.lang.String file)
         {
             StorageFolder store = getStore(file);
-            String f = nativePathStore(file);
+            string f = nativePathStore(file);
             return exists(store, f);
         }
 
         private bool exists(StorageFolder aStore, string aFile)
         {  
-            // not supported on win rt phone
-            //CommonFileQuery commFile = CommonFileQuery.DefaultQuery;
-            //commFile.Equals(aFile);
-            //if (aStore.IsCommonFileQuerySupported(commFile)) { 
-            //    var files = aStore.GetFilesAsync(commFile).AsTask().ConfigureAwait(false).GetAwaiter().GetResult();
-            //    if (files.Count > 0)
-            //        return true;
-            //    else {
-            //        CommonFolderQuery commfolder = CommonFolderQuery.DefaultQuery;
-            //        commfolder.Equals(aFile);
-            //        if (aStore.IsCommonFolderQuerySupported(commfolder)) {
-            //            var folders = aStore.GetFoldersAsync(commfolder).AsTask().ConfigureAwait(false).GetAwaiter().GetResult();
-            //            if (folders.Count > 0)
-            //                return true;
-            //            else {
-            //                return false;
-            //            }
-            //        }
-            //    }
-            //}
-
             bool fileExists;
             try
             {
@@ -2543,32 +2615,31 @@ namespace com.codename1.impl
             return toJava("win");
         }
 
-        public override global::System.Object getLocalizationManager()
+        public override object getLocalizationManager()
         {
             //XMLVM_BEGIN_WRAPPER[com.codename1.impl.SilverlightImplementation: com.codename1.l10n.L10NManager getLocalizationManager()]
-            global::org.xmlvm._nElement _r0;
+            _nElement _r0;
             _r0.i = 0;
             _r0.l = 0;
             _r0.f = 0;
             _r0.d = 0;
-            global::System.Object _r0_o = null;
-            global::org.xmlvm._nElement _r1;
+            object _r0_o = null;
+            _nElement _r1;
             _r1.i = 0;
             _r1.l = 0;
             _r1.f = 0;
             _r1.d = 0;
-            global::System.Object _r1_o = null;
+            object _r1_o = null;
             // global::org.xmlvm._nExceptionAdapter _ex = null;
             _r1_o = this;
-            _r0_o = new global::com.codename1.impl.SilverlightImplementation_2L10NManagerImpl();
-            ((global::com.codename1.impl.SilverlightImplementation_2L10NManagerImpl)_r0_o).@this();
-            return (global::com.codename1.l10n.L10NManager)_r0_o;
+            _r0_o = new SilverlightImplementation_2L10NManagerImpl();
+            ((SilverlightImplementation_2L10NManagerImpl)_r0_o).@this();
+            return (l10n.L10NManager)_r0_o;
             //XMLVM_END_WRAPPER[com.codename1.impl.SilverlightImplementation: com.codename1.l10n.L10NManager getLocalizationManager()]
         }
 
         public override object getLocationManager()
         {
-
             if (locationManager == null)
             {
                 locationManager = new LocationManager();
@@ -2579,7 +2650,12 @@ namespace com.codename1.impl
         private SilverlightImageIO imageIO;
         private SimpleOrientationSensor _sensor;
         private static WindowsAsyncView myView;
-        public static Microsoft.Graphics.Canvas.DirectX.DirectXPixelFormat pixelFormat = Microsoft.Graphics.Canvas.DirectX.DirectXPixelFormat.B8G8R8A8UIntNormalized;
+
+#if WINDOWS_UWP
+          public static DirectXPixelFormat pixelFormat = DirectXPixelFormat.B8G8R8A8UIntNormalized;
+#else
+        public static DirectXPixelFormat pixelFormat = DirectXPixelFormat.B8G8R8A8UIntNormalized;
+#endif
         private NativeGraphics globalGraphics;
         private Windows.Foundation.Point point;
         private static float rawDpiy;
@@ -2596,1087 +2672,39 @@ namespace com.codename1.impl
             return imageIO;
         }
 
-        public override bool instanceofObjArray(global::java.lang.Object n1)
+        public override bool instanceofObjArray(java.lang.Object n1)
         {
-            return n1 is global::org.xmlvm._nArrayAdapter<global::System.Object>;
+            return n1 is _nArrayAdapter<object>;
         }
 
-        public override bool instanceofByteArray(global::java.lang.Object n1)
+        public override bool instanceofByteArray(java.lang.Object n1)
         {
-            return n1 is global::org.xmlvm._nArrayAdapter<sbyte>;
+            return n1 is _nArrayAdapter<sbyte>;
         }
 
-        public override bool instanceofShortArray(global::java.lang.Object n1)
+        public override bool instanceofShortArray(java.lang.Object n1)
         {
-            return n1 is global::org.xmlvm._nArrayAdapter<short>;
+            return n1 is _nArrayAdapter<short>;
         }
 
-        public override bool instanceofLongArray(global::java.lang.Object n1)
+        public override bool instanceofLongArray(java.lang.Object n1)
         {
-            return n1 is global::org.xmlvm._nArrayAdapter<long>;
+            return n1 is _nArrayAdapter<long>;
         }
 
-        public override bool instanceofIntArray(global::java.lang.Object n1)
+        public override bool instanceofIntArray(java.lang.Object n1)
         {
-            return n1 is global::org.xmlvm._nArrayAdapter<int>;
+            return n1 is _nArrayAdapter<int>;
         }
 
-        public override bool instanceofFloatArray(global::java.lang.Object n1)
+        public override bool instanceofFloatArray(java.lang.Object n1)
         {
-            return n1 is global::org.xmlvm._nArrayAdapter<float>;
+            return n1 is _nArrayAdapter<float>;
         }
 
-        public override bool instanceofDoubleArray(global::java.lang.Object n1)
+        public override bool instanceofDoubleArray(java.lang.Object n1)
         {
-            return n1 is global::org.xmlvm._nArrayAdapter<double>;
+            return n1 is _nArrayAdapter<double>;
         }
-    }
-
-    public class NativeGraphics : global::java.lang.Object
-    {
-        public WindowsGraphics destination;
-        private int clipX, clipY, clipW, clipH;
-        private Rectangle actualClip;
-        public Rectangle clip
-        {
-            set
-            {
-                actualClip = value;
-                destination.setClip(value);
-                clipX = actualClip.getX();
-                clipY = actualClip.getY();
-                clipW = actualClip.getWidth();
-                clipH = actualClip.getHeight();
-            }
-            get { return actualClip; }
-        }
-        private NativeFont actualFont;
-        public NativeFont font
-        {
-            set
-            {
-                actualFont = value;
-                destination.setFont(value.font);
-            }
-            get { return actualFont; }
-        }
-
-        public void resetClip()
-        {
-            Rectangle r = new Rectangle();
-            r.@this(0, 0, Convert.ToInt32(SilverlightImplementation.screen.ActualWidth), Convert.ToInt32(SilverlightImplementation.screen.ActualHeight));
-            clip = r;
-        }
-
-        public int getClipX() { return clipX; }
-        public int getClipY() { return clipY; }
-        public int getClipW() { return clipW; }
-        public int getClipH() { return clipH; }
-    }
-
-    public class DrawStringCache
-    {
-        public string str;
-        public int color;
-        public NativeFont font;
-        public long lastAccess;
-
-        public override bool Equals(object obj)
-        {
-            DrawStringCache d = (DrawStringCache)obj;
-            return str.Equals(d.str) && color == d.color && font == d.font;
-        }
-
-        public override int GetHashCode()
-        {
-            return str.GetHashCode() + color;
-        }
-    }
-
-    public class CodenameOneImage : java.lang.Object
-    {
-        public long lastAccess = System.DateTime.Now.Ticks;
-        public string name;
-        public bool opaque = false;
-        public bool mutable = false;
-        private CanvasRenderTarget actualImage;
-        public CanvasRenderTarget image
-        {
-            set
-            {
-                actualImage = value;
-                width = Convert.ToInt32(Math.Ceiling((double)actualImage.SizeInPixels.Width));
-                height = Convert.ToInt32(Math.Ceiling((double)actualImage.SizeInPixels.Height));
-                initGraphics(); ///
-            }
-            get { return actualImage; }
-        }
-        private int width = -1;
-        private int height = -1;
-        public NativeGraphics graphics = new NativeGraphics();
-
-        new public void @this()
-        {
-            base.@this();
-        }
-
-        public void initGraphics() ///
-        {
-            if (mutable)
-            {
-                graphics.destination = new WindowsMutableGraphics(image);
-            }
-            else
-            {
-                graphics.destination = new WindowsGraphics(image.CreateDrawingSession());
-            }
-        }
-        public void setSize(int w, int h)
-        {
-            width = Convert.ToInt32(Math.Ceiling((double)w));
-            height = Convert.ToInt32(Math.Ceiling((double)h));
-        }
-
-        public int getImageWidth()
-        {
-            return width;
-        }
-
-        public int getImageHeight()
-        {
-            return height;
-        }
-    }
-
-    public class NativeFont : global::java.lang.Object
-    {
-        public int face;
-        public int style;
-        public int size;
-        public CanvasTextFormat font = new CanvasTextFormat();
-        string fileName;
-        private int actualHeight = -1;
-        public int height
-        {
-            get
-            {
-                if (actualHeight < 0)
-                {
-                    CanvasTextLayout fontLayout = new CanvasTextLayout(SilverlightImplementation.screen, "Mg", font, 0.0f, 0.0f);
-                    actualHeight = Convert.ToInt32(Math.Ceiling(fontLayout.LayoutBounds.Height));
-                }
-                return actualHeight;
-            }
-            set
-            {
-                actualHeight = value;
-            }
-        }
-        public bool bold;
-        public bool italic;
-        int weight;
-
-        public NativeFont(int face, int style, int size, CanvasTextFormat font, String fileName, int height, int weight)
-            : this(face, style, size, font)
-        {
-            this.fileName = fileName;
-            this.height = height;
-            this.weight = weight;
-        }
-
-        public NativeFont(int face, int style, int size, CanvasTextFormat font)
-        {
-            this.face = face;
-            this.style = style;
-            this.size = size;
-            this.font = font;
-            this.font.FontSize = this.font.FontSize;// *1.2f; /// (float)SilverlightImplementation.scaleFactor; 
-            /// default fonts are to small for phone screen
-        }
-
-        public override bool Equals(object o)
-        {
-            NativeFont f = (NativeFont)o;
-            return f.height == height && f.face == face && f.size == size && f.style == style;
-        }
-
-        public override int GetHashCode()
-        {
-            return face | style | size ;
-        }
-     
-        internal int getStringWidth(string str)
-        {
-            String aux = str.Trim();
-            if (aux.Length < str.Length)
-            {
-                // WIN2D does not take space size into account
-                int spaceSize = getStringWidth("_ _") - getStringWidth("__");
-                CanvasTextLayout fontLayout = new CanvasTextLayout(SilverlightImplementation.screen, aux, font, 0.0f, 0.0f);
-                return Convert.ToInt32(Math.Ceiling(fontLayout.LayoutBounds.Width)) + spaceSize * (str.Length - aux.Length);
-            }
-            else
-            {
-                CanvasTextLayout fontLayout = new CanvasTextLayout(SilverlightImplementation.screen, str, font, 0.0f, 0.0f);
-                return Convert.ToInt32(Math.Ceiling(fontLayout.LayoutBounds.Width));
-            }
-        }
-    }
-
-    class WaitForEdit : java.lang.Object, java.lang.Runnable
-    {
-        public virtual void run()
-        {
-            while (SilverlightImplementation.instance.currentlyEditing != null)
-            {
-                Task.Run(() => global::System.Threading.Tasks.Task.Delay(TimeSpan.FromMilliseconds(1))).GetAwaiter().GetResult();
-            }
-        }
-    }
-
-    class EditString : java.lang.Object, java.lang.Runnable
-    {
-        private global::com.codename1.ui.Component n1;
-        private int n2;
-        private int n3;
-        private global::java.lang.String n4;
-        private int n5;
-
-        public EditString(global::com.codename1.ui.Component n1, int n2, int n3, global::java.lang.String n4, int n5)
-        {
-            this.n1 = n1;
-            this.n2 = n2;
-            this.n3 = n3;
-            this.n4 = n4;
-            this.n5 = n5;
-        }
-
-        public virtual void run()
-        {
-            com.codename1.ui.Display d = (com.codename1.ui.Display)com.codename1.ui.Display.getInstance();
-            d.editString(n1, n2, n3, n4, n5);
-            ((com.codename1.ui.Form)n1.getComponentForm()).repaint();
-        }
-    }
-
-    class WaitForNativeEdit : java.lang.Object, java.lang.Runnable
-    {
-        public virtual void run()
-        {
-            while (SilverlightImplementation.textInputInstance != null)
-            {
-                Task.Run(() => global::System.Threading.Tasks.Task.Delay(TimeSpan.FromMilliseconds(1))).GetAwaiter().GetResult();
-            }
-        }
-    }
-
-    public class SoftRef : java.lang.Object
-    {
-        global::System.WeakReference w;
-
-        public SoftRef(java.lang.Object obj)
-        {
-            w = new WeakReference(obj);
-        }
-
-        public java.lang.Object get()
-        {
-            java.lang.Object o = (java.lang.Object)w.Target;
-            return o;
-        }
-    }
-
-    class NetworkOperation : java.lang.Object
-    {
-        private bool responseCompleted;
-        private bool postCompleted;
-        public HttpWebRequest request;
-        ///public HttpClientHandler handler;
-
-        public Stream requestStream
-        {
-            get
-            {
-                if (postData == null)
-                {
-                    request.BeginGetRequestStream(PostCallback, request);
-                    while (!postCompleted)
-                    {
-                        Task.Run(() => System.Threading.Tasks.Task.Delay(TimeSpan.FromMilliseconds(5))).GetAwaiter().GetResult();
-                    }
-                }
-                return postData;
-            }
-        }
-
-        private Stream postData;
-
-        public HttpWebResponse response
-        {
-            get
-            {
-                if (resp == null)
-                {
-                    if (postData != null)
-                    {
-                        postData.Dispose();
-                    }
-                    request.BeginGetResponse(ResponseCallback, request);
-
-                    while (!responseCompleted)
-                    {
-                        Task.Run(() => Task.Delay(TimeSpan.FromMilliseconds(5))).GetAwaiter().GetResult();
-                    }
-                    if (resp == null)
-                    {
-                        global::java.io.IOException io = new global::java.io.IOException();
-                        if (error != null)
-                        {
-                            io.@this(SilverlightImplementation.toJava(error.Message));
-                        }
-                        else
-                        {
-                            io.@this(SilverlightImplementation.toJava("Null response"));
-                        }
-                        throw new global::org.xmlvm._nExceptionAdapter(io);
-                    }
-                }
-                return resp;
-            }
-        }
-
-        private HttpWebResponse resp;
-        private WebException error;
-
-        private void ResponseCallback(IAsyncResult asyncResult)
-        {
-            try
-            {
-                resp = (HttpWebResponse)request.EndGetResponse(asyncResult);
-            }
-            catch (WebException we)
-            {
-                error = we;
-                if (we.Response != null)
-                {
-                    resp = (HttpWebResponse)we.Response;
-                }
-            }
-            responseCompleted = true;
-        }
-
-        private void PostCallback(IAsyncResult asyncResult)
-        {
-            postData = request.EndGetRequestStream(asyncResult);
-            postCompleted = true;
-        }
-    }
-
-    class InputStreamProxy : java.io.InputStream
-    {
-        private Stream internalStream;
-        private long markedPosition = 0;
-
-        public InputStreamProxy(Stream internalStream)
-        {
-            base.@this();
-            this.internalStream = internalStream;
-        }
-
-        public override int available()
-        {
-            return 0;
-        }
-
-        public override void close()
-        {
-            internalStream.Dispose();
-        }
-
-        public override bool markSupported()
-        {
-            return internalStream.CanSeek;
-        }
-
-        public override void mark(int readlimit)
-        {
-            markedPosition = internalStream.Position;
-        }
-
-        public override int read()
-        {
-            return internalStream.ReadByte();
-        }
-
-        public override int read(global::org.xmlvm._nArrayAdapter<sbyte> n1)
-        {
-            return read(n1, 0, n1.Length);
-
-        }
-
-        public override int read(global::org.xmlvm._nArrayAdapter<sbyte> n1, int n2, int n3)
-        {
-            sbyte[] sb = n1.getCSharpArray();
-            int v = internalStream.Read((byte[])(Array)sb, n2, n3);
-            if (v <= 0)
-            {
-                return -1;
-            }
-            return v;
-        }
-
-        public override void reset()
-        {
-            internalStream.Seek(markedPosition, SeekOrigin.Begin);
-        }
-
-        public override long skip(long n)
-        {
-            internalStream.Seek(n, SeekOrigin.Current);
-            return n;
-        }
-    }
-
-    class OutputStreamProxy : java.io.OutputStream
-    {
-        private Stream internalStream;
-        public OutputStreamProxy(Stream internalStream)
-        {
-            base.@this();
-            this.internalStream = internalStream;
-        }
-
-        public override void close()
-        {
-            if (internalStream == null)
-            {
-                return;
-            }
-            try
-            {
-                lock (internalStream)
-                    internalStream.Dispose();
-            }
-            catch (Exception)
-            {
-                //internalStream = null;
-            }
-            internalStream = null;
-        }
-
-        public override void flush()
-        {
-            if (internalStream == null)
-            {
-                return;
-            }
-            try
-            {
-                lock (internalStream)
-                    internalStream.Flush();
-            }
-            catch (Exception)
-            {
-                // internalStream = null;
-            }
-        }
-
-        public override void write(global::org.xmlvm._nArrayAdapter<sbyte> n1)
-        {
-            write(n1, 0, n1.Length);
-        }
-
-        public override void write(global::org.xmlvm._nArrayAdapter<sbyte> n1, int n2, int n3)
-        {
-            if (internalStream != null)
-                lock (internalStream)
-                    internalStream.Write(SilverlightImplementation.toByteArray(n1.getCSharpArray()), n2, n3);
-        }
-
-        public override void write(int n1)
-        {
-            if (internalStream != null)
-                lock (internalStream)
-                    internalStream.WriteByte((byte)n1);
-
-        }
-
-    }
-
-    public class StringFontPair
-    {
-        public String str;
-        public NativeFont font;
-
-        public StringFontPair(String str, NativeFont font)
-        {
-            this.str = str;
-            this.font = font;
-        }
-
-        public override bool Equals(Object stfpo)
-        {
-            StringFontPair stfp = (StringFontPair)stfpo;
-            return str.Equals(stfp.str) && font.Equals(stfp.font);
-        }
-
-        public override int GetHashCode()
-        {
-            return str.GetHashCode();
-        }
-    }
-
-    public class SilverlightPeer : com.codename1.ui.PeerComponent
-    {
-        public FrameworkElement element;
-        private bool lightweightMode;
-        private object peerImage = null;
-
-        public SilverlightPeer(FrameworkElement element)
-        {
-            this.element = element;
-            @this(null);
-        }
-
-        public override bool isFocusable()
-        {
-            return true;
-        }
-
-        public override global::System.Object calcPreferredSize()
-        {
-            int w = 0;
-            int h = 0;
-            SilverlightImplementation.dispatcher.RunAsync(CoreDispatcherPriority.Normal, () =>
-            {
-                element.Measure(new Size(1000000, 1000000));
-                w = SilverlightImplementation.screen.ConvertDipsToPixels((float)(element.DesiredSize.Width * SilverlightImplementation.scaleFactor), CanvasDpiRounding.Round);
-                h = SilverlightImplementation.screen.ConvertDipsToPixels((float)(element.DesiredSize.Height * SilverlightImplementation.scaleFactor), CanvasDpiRounding.Round);
-
-            }).AsTask().ConfigureAwait(false).GetAwaiter().GetResult();
-            com.codename1.ui.geom.Dimension d = new com.codename1.ui.geom.Dimension();
-            d.@this(Math.Max(2, w), Math.Max(2, h));
-            return d;
-        }
-
-        public override void onPositionSizeChange()
-        {
-            Display dis = new Display();
-            Form cmp = (Form)getComponentForm();
-            if (cmp == null && dis.getCurrent() == cmp)
-            {
-                return;
-            }
-            layoutPeer();
-        }
-
-        public void layoutPeer()
-        {
-            int width = getWidth();
-            int height = getHeight();
-            int x = getAbsoluteX();
-            int y = getAbsoluteY();
-            if (width > 0 && height > 0)
-            {
-                SilverlightImplementation.dispatcher.RunAsync(CoreDispatcherPriority.Normal, () =>
-                {
-                    if (SilverlightImplementation.cl.Children.Contains(element))
-                    {
-                        Canvas.SetLeft(element, x / SilverlightImplementation.scaleFactor);
-                        Canvas.SetTop(element, y / SilverlightImplementation.scaleFactor);
-                        element.Width = width / SilverlightImplementation.scaleFactor;
-                        element.Height = height / SilverlightImplementation.scaleFactor;
-                    }
-                }).AsTask();
-            }
-        }
-
-        public override void initComponent()
-        {
-            SilverlightImplementation.dispatcher.RunAsync(CoreDispatcherPriority.Normal, () =>
-            {
-                if (!SilverlightImplementation.cl.Children.Contains(element))
-                {
-                    SilverlightImplementation.cl.Children.Add(element);
-                }
-            }).AsTask();
-            layoutPeer();
-            setPeerImage(null);
-        }
-
-        public override void deinitialize()
-        {
-
-            peerImage = generatePeerImage();
-            setPeerImage((ui.Image)peerImage);
-            SilverlightImplementation.dispatcher.RunAsync(CoreDispatcherPriority.Normal, () =>
-            {
-                if (SilverlightImplementation.cl.Children.Contains(element))
-                {
-                    SilverlightImplementation.cl.Children.Remove(element);
-                }
-            }).AsTask();
-        }
-
-        public override void setLightweightMode(bool l)
-        {
-            if (lightweightMode != l)
-            {
-                lightweightMode = l;
-                SilverlightImplementation.dispatcher.RunAsync(CoreDispatcherPriority.Normal, () =>
-                {
-                    if (l)
-                    {
-                        element.Visibility = Visibility.Collapsed;
-                    }
-                    else
-                    {
-                        element.Visibility = Visibility.Visible;
-                    }
-                }).AsTask().ConfigureAwait(false).GetAwaiter().GetResult();
-                ((com.codename1.ui.Form)getComponentForm()).repaint();
-            }
-        }
-
-        public override object generatePeerImage()
-        {
-            int width = getWidth();
-            int height = getHeight();
-            if (width <= 0 || height <= 0)
-            {
-                width = getPreferredW();
-                height = getPreferredH();
-            }
-            CodenameOneImage img = new CodenameOneImage();
-            img.@this();
-            img.name = "PeerImage: " + element.ToString();
-            IRandomAccessStream stream = new InMemoryRandomAccessStream();
-            CanvasBitmap cb = null;
-            SilverlightImplementation.dispatcher.RunAsync(CoreDispatcherPriority.Normal, async () =>
-            {
-                if (element is WebView)
-                {
-                    await ((WebView)element).CapturePreviewToStreamAsync(stream);
-                    await stream.FlushAsync();
-                    stream.Seek(0);
-                    cb = await CanvasBitmap.LoadAsync(SilverlightImplementation.screen, stream);
-                }
-                else
-                {
-                    RenderTargetBitmap renderTargetBitmap = new RenderTargetBitmap();
-                    await renderTargetBitmap.RenderAsync(element);
-                    byte[] buf = renderTargetBitmap.GetPixelsAsync().AsTask().ConfigureAwait(false).GetAwaiter().GetResult().ToArray();
-                    cb = CanvasBitmap.CreateFromBytes(SilverlightImplementation.screen, buf, width, height,
-                    SilverlightImplementation.pixelFormat, SilverlightImplementation.screen.Dpi);
-                }
-                img.image = new CanvasRenderTarget(SilverlightImplementation.screen, cb.SizeInPixels.Width, cb.SizeInPixels.Height, cb.Dpi);
-                img.graphics.destination.drawImage(cb, 0, 0);
-                img.graphics.destination.dispose();
-
-            }).AsTask().GetAwaiter().GetResult();
-            return ui.Image.createImage(img);
-        }
-
-        public override bool shouldRenderPeerImage()
-        {
-            return lightweightMode || !isInitialized();
-        }
-    }
-
-    public class CN1Media : java.lang.Object, com.codename1.media.Media
-    {
-        private MediaElement elem;
-        private SilverlightPeer peer;
-        private bool video;
-        private java.lang.Runnable onComplete;
-        private Canvas cl;
-
-        public CN1Media(string uri, bool video, java.lang.Runnable onComplete, Canvas cl)
-        {
-            this.cl = cl;
-            using (AutoResetEvent are = new AutoResetEvent(false))
-            {
-                SilverlightImplementation.dispatcher.RunAsync(CoreDispatcherPriority.Normal, () =>
-                {
-                    elem = new MediaElement();
-                    cl.Children.Add(elem);
-                    elem.MediaOpened += elem_MediaOpened;
-                    elem.Source = new Uri(uri, UriKind.RelativeOrAbsolute);
-                    this.video = video;
-                    this.onComplete = onComplete;
-                    elem.MediaEnded += elem_MediaEnded;
-                    are.Set();
-                }).AsTask().ConfigureAwait(false).GetAwaiter().GetResult();
-                are.WaitOne();
-            }
-        }
-
-        void elem_MediaOpened(object sender, RoutedEventArgs e)
-        {
-            //ready = true;
-        }
-
-        public CN1Media(Stream s, string mime, java.lang.Runnable onComplete, Canvas cl)
-        {
-            this.cl = cl;
-            using (AutoResetEvent are = new AutoResetEvent(false))
-            {
-                SilverlightImplementation.dispatcher.RunAsync(CoreDispatcherPriority.Normal, () =>
-                {
-                    elem = new MediaElement();
-                    cl.Children.Add(elem);
-                    elem.MediaOpened += elem_MediaOpened;
-                    elem.SetSource(s.AsRandomAccessStream(), "");
-                    video = mime.StartsWith("video");
-                    this.onComplete = onComplete;
-                    elem.MediaEnded += elem_MediaEnded;
-                    are.Set();
-                }).AsTask().ConfigureAwait(false).GetAwaiter().GetResult();
-                are.WaitOne();
-            }
-        }
-
-        void elem_MediaEnded(object sender, RoutedEventArgs e)
-        {
-            if (onComplete != null)
-            {
-                com.codename1.ui.Display disp = (com.codename1.ui.Display)com.codename1.ui.Display.getInstance();
-                disp.callSerially(onComplete);
-            }
-        }
-
-        public virtual void prepare()
-        {
-        }
-
-        public virtual void play()
-        {
-            SilverlightImplementation.dispatcher.RunAsync(CoreDispatcherPriority.Normal, () =>
-            {
-                elem.Play();
-            }).AsTask().ConfigureAwait(false).GetAwaiter().GetResult();
-        }
-
-        public virtual void pause()
-        {
-            SilverlightImplementation.dispatcher.RunAsync(CoreDispatcherPriority.Normal, () =>
-            {
-                elem.Pause();
-            }).AsTask().ConfigureAwait(false).GetAwaiter().GetResult();
-        }
-
-        public virtual void cleanup()
-        {
-            SilverlightImplementation.dispatcher.RunAsync(CoreDispatcherPriority.Normal, () =>
-            {
-                if (elem != null)
-                {
-                    cl.Children.Remove(elem);
-                    elem = null;
-                }
-            }).AsTask().ConfigureAwait(false).GetAwaiter().GetResult();
-        }
-
-        public virtual int getTime()
-        {
-            int v = 0;
-            using (AutoResetEvent are = new AutoResetEvent(false))
-            {
-                SilverlightImplementation.dispatcher.RunAsync(CoreDispatcherPriority.Normal, () =>
-                {
-                    v = Convert.ToInt32(elem.Position.TotalMilliseconds);
-                    are.Set();
-                }).AsTask().ConfigureAwait(false).GetAwaiter().GetResult();
-                are.WaitOne();
-            }
-            return v;
-        }
-
-        public virtual void setTime(int n1)
-        {
-            SilverlightImplementation.dispatcher.RunAsync(CoreDispatcherPriority.Normal, () =>
-            {
-                elem.Position = TimeSpan.FromMilliseconds(n1);
-            }).AsTask().ConfigureAwait(false).GetAwaiter().GetResult();
-        }
-
-        public virtual int getDuration()
-        {
-            int v = 0;
-            using (AutoResetEvent are = new AutoResetEvent(false))
-            {
-                SilverlightImplementation.dispatcher.RunAsync(CoreDispatcherPriority.Normal, () =>
-                {
-                    v = Convert.ToInt32(elem.NaturalDuration.TimeSpan.TotalMilliseconds);
-                    are.Set();
-                }).AsTask().GetAwaiter().GetResult();
-                are.WaitOne();
-            }
-            return v;
-        }
-
-        public virtual void setVolume(int n1)
-        {
-            SilverlightImplementation.dispatcher.RunAsync(CoreDispatcherPriority.Normal, () =>
-            {
-                elem.Volume = ((double)n1) / 100.0;
-            }).AsTask().ConfigureAwait(false).GetAwaiter().GetResult();
-        }
-
-        public virtual int getVolume()
-        {
-            int v = 0;
-            using (AutoResetEvent are = new AutoResetEvent(false))
-            {
-                SilverlightImplementation.dispatcher.RunAsync(CoreDispatcherPriority.Normal, () =>
-                {
-                    v = Convert.ToInt32(elem.Volume * 100.0);
-                    are.Set();
-                }).AsTask().ConfigureAwait(false).GetAwaiter().GetResult();
-                are.WaitOne();
-            }
-            return v;
-        }
-
-        public virtual bool isPlaying()
-        {
-            bool b = false;
-            using (AutoResetEvent are = new AutoResetEvent(false))
-            {
-                SilverlightImplementation.dispatcher.RunAsync(CoreDispatcherPriority.Normal, () =>
-                {
-                    b = elem.CurrentState == MediaElementState.Playing || elem.CurrentState == MediaElementState.Buffering;
-                    are.Set();
-                }).AsTask().ConfigureAwait(false).GetAwaiter().GetResult();
-                are.WaitOne();
-            }
-            return b;
-        }
-
-        public virtual global::System.Object getVideoComponent()
-        {
-            if (peer == null)
-            {
-                peer = new SilverlightPeer(elem);
-            }
-            return peer;
-        }
-
-        public virtual bool isVideo()
-        {
-            return video;
-        }
-
-        public virtual bool isFullScreen()
-        {
-            return false;
-        }
-
-        public virtual void setFullScreen(bool n1)
-        {
-        }
-
-        public virtual void setNativePlayerMode(bool nativePlayer)
-        {
-        }
-
-        public virtual bool isNativePlayerMode()
-        {
-            return false;
-        }
-
-        public virtual void setVariable(java.lang.String str, java.lang.Object obj)
-        {
-        }
-
-        public virtual global::System.Object getVariable(java.lang.String str)
-        {
-            return null;
-        }
-    }
-
-    public class LocationManager : com.codename1.location.LocationManager
-    {
-
-        private Geolocator watcher;
-        private Geoposition lastPosition;
-
-        public LocationManager()
-        {
-            base.@this();
-        }
-
-        public override void bindListener()
-        {
-
-            if (watcher == null)
-            {
-                watcher = new Geolocator()
-                {
-                    MovementThreshold = 1,
-                    DesiredAccuracy = PositionAccuracy.High,
-                    ReportInterval = (uint)TimeSpan.FromSeconds(1).TotalMilliseconds,  ///FA 1s is used in track/navi apps
-                };
-            }
-            this.watcher.StatusChanged += new TypedEventHandler<Geolocator, StatusChangedEventArgs>(watcher_StatusChanged);
-            this.watcher.PositionChanged += new TypedEventHandler<Geolocator, PositionChangedEventArgs>(watcher_PositionChanged);
-        }
-
-        void watcher_StatusChanged(Geolocator sender, StatusChangedEventArgs eventArgs)
-        {
-            switch (eventArgs.Status)
-            {
-                case PositionStatus.Disabled:
-                    setStatus(_fOUT_1OF_1SERVICE);
-                    break;
-                case PositionStatus.Initializing:
-                case PositionStatus.NoData:
-                    setStatus(_fTEMPORARILY_1UNAVAILABLE);
-                    break;
-                case PositionStatus.Ready:
-                    setStatus(_fAVAILABLE);
-                    break;
-            }
-        }
-
-        async void watcher_PositionChanged(Geolocator sender, PositionChangedEventArgs e)
-        {
-            lastPosition = await sender.GetGeopositionAsync();
-            if (lastPosition != null && lastPosition.Coordinate.AltitudeAccuracy.HasValue)
-            {
-                ((com.codename1.location.LocationListener)getLocationListener()).locationUpdated(convert(lastPosition));
-            }
-        }
-
-        public override void clearListener()
-        {
-            if (watcher != null)
-            {
-                watcher.StatusChanged -= new TypedEventHandler<Geolocator, StatusChangedEventArgs>(watcher_StatusChanged);
-                watcher.PositionChanged -= new TypedEventHandler<Geolocator, PositionChangedEventArgs>(watcher_PositionChanged);
-            }
-        }
-
-        public override object getCurrentLocation()
-        {
-            if (lastPosition != null)
-            {
-                return convert(lastPosition);
-            }
-            return null;
-        }
-
-        public override object getLastKnownLocation()
-        {
-            if (lastPosition != null)
-            {
-                return convert(lastPosition);
-            }
-            return null;
-        }
-
-        private com.codename1.location.Location convert(Geoposition position)
-        {
-            com.codename1.location.Location location = new com.codename1.location.Location();
-            location.@this();
-            location.setTimeStamp(position.Coordinate.Timestamp.UtcTicks / 10000);
-            location.setLatitude(position.Coordinate.Point.Position.Latitude);
-            location.setLongitude(position.Coordinate.Point.Position.Longitude);
-            location.setAltitude((float)position.Coordinate.Point.Position.Altitude);
-            location.setDirection((float)position.Coordinate.Heading);
-            location.setVelocity((float)position.Coordinate.Speed);
-            location.setAccuracy((float)position.Coordinate.Accuracy); ///FA vertical is more usufull AltitudeAccuracy);
-            location.setStatus(getStatus());
-            return location;
-        }
-    }
-
-    public class SilverlightImageIO : com.codename1.ui.util.ImageIO
-    {
-        public SilverlightImageIO()
-        {
-            @this();
-        }
-
-        public override bool isFormatSupported(java.lang.String n1)
-        {
-            return com.codename1.ui.util.ImageIO._fFORMAT_1JPEG.equals(n1) || com.codename1.ui.util.ImageIO._fFORMAT_1PNG.equals(n1);
-        }
-
-        public override void save(java.io.InputStream image, java.io.OutputStream response, java.lang.String format, int width, int height, float quality)
-        {
-            CanvasBitmapFileFormat fileFormat = CanvasBitmapFileFormat.Png;
-            if (format.equals(_fFORMAT_1JPEG))
-            {
-                fileFormat = CanvasBitmapFileFormat.Jpeg;
-            }
-            CodenameOneImage img = (CodenameOneImage)SilverlightImplementation.instance.createImage(image);
-            CodenameOneImage scaledImage = (CodenameOneImage)SilverlightImplementation.instance.scale(img, width, height);
-            InMemoryRandomAccessStream ms = new InMemoryRandomAccessStream();
-            scaledImage.image.SaveAsync(ms, fileFormat, quality).AsTask().ConfigureAwait(false).GetAwaiter().GetResult();
-            ms.Seek(0);
-            byte[] buf = new byte[ms.Size];
-            var dr = new Windows.Storage.Streams.DataReader(ms);
-            dr.LoadAsync((uint)ms.Size).AsTask().ConfigureAwait(false).GetAwaiter().GetResult();
-            dr.ReadBytes(buf);
-            response.write(new _nArrayAdapter<sbyte>(SilverlightImplementation.toSByteArray(buf)));
-        }
-
-        public override void saveImage(ui.Image image, java.io.OutputStream response, java.lang.String format, float quality)
-        {
-            CanvasBitmapFileFormat fileFormat = CanvasBitmapFileFormat.Png;
-            if (format.equals(_fFORMAT_1JPEG))
-            {
-                fileFormat = CanvasBitmapFileFormat.Jpeg;
-            }
-            CodenameOneImage img = (CodenameOneImage)image.getImage();
-            CanvasBitmap cb = img.image;
-            InMemoryRandomAccessStream ms = new InMemoryRandomAccessStream();
-            cb.SaveAsync(ms, fileFormat, quality).AsTask().ConfigureAwait(false).GetAwaiter().GetResult(); ;
-            ms.Seek(0);
-            byte[] buf = new byte[ms.Size];
-            var dr = new Windows.Storage.Streams.DataReader(ms);
-            dr.LoadAsync((uint)ms.Size).AsTask().ConfigureAwait(false).GetAwaiter().GetResult(); ;
-            dr.ReadBytes(buf);
-            response.write(new _nArrayAdapter<sbyte>(SilverlightImplementation.toSByteArray(buf)));
-        }
-     
-    }
-
-    public class ImageHelper
-    {
-        public static string GetContentType(byte[] imageBytes)
-        {
-            imageFormatDecoders.Keys.OrderByDescending(x => x.Length);
-            foreach (var kvPair in imageFormatDecoders)
-            {
-                if (IsMatch(imageBytes, kvPair.Key))
-                {
-                    return kvPair.Value;
-                }
-            }
-            return "unknown";
-        }
-
-        static bool IsMatch(byte[] array, byte[] candidate)
-        {
-            if (candidate.Length > (array.Length))
-                return false;
-
-            for (int i = 0; i < candidate.Length; i++)
-                if (array[i] != candidate[i])
-                    return false;
-
-            return true;
-        }
-
-        private static Dictionary<byte[], string> imageFormatDecoders = new Dictionary<byte[], string>()
-        {
-            { new byte[]{ 0x42, 0x4D }, "image/x-ms-bmp"},
-            { new byte[]{ 0x47, 0x49, 0x46, 0x38, 0x37, 0x61 }, "image/gif" },
-            { new byte[]{ 0x47, 0x49, 0x46, 0x38, 0x39, 0x61 }, "image/gif" },
-            { new byte[]{ 0x89, 0x50, 0x4E, 0x47, 0x0D, 0x0A, 0x1A, 0x0A }, "image/png" },
-            { new byte[]{ 0xff, 0xd8 }, "image/jpeg" },
-        };
     }
 }// end of namespace: com.codename1.impl

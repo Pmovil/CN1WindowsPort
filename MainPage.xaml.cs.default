@@ -1,18 +1,5 @@
-﻿using com.codename1.ui;
-using System;
-using System.Collections.Generic;
-using System.Diagnostics;
-using System.IO;
-using System.Linq;
-using System.Runtime.InteropServices.WindowsRuntime;
-using Windows.Foundation;
-using Windows.Foundation.Collections;
-using Windows.UI.Xaml;
+﻿using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
-using Windows.UI.Xaml.Controls.Primitives;
-using Windows.UI.Xaml.Data;
-using Windows.UI.Xaml.Input;
-using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
 
 // The Blank Page item template is documented at http://go.microsoft.com/fwlink/?LinkId=391641
@@ -28,10 +15,8 @@ namespace YourApp
         public static String APP_NAME = "YourAppName";
         public static String APP_VERSION = "1.0";
         private Main instance;
-        private Window _currentWindow = null;
         public MainPage()
         {
-
             this.InitializeComponent();
             this.NavigationCacheMode = NavigationCacheMode.Enabled;
             Loaded += delegate
@@ -48,10 +33,6 @@ namespace YourApp
                     disp.setProperty(global::com.codename1.impl.SilverlightImplementation.toJava("AppVersion"), global::com.codename1.impl.SilverlightImplementation.toJava(APP_VERSION));
                     instance = new Main();
                     Window.Current.Activated += Current_Activated;
-                    // Window.Current.VisibilityChanged += Current_VisibilityChanged;
-                    // Window.Current.SizeChanged += Current_SizeChanged;
-
-
                     bool firstTime = com.codename1.io.Preferences.get(global::com.codename1.impl.SilverlightImplementation.toJava("cn1_first_time_req"), true);
                     if (firstTime)
                     {
@@ -82,7 +63,6 @@ namespace YourApp
         }
         void Current_Activated(object sender, Windows.UI.Core.WindowActivatedEventArgs e)
         {
-
             if (e.WindowActivationState == Windows.UI.Core.CoreWindowActivationState.Deactivated)
             {
                 instance.stop();
@@ -100,15 +80,14 @@ namespace YourApp
                 {
                     instance.start();
                 }
-            }
-
+            }           
         }
 
         protected override void OnNavigatedFrom(NavigationEventArgs e)
         {
-        }
-
+        }       
     }
+
     public class Request : com.codename1.io.ConnectionRequest
     {
         public Request()
@@ -123,6 +102,5 @@ namespace YourApp
             long l = di.readLong();
             com.codename1.io.Preferences.set(global::com.codename1.impl.SilverlightImplementation.toJava("DeviceId__$"), l);
         }
-
     }
 }

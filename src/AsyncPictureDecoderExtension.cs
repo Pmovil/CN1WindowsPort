@@ -15,7 +15,7 @@
  */
 
 using System.ComponentModel;
-using Windows.Phone.Media;
+using Windows.Media;
 using com.codename1.codescan;
 using com.codename1.impl;
 using Windows.Media.Capture;
@@ -33,6 +33,7 @@ namespace WindowsPhone8Demo.Extensions
         private BitmapImage _image;
         private ZXing.BarcodeReader _reader;
         private ScanResult result;
+  #if WINDOWS_PHONE_APP
         public AsyncPictureDecoderExtension(ScanResult result, PhotoConfirmationCapturedEventArgs photoResult)
         {
             this.result = result;
@@ -65,7 +66,7 @@ namespace WindowsPhone8Demo.Extensions
             }
         }).ConfigureAwait(false).GetAwaiter().GetResult();
         }
-
+#endif
         string contents;
         string format;
         sbyte[] raw;

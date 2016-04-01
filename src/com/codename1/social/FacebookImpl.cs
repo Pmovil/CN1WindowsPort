@@ -3,8 +3,6 @@ using com.codename1.impl;
 using com.codename1.io;
 using com.codename1.ui;
 using com.codename1.util;
-using Facebook.Client;
-using Facebook.Client.Controls;
 using java.lang;
 using java.util;
 using System;
@@ -36,7 +34,7 @@ namespace com.codename1.social
 
         public void @this()
         {
-         
+            
         }
 
         public override bool isFacebookSDKSupported()
@@ -59,7 +57,7 @@ namespace com.codename1.social
                     return true;
                 }
             }
-            catch (System.Exception ex)
+            catch (System.Exception)
             {
                 return false;
             }
@@ -78,7 +76,7 @@ namespace com.codename1.social
 
         private void loginFacebook()
         {
-            SilverlightImplementation.dispatcher.RunAsync(Windows.UI.Core.CoreDispatcherPriority.Normal, () =>
+            SilverlightImplementation.dispatcher.RunAsync(Windows.UI.Core.CoreDispatcherPriority.Normal, async () =>
             {
                 Uri loginUrl = fb.GetLoginUrl(new
                 {
@@ -86,28 +84,32 @@ namespace com.codename1.social
                     redirect_uri = redirectUrl,
                     response_type = "token",
                     scope = permissions
-                });              
+                });
                 Uri startUri = loginUrl;
                 Uri endUri = new Uri(redirectUrl, UriKind.Absolute);
-                view = CoreApplication.GetCurrentView();          
+                view = CoreApplication.GetCurrentView();
+#if WINDOWS_PHONE_APP
                 WebAuthenticationBroker.AuthenticateAndContinue(startUri, endUri, null, WebAuthenticationOptions.None);
                 view.Activated += view_Activated;
+#else
+                WebAuthenticationResult WebAuRes = await WebAuthenticationBroker.AuthenticateAsync(WebAuthenticationOptions.None, startUri, endUri);
+                ParseAuthenticationResult(WebAuRes);
+#endif
             }).AsTask().ConfigureAwait(false).GetAwaiter().GetResult();
         }
-
+#if WINDOWS_PHONE_APP
         void view_Activated(CoreApplicationView sender, IActivatedEventArgs args)
         {
             if (args.Kind == ActivationKind.WebAuthenticationBrokerContinuation)
             {
-               var continuationEventArgs = args as WebAuthenticationBrokerContinuationEventArgs;
+                var continuationEventArgs = args as WebAuthenticationBrokerContinuationEventArgs;
                 if (continuationEventArgs.WebAuthenticationResult != null)
                 {
                     ParseAuthenticationResult(continuationEventArgs.WebAuthenticationResult);
                 }
-
             }
         }
-
+#endif
         public void ParseAuthenticationResult(WebAuthenticationResult result)
         {
             switch (result.ResponseStatus)

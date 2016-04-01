@@ -3,7 +3,11 @@ using Microsoft.Graphics.Canvas;
 using Microsoft.Graphics.Canvas.Brushes;
 using Microsoft.Graphics.Canvas.Effects;
 using Microsoft.Graphics.Canvas.Geometry;
+#if WINDOWS_UWP
+using System.Numerics;
+#else
 using Microsoft.Graphics.Canvas.Numerics;
+#endif
 using Microsoft.Graphics.Canvas.Text;
 using System;
 using System.Collections.Generic;

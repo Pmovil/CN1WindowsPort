@@ -117,9 +117,15 @@ public virtual void exit(int n1){
 }
 
 public virtual long freeMemory(){
-   // return 1000000000000L;
-    //return Microsoft.Phone.Info.DeviceStatus.ApplicationMemoryUsageLimit - Microsoft.Phone.Info.DeviceStatus.ApplicationCurrentMemoryUsage;
+#if WINDOWS_UWP
+     return Convert.ToUInt32(Windows.System.MemoryManager.AppMemoryUsageLimit -  Windows.System.MemoryManager.AppMemoryUsage);
+#else
+#if WINDOWS_PHONE_APP
     return Convert.ToUInt32(Windows.System.MemoryManager.AppMemoryUsageLimit -  Windows.System.MemoryManager.AppMemoryUsage);
+#else
+    return 1000000000000L;
+#endif
+#endif
 }
 
 public virtual void gc(){
@@ -171,11 +177,19 @@ public static void runFinalizersOnExit(bool n1){
 }
 
 public virtual long totalMemory(){
-            ///return 1000000000000L;
+#if WINDOWS_UWP
+              return (long)MemoryManager.AppMemoryUsageLimit; // Microsoft.Phone.Info.DeviceStatus.ApplicationMemoryUsageLimit;
+#else
+#if WINDOWS_PHONE_APP
             return (long)MemoryManager.AppMemoryUsageLimit; // Microsoft.Phone.Info.DeviceStatus.ApplicationMemoryUsageLimit;
+#else
+            return 1000000000000L;
+
+#endif
+#endif
 }
 
-public virtual void traceInstructions(bool n1){
+        public virtual void traceInstructions(bool n1){
 //XMLVM_BEGIN_WRAPPER[java.lang.Runtime: void traceInstructions(boolean)]
     global::System.Object _r0_o = null;
     global::org.xmlvm._nElement _r1;
